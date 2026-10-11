@@ -415,7 +415,7 @@
         "read": "2026-10-11"
       },
       "unit": "fraction",
-      "note": "45% for residential structures, 25% for nonresidential."
+      "note": "45% for residential structures, 25% for nonresidential. Coordinator spot-check 2026-10-11: city R-7.5(A) page re-read via search confirms front 25 / side 5 / rear 5 / height 30 ft; the coverage line was truncated in the extract (45% confirmed only on the R-5(A) page) - keep 45% but verify in 51A-4.112."
     },
     "imperviousCover": {
       "value": null,

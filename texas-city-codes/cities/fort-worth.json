@@ -338,7 +338,7 @@
           "section": "§ 4.705"
         },
         "unit": "ft",
-        "note": "20 ft on local street; 15 ft on limited local street. Corner/projected front yard rules in § 6.101(f). Re-checked: same figure in A-7.5 table (§ 4.704) and zoning summary; a third-party site (PropertyZoned) says 25 ft - rejected as non-primary. Read via web-search extract of this page; direct fetch blocked by session egress policy."
+        "note": "20 ft on local street; 15 ft on limited local street. Corner/projected front yard rules in § 6.101(f). Re-checked: same figure in A-7.5 table (§ 4.704) and zoning summary; a third-party site (PropertyZoned) says 25 ft - rejected as non-primary. Read via web-search extract of this page; direct fetch blocked by session egress policy. Coordinator spot-check 2026-10-11: a Fort Worth BOA residential docket (fortworthtexas.gov boaresidential-docket.pdf) lists a 'required projected front yard' of 25 ft on an A-5 lot - this is the projected/block-face rule, not the base yard; engine should take max(20, projected front yard of the block face) and ask the user."
       },
       "side": {
         "value": 5,
@@ -1043,7 +1043,8 @@
     "Frost depth and wind speed in local Table R301.2(1)",
     "Parking minimum and ADU rules for A-5",
     "Urban Forestry applicability to single lots",
-    "Confirm 2026 NEC adoption and whether any 2024 IRC adoption is pending"
+    "Confirm 2026 NEC adoption and whether any 2024 IRC adoption is pending",
+    "A-5 front yard: base 20 ft vs projected front yard (block-face) of 25 ft seen in a BOA docket - confirm how Sec. 6.101(f) applies to new subdivision lots."
   ],
   "notFound": [
     "permit fee formula",
