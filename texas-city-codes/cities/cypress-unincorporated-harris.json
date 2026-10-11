@@ -1,0 +1,902 @@
+{
+  "id": "cypress-unincorporated-harris",
+  "name": "Cypress (unincorporated Harris County)",
+  "state": "TX",
+  "tier": 2,
+  "counties": [
+    "Harris"
+  ],
+  "msa": {
+    "name": "Houston-Pasadena-The Woodlands, TX",
+    "blsCode": "26420"
+  },
+  "population": {
+    "value": null,
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed - prior knowledge, not verified at source this session",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Cypress is a postal community, not a Census place; no single population figure. Not found."
+  },
+  "zipCodesOrBoundary": {
+    "value": "77429, 77433 (Cypress mailing ZIPs; parts outside unincorporated area may be in Houston ETJ)",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed - prior knowledge, not verified at source this session",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Prior knowledge; check address is outside city limits."
+  },
+  "climateZone": {
+    "value": "2A",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed - prior knowledge, not verified at source this session",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Harris County 2A in 2009-2021 IECC maps. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+  },
+  "windstormCounty": {
+    "value": false,
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed - prior knowledge, not verified at source this session",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Harris County is only in the TDI catalogue area east of SH 146; Cypress is in NW Harris County. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+  },
+  "codes": {
+    "irc": {
+      "edition": {
+        "value": "No county building code; LGC 233.153 standard (IRC edition in county seat = City of Houston, i.e. 2021 IRC with Houston amendments, or 2008 IRC floor)",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Houston adopted the 2021 IRC with amendments; builders in unincorporated Harris commonly build to it. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+      },
+      "ordinance": {
+        "value": "Local Gov't Code ch. 233 subchapter F",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Statutory standard; counties do not issue building permits for houses."
+      },
+      "amendments": [
+        {
+          "topic": "fire sprinklers",
+          "summary": "Counties may not require sprinklers in one/two-family dwellings (LGC 250.011).",
+          "section": "LGC 250.011",
+          "status": "Secondary",
+          "source": {
+            "id": "tx-hb738-2021-enrolled",
+            "title": "87(R) HB 738 Enrolled - Bill Text (IRC/IBC 2012 base dates; LGC 250.011 sprinkler limit)",
+            "url": "https://www.legis.state.tx.us/tlodocs/87R/billtext/html/HB00738F.HTM",
+            "read": "2026-10-11",
+            "section": "LGC 250.011"
+          }
+        }
+      ]
+    },
+    "energy": {
+      "edition": {
+        "value": "2015 IRC ch. 11 applies statewide by law but is not inspected by counties",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "HSC 388.003 applies to single-family construction statewide; counties generally lack enforcement. Treat as must-design."
+      },
+      "stretchCode": {
+        "value": false,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Counties do not adopt stretch codes."
+      }
+    },
+    "plumbing": {
+      "value": "No county plumbing code; MUD may require plumbing inspection/UPC-based rules for connection",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Many Harris County MUDs require plumbing inspection before tap. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+    },
+    "electrical": {
+      "value": "NEC 2023 per TDLR (Occupations Code ch. 1305)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Licensed electrician required; county has no electrical inspection. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+    },
+    "mechanical": {
+      "value": "Per IRC edition used under LGC 233.153",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Assumed."
+    },
+    "fuelGas": {
+      "value": "Per IRC edition used under LGC 233.153",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Assumed."
+    },
+    "fire": {
+      "value": "Harris County Fire Code (Fire Marshal) does not cover detached one/two-family homes; no sprinklers (LGC 250.011)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Assumed."
+    },
+    "wind": {
+      "value": "About 130 mph (ASCE 7-16 Risk Cat. II, IRC 2021 Fig. R301.2(2)) for NW Harris County",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "mph",
+      "note": "Map reading, not verified."
+    },
+    "hailRoofing": {
+      "value": "No state mandate; Class 4 (UL 2218) impact-resistant roofing recommended in DFW, Panhandle, Central TX (insurance discounts)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Market practice; no statute found."
+    },
+    "seismic": {
+      "value": "A",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Gulf Coast."
+    },
+    "frostDepth": {
+      "value": 6,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "in",
+      "note": "Typical Houston-area value."
+    }
+  },
+  "zoning": {
+    "hasZoning": {
+      "value": false,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Texas counties have no general zoning authority (limited exceptions near lakes/military bases/special districts)."
+    },
+    "typicalDistrict": {
+      "value": "none - deed restrictions of the master-planned community (e.g. Bridgeland, Towne Lake, Cypress Creek Lakes)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No zoning in Harris County; HOA/ACC rules govern."
+    },
+    "minLotSqFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "sq ft",
+      "note": "Set by plat; MUD sewer usual so no septic minimum. Harris County subdivision regs set min lot sizes for lots on septic."
+    },
+    "minLotWidthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "ft",
+      "note": "Plat/deed restrictions."
+    },
+    "minLotDepthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "ft",
+      "note": "Plat/deed restrictions."
+    },
+    "setbacksFt": {
+      "front": {
+        "value": 20,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Typical plat building line in Cypress subdivisions is 20-25 ft; use the recorded plat. Placeholder."
+      },
+      "side": {
+        "value": 5,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Typical deed restriction; placeholder."
+      },
+      "streetSide": {
+        "value": 10,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Typical plat building line on corner; placeholder."
+      },
+      "rear": {
+        "value": 10,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Typical; utility easement often 10 ft. Placeholder."
+      }
+    },
+    "maxHeightFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No county height limit (except near airports)."
+    },
+    "maxStories": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "None."
+    },
+    "maxLotCoverage": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "fraction",
+      "note": "None by county."
+    },
+    "imperviousCover": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "County drainage criteria may require detention."
+    },
+    "far": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "None."
+    },
+    "parking": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No county requirement."
+    },
+    "garageRules": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Deed restrictions."
+    },
+    "adu": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No county rule; OSSF capacity and deed restrictions limit it."
+    },
+    "masonry": {
+      "value": "Often required by HOA/deed restrictions (e.g. first floor masonry)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Private covenant, not public law."
+    },
+    "trees": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "None by county."
+    },
+    "other": [
+      {
+        "value": "SB 2038 (2023): landowners may petition/vote to leave a city's ETJ; city subdivision rules then no longer apply, county rules do",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Effective 2023-09-01. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+      },
+      {
+        "value": "Subdivision plats approved by commissioners court (LGC ch. 232); plat building lines become setbacks",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Assumed."
+      }
+    ]
+  },
+  "process": {
+    "steps": [
+      {
+        "value": "Confirm address is outside City of Houston limits (and not in a Houston limited-purpose annexation area)",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Assumed."
+      },
+      {
+        "value": "Harris County Engineering Department (Permits) - development/floodplain permit for new residence, driveway/culvert, address",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Harris County issues a 'development permit' tied to floodplain regs, not a building-code permit. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+      },
+      {
+        "value": "HOA/ACC approval under deed restrictions",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Assumed."
+      },
+      {
+        "value": "MUD water/sewer tap and plumbing inspection",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Assumed."
+      },
+      {
+        "value": "LGC 233 notice and third-party inspections",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Assumed."
+      }
+    ],
+    "sealsRequired": [
+      {
+        "value": "Foundation sealed by Texas PE (expansive clay, standard Houston practice)",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Assumed."
+      },
+      {
+        "value": "Elevation certificate by RPLS if in/near floodplain",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Assumed."
+      }
+    ],
+    "inspections": [
+      {
+        "value": "Third-party foundation, framing/MEP, final (LGC 233.154)",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Assumed."
+      },
+      {
+        "value": "MUD plumbing/tap inspection",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Assumed."
+      }
+    ],
+    "reviewDays": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "days",
+      "note": "Not found."
+    }
+  },
+  "fees": {
+    "permitFormula": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Harris County development permit fee schedule not read (search budget exhausted)."
+    },
+    "workedExample2400sqft": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "USD",
+      "note": "Not found."
+    },
+    "planReview": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found."
+    },
+    "impactFees": [
+      {
+        "value": 0,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "USD",
+        "note": "No county impact fee; MUD capital charges possible."
+      }
+    ],
+    "tapFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "MUD-specific water/sewer tap fees; not found."
+      }
+    ]
+  },
+  "cost": {
+    "factor": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "cost-method",
+        "title": "See README cost method (filled by cost agent)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "PENDING_COST_AGENT"
+    },
+    "method": "PENDING_COST_AGENT",
+    "perSqFtMarket": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "USD/sq ft",
+      "note": "Not gathered."
+    },
+    "drivers": [
+      {
+        "value": "Engineered post-tensioned slab on expansive clay",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Common Texas cost driver."
+      },
+      {
+        "value": "Windstorm-rated openings/connectors in coastal counties",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Coastal cost driver."
+      },
+      {
+        "value": "Impact and MUD tap fees",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Local cost driver."
+      }
+    ]
+  },
+  "flood": {
+    "value": "Harris County Floodplain Management regulations (2018 post-Harvey): structures in the 0.2% (500-year) floodplain must have finished floor above the 0.2% elevation with freeboard (about 2 ft); detention for new development",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed - prior knowledge, not verified at source this session",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Exact current rule not re-verified. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+  },
+  "engineChanges": [
+    {
+      "id": "cypress-no-zoning",
+      "ruleType": "no-zoning",
+      "area": "setbacks",
+      "change": "No zoning - take setbacks from plat building lines and deed restrictions; ask for HOA design guidelines",
+      "priority": "must",
+      "params": {
+        "zoning": false,
+        "defaultFrontFt": 20,
+        "defaultSideFt": 5,
+        "defaultRearFt": 10
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "cypress-flood",
+      "ruleType": "flood-elevation",
+      "area": "survey",
+      "change": "Harris County floodplain permit; if in 1% or 0.2% floodplain set finished floor ~2 ft above 0.2% (500-yr) elevation; elevation certificate",
+      "priority": "must",
+      "params": {
+        "freeboardFt": 2,
+        "reference": "0.2% annual chance WSE",
+        "permit": "Harris County Engineering"
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "cypress-lgc233",
+      "ruleType": "code-edition-baseline",
+      "area": "drawings",
+      "change": "Design to 2021 IRC (Houston county-seat edition) and schedule 3 third-party inspections",
+      "priority": "must",
+      "params": {
+        "irc": "2021",
+        "thirdPartyInspections": 3
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "cypress-deed",
+      "ruleType": "deed-restriction-check",
+      "area": "survey",
+      "change": "Master-planned community ACC: masonry %, garage orientation, roof pitch, min house size",
+      "priority": "must",
+      "params": {
+        "askUser": true
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "cypress-foundation",
+      "ruleType": "expansive-soil-foundation",
+      "area": "foundation",
+      "change": "PE-designed post-tensioned slab (Houston-area expansive clay)",
+      "priority": "must",
+      "params": {
+        "defaultFoundation": "post-tensioned slab",
+        "peSealed": true
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "cypress-climate",
+      "ruleType": "climate-zone-envelope",
+      "area": "envelope",
+      "change": "Climate zone 2A envelope",
+      "priority": "must",
+      "params": {
+        "climateZone": "2A"
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "cypress-sprinkler",
+      "ruleType": "fire-sprinkler",
+      "area": "plan",
+      "change": "No sprinklers",
+      "priority": "should",
+      "params": {
+        "sprinklersRequired": false
+      },
+      "source": {
+        "id": "tx-hb738-2021-enrolled",
+        "title": "87(R) HB 738 Enrolled - Bill Text (IRC/IBC 2012 base dates; LGC 250.011 sprinkler limit)",
+        "url": "https://www.legis.state.tx.us/tlodocs/87R/billtext/html/HB00738F.HTM",
+        "read": "2026-10-11",
+        "section": "LGC 250.011"
+      }
+    },
+    {
+      "id": "cypress-mud",
+      "ruleType": "tap-fee-estimate",
+      "area": "estimate",
+      "change": "Add MUD tap/capital fees placeholder; MUD tax affects owner cost",
+      "priority": "should",
+      "params": {
+        "mudTapUsd": null
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "cypress-wind",
+      "ruleType": "wind-speed",
+      "area": "structure",
+      "change": "Design wind ~130 mph (non-windstorm area)",
+      "priority": "should",
+      "params": {
+        "vultMph": 130,
+        "windstorm": false
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    }
+  ],
+  "plainLanguage": "Cypress is outside Houston's city limits, so Harris County has no zoning and no building-code permit for houses. You still need a Harris County development (floodplain) permit and, in or near a floodplain, a raised floor, about 2 ft above the 500-year flood level. Your neighborhood's deed restrictions and HOA usually set setbacks, brick requirements and garage rules. Water and sewer usually come from a MUD, which charges tap fees and a property tax. State law still expects the house to meet the IRC with three independent inspections, and an engineer-designed slab is standard.",
+  "openQuestions": [
+    "Harris County development permit fee and current floodplain freeboard wording",
+    "MUD tap fees for typical Cypress MUDs",
+    "Whether a given address is in Houston ETJ (subdivision rules) or fully unincorporated"
+  ],
+  "notFound": [
+    "Harris County Engineering permit pages and floodplain regulations not read (fetch blocked, search budget exhausted)"
+  ],
+  "comparison": {
+    "irc": "none (LGC 233; 2021 IRC typical)",
+    "energy": "2015 IRC ch.11 (uninspected)",
+    "plumbing": "MUD rules",
+    "district": "none - deed restrictions",
+    "setbacks": "20/5/10 placeholder (plat)",
+    "maxHeight": "none",
+    "coverageFar": "none",
+    "masonry": "HOA",
+    "engFoundation": "yes",
+    "windstorm": "no",
+    "flood": "0.2% WSE + ~2 ft",
+    "permitFeeExample": "not found",
+    "impactFees": "none (MUD)",
+    "costFactor": "PENDING"
+  }
+}

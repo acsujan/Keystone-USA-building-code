@@ -1,0 +1,802 @@
+{
+  "id": "brownsville",
+  "name": "City of Brownsville",
+  "state": "TX",
+  "tier": 1,
+  "counties": [
+    "Cameron"
+  ],
+  "msa": {
+    "name": "Brownsville-Harlingen, TX",
+    "blsCode": "15180"
+  },
+  "population": {
+    "value": 190000,
+    "status": "Assumed",
+    "source": {
+      "id": "assumed-tools-unavailable",
+      "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Approximate Census Vintage 2024 estimate. From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+  },
+  "zipCodesOrBoundary": {
+    "value": null,
+    "status": "Assumed",
+    "source": {
+      "id": "assumed-tools-unavailable",
+      "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "City-limits map / ZIP list not retrieved. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run"
+  },
+  "climateZone": {
+    "value": "2A",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed-tools-unavailable",
+      "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Cameron County per 2021 IECC Table R301.1. From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+  },
+  "windstormCounty": {
+    "value": true,
+    "status": "Assumed",
+    "source": {
+      "id": "assumed-tools-unavailable",
+      "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Cameron/Nueces are TDI first-tier coastal windstorm catalogue counties. From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+  },
+  "codes": {
+    "irc": {
+      "edition": {
+        "value": "2021 IRC (assumed; edition not verified)",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-tools-unavailable",
+          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Adopted IRC edition not verified; many Texas cities of this size are on 2018 or 2021 IRC. MUST re-check. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run"
+      },
+      "ordinance": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-tools-unavailable",
+          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: building code adoption ordinance number. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+      },
+      "amendments": []
+    },
+    "energy": {
+      "edition": {
+        "value": "2015 IECC minimum (Texas state energy code floor for single-family under Health & Safety Code ch. 388 via IRC Ch. 11) - city edition not verified",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-tools-unavailable",
+          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+      },
+      "stretchCode": {
+        "value": false,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-tools-unavailable",
+          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "No stretch code known."
+      }
+    },
+    "plumbing": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "IPC vs UPC not verified. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run"
+    },
+    "electrical": {
+      "value": "NEC 2020 or 2023 (not verified)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+    },
+    "mechanical": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: IMC edition. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+    },
+    "fuelGas": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: IFGC edition. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+    },
+    "fire": {
+      "value": "IFC (edition not verified); no one/two-family sprinkler mandate known",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+    },
+    "wind": {
+      "value": 145,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "mph",
+      "note": "Approximate ultimate design wind speed, Risk Cat II, from IRC Fig. R301.2(2)/ASCE 7-16 map. From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+    },
+    "hailRoofing": {
+      "value": "No local hail/impact roofing mandate known; in TDI area roof coverings must be TDI-approved/listed product evaluations",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+    },
+    "seismic": {
+      "value": "A",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Typical for South Texas."
+    },
+    "frostDepth": {
+      "value": 6,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "in",
+      "note": "Local Table R301.2(1) not retrieved; nominal value."
+    }
+  },
+  "zoning": {
+    "hasZoning": {
+      "value": true,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+    },
+    "typicalDistrict": {
+      "value": "Single-family residential district (name not verified)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+    },
+    "minLotSqFt": {
+      "value": 6000,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "sq ft",
+      "note": "Placeholder from memory; verify in UDC/LDC. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run"
+    },
+    "minLotWidthFt": {
+      "value": 50,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "ft",
+      "note": "Placeholder; verify."
+    },
+    "minLotDepthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: minimum lot depth. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+    },
+    "setbacksFt": {
+      "front": {
+        "value": 25,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-tools-unavailable",
+          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Placeholder; verify against UDC and recorded plat building line."
+      },
+      "side": {
+        "value": 5,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-tools-unavailable",
+          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Placeholder; verify."
+      },
+      "streetSide": {
+        "value": 10,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-tools-unavailable",
+          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Placeholder; verify."
+      },
+      "rear": {
+        "value": 10,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-tools-unavailable",
+          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Placeholder; verify."
+      }
+    },
+    "maxHeightFt": {
+      "value": 35,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "ft",
+      "note": "Placeholder; verify."
+    },
+    "maxStories": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: max stories. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+    },
+    "maxLotCoverage": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: max lot coverage. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+    },
+    "imperviousCover": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: impervious cover limit. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+    },
+    "far": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No FAR known for single-family."
+    },
+    "parking": {
+      "value": "2 off-street spaces per dwelling (typical)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Typical Texas requirement; not verified."
+    },
+    "garageRules": {
+      "value": "Assume 20 ft from front property line to garage door",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Judgement."
+    },
+    "adu": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: ADU rules. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+    },
+    "masonry": {
+      "value": "none known",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No masonry % known; Texas HB 2439 (Gov. Code 3000) generally bars cities from mandating building materials beyond the IRC, except historic/certain districts."
+    },
+    "trees": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: tree preservation rules. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+    },
+    "other": []
+  },
+  "process": {
+    "steps": [
+      {
+        "value": "Residential building permit application to city building/development services; plan review; inspections; certificate of occupancy; TDI windstorm inspection/certification (WPI-8) in parallel",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-tools-unavailable",
+          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+      }
+    ],
+    "sealsRequired": [
+      {
+        "value": "Foundation typically by Texas PE (expansive clays); windstorm design by TDI-appointed engineer if using engineered route",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-tools-unavailable",
+          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+      }
+    ],
+    "inspections": [
+      {
+        "value": "Typical: plumbing ground, foundation, framing, MEP rough, insulation, final; plus TDI windstorm inspections (foundation-to-roof continuous load path, sheathing nailing, openings)",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-tools-unavailable",
+          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+      }
+    ],
+    "reviewDays": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: plan review turnaround. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+    }
+  },
+  "fees": {
+    "permitFormula": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: building permit fee schedule. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+    },
+    "workedExample2400sqft": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "USD",
+      "note": "Not computed: fee schedule not retrieved (basis would be 2,400 sf conditioned + 440 sf attached garage). Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run"
+    },
+    "planReview": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: plan review fee. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+    },
+    "impactFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-tools-unavailable",
+          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: water/wastewater impact fees. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+      }
+    ],
+    "tapFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-tools-unavailable",
+          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: water/sewer tap fees. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+      }
+    ]
+  },
+  "cost": {
+    "factor": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "cost-method",
+        "title": "See README cost method (filled by cost agent)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "PENDING_COST_AGENT"
+    },
+    "method": "PENDING_COST_AGENT",
+    "perSqFtMarket": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Market $/sf not retrieved. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run"
+    },
+    "drivers": [
+      {
+        "value": "Expansive clay soils -> engineered slab",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-tools-unavailable",
+          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Judgement"
+      },
+      {
+        "value": "Windstorm package: impact-rated windows/doors or shutters, hurricane straps/anchors, upgraded sheathing nailing, TDI inspections - typically several % of construction cost",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-tools-unavailable",
+          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Judgement"
+      },
+      {
+        "value": "Coastal flood zones: elevated slab/fill or pier foundation, flood vents, higher insurance",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-tools-unavailable",
+          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Judgement"
+      }
+    ]
+  },
+  "flood": {
+    "value": "City floodplain ordinance (NFIP participant); assume lowest floor >= BFE + 1 ft; in coastal V/Coastal A zones elevate bottom of lowest horizontal member, no fill/slab in V zone",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed-tools-unavailable",
+      "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Freeboard value not verified. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run"
+  },
+  "plainLanguage": "Brownsville is in Cameron County, a Texas windstorm area, so a TDI windstorm certificate (WPI-8) is needed for TWIA insurance. Build with a continuous metal-strap load path, stronger roof-deck nailing, and impact-rated or shuttered windows and doors (design winds about 140-150 mph). Much of the city is low and flat, so flood elevation often drives the slab height. Zoning, code edition and fee values here are placeholders that must be verified.",
+  "openQuestions": [
+    "Adopted IRC/IECC/NEC editions and adoption ordinance",
+    "Typical single-family district dimensional table (lot, setbacks, height, coverage)",
+    "Permit fee schedule and impact/tap fees",
+    "Floodplain freeboard"
+  ],
+  "notFound": [
+    "Everything except county-level facts: research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted). File is a placeholder needing a re-run."
+  ],
+  "comparison": {
+    "irc": "2021 IRC (assumed)",
+    "energy": "not verified",
+    "plumbing": "not verified",
+    "district": "SF (unverified)",
+    "setbacks": "25/5/10 (assumed)",
+    "maxHeight": "35 ft (assumed)",
+    "coverageFar": "not found",
+    "masonry": "none known",
+    "engFoundation": "likely (assumed)",
+    "windstorm": "yes - TDI first tier",
+    "flood": "+1 ft assumed",
+    "permitFeeExample": "not computed",
+    "impactFees": "not found",
+    "costFactor": "PENDING"
+  },
+  "engineChanges": [
+    {
+      "id": "brownsville-setbacks",
+      "ruleType": "setback-by-district",
+      "area": "setbacks",
+      "change": "Single-family: front 25 / side 5 / street side 10 / rear 10 ft (ASSUMED placeholders - verify); use larger of district and plat line",
+      "priority": "must",
+      "params": {
+        "district": "Single-family",
+        "frontFt": 25,
+        "sideFt": 5,
+        "streetSideFt": 10,
+        "rearFt": 10,
+        "verified": false
+      },
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "brownsville-height",
+      "ruleType": "height-limit",
+      "area": "massing",
+      "change": "Max height 35 ft (assumed)",
+      "priority": "should",
+      "params": {
+        "maxHeightFt": 35,
+        "verified": false
+      },
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "brownsville-envelope",
+      "ruleType": "climate-zone-envelope",
+      "area": "envelope",
+      "change": "Envelope per IECC climate zone 2A",
+      "priority": "must",
+      "params": {
+        "climateZone": "2A"
+      },
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "brownsville-foundation",
+      "ruleType": "engineered-foundation-flag",
+      "area": "foundation",
+      "change": "Flag engineered slab (expansive clays) - assumed",
+      "priority": "should",
+      "params": {
+        "sealedFoundation": true,
+        "verified": false
+      },
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "brownsville-flood",
+      "ruleType": "flood-elevation",
+      "area": "survey",
+      "change": "If in SFHA, lowest floor >= BFE + 1 ft (assumed); V-zone: open pile/pier foundation, bottom of lowest member above BFE+freeboard",
+      "priority": "must",
+      "params": {
+        "freeboardFt": 1,
+        "coastalVZoneRules": true
+      },
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "brownsville-windstorm",
+      "ruleType": "windstorm-package",
+      "area": "structure",
+      "change": "TDI windstorm package: design to TDI-adopted IRC with Texas revisions at the local ultimate wind speed; continuous load path (straps/anchors); obtain TDI WPI-8 certificate (needed for TWIA insurance); TDI inspections during construction",
+      "priority": "must",
+      "params": {
+        "tdiCertification": true,
+        "vultMph": 145,
+        "riskCategory": "II",
+        "exposure": "C (D within ~600 ft of shoreline)"
+      },
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "brownsville-wbdr-openings",
+      "ruleType": "windstorm-package",
+      "area": "envelope",
+      "change": "Wind-borne debris region (IRC R301.2.1.2, Vult >= 140 mph or >= 130 mph within 1 mi of coast): all glazed openings impact-rated (ASTM E1886/E1996) or protected with tested shutters/structural panels",
+      "priority": "must",
+      "params": {
+        "impactGlazing": true,
+        "alternative": "tested shutters or structural wood panels per IRC R301.2.1.2"
+      },
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "brownsville-sheathing-nailing",
+      "ruleType": "windstorm-package",
+      "area": "structure",
+      "change": "Roof sheathing nailing per IRC Table R602.3(1) high-wind rows: 8d ring-shank (or as table) at 6 in edges / 6 in field, tighter in edge/corner zones per Table R803.2.3 / TDI field guide; roof-to-wall uplift connectors per R802.11",
+      "priority": "must",
+      "params": {
+        "nail": "8d ring-shank",
+        "edgeSpacingIn": 6,
+        "fieldSpacingIn": 6,
+        "verified": false
+      },
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "brownsville-wind-speed",
+      "ruleType": "wind-speed",
+      "area": "structure",
+      "change": "Design wind speed 145 mph ultimate (assumed from map; confirm with TDI design wind speed table for the county/zone)",
+      "priority": "must",
+      "params": {
+        "vultMph": 145
+      },
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    }
+  ]
+}

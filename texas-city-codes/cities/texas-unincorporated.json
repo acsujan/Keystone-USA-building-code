@@ -1,0 +1,922 @@
+{
+  "id": "texas-unincorporated",
+  "name": "Unincorporated Texas county",
+  "state": "TX",
+  "tier": 0,
+  "counties": [
+    "(any Texas county)"
+  ],
+  "msa": {
+    "name": "(not applicable - fallback profile)",
+    "blsCode": null
+  },
+  "population": {
+    "value": null,
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed - prior knowledge, not verified at source this session",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Not applicable."
+  },
+  "zipCodesOrBoundary": {
+    "value": "Land outside any city limits (and, after SB 2038 2023, possibly released from a city ETJ)",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed - prior knowledge, not verified at source this session",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Fallback profile."
+  },
+  "climateZone": {
+    "value": "by county - see engineChanges texas-baseline-climate-zone",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed - prior knowledge, not verified at source this session",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Zone depends on county. Map in params uses the 2009-2018 IECC county list (the 2015 IRC energy chapter is the state minimum). Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+  },
+  "windstormCounty": {
+    "value": "by county - true for the 14 first-tier coastal counties and Harris County east of SH 146",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed - prior knowledge, not verified at source this session",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Insurance Code ch. 2210 / TDI designated catalogue area. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+  },
+  "codes": {
+    "irc": {
+      "edition": {
+        "value": "No county building code; LGC 233.153 requires new single-family/duplex construction to follow the IRC as of May 1, 2008 or the IRC edition used in the county seat",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "LGC ch. 233 subch. F (233.151-.157). Builder must obtain three inspections (foundation, framing/MEP rough-in, final) by a licensed engineer, architect, TREC professional inspector, ICC-certified inspector or county inspector, and may have to notify the county. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+      },
+      "ordinance": {
+        "value": "Local Gov't Code ch. 233 subchapter F",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Statutory standard; counties do not issue building permits for houses."
+      },
+      "amendments": [
+        {
+          "topic": "fire sprinklers",
+          "summary": "Counties may not require sprinklers in one/two-family dwellings (LGC 250.011).",
+          "section": "LGC 250.011",
+          "status": "Secondary",
+          "source": {
+            "id": "tx-hb738-2021-enrolled",
+            "title": "87(R) HB 738 Enrolled - Bill Text (IRC/IBC 2012 base dates; LGC 250.011 sprinkler limit)",
+            "url": "https://www.legis.state.tx.us/tlodocs/87R/billtext/html/HB00738F.HTM",
+            "read": "2026-10-11",
+            "section": "LGC 250.011"
+          }
+        }
+      ]
+    },
+    "energy": {
+      "edition": {
+        "value": "2015 IRC ch. 11 applies statewide by law but is not inspected by counties",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "HSC 388.003 applies to single-family construction statewide; counties generally lack enforcement. Treat as must-design."
+      },
+      "stretchCode": {
+        "value": false,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Counties do not adopt stretch codes."
+      }
+    },
+    "plumbing": {
+      "value": "Licensed plumber required statewide (Occupations Code ch. 1301); county does not adopt a plumbing code",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Plumbing inspection typically part of the LGC 233 third-party inspections. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+    },
+    "electrical": {
+      "value": "NEC 2023 per TDLR (Occupations Code ch. 1305)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Licensed electrician required; county has no electrical inspection. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+    },
+    "mechanical": {
+      "value": "Per IRC edition used under LGC 233.153",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Assumed."
+    },
+    "fuelGas": {
+      "value": "Per IRC edition used under LGC 233.153",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Assumed."
+    },
+    "fire": {
+      "value": "County fire code (LGC 233 subch. C, counties ~250k+ pop. or adjacent) does not apply to one- and two-family dwellings",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "E.g. Harris County Fire Marshal does not regulate detached houses. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+    },
+    "wind": {
+      "value": "By location: about 115 mph (most of inland Texas) to 150+ mph (coast), ASCE 7-16 Risk Category II, IRC 2021 Fig. R301.2(2)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Read from the map for the site; coastal counties also fall under TDI windstorm rules."
+    },
+    "hailRoofing": {
+      "value": "No state mandate; Class 4 (UL 2218) impact-resistant roofing recommended in DFW, Panhandle, Central TX (insurance discounts)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Market practice; no statute found."
+    },
+    "seismic": {
+      "value": "SDC A for nearly all of Texas; El Paso area is higher (about SDC B-C)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Check USGS/ASCE 7 values for far West Texas."
+    },
+    "frostDepth": {
+      "value": "About 6-12 in for most of Texas; about 18-24 in in the Panhandle",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "City IRC Table R301.2(1) values govern; typical local values."
+    }
+  },
+  "zoning": {
+    "hasZoning": {
+      "value": false,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Texas counties have no general zoning authority (limited exceptions near lakes/military bases/special districts)."
+    },
+    "typicalDistrict": {
+      "value": "none (county) - deed restrictions govern",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No zoning."
+    },
+    "minLotSqFt": {
+      "value": 21780,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "sq ft",
+      "note": "OSSF rule (30 TAC 285.4): lots in new subdivisions on septic generally >=0.5 acre with public water, >=1 acre with private well. Use 0.5 ac when on septic; none if on MUD sewer. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+    },
+    "minLotWidthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "ft",
+      "note": "Plat/deed restrictions."
+    },
+    "minLotDepthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "ft",
+      "note": "Plat/deed restrictions."
+    },
+    "setbacksFt": {
+      "front": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Use plat building line / deed restriction."
+      },
+      "side": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Deed restriction; OSSF setbacks to lot lines apply on septic lots."
+      },
+      "streetSide": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Plat building line."
+      },
+      "rear": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Deed restriction."
+      }
+    },
+    "maxHeightFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No county height limit (except near airports)."
+    },
+    "maxStories": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "None."
+    },
+    "maxLotCoverage": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "fraction",
+      "note": "None by county."
+    },
+    "imperviousCover": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "County drainage criteria may require detention."
+    },
+    "far": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "None."
+    },
+    "parking": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No county requirement."
+    },
+    "garageRules": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Deed restrictions."
+    },
+    "adu": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No county rule; OSSF capacity and deed restrictions limit it."
+    },
+    "masonry": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No county masonry rule; deed restrictions may require it."
+    },
+    "trees": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "None by county."
+    },
+    "other": [
+      {
+        "value": "SB 2038 (2023): landowners may petition/vote to leave a city's ETJ; city subdivision rules then no longer apply, county rules do",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Effective 2023-09-01. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+      },
+      {
+        "value": "Subdivision plats approved by commissioners court (LGC ch. 232); plat building lines become setbacks",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Assumed."
+      }
+    ]
+  },
+  "process": {
+    "steps": [
+      {
+        "value": "Confirm land is outside city limits/ETJ",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Assumed."
+      },
+      {
+        "value": "Check recorded plat and deed restrictions",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Assumed."
+      },
+      {
+        "value": "County floodplain development permit (Water Code ch. 16 county flood rules)",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Assumed."
+      },
+      {
+        "value": "OSSF (septic) permit from TCEQ authorized agent (HSC ch. 366, 30 TAC 285) if no sewer",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Assumed."
+      },
+      {
+        "value": "Driveway/culvert and address permits from county",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Assumed."
+      },
+      {
+        "value": "LGC 233 notice + three third-party inspections",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Assumed."
+      }
+    ],
+    "sealsRequired": [
+      {
+        "value": "Septic design by registered sanitarian or PE (aerobic systems often PE)",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "30 TAC 285."
+      },
+      {
+        "value": "Foundation by Texas PE recommended",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Expansive clay practice."
+      }
+    ],
+    "inspections": [
+      {
+        "value": "Foundation, framing/MEP rough-in, final by third-party inspector (LGC 233.154)",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Assumed."
+      },
+      {
+        "value": "OSSF installation inspection by authorized agent",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Assumed."
+      }
+    ],
+    "reviewDays": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "days",
+      "note": "County-specific."
+    }
+  },
+  "fees": {
+    "permitFormula": {
+      "value": "No building permit fee; floodplain/OSSF/driveway permit fees by county",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Assumed."
+    },
+    "workedExample2400sqft": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "USD",
+      "note": "No building permit fee; county permit fees vary."
+    },
+    "planReview": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "None."
+    },
+    "impactFees": [
+      {
+        "value": 0,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "USD",
+        "note": "Counties generally cannot levy impact fees; MUD fees may apply."
+      }
+    ],
+    "tapFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "MUD/WSC/private well."
+      }
+    ]
+  },
+  "cost": {
+    "factor": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "cost-method",
+        "title": "See README cost method (filled by cost agent)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "PENDING_COST_AGENT"
+    },
+    "method": "PENDING_COST_AGENT",
+    "perSqFtMarket": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "USD/sq ft",
+      "note": "Not gathered."
+    },
+    "drivers": [
+      {
+        "value": "Engineered post-tensioned slab on expansive clay",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Common Texas cost driver."
+      },
+      {
+        "value": "Windstorm-rated openings/connectors in coastal counties",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Coastal cost driver."
+      },
+      {
+        "value": "Impact and MUD tap fees",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Local cost driver."
+      },
+      {
+        "value": "Septic system (aerobic ~$10k-20k) and/or private well where no MUD",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Rough market range, not a quote."
+      }
+    ]
+  },
+  "flood": {
+    "value": "County floodplain regulations (Water Code ch. 16 subch. I); typical requirement lowest floor >= 1-2 ft above BFE",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed - prior knowledge, not verified at source this session",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Varies by county; Harris County stricter. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+  },
+  "engineChanges": [
+    {
+      "id": "texas-unincorporated-no-zoning",
+      "ruleType": "no-zoning",
+      "area": "setbacks",
+      "change": "Disable zoning setbacks/height/coverage; use plat building lines and deed restrictions as setbacks",
+      "priority": "must",
+      "params": {
+        "zoning": false
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "texas-unincorporated-lgc233",
+      "ruleType": "code-edition-baseline",
+      "area": "drawings",
+      "change": "Design to at least the IRC edition used in the county seat (LGC 233.153; floor is 2008 IRC) - engine uses 2021 IRC; schedule 3 third-party inspections",
+      "priority": "must",
+      "params": {
+        "irc": "2021 (design); legal floor 2008 IRC",
+        "thirdPartyInspections": [
+          "foundation",
+          "framing+MEP rough",
+          "final"
+        ]
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "texas-unincorporated-flood",
+      "ruleType": "flood-elevation",
+      "area": "survey",
+      "change": "Require county floodplain development permit; finished floor BFE + county freeboard (default 1 ft)",
+      "priority": "must",
+      "params": {
+        "freeboardFt": 1
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "texas-unincorporated-ossf",
+      "ruleType": "survey-input-district",
+      "area": "survey",
+      "change": "If no sewer, reserve septic field area and setbacks; min lot ~0.5 ac with public water / 1 ac with well (30 TAC 285.4)",
+      "priority": "must",
+      "params": {
+        "needsOssf": "ask",
+        "minLotAcPublicWater": 0.5,
+        "minLotAcWell": 1.0
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "texas-unincorporated-plat",
+      "ruleType": "building-line-plat",
+      "area": "survey",
+      "change": "Read building line and easements from recorded plat (LGC ch. 232)",
+      "priority": "must",
+      "params": {
+        "source": "recorded plat"
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "texas-unincorporated-fire",
+      "ruleType": "fire-sprinkler",
+      "area": "plan",
+      "change": "No sprinklers; county fire code does not apply to one/two-family dwellings",
+      "priority": "should",
+      "params": {
+        "sprinklersRequired": false
+      },
+      "source": {
+        "id": "tx-hb738-2021-enrolled",
+        "title": "87(R) HB 738 Enrolled - Bill Text (IRC/IBC 2012 base dates; LGC 250.011 sprinkler limit)",
+        "url": "https://www.legis.state.tx.us/tlodocs/87R/billtext/html/HB00738F.HTM",
+        "read": "2026-10-11",
+        "section": "LGC 250.011"
+      }
+    },
+    {
+      "id": "texas-unincorporated-deed",
+      "ruleType": "deed-restriction-check",
+      "area": "survey",
+      "change": "Deed restrictions/HOA are the main design controls - ask for them",
+      "priority": "must",
+      "params": {
+        "askUser": true
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "texas-unincorporated-energy",
+      "ruleType": "energy-compliance-doc",
+      "area": "envelope",
+      "change": "Design to state energy code (2015 IRC ch. 11) by county climate zone even though not inspected",
+      "priority": "should",
+      "params": {
+        "energyCode": "2015 IRC ch.11"
+      },
+      "source": {
+        "id": "tx-texreg-2025-10-24-seco",
+        "title": "Texas Register, Oct 24 2025, In Addition: SECO notice on 2024 IRC energy chapter and 2024 IECC",
+        "url": "https://www.sos.state.tx.us/texreg/archive/October242025/In%20Addition/In%20Addition.html",
+        "read": "2026-10-11",
+        "section": "HSC 388.003"
+      }
+    },
+    {
+      "id": "texas-unincorporated-foundation",
+      "ruleType": "expansive-soil-foundation",
+      "area": "foundation",
+      "change": "Engineered (PE) slab on expansive clay",
+      "priority": "must",
+      "params": {
+        "peSealed": true
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    }
+  ],
+  "plainLanguage": "Outside city limits, Texas counties do not issue building permits or zoning rules for houses. State law still requires new houses to follow the IRC and to get three inspections by a licensed third-party inspector. You will usually need a county floodplain permit, a driveway permit, and a septic permit if there is no sewer. Your plat and deed restrictions set the setbacks and often require brick or a minimum house size. Fire sprinklers are not required.",
+  "openQuestions": [
+    "Exact LGC 233.151-.157 text (edition date, notice, exemptions) not re-verified",
+    "County fire code exemption wording for one/two-family dwellings not re-verified"
+  ],
+  "notFound": [
+    "Direct reads of statutes.capitol.texas.gov (blocked by egress policy)",
+    "Gov't Code ch. 3000, Occupations Code 1301/1305, LGC 233, Insurance Code 2210, SB 15/SB 840/HB 24 text - not verified this session (search budget exhausted)"
+  ],
+  "comparison": {
+    "irc": "none (LGC 233: 2008 IRC or county-seat IRC)",
+    "energy": "2015 IRC ch.11 (uninspected)",
+    "plumbing": "licensed plumber, no county code",
+    "district": "none",
+    "setbacks": "plat/deed",
+    "maxHeight": "none",
+    "coverageFar": "none",
+    "masonry": "deed restrictions only",
+    "engFoundation": "recommended",
+    "windstorm": "by county",
+    "flood": "county permit, BFE+1-2 ft",
+    "permitFeeExample": "no building permit",
+    "impactFees": "none (MUD fees)",
+    "costFactor": "PENDING"
+  }
+}

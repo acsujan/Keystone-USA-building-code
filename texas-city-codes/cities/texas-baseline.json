@@ -1,0 +1,1029 @@
+{
+  "id": "texas-baseline",
+  "name": "Texas city, not listed",
+  "state": "TX",
+  "tier": 0,
+  "counties": [
+    "(any Texas county)"
+  ],
+  "msa": {
+    "name": "(not applicable - fallback profile)",
+    "blsCode": null
+  },
+  "population": {
+    "value": null,
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed - prior knowledge, not verified at source this session",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Not applicable to the fallback profile; use the selected city's own Census figure."
+  },
+  "zipCodesOrBoundary": {
+    "value": "Any incorporated Texas city not separately profiled",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed - prior knowledge, not verified at source this session",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Fallback profile."
+  },
+  "climateZone": {
+    "value": "by county - see engineChanges texas-baseline-climate-zone",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed - prior knowledge, not verified at source this session",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Zone depends on county. Map in params uses the 2009-2018 IECC county list (the 2015 IRC energy chapter is the state minimum). Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+  },
+  "windstormCounty": {
+    "value": "by county - true for the 14 first-tier coastal counties and Harris County east of SH 146",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed - prior knowledge, not verified at source this session",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Insurance Code ch. 2210 / TDI designated catalogue area. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+  },
+  "codes": {
+    "irc": {
+      "edition": {
+        "value": "2012 IRC statutory floor; assume 2021 IRC as typical city adoption",
+        "status": "Secondary",
+        "source": {
+          "id": "tx-lgc-214-212-findlaw",
+          "title": "Texas Local Government Code LOC GOV'T 214.212 (FindLaw)",
+          "url": "https://codes.findlaw.com/tx/local-government-code/loc-gov-t-sect-214-212.html",
+          "read": "2026-10-11",
+          "section": "214.212(a)"
+        },
+        "note": "Read via search-result excerpt of this page (direct fetch blocked by egress policy). Statute adopts the IRC 'as it existed on May 1, 2012' and lets cities adopt later editions with local amendments. The 2021 IRC assumption for an unlisted city is a judgement; check the city's adoption ordinance."
+      },
+      "ordinance": {
+        "value": "Local Gov't Code 214.212 (as amended by HB 738, 87R, 2021, eff. 2022-01-01)",
+        "status": "Secondary",
+        "source": {
+          "id": "tx-hb738-2021-enrolled",
+          "title": "87(R) HB 738 Enrolled - Bill Text (IRC/IBC 2012 base dates; LGC 250.011 sprinkler limit)",
+          "url": "https://www.legis.state.tx.us/tlodocs/87R/billtext/html/HB00738F.HTM",
+          "read": "2026-10-11"
+        },
+        "note": "Read via search-result excerpt of this page (direct fetch blocked by egress policy)."
+      },
+      "amendments": [
+        {
+          "topic": "fire sprinklers",
+          "summary": "Cities, counties and ESDs may not require sprinklers in new or existing one- and two-family dwellings (LGC 250.011, added by HB 738, 2021); narrow grandfather for cities with a pre-2009 requirement. IRC R313 is therefore deleted/made optional in practically every Texas adoption.",
+          "section": "Local Gov't Code 250.011",
+          "status": "Secondary",
+          "source": {
+            "id": "tx-hb738-2021-enrolled",
+            "title": "87(R) HB 738 Enrolled - Bill Text (IRC/IBC 2012 base dates; LGC 250.011 sprinkler limit)",
+            "url": "https://www.legis.state.tx.us/tlodocs/87R/billtext/html/HB00738F.HTM",
+            "read": "2026-10-11",
+            "section": "SECTION adding LGC 250.011"
+          }
+        },
+        {
+          "topic": "other",
+          "summary": "State floor is the IRC as it existed May 1, 2012; cities may adopt later ICC editions and local amendments, but only after a public hearing and by ordinance (LGC 214.212(c)-(e) as amended by HB 738, eff. Jan 1, 2022). Most large cities run the 2021 IRC with local amendments (DFW cities usually NCTCOG regional amendments).",
+          "section": "Local Gov't Code 214.212",
+          "status": "Secondary",
+          "source": {
+            "id": "tx-lgc-214-212-findlaw",
+            "title": "Texas Local Government Code LOC GOV'T 214.212 (FindLaw)",
+            "url": "https://codes.findlaw.com/tx/local-government-code/loc-gov-t-sect-214-212.html",
+            "read": "2026-10-11"
+          }
+        },
+        {
+          "topic": "masonry",
+          "summary": "Gov't Code ch. 3000 (HB 2439, 2019) bars cities from prohibiting or limiting a building product/material allowed by a national model code published in the last three code cycles, so most masonry-percentage rules are unenforceable unless they fall in a statutory exception (historic district/landmark, certain Main Street areas, windstorm, etc.) or are private deed restrictions.",
+          "section": "Gov't Code 3000.002-3000.005",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed",
+            "title": "Assumed - prior knowledge, not verified at source this session",
+            "url": "",
+            "read": "2026-10-11"
+          }
+        },
+        {
+          "topic": "foundation",
+          "summary": "Texas practice (and many local amendments) requires a foundation designed and sealed by a Texas PE on expansive clay; IRC R403.1.8 requires special design where soils are expansive.",
+          "section": "IRC R403.1.8",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed",
+            "title": "Assumed - prior knowledge, not verified at source this session",
+            "url": "",
+            "read": "2026-10-11"
+          }
+        }
+      ]
+    },
+    "ibc": {
+      "value": "IBC as it existed May 1, 2012 (LGC 214.216) - commercial only",
+      "status": "Secondary",
+      "source": {
+        "id": "tx-hb738-2021-enrolled",
+        "title": "87(R) HB 738 Enrolled - Bill Text (IRC/IBC 2012 base dates; LGC 250.011 sprinkler limit)",
+        "url": "https://www.legis.state.tx.us/tlodocs/87R/billtext/html/HB00738F.HTM",
+        "read": "2026-10-11",
+        "section": "214.216"
+      },
+      "note": "Read via search-result excerpt of this page (direct fetch blocked by egress policy). Not used for detached houses. Enrolled wording of 214.216 not seen directly; House version moved the date from 2003 to May 1, 2012."
+    },
+    "energy": {
+      "edition": {
+        "value": "2015 IRC Chapter 11 (energy) - statewide minimum for single-family since 2016-09-01",
+        "status": "Secondary",
+        "source": {
+          "id": "tx-texreg-2025-10-24-seco",
+          "title": "Texas Register, Oct 24 2025, In Addition: SECO notice on 2024 IRC energy chapter and 2024 IECC",
+          "url": "https://www.sos.state.tx.us/texreg/archive/October242025/In%20Addition/In%20Addition.html",
+          "read": "2026-10-11",
+          "section": "HSC 388.003(a)"
+        },
+        "note": "Read via search-result excerpt of this page (direct fetch blocked by egress policy). Oct 24 2025 Texas Register notice confirms the 2015 IRC energy chapter is still the state code; SECO took comments on the 2024 IRC energy chapter; no final adoption found as of 2026-10-11. Any new edition takes effect no earlier than 9 months after SECO adopts it."
+      },
+      "stretchCode": {
+        "value": "Cities may adopt local amendments/newer editions that are not less stringent (e.g. Austin 2024 IECC)",
+        "status": "Secondary",
+        "source": {
+          "id": "tx-ag-jc0457",
+          "title": "Texas Attorney General Opinion JC-0457 (2002) quoting HSC 388.003",
+          "url": "https://www.oag.state.tx.us/sites/default/files/opinion-files/opinion/2002/jc0457.pdf",
+          "read": "2026-10-11",
+          "section": "HSC 388.003(d)-(e)"
+        },
+        "note": "Read via search-result excerpt of this page (direct fetch blocked by egress policy). Wording of current 388.003(e) not seen directly."
+      },
+      "ordinance": {
+        "value": "Health & Safety Code 388.003; SB 783 (89R, 2025, eff. 2025-09-01) cleared SECO to adopt newer editions",
+        "status": "Secondary",
+        "source": {
+          "id": "tx-sb783-2025-analysis",
+          "title": "SB 783 (89R) Bill Analysis",
+          "url": "https://capitol.texas.gov/tlodocs/89R/analysis/html/SB00783F.htm",
+          "read": "2026-10-11"
+        },
+        "note": "Read via search-result excerpt of this page (direct fetch blocked by egress policy)."
+      }
+    },
+    "plumbing": {
+      "value": "IPC or UPC - city choice (Occupations Code 1301.255); default IPC 2021 assumption",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Texas Plumbing License Law lets a city adopt either the IPC or the UPC. Default chosen as IPC because most Texas cities use IPC; Houston-area cities often use UPC. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+    },
+    "electrical": {
+      "value": "NEC 2023 (TDLR statewide adoption under Occupations Code ch. 1305, eff. 2023-09-01)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Where a city has not adopted its own edition, the TDLR-adopted NEC applies. NEC 2026 adoption by TDLR not confirmed. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+    },
+    "mechanical": {
+      "value": "2021 IMC typical city adoption",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No state mechanical code for houses beyond the IRC; assumed to track the city's IRC edition."
+    },
+    "fuelGas": {
+      "value": "2021 IFGC typical city adoption",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Assumed to track the IRC edition."
+    },
+    "fire": {
+      "value": "Sprinklers cannot be required in one- and two-family dwellings (LGC 250.011)",
+      "status": "Secondary",
+      "source": {
+        "id": "tx-hb738-2021-enrolled",
+        "title": "87(R) HB 738 Enrolled - Bill Text (IRC/IBC 2012 base dates; LGC 250.011 sprinkler limit)",
+        "url": "https://www.legis.state.tx.us/tlodocs/87R/billtext/html/HB00738F.HTM",
+        "read": "2026-10-11",
+        "section": "LGC 250.011(a)"
+      },
+      "note": "Read via search-result excerpt of this page (direct fetch blocked by egress policy). Exceptions: city with a sprinkler requirement adopted before Jan 1, 2009, and certain ESDs."
+    },
+    "wind": {
+      "value": "By location: about 115 mph (most of inland Texas) to 150+ mph (coast), ASCE 7-16 Risk Category II, IRC 2021 Fig. R301.2(2)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Read from the map for the site; coastal counties also fall under TDI windstorm rules."
+    },
+    "hailRoofing": {
+      "value": "No state mandate; Class 4 (UL 2218) impact-resistant roofing recommended in DFW, Panhandle, Central TX (insurance discounts)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Market practice; no statute found."
+    },
+    "seismic": {
+      "value": "SDC A for nearly all of Texas; El Paso area is higher (about SDC B-C)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Check USGS/ASCE 7 values for far West Texas."
+    },
+    "frostDepth": {
+      "value": "About 6-12 in for most of Texas; about 18-24 in in the Panhandle",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "City IRC Table R301.2(1) values govern; typical local values."
+    }
+  },
+  "zoning": {
+    "hasZoning": {
+      "value": true,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Almost every Texas city except Houston has zoning; use city profile."
+    },
+    "typicalDistrict": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Unlisted city - user must enter district."
+    },
+    "minLotSqFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "sq ft",
+      "note": "Depends on city. Note SB 15 (2025) caps minimum lot size at 3,000 sq ft for qualifying new subdivisions in large cities. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+    },
+    "minLotWidthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "ft",
+      "note": "Depends on city."
+    },
+    "minLotDepthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "ft",
+      "note": "Depends on city."
+    },
+    "setbacksFt": {
+      "front": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Free-text user setback; no state default."
+      },
+      "side": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Free-text user setback; no state default."
+      },
+      "streetSide": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Free-text user setback; no state default."
+      },
+      "rear": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Free-text user setback; no state default."
+      }
+    },
+    "maxHeightFt": {
+      "value": 35,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "ft",
+      "note": "Common Texas single-family height limit (35 ft / 2.5 stories) - placeholder only."
+    },
+    "maxStories": {
+      "value": 2.5,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Placeholder."
+    },
+    "maxLotCoverage": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "fraction",
+      "note": "Depends on city."
+    },
+    "imperviousCover": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Depends on city (Austin-area cities regulate impervious cover)."
+    },
+    "far": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Rare in Texas outside Austin/Dallas special districts."
+    },
+    "parking": {
+      "value": "2 off-street spaces per dwelling (typical)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Typical Texas city requirement; placeholder."
+    },
+    "garageRules": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Depends on city/deed restrictions."
+    },
+    "adu": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Depends on city."
+    },
+    "masonry": {
+      "value": "Do not apply a masonry percentage by default - Gov't Code ch. 3000 bars most city material mandates",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Masonry may still be required by deed restrictions/HOA or in historic districts. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+    },
+    "trees": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Depends on city."
+    },
+    "other": [
+      {
+        "value": "SB 840 (2025): multifamily/mixed-use allowed by right on certain commercial land in large cities; HB 24 (2025): changed zoning protest petition thresholds",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Neither changes detached single-family design rules directly. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+      }
+    ]
+  },
+  "process": {
+    "steps": [
+      {
+        "value": "Check city limits vs ETJ vs unincorporated; then city zoning/plat, building permit, inspections, certificate of occupancy",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Generic Texas process."
+      }
+    ],
+    "sealsRequired": [
+      {
+        "value": "Foundation design sealed by Texas PE commonly required on expansive clay/post-tensioned slabs",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Texas practice; city amendments vary."
+      },
+      {
+        "value": "Windstorm: TDI or TDI-appointed engineer certification in coastal counties",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Insurance Code ch. 2210."
+      }
+    ],
+    "inspections": [
+      {
+        "value": "Foundation/pre-pour, framing, MEP rough-in, insulation/energy, final",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Typical sequence."
+      }
+    ],
+    "reviewDays": {
+      "value": 45,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "days",
+      "note": "LGC 214.904 (2019) generally requires a city to grant or deny a building permit within 45 days. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+    }
+  },
+  "fees": {
+    "permitFormula": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Depends on city."
+    },
+    "workedExample2400sqft": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "USD",
+      "note": "Not computable for unlisted city."
+    },
+    "planReview": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Depends on city."
+    },
+    "impactFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "LGC ch. 395 governs water/wastewater/drainage/roadway impact fees; amounts are city-specific."
+      }
+    ],
+    "tapFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "City or MUD specific."
+      }
+    ]
+  },
+  "cost": {
+    "factor": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "cost-method",
+        "title": "See README cost method (filled by cost agent)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "PENDING_COST_AGENT"
+    },
+    "method": "PENDING_COST_AGENT",
+    "perSqFtMarket": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "USD/sq ft",
+      "note": "No public statewide figure gathered this session (search budget exhausted)."
+    },
+    "drivers": [
+      {
+        "value": "Engineered post-tensioned slab on expansive clay",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Common Texas cost driver."
+      },
+      {
+        "value": "Windstorm-rated openings/connectors in coastal counties",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Coastal cost driver."
+      },
+      {
+        "value": "Impact and MUD tap fees",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - prior knowledge, not verified at source this session",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Local cost driver."
+      }
+    ]
+  },
+  "flood": {
+    "value": "NFIP minimum: lowest floor at or above BFE; many Texas cities require 1-2 ft freeboard; Water Code ch. 16 subch. I lets cities/counties adopt floodplain rules",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed - prior knowledge, not verified at source this session",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Use 1 ft freeboard default unless city profile says more. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+  },
+  "engineChanges": [
+    {
+      "id": "texas-baseline-code-edition",
+      "ruleType": "code-edition-baseline",
+      "area": "drawings",
+      "change": "Use 2021 IRC as the design code for an unlisted Texas city (state floor is 2012 IRC); show 'confirm city adoption' warning",
+      "priority": "must",
+      "params": {
+        "irc": "2021",
+        "stateFloorIrc": "2012",
+        "confirmWithCity": true
+      },
+      "source": {
+        "id": "tx-lgc-214-212-findlaw",
+        "title": "Texas Local Government Code LOC GOV'T 214.212 (FindLaw)",
+        "url": "https://codes.findlaw.com/tx/local-government-code/loc-gov-t-sect-214-212.html",
+        "read": "2026-10-11",
+        "section": "214.212"
+      }
+    },
+    {
+      "id": "texas-baseline-energy-edition",
+      "ruleType": "energy-compliance-doc",
+      "area": "envelope",
+      "change": "Energy compliance to 2015 IRC Chapter 11 statewide minimum unless the city adopted a newer IECC/IRC energy chapter; include REScheck/ERI documentation",
+      "priority": "must",
+      "params": {
+        "energyCode": "2015 IRC ch.11",
+        "pendingStateUpdate": "2024 IRC ch.11 under SECO review (no final rule found 2026-10-11)"
+      },
+      "source": {
+        "id": "tx-texreg-2025-10-24-seco",
+        "title": "Texas Register, Oct 24 2025, In Addition: SECO notice on 2024 IRC energy chapter and 2024 IECC",
+        "url": "https://www.sos.state.tx.us/texreg/archive/October242025/In%20Addition/In%20Addition.html",
+        "read": "2026-10-11",
+        "section": "HSC 388.003"
+      }
+    },
+    {
+      "id": "texas-baseline-climate-zone",
+      "ruleType": "climate-zone-envelope",
+      "area": "envelope",
+      "change": "Pick envelope R-values/U-factors/SHGC from the county's IECC climate zone",
+      "priority": "must",
+      "params": {
+        "climateZoneByCounty_2015map": {
+          "Harris": "2A",
+          "Fort Bend": "2A",
+          "Montgomery": "2A",
+          "Brazoria": "2A",
+          "Galveston": "2A",
+          "Bexar": "2A",
+          "Comal": "2A",
+          "Dallas": "3A",
+          "Tarrant": "3A",
+          "Collin": "3A",
+          "Denton": "3A",
+          "Kaufman": "3A",
+          "Travis": "2A",
+          "Williamson": "2A",
+          "Hays": "2A",
+          "Bell": "2A",
+          "El Paso": "3B",
+          "Nueces": "2A",
+          "Lubbock": "3B",
+          "Webb": "2B",
+          "Potter": "4B",
+          "Randall": "4B",
+          "Cameron": "2A",
+          "Hidalgo": "2A",
+          "Midland": "3B",
+          "McLennan": "2A",
+          "Smith": "3A",
+          "Jefferson": "2A",
+          "Brazos": "2A",
+          "Waller": "2A"
+        },
+        "note2021map": "Under the 2021 IECC map Cameron County is 1A (Secondary: harth.build); other moves (some counties shifted warmer) not verified"
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "texas-baseline-windstorm",
+      "ruleType": "windstorm-package",
+      "area": "structure",
+      "change": "If county is one of the 14 first-tier coastal counties (or Harris County east of SH 146), apply TDI windstorm package: design to IRC/TDI wind speed, rated openings/impact protection, continuous load path, engineer or TDI inspections and WPI-8 certificate",
+      "priority": "must",
+      "params": {
+        "counties": [
+          "Aransas",
+          "Brazoria",
+          "Calhoun",
+          "Cameron",
+          "Chambers",
+          "Galveston",
+          "Jefferson",
+          "Kenedy",
+          "Kleberg",
+          "Matagorda",
+          "Nueces",
+          "Refugio",
+          "San Patricio",
+          "Willacy"
+        ],
+        "harrisPartial": "east of SH 146 (La Porte, Morgan's Point, Pasadena, Seabrook, Shoreacres area)"
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "texas-baseline-sprinkler",
+      "ruleType": "fire-sprinkler",
+      "area": "plan",
+      "change": "Do not add residential fire sprinklers (IRC R313) - Texas law bars mandates for one/two-family dwellings",
+      "priority": "must",
+      "params": {
+        "sprinklersRequired": false
+      },
+      "source": {
+        "id": "tx-hb738-2021-enrolled",
+        "title": "87(R) HB 738 Enrolled - Bill Text (IRC/IBC 2012 base dates; LGC 250.011 sprinkler limit)",
+        "url": "https://www.legis.state.tx.us/tlodocs/87R/billtext/html/HB00738F.HTM",
+        "read": "2026-10-11",
+        "section": "LGC 250.011"
+      }
+    },
+    {
+      "id": "texas-baseline-product-ban",
+      "ruleType": "masonry-percentage",
+      "area": "envelope",
+      "change": "Do not enforce a city masonry percentage by default (Gov't Code ch. 3000); only apply masonry % from a deed restriction/HOA or historic-district rule the user confirms",
+      "priority": "should",
+      "params": {
+        "defaultMasonryPct": 0,
+        "allowUserOverride": true
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "texas-baseline-expansive-soil",
+      "ruleType": "expansive-soil-foundation",
+      "area": "foundation",
+      "change": "Flag expansive clay risk; default foundation = post-tensioned slab or engineered slab designed and sealed by a Texas PE using a geotechnical report (PVR), per IRC R403.1.8 / PTI DC10.5",
+      "priority": "must",
+      "params": {
+        "defaultFoundation": "post-tensioned slab",
+        "peSealed": true,
+        "geotechReport": true
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "texas-baseline-plumbing",
+      "ruleType": "plumbing-code-variant",
+      "area": "drawings",
+      "change": "Plumbing per IPC unless the city adopted the UPC (Occupations Code 1301.255)",
+      "priority": "should",
+      "params": {
+        "default": "IPC 2021",
+        "alternative": "UPC"
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "texas-baseline-electrical",
+      "ruleType": "electrical-code-edition",
+      "area": "drawings",
+      "change": "Electrical per NEC 2023 (TDLR statewide) unless the city adopted a different edition",
+      "priority": "should",
+      "params": {
+        "nec": "2023"
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "texas-baseline-flood",
+      "ruleType": "flood-elevation",
+      "area": "survey",
+      "change": "If site in mapped floodplain, set finished floor at BFE + 1 ft default (city may require more)",
+      "priority": "should",
+      "params": {
+        "freeboardFt": 1
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "texas-baseline-sb15",
+      "ruleType": "lot-min-size",
+      "area": "survey",
+      "change": "For new subdivisions in large cities (SB 15, 2025) small lots down to 3,000 sq ft may be allowed - allow narrow-lot plans",
+      "priority": "nice",
+      "params": {
+        "minLotSqFtCap": 3000,
+        "appliesTo": "qualifying new subdivisions in cities >150k pop in counties >300k (verify)"
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "texas-baseline-deed",
+      "ruleType": "deed-restriction-check",
+      "area": "survey",
+      "change": "Ask for deed restrictions/HOA design guidelines (masonry, setbacks, roof, garage orientation) - often stricter than city rules in Texas",
+      "priority": "should",
+      "params": {
+        "askUser": true
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "texas-baseline-seismic",
+      "ruleType": "seismic-category",
+      "area": "structure",
+      "change": "SDC A statewide default; check El Paso area for higher SDC",
+      "priority": "nice",
+      "params": {
+        "default": "A",
+        "elPaso": "check (about B-C)"
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "texas-baseline-hail",
+      "ruleType": "hail-roof",
+      "area": "envelope",
+      "change": "Offer Class 4 impact-resistant roofing option (DFW, Panhandle, Central TX)",
+      "priority": "nice",
+      "params": {
+        "class": "UL 2218 Class 4"
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - prior knowledge, not verified at source this session",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    }
+  ],
+  "plainLanguage": "Texas sets a minimum house code (the 2012 IRC) but most cities use the newer 2021 IRC with local changes - always confirm with your city. The statewide energy code is still the 2015 IRC energy chapter; a newer one is under state review. Your county decides your climate zone and so your insulation and window levels. Cities cannot require fire sprinklers in a house. Cities generally cannot require brick or stone, but your HOA or deed restrictions can. On the coast you need a TDI windstorm certificate to get wind insurance. Much of Texas has shrink-swell clay, so plan on an engineer-designed slab.",
+  "openQuestions": [
+    "Final SECO adoption of the 2024 IRC energy chapter and its effective date (no final rule found as of 2026-10-11)",
+    "Exact 2021 IECC county moves for Texas (Hidalgo, DFW counties) - not verified",
+    "Current TDLR NEC edition (2023 vs 2026)"
+  ],
+  "notFound": [
+    "Direct reads of statutes.capitol.texas.gov (blocked by egress policy)",
+    "Gov't Code ch. 3000, Occupations Code 1301/1305, LGC 233, Insurance Code 2210, SB 15/SB 840/HB 24 text - not verified this session (search budget exhausted)"
+  ],
+  "comparison": {
+    "irc": "2021 IRC typical (state floor 2012)",
+    "energy": "2015 IRC ch.11 (state)",
+    "plumbing": "IPC (or UPC)",
+    "district": "n/a",
+    "setbacks": "user input",
+    "maxHeight": "35 ft placeholder",
+    "coverageFar": "n/a",
+    "masonry": "not enforceable by city (Gov't Code 3000)",
+    "engFoundation": "yes - recommended statewide",
+    "windstorm": "14 coastal counties + E. Harris",
+    "flood": "BFE + 1 ft default",
+    "permitFeeExample": "n/a",
+    "impactFees": "city-specific",
+    "costFactor": "PENDING"
+  }
+}
