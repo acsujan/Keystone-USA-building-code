@@ -33,3 +33,7 @@ Re-run this group once fetch and search work again. Priorities: the Forney, Waco
 - forney: 2021 IRC + local/NCTCOG amendments, 2021 IECC/IPC, NEC 2020, eff. 2023-01-01. Engineer-stamped structural plans + foundation letter for every new home (FAQ). PD preferred; SF-6 7,700 sf (weak). Pop 35,470 (V2023).
 - beaumont: TDI Inland II, 110 mph (old basis) ~ 143 mph ultimate; city requires TX-registered engineer windstorm certification for buildings >= 120 sf. 2021 IRC/IECC/IFC, NEC 2020, ICC 600-2020. Permit $0.50/sf + $150 + $10 -> $1,580 (garage incl.). No impact fees found. Floodplain Art. 24.05 (freeboard not found). R-S (28.03.002). Pop 112,193 (V2023).
 - LGC 214.907 (HB 852, 2019) bars residential permit fees based on home value.
+
+## Wave 4 (31 searches; Secondary) - tyler, waco (+ mcallen in report-south.md)
+- tyler: 2021 IRC as amended Sec. 6-151 (Sec. 6-150; last Ord. O-2023-104, 2023-10-25); 2021 IECC/IPC/IMC/IFGC/IFC, NEC 2023 from 2024-01-01. Sec. 6-151 content not retrieved. R-1A (UDC Table 10-23): 9,000 sf, 35 ft frontage, 25/7.5/12/25, 50%, 42 ft (columns run together; verify). $0.35/sf + 20% -> $1,192.80 (conflicts with valuation method excerpt). Flood: 1 ft above BFE. Second check: IRC (amlegal + city page).
+- waco: 2024 IRC from 2026-01-01 (App. BB, BD, BO, NE); prior 2018 IRC (Ord. 2021-086); energy 2018 IECC; IPC 2024; NEC per TDLR. R-1B dims Assumed. $0.25/sf + $50 + $15 -> $775. Impact fees (Ord. 2020-793, eff. 2021-06-01) by meter; amounts not found. Second check: 2024 IRC (2 searches).

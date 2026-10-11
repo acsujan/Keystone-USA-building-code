@@ -8,3 +8,6 @@
 - brownsville: IRC edition not found. R-1 (2020 UDC via Zoneomics): 5,000 sf, 50x70, front 25, corner 20, 50% coverage; side/rear 5, 35 ft third party (conflict with RE 10 ft). BPUB capital recovery ~ $806-1,000 (Apr 2025, +5%/yr). Fee example ~$2,800 Assumed (fee/valuation ratio from 2021-22 permit reports).
 - laredo: 2021 IRC + 2021 IECC (Ord. 2024-O-149), IPC 2021 (2024-O-151), IFC 2021 (2024-O-150), NEC 2020 (2024-O-148). Plan check $0.28/sf + permit $0.40/sf + $20 tech -> $1,951. R-1 7,200 sf, 25/5/20, 35 ft (third party; LDC 24.77.1 not read). Second check: IRC (2 extracts).
 - Windstorm: TDI adopted 2024 IRC/IBC (28 TAC 5.4013, Tex. Reg. 2026-02-13) for applications from 2026-04-01; 150 mph basic wind per Corpus Christi bulletin. TDLR adopted NEC 2026 effective 2026-09-01 (city NEC 2020 adoptions may be stale).
+
+## Wave 4 - mcallen (Secondary)
+- Checklist (rev. 04/2023): 2018 IBC/IPC/IMC/IFGC/IFC, NEC 2017; IRC 2018 inferred; FY24-25 budget planned 2024 ICC adoption (unconfirmed). Rejected a "Ch. 151 2021 codes" claim (Tool, TX). New UDC adopted 2026-02-09; R-1; rear 10 ft (ZBA minutes); front 25 / side 6 Assumed. Fee $0.16/sf, min $48 -> $454.40; review ~3 days. Climate zone 2A kept (check 1A under 2021 IECC).
