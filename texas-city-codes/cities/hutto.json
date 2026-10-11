@@ -57,121 +57,120 @@
   "codes": {
     "irc": {
       "edition": {
-        "value": "2021 IRC (unverified)",
-        "status": "Assumed",
+        "value": "2024 IRC",
+        "status": "Secondary",
         "source": {
-          "id": "hutto-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-          "url": "",
+          "id": "hutto-building-codes-page",
+          "title": "City of Hutto - Building Codes",
+          "url": "https://www.huttotx.gov/159/Building-Codes",
           "read": "2026-10-11"
         },
-        "note": "Most Central Texas cities adopted the 2021 I-codes in 2021-2023; this city's adoption ordinance was not reached. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+        "note": "City Building Codes page lists 2024 IRC and 2023 NEC; Ord. 2025-008 adopts 2024 I-codes (IBC, IRC, IPC, IMC etc.) with appendices and amendments. Note: Texas Loc. Gov't Code 214.212 lets cities adopt later IRC editions; engine must not default to 2021 here. Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
       },
       "ordinance": {
-        "value": null,
-        "status": "Assumed",
+        "value": "Ordinance No. 2025-008 (amends Code Chapter 6)",
+        "status": "Secondary",
         "source": {
-          "id": "hutto-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-          "url": "",
+          "id": "hutto-ord-2025-008",
+          "title": "City of Hutto Ordinance No. 2025-008 adopting 2024 International Codes and 2023 NEC with amendments (Chapter 6)",
+          "url": "https://www.huttotx.gov/DocumentCenter/View/5759",
           "read": "2026-10-11"
         },
-        "note": "Not found: building code adoption ordinance number. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+        "note": "Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
       },
       "amendments": [
         {
           "topic": "other",
-          "summary": "Local IRC amendments not reviewed; Texas cities must adopt local IRC amendments by ordinance after a public hearing (LGC 214.212/214.216).",
-          "section": "",
+          "summary": "Ord. 2025-008 adopts 2024 IRC with listed appendices and local amendments; amendment text (foundation, sprinklers) not retrieved.",
+          "section": "Ch. 6",
           "status": "Secondary",
           "source": {
-            "id": "tx-lgc-214-212",
-            "title": "Texas Local Government Code Sec. 214.212 - International Residential Code (municipal residential code)",
-            "url": "https://texas.public.law/statutes/tex._local_gov't_code_section_214.212",
-            "read": "2026-10-11",
-            "section": "214.212"
+            "id": "hutto-ord-2025-008",
+            "title": "City of Hutto Ordinance No. 2025-008 adopting 2024 International Codes and 2023 NEC with amendments (Chapter 6)",
+            "url": "https://www.huttotx.gov/DocumentCenter/View/5759",
+            "read": "2026-10-11"
           }
         }
       ]
     },
     "energy": {
       "edition": {
-        "value": "2021 IECC / IRC Ch. 11 (unverified)",
-        "status": "Assumed",
+        "value": "2024 IECC (assumed with 2024 I-code suite per Ord. 2025-008)",
+        "status": "Secondary",
         "source": {
-          "id": "hutto-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-          "url": "",
+          "id": "hutto-ord-2025-008",
+          "title": "City of Hutto Ordinance No. 2025-008 adopting 2024 International Codes and 2023 NEC with amendments (Chapter 6)",
+          "url": "https://www.huttotx.gov/DocumentCenter/View/5759",
           "read": "2026-10-11"
         },
-        "note": "Assumed to follow the IRC edition; Texas state minimum energy code applies regardless (Health & Safety Code Ch. 388). Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+        "note": "Extract named 2024 editions of building, residential, plumbing, mechanical and related codes; IECC edition not explicitly seen - confirm. Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
       },
       "stretchCode": {
-        "value": "none known",
+        "value": false,
         "status": "Assumed",
         "source": {
-          "id": "hutto-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "id": "assumed",
+          "title": "Assumed",
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "No municipal stretch code known for this city"
+        "note": "None seen."
       }
     },
     "plumbing": {
-      "value": "IPC 2021 (unverified)",
-      "status": "Assumed",
+      "value": "IPC 2024",
+      "status": "Secondary",
       "source": {
-        "id": "hutto-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "hutto-ord-2025-008",
+        "title": "City of Hutto Ordinance No. 2025-008 adopting 2024 International Codes and 2023 NEC with amendments (Chapter 6)",
+        "url": "https://www.huttotx.gov/DocumentCenter/View/5759",
         "read": "2026-10-11"
       },
-      "note": "Most Central Texas suburbs adopt the IPC; UPC is possible under Texas law. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      "note": "Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
     },
     "electrical": {
-      "value": "NEC 2020 or 2023 (unverified)",
-      "status": "Assumed",
+      "value": "NEC 2023",
+      "status": "Secondary",
       "source": {
-        "id": "hutto-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "hutto-building-codes-page",
+        "title": "City of Hutto - Building Codes",
+        "url": "https://www.huttotx.gov/159/Building-Codes",
         "read": "2026-10-11"
       },
-      "note": "TDLR-adopted NEC applies where no local edition; city edition not read. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      "note": "Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
     },
     "mechanical": {
-      "value": "IMC 2021 (unverified)",
-      "status": "Assumed",
+      "value": "IMC 2024",
+      "status": "Secondary",
       "source": {
-        "id": "hutto-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "hutto-ord-2025-008",
+        "title": "City of Hutto Ordinance No. 2025-008 adopting 2024 International Codes and 2023 NEC with amendments (Chapter 6)",
+        "url": "https://www.huttotx.gov/DocumentCenter/View/5759",
         "read": "2026-10-11"
       },
-      "note": "Assumed to match IRC cycle"
+      "note": "Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
     },
     "fuelGas": {
-      "value": "IFGC 2021 (unverified)",
+      "value": "IFGC 2024",
       "status": "Assumed",
       "source": {
-        "id": "hutto-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "id": "assumed",
+        "title": "Assumed",
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Assumed to match IRC cycle"
+      "note": "Assumed part of 2024 suite."
     },
     "fire": {
-      "value": "IFC 2021 (unverified); no one/two-family sprinkler mandate known",
+      "value": "IFC 2024 (assumed); no one/two-family sprinkler mandate seen",
       "status": "Assumed",
       "source": {
-        "id": "hutto-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "id": "assumed",
+        "title": "Assumed",
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Texas cities generally delete/omit IRC R313 sprinkler mandate; Texas LGC 214.216 permits that. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      "note": "Not checked."
     },
     "wind": {
       "value": 108,
@@ -233,15 +232,15 @@
       "note": "City is known to have zoning (UDC); text not read."
     },
     "typicalDistrict": {
-      "value": "SF-2 (Single-family)",
-      "status": "Assumed",
+      "value": "SF-2 Single-Family (current UDC 10.403 bulk table covers SF-R, SF-1, SF-2); most new homes are in PUDs; draft 2025 UDC would replace with AR / R-1 Legacy / N-1",
+      "status": "Secondary",
       "source": {
-        "id": "hutto-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "hutto-udc-ch4-site-design",
+        "title": "City of Hutto UDC Chapter 4 Site Design Standards (10.401-10.403) PDF",
+        "url": "https://www.huttotx.gov/DocumentCenter/View/625/Unified-Development-Code-Chapter-10401353-PDF",
         "read": "2026-10-11"
       },
-      "note": "Researcher judgement of the most common detached single-family district; others: SF-1, SF-3, PUD. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      "note": "New UDC draft (5/15/2025) not confirmed adopted. Draft N-1 detached: 4,500 sf lot, 50 ft width front-entry, 20 ft front, 24 ft garage-door setback, 5 ft side, rear-entry 10 ft front / 20 ft rear. Draft R-1 Legacy: 5,500 sf, 50 ft, 25 ft front, 5 ft side (existing areas only). Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
     },
     "minLotSqFt": {
       "value": 6000,
@@ -268,16 +267,15 @@
       "note": "Typical value; NOT verified."
     },
     "minLotDepthFt": {
-      "value": 110,
-      "status": "Assumed",
+      "value": "Lot width:depth ratio at least 1:3 for single and two household lots",
+      "status": "Secondary",
       "source": {
-        "id": "hutto-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "hutto-udc-ch4-site-design",
+        "title": "City of Hutto UDC Chapter 4 Site Design Standards (10.401-10.403) PDF",
+        "url": "https://www.huttotx.gov/DocumentCenter/View/625/Unified-Development-Code-Chapter-10401353-PDF",
         "read": "2026-10-11"
       },
-      "unit": "ft",
-      "note": "Typical value; NOT verified."
+      "note": "Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
     },
     "setbacksFt": {
       "front": {
@@ -290,7 +288,7 @@
           "read": "2026-10-11"
         },
         "unit": "ft",
-        "note": "Typical value for this district from researcher memory; NOT verified against the UDC. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+        "note": "Still assumed for current SF-2 (bulk table not in extracts). Draft 2025 UDC N-1: front 20 (garage door 24), side 5, rear 20 (rear-entry). Plats must show building setback lines (Standard Plat Notes)."
       },
       "side": {
         "value": 5,
@@ -302,7 +300,7 @@
           "read": "2026-10-11"
         },
         "unit": "ft",
-        "note": "Typical value for this district from researcher memory; NOT verified against the UDC. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+        "note": "Still assumed for current SF-2 (bulk table not in extracts). Draft 2025 UDC N-1: front 20 (garage door 24), side 5, rear 20 (rear-entry). Plats must show building setback lines (Standard Plat Notes)."
       },
       "streetSide": {
         "value": 15,
@@ -314,7 +312,7 @@
           "read": "2026-10-11"
         },
         "unit": "ft",
-        "note": "Typical value for this district from researcher memory; NOT verified against the UDC. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+        "note": "Still assumed for current SF-2 (bulk table not in extracts). Draft 2025 UDC N-1: front 20 (garage door 24), side 5, rear 20 (rear-entry). Plats must show building setback lines (Standard Plat Notes)."
       },
       "rear": {
         "value": 20,
@@ -326,7 +324,7 @@
           "read": "2026-10-11"
         },
         "unit": "ft",
-        "note": "Typical value for this district from researcher memory; NOT verified against the UDC. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+        "note": "Still assumed for current SF-2 (bulk table not in extracts). Draft 2025 UDC N-1: front 20 (garage door 24), side 5, rear 20 (rear-entry). Plats must show building setback lines (Standard Plat Notes)."
       }
     },
     "maxHeightFt": {
@@ -364,15 +362,15 @@
       "note": "Not found: maximum lot coverage for the district. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
     },
     "imperviousCover": {
-      "value": null,
+      "value": "Edwards Aquifer (30 TAC 213) not expected to apply",
       "status": "Assumed",
       "source": {
-        "id": "hutto-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "id": "assumed",
+        "title": "Assumed",
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: impervious cover cap. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      "note": "Researcher judgement: Hutto is east of I-35 on Blackland Prairie, outside the TCEQ Edwards recharge/contributing zones; confirm on TCEQ map."
     },
     "far": {
       "value": null,
@@ -397,15 +395,15 @@
       "note": "Typical Central Texas requirement; not read."
     },
     "garageRules": {
-      "value": null,
-      "status": "Assumed",
+      "value": "Draft 2025 UDC N-1: front-entry garage door set back 24 ft (house front 20 ft); not confirmed adopted",
+      "status": "Secondary",
       "source": {
-        "id": "hutto-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "hutto-udc-draft-2025-05-15",
+        "title": "Hutto Unified Development Code DRAFT 5/15/2025",
+        "url": "https://www.huttotx.gov/DocumentCenter/View/5872/Hutto_UDC_DRAFT_05152025",
         "read": "2026-10-11"
       },
-      "note": "Not found: garage placement/front-loaded garage rules. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      "note": "Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
     },
     "adu": {
       "value": null,
@@ -433,12 +431,12 @@
       "value": null,
       "status": "Assumed",
       "source": {
-        "id": "hutto-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "id": "assumed",
+        "title": "Assumed",
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: tree preservation ordinance details. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      "note": "Not found: Hutto tree preservation thresholds (1 targeted search returned other cities). Blackland prairie site - fewer large trees than west Williamson."
     },
     "other": []
   },
@@ -573,50 +571,51 @@
   },
   "fees": {
     "permitFormula": {
-      "value": null,
-      "status": "Assumed",
+      "value": "New residential building permit $1,600 flat fee (2022 Appendix A); fees double if work starts before permit",
+      "status": "Secondary",
       "source": {
-        "id": "hutto-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "hutto-fee-schedule-2022",
+        "title": "City of Hutto fee schedule Appendix A (2022 ordinance)",
+        "url": "https://www.huttotx.gov/Archive/ViewFile/Item/882",
         "read": "2026-10-11"
       },
-      "note": "Not found: city building permit fee schedule (fee ordinance / development services fee page). Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      "note": "A newer schedule (updated 7/02/2026, https://www.huttotx.gov/DocumentCenter/View/5396) exists but extract was unreadable; FAQ says most permits valued by construction cost. Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
     },
     "workedExample2400sqft": {
-      "value": null,
-      "status": "Assumed",
+      "value": 1600,
+      "status": "Secondary",
       "source": {
-        "id": "hutto-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "hutto-fee-schedule-2022",
+        "title": "City of Hutto fee schedule Appendix A (2022 ordinance)",
+        "url": "https://www.huttotx.gov/Archive/ViewFile/Item/882",
         "read": "2026-10-11"
       },
       "unit": "USD",
-      "note": "Not computed: fee formula not found. Assumption for later: 2,400 sq ft conditioned two-storey + 440 sq ft attached garage. If valuation-based, use ICC BVD R-3 VB (~$170-190/sqft) x 2,400 + U rate x 440. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      "note": "Flat $1,600 regardless of size (2022 schedule) - 2,400 sf + 440 sf garage example = $1,600. Verify against 2026 schedule."
     },
     "planReview": {
-      "value": null,
-      "status": "Assumed",
+      "value": "Included in flat new-residential fee (no separate line seen)",
+      "status": "Secondary",
       "source": {
-        "id": "hutto-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "hutto-fee-schedule-2022",
+        "title": "City of Hutto fee schedule Appendix A (2022 ordinance)",
+        "url": "https://www.huttotx.gov/Archive/ViewFile/Item/882",
         "read": "2026-10-11"
       },
-      "note": "Not found: residential plan review fee. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      "note": "Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
     },
     "impactFees": [
       {
-        "value": null,
-        "status": "Assumed",
+        "value": 11620,
+        "status": "Secondary",
         "source": {
-          "id": "hutto-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-          "url": "",
+          "id": "lockhart-ww-impact-slides-2023",
+          "title": "Lockhart Water/Wastewater Impact Fee meeting slides 5-2-2023 (Central Texas fee comparison incl. Hutto)",
+          "url": "https://www.lockhart-tx.org/upload/page/0204/Lockhart Water Wastewater Impact Fee Meeting Slides 5-2-2023.pdf",
           "read": "2026-10-11"
         },
-        "note": "Not found: water/wastewater/roadway impact fee schedule (Texas LGC Ch. 395 fees are normally collected at building permit). Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+        "unit": "USD",
+        "note": "2021-era comparison: Hutto $8,832 water + $2,788 wastewater per service unit (LUE). Dated; current schedule (7/2026) not readable. Many Hutto lots are served by Manville WSC/Jonah SUD etc. with own fees. Roadway impact fee not found."
       }
     ],
     "tapFees": [
@@ -671,15 +670,14 @@
         "note": "Researcher judgement"
       },
       {
-        "value": "Water/wastewater impact fees (multiple providers e.g. city, Jonah WSC, Manville WSC)",
-        "status": "Assumed",
+        "value": "Water+wastewater impact fees ~ $11,600 per LUE (2021-era, city utility); WSC-served lots differ",
+        "status": "Secondary",
         "source": {
-          "id": "hutto-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-          "url": "",
+          "id": "lockhart-ww-impact-slides-2023",
+          "title": "Lockhart Water/Wastewater Impact Fee meeting slides 5-2-2023 (Central Texas fee comparison incl. Hutto)",
+          "url": "https://www.lockhart-tx.org/upload/page/0204/Lockhart Water Wastewater Impact Fee Meeting Slides 5-2-2023.pdf",
           "read": "2026-10-11"
-        },
-        "note": "Researcher judgement"
+        }
       },
       {
         "value": "Austin-metro labour",
@@ -710,7 +708,7 @@
       "id": "hutto-setbacks",
       "ruleType": "setback-by-district",
       "area": "setbacks",
-      "change": "SF-2 (Single-family): front 25 / side 5 / street side 15 / rear 20 ft (ASSUMED - verify before relying)",
+      "change": "SF-2: front 25 / side 5 / street side 15 / rear 20 ft provisional (ASSUMED); if new UDC adopted use N-1: front 20, garage door 24, side 5, rear 20; lot width:depth >= 1:3",
       "priority": "must",
       "params": {
         "district": "SF-2 (Single-family)",
@@ -718,7 +716,16 @@
         "frontFt": 25,
         "sideFt": 5,
         "streetSideFt": 15,
-        "rearFt": 20
+        "rearFt": 20,
+        "draftN1": {
+          "frontFt": 20,
+          "garageDoorFt": 24,
+          "sideFt": 5,
+          "rearFt": 20,
+          "minLotSqFt": 4500,
+          "minLotWidthFt": 50
+        },
+        "widthToDepthMin": "1:3"
       },
       "source": {
         "id": "hutto-assumed",
@@ -785,15 +792,16 @@
       "id": "hutto-climate",
       "ruleType": "climate-zone-envelope",
       "area": "envelope",
-      "change": "Climate zone 2A envelope (2021 IECC)",
+      "change": "Climate zone 2A envelope per 2024 IECC (Hutto adopted 2024 codes)",
       "priority": "must",
       "params": {
-        "climateZone": "2A"
+        "climateZone": "2A",
+        "iecc": "2024"
       },
       "source": {
-        "id": "hutto-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "hutto-building-codes-page",
+        "title": "City of Hutto - Building Codes",
+        "url": "https://www.huttotx.gov/159/Building-Codes",
         "read": "2026-10-11"
       }
     },
@@ -801,15 +809,17 @@
       "id": "hutto-impact-fee",
       "ruleType": "impact-fee-estimate",
       "area": "estimate",
-      "change": "Add placeholder water/wastewater (and roadway if any) impact fee line; amount unknown",
+      "change": "Add water $8,832 + wastewater $2,788 impact fee (~$11,620, 2021-era) if city utility; ask provider",
       "priority": "should",
       "params": {
-        "amountUSD": null
+        "waterUsd": 8832,
+        "wastewaterUsd": 2788,
+        "verified": false
       },
       "source": {
-        "id": "hutto-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "lockhart-ww-impact-slides-2023",
+        "title": "Lockhart Water/Wastewater Impact Fee meeting slides 5-2-2023 (Central Texas fee comparison incl. Hutto)",
+        "url": "https://www.lockhart-tx.org/upload/page/0204/Lockhart Water Wastewater Impact Fee Meeting Slides 5-2-2023.pdf",
         "read": "2026-10-11"
       }
     },
@@ -845,26 +855,80 @@
         "url": "",
         "read": "2026-10-11"
       }
+    },
+    {
+      "id": "hutto-irc-2024",
+      "ruleType": "electrical-code-edition",
+      "area": "drawings",
+      "change": "Use 2024 IRC / IPC / IMC (Ord. 2025-008) and NEC 2023 - not the 2021 IRC baseline; re-check 2024 IRC changes (e.g. egress, energy tables)",
+      "priority": "must",
+      "params": {
+        "irc": "2024",
+        "iecc": "2024",
+        "ipc": "2024",
+        "nec": "2023"
+      },
+      "source": {
+        "id": "hutto-building-codes-page",
+        "title": "City of Hutto - Building Codes",
+        "url": "https://www.huttotx.gov/159/Building-Codes",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "hutto-permit-fee",
+      "ruleType": "permit-fee-formula",
+      "area": "estimate",
+      "change": "Building permit flat $1,600 for new residence (2022 schedule; verify)",
+      "priority": "should",
+      "params": {
+        "flatUsd": 1600
+      },
+      "source": {
+        "id": "hutto-fee-schedule-2022",
+        "title": "City of Hutto fee schedule Appendix A (2022 ordinance)",
+        "url": "https://www.huttotx.gov/Archive/ViewFile/Item/882",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "hutto-garage-draft",
+      "ruleType": "garage-placement",
+      "area": "plan",
+      "change": "If new UDC N-1 applies: front-entry garage door >= 24 ft from front line",
+      "priority": "nice",
+      "params": {
+        "garageDoorSetbackFt": 24,
+        "adopted": false
+      },
+      "source": {
+        "id": "hutto-udc-draft-2025-05-15",
+        "title": "Hutto Unified Development Code DRAFT 5/15/2025",
+        "url": "https://www.huttotx.gov/DocumentCenter/View/5872/Hutto_UDC_DRAFT_05152025",
+        "read": "2026-10-11"
+      }
     }
   ],
-  "plainLanguage": "Hutto most likely uses the 2021 International Residential Code, but we could not confirm the ordinance this time. Most new homes are in single-family (SF) districts or planned developments that set their own setbacks. Until verified, plan for about a 25 ft front setback, 5 ft sides and 20 ft rear. Hutto sits on some of the most expansive clay in Texas, so a geotechnical report and engineered slab are expected. Your water may come from the city or a water supply corporation, which changes tap fees.",
+  "plainLanguage": "Hutto is one of the first Austin-area cities on the newer 2024 International Residential Code (Ordinance 2025-008), with the 2023 electrical code. Most new homes are in planned developments or the SF-2 single-family district; the city is rewriting its development code, and the 2025 draft would use a 20 ft front setback with garage doors at 24 ft - check your plat for the real building lines. Hutto sits on very expansive Blackland Prairie clay, so an engineered foundation is essential. The city building permit for a new home was a flat $1,600 in 2022. Water and sewer impact fees were about $11,600 per home in 2021 when the city is your utility; many lots are served by a water supply corporation with different fees. The Edwards Aquifer rules that affect west Williamson County are not expected to apply here.",
   "openQuestions": [
-    "IRC adoption & amendments",
-    "SF district dimensional table (UDC)",
-    "Impact fees by provider"
+    "Current SF-2 dimensional table (UDC 10.403) and whether new UDC (N-1 etc.) adopted",
+    "Current (7/2026) fee schedule: building permit and impact fees",
+    "Roadway impact fee",
+    "Tree preservation thresholds",
+    "IECC edition in Ord. 2025-008",
+    "Floodplain freeboard"
   ],
   "notFound": [
-    "All values - research tooling blocked",
-    "IRC adoption ordinance & local amendments",
-    "District dimensional table",
-    "Permit fee schedule",
-    "Impact/tap fees"
+    "SF-2 setbacks",
+    "Current impact fees",
+    "Tree rules",
+    "Floodplain freeboard"
   ],
   "comparison": {
-    "irc": "2021 IRC (assumed)",
-    "energy": "2021 IECC (assumed)",
-    "plumbing": "IPC 2021 (assumed)",
-    "district": "SF-2 (Single-family)",
+    "irc": "2024 IRC (Ord. 2025-008)",
+    "energy": "2024 IECC (likely)",
+    "plumbing": "IPC 2024",
+    "district": "SF-2 / PUD (new UDC pending)",
     "setbacks": "25/5/20 (assumed)",
     "maxHeight": "35 ft (assumed)",
     "coverageFar": "not found / none",
@@ -872,8 +936,8 @@
     "engFoundation": "yes (assumed)",
     "windstorm": "no",
     "flood": "1 ft freeboard (assumed)",
-    "permitFeeExample": "not found",
-    "impactFees": "not found",
+    "permitFeeExample": "$1,600 flat (2022)",
+    "impactFees": "~$11,620 water+ww (2021-era)",
     "costFactor": "PENDING"
   }
 }
