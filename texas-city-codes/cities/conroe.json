@@ -11,15 +11,15 @@
     "blsCode": "26420"
   },
   "population": {
-    "value": null,
-    "status": "Assumed",
+    "value": 114581,
+    "status": "Secondary",
     "source": {
-      "id": "assumed",
-      "title": "Assumed",
-      "url": "",
+      "id": "houston2-ghp-pop-2024",
+      "title": "Greater Houston Partnership - Houston-area city population estimates (Census Vintage 2024)",
+      "url": "https://d9.houston.org/download_manager/50156/18719",
       "read": "2026-10-11"
     },
-    "note": "Not found: Census population (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+    "note": "Census Vintage 2024 (July 1 2024); QuickFacts shows same; April 2020 base 89,973. Seen only in a search-engine extract (direct fetch blocked in this environment)."
   },
   "zipCodesOrBoundary": {
     "value": null,
@@ -41,7 +41,7 @@
       "url": "",
       "read": "2026-10-11"
     },
-    "note": "IECC 2021 Table R301.1 places Montgomery County in Zone 2A (warm-humid); recorded from code knowledge, the table/DOE map page could not be fetched or searched in this run."
+    "note": "2021 IECC Table R301.1 county list (code knowledge; table not fetched). Hot-humid 2A."
   },
   "windstormCounty": {
     "value": false,
@@ -57,26 +57,26 @@
   "codes": {
     "irc": {
       "edition": {
-        "value": "2021 IRC",
-        "status": "Assumed",
+        "value": "2021 IRC (likely; unconfirmed)",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "conroe-permitmint-generator",
+          "title": "PermitMint - How to Get a Generator Permit in Conroe, TX (2026 Guide) (lists 2021 IRC/IFGC with local amendments, NEC 2023)",
+          "url": "https://permitmint.com/guides/generator/texas/conroe/",
           "read": "2026-10-11"
         },
-        "note": "Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment. Placeholder matching the regional pattern; verify with Conroe Building Permits."
+        "note": "Third-party permit guide lists 2021 IRC/IFGC with local amendments + NEC 2023. Only official evidence found is the older council item adopting the 2009 IRC effective Jan 1 2013 (Ch. 14, Secs. 14-81..89); a newer adoption ordinance was not surfaced. Verify with Conroe Building Dept. Seen only in a search-engine extract (direct fetch blocked in this environment)."
       },
       "ordinance": {
-        "value": null,
-        "status": "Assumed",
+        "value": "Code of Ordinances Ch. 14 (Buildings); current adopting ordinance not found",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "conroe-cc-2009-irc",
+          "title": "Conroe City Council agenda/video index - adoption of 2009 IRC/IBC (Secs. 14-81 to 14-89) effective Jan 1 2013",
+          "url": "https://conroetx.new.swagit.com/videos/66908",
           "read": "2026-10-11"
         },
-        "note": "Not found: adoption ordinance (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+        "note": "2009 IRC/IBC adoption (eff. 2013) seen in council agenda; superseding ordinance not found."
       },
       "amendments": []
     },
@@ -90,7 +90,7 @@
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment."
+        "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
       },
       "stretchCode": {
         "value": false,
@@ -101,7 +101,7 @@
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment."
+        "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
       }
     },
     "plumbing": {
@@ -113,18 +113,18 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment."
+      "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "electrical": {
-      "value": "NEC 2023",
-      "status": "Assumed",
+      "value": "NEC 2023 (third-party; unverified)",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "conroe-permitmint-generator",
+        "title": "PermitMint - How to Get a Generator Permit in Conroe, TX (2026 Guide) (lists 2021 IRC/IFGC with local amendments, NEC 2023)",
+        "url": "https://permitmint.com/guides/generator/texas/conroe/",
         "read": "2026-10-11"
       },
-      "note": "Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment. Could be NEC 2020."
+      "note": "Third-party guide only."
     },
     "mechanical": {
       "value": "IMC 2021",
@@ -135,18 +135,18 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment."
+      "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "fuelGas": {
-      "value": "IFGC 2021",
-      "status": "Assumed",
+      "value": "IFGC 2021 (third-party; unverified)",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "conroe-permitmint-generator",
+        "title": "PermitMint - How to Get a Generator Permit in Conroe, TX (2026 Guide) (lists 2021 IRC/IFGC with local amendments, NEC 2023)",
+        "url": "https://permitmint.com/guides/generator/texas/conroe/",
         "read": "2026-10-11"
       },
-      "note": "Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment."
+      "note": "Third-party guide only."
     },
     "fire": {
       "value": "IFC (edition unverified); no one/two-family sprinkler mandate expected",
@@ -157,7 +157,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment."
+      "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "wind": {
       "value": 130,
@@ -208,26 +208,26 @@
   },
   "zoning": {
     "hasZoning": {
-      "value": null,
-      "status": "Assumed",
+      "value": false,
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "conroe-crexi-nozoning",
+        "title": "Crexi listing MLK & 1st Ave Conroe TX (states City of Conroe has no Zoning Ordinance)",
+        "url": "https://www.crexi.com/properties/632769/texas-mlk-and-1st-ave---conroe-tx",
         "read": "2026-10-11"
       },
-      "note": "Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment. Conroe's land-use regulation status (zoning vs. development ordinances only) must be verified; do not assume Houston-style no-zoning."
+      "note": "Listing states the City of Conroe does not have a Zoning Ordinance; council has adopted some land-use guidelines/controls for certain areas; city issues no-zoning letters (City Planner). Corroborated by trade article calling Conroe unzoned. Setbacks come from subdivision plat building lines (Ch. 94) and deed restrictions. Seen only in a search-engine extract (direct fetch blocked in this environment)."
     },
     "typicalDistrict": {
-      "value": null,
-      "status": "Assumed",
+      "value": "None (no zoning) - plat building lines + deed restrictions govern",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "conroe-cityrulelookup-setbacks",
+        "title": "Building setbacks rules in Conroe TX (third-party summary: Ch. 94 subdivision, Ch. 14 building, Ch. 102 trees)",
+        "url": "https://cityrulelookup.com/blog/building-setbacks-rules-in-conroe-tx",
         "read": "2026-10-11"
       },
-      "note": "Not found: typical SF district (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      "note": "Setbacks set at subdivision plat level under Ch. 94 Art. VII; height governed by building code, not districts (third-party summary)."
     },
     "minLotSqFt": {
       "value": null,
@@ -238,7 +238,8 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: min lot (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      "unit": "sqft",
+      "note": "No zoning minimum; subdivision ordinance/plat governs."
     },
     "minLotWidthFt": {
       "value": null,
@@ -249,7 +250,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: lot width (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      "note": "Not found: lot width ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "minLotDepthFt": {
       "value": null,
@@ -260,7 +261,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: lot depth (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      "note": "Not found: lot depth ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "setbacksFt": {
       "front": {
@@ -272,7 +273,8 @@
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Not found: front setback (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+        "unit": "ft",
+        "note": "No zoning setbacks: use recorded plat building line / deed restrictions (user input). Typical regional plats: 20-25 ft front, 5 ft side."
       },
       "side": {
         "value": null,
@@ -283,7 +285,8 @@
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Not found: side setback (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+        "unit": "ft",
+        "note": "No zoning setbacks: use recorded plat building line / deed restrictions (user input). Typical regional plats: 20-25 ft front, 5 ft side."
       },
       "streetSide": {
         "value": null,
@@ -294,7 +297,8 @@
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Not found: streetSide setback (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+        "unit": "ft",
+        "note": "No zoning setbacks: use recorded plat building line / deed restrictions (user input). Typical regional plats: 20-25 ft front, 5 ft side."
       },
       "rear": {
         "value": null,
@@ -305,7 +309,8 @@
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Not found: rear setback (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+        "unit": "ft",
+        "note": "No zoning setbacks: use recorded plat building line / deed restrictions (user input). Typical regional plats: 20-25 ft front, 5 ft side."
       }
     },
     "maxHeightFt": {
@@ -317,7 +322,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: height (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      "note": "Not found: height ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "maxStories": {
       "value": null,
@@ -328,7 +333,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: stories (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      "note": "Not found: stories ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "maxLotCoverage": {
       "value": null,
@@ -339,7 +344,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: coverage (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      "note": "Not found: coverage ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "imperviousCover": {
       "value": null,
@@ -350,7 +355,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: impervious (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      "note": "Not found: impervious ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "far": {
       "value": null,
@@ -361,7 +366,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: FAR (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      "note": "Not found: FAR ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "parking": {
       "value": null,
@@ -372,7 +377,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: parking (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      "note": "Not found: parking ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "garageRules": {
       "value": null,
@@ -383,7 +388,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: garage (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      "note": "Not found: garage ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "adu": {
       "value": null,
@@ -394,7 +399,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: ADU (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      "note": "Not found: ADU ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "masonry": {
       "value": null,
@@ -405,20 +410,32 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: masonry (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      "note": "Not found: masonry ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "trees": {
-      "value": null,
-      "status": "Assumed",
+      "value": "Ch. 102 tree preservation incl. 30% minimum canopy standard (residential and nonresidential)",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "conroe-cityrulelookup-setbacks",
+        "title": "Building setbacks rules in Conroe TX (third-party summary: Ch. 94 subdivision, Ch. 14 building, Ch. 102 trees)",
+        "url": "https://cityrulelookup.com/blog/building-setbacks-rules-in-conroe-tx",
         "read": "2026-10-11"
       },
-      "note": "Not found: trees (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      "note": "Third-party summary of the code; verify applicability to individual lots."
     },
-    "other": []
+    "other": [
+      {
+        "value": "Adequate public facilities policy, Code Sec. 94-222",
+        "status": "Secondary",
+        "source": {
+          "id": "conroe-cityrulelookup-setbacks",
+          "title": "Building setbacks rules in Conroe TX (third-party summary: Ch. 94 subdivision, Ch. 14 building, Ch. 102 trees)",
+          "url": "https://cityrulelookup.com/blog/building-setbacks-rules-in-conroe-tx",
+          "read": "2026-10-11"
+        },
+        "note": "Referenced in council agenda per search extract."
+      }
+    ]
   },
   "process": {
     "steps": [
@@ -431,7 +448,7 @@
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment."
+        "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
       }
     ],
     "sealsRequired": [
@@ -444,7 +461,7 @@
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment."
+        "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
       }
     ],
     "inspections": [
@@ -457,7 +474,7 @@
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment."
+        "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
       }
     ],
     "reviewDays": {
@@ -469,7 +486,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: review days (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      "note": "Not found: review days ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     }
   },
   "fees": {
@@ -482,7 +499,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: permit fee formula (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      "note": "Searches for Conroe residential permit fee schedule returned other cities only. State law (2019) bars valuation-based residential fees, so expect a per-sf or flat fee."
     },
     "workedExample2400sqft": {
       "value": null,
@@ -493,7 +510,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: worked example (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      "note": "Not found: worked example ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "planReview": {
       "value": null,
@@ -504,19 +521,20 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: plan review (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      "note": "Not found: plan review ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "impactFees": [
       {
-        "value": null,
-        "status": "Assumed",
+        "value": 0,
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "conroe-ci-impact-study",
+          "title": "Community Impact: Conroe resumes impact fee study for water, wastewater and roadway projects",
+          "url": "https://communityimpact.com/conroe-montgomery/government/conroe-resumes-impact-fee-study-for-water-wastewater-and-roadway-projects/",
           "read": "2026-10-11"
         },
-        "note": "Not found: water/sewer impact fees (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+        "unit": "USD",
+        "note": "Conroe has NO water/wastewater/roadway impact fees yet: council approved a $549,500 Freese and Nichols study (June 2025); public process expected early 2027, possible adoption hearing Q4 2027. If adopted, fees assessed at final plat and collected at building permit. Lots in MUDs may have MUD fees. Seen only in a search-engine extract (direct fetch blocked in this environment)."
       }
     ],
     "tapFees": [
@@ -529,7 +547,7 @@
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Not found: tap fees; many Conroe-area subdivisions are served by MUDs (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+        "note": "Not found: tap fees; many Conroe-area subdivisions are served by MUDs ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
       }
     ]
   },
@@ -555,7 +573,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: market $/sf (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      "note": "Not found: market $/sf ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "drivers": [
       {
@@ -572,15 +590,15 @@
     ]
   },
   "flood": {
-    "value": null,
-    "status": "Assumed",
+    "value": "Finished floor at least 12 in above BFE for all new construction and substantial improvements",
+    "status": "Secondary",
     "source": {
-      "id": "assumed",
-      "title": "Assumed",
-      "url": "",
+      "id": "conroe-flood-safety-b",
+      "title": "City of Conroe - Flood Safety Information (Engineering/Floodplain Management)",
+      "url": "https://cms3.revize.com/revize/conroetx/Documents/Services/Engineering/Floodplain%20Management/Flood%20Safety/Flood%20Safety%20Information%20B.pdf",
       "read": "2026-10-11"
     },
-    "note": "Not found: Conroe flood damage prevention freeboard (Montgomery County/San Jacinto River area) (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+    "note": "City Engineering flood safety handout; 50% substantial damage rule. Free flood zone determinations from Engineering (936-522-3000). Ordinance text not read; confirm no newer 500-yr rule. Seen only in a search-engine extract (direct fetch blocked in this environment)."
   },
   "engineChanges": [
     {
@@ -616,61 +634,137 @@
       }
     },
     {
-      "id": "conroe-flood",
-      "ruleType": "flood-elevation",
-      "area": "foundation",
-      "change": "Require surveyed BFE; freeboard unknown - assume >= 1 ft until confirmed.",
-      "priority": "should",
+      "id": "conroe-no-zoning",
+      "ruleType": "no-zoning",
+      "area": "setbacks",
+      "change": "No city zoning: do not apply district setbacks/height/coverage; require user to enter plat building lines and deed-restriction setbacks.",
+      "priority": "must",
       "params": {
-        "freeboardFt": null,
-        "verified": false
+        "hasZoning": false,
+        "requirePlatBuildingLines": true,
+        "requireDeedRestrictions": true
       },
       "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "conroe-crexi-nozoning",
+        "title": "Crexi listing MLK & 1st Ave Conroe TX (states City of Conroe has no Zoning Ordinance)",
+        "url": "https://www.crexi.com/properties/632769/texas-mlk-and-1st-ave---conroe-tx",
         "read": "2026-10-11"
       }
     },
     {
-      "id": "conroe-plat",
-      "ruleType": "deed-restriction-check",
+      "id": "conroe-building-line",
+      "ruleType": "building-line-plat",
       "area": "survey",
-      "change": "Check plat building lines, HOA and MUD rules; zoning status unverified.",
-      "priority": "should",
+      "change": "Read front/side building lines from recorded subdivision plat (Ch. 94).",
+      "priority": "must",
       "params": {
-        "checkPlat": true,
-        "checkMUD": true
+        "source": "plat"
       },
       "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "conroe-cityrulelookup-setbacks",
+        "title": "Building setbacks rules in Conroe TX (third-party summary: Ch. 94 subdivision, Ch. 14 building, Ch. 102 trees)",
+        "url": "https://cityrulelookup.com/blog/building-setbacks-rules-in-conroe-tx",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "conroe-flood",
+      "ruleType": "flood-elevation",
+      "area": "foundation",
+      "change": "Finished floor >= BFE + 1.0 ft (surveyed) in SFHA.",
+      "priority": "must",
+      "params": {
+        "bfeFreeboardFt": 1.0,
+        "verified": false
+      },
+      "source": {
+        "id": "conroe-flood-safety-b",
+        "title": "City of Conroe - Flood Safety Information (Engineering/Floodplain Management)",
+        "url": "https://cms3.revize.com/revize/conroetx/Documents/Services/Engineering/Floodplain%20Management/Flood%20Safety/Flood%20Safety%20Information%20B.pdf",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "conroe-impact",
+      "ruleType": "impact-fee-estimate",
+      "area": "estimate",
+      "change": "City impact fee = $0 for now (study pending; earliest adoption late 2027); ask for MUD fees.",
+      "priority": "should",
+      "params": {
+        "cityImpactUSD": 0,
+        "reviewAfter": "2027-10-01",
+        "askMudFees": true
+      },
+      "source": {
+        "id": "conroe-ci-impact-study",
+        "title": "Community Impact: Conroe resumes impact fee study for water, wastewater and roadway projects",
+        "url": "https://communityimpact.com/conroe-montgomery/government/conroe-resumes-impact-fee-study-for-water-wastewater-and-roadway-projects/",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "conroe-irc-confirm",
+      "ruleType": "survey-input-district",
+      "area": "drawings",
+      "change": "Default 2021 IRC/IECC CZ 2A, NEC 2023, flagged unverified.",
+      "priority": "should",
+      "params": {
+        "defaultIrc": "2021 IRC",
+        "verified": false
+      },
+      "source": {
+        "id": "conroe-permitmint-generator",
+        "title": "PermitMint - How to Get a Generator Permit in Conroe, TX (2026 Guide) (lists 2021 IRC/IFGC with local amendments, NEC 2023)",
+        "url": "https://permitmint.com/guides/generator/texas/conroe/",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "conroe-trees",
+      "ruleType": "tree-preservation",
+      "area": "survey",
+      "change": "Flag Ch. 102 tree/canopy rules (30% canopy standard) - capture existing trees on survey.",
+      "priority": "nice",
+      "params": {
+        "canopyMinFraction": 0.3
+      },
+      "source": {
+        "id": "conroe-cityrulelookup-setbacks",
+        "title": "Building setbacks rules in Conroe TX (third-party summary: Ch. 94 subdivision, Ch. 14 building, Ch. 102 trees)",
+        "url": "https://cityrulelookup.com/blog/building-setbacks-rules-in-conroe-tx",
         "read": "2026-10-11"
       }
     }
   ],
-  "plainLanguage": "Conroe is outside the Texas coastal windstorm area, so no state windstorm certificate is needed. We could not confirm Conroe's adopted code edition, lot rules, flood rule or fees in this research pass; the values shown are placeholders. Check your subdivision plat, HOA and utility district (MUD) rules, and confirm with Conroe's permit office.",
+  "plainLanguage": "Conroe has no zoning ordinance, so there are no city zoning districts. Your setbacks come from the building lines on your subdivision plat and from deed or HOA restrictions. Have these ready. Conroe is not in the state windstorm area. In a mapped floodplain, the finished floor must be at least 12 inches above the 100-year flood level. Conroe does not charge water, sewer or road impact fees today. A study is under way and fees could be adopted around late 2027. We could not confirm the city's current code editions (likely 2021 IRC and NEC 2023) or its permit fee; ask the Building Department.",
   "openQuestions": [
-    "Everything: code editions, zoning status, setbacks, flood freeboard, permit and impact fees"
+    "Current IRC/IECC adoption ordinance (2009 IRC adopted 2013; newer?)",
+    "Residential permit fee schedule",
+    "Any 500-yr floor rule in newer drainage criteria",
+    "Impact fee adoption (~2027)",
+    "Land-use controls in specific geographic areas"
   ],
   "notFound": [
-    "All city-specific values - search budget exhausted, fetch blocked"
+    "adoption ordinance for current codes",
+    "permit fee formula/example",
+    "tap fees",
+    "market $/sf",
+    "review days"
   ],
   "comparison": {
-    "irc": "2021 IRC (unverified)",
+    "irc": "2021 IRC (third-party; unverified)",
     "energy": "unverified",
     "plumbing": "unverified",
-    "district": "not found",
-    "setbacks": "not found",
-    "maxHeight": "not found",
-    "coverageFar": "not found",
+    "district": "none - no zoning",
+    "setbacks": "plat/deed only",
+    "maxHeight": "building code only",
+    "coverageFar": "none (plat)",
     "masonry": "not found",
     "engFoundation": "likely (unverified)",
     "windstorm": "no",
-    "flood": "not found",
+    "flood": "BFE+12 in",
     "permitFeeExample": "not found",
-    "impactFees": "not found",
+    "impactFees": "$0 (study pending, ~2027)",
     "costFactor": "PENDING"
   }
 }

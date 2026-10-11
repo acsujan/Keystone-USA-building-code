@@ -12,18 +12,18 @@
     "blsCode": "26420"
   },
   "population": {
-    "value": null,
-    "status": "Assumed",
+    "value": 118456,
+    "status": "Secondary",
     "source": {
-      "id": "assumed",
-      "title": "Assumed",
-      "url": "",
+      "id": "houston2-ghp-pop-2024",
+      "title": "Greater Houston Partnership - Houston-area city population estimates (Census Vintage 2024)",
+      "url": "https://d9.houston.org/download_manager/50156/18719",
       "read": "2026-10-11"
     },
-    "note": "Not found: Census population (search budget exhausted). 2020 Census ~114k (general knowledge, unverified)."
+    "note": "Census Vintage 2024 (July 1 2024) estimate as reported by Greater Houston Partnership; ACS 2024 1-yr gives 119,398 (censusreporter). Seen only in a search-engine extract (direct fetch blocked in this environment)."
   },
   "zipCodesOrBoundary": {
-    "value": null,
+    "value": "77573, 77565 (partial); verify with city limits map",
     "status": "Assumed",
     "source": {
       "id": "assumed",
@@ -31,7 +31,7 @@
       "url": "",
       "read": "2026-10-11"
     },
-    "note": "Not found: ZIP list / city limits map; commonly 77573, 77565 (unverified)"
+    "note": "ZIPs from general knowledge; city-limits map not reached."
   },
   "climateZone": {
     "value": "2A",
@@ -42,7 +42,7 @@
       "url": "",
       "read": "2026-10-11"
     },
-    "note": "IECC 2021 Table R301.1 places Galveston County in Zone 2A (warm-humid); recorded from code knowledge, the table/DOE map page could not be fetched or searched in this run."
+    "note": "2021 IECC Table R301.1 county list (code knowledge; table not fetched). Hot-humid 2A."
   },
   "windstormCounty": {
     "value": true,
@@ -59,39 +59,52 @@
     "irc": {
       "edition": {
         "value": "2021 IRC",
-        "status": "Assumed",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "league-city-cc-agenda-ch22-2021",
+          "title": "League City Council agenda/video - public hearing & action amending Ch. 22 Building to adopt 2021 I-codes with local amendments",
+          "url": "https://leaguecitytx.new.swagit.com/videos/246207",
           "read": "2026-10-11"
         },
-        "note": "League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment. Placeholder matching the regional pattern (Pearland confirmed 2021 I-codes); verify with League City Building Department."
+        "note": "Council agenda (c. 2022) for public hearing and ordinance amending Ch. 22 to adopt 2021 IRC/IBC/IFGC/IMC/IPC/IECC/IPMC with local amendments; vote and ordinance number not seen. No 2024 adoption found. Seen only in a search-engine extract (direct fetch blocked in this environment)."
       },
       "ordinance": {
-        "value": null,
-        "status": "Assumed",
+        "value": "Ch. 22 'Buildings and Building Regulations' amendment (ordinance no. not found)",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "league-city-cc-agenda-ch22-2021",
+          "title": "League City Council agenda/video - public hearing & action amending Ch. 22 Building to adopt 2021 I-codes with local amendments",
+          "url": "https://leaguecitytx.new.swagit.com/videos/246207",
           "read": "2026-10-11"
         },
-        "note": "Not found: adoption ordinance"
+        "note": "Ordinance number not visible in agenda extract."
       },
-      "amendments": []
+      "amendments": [
+        {
+          "topic": "other",
+          "summary": "Local amendments to the 2021 codes were proposed with the Ch. 22 adoption; text not reached.",
+          "section": "Code of Ordinances Ch. 22",
+          "status": "Secondary",
+          "source": {
+            "id": "league-city-cc-agenda-ch22-2021",
+            "title": "League City Council agenda/video - public hearing & action amending Ch. 22 Building to adopt 2021 I-codes with local amendments",
+            "url": "https://leaguecitytx.new.swagit.com/videos/246207",
+            "read": "2026-10-11"
+          }
+        }
+      ]
     },
     "energy": {
       "edition": {
         "value": "2021 IECC",
-        "status": "Assumed",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "league-city-cc-agenda-ch22-2021",
+          "title": "League City Council agenda/video - public hearing & action amending Ch. 22 Building to adopt 2021 I-codes with local amendments",
+          "url": "https://leaguecitytx.new.swagit.com/videos/246207",
           "read": "2026-10-11"
         },
-        "note": "League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment."
+        "note": "Listed in the same Ch. 22 adoption item (energy conservation code, 2021). Seen only in a search-engine extract (direct fetch blocked in this environment)."
       },
       "stretchCode": {
         "value": false,
@@ -102,22 +115,22 @@
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment."
+        "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
       }
     },
     "plumbing": {
       "value": "IPC 2021",
-      "status": "Assumed",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "league-city-cc-agenda-ch22-2021",
+        "title": "League City Council agenda/video - public hearing & action amending Ch. 22 Building to adopt 2021 I-codes with local amendments",
+        "url": "https://leaguecitytx.new.swagit.com/videos/246207",
         "read": "2026-10-11"
       },
-      "note": "League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment."
+      "note": "2021 plumbing code (International) listed in Ch. 22 adoption item. Seen only in a search-engine extract (direct fetch blocked in this environment)."
     },
     "electrical": {
-      "value": "NEC 2023",
+      "value": "NEC 2020 or 2023 (unverified)",
       "status": "Assumed",
       "source": {
         "id": "assumed",
@@ -125,29 +138,29 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment. Could also be NEC 2020."
+      "note": "NEC edition not in the Ch. 22 adoption extract; searches for League City electrical code edition returned other cities only."
     },
     "mechanical": {
       "value": "IMC 2021",
-      "status": "Assumed",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "league-city-cc-agenda-ch22-2021",
+        "title": "League City Council agenda/video - public hearing & action amending Ch. 22 Building to adopt 2021 I-codes with local amendments",
+        "url": "https://leaguecitytx.new.swagit.com/videos/246207",
         "read": "2026-10-11"
       },
-      "note": "League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment."
+      "note": "Seen only in a search-engine extract (direct fetch blocked in this environment)."
     },
     "fuelGas": {
       "value": "IFGC 2021",
-      "status": "Assumed",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "league-city-cc-agenda-ch22-2021",
+        "title": "League City Council agenda/video - public hearing & action amending Ch. 22 Building to adopt 2021 I-codes with local amendments",
+        "url": "https://leaguecitytx.new.swagit.com/videos/246207",
         "read": "2026-10-11"
       },
-      "note": "League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment."
+      "note": "Seen only in a search-engine extract (direct fetch blocked in this environment)."
     },
     "fire": {
       "value": "IFC (edition unverified); no one/two-family sprinkler mandate expected",
@@ -158,7 +171,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment."
+      "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "wind": {
       "value": 155,
@@ -210,36 +223,37 @@
   "zoning": {
     "hasZoning": {
       "value": true,
-      "status": "Assumed",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "league-city-pc-agenda-rsf7",
+        "title": "League City Planning Commission agenda - RSF-7-PUD (min lot 7,000 sf), Ch. 125 Arts. 3-5",
+        "url": "https://leaguecitytx.new.swagit.com/videos/246547",
         "read": "2026-10-11"
       },
-      "note": "League City has a Unified Development Code with zoning districts (general knowledge); not verified. League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment."
+      "note": "Chapter 125 Unified Development Code, Art. 3 Zoning, Art. 4 Site Development Standards. Seen only in a search-engine extract (direct fetch blocked in this environment)."
     },
     "typicalDistrict": {
-      "value": null,
-      "status": "Assumed",
+      "value": "RSF-7 (Single-Family Residential, 7,000 sf min lot)",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "league-city-pc-agenda-rsf7",
+        "title": "League City Planning Commission agenda - RSF-7-PUD (min lot 7,000 sf), Ch. 125 Arts. 3-5",
+        "url": "https://leaguecitytx.new.swagit.com/videos/246547",
         "read": "2026-10-11"
       },
-      "note": "Not found: typical SF district (RSF-7 / RSF-5 style districts expected) (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      "note": "Other districts: RSF-20, RSF-10, RSF-5 and many PUD overlays (RSF-7-PUD). Master-planned subdivisions often PUD. Seen only in a search-engine extract (direct fetch blocked in this environment)."
     },
     "minLotSqFt": {
-      "value": null,
-      "status": "Assumed",
+      "value": 7000,
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "league-city-pc-agenda-rsf7",
+        "title": "League City Planning Commission agenda - RSF-7-PUD (min lot 7,000 sf), Ch. 125 Arts. 3-5",
+        "url": "https://leaguecitytx.new.swagit.com/videos/246547",
         "read": "2026-10-11"
       },
-      "note": "Not found: min lot (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      "unit": "sqft",
+      "note": "RSF-7 = minimum lot 7,000 sf per agenda description. Seen only in a search-engine extract (direct fetch blocked in this environment)."
     },
     "minLotWidthFt": {
       "value": null,
@@ -250,7 +264,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: lot width (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      "note": "Not found: lot width ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "minLotDepthFt": {
       "value": null,
@@ -261,22 +275,23 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: lot depth (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      "note": "Not found: lot depth ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "setbacksFt": {
       "front": {
-        "value": null,
-        "status": "Assumed",
+        "value": 25,
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "league-city-zba-va-25-0008",
+          "title": "League City ZBA agenda VA-25-0008 (406 Coburn St) - 25 ft front yard, RSF-7, UDC Table 3.3.2",
+          "url": "https://leaguecitytx.new.swagit.com/videos/352612",
           "read": "2026-10-11"
         },
-        "note": "Not found: front setback (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+        "unit": "ft",
+        "note": "ZBA variance item VA-25-0008 cites a required 25-ft front yard on an RSF-7 lot per UDC Table 3.3.2. Seen only in a search-engine extract (direct fetch blocked in this environment)."
       },
       "side": {
-        "value": null,
+        "value": 5,
         "status": "Assumed",
         "source": {
           "id": "assumed",
@@ -284,10 +299,11 @@
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Not found: side setback (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+        "unit": "ft",
+        "note": "Not found for RSF-7; third-party guide gives interior side 5-7.5 ft range (siteplancreator). Using 5 ft placeholder."
       },
       "streetSide": {
-        "value": null,
+        "value": 15,
         "status": "Assumed",
         "source": {
           "id": "assumed",
@@ -295,10 +311,11 @@
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Not found: streetSide setback (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+        "unit": "ft",
+        "note": "Not found; regional typical 10-15 ft. Placeholder."
       },
       "rear": {
-        "value": null,
+        "value": 20,
         "status": "Assumed",
         "source": {
           "id": "assumed",
@@ -306,11 +323,12 @@
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Not found: rear setback (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+        "unit": "ft",
+        "note": "Not found for RSF-7; third-party guide gives rear 10-20 ft range. Using 20 ft (conservative)."
       }
     },
     "maxHeightFt": {
-      "value": null,
+      "value": 35,
       "status": "Assumed",
       "source": {
         "id": "assumed",
@@ -318,7 +336,8 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: height (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      "unit": "ft",
+      "note": "UDC Sec. 125-4.10 regulates height by district (per third-party summary); RSF base value not found. 35 ft placeholder."
     },
     "maxStories": {
       "value": null,
@@ -329,7 +348,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: stories (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      "note": "Not found: stories ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "maxLotCoverage": {
       "value": null,
@@ -340,7 +359,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: coverage (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      "note": "Not found: coverage ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "imperviousCover": {
       "value": null,
@@ -351,7 +370,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: impervious (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      "note": "Not found: impervious ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "far": {
       "value": null,
@@ -362,7 +381,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: FAR (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      "note": "Not found: FAR ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "parking": {
       "value": null,
@@ -373,7 +392,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: parking (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      "note": "Not found: parking ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "garageRules": {
       "value": null,
@@ -384,7 +403,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: garage rules (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      "note": "Not found: garage rules ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "adu": {
       "value": null,
@@ -395,7 +414,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: ADU (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      "note": "Not found: ADU ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "masonry": {
       "value": null,
@@ -406,7 +425,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: masonry (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      "note": "Not found: masonry ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "trees": {
       "value": null,
@@ -417,9 +436,21 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: trees (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      "note": "Not found: trees ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
-    "other": []
+    "other": [
+      {
+        "value": "Encroachments: balconies/stairs/architectural features may project 18 in into RSF setbacks (Sec. 125-4.2, per third-party summary)",
+        "status": "Secondary",
+        "source": {
+          "id": "league-city-cityrulelookup-setbacks",
+          "title": "Building setbacks rules in League City TX (third-party summary of Ch. 125)",
+          "url": "https://cityrulelookup.com/blog/building-setbacks-rules-in-league-city-tx",
+          "read": "2026-10-11"
+        },
+        "note": "Third-party summary of the UDC."
+      }
+    ]
   },
   "process": {
     "steps": [
@@ -458,7 +489,7 @@
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment."
+        "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
       }
     ],
     "reviewDays": {
@@ -470,31 +501,32 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: review days (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      "note": "Not found: review days ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     }
   },
   "fees": {
     "permitFormula": {
-      "value": null,
-      "status": "Assumed",
+      "value": "$0.40 per sq ft for building & inspection fees (new/improved residences)",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "league-city-ci-permit-sf",
+        "title": "Community Impact: League City updates building permitting process, zoning ordinances ($0.40/sf residential)",
+        "url": "https://communityimpact.com/bay-area/city-county/league-city-updates-building-permitting-process-zoning-ordinances/",
         "read": "2026-10-11"
       },
-      "note": "Not found: permit fee formula (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      "note": "Community Impact report on switch from valuation to area after 2019 state law (HB 852). Date of article not shown; confirm current fee schedule. Seen only in a search-engine extract (direct fetch blocked in this environment)."
     },
     "workedExample2400sqft": {
-      "value": null,
-      "status": "Assumed",
+      "value": 1136,
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "league-city-ci-permit-sf",
+        "title": "Community Impact: League City updates building permitting process, zoning ordinances ($0.40/sf residential)",
+        "url": "https://communityimpact.com/bay-area/city-county/league-city-updates-building-permitting-process-zoning-ordinances/",
         "read": "2026-10-11"
       },
-      "note": "Not found: worked fee example (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      "unit": "USD",
+      "note": "Assume fee applies to total roofed area: (2,400 sf house + 440 sf garage) = 2,840 sf x $0.40 = $1,136. If garage excluded: 2,400 x 0.40 = $960. Plan review/trade fees not included."
     },
     "planReview": {
       "value": null,
@@ -505,19 +537,20 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: plan review (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      "note": "Not found; may be included in the per-sf fee."
     },
     "impactFees": [
       {
-        "value": null,
-        "status": "Assumed",
+        "value": 13342,
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "league-city-ci-impact-93",
+          "title": "Community Impact: League City impact fees set to increase 93% (May 24 2023)",
+          "url": "https://communityimpact.com/houston/bay-area/government/2023/05/24/league-city-impact-fees-set-to-increase-93",
           "read": "2026-10-11"
         },
-        "note": "Not found: water/wastewater impact fees (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+        "unit": "USD",
+        "note": "Water + wastewater impact fee per single-family home rose ~93% from $6,134-$7,668 to $11,860-$14,825 (council vote 6-1 on June 13 2023, effective Dec 1 2023); value = midpoint of range. Range depends on service area/meter; confirm current schedule (2025 CI piece uses 3/4-in meter table). Seen only in a search-engine extract (direct fetch blocked in this environment)."
       }
     ],
     "tapFees": [
@@ -530,7 +563,7 @@
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Not found: tap fees; many League City subdivisions are in MUDs that set their own fees (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+        "note": "City tap fee not found. Many subdivisions are in MUDs that set their own fees. Monthly base water rate 5/8-3/4 in meter $9.08 (FY2025-26) per Community Impact - utility rate, not a tap fee."
       }
     ]
   },
@@ -556,7 +589,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: market $/sf (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      "note": "Not found: market $/sf ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "drivers": [
       {
@@ -571,28 +604,39 @@
         "note": "Read via search-engine extract on 2026-10-11; direct page fetch was blocked in this environment."
       },
       {
-        "value": "Flood elevation / fill near Clear Creek & Dickinson Bayou",
-        "status": "Assumed",
+        "value": "Elevation to BFE+24 in / 500-yr+3 in may require extra fill or raised slab near Clear Creek & Dickinson Bayou",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "league-city-ci-flood-2018",
+          "title": "Community Impact: League City approves flood mitigation efforts, new development standards",
+          "url": "https://communityimpact.com/bay-area/city-county/league-city-approves-flood-mitigation-efforts-new-development-standards/",
           "read": "2026-10-11"
         },
-        "note": "Regional; ordinance not read."
+        "note": "Seen only in a search-engine extract (direct fetch blocked in this environment)."
+      },
+      {
+        "value": "Impact fees ~$11.9k-$14.8k water+wastewater per home since Dec 2023",
+        "status": "Secondary",
+        "source": {
+          "id": "league-city-ci-impact-93",
+          "title": "Community Impact: League City impact fees set to increase 93% (May 24 2023)",
+          "url": "https://communityimpact.com/houston/bay-area/government/2023/05/24/league-city-impact-fees-set-to-increase-93",
+          "read": "2026-10-11"
+        },
+        "note": "Seen only in a search-engine extract (direct fetch blocked in this environment)."
       }
     ]
   },
   "flood": {
-    "value": null,
-    "status": "Assumed",
+    "value": "New buildings: lowest floor >= 24 in above BFE or 3 in above 500-yr flood elevation (2018 rule; 2022 amendment allows variance for infill lots in older subdivisions)",
+    "status": "Secondary",
     "source": {
-      "id": "assumed",
-      "title": "Assumed",
-      "url": "",
+      "id": "league-city-ci-flood-2018",
+      "title": "Community Impact: League City approves flood mitigation efforts, new development standards",
+      "url": "https://communityimpact.com/bay-area/city-county/league-city-approves-flood-mitigation-efforts-new-development-standards/",
       "read": "2026-10-11"
     },
-    "note": "Not found: League City flood damage prevention freeboard (city is known to require freeboard above BFE; amount unverified) (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+    "note": "Oct 2018 council change raised standard from 18 in above BFE/street crown to 24 in above BFE or 3 in above 500-yr (reads as whichever is higher in practice - confirm). July 2022 update lets owners of fill-in lots in affected older subdivisions request variance from the 500-yr+3 in rule. Ordinance text not read. Seen only in a search-engine extract (direct fetch blocked in this environment)."
   },
   "engineChanges": [
     {
@@ -665,23 +709,6 @@
       }
     },
     {
-      "id": "league-city-flood",
-      "ruleType": "flood-elevation",
-      "area": "foundation",
-      "change": "Require surveyed BFE and apply city freeboard (amount unverified; assume >= 1-2 ft until confirmed).",
-      "priority": "should",
-      "params": {
-        "freeboardFt": null,
-        "verified": false
-      },
-      "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
-        "read": "2026-10-11"
-      }
-    },
-    {
       "id": "league-city-plat",
       "ruleType": "deed-restriction-check",
       "area": "survey",
@@ -697,34 +724,150 @@
         "url": "",
         "read": "2026-10-11"
       }
+    },
+    {
+      "id": "league-city-flood",
+      "ruleType": "flood-elevation",
+      "area": "foundation",
+      "change": "Set lowest finished floor at the higher of BFE + 2.0 ft or 500-yr elevation + 0.25 ft (surveyed); allow user override if lot has 2022 infill variance.",
+      "priority": "must",
+      "params": {
+        "bfeFreeboardFt": 2.0,
+        "fiveHundredYrPlusFt": 0.25,
+        "useHigher": true,
+        "verified": false
+      },
+      "source": {
+        "id": "league-city-ci-flood-2018",
+        "title": "Community Impact: League City approves flood mitigation efforts, new development standards",
+        "url": "https://communityimpact.com/bay-area/city-county/league-city-approves-flood-mitigation-efforts-new-development-standards/",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "league-city-setbacks",
+      "ruleType": "setback-by-district",
+      "area": "setbacks",
+      "change": "RSF-7: front 25 ft (Secondary); side 5 ft / rear 20 ft / street side 15 ft placeholders until UDC Table 3.3.2 is read; PUD lots use plat values.",
+      "priority": "must",
+      "params": {
+        "district": "RSF-7",
+        "frontFt": 25,
+        "sideFt": 5,
+        "rearFt": 20,
+        "streetSideFt": 15,
+        "sideRearVerified": false
+      },
+      "source": {
+        "id": "league-city-zba-va-25-0008",
+        "title": "League City ZBA agenda VA-25-0008 (406 Coburn St) - 25 ft front yard, RSF-7, UDC Table 3.3.2",
+        "url": "https://leaguecitytx.new.swagit.com/videos/352612",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "league-city-lot",
+      "ruleType": "lot-min-size",
+      "area": "survey",
+      "change": "RSF-7 minimum lot 7,000 sf.",
+      "priority": "should",
+      "params": {
+        "minLotSqFt": 7000
+      },
+      "source": {
+        "id": "league-city-pc-agenda-rsf7",
+        "title": "League City Planning Commission agenda - RSF-7-PUD (min lot 7,000 sf), Ch. 125 Arts. 3-5",
+        "url": "https://leaguecitytx.new.swagit.com/videos/246547",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "league-city-permit-fee",
+      "ruleType": "permit-fee-formula",
+      "area": "estimate",
+      "change": "Building permit = $0.40 x sq ft.",
+      "priority": "should",
+      "params": {
+        "ratePerSqFt": 0.4,
+        "exampleUSD": 1136
+      },
+      "source": {
+        "id": "league-city-ci-permit-sf",
+        "title": "Community Impact: League City updates building permitting process, zoning ordinances ($0.40/sf residential)",
+        "url": "https://communityimpact.com/bay-area/city-county/league-city-updates-building-permitting-process-zoning-ordinances/",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "league-city-impact",
+      "ruleType": "impact-fee-estimate",
+      "area": "estimate",
+      "change": "Add water+wastewater impact fee $11,860-$14,825 per home (use $13,342 midpoint) unless lot is in a MUD with its own fees.",
+      "priority": "must",
+      "params": {
+        "lowUSD": 11860,
+        "highUSD": 14825,
+        "defaultUSD": 13342
+      },
+      "source": {
+        "id": "league-city-ci-impact-93",
+        "title": "Community Impact: League City impact fees set to increase 93% (May 24 2023)",
+        "url": "https://communityimpact.com/houston/bay-area/government/2023/05/24/league-city-impact-fees-set-to-increase-93",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "league-city-codes",
+      "ruleType": "energy-compliance-doc",
+      "area": "drawings",
+      "change": "City permit set to 2021 IRC/IECC (CZ 2A); separate TDI windstorm submittal to 2024 IRC.",
+      "priority": "should",
+      "params": {
+        "cityIrc": "2021 IRC",
+        "cityIecc": "2021 IECC",
+        "tdiIrc": "2024 IRC"
+      },
+      "source": {
+        "id": "league-city-cc-agenda-ch22-2021",
+        "title": "League City Council agenda/video - public hearing & action amending Ch. 22 Building to adopt 2021 I-codes with local amendments",
+        "url": "https://leaguecitytx.new.swagit.com/videos/246207",
+        "read": "2026-10-11"
+      }
     }
   ],
-  "plainLanguage": "All of League City's Galveston County area is in the state's 'Inland I' windstorm zone, so every new house needs a Texas Department of Insurance windstorm certificate (WPI-8) - there is no I-45 dividing line. That means a TDI-appointed engineer reviews the plans and inspects during construction, and windows, doors and roof connections must meet higher wind ratings. Since April 1, 2026, TDI checks windstorm work against the 2024 IRC. We could not confirm League City's own code edition, setbacks, flood rule or fees in this research pass; treat those as unknown and confirm with the city.",
+  "plainLanguage": "League City uses the 2021 International Residential and Energy codes for city permits. Every new house in the Galveston County part of the city is in the state's 'Inland I' windstorm zone, so you also need a Texas Department of Insurance windstorm certificate (WPI-8), checked against the 2024 IRC. The usual single-family zone is RSF-7: lots of at least 7,000 sq ft and a 25-ft front setback; side and rear setbacks still need to be confirmed, and many neighborhoods are PUDs with their own plat lines. Since 2018 the city requires new homes to sit at least 24 inches above the 100-year flood level or 3 inches above the 500-year level. The building permit is about $0.40 per square foot (roughly $1,100 for a 2,400 sq ft house with garage), but water and sewer impact fees are much larger - about $11,900 to $14,800 per home since December 2023, unless your lot is in a MUD.",
   "openQuestions": [
-    "Adopted IRC/IECC/NEC editions and amendments",
-    "UDC typical district and setbacks",
-    "Flood freeboard",
-    "Permit fee formula, impact fees",
-    "Masonry/garage rules",
-    "League City parcels in Harris County: windstorm status"
+    "RSF-7 side/rear/street-side setbacks, height and coverage (UDC Table 3.3.2)",
+    "NEC edition",
+    "Ch. 22 ordinance number and local amendment text (foundation?)",
+    "Is flood rule 'whichever higher'? current text after 2022 amendment",
+    "Current impact fee schedule by service area",
+    "League City parcels in Harris County: windstorm status",
+    "Masonry/garage rules in PUDs"
   ],
   "notFound": [
-    "Everything except TDI windstorm status - search budget exhausted, fetch blocked"
+    "UDC dimensional table (side/rear/height/coverage)",
+    "NEC edition",
+    "adoption ordinance number",
+    "plan review fee",
+    "city tap fees",
+    "market $/sf",
+    "review days"
   ],
   "comparison": {
-    "irc": "2021 IRC (unverified)",
-    "energy": "2021 IECC (unverified)",
-    "plumbing": "unverified",
-    "district": "not found",
-    "setbacks": "not found",
-    "maxHeight": "not found",
+    "irc": "2021 IRC",
+    "energy": "2021 IECC",
+    "plumbing": "IPC 2021",
+    "district": "RSF-7",
+    "setbacks": "25/5*/20* (*placeholder)",
+    "maxHeight": "35 ft (placeholder)",
     "coverageFar": "not found",
     "masonry": "not found",
     "engFoundation": "likely (unverified)",
     "windstorm": "yes - Inland I, WPI-8 (whole city)",
-    "flood": "not found",
-    "permitFeeExample": "not found",
-    "impactFees": "not found",
+    "flood": "BFE+24 in or 500-yr+3 in",
+    "permitFeeExample": "$1,136",
+    "impactFees": "$11,860-$14,825 water+ww",
     "costFactor": "PENDING"
   }
 }

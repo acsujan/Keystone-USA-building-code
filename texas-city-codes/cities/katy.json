@@ -1,727 +1,784 @@
 {
- "id": "katy",
- "name": "City of Katy",
- "state": "TX",
- "tier": 2,
- "counties": [
-  "Harris",
-  "Fort Bend",
-  "Waller"
- ],
- "msa": {
-  "name": "Houston-Pasadena-The Woodlands, TX",
-  "blsCode": "26420"
- },
- "population": {
-  "value": 26360,
-  "status": "Secondary",
-  "source": {
-   "id": "katy-census-qf",
-   "title": "U.S. Census Bureau QuickFacts: Katy city, Texas",
-   "url": "https://census.gov/quickfacts/fact/table/katycitytexas,inglesidecitytexas/PST045223",
-   "read": "2026-10-11"
+  "id": "katy",
+  "name": "City of Katy",
+  "state": "TX",
+  "tier": 2,
+  "counties": [
+    "Harris",
+    "Fort Bend",
+    "Waller"
+  ],
+  "msa": {
+    "name": "Houston-Pasadena-The Woodlands, TX",
+    "blsCode": "26420"
   },
-  "note": "Census Vintage 2023 estimate (QuickFacts snippet); +20.5% since 2020."
- },
- "zipCodesOrBoundary": {
-  "value": null,
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed - not researched",
-   "url": "",
-   "read": "2026-10-11"
+  "population": {
+    "value": 27741,
+    "status": "Secondary",
+    "source": {
+      "id": "houston2-ghp-pop-2024",
+      "title": "Greater Houston Partnership - Houston-area city population estimates (Census Vintage 2024)",
+      "url": "https://d9.houston.org/download_manager/50156/18719",
+      "read": "2026-10-11"
+    },
+    "note": "Census Vintage 2024 (July 1 2024) per Greater Houston Partnership; V2023 was 26,360. Seen only in a search-engine extract (direct fetch blocked in this environment)."
   },
-  "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
- },
- "climateZone": {
-  "value": "2A",
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed - IECC county list from background knowledge",
-   "url": "",
-   "read": "2026-10-11"
-  },
-  "note": "2021 IECC Table R301.1: Harris/Fort Bend/Waller counties are 2A (hot-humid); not re-fetched."
- },
- "windstormCounty": {
-  "value": false,
-  "status": "Secondary",
-  "source": {
-   "id": "tdi-wind-harris",
-   "title": "TDI windstorm designated catastrophe area map - Harris County",
-   "url": "https://tdi.texas.gov/wind/maps/harris.html",
-   "read": "2026-10-11"
-  },
-  "note": "Not in TDI catastrophe area (Harris County part is west of Houston, far from SH 146; Fort Bend and Waller are not coastal catastrophe counties)."
- },
- "codes": {
-  "irc": {
-   "edition": {
+  "zipCodesOrBoundary": {
     "value": null,
     "status": "Assumed",
     "source": {
-     "id": "assumed",
-     "title": "Assumed - adoption not researched",
-     "url": "",
-     "read": "2026-10-11"
+      "id": "assumed",
+      "title": "Assumed - not researched",
+      "url": "",
+      "read": "2026-10-11"
     },
-    "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched. Tex. Local Gov't Code 214.212 makes the IRC (as of May 1, 2008) the statewide floor; most Houston-area suburbs have adopted 2018 or 2021 IRC - confirm."
-   },
-   "ordinance": {
-    "value": null,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - not researched",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-   },
-   "amendments": []
+    "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
   },
-  "energy": {
-   "edition": {
-    "value": null,
+  "climateZone": {
+    "value": "2A",
     "status": "Assumed",
     "source": {
-     "id": "assumed",
-     "title": "Assumed - not researched",
-     "url": "",
-     "read": "2026-10-11"
+      "id": "assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
     },
-    "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched. State minimum residential energy code is set by SECO (Health & Safety Code ch. 388)."
-   },
-   "stretchCode": {
+    "note": "2021 IECC Table R301.1 county list (code knowledge; table not fetched). Hot-humid 2A."
+  },
+  "windstormCounty": {
     "value": false,
-    "status": "Assumed",
+    "status": "Secondary",
     "source": {
-     "id": "assumed",
-     "title": "Assumed - none known",
-     "url": "",
-     "read": "2026-10-11"
+      "id": "tdi-wind-harris",
+      "title": "TDI windstorm designated catastrophe area map - Harris County",
+      "url": "https://tdi.texas.gov/wind/maps/harris.html",
+      "read": "2026-10-11"
     },
-    "note": "No stretch code known for Texas suburbs."
-   }
+    "note": "Not in TDI catastrophe area (Harris County part is west of Houston, far from SH 146; Fort Bend and Waller are not coastal catastrophe counties)."
   },
-  "plumbing": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched. Texas cities may use IPC or UPC; many Houston-area suburbs use IPC - confirm."
-  },
-  "electrical": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  },
-  "mechanical": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  },
-  "fuelGas": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  },
-  "fire": {
-   "value": "No one/two-family sprinkler mandate assumed",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - Texas practice",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  },
-  "wind": {
-   "value": "Roughly 130-140 mph Vult (ASCE 7-16 Risk II) - confirm by address",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - regional background",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  },
-  "hailRoofing": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  },
-  "seismic": {
-   "value": "SDC A",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - Gulf Coast low seismicity",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not read."
-  },
-  "frostDepth": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not read",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "unit": "in",
-   "note": "Frost negligible; use IRC R403.1.4 12 in minimum."
-  }
- },
- "zoning": {
-  "hasZoning": {
-   "value": true,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - background knowledge",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  },
-  "minLotSqFt": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "unit": "sqft",
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  },
-  "minLotWidthFt": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  },
-  "minLotDepthFt": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  },
-  "setbacksFt": {
-   "front": {
-    "value": null,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - not researched",
-     "url": "",
-     "read": "2026-10-11"
+  "codes": {
+    "irc": {
+      "edition": {
+        "value": "2021 IRC",
+        "status": "Secondary",
+        "source": {
+          "id": "katy-cc-agenda-2021-codes",
+          "title": "City of Katy council agenda/video - amend Ch. 3 Art. 3.02 to adopt 2021 I-codes, 2023 NEC, local amendments (BSC rec. 09-27-2023)",
+          "url": "https://katytx.new.swagit.com/videos/277280",
+          "read": "2026-10-11"
+        },
+        "note": "Council agenda (late 2023) to amend Ch. 3 Art. 3.02 adopting 2021 I-codes + 2023 NEC with local amendments; third-party guide says 2021 IRC effective Jan 1 2024 (Ord. 3116 cited for pool code). Vote not seen in extract. Seen only in a search-engine extract (direct fetch blocked in this environment)."
+      },
+      "ordinance": {
+        "value": "Code Ch. 3 'Building Regulations' Art. 3.02 amendment (2023; number not confirmed)",
+        "status": "Secondary",
+        "source": {
+          "id": "katy-cc-agenda-2021-codes",
+          "title": "City of Katy council agenda/video - amend Ch. 3 Art. 3.02 to adopt 2021 I-codes, 2023 NEC, local amendments (BSC rec. 09-27-2023)",
+          "url": "https://katytx.new.swagit.com/videos/277280",
+          "read": "2026-10-11"
+        },
+        "note": "Third-party guide cites Ordinance 3116 (2023) - unverified."
+      },
+      "amendments": [
+        {
+          "topic": "other",
+          "summary": "Local amendments adopted with the 2021 codes (text not reached).",
+          "section": "Ch. 3 Art. 3.02",
+          "status": "Secondary",
+          "source": {
+            "id": "katy-cc-agenda-2021-codes",
+            "title": "City of Katy council agenda/video - amend Ch. 3 Art. 3.02 to adopt 2021 I-codes, 2023 NEC, local amendments (BSC rec. 09-27-2023)",
+            "url": "https://katytx.new.swagit.com/videos/277280",
+            "read": "2026-10-11"
+          }
+        }
+      ]
     },
-    "unit": "ft",
-    "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-   },
-   "side": {
-    "value": null,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - not researched",
-     "url": "",
-     "read": "2026-10-11"
+    "energy": {
+      "edition": {
+        "value": "2021 IECC (assumed part of 2021 I-code package)",
+        "status": "Secondary",
+        "source": {
+          "id": "katy-cc-agenda-2021-codes",
+          "title": "City of Katy council agenda/video - amend Ch. 3 Art. 3.02 to adopt 2021 I-codes, 2023 NEC, local amendments (BSC rec. 09-27-2023)",
+          "url": "https://katytx.new.swagit.com/videos/277280",
+          "read": "2026-10-11"
+        },
+        "note": "Agenda says '2021 International building codes'; IECC not named separately in extract."
+      },
+      "stretchCode": {
+        "value": false,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - none known",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "No stretch code known for Texas suburbs."
+      }
     },
-    "unit": "ft",
-    "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-   },
-   "streetSide": {
-    "value": null,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - not researched",
-     "url": "",
-     "read": "2026-10-11"
+    "plumbing": {
+      "value": "IPC 2021 (likely)",
+      "status": "Secondary",
+      "source": {
+        "id": "katy-cc-agenda-2021-codes",
+        "title": "City of Katy council agenda/video - amend Ch. 3 Art. 3.02 to adopt 2021 I-codes, 2023 NEC, local amendments (BSC rec. 09-27-2023)",
+        "url": "https://katytx.new.swagit.com/videos/277280",
+        "read": "2026-10-11"
+      },
+      "note": "Part of 2021 I-code package per agenda; plumbing code not named separately."
     },
-    "unit": "ft",
-    "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-   },
-   "rear": {
-    "value": null,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - not researched",
-     "url": "",
-     "read": "2026-10-11"
+    "electrical": {
+      "value": "NEC 2023",
+      "status": "Secondary",
+      "source": {
+        "id": "katy-cc-agenda-2021-codes",
+        "title": "City of Katy council agenda/video - amend Ch. 3 Art. 3.02 to adopt 2021 I-codes, 2023 NEC, local amendments (BSC rec. 09-27-2023)",
+        "url": "https://katytx.new.swagit.com/videos/277280",
+        "read": "2026-10-11"
+      },
+      "note": "Named in adoption agenda item; third-party guide says effective Jan 1 2024. Seen only in a search-engine extract (direct fetch blocked in this environment)."
     },
-    "unit": "ft",
-    "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-   }
-  },
-  "maxHeightFt": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  },
-  "maxStories": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  },
-  "maxLotCoverage": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "unit": "fraction",
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  },
-  "imperviousCover": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  },
-  "far": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  },
-  "parking": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  },
-  "garageRules": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  },
-  "adu": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  },
-  "masonry": {
-   "value": "City masonry % mandates for new homes generally preempted by Tex. Gov't Code ch. 3000 (HB 2439, 2019) except limited exceptions; HOA/deed restrictions may still require masonry",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - state law background",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not verified against city code this session."
-  },
-  "trees": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  },
-  "other": [],
-  "typicalDistrict": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  }
- },
- "process": {
-  "steps": [
-   {
-    "value": "Building permit application with plan set to city building department; zoning/plat check; utility/impact fee assessment",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - generic Texas process",
-     "url": "",
-     "read": "2026-10-11"
+    "mechanical": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - not researched",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
-    "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-   }
-  ],
-  "sealsRequired": [
-   {
-    "value": "Texas PE-sealed foundation design likely required (expansive clays) - confirm",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - regional practice",
-     "url": "",
-     "read": "2026-10-11"
+    "fuelGas": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - not researched",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
-    "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-   }
-  ],
-  "inspections": [
-   {
-    "value": "Standard IRC inspection sequence (foundation, framing, MEP rough, energy, final)",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - generic",
-     "url": "",
-     "read": "2026-10-11"
+    "fire": {
+      "value": "No one/two-family sprinkler mandate assumed",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - Texas practice",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
-    "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-   }
-  ],
-  "reviewDays": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "unit": "days",
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  }
- },
- "fees": {
-  "permitFormula": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  },
-  "workedExample2400sqft": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "unit": "USD",
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched. Assumption for later: 2,400 sq ft conditioned + 440 sq ft attached garage."
-  },
-  "planReview": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  },
-  "impactFees": [
-   {
-    "value": null,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - not researched",
-     "url": "",
-     "read": "2026-10-11"
+    "wind": {
+      "value": "Roughly 130-140 mph Vult (ASCE 7-16 Risk II) - confirm by address",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - regional background",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
-    "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-   }
-  ],
-  "tapFees": [
-   {
-    "value": null,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - not researched",
-     "url": "",
-     "read": "2026-10-11"
+    "hailRoofing": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - not researched",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
-    "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-   }
-  ]
- },
- "cost": {
-  "factor": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "cost-method",
-    "title": "See README cost method (filled by cost agent)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "PENDING_COST_AGENT"
-  },
-  "method": "PENDING_COST_AGENT",
-  "perSqFtMarket": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  },
-  "drivers": [
-   {
-    "value": "Engineered slab on expansive Gulf Coast clay",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - regional practice",
-     "url": "",
-     "read": "2026-10-11"
+    "seismic": {
+      "value": "SDC A",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - Gulf Coast low seismicity",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not read."
     },
-    "note": "Not verified."
-   }
-  ]
- },
- "flood": {
-  "value": null,
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed - not researched",
-   "url": "",
-   "read": "2026-10-11"
+    "frostDepth": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - not read",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "in",
+      "note": "Frost negligible; use IRC R403.1.4 12 in minimum."
+    }
   },
-  "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched. Check city floodplain ordinance freeboard and county drainage district criteria."
- },
- "engineChanges": [
-  {
-   "id": "katy-district-input",
-   "ruleType": "survey-input-district",
-   "area": "survey",
-   "change": "Zoning district and setbacks unknown in dataset: require user to enter district, front/side/rear setbacks and lot coverage from city zoning map/plat before design",
-   "priority": "must",
-   "params": {
-    "requireUserDistrict": true,
-    "requireUserSetbacks": true
-   },
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - data gap",
-    "url": "",
-    "read": "2026-10-11"
-   }
+  "zoning": {
+    "hasZoning": {
+      "value": true,
+      "status": "Secondary",
+      "source": {
+        "id": "katy-zoneomics-ch8",
+        "title": "Zoneomics - Katy TX zoning code chapter 8 (partial)",
+        "url": "https://www.zoneomics.com/code/katy-TX/chapter_8",
+        "read": "2026-10-11"
+      },
+      "note": "Katy has a zoning ordinance with R-1 single-family district."
+    },
+    "minLotSqFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - not researched",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "sqft",
+      "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+    },
+    "minLotWidthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - not researched",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+    },
+    "minLotDepthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - not researched",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+    },
+    "setbacksFt": {
+      "front": {
+        "value": 25,
+        "status": "Secondary",
+        "source": {
+          "id": "katy-cityrulelookup-setbacks",
+          "title": "CityRuleLookup - Building setbacks rules in Katy TX",
+          "url": "https://cityrulelookup.com/blog/building-setbacks-rules-in-katy-tx",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "25 ft on minor streets, 35 ft on major streets (Exhibit 14A per third-party summary)."
+      },
+      "side": {
+        "value": 5,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Interior side not found; 5 ft regional placeholder."
+      },
+      "streetSide": {
+        "value": 25,
+        "status": "Secondary",
+        "source": {
+          "id": "katy-cityrulelookup-setbacks",
+          "title": "CityRuleLookup - Building setbacks rules in Katy TX",
+          "url": "https://cityrulelookup.com/blog/building-setbacks-rules-in-katy-tx",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Corner lots: 25-ft side yard adjacent to streets (third-party)."
+      },
+      "rear": {
+        "value": 15,
+        "status": "Secondary",
+        "source": {
+          "id": "katy-cityrulelookup-setbacks",
+          "title": "CityRuleLookup - Building setbacks rules in Katy TX",
+          "url": "https://cityrulelookup.com/blog/building-setbacks-rules-in-katy-tx",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Rear yard at least 15 ft (third-party)."
+      }
+    },
+    "maxHeightFt": {
+      "value": 32,
+      "status": "Secondary",
+      "source": {
+        "id": "katy-cityrulelookup-setback-rules",
+        "title": "CityRuleLookup - Katy TX setback rules (32 ft residential height)",
+        "url": "https://cityrulelookup.com/building-setbacks/setback-rules/katy-tx",
+        "read": "2026-10-11"
+      },
+      "unit": "ft",
+      "note": "Residential max height 32 ft measured from highest natural grade (third-party)."
+    },
+    "maxStories": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - not researched",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+    },
+    "maxLotCoverage": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - not researched",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "fraction",
+      "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+    },
+    "imperviousCover": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - not researched",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+    },
+    "far": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - not researched",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+    },
+    "parking": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - not researched",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+    },
+    "garageRules": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - not researched",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+    },
+    "adu": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - not researched",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+    },
+    "masonry": {
+      "value": "City masonry % mandates for new homes generally preempted by Tex. Gov't Code ch. 3000 (HB 2439, 2019) except limited exceptions; HOA/deed restrictions may still require masonry",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - state law background",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not verified against city code this session."
+    },
+    "trees": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - not researched",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+    },
+    "other": [],
+    "typicalDistrict": {
+      "value": "R-1 Single Family Residential",
+      "status": "Secondary",
+      "source": {
+        "id": "katy-zoneomics-ch8",
+        "title": "Zoneomics - Katy TX zoning code chapter 8 (partial)",
+        "url": "https://www.zoneomics.com/code/katy-TX/chapter_8",
+        "read": "2026-10-11"
+      },
+      "note": "Many newer homes are in PDs/master-planned areas with plat lines."
+    }
   },
-  {
-   "id": "katy-irc-confirm",
-   "ruleType": "survey-input-district",
-   "area": "drawings",
-   "change": "IRC/IECC edition not confirmed: default to 2021 IRC / 2021 IECC CZ 2A but flag for verification",
-   "priority": "must",
-   "params": {
-    "defaultIrc": "2021 IRC",
-    "defaultIecc": "2021 IECC",
-    "climateZone": "2A",
-    "verified": false
-   },
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - data gap",
-    "url": "",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "katy-eng-foundation",
-   "ruleType": "engineered-foundation-flag",
-   "area": "foundation",
-   "change": "Flag foundation for Texas PE design (expansive clay region)",
-   "priority": "should",
-   "params": {
-    "peSealFoundation": true
-   },
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - regional practice",
-    "url": "",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "katy-deed-check",
-   "ruleType": "deed-restriction-check",
-   "area": "survey",
-   "change": "Prompt for HOA/deed restrictions (masonry %, setbacks, garage orientation) - common in master-planned subdivisions here",
-   "priority": "should",
-   "params": {
-    "requireDeedRestrictionInput": true
-   },
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - regional practice",
-    "url": "",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "katy-no-windstorm",
-   "ruleType": "windstorm-package",
-   "area": "structure",
-   "change": "No TDI windstorm package (not in a designated catastrophe area)",
-   "priority": "nice",
-   "params": {
-    "windstorm": false
-   },
-   "source": {
-    "id": "tdi-wind-harris",
-    "title": "TDI windstorm designated catastrophe area map - Harris County",
-    "url": "https://tdi.texas.gov/wind/maps/harris.html",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "katy-county-split",
-   "ruleType": "survey-input-district",
-   "area": "survey",
-   "change": "Katy spans Harris, Fort Bend and Waller counties: capture county for flood/drainage district criteria (Harris County Flood Control vs Fort Bend Drainage District vs Waller) and appraisal",
-   "priority": "should",
-   "params": {
-    "counties": [
-     "Harris",
-     "Fort Bend",
-     "Waller"
+  "process": {
+    "steps": [
+      {
+        "value": "Building permit application with plan set to city building department; zoning/plat check; utility/impact fee assessment",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - generic Texas process",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+      }
     ],
-    "askCounty": true
-   },
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - geography",
-    "url": "",
-    "read": "2026-10-11"
-   }
+    "sealsRequired": [
+      {
+        "value": "Texas PE-sealed foundation design likely required (expansive clays) - confirm",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - regional practice",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+      }
+    ],
+    "inspections": [
+      {
+        "value": "Standard IRC inspection sequence (foundation, framing, MEP rough, energy, final)",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - generic",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+      }
+    ],
+    "reviewDays": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - not researched",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "days",
+      "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+    }
+  },
+  "fees": {
+    "permitFormula": {
+      "value": null,
+      "status": "Secondary",
+      "source": {
+        "id": "katy-permits-page",
+        "title": "City of Katy - Permits & Building",
+        "url": "https://www.cityofkaty.com/government/city-departments/permits-building",
+        "read": "2026-10-11"
+      },
+      "note": "Fee schedule not found; city permits page notes credit-card service fee 3.95% or $3 and Citizen Access Portal. State law bars valuation-based residential fees."
+    },
+    "workedExample2400sqft": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - not researched",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "USD",
+      "note": "Assumption for later: 2,400 sq ft conditioned + 440 sq ft attached garage. Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+    },
+    "planReview": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - not researched",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+    },
+    "impactFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Searched Katy impact/facility fees twice: only monthly rates found; city Forms Center lists 'Adopted Facility Fees (Updated 6.2.25)' but amounts not visible. Treat as unknown (likely water/sewer facility fee exists)."
+      }
+    ],
+    "tapFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - not researched",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+      }
+    ]
+  },
+  "cost": {
+    "factor": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "cost-method",
+        "title": "See README cost method (filled by cost agent)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "PENDING_COST_AGENT"
+    },
+    "method": "PENDING_COST_AGENT",
+    "perSqFtMarket": {
+      "value": 115,
+      "status": "Secondary",
+      "source": {
+        "id": "katy-costtobuild-harris",
+        "title": "Harris County TX 2026 Build Cost Guide (Katy estimate)",
+        "url": "https://www.costtobuildhouse.com/cost-to-build-a-house-in-harris-county-texas",
+        "read": "2026-10-11"
+      },
+      "unit": "USD/sqft",
+      "note": "Third-party 2026 estimate ~$224k-$236k for 2,000 sf standard build in Katy (~$112-118/sf). Market figure, not a quote."
+    },
+    "drivers": [
+      {
+        "value": "Engineered slab on expansive Gulf Coast clay",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - regional practice",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not verified."
+      }
+    ]
+  },
+  "flood": {
+    "value": "New residential: finished floor at or above 500-yr flood elevation (reported); mechanical equipment BFE+1 ft or 500-yr",
+    "status": "Secondary",
+    "source": {
+      "id": "katy-times-floodplain",
+      "title": "Katy Times: Council updates floodplain ordinances",
+      "url": "https://www.katytimes.com/stories/council-updates-floodplain-ordinances,7269",
+      "read": "2026-10-11"
+    },
+    "note": "Katy Times reports council update requiring new habitable structures at/waterproofed to the 500-yr elevation on the effective FIS; Community Impact reports the mechanical-equipment rule. Ordinance text/date not read - confirm whether it is City of Katy. Seen only in a search-engine extract (direct fetch blocked in this environment)."
+  },
+  "engineChanges": [
+    {
+      "id": "katy-eng-foundation",
+      "ruleType": "engineered-foundation-flag",
+      "area": "foundation",
+      "change": "Flag foundation for Texas PE design (expansive clay region)",
+      "priority": "should",
+      "params": {
+        "peSealFoundation": true
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - regional practice",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "katy-deed-check",
+      "ruleType": "deed-restriction-check",
+      "area": "survey",
+      "change": "Prompt for HOA/deed restrictions (masonry %, setbacks, garage orientation) - common in master-planned subdivisions here",
+      "priority": "should",
+      "params": {
+        "requireDeedRestrictionInput": true
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - regional practice",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "katy-no-windstorm",
+      "ruleType": "windstorm-package",
+      "area": "structure",
+      "change": "No TDI windstorm package (not in a designated catastrophe area)",
+      "priority": "nice",
+      "params": {
+        "windstorm": false
+      },
+      "source": {
+        "id": "tdi-wind-harris",
+        "title": "TDI windstorm designated catastrophe area map - Harris County",
+        "url": "https://tdi.texas.gov/wind/maps/harris.html",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "katy-county-split",
+      "ruleType": "survey-input-district",
+      "area": "survey",
+      "change": "Katy spans Harris, Fort Bend and Waller counties: capture county for flood/drainage district criteria (Harris County Flood Control vs Fort Bend Drainage District vs Waller) and appraisal",
+      "priority": "should",
+      "params": {
+        "counties": [
+          "Harris",
+          "Fort Bend",
+          "Waller"
+        ],
+        "askCounty": true
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - geography",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "katy-setbacks",
+      "ruleType": "setback-by-district",
+      "area": "setbacks",
+      "change": "R-1: front 25 ft (35 ft on major streets), corner street side 25 ft, rear 15 ft, interior side 5 ft placeholder; PD/plat lines override.",
+      "priority": "must",
+      "params": {
+        "district": "R-1",
+        "frontFt": 25,
+        "frontMajorStreetFt": 35,
+        "streetSideFt": 25,
+        "rearFt": 15,
+        "sideFt": 5,
+        "sideVerified": false
+      },
+      "source": {
+        "id": "katy-cityrulelookup-setbacks",
+        "title": "CityRuleLookup - Building setbacks rules in Katy TX",
+        "url": "https://cityrulelookup.com/blog/building-setbacks-rules-in-katy-tx",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "katy-height",
+      "ruleType": "height-limit",
+      "area": "massing",
+      "change": "Max height 32 ft from highest natural grade.",
+      "priority": "must",
+      "params": {
+        "maxHeightFt": 32
+      },
+      "source": {
+        "id": "katy-cityrulelookup-setback-rules",
+        "title": "CityRuleLookup - Katy TX setback rules (32 ft residential height)",
+        "url": "https://cityrulelookup.com/building-setbacks/setback-rules/katy-tx",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "katy-flood",
+      "ruleType": "flood-elevation",
+      "area": "foundation",
+      "change": "In mapped floodplain, finished floor at/above 500-yr elevation; HVAC equipment at BFE+1 ft or 500-yr.",
+      "priority": "must",
+      "params": {
+        "floorAt500yr": true,
+        "mechBfePlusFt": 1,
+        "verified": false
+      },
+      "source": {
+        "id": "katy-times-floodplain",
+        "title": "Katy Times: Council updates floodplain ordinances",
+        "url": "https://www.katytimes.com/stories/council-updates-floodplain-ordinances,7269",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "katy-codes",
+      "ruleType": "electrical-code-edition",
+      "area": "drawings",
+      "change": "Use 2021 IRC/IECC (CZ 2A) and NEC 2023.",
+      "priority": "should",
+      "params": {
+        "irc": "2021 IRC",
+        "nec": "NEC 2023"
+      },
+      "source": {
+        "id": "katy-cc-agenda-2021-codes",
+        "title": "City of Katy council agenda/video - amend Ch. 3 Art. 3.02 to adopt 2021 I-codes, 2023 NEC, local amendments (BSC rec. 09-27-2023)",
+        "url": "https://katytx.new.swagit.com/videos/277280",
+        "read": "2026-10-11"
+      }
+    }
+  ],
+  "plainLanguage": "Katy uses the 2021 International Residential Code and the 2023 National Electrical Code (since about January 2024). In the common R-1 single-family zone, plan on a 25-ft front setback (35 ft on a major street), 25 ft on the street side of a corner lot, a 15-ft rear yard and a 32-ft height limit; many new neighborhoods are planned developments whose plat lines take priority. Katy is not in the state windstorm area. Reports say new homes in a floodplain must sit at or above the 500-year flood level. We could not find Katy's permit fee or utility facility (impact) fees; ask the city for its Adopted Facility Fees list. Katy spans Harris, Fort Bend and Waller counties, so drainage rules depend on where your lot is.",
+  "openQuestions": [
+    "Adopted Facility Fees (6.2.25) amounts",
+    "Residential permit fee schedule",
+    "R-1 lot size/width and interior side yard",
+    "Confirm 500-yr finished-floor rule is City of Katy and current",
+    "Ordinance number for 2021 code adoption"
+  ],
+  "notFound": [
+    "impact/facility fees",
+    "permit fee formula/example",
+    "R-1 min lot size/width, interior side yard, coverage",
+    "plan review fee",
+    "review days"
+  ],
+  "comparison": {
+    "irc": "2021 IRC",
+    "energy": "2021 IECC (likely)",
+    "plumbing": "IPC 2021 (likely)",
+    "district": "R-1",
+    "setbacks": "25(35 major)/5*/15",
+    "maxHeight": "32 ft",
+    "coverageFar": "unverified",
+    "masonry": "preempted by state law (HOA may require)",
+    "engFoundation": "likely",
+    "windstorm": "no",
+    "flood": "500-yr (reported)",
+    "permitFeeExample": "not found",
+    "impactFees": "not found (facility fees exist)",
+    "costFactor": "PENDING"
   }
- ],
- "plainLanguage": "Katy is a small city spread over three counties (Harris, Fort Bend and Waller). Unlike Houston, Katy has zoning, so your lot's district sets setbacks and size limits - our dataset does not yet have those numbers, so you will be asked to enter them from the city zoning map or your plat. We assume the 2021 residential code and climate zone 2A until verified. Katy is not in the coastal windstorm area. Many Katy-area homes are in HOA subdivisions whose rules (for example brick requirements) still apply even though state law limits city masonry rules. Plan for an engineer-designed slab because of the area's expansive clay.",
- "openQuestions": [
-  "Adopted IRC/IECC/plumbing editions and ordinance",
-  "Typical single-family district, lot size and setbacks",
-  "Permit fee schedule and impact/tap fees",
-  "Floodplain freeboard"
- ],
- "notFound": [
-  "Everything except population and windstorm status - research budget exhausted (see report)"
- ],
- "comparison": {
-  "irc": "unverified (assume 2021)",
-  "energy": "unverified",
-  "plumbing": "unverified",
-  "district": "unverified",
-  "setbacks": "unverified",
-  "maxHeight": "unverified",
-  "coverageFar": "unverified",
-  "masonry": "preempted by state law (HOA may require)",
-  "engFoundation": "likely",
-  "windstorm": "no",
-  "flood": "unverified",
-  "permitFeeExample": "not computed",
-  "impactFees": "unverified",
-  "costFactor": "PENDING"
- }
 }

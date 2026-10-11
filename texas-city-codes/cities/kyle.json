@@ -57,121 +57,120 @@
   "codes": {
     "irc": {
       "edition": {
-        "value": "2021 IRC (unverified)",
-        "status": "Assumed",
+        "value": "2021 IRC",
+        "status": "Secondary",
         "source": {
-          "id": "kyle-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-          "url": "",
+          "id": "kyle-building-services",
+          "title": "City of Kyle - Building Services (adopted codes)",
+          "url": "https://www.cityofkyle.gov/doing-business/building-services-permits/",
           "read": "2026-10-11"
         },
-        "note": "Most Central Texas cities adopted the 2021 I-codes in 2021-2023; this city's adoption ordinance was not reached. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+        "note": "City Building Services page: 2021 IBC, IRC, IPC, IMC, IFGC, IFC, IECC, IPMC, ISPSC and 2020 NEC adopted via Building Ordinance. Ord. 908 (2015 codes) is the older adoption. Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
       },
       "ordinance": {
-        "value": null,
-        "status": "Assumed",
+        "value": "City Building Ordinance (current 2021-code adopting ordinance number not found; superseded Ord. No. 908 adopted 2015 codes)",
+        "status": "Secondary",
         "source": {
-          "id": "kyle-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-          "url": "",
+          "id": "kyle-building-services",
+          "title": "City of Kyle - Building Services (adopted codes)",
+          "url": "https://www.cityofkyle.gov/doing-business/building-services-permits/",
           "read": "2026-10-11"
         },
-        "note": "Not found: building code adoption ordinance number. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+        "note": "Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
       },
       "amendments": [
         {
           "topic": "other",
-          "summary": "Local IRC amendments not reviewed; Texas cities must adopt local IRC amendments by ordinance after a public hearing (LGC 214.212/214.216).",
+          "summary": "Local amendments exist (Ord. 908 pattern) but current 2021 amendment text not retrieved.",
           "section": "",
           "status": "Secondary",
           "source": {
-            "id": "tx-lgc-214-212",
-            "title": "Texas Local Government Code Sec. 214.212 - International Residential Code (municipal residential code)",
-            "url": "https://texas.public.law/statutes/tex._local_gov't_code_section_214.212",
-            "read": "2026-10-11",
-            "section": "214.212"
+            "id": "kyle-ord-908",
+            "title": "City of Kyle Ordinance No. 908 adopting building, residential, fire, plumbing, mechanical, fuel gas, energy, electrical codes (2015 I-codes / 2014 NEC; superseded)",
+            "url": "https://www.cityofkyle.com/sites/default/files/fileattachments/building/page/743/908_adoping_building_residential_fire_plumbing_mechanical_fuel_gas_energy_conservation_electric_property_maintenance_pool_and_spa_codes.pdf",
+            "read": "2026-10-11"
           }
         }
       ]
     },
     "energy": {
       "edition": {
-        "value": "2021 IECC / IRC Ch. 11 (unverified)",
-        "status": "Assumed",
+        "value": "2021 IECC",
+        "status": "Secondary",
         "source": {
-          "id": "kyle-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-          "url": "",
+          "id": "kyle-building-services",
+          "title": "City of Kyle - Building Services (adopted codes)",
+          "url": "https://www.cityofkyle.gov/doing-business/building-services-permits/",
           "read": "2026-10-11"
         },
-        "note": "Assumed to follow the IRC edition; Texas state minimum energy code applies regardless (Health & Safety Code Ch. 388). Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+        "note": "Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
       },
       "stretchCode": {
-        "value": "none known",
+        "value": false,
         "status": "Assumed",
         "source": {
-          "id": "kyle-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "id": "assumed",
+          "title": "Assumed",
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "No municipal stretch code known for this city"
+        "note": "None seen."
       }
     },
     "plumbing": {
-      "value": "IPC 2021 (unverified)",
-      "status": "Assumed",
+      "value": "IPC 2021",
+      "status": "Secondary",
       "source": {
-        "id": "kyle-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "kyle-building-services",
+        "title": "City of Kyle - Building Services (adopted codes)",
+        "url": "https://www.cityofkyle.gov/doing-business/building-services-permits/",
         "read": "2026-10-11"
       },
-      "note": "Most Central Texas suburbs adopt the IPC; UPC is possible under Texas law. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      "note": "Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
     },
     "electrical": {
-      "value": "NEC 2020 or 2023 (unverified)",
-      "status": "Assumed",
+      "value": "NEC 2020",
+      "status": "Secondary",
       "source": {
-        "id": "kyle-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "kyle-building-services",
+        "title": "City of Kyle - Building Services (adopted codes)",
+        "url": "https://www.cityofkyle.gov/doing-business/building-services-permits/",
         "read": "2026-10-11"
       },
-      "note": "TDLR-adopted NEC applies where no local edition; city edition not read. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      "note": "City page lists 2020 NEC (state TDLR minimum is now 2023 NEC for licensed electrical work - confirm locally). Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
     },
     "mechanical": {
-      "value": "IMC 2021 (unverified)",
-      "status": "Assumed",
+      "value": "IMC 2021",
+      "status": "Secondary",
       "source": {
-        "id": "kyle-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "kyle-building-services",
+        "title": "City of Kyle - Building Services (adopted codes)",
+        "url": "https://www.cityofkyle.gov/doing-business/building-services-permits/",
         "read": "2026-10-11"
       },
-      "note": "Assumed to match IRC cycle"
+      "note": "Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
     },
     "fuelGas": {
-      "value": "IFGC 2021 (unverified)",
-      "status": "Assumed",
+      "value": "IFGC 2021",
+      "status": "Secondary",
       "source": {
-        "id": "kyle-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "kyle-building-services",
+        "title": "City of Kyle - Building Services (adopted codes)",
+        "url": "https://www.cityofkyle.gov/doing-business/building-services-permits/",
         "read": "2026-10-11"
       },
-      "note": "Assumed to match IRC cycle"
+      "note": "Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
     },
     "fire": {
-      "value": "IFC 2021 (unverified); no one/two-family sprinkler mandate known",
-      "status": "Assumed",
+      "value": "IFC 2021; no one/two-family sprinkler mandate seen",
+      "status": "Secondary",
       "source": {
-        "id": "kyle-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "kyle-building-services",
+        "title": "City of Kyle - Building Services (adopted codes)",
+        "url": "https://www.cityofkyle.gov/doing-business/building-services-permits/",
         "read": "2026-10-11"
       },
-      "note": "Texas cities generally delete/omit IRC R313 sprinkler mandate; Texas LGC 214.216 permits that. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      "note": "Sprinkler amendment not checked."
     },
     "wind": {
       "value": 108,
@@ -233,15 +232,15 @@
       "note": "City is known to have zoning (UDC); text not read."
     },
     "typicalDistrict": {
-      "value": "R-1-2 (Single-family)",
-      "status": "Assumed",
+      "value": "R-1-2 Single Family Residential-2 (Chapter 53 Zoning; R-1-1, R-1-3, R-1-A attached and PUDs also common)",
+      "status": "Secondary",
       "source": {
-        "id": "kyle-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "kyle-pz-agenda-2017-05-09",
+        "title": "City of Kyle P&Z Commission agenda May 9, 2017 with attachments (R-1-2 zoning cases)",
+        "url": "https://www.cityofkyle.com/sites/default/files/fileattachments/planning_and_zoning_commission/meeting/7581/agenda_2017_5_9_meeting_with_attachments.pdf",
         "read": "2026-10-11"
       },
-      "note": "Researcher judgement of the most common detached single-family district; others: R-1-1, R-1-3, PUD. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      "note": "District names confirmed from council/P&Z items; dimensional table not retrieved. City issued RFQ 2024DD-01 for a new development code, so standards may change. Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
     },
     "minLotSqFt": {
       "value": 6000,
@@ -290,7 +289,7 @@
           "read": "2026-10-11"
         },
         "unit": "ft",
-        "note": "Typical value for this district from researcher memory; NOT verified against the UDC. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+        "note": "Still assumed: Kyle Ch. 53 R-1-2 dimensional table not found in 3 targeted searches. Most new homes are in PUDs with plat-specific setbacks."
       },
       "side": {
         "value": 5,
@@ -302,7 +301,7 @@
           "read": "2026-10-11"
         },
         "unit": "ft",
-        "note": "Typical value for this district from researcher memory; NOT verified against the UDC. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+        "note": "Still assumed: Kyle Ch. 53 R-1-2 dimensional table not found in 3 targeted searches. Most new homes are in PUDs with plat-specific setbacks."
       },
       "streetSide": {
         "value": 15,
@@ -314,7 +313,7 @@
           "read": "2026-10-11"
         },
         "unit": "ft",
-        "note": "Typical value for this district from researcher memory; NOT verified against the UDC. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+        "note": "Still assumed: Kyle Ch. 53 R-1-2 dimensional table not found in 3 targeted searches. Most new homes are in PUDs with plat-specific setbacks."
       },
       "rear": {
         "value": 20,
@@ -326,7 +325,7 @@
           "read": "2026-10-11"
         },
         "unit": "ft",
-        "note": "Typical value for this district from researcher memory; NOT verified against the UDC. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+        "note": "Still assumed: Kyle Ch. 53 R-1-2 dimensional table not found in 3 targeted searches. Most new homes are in PUDs with plat-specific setbacks."
       }
     },
     "maxHeightFt": {
@@ -364,15 +363,15 @@
       "note": "Not found: maximum lot coverage for the district. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
     },
     "imperviousCover": {
-      "value": null,
-      "status": "Assumed",
+      "value": "West Kyle (west of I-35 toward RR 150) may be on Edwards Aquifer recharge/contributing zone: TCEQ 30 TAC 213 applies to private residence construction; individual plan usually not needed when subdivision has approved plan; lots > 5 ac one home non-regulated",
+      "status": "Secondary",
       "source": {
-        "id": "kyle-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "tceq-edwards-private-residences",
+        "title": "TCEQ - Edwards Aquifer: Private Residences",
+        "url": "https://www.tceq.texas.gov/permitting/eapp/edwards-aquifer-private-residences",
         "read": "2026-10-11"
       },
-      "note": "Not found: impervious cover cap. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      "note": "City-specific limits not found; zone location is researcher judgement."
     },
     "far": {
       "value": null,
@@ -430,30 +429,30 @@
       "note": "Texas Gov't Code Ch. 3000 (HB 2439, 2019) bars most municipal building-material mandates; any UDC masonry % is generally unenforceable outside historic districts."
     },
     "trees": {
-      "value": null,
-      "status": "Assumed",
+      "value": "No adopted citywide heritage-tree ordinance with inch-based mitigation confirmed; tree ordinance repeatedly proposed/suspended pending public hearing; a $2,000 penalty ordinance reportedly exists (scope unclear)",
+      "status": "Secondary",
       "source": {
-        "id": "kyle-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "kyle-hfp-tree-ordinance",
+        "title": "Hays Free Press - Some Kyle residents call for tree ordinance after developer fells live oak grove",
+        "url": "https://www.haysfreepress.com/article/18216,some-kyle-residents-call-for-tree-ordinance-after-developer-fells-live-oak-grove",
         "read": "2026-10-11"
       },
-      "note": "Not found: tree preservation ordinance details. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      "note": "Advocates use ~28 in diameter for heritage oaks (not code). Low confidence; check current Kyle code."
     },
     "other": []
   },
   "process": {
     "steps": [
       {
-        "value": "Confirm zoning district and recorded plat building lines / HOA deed restrictions",
-        "status": "Assumed",
+        "value": "Platted lot -> new residential permit application per city checklist (site plan, plans, energy compliance) -> plan review -> inspections -> CO",
+        "status": "Secondary",
         "source": {
-          "id": "kyle-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-          "url": "",
+          "id": "kyle-new-res-permit-checklist",
+          "title": "City of Kyle Checklist for New Residential Building Permit Application (PDF)",
+          "url": "https://cityofkyle-us.govstack.com/media/ttehpmyj/checklist_for_new_residential_building_permit_application.pdf",
           "read": "2026-10-11"
         },
-        "note": "Standard Texas suburban practice"
+        "note": "Checklist not opened; title only."
       },
       {
         "value": "Submit residential building permit (site plan, floor plans, elevations, foundation design, energy compliance report) through the city's online permit portal",
@@ -573,50 +572,52 @@
   },
   "fees": {
     "permitFormula": {
-      "value": null,
-      "status": "Assumed",
+      "value": "$500 base + $0.25 per sq ft (single-family); plan review $75 flat; $75 per required inspection (single/two-family) listed",
+      "status": "Secondary",
       "source": {
-        "id": "kyle-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "kyle-fee-schedule-fy2025-26",
+        "title": "City of Kyle Approved Fee Schedule FY 2025-2026 (updated 09/17/2025)",
+        "url": "https://www.cityofkyle.gov/media/erpntdkx/approved-fee-schedule-fy-2025-2026-updated-09172025.pdf",
         "read": "2026-10-11"
       },
-      "note": "Not found: city building permit fee schedule (fee ordinance / development services fee page). Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      "note": "FY2025-26 schedule approved 9/17/2025, unchanged from FY24-25. Unclear whether sq ft includes garage and whether per-inspection fees add to permit. Older FY2024 schedule had plan review at 25% of base. Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
     },
     "workedExample2400sqft": {
-      "value": null,
-      "status": "Assumed",
+      "value": 1285,
+      "status": "Secondary",
       "source": {
-        "id": "kyle-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "kyle-fee-schedule-fy2025-26",
+        "title": "City of Kyle Approved Fee Schedule FY 2025-2026 (updated 09/17/2025)",
+        "url": "https://www.cityofkyle.gov/media/erpntdkx/approved-fee-schedule-fy-2025-2026-updated-09172025.pdf",
         "read": "2026-10-11"
       },
       "unit": "USD",
-      "note": "Not computed: fee formula not found. Assumption for later: 2,400 sq ft conditioned two-storey + 440 sq ft attached garage. If valuation-based, use ICC BVD R-3 VB (~$170-190/sqft) x 2,400 + U rate x 440. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      "note": "Assume 2,400 sf living + 440 sf garage = 2,840 sf. $500 + 2,840 x $0.25 = $710 -> $1,210 + $75 plan review = $1,285. If only living area counts: $500 + $600 + $75 = $1,175. Excludes any per-inspection $75 charges (typically ~8-10 inspections would add $600-750 if billed separately)."
     },
     "planReview": {
-      "value": null,
-      "status": "Assumed",
+      "value": 75,
+      "status": "Secondary",
       "source": {
-        "id": "kyle-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "kyle-fee-schedule-fy2025-26",
+        "title": "City of Kyle Approved Fee Schedule FY 2025-2026 (updated 09/17/2025)",
+        "url": "https://www.cityofkyle.gov/media/erpntdkx/approved-fee-schedule-fy-2025-2026-updated-09172025.pdf",
         "read": "2026-10-11"
       },
-      "note": "Not found: residential plan review fee. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      "unit": "USD",
+      "note": "Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
     },
     "impactFees": [
       {
-        "value": null,
-        "status": "Assumed",
+        "value": 12514,
+        "status": "Secondary",
         "source": {
-          "id": "kyle-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-          "url": "",
+          "id": "kyle-ci-2023-impact-fees",
+          "title": "Community Impact - City of Kyle adopts water, wastewater fees (Dec 2023)",
+          "url": "https://communityimpact.com/austin/san-marcos-buda-kyle/business/2023/12/11/city-of-kyle-adopts-water-wastewater-fees",
           "read": "2026-10-11"
         },
-        "note": "Not found: water/wastewater/roadway impact fee schedule (Texas LGC Ch. 395 fees are normally collected at building permit). Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+        "unit": "USD",
+        "note": "Combined water + wastewater maximum impact fee per LUE, in effect after Council approval Dec 5, 2023; city said it would charge the full amount. Earlier notice: $7,984 water + $6,171 wastewater max (https://cityofkyle.com/node/10119) - may be a different study year. Roadway impact fee not found. Single-family = 1 LUE (assumed)."
       }
     ],
     "tapFees": [
@@ -671,15 +672,14 @@
         "note": "Researcher judgement"
       },
       {
-        "value": "Fast-growth impact fees (water/wastewater/possibly roadway)",
-        "status": "Assumed",
+        "value": "Water+wastewater impact fees $12,514 per LUE (full legal maximum since Dec 2023)",
+        "status": "Secondary",
         "source": {
-          "id": "kyle-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-          "url": "",
+          "id": "kyle-ci-2023-impact-fees",
+          "title": "Community Impact - City of Kyle adopts water, wastewater fees (Dec 2023)",
+          "url": "https://communityimpact.com/austin/san-marcos-buda-kyle/business/2023/12/11/city-of-kyle-adopts-water-wastewater-fees",
           "read": "2026-10-11"
-        },
-        "note": "Researcher judgement"
+        }
       },
       {
         "value": "Austin-metro labour",
@@ -735,16 +735,17 @@
       "priority": "must",
       "params": {
         "districts": [
-          "R-1-2 (Single-family)",
           "R-1-1",
+          "R-1-2",
           "R-1-3",
+          "R-1-A",
           "PUD"
         ]
       },
       "source": {
-        "id": "kyle-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "kyle-pz-agenda-2017-05-09",
+        "title": "City of Kyle P&Z Commission agenda May 9, 2017 with attachments (R-1-2 zoning cases)",
+        "url": "https://www.cityofkyle.com/sites/default/files/fileattachments/planning_and_zoning_commission/meeting/7581/agenda_2017_5_9_meeting_with_attachments.pdf",
         "read": "2026-10-11"
       }
     },
@@ -801,15 +802,17 @@
       "id": "kyle-impact-fee",
       "ruleType": "impact-fee-estimate",
       "area": "estimate",
-      "change": "Add placeholder water/wastewater (and roadway if any) impact fee line; amount unknown",
-      "priority": "should",
+      "change": "Add water+wastewater impact fee $12,514 per home (1 LUE, Dec 2023 adoption); roadway fee unknown",
+      "priority": "must",
       "params": {
-        "amountUSD": null
+        "waterWastewaterUsd": 12514,
+        "roadwayUsd": null,
+        "lue": 1
       },
       "source": {
-        "id": "kyle-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "kyle-ci-2023-impact-fees",
+        "title": "Community Impact - City of Kyle adopts water, wastewater fees (Dec 2023)",
+        "url": "https://communityimpact.com/austin/san-marcos-buda-kyle/business/2023/12/11/city-of-kyle-adopts-water-wastewater-fees",
         "read": "2026-10-11"
       }
     },
@@ -832,40 +835,81 @@
     },
     {
       "id": "kyle-aquifer-check",
-      "ruleType": "deed-restriction-check",
+      "ruleType": "impervious-cover",
       "area": "survey",
-      "change": "Western Kyle may lie over Edwards Aquifer contributing/recharge areas (TCEQ 30 TAC Ch. 213) - prompt a site check",
-      "priority": "nice",
+      "change": "West Kyle lots may be on Edwards recharge/contributing zone: check TCEQ map; 30 TAC 213 applies to private residences unless covered by subdivision-approved plan (or lot > 5 ac, 1 home)",
+      "priority": "should",
       "params": {
-        "edwardsCheck": true
+        "edwardsCheck": true,
+        "tceqRule": "30 TAC Chapter 213",
+        "exemptLotAcres": 5
       },
       "source": {
-        "id": "kyle-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "tceq-edwards-private-residences",
+        "title": "TCEQ - Edwards Aquifer: Private Residences",
+        "url": "https://www.tceq.texas.gov/permitting/eapp/edwards-aquifer-private-residences",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "kyle-codes",
+      "ruleType": "electrical-code-edition",
+      "area": "drawings",
+      "change": "Use 2021 IRC/IECC/IPC/IMC/IFGC and NEC 2020 for Kyle",
+      "priority": "must",
+      "params": {
+        "irc": "2021",
+        "iecc": "2021",
+        "ipc": "2021",
+        "nec": "2020"
+      },
+      "source": {
+        "id": "kyle-building-services",
+        "title": "City of Kyle - Building Services (adopted codes)",
+        "url": "https://www.cityofkyle.gov/doing-business/building-services-permits/",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "kyle-permit-fee",
+      "ruleType": "permit-fee-formula",
+      "area": "estimate",
+      "change": "Building permit = $500 + $0.25/sf + $75 plan review (FY2025-26); 2,840 sf example $1,285",
+      "priority": "should",
+      "params": {
+        "baseUsd": 500,
+        "perSqFtUsd": 0.25,
+        "planReviewUsd": 75,
+        "perInspectionUsd": 75
+      },
+      "source": {
+        "id": "kyle-fee-schedule-fy2025-26",
+        "title": "City of Kyle Approved Fee Schedule FY 2025-2026 (updated 09/17/2025)",
+        "url": "https://www.cityofkyle.gov/media/erpntdkx/approved-fee-schedule-fy-2025-2026-updated-09172025.pdf",
         "read": "2026-10-11"
       }
     }
   ],
-  "plainLanguage": "Kyle is a fast-growing Hays County city that most likely uses the 2021 International Residential Code, but we could not confirm the adoption ordinance this time. Most new homes are in single-family (R-1) zones or planned developments with their own setbacks. Until verified, plan for about a 25 ft front setback, 5 ft sides and 20 ft rear. Expect an engineer-designed foundation. Check FEMA flood maps near Plum Creek and the Blanco River. Impact and tap fees are charged at permit but amounts were not found.",
+  "plainLanguage": "Kyle builds to the 2021 International Residential, plumbing and energy codes and the 2020 electrical code. Most new homes are in R-1-2 single-family zoning or in planned developments (PUDs) whose own rules and your plat set the setbacks - we could not verify the standard numbers, so check your plat. The city building permit is $500 plus 25 cents per sq ft plus a $75 plan review (about $1,285 for our 2,400 sq ft example with garage). Water and wastewater impact fees are high: up to $12,514 per home since December 2023. Kyle has no confirmed heritage-tree ordinance, but check before removing large oaks. Western Kyle may be over the Edwards Aquifer, where state water-quality rules apply.",
   "openQuestions": [
-    "IRC/IECC edition and amendments",
-    "R-1-2 dimensional standards",
-    "Kyle impact fee schedule",
-    "Freeboard rule"
+    "R-1-2 dimensional table (Ch. 53) and whether a new development code (RFQ 2024DD-01) has replaced it",
+    "Roadway impact fee status",
+    "Whether per-inspection $75 fees add to the base permit",
+    "Current local IRC amendments and adopting ordinance number",
+    "Floodplain freeboard",
+    "Tree ordinance status"
   ],
   "notFound": [
-    "All values - research tooling blocked",
-    "IRC adoption ordinance & local amendments",
-    "District dimensional table",
-    "Permit fee schedule",
-    "Impact/tap fees"
+    "R-1-2 setbacks/height/coverage",
+    "Roadway impact fee",
+    "Floodplain freeboard",
+    "Adopting ordinance number for 2021 codes"
   ],
   "comparison": {
-    "irc": "2021 IRC (assumed)",
-    "energy": "2021 IECC (assumed)",
-    "plumbing": "IPC 2021 (assumed)",
-    "district": "R-1-2 (Single-family)",
+    "irc": "2021 IRC",
+    "energy": "2021 IECC",
+    "plumbing": "IPC 2021",
+    "district": "R-1-2 (or PUD)",
     "setbacks": "25/5/20 (assumed)",
     "maxHeight": "35 ft (assumed)",
     "coverageFar": "not found / none",
@@ -873,8 +917,8 @@
     "engFoundation": "yes (assumed)",
     "windstorm": "no",
     "flood": "1 ft freeboard (assumed)",
-    "permitFeeExample": "not found",
-    "impactFees": "not found",
+    "permitFeeExample": "$1,285",
+    "impactFees": "$12,514 water+ww per LUE",
     "costFactor": "PENDING"
   }
 }

@@ -1,737 +1,868 @@
 {
- "id": "sugar-land",
- "name": "City of Sugar Land",
- "state": "TX",
- "tier": 2,
- "counties": [
-  "Fort Bend"
- ],
- "msa": {
-  "name": "Houston-Pasadena-The Woodlands, TX",
-  "blsCode": "26420"
- },
- "population": {
-  "value": 108515,
-  "status": "Secondary",
-  "source": {
-   "id": "sugar-land-census-qf",
-   "title": "U.S. Census Bureau QuickFacts: Sugar Land city, Texas",
-   "url": "https://census.gov/quickfacts/fact/table/sugarlandcitytexas/AFN120217",
-   "read": "2026-10-11"
+  "id": "sugar-land",
+  "name": "City of Sugar Land",
+  "state": "TX",
+  "tier": 2,
+  "counties": [
+    "Fort Bend"
+  ],
+  "msa": {
+    "name": "Houston-Pasadena-The Woodlands, TX",
+    "blsCode": "26420"
   },
-  "note": "Census Vintage 2023 estimate (QuickFacts snippet)."
- },
- "zipCodesOrBoundary": {
-  "value": null,
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed - not researched",
-   "url": "",
-   "read": "2026-10-11"
+  "population": {
+    "value": 109851,
+    "status": "Secondary",
+    "source": {
+      "id": "houston2-ghp-pop-2024",
+      "title": "Greater Houston Partnership - Houston-area city population estimates (Census Vintage 2024)",
+      "url": "https://d9.houston.org/download_manager/50156/18719",
+      "read": "2026-10-11"
+    },
+    "note": "Census Vintage 2024 (July 1 2024) per Greater Houston Partnership; V2023 was 108,515. Seen only in a search-engine extract (direct fetch blocked in this environment)."
   },
-  "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
- },
- "climateZone": {
-  "value": "2A",
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed - IECC county list from background knowledge",
-   "url": "",
-   "read": "2026-10-11"
-  },
-  "note": "2021 IECC Table R301.1: Fort Bend counties are 2A (hot-humid); not re-fetched."
- },
- "windstormCounty": {
-  "value": false,
-  "status": "Secondary",
-  "source": {
-   "id": "tdi-wind-harris",
-   "title": "TDI windstorm designated catastrophe area map - Harris County",
-   "url": "https://tdi.texas.gov/wind/maps/harris.html",
-   "read": "2026-10-11"
-  },
-  "note": "Fort Bend County is not among TDI catastrophe-area counties (TDI list covers 14 coastal counties plus Harris County cities east of SH 146)."
- },
- "codes": {
-  "irc": {
-   "edition": {
+  "zipCodesOrBoundary": {
     "value": null,
     "status": "Assumed",
     "source": {
-     "id": "assumed",
-     "title": "Assumed - adoption not researched",
-     "url": "",
-     "read": "2026-10-11"
+      "id": "assumed",
+      "title": "Assumed - not researched",
+      "url": "",
+      "read": "2026-10-11"
     },
-    "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched. Tex. Local Gov't Code 214.212 makes the IRC (as of May 1, 2008) the statewide floor; most Houston-area suburbs have adopted 2018 or 2021 IRC - confirm."
-   },
-   "ordinance": {
-    "value": null,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - not researched",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-   },
-   "amendments": []
+    "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
   },
-  "energy": {
-   "edition": {
-    "value": null,
+  "climateZone": {
+    "value": "2A",
     "status": "Assumed",
     "source": {
-     "id": "assumed",
-     "title": "Assumed - not researched",
-     "url": "",
-     "read": "2026-10-11"
+      "id": "assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
     },
-    "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched. State minimum residential energy code is set by SECO (Health & Safety Code ch. 388)."
-   },
-   "stretchCode": {
+    "note": "2021 IECC Table R301.1 county list (code knowledge; table not fetched). Hot-humid 2A."
+  },
+  "windstormCounty": {
     "value": false,
-    "status": "Assumed",
+    "status": "Secondary",
     "source": {
-     "id": "assumed",
-     "title": "Assumed - none known",
-     "url": "",
-     "read": "2026-10-11"
+      "id": "tdi-wind-harris",
+      "title": "TDI windstorm designated catastrophe area map - Harris County",
+      "url": "https://tdi.texas.gov/wind/maps/harris.html",
+      "read": "2026-10-11"
     },
-    "note": "No stretch code known for Texas suburbs."
-   }
+    "note": "Fort Bend County is not among TDI catastrophe-area counties (TDI list covers 14 coastal counties plus Harris County cities east of SH 146)."
   },
-  "plumbing": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched. Texas cities may use IPC or UPC; many Houston-area suburbs use IPC - confirm."
+  "codes": {
+    "irc": {
+      "edition": {
+        "value": "2024 IRC",
+        "status": "Secondary",
+        "source": {
+          "id": "sugar-land-permits-inspections",
+          "title": "City of Sugar Land - Permits & Inspections (2024 ICC effective Jan 21 2026)",
+          "url": "https://www.sugarlandtx.gov/2362/Permits-Inspections",
+          "read": "2026-10-11"
+        },
+        "note": "City pages: 2024 ICC codes adopted, effective for applications on/after Jan 21 2026; applications before that stay under 2021 codes. Local amendments in Ordinance 2395. Seen only in a search-engine extract (direct fetch blocked in this environment)."
+      },
+      "ordinance": {
+        "value": "Ordinance 2395 (2024 codes with local amendments); prior Ordinance 2320 (2023, 2021 codes)",
+        "status": "Secondary",
+        "source": {
+          "id": "sugar-land-building-codes",
+          "title": "City of Sugar Land - Building Codes (2024 ICC + 2023 NEC, Ordinance 2395 local amendments)",
+          "url": "https://sugarlandtx.gov/2463/Building-Codes",
+          "read": "2026-10-11"
+        },
+        "note": "Seen only in a search-engine extract (direct fetch blocked in this environment)."
+      },
+      "amendments": [
+        {
+          "topic": "other",
+          "summary": "Ordinance 2395 contains local amendments to building, fire, plumbing, mechanical and electrical codes; text not read.",
+          "section": "Ord. 2395",
+          "status": "Secondary",
+          "source": {
+            "id": "sugar-land-building-codes",
+            "title": "City of Sugar Land - Building Codes (2024 ICC + 2023 NEC, Ordinance 2395 local amendments)",
+            "url": "https://sugarlandtx.gov/2463/Building-Codes",
+            "read": "2026-10-11"
+          }
+        }
+      ]
+    },
+    "energy": {
+      "edition": {
+        "value": "2024 IECC (part of 2024 ICC adoption; residential energy amendments not verified)",
+        "status": "Secondary",
+        "source": {
+          "id": "sugar-land-building-codes",
+          "title": "City of Sugar Land - Building Codes (2024 ICC + 2023 NEC, Ordinance 2395 local amendments)",
+          "url": "https://sugarlandtx.gov/2463/Building-Codes",
+          "read": "2026-10-11"
+        },
+        "note": "City says 2024 International Codes adopted; IECC not named separately in extract."
+      },
+      "stretchCode": {
+        "value": false,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - none known",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "No stretch code known for Texas suburbs."
+      }
+    },
+    "plumbing": {
+      "value": "IPC 2024 (as amended by Ord. 2395)",
+      "status": "Secondary",
+      "source": {
+        "id": "sugar-land-building-codes",
+        "title": "City of Sugar Land - Building Codes (2024 ICC + 2023 NEC, Ordinance 2395 local amendments)",
+        "url": "https://sugarlandtx.gov/2463/Building-Codes",
+        "read": "2026-10-11"
+      },
+      "note": "Plumbing amendments listed under Ord. 2395; 2024 ICC set. Seen only in a search-engine extract (direct fetch blocked in this environment)."
+    },
+    "electrical": {
+      "value": "NEC 2023",
+      "status": "Secondary",
+      "source": {
+        "id": "sugar-land-building-codes",
+        "title": "City of Sugar Land - Building Codes (2024 ICC + 2023 NEC, Ordinance 2395 local amendments)",
+        "url": "https://sugarlandtx.gov/2463/Building-Codes",
+        "read": "2026-10-11"
+      },
+      "note": "As amended by Ord. 2395. Seen only in a search-engine extract (direct fetch blocked in this environment)."
+    },
+    "mechanical": {
+      "value": "IMC 2024",
+      "status": "Secondary",
+      "source": {
+        "id": "sugar-land-building-codes",
+        "title": "City of Sugar Land - Building Codes (2024 ICC + 2023 NEC, Ordinance 2395 local amendments)",
+        "url": "https://sugarlandtx.gov/2463/Building-Codes",
+        "read": "2026-10-11"
+      },
+      "note": "Seen only in a search-engine extract (direct fetch blocked in this environment)."
+    },
+    "fuelGas": {
+      "value": "IFGC 2024",
+      "status": "Secondary",
+      "source": {
+        "id": "sugar-land-building-codes",
+        "title": "City of Sugar Land - Building Codes (2024 ICC + 2023 NEC, Ordinance 2395 local amendments)",
+        "url": "https://sugarlandtx.gov/2463/Building-Codes",
+        "read": "2026-10-11"
+      },
+      "note": "Seen only in a search-engine extract (direct fetch blocked in this environment)."
+    },
+    "fire": {
+      "value": "IFC 2024 as amended by Ord. 2395; no one/two-family sprinkler mandate found",
+      "status": "Secondary",
+      "source": {
+        "id": "sugar-land-building-codes",
+        "title": "City of Sugar Land - Building Codes (2024 ICC + 2023 NEC, Ordinance 2395 local amendments)",
+        "url": "https://sugarlandtx.gov/2463/Building-Codes",
+        "read": "2026-10-11"
+      },
+      "note": "Sprinkler status not verified in amendment text."
+    },
+    "wind": {
+      "value": "Roughly 130-140 mph Vult (ASCE 7-16 Risk II) - confirm by address",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - regional background",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+    },
+    "hailRoofing": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - not researched",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+    },
+    "seismic": {
+      "value": "SDC A",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - Gulf Coast low seismicity",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not read."
+    },
+    "frostDepth": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - not read",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "in",
+      "note": "Frost negligible; use IRC R403.1.4 12 in minimum."
+    }
   },
-  "electrical": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
+  "zoning": {
+    "hasZoning": {
+      "value": true,
+      "status": "Secondary",
+      "source": {
+        "id": "sugar-land-land-use-matrix",
+        "title": "Sugar Land Development Code Sec. 2-71 Residential Districts Permitted Uses and Parking Schedule",
+        "url": "https://www.sugarlandtx.gov/DocumentCenter/View/38489/Land-Use-Matrix-PDF",
+        "read": "2026-10-11"
+      },
+      "note": "Development Code Ch. 2 residential districts (R-1, R-1Z, HR-1, PD etc.)."
+    },
+    "minLotSqFt": {
+      "value": 6600,
+      "status": "Secondary",
+      "source": {
+        "id": "sugar-land-regulation-comparison",
+        "title": "City of Sugar Land - Regulation Comparison Table (Development Code, July 2020 column)",
+        "url": "https://www.sugarlandtx.gov/DocumentCenter/View/26229/Regulation-Comparison-Table_v2_Web",
+        "read": "2026-10-11"
+      },
+      "unit": "sqft",
+      "note": "Regulation comparison table (July 2020 column); extract partly garbled. Seen only in a search-engine extract (direct fetch blocked in this environment)."
+    },
+    "minLotWidthFt": {
+      "value": 60,
+      "status": "Secondary",
+      "source": {
+        "id": "sugar-land-regulation-comparison",
+        "title": "City of Sugar Land - Regulation Comparison Table (Development Code, July 2020 column)",
+        "url": "https://www.sugarlandtx.gov/DocumentCenter/View/26229/Regulation-Comparison-Table_v2_Web",
+        "read": "2026-10-11"
+      },
+      "unit": "ft",
+      "note": "Corner lots +10 ft. Seen only in a search-engine extract (direct fetch blocked in this environment)."
+    },
+    "minLotDepthFt": {
+      "value": 110,
+      "status": "Secondary",
+      "source": {
+        "id": "sugar-land-regulation-comparison",
+        "title": "City of Sugar Land - Regulation Comparison Table (Development Code, July 2020 column)",
+        "url": "https://www.sugarlandtx.gov/DocumentCenter/View/26229/Regulation-Comparison-Table_v2_Web",
+        "read": "2026-10-11"
+      },
+      "unit": "ft",
+      "note": "Seen only in a search-engine extract (direct fetch blocked in this environment)."
+    },
+    "setbacksFt": {
+      "front": {
+        "value": 25,
+        "status": "Secondary",
+        "source": {
+          "id": "sugar-land-regulation-comparison",
+          "title": "City of Sugar Land - Regulation Comparison Table (Development Code, July 2020 column)",
+          "url": "https://www.sugarlandtx.gov/DocumentCenter/View/26229/Regulation-Comparison-Table_v2_Web",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Cul-de-sac lots: front reduced by 5 ft. Older R-1 chart also 25 ft. Seen only in a search-engine extract (direct fetch blocked in this environment)."
+      },
+      "side": {
+        "value": 5,
+        "status": "Secondary",
+        "source": {
+          "id": "sugar-land-faq-r1",
+          "title": "City of Sugar Land FAQ (R-1 district: 35 ft / 2.5 stories, 5 ft sides)",
+          "url": "https://www.sugarlandtx.gov/faq.aspx?TID=131",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Total of both sides = 10% of lot width, min 5 ft each (comparison table); FAQ: 5 ft each side."
+      },
+      "streetSide": {
+        "value": 20,
+        "status": "Secondary",
+        "source": {
+          "id": "sugar-land-regulation-comparison",
+          "title": "City of Sugar Land - Regulation Comparison Table (Development Code, July 2020 column)",
+          "url": "https://www.sugarlandtx.gov/DocumentCenter/View/26229/Regulation-Comparison-Table_v2_Web",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Only 20 ft street-side figure seen in comparison table; column attribution uncertain. Seen only in a search-engine extract (direct fetch blocked in this environment)."
+      },
+      "rear": {
+        "value": 15,
+        "status": "Secondary",
+        "source": {
+          "id": "sugar-land-regulation-comparison",
+          "title": "City of Sugar Land - Regulation Comparison Table (Development Code, July 2020 column)",
+          "url": "https://www.sugarlandtx.gov/DocumentCenter/View/26229/Regulation-Comparison-Table_v2_Web",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "15 ft; 25 ft where rear abuts an arterial street. Column attribution garbled in extract - confirm. Seen only in a search-engine extract (direct fetch blocked in this environment)."
+      }
+    },
+    "maxHeightFt": {
+      "value": 35,
+      "status": "Secondary",
+      "source": {
+        "id": "sugar-land-faq-r1",
+        "title": "City of Sugar Land FAQ (R-1 district: 35 ft / 2.5 stories, 5 ft sides)",
+        "url": "https://www.sugarlandtx.gov/faq.aspx?TID=131",
+        "read": "2026-10-11"
+      },
+      "unit": "ft",
+      "note": "Max 35 ft or 2.5 stories (city FAQ)."
+    },
+    "maxStories": {
+      "value": 2.5,
+      "status": "Secondary",
+      "source": {
+        "id": "sugar-land-faq-r1",
+        "title": "City of Sugar Land FAQ (R-1 district: 35 ft / 2.5 stories, 5 ft sides)",
+        "url": "https://www.sugarlandtx.gov/faq.aspx?TID=131",
+        "read": "2026-10-11"
+      },
+      "unit": "stories"
+    },
+    "maxLotCoverage": {
+      "value": 0.4,
+      "status": "Secondary",
+      "source": {
+        "id": "sugar-land-regulation-comparison",
+        "title": "City of Sugar Land - Regulation Comparison Table (Development Code, July 2020 column)",
+        "url": "https://www.sugarlandtx.gov/DocumentCenter/View/26229/Regulation-Comparison-Table_v2_Web",
+        "read": "2026-10-11"
+      },
+      "unit": "fraction",
+      "note": "40% seen in comparison table (accessory structures/garages count); column attribution uncertain - HR-1 guide also 40%. Seen only in a search-engine extract (direct fetch blocked in this environment)."
+    },
+    "imperviousCover": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - not researched",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+    },
+    "far": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "City FAQ says R-1 has a maximum FAR standard; value not found."
+    },
+    "parking": {
+      "value": "See Development Code Sec. 2-71 parking schedule (value not extracted)",
+      "status": "Secondary",
+      "source": {
+        "id": "sugar-land-land-use-matrix",
+        "title": "Sugar Land Development Code Sec. 2-71 Residential Districts Permitted Uses and Parking Schedule",
+        "url": "https://www.sugarlandtx.gov/DocumentCenter/View/38489/Land-Use-Matrix-PDF",
+        "read": "2026-10-11"
+      }
+    },
+    "garageRules": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - not researched",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+    },
+    "adu": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - not researched",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+    },
+    "masonry": {
+      "value": "City masonry % mandates for new homes generally preempted by Tex. Gov't Code ch. 3000 (HB 2439, 2019) except limited exceptions; HOA/deed restrictions may still require masonry",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - state law background",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not verified against city code this session."
+    },
+    "trees": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - not researched",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+    },
+    "other": [],
+    "typicalDistrict": {
+      "value": "R-1 Standard Single-Family Residential",
+      "status": "Secondary",
+      "source": {
+        "id": "sugar-land-faq-r1",
+        "title": "City of Sugar Land FAQ (R-1 district: 35 ft / 2.5 stories, 5 ft sides)",
+        "url": "https://www.sugarlandtx.gov/faq.aspx?TID=131",
+        "read": "2026-10-11"
+      },
+      "note": "Applied to many traditional suburban neighborhoods; much of newer Sugar Land is PD (e.g. Telfair) with ordinance-specific standards."
+    }
   },
-  "mechanical": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
+  "process": {
+    "steps": [
+      {
+        "value": "Building permit application with plan set to city building department; zoning/plat check; utility/impact fee assessment",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - generic Texas process",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+      }
+    ],
+    "sealsRequired": [
+      {
+        "value": "Texas PE-sealed foundation design likely required (expansive clays) - confirm",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - regional practice",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+      }
+    ],
+    "inspections": [
+      {
+        "value": "Standard IRC inspection sequence (foundation, framing, MEP rough, energy, final)",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - generic",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+      }
+    ],
+    "reviewDays": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - not researched",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "days",
+      "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+    }
   },
-  "fuelGas": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
+  "fees": {
+    "permitFormula": {
+      "value": "Residential permit by sq ft tiers: $55 base to 100 sf + $0.55/sf to 500; $275 base at 501 sf + $0.60/sf to 1,000; ... $3,250 base at 5,001 sf + $0.75/sf; plan check = 50% of permit fee",
+      "status": "Secondary",
+      "source": {
+        "id": "sugar-land-fy25-fee-ord-2355",
+        "title": "Sugar Land FY25 Fee Ordinance, Ordinance No. 2355",
+        "url": "https://sugarlandtx.gov/DocumentCenter/View/39614",
+        "read": "2026-10-11"
+      },
+      "note": "FY25 Fee Ordinance 2355; intermediate tiers (1,001-5,000 sf) not visible in extract; FY26/27 schedule may differ. City CSS Portal has Fee Estimator. Seen only in a search-engine extract (direct fetch blocked in this environment)."
+    },
+    "workedExample2400sqft": {
+      "value": 2730,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "USD",
+      "note": "ESTIMATE: middle tiers not seen. Linear interpolation between $275 @ 501 sf and $3,250 @ 5,001 sf (=$0.661/sf): 2,840 sf (2,400 + 440 garage) -> 275 + 2,339 x 0.661 = ~$1,821 permit + 50% plan check $910 = ~$2,730. If garage excluded: ~$1,535 + $768 = ~$2,300. Confirm with Fee Estimator."
+    },
+    "planReview": {
+      "value": "50% of building permit fee",
+      "status": "Secondary",
+      "source": {
+        "id": "sugar-land-fy25-fee-ord-2355",
+        "title": "Sugar Land FY25 Fee Ordinance, Ordinance No. 2355",
+        "url": "https://sugarlandtx.gov/DocumentCenter/View/39614",
+        "read": "2026-10-11"
+      },
+      "note": "Seen only in a search-engine extract (direct fetch blocked in this environment)."
+    },
+    "impactFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "No dedicated water/wastewater impact fee schedule found; city notes that in certain parts of the City utility connection fees must be paid before building permit. MUD areas may charge their own."
+      }
+    ],
+    "tapFees": [
+      {
+        "value": 1115,
+        "status": "Secondary",
+        "source": {
+          "id": "sugar-land-new-meter-app",
+          "title": "City of Sugar Land - Application for New Meter Utility Service",
+          "url": "https://www.sugarlandtx.gov/DocumentCenter/View/25889",
+          "read": "2026-10-11"
+        },
+        "unit": "USD",
+        "note": "Water connection $915 (5/8-in meter) [1-in $1,265] + residential 4-in wastewater tap $200 = $1,115. Form undated - confirm. Seen only in a search-engine extract (direct fetch blocked in this environment)."
+      }
+    ]
   },
-  "fire": {
-   "value": "No one/two-family sprinkler mandate assumed",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - Texas practice",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
+  "cost": {
+    "factor": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "cost-method",
+        "title": "See README cost method (filled by cost agent)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "PENDING_COST_AGENT"
+    },
+    "method": "PENDING_COST_AGENT",
+    "perSqFtMarket": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - not researched",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+    },
+    "drivers": [
+      {
+        "value": "Engineered slab on expansive Gulf Coast clay",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - regional practice",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not verified."
+      }
+    ]
   },
-  "wind": {
-   "value": "Roughly 130-140 mph Vult (ASCE 7-16 Risk II) - confirm by address",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - regional background",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  },
-  "hailRoofing": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  },
-  "seismic": {
-   "value": "SDC A",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - Gulf Coast low seismicity",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not read."
-  },
-  "frostDepth": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not read",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "unit": "in",
-   "note": "Frost negligible; use IRC R403.1.4 12 in minimum."
-  }
- },
- "zoning": {
-  "hasZoning": {
-   "value": true,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - background knowledge",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  },
-  "minLotSqFt": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "unit": "sqft",
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  },
-  "minLotWidthFt": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  },
-  "minLotDepthFt": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  },
-  "setbacksFt": {
-   "front": {
-    "value": null,
-    "status": "Assumed",
+  "flood": {
+    "value": "Development Code Ch. 8 floodplain regulations (Ords. 1239, 1661, 1950, 1979, 2151, 2192, 2248); Atlas 14 adopted Apr 2019; minimum finished floor in SFHA (freeboard value not found)",
+    "status": "Secondary",
     "source": {
-     "id": "assumed",
-     "title": "Assumed - not researched",
-     "url": "",
-     "read": "2026-10-11"
+      "id": "sugar-land-cityrulelookup-flood",
+      "title": "CityRuleLookup - Sugar Land TX flood zones (Development Code Ch. 8)",
+      "url": "https://cityrulelookup.com/environmental/flood-zones/sugar-land-tx",
+      "read": "2026-10-11"
     },
-    "unit": "ft",
-    "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-   },
-   "side": {
-    "value": null,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - not researched",
-     "url": "",
-     "read": "2026-10-11"
+    "note": "Third-party summary; freeboard amount not found. Assume BFE+2 ft until confirmed (common Fort Bend practice) - Assumed."
+  },
+  "engineChanges": [
+    {
+      "id": "sugar-land-eng-foundation",
+      "ruleType": "engineered-foundation-flag",
+      "area": "foundation",
+      "change": "Flag foundation for Texas PE design (expansive clay region)",
+      "priority": "should",
+      "params": {
+        "peSealFoundation": true
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - regional practice",
+        "url": "",
+        "read": "2026-10-11"
+      }
     },
-    "unit": "ft",
-    "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-   },
-   "streetSide": {
-    "value": null,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - not researched",
-     "url": "",
-     "read": "2026-10-11"
+    {
+      "id": "sugar-land-deed-check",
+      "ruleType": "deed-restriction-check",
+      "area": "survey",
+      "change": "Prompt for HOA/deed restrictions (masonry %, setbacks, garage orientation) - common in master-planned subdivisions here",
+      "priority": "should",
+      "params": {
+        "requireDeedRestrictionInput": true
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - regional practice",
+        "url": "",
+        "read": "2026-10-11"
+      }
     },
-    "unit": "ft",
-    "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-   },
-   "rear": {
-    "value": null,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - not researched",
-     "url": "",
-     "read": "2026-10-11"
+    {
+      "id": "sugar-land-no-windstorm",
+      "ruleType": "windstorm-package",
+      "area": "structure",
+      "change": "No TDI windstorm package (not in a designated catastrophe area)",
+      "priority": "nice",
+      "params": {
+        "windstorm": false
+      },
+      "source": {
+        "id": "tdi-wind-harris",
+        "title": "TDI windstorm designated catastrophe area map - Harris County",
+        "url": "https://tdi.texas.gov/wind/maps/harris.html",
+        "read": "2026-10-11"
+      }
     },
-    "unit": "ft",
-    "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-   }
-  },
-  "maxHeightFt": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  },
-  "maxStories": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  },
-  "maxLotCoverage": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "unit": "fraction",
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  },
-  "imperviousCover": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  },
-  "far": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  },
-  "parking": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  },
-  "garageRules": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  },
-  "adu": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  },
-  "masonry": {
-   "value": "City masonry % mandates for new homes generally preempted by Tex. Gov't Code ch. 3000 (HB 2439, 2019) except limited exceptions; HOA/deed restrictions may still require masonry",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - state law background",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not verified against city code this session."
-  },
-  "trees": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  },
-  "other": [],
-  "typicalDistrict": {
-   "value": "R-1 (Single-Family Residential) - assumed most common; others e.g. R-1Z, PD districts in master-planned areas (First Colony, Telfair, Riverstone)",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - background knowledge",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  }
- },
- "process": {
-  "steps": [
-   {
-    "value": "Building permit application with plan set to city building department; zoning/plat check; utility/impact fee assessment",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - generic Texas process",
-     "url": "",
-     "read": "2026-10-11"
+    {
+      "id": "sugar-land-masonry",
+      "ruleType": "masonry-percentage",
+      "area": "envelope",
+      "change": "Do not enforce a city masonry % (Gov't Code ch. 3000 preemption) but surface HOA masonry requirements as a user input; default material neutral",
+      "priority": "should",
+      "params": {
+        "cityMasonryPct": null,
+        "askHoaMasonry": true
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - state law background; Sugar Land masonry rules not read",
+        "url": "",
+        "read": "2026-10-11"
+      }
     },
-    "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-   }
+    {
+      "id": "sugar-land-pd-check",
+      "ruleType": "survey-input-district",
+      "area": "survey",
+      "change": "Many Sugar Land lots are in Planned Development (PD) districts with ordinance-specific setbacks - ask user for PD ordinance/plat values",
+      "priority": "should",
+      "params": {
+        "askPdOrdinance": true
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - background knowledge",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "sugar-land-irc-2024",
+      "ruleType": "energy-compliance-doc",
+      "area": "drawings",
+      "change": "Design to 2024 IRC + 2024 IECC (CZ 2A) + NEC 2023 with Ord. 2395 amendments for applications on/after Jan 21 2026 (not the 2021 IRC baseline).",
+      "priority": "must",
+      "params": {
+        "irc": "2024 IRC",
+        "iecc": "2024 IECC",
+        "nec": "NEC 2023",
+        "effective": "2026-01-21"
+      },
+      "source": {
+        "id": "sugar-land-permits-inspections",
+        "title": "City of Sugar Land - Permits & Inspections (2024 ICC effective Jan 21 2026)",
+        "url": "https://www.sugarlandtx.gov/2362/Permits-Inspections",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "sugar-land-setbacks",
+      "ruleType": "setback-by-district",
+      "area": "setbacks",
+      "change": "R-1: front 25 ft (20 ft on cul-de-sac), sides 5 ft min each and total >= 10% lot width, rear 15 ft (25 ft abutting arterial), street side 20 ft; PD lots use PD ordinance.",
+      "priority": "must",
+      "params": {
+        "district": "R-1",
+        "frontFt": 25,
+        "frontCulDeSacFt": 20,
+        "sideFt": 5,
+        "sideTotalPctLotWidth": 0.1,
+        "rearFt": 15,
+        "rearArterialFt": 25,
+        "streetSideFt": 20
+      },
+      "source": {
+        "id": "sugar-land-regulation-comparison",
+        "title": "City of Sugar Land - Regulation Comparison Table (Development Code, July 2020 column)",
+        "url": "https://www.sugarlandtx.gov/DocumentCenter/View/26229/Regulation-Comparison-Table_v2_Web",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "sugar-land-lot",
+      "ruleType": "lot-min-size",
+      "area": "survey",
+      "change": "R-1 min lot 6,600 sf, 60 ft wide (+10 corner), 110 ft deep.",
+      "priority": "should",
+      "params": {
+        "minLotSqFt": 6600,
+        "minWidthFt": 60,
+        "minDepthFt": 110
+      },
+      "source": {
+        "id": "sugar-land-regulation-comparison",
+        "title": "City of Sugar Land - Regulation Comparison Table (Development Code, July 2020 column)",
+        "url": "https://www.sugarlandtx.gov/DocumentCenter/View/26229/Regulation-Comparison-Table_v2_Web",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "sugar-land-height",
+      "ruleType": "height-limit",
+      "area": "massing",
+      "change": "Max 35 ft / 2.5 stories.",
+      "priority": "must",
+      "params": {
+        "maxHeightFt": 35,
+        "maxStories": 2.5
+      },
+      "source": {
+        "id": "sugar-land-faq-r1",
+        "title": "City of Sugar Land FAQ (R-1 district: 35 ft / 2.5 stories, 5 ft sides)",
+        "url": "https://www.sugarlandtx.gov/faq.aspx?TID=131",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "sugar-land-coverage",
+      "ruleType": "lot-coverage",
+      "area": "massing",
+      "change": "Max lot coverage 40% incl. garage/accessory (verify for R-1).",
+      "priority": "should",
+      "params": {
+        "maxCoverage": 0.4,
+        "verified": false
+      },
+      "source": {
+        "id": "sugar-land-regulation-comparison",
+        "title": "City of Sugar Land - Regulation Comparison Table (Development Code, July 2020 column)",
+        "url": "https://www.sugarlandtx.gov/DocumentCenter/View/26229/Regulation-Comparison-Table_v2_Web",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "sugar-land-permit-fee",
+      "ruleType": "permit-fee-formula",
+      "area": "estimate",
+      "change": "Permit by sq ft tiers (Ord. 2355) + plan check 50%; estimate ~$2,730 for 2,840 sf.",
+      "priority": "should",
+      "params": {
+        "planCheckFraction": 0.5,
+        "estimateUSD": 2730
+      },
+      "source": {
+        "id": "sugar-land-fy25-fee-ord-2355",
+        "title": "Sugar Land FY25 Fee Ordinance, Ordinance No. 2355",
+        "url": "https://sugarlandtx.gov/DocumentCenter/View/39614",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "sugar-land-tap",
+      "ruleType": "tap-fee-estimate",
+      "area": "estimate",
+      "change": "Add water connection $915 (5/8-in) + sewer tap $200.",
+      "priority": "nice",
+      "params": {
+        "waterUSD": 915,
+        "sewerUSD": 200
+      },
+      "source": {
+        "id": "sugar-land-new-meter-app",
+        "title": "City of Sugar Land - Application for New Meter Utility Service",
+        "url": "https://www.sugarlandtx.gov/DocumentCenter/View/25889",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "sugar-land-flood",
+      "ruleType": "flood-elevation",
+      "area": "foundation",
+      "change": "If in SFHA, require surveyed BFE and apply Ch. 8 minimum finished floor (assume BFE+2 ft until confirmed).",
+      "priority": "should",
+      "params": {
+        "bfeFreeboardFt": 2,
+        "verified": false
+      },
+      "source": {
+        "id": "sugar-land-cityrulelookup-flood",
+        "title": "CityRuleLookup - Sugar Land TX flood zones (Development Code Ch. 8)",
+        "url": "https://cityrulelookup.com/environmental/flood-zones/sugar-land-tx",
+        "read": "2026-10-11"
+      }
+    }
   ],
-  "sealsRequired": [
-   {
-    "value": "Texas PE-sealed foundation design likely required (expansive clays) - confirm",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - regional practice",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-   }
+  "plainLanguage": "Sugar Land is ahead of most Texas cities: for permit applications from January 21, 2026 it uses the 2024 International codes (including the 2024 IRC) and the 2023 electrical code, with local changes in Ordinance 2395. In the standard R-1 single-family zone, lots are at least 6,600 sq ft and 60 ft wide; plan on a 25-ft front setback, 5-ft side yards, a 15-ft rear yard, up to 35 ft or 2.5 stories, and about 40% lot coverage. Many neighborhoods are planned developments with their own rules, so check your PD ordinance and HOA. Sugar Land is not in the state windstorm area. The permit fee is set by square footage, plus a plan-check fee of half the permit fee; we estimate about $2,700 for a 2,400 sq ft house with garage. Water and sewer connection fees are about $1,100.",
+  "openQuestions": [
+    "Middle tiers of residential permit fee (1,001-5,000 sf) and FY26/27 schedule",
+    "Confirm R-1 rear/street-side/coverage column in comparison table",
+    "Flood freeboard value in Ch. 8",
+    "Water/wastewater impact fees in specific areas",
+    "R-1 FAR value",
+    "Ord. 2395 residential amendment text"
   ],
-  "inspections": [
-   {
-    "value": "Standard IRC inspection sequence (foundation, framing, MEP rough, energy, final)",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - generic",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-   }
+  "notFound": [
+    "flood freeboard value",
+    "impact fee schedule",
+    "R-1 FAR",
+    "full permit fee tiers",
+    "review days"
   ],
-  "reviewDays": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "unit": "days",
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
+  "comparison": {
+    "irc": "2024 IRC (eff. 2026-01-21)",
+    "energy": "2024 IECC",
+    "plumbing": "IPC 2024",
+    "district": "R-1",
+    "setbacks": "25/5/15",
+    "maxHeight": "35 ft/2.5 st",
+    "coverageFar": "40% (verify)",
+    "masonry": "preempted by state law (HOA may require)",
+    "engFoundation": "likely",
+    "windstorm": "no",
+    "flood": "Ch. 8 min FFE (value not found)",
+    "permitFeeExample": "~$2,730 (est.)",
+    "impactFees": "none found; tap $1,115",
+    "costFactor": "PENDING"
   }
- },
- "fees": {
-  "permitFormula": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  },
-  "workedExample2400sqft": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "unit": "USD",
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched. Assumption for later: 2,400 sq ft conditioned + 440 sq ft attached garage."
-  },
-  "planReview": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  },
-  "impactFees": [
-   {
-    "value": null,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - not researched",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-   }
-  ],
-  "tapFees": [
-   {
-    "value": null,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - not researched",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-   }
-  ]
- },
- "cost": {
-  "factor": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "cost-method",
-    "title": "See README cost method (filled by cost agent)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "PENDING_COST_AGENT"
-  },
-  "method": "PENDING_COST_AGENT",
-  "perSqFtMarket": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - not researched",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched."
-  },
-  "drivers": [
-   {
-    "value": "Engineered slab on expansive Gulf Coast clay",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - regional practice",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Not verified."
-   }
-  ]
- },
- "flood": {
-  "value": null,
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed - not researched",
-   "url": "",
-   "read": "2026-10-11"
-  },
-  "note": "Not researched: shared web-search budget exhausted and direct fetch blocked before this city could be researched. Check city floodplain ordinance freeboard and county drainage district criteria."
- },
- "engineChanges": [
-  {
-   "id": "sugar-land-district-input",
-   "ruleType": "survey-input-district",
-   "area": "survey",
-   "change": "Zoning district and setbacks unknown in dataset: require user to enter district, front/side/rear setbacks and lot coverage from city zoning map/plat before design",
-   "priority": "must",
-   "params": {
-    "requireUserDistrict": true,
-    "requireUserSetbacks": true
-   },
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - data gap",
-    "url": "",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "sugar-land-irc-confirm",
-   "ruleType": "survey-input-district",
-   "area": "drawings",
-   "change": "IRC/IECC edition not confirmed: default to 2021 IRC / 2021 IECC CZ 2A but flag for verification",
-   "priority": "must",
-   "params": {
-    "defaultIrc": "2021 IRC",
-    "defaultIecc": "2021 IECC",
-    "climateZone": "2A",
-    "verified": false
-   },
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - data gap",
-    "url": "",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "sugar-land-eng-foundation",
-   "ruleType": "engineered-foundation-flag",
-   "area": "foundation",
-   "change": "Flag foundation for Texas PE design (expansive clay region)",
-   "priority": "should",
-   "params": {
-    "peSealFoundation": true
-   },
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - regional practice",
-    "url": "",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "sugar-land-deed-check",
-   "ruleType": "deed-restriction-check",
-   "area": "survey",
-   "change": "Prompt for HOA/deed restrictions (masonry %, setbacks, garage orientation) - common in master-planned subdivisions here",
-   "priority": "should",
-   "params": {
-    "requireDeedRestrictionInput": true
-   },
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - regional practice",
-    "url": "",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "sugar-land-no-windstorm",
-   "ruleType": "windstorm-package",
-   "area": "structure",
-   "change": "No TDI windstorm package (not in a designated catastrophe area)",
-   "priority": "nice",
-   "params": {
-    "windstorm": false
-   },
-   "source": {
-    "id": "tdi-wind-harris",
-    "title": "TDI windstorm designated catastrophe area map - Harris County",
-    "url": "https://tdi.texas.gov/wind/maps/harris.html",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "sugar-land-masonry",
-   "ruleType": "masonry-percentage",
-   "area": "envelope",
-   "change": "Do not enforce a city masonry % (Gov't Code ch. 3000 preemption) but surface HOA masonry requirements as a user input; default material neutral",
-   "priority": "should",
-   "params": {
-    "cityMasonryPct": null,
-    "askHoaMasonry": true
-   },
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - state law background; Sugar Land masonry rules not read",
-    "url": "",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "sugar-land-pd-check",
-   "ruleType": "survey-input-district",
-   "area": "survey",
-   "change": "Many Sugar Land lots are in Planned Development (PD) districts with ordinance-specific setbacks - ask user for PD ordinance/plat values",
-   "priority": "should",
-   "params": {
-    "askPdOrdinance": true
-   },
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - background knowledge",
-    "url": "",
-    "read": "2026-10-11"
-   }
-  }
- ],
- "plainLanguage": "Sugar Land has zoning; most new homes sit in R-1 single-family or Planned Development districts, but our dataset does not yet have the setbacks or lot limits, so you'll be asked to enter them from the zoning map or your plat. Sugar Land historically required brick or stone on homes; a 2019 state law limits cities from requiring specific materials, but HOA rules in neighborhoods like First Colony or Telfair often still do. We assume the 2021 residential code and climate zone 2A until verified. Sugar Land is not in the coastal windstorm area. Plan for an engineer-designed slab and check the floodplain map, as parts of the city lie near the Brazos River.",
- "openQuestions": [
-  "Adopted IRC/IECC/plumbing editions and ordinance",
-  "Typical single-family district, lot size and setbacks",
-  "Permit fee schedule and impact/tap fees",
-  "Floodplain freeboard"
- ],
- "notFound": [
-  "Everything except population and windstorm status - research budget exhausted (see report)"
- ],
- "comparison": {
-  "irc": "unverified (assume 2021)",
-  "energy": "unverified",
-  "plumbing": "unverified",
-  "district": "unverified",
-  "setbacks": "unverified",
-  "maxHeight": "unverified",
-  "coverageFar": "unverified",
-  "masonry": "preempted by state law (HOA may require)",
-  "engFoundation": "likely",
-  "windstorm": "no",
-  "flood": "unverified",
-  "permitFeeExample": "not computed",
-  "impactFees": "unverified",
-  "costFactor": "PENDING"
- }
 }
