@@ -33,26 +33,26 @@
     "note": "Fallback profile."
   },
   "climateZone": {
-    "value": "by county - see engineChanges texas-baseline-climate-zone",
-    "status": "Assumed",
+    "value": "by county - see engineChanges texas-baseline-climate-zone (two maps: 2015 for state code, 2021 for cities on 2021+ IECC)",
+    "status": "Secondary",
     "source": {
-      "id": "assumed",
-      "title": "Assumed - prior knowledge, not verified at source this session",
-      "url": "",
+      "id": "tx-dallas-iecc2021-comment",
+      "title": "City of Dallas - Public comment on 2021 IECC (Code Solutions): Dallas County CZ 2A; Denton, Collin, Rockwall 3A",
+      "url": "https://dallascityhall.com/departments/sustainabledevelopment/buildinginspection/DCH%20documents/pdf/code_amendments/Public%20Comment%202021%20IECC%20CofD.pdf",
       "read": "2026-10-11"
     },
-    "note": "Zone depends on county. Map in params uses the 2009-2018 IECC county list (the 2015 IRC energy chapter is the state minimum). Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+    "note": "Read via search-result excerpt (direct fetch blocked by egress policy). 2021 IECC map moved Dallas County 3A->2A (City of Dallas comment doc; JM blog says DFW CZ3->CZ2); Collin/Denton/Rockwall stay 3A. Other county rows are from the 2009-2018 IECC list (Assumed) and need checking against 2021 IECC Table R301.1 / PNNL 2022 county guide."
   },
   "windstormCounty": {
-    "value": "by county - true for the 14 first-tier coastal counties and Harris County east of SH 146",
-    "status": "Assumed",
+    "value": "by county - true for the 14 first-tier coastal counties and the parts of La Porte, Morgan's Point, Pasadena, Seabrook and Shoreacres east of SH 146 (Harris County)",
+    "status": "Secondary",
     "source": {
-      "id": "assumed",
-      "title": "Assumed - prior knowledge, not verified at source this session",
-      "url": "",
+      "id": "tx-twia-coverage-area",
+      "title": "TWIA - Where is the coverage area/designated catastrophe area?",
+      "url": "https://www.twia.org/?p=40566",
       "read": "2026-10-11"
     },
-    "note": "Insurance Code ch. 2210 / TDI designated catalogue area. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+    "note": "Read via search-result excerpt (direct fetch blocked by egress policy). TWIA: catastrophe area = all 14 first-tier counties + portion of Harris County inside those city limits and east of Hwy 146."
   },
   "codes": {
     "irc": {
@@ -107,14 +107,15 @@
         },
         {
           "topic": "masonry",
-          "summary": "Gov't Code ch. 3000 (HB 2439, 2019) bars cities from prohibiting or limiting a building product/material allowed by a national model code published in the last three code cycles, so most masonry-percentage rules are unenforceable unless they fall in a statutory exception (historic district/landmark, certain Main Street areas, windstorm, etc.) or are private deed restrictions.",
-          "section": "Gov't Code 3000.002-3000.005",
-          "status": "Assumed",
+          "summary": "Gov't Code 3000.002 (HB 2439, 86R, eff. 2019-09-01): a governmental entity may not adopt or enforce a rule/ordinance/building code that prohibits or limits a building product, material or method approved by a national model code published within the last three code cycles, or sets a standard stricter than that code. Local code amendments are allowed only if they do not conflict. Exceptions include areas of historical/cultural/architectural significance where the city is a Certified Local Government or has a THC-compliant landmark ordinance (and designations made by April 1, 2019 / National Register districts), and state-agency programs. SB 783 (2025) amended ch. 3000 to exempt SECO-adopted energy codes. Private deed restrictions/HOAs are not reached.",
+          "section": "Gov't Code 3000.002",
+          "status": "Secondary",
           "source": {
-            "id": "assumed",
-            "title": "Assumed - prior knowledge, not verified at source this session",
-            "url": "",
-            "read": "2026-10-11"
+            "id": "tx-gc3000-002-publiclaw",
+            "title": "Tex. Gov't Code Section 3000.002 (texas.public.law)",
+            "url": "https://texas.public.law/statutes/tex._gov't_code_section_3000.002",
+            "read": "2026-10-11",
+            "section": "3000.002"
           }
         },
         {
@@ -181,26 +182,28 @@
       }
     },
     "plumbing": {
-      "value": "IPC or UPC - city choice (Occupations Code 1301.255); default IPC 2021 assumption",
-      "status": "Assumed",
+      "value": "IPC or UPC - city choice: Occupations Code 1301.255 has the plumbing board adopt both the UPC and IPC (base 2001 editions, later editions by rule); cities may amend for local conditions. Default IPC 2021 for an unlisted city.",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - prior knowledge, not verified at source this session",
-        "url": "",
-        "read": "2026-10-11"
+        "id": "tx-occ-1301-255-justia",
+        "title": "2025 Texas Statutes, Occupations Code 1301.255 (Justia)",
+        "url": "https://law.justia.com/codes/texas/occupations-code/title-8/chapter-1301/subchapter-e/section-1301-255/",
+        "read": "2026-10-11",
+        "section": "1301.255"
       },
-      "note": "Texas Plumbing License Law lets a city adopt either the IPC or the UPC. Default chosen as IPC because most Texas cities use IPC; Houston-area cities often use UPC. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+      "note": "Read via search-result excerpt (direct fetch blocked by egress policy). Bills in 87R/88R/89R to switch to IPC-only were proposed; no evidence any passed. Default IPC is a judgement - Houston and several Gulf Coast cities use UPC."
     },
     "electrical": {
-      "value": "NEC 2023 (TDLR statewide adoption under Occupations Code ch. 1305, eff. 2023-09-01)",
-      "status": "Assumed",
+      "value": "NEC 2026 (TDLR statewide, 16 TAC 73.100) for permits filed on/after 2026-09-01, with a Texas amendment to 210.8(F) (no GFCI for outdoor dwelling HVAC outlets); NEC 2023 before that",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - prior knowledge, not verified at source this session",
-        "url": "",
-        "read": "2026-10-11"
+        "id": "tx-tdlr-2026-nec-adopted",
+        "title": "TDLR - Commission adopts rules (16 TAC 73.100, 2026 NEC)",
+        "url": "https://www.tdlr.texas.gov/news/rulemaking/2026/09/01/commission-adopts-rules-12/",
+        "read": "2026-10-11",
+        "section": "16 TAC 73.100"
       },
-      "note": "Where a city has not adopted its own edition, the TDLR-adopted NEC applies. NEC 2026 adoption by TDLR not confirmed. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+      "note": "Read via search-result excerpt (direct fetch blocked by egress policy). Adopted by TDLR Commission 2026-07-28; Houston Permitting Center confirms 2026-09-01. Cities may amend if at least as stringent."
     },
     "mechanical": {
       "value": "2021 IMC typical city adoption",
@@ -481,15 +484,16 @@
       "note": "Depends on city."
     },
     "masonry": {
-      "value": "Do not apply a masonry percentage by default - Gov't Code ch. 3000 bars most city material mandates",
-      "status": "Assumed",
+      "value": "Do not apply a masonry percentage by default - Gov't Code 3000.002 bars city material mandates except in qualifying historic districts; HOA/deed restrictions still can",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - prior knowledge, not verified at source this session",
-        "url": "",
-        "read": "2026-10-11"
+        "id": "tx-gc3000-002-publiclaw",
+        "title": "Tex. Gov't Code Section 3000.002 (texas.public.law)",
+        "url": "https://texas.public.law/statutes/tex._gov't_code_section_3000.002",
+        "read": "2026-10-11",
+        "section": "3000.002"
       },
-      "note": "Masonry may still be required by deed restrictions/HOA or in historic districts. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+      "note": "Read via search-result excerpt (direct fetch blocked by egress policy)."
     },
     "trees": {
       "value": null,
@@ -504,15 +508,48 @@
     },
     "other": [
       {
-        "value": "SB 840 (2025): multifamily/mixed-use allowed by right on certain commercial land in large cities; HB 24 (2025): changed zoning protest petition thresholds",
-        "status": "Assumed",
+        "value": "SB 15 (89R, 2025; LGC ch. 211 subch. D; applies to applications on/after 2025-09-01): in a city of >150,000 pop. wholly/partly in a county of >300,000, on an unplatted tract of 5+ acres zoned single-family, the city may not require a 'small lot' (<=4,000 sf) to be larger than 3,000 sf, wider than 30 ft, deeper than 75 ft, or setbacks over 15 ft front / 10 ft rear / 5 ft side; nor covered parking, more than 1 space, >30% permeable surface, max bulk, wall articulation or certain ceiling-height rules. HOA/deed restrictions, building and flood codes still apply. Excludes land within 3,000 ft of an airport/military base.",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed - prior knowledge, not verified at source this session",
-          "url": "",
+          "id": "tx-sb15-2025-analysis",
+          "title": "89(R) SB 15 Bill Analysis (enrolled)",
+          "url": "https://capitol.texas.gov/tlodocs/89R/analysis/html/SB00015F.htm",
           "read": "2026-10-11"
         },
-        "note": "Neither changes detached single-family design rules directly. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+        "note": "Read via search-result excerpt (direct fetch blocked by egress policy). Thresholds from enrolled-text excerpt (capitol.texas.gov SB00015F) and the Governor's release; numbers 3,000/30/75 and 15/10/5 from El Paso info sheet and news. Earlier committee version had 1,400 sf / 20 ft / 60 ft - superseded."
+      },
+      {
+        "value": "SB 840 (89R, 2025, eff. 2025-09-01): large cities must allow multifamily/mixed-use residential by right on land zoned office, commercial, retail, warehouse or mixed-use. No change to detached-house design rules.",
+        "status": "Secondary",
+        "source": {
+          "id": "tx-gptx-sb840",
+          "title": "City of Grand Prairie - Notice: Effective September 1st, Senate Bill 840",
+          "url": "https://www.gptx.org/Newsroom/Notice-Effective-September-1st-Senate-Bill-840",
+          "read": "2026-10-11"
+        },
+        "note": "Read via search-result excerpt (direct fetch blocked by egress policy). Population cutoff not confirmed."
+      },
+      {
+        "value": "HB 24 (89R, 2025, eff. 2025-09-01): zoning-change protest petition threshold raised from 20% to 60% of surrounding owners. Affects rezonings only, not house design.",
+        "status": "Secondary",
+        "source": {
+          "id": "tx-hb24-2025-plural",
+          "title": "TX HB 24 (89R) - Plural Policy bill page",
+          "url": "https://open.pluralpolicy.com/tx/bills/89R/HB24",
+          "read": "2026-10-11"
+        },
+        "note": "Read via search-result excerpt (direct fetch blocked by egress policy)."
+      },
+      {
+        "value": "SB 1787 (88R, 2023, 1,400 sf lot cap in counties >=300k) - no evidence it passed; its idea was carried into SB 15 (2025). Do not apply.",
+        "status": "Secondary",
+        "source": {
+          "id": "tx-sb1787-2023-analysis",
+          "title": "88(R) SB 1787 Bill Analysis (introduced) - residential lot size",
+          "url": "https://capitol.texas.gov/tlodocs/88R/analysis/html/SB01787I.htm",
+          "read": "2026-10-11"
+        },
+        "note": "Read via search-result excerpt (direct fetch blocked by egress policy). Passage not confirmed; SB 15 is the enacted small-lot law."
       }
     ]
   },
@@ -712,7 +749,7 @@
       "url": "",
       "read": "2026-10-11"
     },
-    "note": "Use 1 ft freeboard default unless city profile says more. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+    "note": "Use 1 ft freeboard default unless city profile says more. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law. Harris County (unincorporated) is much stricter: see cypress-unincorporated-harris."
   },
   "engineChanges": [
     {
@@ -756,7 +793,7 @@
       "id": "texas-baseline-climate-zone",
       "ruleType": "climate-zone-envelope",
       "area": "envelope",
-      "change": "Pick envelope R-values/U-factors/SHGC from the county's IECC climate zone",
+      "change": "Pick envelope R-values/U-factors/SHGC from the county's IECC climate zone, using the 2015-map zone when the governing energy code is the state 2015 IRC ch. 11 (or 2018 IECC), and the 2021-map zone when the city has adopted the 2021 IECC/IRC ch. 11 or newer (Dallas and Tarrant counties become 2A; Collin/Denton/Rockwall stay 3A)",
       "priority": "must",
       "params": {
         "climateZoneByCounty_2015map": {
@@ -772,6 +809,9 @@
           "Collin": "3A",
           "Denton": "3A",
           "Kaufman": "3A",
+          "Rockwall": "3A",
+          "Ellis": "3A",
+          "Johnson": "3A",
           "Travis": "2A",
           "Williamson": "2A",
           "Hays": "2A",
@@ -791,12 +831,72 @@
           "Brazos": "2A",
           "Waller": "2A"
         },
-        "note2021map": "Under the 2021 IECC map Cameron County is 1A (Secondary: harth.build); other moves (some counties shifted warmer) not verified"
+        "climateZoneByCounty_2021map": {
+          "Harris": "2A",
+          "Fort Bend": "2A",
+          "Montgomery": "2A",
+          "Brazoria": "2A",
+          "Galveston": "2A",
+          "Bexar": "2A",
+          "Comal": "2A",
+          "Dallas": "2A",
+          "Tarrant": "2A",
+          "Collin": "3A",
+          "Denton": "3A",
+          "Kaufman": "3A",
+          "Rockwall": "3A",
+          "Ellis": "3A",
+          "Johnson": "3A",
+          "Travis": "2A",
+          "Williamson": "2A",
+          "Hays": "2A",
+          "Bell": "2A",
+          "El Paso": "3B",
+          "Nueces": "2A",
+          "Lubbock": "3B",
+          "Webb": "2B",
+          "Potter": "4B",
+          "Randall": "4B",
+          "Cameron": "2A",
+          "Hidalgo": "2A",
+          "Midland": "3B",
+          "McLennan": "2A",
+          "Smith": "3A",
+          "Jefferson": "2A",
+          "Brazos": "2A",
+          "Waller": "2A"
+        },
+        "selectMap": {
+          "2015 IRC ch.11 (state minimum)": "climateZoneByCounty_2015map",
+          "2018 IECC or older": "climateZoneByCounty_2015map",
+          "2021 IECC/IRC ch.11 or newer": "climateZoneByCounty_2021map"
+        },
+        "status2021": {
+          "Dallas": "Secondary (City of Dallas 2021 IECC comment: Dallas County 2A)",
+          "Tarrant": "Secondary-weak (JM: DFW moved CZ3->CZ2; county row not seen)",
+          "Collin": "Secondary (3A)",
+          "Denton": "Secondary (3A)",
+          "Rockwall": "Secondary (3A)",
+          "others": "Assumed unchanged from 2015 map - verify against 2021 IECC Table R301.1 / PNNL 2022 county guide"
+        },
+        "verify2021": [
+          "Ellis",
+          "Johnson",
+          "Kaufman",
+          "Parker",
+          "Cameron (one secondary source says 1A, OpenEI says 2A)",
+          "Hidalgo",
+          "Willacy",
+          "Potter",
+          "Randall"
+        ],
+        "splitJurisdictionRule": "A city spanning Dallas (2A) and Collin/Denton/Rockwall (3A) under 2021+ IECC: NCTCOG recommends the city amend Table R301.1 to one zone - use the zone in the city's own amendment",
+        "defaultIfUnknown": "use 2015 map value and warn"
       },
       "source": {
-        "id": "assumed",
-        "title": "Assumed - prior knowledge, not verified at source this session",
-        "url": "",
+        "id": "tx-dallas-iecc2021-comment",
+        "title": "City of Dallas - Public comment on 2021 IECC (Code Solutions): Dallas County CZ 2A; Denton, Collin, Rockwall 3A",
+        "url": "https://dallascityhall.com/departments/sustainabledevelopment/buildinginspection/DCH%20documents/pdf/code_amendments/Public%20Comment%202021%20IECC%20CofD.pdf",
         "read": "2026-10-11"
       }
     },
@@ -804,7 +904,7 @@
       "id": "texas-baseline-windstorm",
       "ruleType": "windstorm-package",
       "area": "structure",
-      "change": "If county is one of the 14 first-tier coastal counties (or Harris County east of SH 146), apply TDI windstorm package: design to IRC/TDI wind speed, rated openings/impact protection, continuous load path, engineer or TDI inspections and WPI-8 certificate",
+      "change": "If county is one of the 14 first-tier coastal counties (or inside La Porte, Morgan's Point, Pasadena, Seabrook or Shoreacres city limits east of SH 146), apply TDI windstorm package: design to the TDI-adopted code (2024 IRC/IBC for construction from 2026-04-01; 2018 IRC/IBC 2020-04-01 to 2026-03-31), rated openings/impact protection, continuous load path, TDI-appointed engineer inspections and certificate of compliance (WPI-8) issued by TDI",
       "priority": "must",
       "params": {
         "counties": [
@@ -823,12 +923,26 @@
           "San Patricio",
           "Willacy"
         ],
-        "harrisPartial": "east of SH 146 (La Porte, Morgan's Point, Pasadena, Seabrook, Shoreacres area)"
+        "harrisPartial": {
+          "cities": [
+            "La Porte",
+            "Morgan's Point",
+            "Pasadena",
+            "Seabrook",
+            "Shoreacres"
+          ],
+          "condition": "inside city limits AND east of SH 146"
+        },
+        "tdiCode": {
+          "from2026-04-01": "2024 IRC/IBC (28 TAC 5.4013)",
+          "2020-04-01_to_2026-03-31": "2018 IRC/IBC"
+        },
+        "certificateIssuer": "TDI (since 2020-06-01, HB 1900/SB 615, 86R 2019)"
       },
       "source": {
-        "id": "assumed",
-        "title": "Assumed - prior knowledge, not verified at source this session",
-        "url": "",
+        "id": "tx-tdi-wind-geninfo",
+        "title": "TDI Windstorm Inspections - general information (building codes by date)",
+        "url": "https://agate.tdi.texas.gov/wind/geninfo.html",
         "read": "2026-10-11"
       }
     },
@@ -853,17 +967,23 @@
       "id": "texas-baseline-product-ban",
       "ruleType": "masonry-percentage",
       "area": "envelope",
-      "change": "Do not enforce a city masonry percentage by default (Gov't Code ch. 3000); only apply masonry % from a deed restriction/HOA or historic-district rule the user confirms",
+      "change": "Do not enforce a city masonry percentage by default (Gov't Code 3000.002); apply masonry % only from a deed restriction/HOA rule or a qualifying historic district (CLG/landmark ordinance) the user confirms",
       "priority": "should",
       "params": {
         "defaultMasonryPct": 0,
-        "allowUserOverride": true
+        "allowUserOverride": true,
+        "exceptions": [
+          "historic district/landmark (CLG or THC-compliant ordinance)",
+          "state-agency program",
+          "private deed restriction/HOA"
+        ]
       },
       "source": {
-        "id": "assumed",
-        "title": "Assumed - prior knowledge, not verified at source this session",
-        "url": "",
-        "read": "2026-10-11"
+        "id": "tx-gc3000-002-publiclaw",
+        "title": "Tex. Gov't Code Section 3000.002 (texas.public.law)",
+        "url": "https://texas.public.law/statutes/tex._gov't_code_section_3000.002",
+        "read": "2026-10-11",
+        "section": "3000.002"
       }
     },
     {
@@ -888,33 +1008,41 @@
       "id": "texas-baseline-plumbing",
       "ruleType": "plumbing-code-variant",
       "area": "drawings",
-      "change": "Plumbing per IPC unless the city adopted the UPC (Occupations Code 1301.255)",
+      "change": "Plumbing per IPC unless the city adopted the UPC (Occupations Code 1301.255 lets cities choose)",
       "priority": "should",
       "params": {
         "default": "IPC 2021",
-        "alternative": "UPC"
+        "alternative": "UPC",
+        "uPCKnownCities": [
+          "Houston"
+        ]
       },
       "source": {
-        "id": "assumed",
-        "title": "Assumed - prior knowledge, not verified at source this session",
-        "url": "",
-        "read": "2026-10-11"
+        "id": "tx-occ-1301-255-justia",
+        "title": "2025 Texas Statutes, Occupations Code 1301.255 (Justia)",
+        "url": "https://law.justia.com/codes/texas/occupations-code/title-8/chapter-1301/subchapter-e/section-1301-255/",
+        "read": "2026-10-11",
+        "section": "1301.255"
       }
     },
     {
       "id": "texas-baseline-electrical",
       "ruleType": "electrical-code-edition",
       "area": "drawings",
-      "change": "Electrical per NEC 2023 (TDLR statewide) unless the city adopted a different edition",
+      "change": "Electrical per NEC 2026 for permits filed on/after 2026-09-01 (TDLR statewide; Texas amendment: no GFCI required for outdoor dwelling HVAC outlets, NEC 210.8(F)); NEC 2023 before that date",
       "priority": "should",
       "params": {
-        "nec": "2023"
+        "nec": "2026",
+        "effective": "2026-09-01",
+        "priorNec": "2023",
+        "txAmend": "210.8(F) outdoor HVAC GFCI exempt"
       },
       "source": {
-        "id": "assumed",
-        "title": "Assumed - prior knowledge, not verified at source this session",
-        "url": "",
-        "read": "2026-10-11"
+        "id": "tx-tdlr-2026-nec-adopted",
+        "title": "TDLR - Commission adopts rules (16 TAC 73.100, 2026 NEC)",
+        "url": "https://www.tdlr.texas.gov/news/rulemaking/2026/09/01/commission-adopts-rules-12/",
+        "read": "2026-10-11",
+        "section": "16 TAC 73.100"
       }
     },
     {
@@ -937,16 +1065,28 @@
       "id": "texas-baseline-sb15",
       "ruleType": "lot-min-size",
       "area": "survey",
-      "change": "For new subdivisions in large cities (SB 15, 2025) small lots down to 3,000 sq ft may be allowed - allow narrow-lot plans",
-      "priority": "nice",
+      "change": "SB 15 (2025) small lots: if city pop >150k in a county >300k and the lot is in a new subdivision of an unplatted 5+ acre single-family tract (application on/after 2025-09-01), allow lots down to 3,000 sf / 30 ft wide / 75 ft deep with max setbacks 15 front / 5 side / 10 rear and 1 uncovered parking space; do not apply city bulk or articulation rules. HOA/deed rules still win.",
+      "priority": "should",
       "params": {
-        "minLotSqFtCap": 3000,
-        "appliesTo": "qualifying new subdivisions in cities >150k pop in counties >300k (verify)"
+        "cityPopMin": 150000,
+        "countyPopMin": 300000,
+        "tractAcresMin": 5,
+        "smallLotSqFtMax": 4000,
+        "maxRequiredLotSqFt": 3000,
+        "maxRequiredWidthFt": 30,
+        "maxRequiredDepthFt": 75,
+        "maxFrontFt": 15,
+        "maxSideFt": 5,
+        "maxRearFt": 10,
+        "maxParking": 1,
+        "coveredParkingRequired": false,
+        "maxPermeableReqPct": 30,
+        "applicationsFrom": "2025-09-01"
       },
       "source": {
-        "id": "assumed",
-        "title": "Assumed - prior knowledge, not verified at source this session",
-        "url": "",
+        "id": "tx-sb15-2025-analysis",
+        "title": "89(R) SB 15 Bill Analysis (enrolled)",
+        "url": "https://capitol.texas.gov/tlodocs/89R/analysis/html/SB00015F.htm",
         "read": "2026-10-11"
       }
     },
@@ -1000,15 +1140,16 @@
       }
     }
   ],
-  "plainLanguage": "Texas sets a minimum house code (the 2012 IRC) but most cities use the newer 2021 IRC with local changes - always confirm with your city. The statewide energy code is still the 2015 IRC energy chapter; a newer one is under state review. Your county decides your climate zone and so your insulation and window levels. Cities cannot require fire sprinklers in a house. Cities generally cannot require brick or stone, but your HOA or deed restrictions can. On the coast you need a TDI windstorm certificate to get wind insurance. Much of Texas has shrink-swell clay, so plan on an engineer-designed slab.",
+  "plainLanguage": "Texas sets a minimum house code (the 2012 IRC) but most cities use the newer 2021 IRC with local changes - always confirm with your city. The statewide energy code is still the 2015 IRC energy chapter; a newer one is under state review. Your county sets your climate zone; under the newer 2021 energy code Dallas and Tarrant counties count as a warmer zone (2A) than Collin or Denton (3A). Electrical work follows the 2026 National Electrical Code for permits filed from Sept 1, 2026. Cities cannot require fire sprinklers in a house, and generally cannot require brick or stone - but your HOA, deed restrictions or a historic district can. On the coast you need a TDI windstorm certificate; homes started from April 1, 2026 are checked against the 2024 IRC wind rules. In big cities, a 2025 law (SB 15) lets new subdivisions have small lots (down to 3,000 sq ft) with small setbacks. Much of Texas has shrink-swell clay, so plan on an engineer-designed slab.",
   "openQuestions": [
     "Final SECO adoption of the 2024 IRC energy chapter and its effective date (no final rule found as of 2026-10-11)",
-    "Exact 2021 IECC county moves for Texas (Hidalgo, DFW counties) - not verified",
-    "Current TDLR NEC edition (2023 vs 2026)"
+    "2021 IECC county rows for Ellis, Johnson, Kaufman, Parker, Cameron/Hidalgo/Willacy (1A?), Potter/Randall - check 2021 IECC Table R301.1 or the PNNL 2022 county guide",
+    "Full enumerated exception list of Gov't Code 3000.002(c)-(d) as amended by SB 783 (2025)",
+    "SB 840 population threshold; whether any 89R bill changed Occupations Code 1301.255"
   ],
   "notFound": [
-    "Direct reads of statutes.capitol.texas.gov (blocked by egress policy)",
-    "Gov't Code ch. 3000, Occupations Code 1301/1305, LGC 233, Insurance Code 2210, SB 15/SB 840/HB 24 text - not verified this session (search budget exhausted)"
+    "Direct reads of statutes.capitol.texas.gov (DNS/egress blocked); all statute values are from search excerpts (Secondary)",
+    "2021 IECC Table R301.1 Texas rows (only Dallas, Collin, Denton, Rockwall seen)"
   ],
   "comparison": {
     "irc": "2021 IRC typical (state floor 2012)",
@@ -1018,12 +1159,13 @@
     "setbacks": "user input",
     "maxHeight": "35 ft placeholder",
     "coverageFar": "n/a",
-    "masonry": "not enforceable by city (Gov't Code 3000)",
+    "masonry": "not enforceable by city (Gov't Code 3000.002) - HOA/historic only",
     "engFoundation": "yes - recommended statewide",
-    "windstorm": "14 coastal counties + E. Harris",
+    "windstorm": "14 coastal counties + E. Harris (TDI 2024 IRC from 2026-04-01)",
     "flood": "BFE + 1 ft default",
     "permitFeeExample": "n/a",
     "impactFees": "city-specific",
-    "costFactor": "PENDING"
+    "costFactor": "PENDING",
+    "electrical": "NEC 2026 (from 2026-09-01)"
   }
 }

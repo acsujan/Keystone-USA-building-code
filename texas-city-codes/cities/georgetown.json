@@ -58,36 +58,36 @@
     "irc": {
       "edition": {
         "value": "2021 IRC",
-        "status": "Assumed",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "georgetown-adopted-building-code",
+          "title": "City of Georgetown Permits - Adopted Building Code",
+          "url": "https://permits.georgetown.org/?p=853",
           "read": "2026-10-11"
         },
-        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Georgetown is believed to have adopted the 2021 I-codes; a move to 2024 codes may have occurred by 2026."
+        "note": "City permit site lists 2021 IRC, 2021 IECC and NEC adopted, 2021 codes effective Nov 1, 2023; site notes local IRC and IECC amendments are in the Code of Ordinances (Title 15). Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
       },
       "ordinance": {
-        "value": null,
-        "status": "Assumed",
+        "value": "Title 15 Building and Construction amendment adopting 2021 I-codes + 2023 NEC (Council agenda Aug 8, 2023; effective Nov 1, 2023)",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "georgetown-council-2023-08-08-ordinances",
+          "title": "City of Georgetown - Proposed Ordinances for August 8, 2023 Council Meeting (Title 15 adoption of 2021 I-codes and 2023 NEC)",
+          "url": "https://georgetown.org/?p=49542",
           "read": "2026-10-11"
         },
-        "note": "Not found: adoption ordinance. Web access unavailable this session (WebFetch DNS failure; search budget exhausted)."
+        "note": "Ordinance number not seen in search extracts; do not cite a number. Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
       },
       "amendments": [
         {
           "topic": "other",
-          "summary": "Local amendments not retrieved.",
-          "section": "",
-          "status": "Assumed",
+          "summary": "City states it has local amendments to the IRC and IECC in Code of Ordinances Title 15; amendment text not retrieved (foundation/sprinkler details unknown).",
+          "section": "Title 15",
+          "status": "Secondary",
           "source": {
-            "id": "assumed",
-            "title": "Assumed",
-            "url": "",
+            "id": "georgetown-adopted-building-code",
+            "title": "City of Georgetown Permits - Adopted Building Code",
+            "url": "https://permits.georgetown.org/?p=853",
             "read": "2026-10-11"
           }
         }
@@ -95,15 +95,15 @@
     },
     "energy": {
       "edition": {
-        "value": "2021 IECC",
-        "status": "Assumed",
+        "value": "2021 IECC (with local amendments)",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "georgetown-adopted-building-code",
+          "title": "City of Georgetown Permits - Adopted Building Code",
+          "url": "https://permits.georgetown.org/?p=853",
           "read": "2026-10-11"
         },
-        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Usually adopted in the same cycle as the IRC."
+        "note": "Amendment content not retrieved. Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
       },
       "stretchCode": {
         "value": false,
@@ -114,11 +114,11 @@
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. No stretch code known."
+        "note": "No stretch code seen in searches."
       }
     },
     "plumbing": {
-      "value": "IPC (same edition as IRC)",
+      "value": "IPC 2021 (assumed: city adopted the 2021 International Codes suite)",
       "status": "Assumed",
       "source": {
         "id": "assumed",
@@ -126,21 +126,21 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Central Texas cities typically adopt the IPC."
+      "note": "Plumbing code not named in search extracts; 2021 I-code suite adoption suggests IPC; confirm (some TX cities use UPC)."
     },
     "electrical": {
-      "value": "NEC 2020 or 2023",
-      "status": "Assumed",
+      "value": "NEC 2023",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "georgetown-council-2023-08-08-ordinances",
+        "title": "City of Georgetown - Proposed Ordinances for August 8, 2023 Council Meeting (Title 15 adoption of 2021 I-codes and 2023 NEC)",
+        "url": "https://georgetown.org/?p=49542",
         "read": "2026-10-11"
       },
-      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Typical pairing."
+      "note": "Aug 2023 council item adopts 2023 NEC; permit site extract mentioned 'NEC 2021' which is not an NEC edition - treat 2023 as correct pending verification. Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
     },
     "mechanical": {
-      "value": "IMC (same edition as IRC)",
+      "value": "IMC 2021",
       "status": "Assumed",
       "source": {
         "id": "assumed",
@@ -148,10 +148,10 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. "
+      "note": "Part of 2021 I-code adoption (assumed)."
     },
     "fuelGas": {
-      "value": "IFGC (same edition as IRC)",
+      "value": "IFGC 2021",
       "status": "Assumed",
       "source": {
         "id": "assumed",
@@ -159,7 +159,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. "
+      "note": "Part of 2021 I-code adoption (assumed)."
     },
     "fire": {
       "value": "IFC (same edition); no one/two-family sprinkler mandate known",
@@ -244,15 +244,15 @@
     },
     "minLotSqFt": {
       "value": 5500,
-      "status": "Assumed",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "georgetown-udc-ch8-zoneomics",
+        "title": "Georgetown TX UDC - Residential Development Standards (Zoneomics copy)",
+        "url": "https://www.zoneomics.com/code/georgetown-TX/chapter_8",
         "read": "2026-10-11"
       },
-      "unit": "sqft",
-      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Provisional."
+      "unit": "sq ft",
+      "note": "Zoneomics copy of UDC: RS medium-density district, 5,500 sq ft minimum lot for single-family detached. Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
     },
     "minLotWidthFt": {
       "value": 45,
@@ -329,15 +329,15 @@
     },
     "maxHeightFt": {
       "value": 35,
-      "status": "Assumed",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "georgetown-ci-adu-2024",
+        "title": "Community Impact - Georgetown council approves accessory dwelling unit code changes",
+        "url": "https://communityimpact.com/georgetown/city-county/council-approves-accessory-dwelling-unit-code-changes/",
         "read": "2026-10-11"
       },
       "unit": "ft",
-      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Common 35 ft SF height limit in central Texas cities; not verified."
+      "note": "News report on ADU changes: residential zoning allows buildings up to 35 ft; accessory structures max 17 ft or primary height, whichever less."
     },
     "maxStories": {
       "value": null,
@@ -363,15 +363,15 @@
       "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Not known."
     },
     "imperviousCover": {
-      "value": null,
-      "status": "Assumed",
+      "value": "UDC Ch.13 impervious cover limits apply city + ETJ; Edwards Aquifer recharge zone subdivision caps 70% (<=5 ac) / blended 55% for larger appear under non-residential heading; single-family lot cap not confirmed",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "georgetown-udc-ch13-zoneomics",
+        "title": "Georgetown TX UDC - Environmental Protection (Zoneomics copy)",
+        "url": "https://www.zoneomics.com/code/georgetown-TX/chapter_13",
         "read": "2026-10-11"
       },
-      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Western Georgetown (roughly west of I-35) is over the Edwards Aquifer recharge zone; TCEQ 30 TAC 213 and the city's UDC water-quality rules (incl. Georgetown salamander protection) may cap impervious cover per lot. No numeric cap verified."
+      "note": "Usually set at subdivision/plat level; check plat notes. Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
     },
     "far": {
       "value": null,
@@ -407,15 +407,15 @@
       "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. "
     },
     "adu": {
-      "value": null,
-      "status": "Assumed",
+      "value": "ADUs allowed by UDC amendment; accessory structure height max 17 ft or primary-structure height, whichever is less",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "georgetown-ci-adu-2024",
+        "title": "Community Impact - Georgetown council approves accessory dwelling unit code changes",
+        "url": "https://communityimpact.com/georgetown/city-county/council-approves-accessory-dwelling-unit-code-changes/",
         "read": "2026-10-11"
       },
-      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. ADU rules not known."
+      "note": "Other ADU limits (size, district) not retrieved."
     },
     "masonry": {
       "value": "No enforceable city masonry % for new homes (HB 2439); historic overlay districts excepted",
@@ -429,15 +429,15 @@
       "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Texas Gov't Code 3000 (HB 2439, 2019) bars cities from mandating specific building materials beyond the national model codes, except in historic districts and some pre-existing PUD/developer agreements; HOA deed restrictions may still require masonry."
     },
     "trees": {
-      "value": "UDC tree preservation: Protected trees ~12 in DBH and larger and Heritage trees ~26 in DBH and larger (certain species) require survey, preservation or mitigation; heritage tree removal needs approval",
-      "status": "Assumed",
+      "value": "Heritage trees >= 26 in DBH of listed species (live oak, post oak, pecan, cedar elm etc.); protected trees 12-25 in; critical root zone 1 ft radius per 1 in DBH; heritage mitigation 3:1 inches, fee-in-lieu 3:1 x $225/inch; tree removal/pruning form generally required with residential building permit (exempt if structure > 12 ft from heritage dripline)",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "georgetown-kb-heritage-trees",
+        "title": "City of Georgetown AskGTX Knowledge Base - Heritage trees",
+        "url": "https://georgetowntexas.qscend.com/askgtx/knowledgebase/article/588",
         "read": "2026-10-11"
       },
-      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Recalled; verify thresholds in the city tree ordinance."
+      "note": "Mitigation figures from 2023 Tree Mitigation Summary (https://planning.georgetown.org/wp-content/uploads/sites/9/2023/09/Tree-Mitigation-Summary-Effective-9.18.2023.pdf); UDC Ch.10 updated 9-9-2025 may change numbers. Retention % (20/30%) does not apply to residential subdivisions. Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
     },
     "other": []
   },
@@ -452,7 +452,7 @@
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Typical."
+        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Typical. New residential permit page: https://permits.georgetown.org/?p=286 (not opened)."
       }
     ],
     "sealsRequired": [
@@ -495,26 +495,27 @@
   },
   "fees": {
     "permitFormula": {
-      "value": null,
-      "status": "Assumed",
+      "value": "$125 base + $0.50 per sq ft (sq ft includes garage, porches, patios) + $25 technology fee",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "georgetown-construction-fee-schedule-2023",
+        "title": "City of Georgetown Construction Fee Schedule Rev 10.2.23 (PDF)",
+        "url": "https://permits.georgetown.org/wp-content/uploads/sites/20/2023/10/Construction-Fee-Schedule-Rev-10.2.23.pdf",
         "read": "2026-10-11"
       },
-      "note": "Not found: building permit fee formula. Web access unavailable this session (WebFetch DNS failure; search budget exhausted)."
+      "note": "From 10.2.23 fee schedule PDF extract; may have been revised since. Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
     },
     "workedExample2400sqft": {
-      "value": null,
-      "status": "Assumed",
+      "value": 1570,
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "georgetown-construction-fee-schedule-2023",
+        "title": "City of Georgetown Construction Fee Schedule Rev 10.2.23 (PDF)",
+        "url": "https://permits.georgetown.org/wp-content/uploads/sites/20/2023/10/Construction-Fee-Schedule-Rev-10.2.23.pdf",
         "read": "2026-10-11"
       },
-      "note": "Not computed: fee schedule not read. Basis would be 2,400 sq ft conditioned + 440 sq ft attached garage."
+      "unit": "USD",
+      "note": "Assume 2,400 sf living + 440 sf attached garage = 2,840 sf (no porch). $125 + 2,840 x $0.50 = $1,420 -> $1,545 + $25 tech = $1,570. Excludes trade/plan review if any."
     },
     "planReview": {
       "value": null,
@@ -525,32 +526,45 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: plan review fee. Web access unavailable this session (WebFetch DNS failure; search budget exhausted)."
+      "note": "Not found: no separate residential plan review fee seen in 2023 schedule extract."
     },
     "impactFees": [
       {
-        "value": null,
-        "status": "Assumed",
+        "value": "Water + wastewater + transportation impact fee increases approved Aug 12, 2025; transportation fees vary by service area and land use, increases of 100% to 250%+ phased by Sept 2026",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "georgetown-ci-sept-2025-impact",
+          "title": "Community Impact Georgetown Edition September 2025 - council approves water, wastewater and transportation impact fee increases",
+          "url": "https://editions.communityimpact.com/view/864315244/11/",
           "read": "2026-10-11"
         },
-        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Georgetown collects water and wastewater impact fees through its utility; amounts not retrieved. Note parts of the city are served by other utilities (e.g., Chisholm Trail SUD area now GUS, Jonah SUD)."
+        "note": "Per-home amounts not in extract."
+      },
+      {
+        "value": "Maximum assessable water impact fee $12,215 and wastewater $6,129 per LUE (earlier study; staff proposed $13,835 / $13,577)",
+        "status": "Secondary",
+        "source": {
+          "id": "georgetown-wilcosun-impact",
+          "title": "Wilco Sun - Developers could pay more for water, wastewater (Georgetown impact fees)",
+          "url": "https://www.wilcosun.com/node/6364",
+          "read": "2026-10-11"
+        },
+        "unit": "USD",
+        "note": "Article undated in search results; adopted collection rate may be lower than maximum. Verify with GUS. Engine estimate: ~$18,000 water+ww per home (provisional). Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
       }
     ],
     "tapFees": [
       {
-        "value": null,
-        "status": "Assumed",
+        "value": "Water Engineering & Inspection fee $500 per single-family unit (2023); reportedly raised to $625 in Aug 2025; 3/4 in meter $350 inside city (2023)",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "georgetown-construction-fee-schedule-2023",
+          "title": "City of Georgetown Construction Fee Schedule Rev 10.2.23 (PDF)",
+          "url": "https://permits.georgetown.org/wp-content/uploads/sites/20/2023/10/Construction-Fee-Schedule-Rev-10.2.23.pdf",
           "read": "2026-10-11"
         },
-        "note": "Not found: water/sewer tap fees. Web access unavailable this session (WebFetch DNS failure; search budget exhausted)."
+        "unit": "USD",
+        "note": "2025 figure from AI-generated meeting summary (https://cp.soar.com/articles/5682726/...) - low confidence. Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
       }
     ]
   },
@@ -580,15 +594,14 @@
     },
     "drivers": [
       {
-        "value": "Utility impact fees (Austin-suburb levels, typically several thousand USD per home)",
-        "status": "Assumed",
+        "value": "Water/wastewater impact fees potentially $12k-18k+ per LUE (max assessable) plus transportation impact fee rising through 2026",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "georgetown-wilcosun-impact",
+          "title": "Wilco Sun - Developers could pay more for water, wastewater (Georgetown impact fees)",
+          "url": "https://www.wilcosun.com/node/6364",
           "read": "2026-10-11"
-        },
-        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. "
+        }
       },
       {
         "value": "Engineered slab on expansive or karst soils",
@@ -602,15 +615,14 @@
         "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. "
       },
       {
-        "value": "Edwards Aquifer recharge-zone requirements (geologic assessment, water quality) in west Georgetown",
-        "status": "Assumed",
+        "value": "Edwards Aquifer recharge zone (west of I-35): TCEQ 30 TAC 213 WPAP; single-family homes on lots > 5 ac with one home per lot are exempt",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "tceq-rg11-edwards-rules",
+          "title": "TCEQ RG-11 Rules Protecting the Edwards Aquifer (pamphlet)",
+          "url": "https://www.tceq.texas.gov/downloads/publications/rg/rules-protecting-edwards-aquifer-rg-11.pdf",
           "read": "2026-10-11"
-        },
-        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. "
+        }
       }
     ]
   },
@@ -627,26 +639,10 @@
   },
   "engineChanges": [
     {
-      "id": "georgetown-verify",
-      "ruleType": "survey-input-district",
-      "area": "survey",
-      "change": "All Georgetown values are unverified assumptions; require user to confirm zoning district, plat building lines and adopted code edition before finalizing",
-      "priority": "must",
-      "params": {
-        "dataVerified": false
-      },
-      "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
-        "read": "2026-10-11"
-      }
-    },
-    {
       "id": "georgetown-setbacks",
       "ruleType": "setback-by-district",
       "area": "setbacks",
-      "change": "RS Residential Single-Family: use front 20 / side 6 / street side 15 / rear 10 ft as provisional defaults (unverified)",
+      "change": "RS district: lot min 5,500 sf (Secondary); setbacks front 20 / side 6 / street side 15 / rear 10 ft remain provisional (RS table not retrieved) - require user/plat confirmation",
       "priority": "should",
       "params": {
         "district": "RS Residential Single-Family",
@@ -654,12 +650,14 @@
         "sideFt": 6,
         "streetSideFt": 15,
         "rearFt": 10,
-        "verified": false
+        "verified": false,
+        "minLotSqFt": 5500,
+        "maxHeightFt": 35
       },
       "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "georgetown-udc-ch8-zoneomics",
+        "title": "Georgetown TX UDC - Residential Development Standards (Zoneomics copy)",
+        "url": "https://www.zoneomics.com/code/georgetown-TX/chapter_8",
         "read": "2026-10-11"
       }
     },
@@ -687,59 +685,6 @@
       "priority": "should",
       "params": {
         "engineeredFoundation": true
-      },
-      "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
-        "read": "2026-10-11"
-      }
-    },
-    {
-      "id": "georgetown-edwards",
-      "ruleType": "impervious-cover",
-      "area": "survey",
-      "change": "Check the TCEQ Edwards Aquifer map: lots on the recharge zone (and some in the contributing/transition zones) fall under 30 TAC Chapter 213; regulated development needs an approved Water Pollution Abatement Plan, usually done at subdivision level. In west Georgetown expect UDC water-quality/impervious-cover limits and geologic assessment (karst features, setbacks from sensitive features).",
-      "priority": "should",
-      "params": {
-        "checkEdwardsZone": true,
-        "tceqRule": "30 TAC Chapter 213",
-        "cityLimit": null
-      },
-      "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
-        "read": "2026-10-11"
-      }
-    },
-    {
-      "id": "georgetown-trees",
-      "ruleType": "tree-preservation",
-      "area": "survey",
-      "change": "Require tree survey; keep footprint and driveway out of critical root zones of Heritage (>= ~26 in DBH) and Protected (>= ~12 in DBH) trees, or add mitigation cost",
-      "priority": "should",
-      "params": {
-        "heritageDbhIn": 26,
-        "protectedDbhIn": 12,
-        "verified": false
-      },
-      "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
-        "read": "2026-10-11"
-      }
-    },
-    {
-      "id": "georgetown-impact",
-      "ruleType": "impact-fee-estimate",
-      "area": "estimate",
-      "change": "Add Georgetown water + wastewater impact fees (Georgetown Utility Systems; amounts depend on service area and plat date) - expect several thousand USD; transportation impact fee status unknown",
-      "priority": "should",
-      "params": {
-        "amountUSD": null,
-        "verified": false
       },
       "source": {
         "id": "assumed",
@@ -781,34 +726,167 @@
         "url": "",
         "read": "2026-10-11"
       }
+    },
+    {
+      "id": "georgetown-verify-setbacks",
+      "ruleType": "survey-input-district",
+      "area": "survey",
+      "change": "Code edition verified (2021 IRC/IECC, 2023 NEC); RS setbacks not verified - ask user for plat building lines / PUD standards",
+      "priority": "must",
+      "params": {
+        "codeVerified": true,
+        "setbacksVerified": false
+      },
+      "source": {
+        "id": "georgetown-adopted-building-code",
+        "title": "City of Georgetown Permits - Adopted Building Code",
+        "url": "https://permits.georgetown.org/?p=853",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "georgetown-irc-2021",
+      "ruleType": "electrical-code-edition",
+      "area": "drawings",
+      "change": "Use 2021 IRC + 2021 IECC (local amendments) and NEC 2023 for Georgetown drawings",
+      "priority": "must",
+      "params": {
+        "irc": "2021",
+        "iecc": "2021",
+        "nec": "2023"
+      },
+      "source": {
+        "id": "georgetown-adopted-building-code",
+        "title": "City of Georgetown Permits - Adopted Building Code",
+        "url": "https://permits.georgetown.org/?p=853",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "georgetown-height",
+      "ruleType": "height-limit",
+      "area": "massing",
+      "change": "Max building height 35 ft in residential districts",
+      "priority": "must",
+      "params": {
+        "maxHeightFt": 35
+      },
+      "source": {
+        "id": "georgetown-ci-adu-2024",
+        "title": "Community Impact - Georgetown council approves accessory dwelling unit code changes",
+        "url": "https://communityimpact.com/georgetown/city-county/council-approves-accessory-dwelling-unit-code-changes/",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "georgetown-edwards",
+      "ruleType": "impervious-cover",
+      "area": "survey",
+      "change": "Check TCEQ Edwards Aquifer map: lots on recharge zone fall under 30 TAC 213 (WPAP at subdivision level; single-family on lots > 5 ac one home exempt); city UDC Ch.13 impervious cover limits apply city+ETJ - read plat impervious cover allocation per lot",
+      "priority": "should",
+      "params": {
+        "checkEdwardsZone": true,
+        "tceqRule": "30 TAC Chapter 213",
+        "exemptLotAcres": 5,
+        "subdivisionCapPct": 70
+      },
+      "source": {
+        "id": "georgetown-udc-ch13-zoneomics",
+        "title": "Georgetown TX UDC - Environmental Protection (Zoneomics copy)",
+        "url": "https://www.zoneomics.com/code/georgetown-TX/chapter_13",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "georgetown-trees",
+      "ruleType": "tree-preservation",
+      "area": "survey",
+      "change": "Require tree survey; heritage >= 26 in DBH (listed species), protected 12-25 in; keep structure > 12 ft from heritage dripline (permit-form exemption), CRZ = 1 ft per in DBH; heritage removal mitigation 3:1 inches or $225/in x3",
+      "priority": "should",
+      "params": {
+        "heritageDbhIn": 26,
+        "protectedDbhIn": 12,
+        "crzFtPerInDbh": 1,
+        "heritageClearanceFt": 12,
+        "mitigationRatioHeritage": 3,
+        "feeInLieuPerInch": 225
+      },
+      "source": {
+        "id": "georgetown-kb-heritage-trees",
+        "title": "City of Georgetown AskGTX Knowledge Base - Heritage trees",
+        "url": "https://georgetowntexas.qscend.com/askgtx/knowledgebase/article/588",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "georgetown-impact",
+      "ruleType": "impact-fee-estimate",
+      "area": "estimate",
+      "change": "Add water+wastewater impact fee placeholder ~$18,000 per home (max assessable $12,215 + $6,129 per LUE; fees increased Aug 2025) plus transportation impact fee by service area; flag to verify with GUS",
+      "priority": "should",
+      "params": {
+        "waterUsd": 12215,
+        "wastewaterUsd": 6129,
+        "transportationUsd": null,
+        "verified": false
+      },
+      "source": {
+        "id": "georgetown-wilcosun-impact",
+        "title": "Wilco Sun - Developers could pay more for water, wastewater (Georgetown impact fees)",
+        "url": "https://www.wilcosun.com/node/6364",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "georgetown-permit-fee",
+      "ruleType": "permit-fee-formula",
+      "area": "estimate",
+      "change": "Building permit = $125 + $0.50/sf (incl. garage/porches/patios) + $25 tech; 2,840 sf example = $1,570",
+      "priority": "should",
+      "params": {
+        "baseUsd": 125,
+        "perSqFtUsd": 0.5,
+        "techUsd": 25,
+        "includesGarage": true
+      },
+      "source": {
+        "id": "georgetown-construction-fee-schedule-2023",
+        "title": "City of Georgetown Construction Fee Schedule Rev 10.2.23 (PDF)",
+        "url": "https://permits.georgetown.org/wp-content/uploads/sites/20/2023/10/Construction-Fee-Schedule-Rev-10.2.23.pdf",
+        "read": "2026-10-11"
+      }
     }
   ],
-  "plainLanguage": "This Georgetown file is unverified - our research tools were unavailable, so treat every number as a placeholder. Georgetown uses a Unified Development Code; most new homes are in the RS district or in a planned development with its own rules. Western Georgetown sits over the Edwards Aquifer, which can add water-quality rules and limits on paved area. Georgetown protects large trees, so a tree survey is often needed before you can place the house. Expect water and sewer impact fees of several thousand dollars. The city cannot require brick, but your HOA may.",
+  "plainLanguage": "Georgetown builds to the 2021 International Residential Code and 2021 energy code (with city amendments), and the 2023 electrical code, effective since November 2023. Most new homes are in the RS district (minimum lot about 5,500 sq ft) or a planned development with its own setbacks - check your plat. Homes may be up to 35 ft tall. The city protects large trees: heritage trees 26 inches across or more need special care, and you usually submit a tree form with your permit. West Georgetown sits on the Edwards Aquifer recharge zone, where state (TCEQ) rules and city impervious-cover limits apply, normally handled when the subdivision was approved. The city building permit fee is roughly $125 plus 50 cents per sq ft (about $1,570 for our 2,400 sq ft example), but water, sewer and road impact fees can be much larger and were raised in 2025. The city cannot require brick, but your HOA may.",
   "openQuestions": [
-    "Adopted IRC/IECC edition and amendments (2021 vs 2024)",
-    "RS district dimensional table values",
-    "Impact fee amounts by service area",
-    "Transportation impact fee status",
-    "Exact tree size thresholds and mitigation rates",
-    "Impervious cover limits on recharge zone"
+    "RS dimensional table (front/side/rear/street-side setbacks) from UDC",
+    "Adopted 2025 water/wastewater/transportation impact fee collection rates per LUE",
+    "Local IRC amendments in Title 15 (foundation, sprinklers)",
+    "Whether 2024 I-codes adopted in 2025-26",
+    "Current (post-2023) building permit fee schedule",
+    "Floodplain freeboard"
   ],
   "notFound": [
-    "Everything in this file is unverified: no web page for this city could be read this session (WebFetch failed on all hosts; shared search budget exhausted). Re-research needed."
+    "RS setbacks (table not in search extracts)",
+    "Floodplain freeboard",
+    "Impact fee collection rates after Aug 2025",
+    "Plumbing code name (assumed IPC)",
+    "Population vintage estimate (not searched)"
   ],
   "comparison": {
-    "irc": "2021 IRC (unverified)",
-    "energy": "2021 IECC (unverified)",
-    "plumbing": "IPC (unverified)",
-    "district": "RS Residential Single-Family",
+    "irc": "2021 IRC (amended)",
+    "energy": "2021 IECC (amended)",
+    "plumbing": "IPC 2021 (assumed)",
+    "district": "RS (5,500 sf min lot)",
     "setbacks": "20/6/10 (unverified)",
-    "maxHeight": "35 ft (unverified)",
+    "maxHeight": "35 ft",
     "coverageFar": "unknown / none",
     "masonry": "no city mandate (HB 2439); HOA/PUD may",
     "engFoundation": "likely - assumed",
     "windstorm": "no",
     "flood": "unverified",
-    "permitFeeExample": "not computed",
-    "impactFees": "unknown (water+ww)",
+    "permitFeeExample": "$1,570",
+    "impactFees": "water+ww max ~$18.3k/LUE + transportation (2025 increases)",
     "costFactor": "PENDING"
   }
 }

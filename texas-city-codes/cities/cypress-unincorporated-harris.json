@@ -37,35 +37,36 @@
     "status": "Assumed",
     "source": {
       "id": "assumed",
-      "title": "Assumed - prior knowledge, not verified at source this session",
+      "title": "Assumed - judgement; not verified at source",
       "url": "",
       "read": "2026-10-11"
     },
-    "note": "Harris County 2A in 2009-2021 IECC maps. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+    "note": "Harris County is 2A on the 2009-2018 IECC list; not among counties reported moved in the 2021 map (only DFW core reported). 2021 Table R301.1 row not read."
   },
   "windstormCounty": {
     "value": false,
-    "status": "Assumed",
+    "status": "Secondary",
     "source": {
-      "id": "assumed",
-      "title": "Assumed - prior knowledge, not verified at source this session",
-      "url": "",
+      "id": "tx-twia-coverage-area",
+      "title": "TWIA - Where is the coverage area/designated catastrophe area?",
+      "url": "https://www.twia.org/?p=40566",
       "read": "2026-10-11"
     },
-    "note": "Harris County is only in the TDI catalogue area east of SH 146; Cypress is in NW Harris County. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+    "note": "Read via search-result excerpt (direct fetch blocked by egress policy). Harris County is in the TWIA area only inside La Porte/Morgan's Point/Pasadena/Seabrook/Shoreacres city limits east of SH 146; Cypress (NW Harris) is outside."
   },
   "codes": {
     "irc": {
       "edition": {
-        "value": "No county building code; LGC 233.153 standard (IRC edition in county seat = City of Houston, i.e. 2021 IRC with Houston amendments, or 2008 IRC floor)",
-        "status": "Assumed",
+        "value": "No county building code/permit for houses. LGC 233.153 (if Harris County has opted in under 233.152): IRC as of May 1, 2008 or the edition used in the county seat (City of Houston). Engine designs to 2021 IRC.",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed - prior knowledge, not verified at source this session",
-          "url": "",
-          "read": "2026-10-11"
+          "id": "tx-lgc-233-153-publiclaw",
+          "title": "Tex. Local Gov't Code Section 233.153 (texas.public.law)",
+          "url": "https://texas.public.law/statutes/tex._local_gov't_code_section_233.153",
+          "read": "2026-10-11",
+          "section": "233.153(a)"
         },
-        "note": "Houston adopted the 2021 IRC with amendments; builders in unincorporated Harris commonly build to it. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+        "note": "Read via search-result excerpt (direct fetch blocked by egress policy). Whether Harris County adopted a subch. F order was not found."
       },
       "ordinance": {
         "value": "Local Gov't Code ch. 233 subchapter F",
@@ -130,15 +131,15 @@
       "note": "Many Harris County MUDs require plumbing inspection before tap. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
     },
     "electrical": {
-      "value": "NEC 2023 per TDLR (Occupations Code ch. 1305)",
-      "status": "Assumed",
+      "value": "NEC 2026 per TDLR for work from 2026-09-01",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - prior knowledge, not verified at source this session",
-        "url": "",
+        "id": "tx-tdlr-2026-nec-adopted",
+        "title": "TDLR - Commission adopts rules (16 TAC 73.100, 2026 NEC)",
+        "url": "https://www.tdlr.texas.gov/news/rulemaking/2026/09/01/commission-adopts-rules-12/",
         "read": "2026-10-11"
       },
-      "note": "Licensed electrician required; county has no electrical inspection. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+      "note": "Read via search-result excerpt (direct fetch blocked by egress policy)."
     },
     "mechanical": {
       "value": "Per IRC edition used under LGC 233.153",
@@ -163,15 +164,16 @@
       "note": "Assumed."
     },
     "fire": {
-      "value": "Harris County Fire Code (Fire Marshal) does not cover detached one/two-family homes; no sprinklers (LGC 250.011)",
-      "status": "Assumed",
+      "value": "Harris County fire code (LGC 233.062) covers commercial, public and 4+ unit multifamily only - not detached homes; no sprinklers (LGC 250.011)",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - prior knowledge, not verified at source this session",
-        "url": "",
-        "read": "2026-10-11"
+        "id": "tx-lgc-233-062-publiclaw",
+        "title": "Tex. Local Gov't Code Section 233.062 (texas.public.law) - county fire code scope",
+        "url": "https://texas.public.law/statutes/tex._local_gov't_code_section_233.062",
+        "read": "2026-10-11",
+        "section": "233.062(a)"
       },
-      "note": "Assumed."
+      "note": "Read via search-result excerpt (direct fetch blocked by egress policy)."
     },
     "wind": {
       "value": "About 130 mph (ASCE 7-16 Risk Cat. II, IRC 2021 Fig. R301.2(2)) for NW Harris County",
@@ -479,15 +481,15 @@
         "note": "Assumed."
       },
       {
-        "value": "Harris County Engineering Department (Permits) - development/floodplain permit for new residence, driveway/culvert, address",
-        "status": "Assumed",
+        "value": "Harris County Engineering Department (Office of the County Engineer) residential development permit for new home construction on private property (incl. floodplain review; Class I outside / Class II inside 1% floodplain), plus driveway/culvert",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed - prior knowledge, not verified at source this session",
-          "url": "",
+          "id": "hc-residential-permits",
+          "title": "Harris County Engineering - Residential Development Permits",
+          "url": "https://eng.hctx.net/permits/Residential-A",
           "read": "2026-10-11"
         },
-        "note": "Harris County issues a 'development permit' tied to floodplain regs, not a building-code permit. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+        "note": "Read via search-result excerpt (direct fetch blocked by egress policy). Permit fee amount not found."
       },
       {
         "value": "HOA/ACC approval under deed restrictions",
@@ -589,12 +591,12 @@
       "value": null,
       "status": "Assumed",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - prior knowledge, not verified at source this session",
-        "url": "",
+        "id": "hc-oce-permits-faq",
+        "title": "Harris County Office of the County Engineer - Permits FAQ",
+        "url": "https://oce.harriscountytx.gov/Services/Permits/FAQ",
         "read": "2026-10-11"
       },
-      "note": "Harris County development permit fee schedule not read (search budget exhausted)."
+      "note": "Not found: Harris County OCE permit FAQ and residential permit page excerpts list scope/exemptions but no fee amount. Searched 'Harris County residential development permit fee'."
     },
     "workedExample2400sqft": {
       "value": null,
@@ -638,12 +640,12 @@
         "value": null,
         "status": "Assumed",
         "source": {
-          "id": "assumed",
-          "title": "Assumed - prior knowledge, not verified at source this session",
-          "url": "",
+          "id": "hc-harbert-cyfair-mud",
+          "title": "Cy-Fair MUD Reality Check: tax rates (Harbert Group blog)",
+          "url": "https://www.harbertgroup.com/blog/903/Cy-fair+Mud+Reality+Check%3A+Real+Tax+Rates+And+Water+Bills+In+Towne+Lake%2C+Coles+Crossing%2C+And+Fairfield",
           "read": "2026-10-11"
         },
-        "note": "MUD-specific water/sewer tap fees; not found."
+        "note": "Not found: MUD tap/capital recovery fees are set by each district's rate order (e.g. HCMUD 165, 213-A, 364/365, 449). Only MUD tax rates found ($0.385-$0.94 per $100, 2025). Ask builder/district operator."
       }
     ]
   },
@@ -709,15 +711,15 @@
     ]
   },
   "flood": {
-    "value": "Harris County Floodplain Management regulations (2018 post-Harvey): structures in the 0.2% (500-year) floodplain must have finished floor above the 0.2% elevation with freeboard (about 2 ft); detention for new development",
-    "status": "Assumed",
+    "value": "Harris County Floodplain Management Regulations (amended/effective 2019-07-09; post-Harvey rule from 2018): new homes in the 1% (100-yr) or 0.2% (500-yr, zone X-shaded) floodplain need lowest finished floor (top of subfloor) >= 24 in above the 0.2% flood elevation or 12 in above the nearest public street crown, whichever is higher; 36 in in a floodway reported. In the 100-yr floodplain no fill for elevation (piers/stem walls). Outside the floodplain: Class I permit; inside: Class II. If lowest adjacent grade >= BFE, processed as outside 100-yr.",
+    "status": "Secondary",
     "source": {
-      "id": "assumed",
-      "title": "Assumed - prior knowledge, not verified at source this session",
-      "url": "",
+      "id": "hc-fpm-regs-2019",
+      "title": "Regulations of Harris County, Texas for Floodplain Management (amended/effective 9 July 2019)",
+      "url": "https://www.eng.hctx.net/portals/23/fpmregs-effect190709.pdf",
       "read": "2026-10-11"
     },
-    "note": "Exact current rule not re-verified. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+    "note": "Read via search-result excerpt (direct fetch blocked by egress policy). Figures from news coverage (KPRC) and quotes of the regs; PDF elevation table not read directly. Applies only to unincorporated Harris County. MAAPnext FIRMs may change elevations."
   },
   "engineChanges": [
     {
@@ -743,17 +745,20 @@
       "id": "cypress-flood",
       "ruleType": "flood-elevation",
       "area": "survey",
-      "change": "Harris County floodplain permit; if in 1% or 0.2% floodplain set finished floor ~2 ft above 0.2% (500-yr) elevation; elevation certificate",
+      "change": "If lot is in the 1% or 0.2% floodplain: set finished floor (top of subfloor) at max(0.2% WSE + 24 in, nearest public street crown + 12 in); floodway +36 in; no fill for elevation in 100-yr floodplain (use piers/stem wall); require elevation certificate. Outside floodplain: still set FF >= street crown + 12 in (assumed good practice) and Class I permit.",
       "priority": "must",
       "params": {
-        "freeboardFt": 2,
+        "freeboardIn": 24,
         "reference": "0.2% annual chance WSE",
-        "permit": "Harris County Engineering"
+        "streetCrownMinIn": 12,
+        "floodwayIn": 36,
+        "noFillIn100yr": true,
+        "permit": "Harris County Engineering residential permit (Class I/II)"
       },
       "source": {
-        "id": "assumed",
-        "title": "Assumed - prior knowledge, not verified at source this session",
-        "url": "",
+        "id": "hc-fpm-regs-2019",
+        "title": "Regulations of Harris County, Texas for Floodplain Management (amended/effective 9 July 2019)",
+        "url": "https://www.eng.hctx.net/portals/23/fpmregs-effect190709.pdf",
         "read": "2026-10-11"
       }
     },
@@ -761,16 +766,16 @@
       "id": "cypress-lgc233",
       "ruleType": "code-edition-baseline",
       "area": "drawings",
-      "change": "Design to 2021 IRC (Houston county-seat edition) and schedule 3 third-party inspections",
+      "change": "No county building permit; design to 2021 IRC (Houston, the county seat, uses 2021 IRC). Plan 3 third-party inspections (pre-pour, pre-drywall, final) per LGC 233.154 if Harris County opted in.",
       "priority": "must",
       "params": {
         "irc": "2021",
         "thirdPartyInspections": 3
       },
       "source": {
-        "id": "assumed",
-        "title": "Assumed - prior knowledge, not verified at source this session",
-        "url": "",
+        "id": "tx-lgc-233-154-publiclaw",
+        "title": "Tex. Local Gov't Code Section 233.154 (texas.public.law)",
+        "url": "https://texas.public.law/statutes/tex._local_gov't_code_section_233.154",
         "read": "2026-10-11"
       }
     },
@@ -818,7 +823,7 @@
       },
       "source": {
         "id": "assumed",
-        "title": "Assumed - prior knowledge, not verified at source this session",
+        "title": "Assumed - judgement; not verified at source",
         "url": "",
         "read": "2026-10-11"
       }
@@ -864,7 +869,8 @@
       "priority": "should",
       "params": {
         "vultMph": 130,
-        "windstorm": false
+        "windstorm": false,
+        "twiaArea": false
       },
       "source": {
         "id": "assumed",
@@ -872,16 +878,36 @@
         "url": "",
         "read": "2026-10-11"
       }
+    },
+    {
+      "id": "cypress-electrical",
+      "ruleType": "electrical-code-edition",
+      "area": "drawings",
+      "change": "Electrical per NEC 2026 from 2026-09-01",
+      "priority": "should",
+      "params": {
+        "nec": "2026"
+      },
+      "source": {
+        "id": "tx-tdlr-2026-nec-adopted",
+        "title": "TDLR - Commission adopts rules (16 TAC 73.100, 2026 NEC)",
+        "url": "https://www.tdlr.texas.gov/news/rulemaking/2026/09/01/commission-adopts-rules-12/",
+        "read": "2026-10-11"
+      }
     }
   ],
-  "plainLanguage": "Cypress is outside Houston's city limits, so Harris County has no zoning and no building-code permit for houses. You still need a Harris County development (floodplain) permit and, in or near a floodplain, a raised floor, about 2 ft above the 500-year flood level. Your neighborhood's deed restrictions and HOA usually set setbacks, brick requirements and garage rules. Water and sewer usually come from a MUD, which charges tap fees and a property tax. State law still expects the house to meet the IRC with three independent inspections, and an engineer-designed slab is standard.",
+  "plainLanguage": "Cypress is unincorporated Harris County, so there is no city zoning and no city building permit. You still need a Harris County Engineering residential development permit, which checks flooding and drainage. If your lot is in the 100- or 500-year floodplain, the floor must sit at least 2 ft above the 500-year flood level, or 1 ft above the street crown, whichever is higher, and you cannot use fill to get there. Your setbacks, masonry and design rules come from the plat and your HOA deed restrictions. Water and sewer come from a MUD, which sets its own tap fees and a property tax. Cypress is not in the coastal windstorm area. Plan on an engineer-designed slab.",
   "openQuestions": [
-    "Harris County development permit fee and current floodplain freeboard wording",
-    "MUD tap fees for typical Cypress MUDs",
-    "Whether a given address is in Houston ETJ (subdivision rules) or fully unincorporated"
+    "Has Harris County adopted an LGC 233 subch. F order (third-party inspection notice)?",
+    "Harris County residential development permit fee amount",
+    "Typical Cypress plat building lines (Harris County infrastructure/subdivision regs not found)",
+    "MUD tap/capital recovery fee for the specific district",
+    "Whether the 12-in street-crown rule also applies outside the floodplain"
   ],
   "notFound": [
-    "Harris County Engineering permit pages and floodplain regulations not read (fetch blocked, search budget exhausted)"
+    "Harris County permit fee schedule",
+    "Harris County plat building-line standard",
+    "MUD tap fees"
   ],
   "comparison": {
     "irc": "none (LGC 233; 2021 IRC typical)",
@@ -893,8 +919,8 @@
     "coverageFar": "none",
     "masonry": "HOA",
     "engFoundation": "yes",
-    "windstorm": "no",
-    "flood": "0.2% WSE + ~2 ft",
+    "windstorm": "no (not TWIA area)",
+    "flood": "0.2% WSE + 24 in or street crown + 12 in (higher)",
     "permitFeeExample": "not found",
     "impactFees": "none (MUD)",
     "costFactor": "PENDING"

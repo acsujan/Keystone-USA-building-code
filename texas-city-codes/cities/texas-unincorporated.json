@@ -44,39 +44,41 @@
     "note": "Zone depends on county. Map in params uses the 2009-2018 IECC county list (the 2015 IRC energy chapter is the state minimum). Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
   },
   "windstormCounty": {
-    "value": "by county - true for the 14 first-tier coastal counties and Harris County east of SH 146",
-    "status": "Assumed",
+    "value": "by county - true for the 14 first-tier coastal counties; in Harris County only inside La Porte/Morgan's Point/Pasadena/Seabrook/Shoreacres city limits east of SH 146 (so no unincorporated Harris land)",
+    "status": "Secondary",
     "source": {
-      "id": "assumed",
-      "title": "Assumed - prior knowledge, not verified at source this session",
-      "url": "",
+      "id": "tx-twia-coverage-area",
+      "title": "TWIA - Where is the coverage area/designated catastrophe area?",
+      "url": "https://www.twia.org/?p=40566",
       "read": "2026-10-11"
     },
-    "note": "Insurance Code ch. 2210 / TDI designated catalogue area. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+    "note": "Read via search-result excerpt (direct fetch blocked by egress policy)."
   },
   "codes": {
     "irc": {
       "edition": {
-        "value": "No county building code; LGC 233.153 requires new single-family/duplex construction to follow the IRC as of May 1, 2008 or the IRC edition used in the county seat",
-        "status": "Assumed",
+        "value": "No county building code or building permit. Where the county has opted in by order (LGC 233.152), LGC 233.153 requires new single-family/duplex construction begun after 2009-09-01 to conform to the IRC published as of May 1, 2008, or the IRC version applicable in the county seat. Engine designs to 2021 IRC.",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed - prior knowledge, not verified at source this session",
-          "url": "",
-          "read": "2026-10-11"
+          "id": "tx-lgc-233-153-publiclaw",
+          "title": "Tex. Local Gov't Code Section 233.153 (texas.public.law)",
+          "url": "https://texas.public.law/statutes/tex._local_gov't_code_section_233.153",
+          "read": "2026-10-11",
+          "section": "233.153(a)"
         },
-        "note": "LGC ch. 233 subch. F (233.151-.157). Builder must obtain three inspections (foundation, framing/MEP rough-in, final) by a licensed engineer, architect, TREC professional inspector, ICC-certified inspector or county inspector, and may have to notify the county. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+        "note": "Read via search-result excerpt (direct fetch blocked by egress policy). 2024 Justia compilation carries the same wording. County may not charge a fee to enforce. Not applicable where a city's code covers its ETJ."
       },
       "ordinance": {
-        "value": "Local Gov't Code ch. 233 subchapter F",
-        "status": "Assumed",
+        "value": "Local Gov't Code ch. 233 subch. F (HB 2833, 81R, 2009); applies only in a county whose commissioners court adopted an order/resolution (233.152)",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed - prior knowledge, not verified at source this session",
-          "url": "",
-          "read": "2026-10-11"
+          "id": "tx-collin-2009-subchf-order",
+          "title": "Collin County Commissioners Court 2009 exhibit - LGC 233 subch. F text incl. 233.152 applicability",
+          "url": "https://eagenda.collincountytx.gov/docs/2009/CC/20090713_951/30376%5FExhibit%20A%2Epdf",
+          "read": "2026-10-11",
+          "section": "233.152"
         },
-        "note": "Statutory standard; counties do not issue building permits for houses."
+        "note": "Read via search-result excerpt (direct fetch blocked by egress policy). Applicability wording from 2009 county exhibit of the enacted text; SB 170 (83R) proposed ag-land exemptions - passage not confirmed."
       },
       "amendments": [
         {
@@ -130,15 +132,15 @@
       "note": "Plumbing inspection typically part of the LGC 233 third-party inspections. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
     },
     "electrical": {
-      "value": "NEC 2023 per TDLR (Occupations Code ch. 1305)",
-      "status": "Assumed",
+      "value": "NEC 2026 per TDLR (16 TAC 73.100) for work permitted/started on/after 2026-09-01; licensed electrician required. Counties do not issue electrical permits.",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - prior knowledge, not verified at source this session",
-        "url": "",
+        "id": "tx-tdlr-2026-nec-adopted",
+        "title": "TDLR - Commission adopts rules (16 TAC 73.100, 2026 NEC)",
+        "url": "https://www.tdlr.texas.gov/news/rulemaking/2026/09/01/commission-adopts-rules-12/",
         "read": "2026-10-11"
       },
-      "note": "Licensed electrician required; county has no electrical inspection. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+      "note": "Read via search-result excerpt (direct fetch blocked by egress policy)."
     },
     "mechanical": {
       "value": "Per IRC edition used under LGC 233.153",
@@ -163,15 +165,16 @@
       "note": "Assumed."
     },
     "fire": {
-      "value": "County fire code (LGC 233 subch. C, counties ~250k+ pop. or adjacent) does not apply to one- and two-family dwellings",
-      "status": "Assumed",
+      "value": "County fire code (LGC 233.062) applies only to commercial establishments, public buildings and multifamily of 4+ units in unincorporated areas - not one- or two-family homes. Sprinklers cannot be required (LGC 250.011).",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - prior knowledge, not verified at source this session",
-        "url": "",
-        "read": "2026-10-11"
+        "id": "tx-lgc-233-062-publiclaw",
+        "title": "Tex. Local Gov't Code Section 233.062 (texas.public.law) - county fire code scope",
+        "url": "https://texas.public.law/statutes/tex._local_gov't_code_section_233.062",
+        "read": "2026-10-11",
+        "section": "233.062(a)"
       },
-      "note": "E.g. Harris County Fire Marshal does not regulate detached houses. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+      "note": "Read via search-result excerpt (direct fetch blocked by egress policy). Detached homes are outside the code by omission. Population-threshold wording of 233.061 not confirmed (HB 1034, 87R, proposed removing it)."
     },
     "wind": {
       "value": "By location: about 115 mph (most of inland Texas) to 150+ mph (coast), ASCE 7-16 Risk Category II, IRC 2021 Fig. R301.2(2)",
@@ -440,15 +443,15 @@
     },
     "other": [
       {
-        "value": "SB 2038 (2023): landowners may petition/vote to leave a city's ETJ; city subdivision rules then no longer apply, county rules do",
-        "status": "Assumed",
+        "value": "SB 2038 (88R, 2023; LGC ch. 42 subch. D): a resident or landowner may petition (or vote) to release land from a city's ETJ; the city must release it when the petition is valid. Released land is under county rules only. Constitutional challenge (City of Grand Prairie v. State) was pending; Texas Supreme Court signaled city consent 'not required' in a related case.",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed - prior knowledge, not verified at source this session",
-          "url": "",
+          "id": "tx-sb2038-2023-analysis",
+          "title": "88(R) SB 2038 Bill Analysis (enrolled) - ETJ release",
+          "url": "https://capitol.texas.gov/tlodocs/88R/analysis/html/SB02038F.htm",
           "read": "2026-10-11"
         },
-        "note": "Effective 2023-09-01. Not re-verified at source on 2026-10-11: statute sites blocked by egress policy and web-search budget exhausted; value from prior knowledge of Texas law."
+        "note": "Read via search-result excerpt (direct fetch blocked by egress policy). Litigation outcome not confirmed."
       },
       {
         "value": "Subdivision plats approved by commissioners court (LGC ch. 232); plat building lines become setbacks",
@@ -558,15 +561,16 @@
     ],
     "inspections": [
       {
-        "value": "Foundation, framing/MEP rough-in, final by third-party inspector (LGC 233.154)",
-        "status": "Assumed",
+        "value": "At least 3 inspections for new construction on a vacant lot (where subch. F applies): foundation (before concrete), framing + mechanical systems (before drywall), and completion; by a licensed engineer, registered architect, TREC professional inspector, ICC-certified inspector or county inspector chosen by the builder; builder gives notice to the county (233.154(b)-(c)); county may refer non-compliant inspectors or seek injunction (233.155).",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed - prior knowledge, not verified at source this session",
-          "url": "",
-          "read": "2026-10-11"
+          "id": "tx-lgc-233-154-publiclaw",
+          "title": "Tex. Local Gov't Code Section 233.154 (texas.public.law)",
+          "url": "https://texas.public.law/statutes/tex._local_gov't_code_section_233.154",
+          "read": "2026-10-11",
+          "section": "233.154(a)"
         },
-        "note": "Assumed."
+        "note": "Read via search-result excerpt (direct fetch blocked by egress policy)."
       },
       {
         "value": "OSSF installation inspection by authorized agent",
@@ -760,21 +764,25 @@
       "id": "texas-unincorporated-lgc233",
       "ruleType": "code-edition-baseline",
       "area": "drawings",
-      "change": "Design to at least the IRC edition used in the county seat (LGC 233.153; floor is 2008 IRC) - engine uses 2021 IRC; schedule 3 third-party inspections",
+      "change": "No county building permit. Design to 2021 IRC; note legal floor in opted-in counties = IRC as of May 1, 2008 or the county-seat edition (LGC 233.153). Produce an inspection plan for 3 third-party inspections (pre-pour foundation, framing+MEP before drywall, final) and a county notice.",
       "priority": "must",
       "params": {
-        "irc": "2021 (design); legal floor 2008 IRC",
+        "irc": "2021 (design)",
+        "legalFloor": "IRC as of 2008-05-01 or county-seat edition",
+        "appliesIf": "county adopted subch. F order (233.152)",
         "thirdPartyInspections": [
-          "foundation",
-          "framing+MEP rough",
+          "foundation (pre-pour)",
+          "framing+mechanical (pre-drywall)",
           "final"
-        ]
+        ],
+        "countyFee": 0
       },
       "source": {
-        "id": "assumed",
-        "title": "Assumed - prior knowledge, not verified at source this session",
-        "url": "",
-        "read": "2026-10-11"
+        "id": "tx-lgc-233-154-publiclaw",
+        "title": "Tex. Local Gov't Code Section 233.154 (texas.public.law)",
+        "url": "https://texas.public.law/statutes/tex._local_gov't_code_section_233.154",
+        "read": "2026-10-11",
+        "section": "233.153-.155"
       }
     },
     {
@@ -834,14 +842,15 @@
       "change": "No sprinklers; county fire code does not apply to one/two-family dwellings",
       "priority": "should",
       "params": {
-        "sprinklersRequired": false
+        "sprinklersRequired": false,
+        "countyFireCodeAppliesToSFD": false
       },
       "source": {
-        "id": "tx-hb738-2021-enrolled",
-        "title": "87(R) HB 738 Enrolled - Bill Text (IRC/IBC 2012 base dates; LGC 250.011 sprinkler limit)",
-        "url": "https://www.legis.state.tx.us/tlodocs/87R/billtext/html/HB00738F.HTM",
+        "id": "tx-lgc-233-062-publiclaw",
+        "title": "Tex. Local Gov't Code Section 233.062 (texas.public.law) - county fire code scope",
+        "url": "https://texas.public.law/statutes/tex._local_gov't_code_section_233.062",
         "read": "2026-10-11",
-        "section": "LGC 250.011"
+        "section": "233.062(a)"
       }
     },
     {
@@ -892,19 +901,53 @@
         "url": "",
         "read": "2026-10-11"
       }
+    },
+    {
+      "id": "texas-unincorporated-electrical",
+      "ruleType": "electrical-code-edition",
+      "area": "drawings",
+      "change": "Electrical per NEC 2026 from 2026-09-01 (TDLR statewide)",
+      "priority": "should",
+      "params": {
+        "nec": "2026",
+        "effective": "2026-09-01"
+      },
+      "source": {
+        "id": "tx-tdlr-2026-nec-adopted",
+        "title": "TDLR - Commission adopts rules (16 TAC 73.100, 2026 NEC)",
+        "url": "https://www.tdlr.texas.gov/news/rulemaking/2026/09/01/commission-adopts-rules-12/",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "texas-unincorporated-etj",
+      "ruleType": "survey-input-district",
+      "area": "survey",
+      "change": "Ask whether the lot is inside a city ETJ or was released under SB 2038; if still in ETJ, apply the city's subdivision/plat rules (not zoning)",
+      "priority": "should",
+      "params": {
+        "askEtjStatus": true
+      },
+      "source": {
+        "id": "tx-sb2038-2023-analysis",
+        "title": "88(R) SB 2038 Bill Analysis (enrolled) - ETJ release",
+        "url": "https://capitol.texas.gov/tlodocs/88R/analysis/html/SB02038F.htm",
+        "read": "2026-10-11"
+      }
     }
   ],
-  "plainLanguage": "Outside city limits, Texas counties do not issue building permits or zoning rules for houses. State law still requires new houses to follow the IRC and to get three inspections by a licensed third-party inspector. You will usually need a county floodplain permit, a driveway permit, and a septic permit if there is no sewer. Your plat and deed restrictions set the setbacks and often require brick or a minimum house size. Fire sprinklers are not required.",
+  "plainLanguage": "Outside city limits Texas counties have no zoning and issue no building permit for a house. If your county has opted in, state law (LGC 233) requires the house to meet the IRC and to pass three private inspections - foundation, framing/rough-in and final - by a licensed engineer, architect or inspector you hire; the county cannot charge a fee for this. The county fire code does not cover single-family homes, and nobody can require sprinklers. You will still need county floodplain, driveway and (if no sewer) septic permits. Setbacks come from your recorded plat and deed restrictions. If your land is in a city's ETJ, city subdivision rules can apply - a 2023 law lets owners petition out. Electrical work follows the 2026 NEC for work from Sept 1, 2026.",
   "openQuestions": [
-    "Exact LGC 233.151-.157 text (edition date, notice, exemptions) not re-verified",
-    "County fire code exemption wording for one/two-family dwellings not re-verified"
+    "Which Texas counties have adopted the LGC 233 subch. F order (233.152) - Galveston and Collin did in 2009; others not checked",
+    "Whether SB 170 (83R) ag-land exemption or any later amendment to 233.152-.154 passed",
+    "Current population-threshold wording of LGC 233.061"
   ],
   "notFound": [
-    "Direct reads of statutes.capitol.texas.gov (blocked by egress policy)",
-    "Gov't Code ch. 3000, Occupations Code 1301/1305, LGC 233, Insurance Code 2210, SB 15/SB 840/HB 24 text - not verified this session (search budget exhausted)"
+    "Direct reads of statutes.capitol.texas.gov (DNS/egress blocked) - statute values are Secondary from search excerpts",
+    "OSSF lot-size figures (30 TAC 285.4) not re-verified"
   ],
   "comparison": {
-    "irc": "none (LGC 233: 2008 IRC or county-seat IRC)",
+    "irc": "none (LGC 233.153: 2008 IRC or county-seat IRC where county opted in)",
     "energy": "2015 IRC ch.11 (uninspected)",
     "plumbing": "licensed plumber, no county code",
     "district": "none",

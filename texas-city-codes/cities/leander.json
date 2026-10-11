@@ -59,36 +59,48 @@
     "irc": {
       "edition": {
         "value": "2021 IRC",
-        "status": "Assumed",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "leander-building-codes-page",
+          "title": "City of Leander - Building Codes",
+          "url": "https://www.leandertx.gov/339/Building-Codes",
           "read": "2026-10-11"
         },
-        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Believed adopted 2021 I-codes; not verified."
+        "note": "City Building Codes page lists 2021 IRC and 2023 NEC with local amendments; Ord. 25-034-00 adopts 2021 I-codes (IRC appendices AD, AF, AI, AL, AM, AO, AQ excluded). Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
       },
       "ordinance": {
-        "value": null,
-        "status": "Assumed",
+        "value": "Ordinance No. 25-034-00 (amends Code of Ordinances Article 3.03)",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "leander-ord-25-034-00",
+          "title": "City of Leander Ordinance No. 25-034-00 amending Article 3.03 to adopt 2021 International Codes with local amendments (PDF, legacy filename 'Ordinance Adopting the 2015 Codes')",
+          "url": "https://www.leandertx.gov/DocumentCenter/View/1957/Ordinance-Adopting-the-2015-Codes-PDF",
           "read": "2026-10-11"
         },
-        "note": "Not found: adoption ordinance. Web access unavailable this session (WebFetch DNS failure; search budget exhausted)."
+        "note": "Adoption/effective date not seen; number suggests 2025. Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
       },
       "amendments": [
         {
           "topic": "other",
-          "summary": "Local amendments not retrieved.",
-          "section": "",
-          "status": "Assumed",
+          "summary": "IRC adopted excluding appendices AD, AF, AI, AL, AM, AO, AQ (other appendices e.g. AH patio covers, AJ existing bldgs may be adopted).",
+          "section": "Art. 3.03",
+          "status": "Secondary",
           "source": {
-            "id": "assumed",
-            "title": "Assumed",
-            "url": "",
+            "id": "leander-ord-25-034-00",
+            "title": "City of Leander Ordinance No. 25-034-00 amending Article 3.03 to adopt 2021 International Codes with local amendments (PDF, legacy filename 'Ordinance Adopting the 2015 Codes')",
+            "url": "https://www.leandertx.gov/DocumentCenter/View/1957/Ordinance-Adopting-the-2015-Codes-PDF",
+            "read": "2026-10-11"
+          }
+        },
+        {
+          "topic": "other",
+          "summary": "General amendments apply to all adopted codes; city fee schedule supersedes code fees. Foundation/sprinkler amendment text not retrieved.",
+          "section": "Art. 3.03",
+          "status": "Secondary",
+          "source": {
+            "id": "leander-bldg-amend-redline",
+            "title": "City of Leander Building Code Amendments Redline (Article 3.03)",
+            "url": "https://www.leandertx.gov/DocumentCenter/View/4373/Building-Code-Amendments-Redline",
             "read": "2026-10-11"
           }
         }
@@ -96,15 +108,15 @@
     },
     "energy": {
       "edition": {
-        "value": "2021 IECC",
-        "status": "Assumed",
+        "value": "2021 IECC (2021 series adopted by Ord. 25-034-00)",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "leander-ord-25-034-00",
+          "title": "City of Leander Ordinance No. 25-034-00 amending Article 3.03 to adopt 2021 International Codes with local amendments (PDF, legacy filename 'Ordinance Adopting the 2015 Codes')",
+          "url": "https://www.leandertx.gov/DocumentCenter/View/1957/Ordinance-Adopting-the-2015-Codes-PDF",
           "read": "2026-10-11"
         },
-        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Usually adopted in the same cycle as the IRC."
+        "note": "Energy code amendments not retrieved. Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
       },
       "stretchCode": {
         "value": false,
@@ -115,11 +127,11 @@
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. No stretch code known."
+        "note": "No stretch code seen."
       }
     },
     "plumbing": {
-      "value": "IPC (same edition as IRC)",
+      "value": "IPC 2021 (assumed part of 2021 I-code series)",
       "status": "Assumed",
       "source": {
         "id": "assumed",
@@ -127,18 +139,18 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Central Texas cities typically adopt the IPC."
+      "note": "Plumbing code not named in extracts; confirm IPC vs UPC."
     },
     "electrical": {
-      "value": "NEC 2020 or 2023",
-      "status": "Assumed",
+      "value": "NEC 2023 with local amendments",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "leander-building-codes-page",
+        "title": "City of Leander - Building Codes",
+        "url": "https://www.leandertx.gov/339/Building-Codes",
         "read": "2026-10-11"
       },
-      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Typical pairing."
+      "note": "Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
     },
     "mechanical": {
       "value": "IMC (same edition as IRC)",
@@ -233,27 +245,27 @@
       "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Leander Composite Zoning Ordinance (use + site + architectural components, e.g. 'SFU-2-B')."
     },
     "typicalDistrict": {
-      "value": "SFU Single-Family Urban (composite, e.g. SFU-2-B)",
-      "status": "Assumed",
+      "value": "SFU Single-Family Urban (composite zoning; SFS Single-Family Suburban also common)",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "leander-composite-zoning-component-summary",
+        "title": "City of Leander Composite Zoning Component Summary (PDF)",
+        "url": "https://www.leandertx.gov/DocumentCenter/View/1186/Composite-Zoning-Component-Summary-PDF",
         "read": "2026-10-11"
       },
-      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Leander composite zoning combines use type (SFR rural, SFE estate, SFS suburban, SFU urban, SFT townhouse), site component and architectural component; many new homes are in PUDs."
+      "note": "Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
     },
     "minLotSqFt": {
-      "value": null,
-      "status": "Assumed",
+      "value": 7200,
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "leander-composite-zoning-component-summary",
+        "title": "City of Leander Composite Zoning Component Summary (PDF)",
+        "url": "https://www.leandertx.gov/DocumentCenter/View/1186/Composite-Zoning-Component-Summary-PDF",
         "read": "2026-10-11"
       },
-      "unit": "sqft",
-      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Provisional."
+      "unit": "sq ft",
+      "note": "SFU 7,200 sf min lot, 1,200 sf min living area; SFS 9,000 sf / 1,500 sf; SFT townhouse 2,000 sf / 700 sf. Summary may predate 10/21/2025 ordinance update. Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
     },
     "minLotWidthFt": {
       "value": null,
@@ -289,7 +301,7 @@
           "read": "2026-10-11"
         },
         "unit": "ft",
-        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Provisional district default; plats often differ."
+        "note": "Not verified: SFU/SFS setback table in Composite Zoning Ordinance PDF not in search extracts (3 searches). Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Provisional district default; plats often differ."
       },
       "side": {
         "value": 5,
@@ -301,7 +313,7 @@
           "read": "2026-10-11"
         },
         "unit": "ft",
-        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Provisional district default; plats often differ."
+        "note": "Not verified: SFU/SFS setback table in Composite Zoning Ordinance PDF not in search extracts (3 searches). Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Provisional district default; plats often differ."
       },
       "streetSide": {
         "value": 15,
@@ -313,7 +325,7 @@
           "read": "2026-10-11"
         },
         "unit": "ft",
-        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Provisional district default; plats often differ."
+        "note": "Not verified: SFU/SFS setback table in Composite Zoning Ordinance PDF not in search extracts (3 searches). Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Provisional district default; plats often differ."
       },
       "rear": {
         "value": 10,
@@ -325,7 +337,7 @@
           "read": "2026-10-11"
         },
         "unit": "ft",
-        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Provisional district default; plats often differ."
+        "note": "Not verified: SFU/SFS setback table in Composite Zoning Ordinance PDF not in search extracts (3 searches). Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Provisional district default; plats often differ."
       }
     },
     "maxHeightFt": {
@@ -397,15 +409,15 @@
       "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Typical value, not verified."
     },
     "garageRules": {
-      "value": "Composite zoning architectural components historically regulated garage orientation/design; enforceability of material rules limited by HB 2439",
-      "status": "Assumed",
+      "value": "Street-facing 3-bay garage doors allowed in SFU and SFS components only on lots 60 ft wide or more (2018 amendment); other street-facing garage limits may apply",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "leander-ci-2018-garages",
+        "title": "Community Impact - Leander City Council alters regulations on street-facing garages (2018)",
+        "url": "https://communityimpact.com/cedar-park-leander/city-county/leander-city-council-alters-regulations-street-facing-garages-first-meeting-2018/",
         "read": "2026-10-11"
       },
-      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. "
+      "note": "News report of 2018 amendment; current text in Composite Zoning Ordinance."
     },
     "adu": {
       "value": null,
@@ -430,17 +442,29 @@
       "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Texas Gov't Code 3000 (HB 2439, 2019) bars cities from mandating specific building materials beyond the national model codes, except in historic districts and some pre-existing PUD/developer agreements; HOA deed restrictions may still require masonry."
     },
     "trees": {
-      "value": "Leander protects heritage trees (about 26 in DBH and larger) and protected trees above a smaller threshold; mitigation required",
-      "status": "Assumed",
+      "value": "Subdivision ordinance allows removal of significant trees with mitigation; heritage tree mitigation 3:1 caliper inches",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "leander-soar-2025-pz-trees",
+        "title": "Leander P&Z Aug 2025 tree mitigation discussion (AI-generated meeting summary)",
+        "url": "https://cp.soar.com/articles/5588078/Leander/Williamson-County/Texas/Williamson-County-Approves-Removal-of-Seven-Heritage-Trees-for-Wild-Spring-Phase-2-Development",
         "read": "2026-10-11"
       },
-      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Recalled; verify thresholds in the city tree ordinance."
+      "note": "AI-generated meeting summary - low confidence; heritage/significant DBH thresholds not found."
     },
-    "other": []
+    "other": [],
+    "minDwellingSizeSqFt": {
+      "value": 1200,
+      "status": "Secondary",
+      "source": {
+        "id": "leander-composite-zoning-component-summary",
+        "title": "City of Leander Composite Zoning Component Summary (PDF)",
+        "url": "https://www.leandertx.gov/DocumentCenter/View/1186/Composite-Zoning-Component-Summary-PDF",
+        "read": "2026-10-11"
+      },
+      "unit": "sq ft",
+      "note": "SFU; SFS is 1,500 sf."
+    }
   },
   "process": {
     "steps": [
@@ -453,7 +477,7 @@
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Typical."
+        "note": "Provisional sequence."
       }
     ],
     "sealsRequired": [
@@ -504,7 +528,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: building permit fee formula. Web access unavailable this session (WebFetch DNS failure; search budget exhausted)."
+      "note": "Not found: residential building permit fee schedule not in search results (2 searches); city fee schedule supersedes code fees per Art. 3.03."
     },
     "workedExample2400sqft": {
       "value": null,
@@ -515,7 +539,8 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not computed: fee schedule not read. Basis would be 2,400 sq ft conditioned + 440 sq ft attached garage."
+      "unit": "USD",
+      "note": "Not computed: fee schedule not found."
     },
     "planReview": {
       "value": null,
@@ -530,28 +555,54 @@
     },
     "impactFees": [
       {
-        "value": null,
-        "status": "Assumed",
+        "value": 8762,
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "leander-impact-tap-after-2023-08-17",
+          "title": "City of Leander Impact & Tap Fees - properties platted AFTER 08/17/2023",
+          "url": "https://www.leandertx.gov/DocumentCenter/View/2225/Impact--Tap-Fees-properties-platted-AFTER-08172023",
           "read": "2026-10-11"
         },
-        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Leander is believed to collect water, wastewater and roadway impact fees; amounts not retrieved."
+        "unit": "USD",
+        "note": "Water impact fee per SF unit (5/8 in meter), lots platted after 08/17/2023. Older plats: $3,880 water (platted after 5/3/2012 sheet updated 4/21/2026); fee depends on plat date. Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
+      },
+      {
+        "value": 2301,
+        "status": "Secondary",
+        "source": {
+          "id": "leander-impact-tap-after-2023-08-17",
+          "title": "City of Leander Impact & Tap Fees - properties platted AFTER 08/17/2023",
+          "url": "https://www.leandertx.gov/DocumentCenter/View/2225/Impact--Tap-Fees-properties-platted-AFTER-08172023",
+          "read": "2026-10-11"
+        },
+        "unit": "USD",
+        "note": "Wastewater (sewer) impact fee per SF unit, lots platted after 08/17/2023 ($1,615 on post-2012 sheet). Lively Tract: wastewater set by Georgetown under wholesale agreement. Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
+      },
+      {
+        "value": null,
+        "status": "Secondary",
+        "source": {
+          "id": "leander-roadway-impact-fees",
+          "title": "City of Leander - Roadway Impact Fees",
+          "url": "https://www.leandertx.gov/392/Roadway-Impact-Fees",
+          "read": "2026-10-11"
+        },
+        "unit": "USD",
+        "note": "Roadway impact fee ordinance effective Jan 7, 2023 (Kimley-Horn study); amount per dwelling via city estimator spreadsheet - not retrieved."
       }
     ],
     "tapFees": [
       {
-        "value": null,
-        "status": "Assumed",
+        "value": 840,
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "leander-impact-tap-after-2012-05-03",
+          "title": "City of Leander Impact & Tap Fees - properties platted AFTER 05/03/2012 (updated 4/21/2026)",
+          "url": "https://www.leandertx.gov/DocumentCenter/View/1045/Impact--Tap-Fees-properties-platted-AFTER-05032012",
           "read": "2026-10-11"
         },
-        "note": "Not found: water/sewer tap fees. Web access unavailable this session (WebFetch DNS failure; search budget exhausted)."
+        "unit": "USD",
+        "note": "5/8 in water tap where city installs service and sets meter; $340 if service exists and city only sets meter; street cut extra (~$1,000 two-lane). Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
       }
     ]
   },
@@ -581,15 +632,15 @@
     },
     "drivers": [
       {
-        "value": "Utility impact fees (Austin-suburb levels, typically several thousand USD per home)",
-        "status": "Assumed",
+        "value": "Water $8,762 + wastewater $2,301 impact fees per single-family 5/8 in meter for lots platted after 8/17/2023 (~$11,063), plus roadway impact fee (since Jan 7, 2023) and tap fee",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "leander-impact-tap-after-2023-08-17",
+          "title": "City of Leander Impact & Tap Fees - properties platted AFTER 08/17/2023",
+          "url": "https://www.leandertx.gov/DocumentCenter/View/2225/Impact--Tap-Fees-properties-platted-AFTER-08172023",
           "read": "2026-10-11"
         },
-        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. "
+        "note": "Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
       },
       {
         "value": "Engineered slab on expansive or karst soils",
@@ -628,26 +679,10 @@
   },
   "engineChanges": [
     {
-      "id": "leander-verify",
-      "ruleType": "survey-input-district",
-      "area": "survey",
-      "change": "All Leander values are unverified assumptions; require user to confirm zoning district, plat building lines and adopted code edition before finalizing",
-      "priority": "must",
-      "params": {
-        "dataVerified": false
-      },
-      "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
-        "read": "2026-10-11"
-      }
-    },
-    {
       "id": "leander-setbacks",
       "ruleType": "setback-by-district",
       "area": "setbacks",
-      "change": "SFU Single-Family Urban (composite, e.g. SFU-2-B): use front 20 / side 5 / street side 15 / rear 10 ft as provisional defaults (unverified)",
+      "change": "SFU: min lot 7,200 sf, min living area 1,200 sf (Secondary); setbacks 20/5/15/10 remain provisional - SFU table not retrieved",
       "priority": "should",
       "params": {
         "district": "SFU Single-Family Urban (composite, e.g. SFU-2-B)",
@@ -655,12 +690,14 @@
         "sideFt": 5,
         "streetSideFt": 15,
         "rearFt": 10,
-        "verified": false
+        "verified": false,
+        "minLotSqFt": 7200,
+        "minLivingSqFt": 1200
       },
       "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "leander-composite-zoning-component-summary",
+        "title": "City of Leander Composite Zoning Component Summary (PDF)",
+        "url": "https://www.leandertx.gov/DocumentCenter/View/1186/Composite-Zoning-Component-Summary-PDF",
         "read": "2026-10-11"
       }
     },
@@ -700,7 +737,7 @@
       "id": "leander-edwards",
       "ruleType": "impervious-cover",
       "area": "survey",
-      "change": "Check the TCEQ Edwards Aquifer map: lots on the recharge zone (and some in the contributing/transition zones) fall under 30 TAC Chapter 213; regulated development needs an approved Water Pollution Abatement Plan, usually done at subdivision level. Leander is largely in the contributing zone, with some recharge zone in the south/west.",
+      "change": "Much of west Leander is over the Edwards Aquifer recharge/contributing zone: subdivisions file TCEQ WPAPs under 30 TAC 213 (e.g. Edgewood Ph1). Check map; follow plat impervious-cover allocations and WPAP BMPs; lot-level single-family usually covered by the subdivision WPAP",
       "priority": "should",
       "params": {
         "checkEdwardsZone": true,
@@ -708,43 +745,9 @@
         "cityLimit": null
       },
       "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
-        "read": "2026-10-11"
-      }
-    },
-    {
-      "id": "leander-trees",
-      "ruleType": "tree-preservation",
-      "area": "survey",
-      "change": "Require tree survey; avoid heritage-tree critical root zones (>= ~26 in DBH) or add mitigation cost",
-      "priority": "should",
-      "params": {
-        "heritageDbhIn": 26,
-        "verified": false
-      },
-      "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
-        "read": "2026-10-11"
-      }
-    },
-    {
-      "id": "leander-impact",
-      "ruleType": "impact-fee-estimate",
-      "area": "estimate",
-      "change": "Add Leander water, wastewater and roadway impact fees (amounts not retrieved; Leander is believed to collect roadway impact fees)",
-      "priority": "should",
-      "params": {
-        "amountUSD": null,
-        "verified": false
-      },
-      "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "leander-tceq-wpap-edgewood",
+        "title": "TCEQ Edwards Aquifer application - Edgewood Ph 1 Sec 1, Leander WPAP modification (Oct 2023)",
+        "url": "https://www.tceq.texas.gov/downloads/permitting/edwards-aquifer/applications/austin/11003779.pdf",
         "read": "2026-10-11"
       }
     },
@@ -764,23 +767,144 @@
         "url": "",
         "read": "2026-10-11"
       }
+    },
+    {
+      "id": "leander-codes",
+      "ruleType": "electrical-code-edition",
+      "area": "drawings",
+      "change": "Use 2021 IRC (appendices AD/AF/AI/AL/AM/AO/AQ excluded) + 2021 IECC + NEC 2023",
+      "priority": "must",
+      "params": {
+        "irc": "2021",
+        "iecc": "2021",
+        "nec": "2023",
+        "excludedIrcAppendices": [
+          "AD",
+          "AF",
+          "AI",
+          "AL",
+          "AM",
+          "AO",
+          "AQ"
+        ]
+      },
+      "source": {
+        "id": "leander-ord-25-034-00",
+        "title": "City of Leander Ordinance No. 25-034-00 amending Article 3.03 to adopt 2021 International Codes with local amendments (PDF, legacy filename 'Ordinance Adopting the 2015 Codes')",
+        "url": "https://www.leandertx.gov/DocumentCenter/View/1957/Ordinance-Adopting-the-2015-Codes-PDF",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "leander-verify-setbacks",
+      "ruleType": "survey-input-district",
+      "area": "survey",
+      "change": "Code edition verified; setbacks not - require user plat building lines and composite zoning component (SFU/SFS + lot/design components)",
+      "priority": "must",
+      "params": {
+        "codeVerified": true,
+        "setbacksVerified": false
+      },
+      "source": {
+        "id": "leander-composite-zoning-ordinance",
+        "title": "City of Leander Composite Zoning Ordinance (PDF, updated 10/21/2025)",
+        "url": "https://www.leandertx.gov/DocumentCenter/View/1189/Composite-Zoning-Ordinance-PDF",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "leander-min-dwelling",
+      "ruleType": "min-dwelling-size",
+      "area": "plan",
+      "change": "Minimum living area 1,200 sf in SFU, 1,500 sf in SFS",
+      "priority": "must",
+      "params": {
+        "SFU": 1200,
+        "SFS": 1500,
+        "SFT": 700
+      },
+      "source": {
+        "id": "leander-composite-zoning-component-summary",
+        "title": "City of Leander Composite Zoning Component Summary (PDF)",
+        "url": "https://www.leandertx.gov/DocumentCenter/View/1186/Composite-Zoning-Component-Summary-PDF",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "leander-garage",
+      "ruleType": "garage-placement",
+      "area": "plan",
+      "change": "Three-bay street-facing garage only on lots >= 60 ft wide (SFU/SFS)",
+      "priority": "should",
+      "params": {
+        "threeBayMinLotWidthFt": 60
+      },
+      "source": {
+        "id": "leander-ci-2018-garages",
+        "title": "Community Impact - Leander City Council alters regulations on street-facing garages (2018)",
+        "url": "https://communityimpact.com/cedar-park-leander/city-county/leander-city-council-alters-regulations-street-facing-garages-first-meeting-2018/",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "leander-impact",
+      "ruleType": "impact-fee-estimate",
+      "area": "estimate",
+      "change": "Add water $8,762 + wastewater $2,301 impact fees (plat after 8/17/2023) + roadway impact fee (estimator) + tap $340-840",
+      "priority": "should",
+      "params": {
+        "waterUsd": 8762,
+        "wastewaterUsd": 2301,
+        "roadwayUsd": null,
+        "tapUsd": 840,
+        "dependsOnPlatDate": true
+      },
+      "source": {
+        "id": "leander-impact-tap-after-2023-08-17",
+        "title": "City of Leander Impact & Tap Fees - properties platted AFTER 08/17/2023",
+        "url": "https://www.leandertx.gov/DocumentCenter/View/2225/Impact--Tap-Fees-properties-platted-AFTER-08172023",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "leander-trees",
+      "ruleType": "tree-preservation",
+      "area": "survey",
+      "change": "Require tree survey; heritage tree removal mitigation 3:1 caliper inches (thresholds unverified)",
+      "priority": "should",
+      "params": {
+        "heritageMitigationRatio": 3,
+        "verified": false
+      },
+      "source": {
+        "id": "leander-soar-2025-pz-trees",
+        "title": "Leander P&Z Aug 2025 tree mitigation discussion (AI-generated meeting summary)",
+        "url": "https://cp.soar.com/articles/5588078/Leander/Williamson-County/Texas/Williamson-County-Approves-Removal-of-Seven-Heritage-Trees-for-Wild-Spring-Phase-2-Development",
+        "read": "2026-10-11"
+      }
     }
   ],
-  "plainLanguage": "This Leander file is unverified - our research tools were unavailable, so treat every number as a placeholder. Leander uses an unusual 'composite' zoning code: a zoning label like SFU-2-B combines the home type, the lot standards and the look of the house. Many new neighborhoods are planned developments with their own rules. Expect water, sewer and road impact fees. Big trees are protected, and some areas are over the Edwards Aquifer.",
+  "plainLanguage": "Leander uses the 2021 International Residential Code and energy code and the 2023 electrical code, adopted by Ordinance 25-034-00 with city amendments. Most new homes are zoned SFU (Single-Family Urban: lots at least 7,200 sq ft, homes at least 1,200 sq ft) or SFS (9,000 sq ft lots, 1,500 sq ft homes). Exact setbacks depend on the zoning 'components' and your plat, so check your plat. A three-car front garage needs a lot at least 60 ft wide. Impact fees are significant: about $8,762 for water and $2,301 for sewer on lots platted after August 2023, plus a roadway impact fee. Western Leander is over the Edwards Aquifer, so subdivisions there carry state (TCEQ) water-quality plans. Big trees need mitigation if removed.",
   "openQuestions": [
-    "Composite zoning dimensional standards for SFU/SFS site components",
-    "Adopted code edition",
-    "Impact fee amounts",
-    "Tree thresholds"
+    "SFU/SFS setback and height table (Composite Zoning Ordinance PDF)",
+    "Residential building permit fee schedule",
+    "Roadway impact fee per single-family home",
+    "Ordinance 25-034-00 effective date and IRC foundation/sprinkler amendments",
+    "Tree size thresholds (significant/heritage)",
+    "Floodplain freeboard"
   ],
   "notFound": [
-    "Everything in this file is unverified: no web page for this city could be read this session (WebFetch failed on all hosts; shared search budget exhausted). Re-research needed."
+    "SFU/SFS setbacks",
+    "Building permit fee schedule",
+    "Roadway impact fee amount",
+    "Floodplain freeboard",
+    "Tree DBH thresholds"
   ],
   "comparison": {
-    "irc": "2021 IRC (unverified)",
-    "energy": "2021 IECC (unverified)",
-    "plumbing": "IPC (unverified)",
-    "district": "SFU Single-Family Urban (composite, e.g. SFU-2-B)",
+    "irc": "2021 IRC (Ord. 25-034-00)",
+    "energy": "2021 IECC",
+    "plumbing": "IPC 2021 (assumed)",
+    "district": "SFU (7,200 sf, 1,200 sf min home)",
     "setbacks": "20/5/10 (unverified)",
     "maxHeight": "35 ft (unverified)",
     "coverageFar": "unknown / none",
@@ -788,8 +912,8 @@
     "engFoundation": "likely - assumed",
     "windstorm": "no",
     "flood": "unverified",
-    "permitFeeExample": "not computed",
-    "impactFees": "unknown (water+ww +roadway)",
+    "permitFeeExample": "not found",
+    "impactFees": "water $8,762 + ww $2,301 (+ roadway)",
     "costFactor": "PENDING"
   }
 }

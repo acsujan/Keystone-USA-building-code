@@ -59,36 +59,48 @@
     "irc": {
       "edition": {
         "value": "2021 IRC",
-        "status": "Assumed",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "cedar-park-ecode-ch3-building",
+          "title": "City of Cedar Park Code of Ordinances - Chapter 3 Building Regulations (code adoption and amendments, eCode360)",
+          "url": "https://ecode360.com/38594319",
           "read": "2026-10-11"
         },
-        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Believed adopted 2021 I-codes; not verified."
+        "note": "Code text: adopts 2021 IRC incl. appendices AA, AB, AC, AE, AG, AH, AJ, AK, AN, AP; city permits page says adopted codes effective June 1, 2022. Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
       },
       "ordinance": {
-        "value": null,
-        "status": "Assumed",
+        "value": "City Code Chapter 3 Building Regulations (2021 I-codes effective June 1, 2022)",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "cedar-park-building-permits-page",
+          "title": "City of Cedar Park - Building Permits & Inspections (adopted building codes)",
+          "url": "https://www.cedarparktexas.gov/163",
           "read": "2026-10-11"
         },
-        "note": "Not found: adoption ordinance. Web access unavailable this session (WebFetch DNS failure; search budget exhausted)."
+        "note": "Adopting ordinance number not seen. Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
       },
       "amendments": [
         {
           "topic": "other",
-          "summary": "Local amendments not retrieved.",
-          "section": "",
-          "status": "Assumed",
+          "summary": "IRC appendices adopted: AA, AB, AC, AE, AG, AH, AJ, AK, AN, AP (AH patio covers, AK sound transmission, AN/AP as listed).",
+          "section": "Ch. 3",
+          "status": "Secondary",
           "source": {
-            "id": "assumed",
-            "title": "Assumed",
-            "url": "",
+            "id": "cedar-park-ecode-ch3-building",
+            "title": "City of Cedar Park Code of Ordinances - Chapter 3 Building Regulations (code adoption and amendments, eCode360)",
+            "url": "https://ecode360.com/38594319",
+            "read": "2026-10-11"
+          }
+        },
+        {
+          "topic": "other",
+          "summary": "Local amendments to permit exemptions (105.2) and permit fees (109.2 -> Appendix A Art. 2.000); valuation per latest ICC Building Valuation Data.",
+          "section": "105.2, 109.2",
+          "status": "Secondary",
+          "source": {
+            "id": "cedar-park-ecode-ch3-building",
+            "title": "City of Cedar Park Code of Ordinances - Chapter 3 Building Regulations (code adoption and amendments, eCode360)",
+            "url": "https://ecode360.com/38594319",
             "read": "2026-10-11"
           }
         }
@@ -97,14 +109,14 @@
     "energy": {
       "edition": {
         "value": "2021 IECC",
-        "status": "Assumed",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "cedar-park-building-permits-page",
+          "title": "City of Cedar Park - Building Permits & Inspections (adopted building codes)",
+          "url": "https://www.cedarparktexas.gov/163",
           "read": "2026-10-11"
         },
-        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Usually adopted in the same cycle as the IRC."
+        "note": "Effective June 1, 2022. Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
       },
       "stretchCode": {
         "value": false,
@@ -115,33 +127,33 @@
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. No stretch code known."
+        "note": "None seen."
       }
     },
     "plumbing": {
-      "value": "IPC (same edition as IRC)",
-      "status": "Assumed",
+      "value": "IPC 2021 (appendices C, D, E)",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "cedar-park-ecode-ch3-building",
+        "title": "City of Cedar Park Code of Ordinances - Chapter 3 Building Regulations (code adoption and amendments, eCode360)",
+        "url": "https://ecode360.com/38594319",
         "read": "2026-10-11"
       },
-      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Central Texas cities typically adopt the IPC."
+      "note": "Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
     },
     "electrical": {
-      "value": "NEC 2020 or 2023",
-      "status": "Assumed",
+      "value": "NEC 2020 with local amendments",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "cedar-park-building-permits-page",
+        "title": "City of Cedar Park - Building Permits & Inspections (adopted building codes)",
+        "url": "https://www.cedarparktexas.gov/163",
         "read": "2026-10-11"
       },
-      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Typical pairing."
+      "note": "Later version of permits page lists 2020 NEC; confirm whether 2023 NEC since adopted. Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
     },
     "mechanical": {
-      "value": "IMC (same edition as IRC)",
+      "value": "IMC 2021",
       "status": "Assumed",
       "source": {
         "id": "assumed",
@@ -149,10 +161,10 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. "
+      "note": "Part of 2021 I-code adoption (assumed)."
     },
     "fuelGas": {
-      "value": "IFGC (same edition as IRC)",
+      "value": "IFGC 2021",
       "status": "Assumed",
       "source": {
         "id": "assumed",
@@ -160,7 +172,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. "
+      "note": "Part of 2021 I-code adoption (assumed)."
     },
     "fire": {
       "value": "IFC (same edition); no one/two-family sprinkler mandate known",
@@ -233,39 +245,39 @@
       "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Cedar Park Code of Ordinances Chapter 11 (Zoning)."
     },
     "typicalDistrict": {
-      "value": "SF-2 Single-Family Residential (assumed)",
-      "status": "Assumed",
+      "value": "SU Semi-Urban Residential (other SF districts: SR Suburban, ES Estate, DR; no SF-2 district exists)",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "cedar-park-udc-ch11-zoneomics",
+        "title": "Cedar Park TX UDC Chapter 11 - Table 11.03.061A Single-Family Residential Lot and Building Standards (Zoneomics copy)",
+        "url": "https://www.zoneomics.com/code/cedar-park-TX/chapter_3",
         "read": "2026-10-11"
       },
-      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. District name and standards not verified; many neighborhoods are PUDs."
+      "note": "Zoneomics copy of UDC Table 11.03.061A, SU row: 3.65 du/ac, 8,250 sf lot, 75/90 ft width (std/corner), 25 front, 10 interior side, 15 street side, 20 rear, 35 ft height, 1,500 sf min living area. Column mapping inferred from extract; re-checked in 2 searches. Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
     },
     "minLotSqFt": {
-      "value": null,
-      "status": "Assumed",
+      "value": 8250,
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "cedar-park-udc-ch11-zoneomics",
+        "title": "Cedar Park TX UDC Chapter 11 - Table 11.03.061A Single-Family Residential Lot and Building Standards (Zoneomics copy)",
+        "url": "https://www.zoneomics.com/code/cedar-park-TX/chapter_3",
         "read": "2026-10-11"
       },
-      "unit": "sqft",
-      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Provisional."
+      "unit": "sq ft",
+      "note": "Zoneomics copy of UDC Table 11.03.061A, SU row: 3.65 du/ac, 8,250 sf lot, 75/90 ft width (std/corner), 25 front, 10 interior side, 15 street side, 20 rear, 35 ft height, 1,500 sf min living area. Column mapping inferred from extract; re-checked in 2 searches. Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
     },
     "minLotWidthFt": {
-      "value": null,
-      "status": "Assumed",
+      "value": 75,
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "cedar-park-udc-ch11-zoneomics",
+        "title": "Cedar Park TX UDC Chapter 11 - Table 11.03.061A Single-Family Residential Lot and Building Standards (Zoneomics copy)",
+        "url": "https://www.zoneomics.com/code/cedar-park-TX/chapter_3",
         "read": "2026-10-11"
       },
       "unit": "ft",
-      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Provisional."
+      "note": "90 ft corner lot. Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
     },
     "minLotDepthFt": {
       "value": null,
@@ -281,64 +293,64 @@
     "setbacksFt": {
       "front": {
         "value": 25,
-        "status": "Assumed",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "cedar-park-udc-ch11-zoneomics",
+          "title": "Cedar Park TX UDC Chapter 11 - Table 11.03.061A Single-Family Residential Lot and Building Standards (Zoneomics copy)",
+          "url": "https://www.zoneomics.com/code/cedar-park-TX/chapter_3",
           "read": "2026-10-11"
         },
         "unit": "ft",
-        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Provisional district default; plats often differ."
+        "note": "Front may be reduced up to 5 ft for a front porch (conditions) or to preserve protected/heritage trees (administrator approval). Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
       },
       "side": {
-        "value": 5,
-        "status": "Assumed",
+        "value": 10,
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "cedar-park-udc-ch11-zoneomics",
+          "title": "Cedar Park TX UDC Chapter 11 - Table 11.03.061A Single-Family Residential Lot and Building Standards (Zoneomics copy)",
+          "url": "https://www.zoneomics.com/code/cedar-park-TX/chapter_3",
           "read": "2026-10-11"
         },
         "unit": "ft",
-        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Provisional district default; plats often differ."
+        "note": "Interior side. Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
       },
       "streetSide": {
         "value": 15,
-        "status": "Assumed",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "cedar-park-udc-ch11-zoneomics",
+          "title": "Cedar Park TX UDC Chapter 11 - Table 11.03.061A Single-Family Residential Lot and Building Standards (Zoneomics copy)",
+          "url": "https://www.zoneomics.com/code/cedar-park-TX/chapter_3",
           "read": "2026-10-11"
         },
         "unit": "ft",
-        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Provisional district default; plats often differ."
+        "note": "Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
       },
       "rear": {
-        "value": 10,
-        "status": "Assumed",
+        "value": 20,
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "cedar-park-udc-ch11-zoneomics",
+          "title": "Cedar Park TX UDC Chapter 11 - Table 11.03.061A Single-Family Residential Lot and Building Standards (Zoneomics copy)",
+          "url": "https://www.zoneomics.com/code/cedar-park-TX/chapter_3",
           "read": "2026-10-11"
         },
         "unit": "ft",
-        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Provisional district default; plats often differ."
+        "note": "Double-frontage lot: rear = front setback. Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
       }
     },
     "maxHeightFt": {
       "value": 35,
-      "status": "Assumed",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "cedar-park-udc-ch11-zoneomics",
+        "title": "Cedar Park TX UDC Chapter 11 - Table 11.03.061A Single-Family Residential Lot and Building Standards (Zoneomics copy)",
+        "url": "https://www.zoneomics.com/code/cedar-park-TX/chapter_3",
         "read": "2026-10-11"
       },
       "unit": "ft",
-      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Common 35 ft SF height limit in central Texas cities; not verified."
+      "note": "Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
     },
     "maxStories": {
       "value": null,
@@ -364,15 +376,15 @@
       "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Not known."
     },
     "imperviousCover": {
-      "value": null,
-      "status": "Assumed",
+      "value": "Edwards Aquifer recharge/contributing zone: TCEQ 30 TAC 213 applies to private residence construction; individual plan usually not needed if lot is in a master community with approved WPAP/CZP; lots > 5 ac (1 home) non-regulated",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "tceq-edwards-private-residences",
+        "title": "TCEQ - Edwards Aquifer: Private Residences",
+        "url": "https://www.tceq.texas.gov/permitting/eapp/edwards-aquifer-private-residences",
         "read": "2026-10-11"
       },
-      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. A large share of Cedar Park lies over the Edwards Aquifer recharge zone (Williamson/Travis); TCEQ 30 TAC 213 applies to regulated development. No city cap verified."
+      "note": "City-level impervious cover limits not found."
     },
     "far": {
       "value": null,
@@ -430,17 +442,29 @@
       "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Texas Gov't Code 3000 (HB 2439, 2019) bars cities from mandating specific building materials beyond the national model codes, except in historic districts and some pre-existing PUD/developer agreements; HOA deed restrictions may still require masonry."
     },
     "trees": {
-      "value": "Cedar Park tree preservation ordinance protects trees above a DBH threshold and heritage trees (about 26 in DBH); mitigation required",
-      "status": "Assumed",
+      "value": "Heritage trees >= 26 in (measured 1 ft above ground); mitigation fee-in-lieu $150/in (8-18.9 in), $300/in (19-25.9 in), $450/in heritage (26+ in); heritage removal mitigated 3:1; setbacks may shift up to 5 ft to save protected/heritage trees",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "cedar-park-ci-2019-tree-ordinance",
+        "title": "Community Impact - Cedar Park to preserve more trees with revised ordinance (2019)",
+        "url": "https://communityimpact.com/leander-cedar-park/city-county/2019/03/15/cedar-park-to-preserve-more-trees-with-revised-ordinance",
         "read": "2026-10-11"
       },
-      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Recalled; verify thresholds in the city tree ordinance."
+      "note": "2019 ordinance revision (UDC Art. 14.07 per third party); older doc listed 16 in protected threshold (https://assets.documentcloud.org/documents/5770344/Tree-Ordinances.pdf). Loc. Gov't Code 212.905 requires residential replanting credit >= 50%."
     },
-    "other": []
+    "other": [],
+    "minDwellingSizeSqFt": {
+      "value": 1500,
+      "status": "Secondary",
+      "source": {
+        "id": "cedar-park-udc-ch11-zoneomics",
+        "title": "Cedar Park TX UDC Chapter 11 - Table 11.03.061A Single-Family Residential Lot and Building Standards (Zoneomics copy)",
+        "url": "https://www.zoneomics.com/code/cedar-park-TX/chapter_3",
+        "read": "2026-10-11"
+      },
+      "unit": "sq ft",
+      "note": "SU district. Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
+    }
   },
   "process": {
     "steps": [
@@ -453,7 +477,7 @@
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Typical."
+        "note": "Provisional sequence."
       }
     ],
     "sealsRequired": [
@@ -483,28 +507,29 @@
       }
     ],
     "reviewDays": {
-      "value": null,
-      "status": "Assumed",
+      "value": 10,
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "cedar-park-permitplace",
+        "title": "permitplace.com - Cedar Park TX building permits review times",
+        "url": "https://permitplace.com/city/cedar-park-tx-building-permits/",
         "read": "2026-10-11"
       },
-      "note": "Not found: residential plan review time. Web access unavailable this session (WebFetch DNS failure; search budget exhausted)."
+      "unit": "business days",
+      "note": "Third-party: ~10 business days initial review."
     }
   },
   "fees": {
     "permitFormula": {
-      "value": null,
-      "status": "Assumed",
+      "value": "Permit fee per Code Appendix A Art. 2.000; valuation determined from latest ICC Building Valuation Data",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "cedar-park-ecode-ch3-building",
+        "title": "City of Cedar Park Code of Ordinances - Chapter 3 Building Regulations (code adoption and amendments, eCode360)",
+        "url": "https://ecode360.com/38594319",
         "read": "2026-10-11"
       },
-      "note": "Not found: building permit fee formula. Web access unavailable this session (WebFetch DNS failure; search budget exhausted)."
+      "note": "Rate table not seen in extracts. Seen only in a search-result extract (page fetch blocked: DNS failure); Secondary."
     },
     "workedExample2400sqft": {
       "value": null,
@@ -515,7 +540,8 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not computed: fee schedule not read. Basis would be 2,400 sq ft conditioned + 440 sq ft attached garage."
+      "unit": "USD",
+      "note": "Not computed: Appendix A rate not found. Valuation basis would be ICC BVD R-3 VB x 2,400 sf + U x 440 sf."
     },
     "planReview": {
       "value": null,
@@ -530,15 +556,16 @@
     },
     "impactFees": [
       {
-        "value": null,
-        "status": "Assumed",
+        "value": "Water + wastewater impact fees per LUE; 2025 study max allowable $3,197 water / $3,181 wastewater; staff recommended keeping existing rates (wastewater reported $3,170/LUE)",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "cedar-park-soar-2025-impact-study",
+          "title": "Cedar Park Capital Improvement Advisory Committee approves water and wastewater impact fee study report (AI-generated meeting summary, July 2025)",
+          "url": "https://cp.soar.com/articles/5602256/Cedar-Park/Williamson-County/Texas/Capital-Improvement-Advisory-Committee-approves-water-and-wastewater-impact-fee-study-report",
           "read": "2026-10-11"
         },
-        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Cedar Park collects water and wastewater impact fees; amounts not retrieved."
+        "unit": "USD",
+        "note": "AI-generated meeting summary + third-party site (https://cityrulelookup.com/accessory-structures/adu-impact-fees/cedar-park-tx); paid at building permit. Engine estimate ~$6,350/home (1 LUE)."
       }
     ],
     "tapFees": [
@@ -581,15 +608,14 @@
     },
     "drivers": [
       {
-        "value": "Utility impact fees (Austin-suburb levels, typically several thousand USD per home)",
-        "status": "Assumed",
+        "value": "Water+wastewater impact fees ~$6,300 per LUE (relatively low for Austin suburbs)",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "cedar-park-soar-2025-impact-study",
+          "title": "Cedar Park Capital Improvement Advisory Committee approves water and wastewater impact fee study report (AI-generated meeting summary, July 2025)",
+          "url": "https://cp.soar.com/articles/5602256/Cedar-Park/Williamson-County/Texas/Capital-Improvement-Advisory-Committee-approves-water-and-wastewater-impact-fee-study-report",
           "read": "2026-10-11"
-        },
-        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. "
+        }
       },
       {
         "value": "Engineered slab on expansive or karst soils",
@@ -603,15 +629,14 @@
         "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. "
       },
       {
-        "value": "Limestone/karst excavation and Edwards Aquifer requirements",
-        "status": "Assumed",
+        "value": "Limestone/karst excavation; Edwards Aquifer recharge/contributing zone (TCEQ 30 TAC 213) BMPs",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "tceq-edwards-private-residences",
+          "title": "TCEQ - Edwards Aquifer: Private Residences",
+          "url": "https://www.tceq.texas.gov/permitting/eapp/edwards-aquifer-private-residences",
           "read": "2026-10-11"
-        },
-        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. "
+        }
       }
     ]
   },
@@ -627,43 +652,6 @@
     "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. "
   },
   "engineChanges": [
-    {
-      "id": "cedar-park-verify",
-      "ruleType": "survey-input-district",
-      "area": "survey",
-      "change": "All Cedar Park values are unverified assumptions; require user to confirm zoning district, plat building lines and adopted code edition before finalizing",
-      "priority": "must",
-      "params": {
-        "dataVerified": false
-      },
-      "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
-        "read": "2026-10-11"
-      }
-    },
-    {
-      "id": "cedar-park-setbacks",
-      "ruleType": "setback-by-district",
-      "area": "setbacks",
-      "change": "SF-2 Single-Family Residential (assumed): use front 25 / side 5 / street side 15 / rear 10 ft as provisional defaults (unverified)",
-      "priority": "should",
-      "params": {
-        "district": "SF-2 Single-Family Residential (assumed)",
-        "frontFt": 25,
-        "sideFt": 5,
-        "streetSideFt": 15,
-        "rearFt": 10,
-        "verified": false
-      },
-      "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
-        "read": "2026-10-11"
-      }
-    },
     {
       "id": "cedar-park-envelope-2a",
       "ruleType": "climate-zone-envelope",
@@ -697,58 +685,6 @@
       }
     },
     {
-      "id": "cedar-park-edwards",
-      "ruleType": "impervious-cover",
-      "area": "survey",
-      "change": "Check the TCEQ Edwards Aquifer map: lots on the recharge zone (and some in the contributing/transition zones) fall under 30 TAC Chapter 213; regulated development needs an approved Water Pollution Abatement Plan, usually done at subdivision level. Much of Cedar Park is on the recharge zone - assume geologic assessment and water-quality requirements apply unless the subdivision WPAP covers the lot.",
-      "priority": "should",
-      "params": {
-        "checkEdwardsZone": true,
-        "tceqRule": "30 TAC Chapter 213",
-        "cityLimit": null
-      },
-      "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
-        "read": "2026-10-11"
-      }
-    },
-    {
-      "id": "cedar-park-trees",
-      "ruleType": "tree-preservation",
-      "area": "survey",
-      "change": "Require tree survey; avoid protected/heritage tree root zones or add mitigation cost",
-      "priority": "should",
-      "params": {
-        "heritageDbhIn": 26,
-        "verified": false
-      },
-      "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
-        "read": "2026-10-11"
-      }
-    },
-    {
-      "id": "cedar-park-impact",
-      "ruleType": "impact-fee-estimate",
-      "area": "estimate",
-      "change": "Add Cedar Park water + wastewater impact fees (amounts not retrieved)",
-      "priority": "should",
-      "params": {
-        "amountUSD": null,
-        "verified": false
-      },
-      "source": {
-        "id": "assumed",
-        "title": "Assumed",
-        "url": "",
-        "read": "2026-10-11"
-      }
-    },
-    {
       "id": "cedar-park-plat",
       "ruleType": "building-line-plat",
       "area": "survey",
@@ -764,32 +700,181 @@
         "url": "",
         "read": "2026-10-11"
       }
+    },
+    {
+      "id": "cedar-park-codes",
+      "ruleType": "electrical-code-edition",
+      "area": "drawings",
+      "change": "Use 2021 IRC (appendices AA,AB,AC,AE,AG,AH,AJ,AK,AN,AP), 2021 IECC, 2021 IPC, NEC 2020",
+      "priority": "must",
+      "params": {
+        "irc": "2021",
+        "iecc": "2021",
+        "ipc": "2021",
+        "nec": "2020"
+      },
+      "source": {
+        "id": "cedar-park-ecode-ch3-building",
+        "title": "City of Cedar Park Code of Ordinances - Chapter 3 Building Regulations (code adoption and amendments, eCode360)",
+        "url": "https://ecode360.com/38594319",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "cedar-park-setbacks",
+      "ruleType": "setback-by-district",
+      "area": "setbacks",
+      "change": "SU Semi-Urban Residential: front 25 / interior side 10 / street side 15 / rear 20 ft; lot 8,250 sf, 75 ft wide (90 corner); allow -5 ft front for porch or tree preservation",
+      "priority": "must",
+      "params": {
+        "district": "SU",
+        "frontFt": 25,
+        "sideFt": 10,
+        "streetSideFt": 15,
+        "rearFt": 20,
+        "minLotSqFt": 8250,
+        "minLotWidthFt": 75,
+        "cornerLotWidthFt": 90,
+        "porchFrontReductionFt": 5
+      },
+      "source": {
+        "id": "cedar-park-udc-ch11-zoneomics",
+        "title": "Cedar Park TX UDC Chapter 11 - Table 11.03.061A Single-Family Residential Lot and Building Standards (Zoneomics copy)",
+        "url": "https://www.zoneomics.com/code/cedar-park-TX/chapter_3",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "cedar-park-height",
+      "ruleType": "height-limit",
+      "area": "massing",
+      "change": "Max height 35 ft (SU)",
+      "priority": "must",
+      "params": {
+        "maxHeightFt": 35
+      },
+      "source": {
+        "id": "cedar-park-udc-ch11-zoneomics",
+        "title": "Cedar Park TX UDC Chapter 11 - Table 11.03.061A Single-Family Residential Lot and Building Standards (Zoneomics copy)",
+        "url": "https://www.zoneomics.com/code/cedar-park-TX/chapter_3",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "cedar-park-min-dwelling",
+      "ruleType": "min-dwelling-size",
+      "area": "plan",
+      "change": "Minimum living area 1,500 sf in SU",
+      "priority": "must",
+      "params": {
+        "minLivingSqFt": 1500
+      },
+      "source": {
+        "id": "cedar-park-udc-ch11-zoneomics",
+        "title": "Cedar Park TX UDC Chapter 11 - Table 11.03.061A Single-Family Residential Lot and Building Standards (Zoneomics copy)",
+        "url": "https://www.zoneomics.com/code/cedar-park-TX/chapter_3",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "cedar-park-verify",
+      "ruleType": "survey-input-district",
+      "area": "survey",
+      "change": "Ask user for district (SU/SR/ES or PUD) and plat building lines; values from Zoneomics copy of UDC",
+      "priority": "should",
+      "params": {
+        "setbacksVerified": "secondary"
+      },
+      "source": {
+        "id": "cedar-park-udc-ch11-zoneomics",
+        "title": "Cedar Park TX UDC Chapter 11 - Table 11.03.061A Single-Family Residential Lot and Building Standards (Zoneomics copy)",
+        "url": "https://www.zoneomics.com/code/cedar-park-TX/chapter_3",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "cedar-park-trees",
+      "ruleType": "tree-preservation",
+      "area": "survey",
+      "change": "Tree survey; heritage >= 26 in: avoid or budget $450/inch fee-in-lieu (3:1); $300/in 19-25.9 in, $150/in 8-18.9 in",
+      "priority": "should",
+      "params": {
+        "heritageDbhIn": 26,
+        "feePerInchHeritage": 450,
+        "feePerInch19to26": 300,
+        "feePerInch8to19": 150
+      },
+      "source": {
+        "id": "cedar-park-ci-2019-tree-ordinance",
+        "title": "Community Impact - Cedar Park to preserve more trees with revised ordinance (2019)",
+        "url": "https://communityimpact.com/leander-cedar-park/city-county/2019/03/15/cedar-park-to-preserve-more-trees-with-revised-ordinance",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "cedar-park-edwards",
+      "ruleType": "impervious-cover",
+      "area": "survey",
+      "change": "Check TCEQ Edwards map: recharge/contributing zone homes fall under 30 TAC 213; confirm the subdivision has an approved WPAP/CZP, else individual plan needed",
+      "priority": "should",
+      "params": {
+        "checkEdwardsZone": true,
+        "tceqRule": "30 TAC Chapter 213",
+        "exemptLotAcres": 5
+      },
+      "source": {
+        "id": "tceq-edwards-private-residences",
+        "title": "TCEQ - Edwards Aquifer: Private Residences",
+        "url": "https://www.tceq.texas.gov/permitting/eapp/edwards-aquifer-private-residences",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "cedar-park-impact",
+      "ruleType": "impact-fee-estimate",
+      "area": "estimate",
+      "change": "Add ~$6,350 water+wastewater impact fees per home (1 LUE; ~$3,170 ww + ~$3,180 water)",
+      "priority": "should",
+      "params": {
+        "waterUsd": 3197,
+        "wastewaterUsd": 3170,
+        "verified": false
+      },
+      "source": {
+        "id": "cedar-park-soar-2025-impact-study",
+        "title": "Cedar Park Capital Improvement Advisory Committee approves water and wastewater impact fee study report (AI-generated meeting summary, July 2025)",
+        "url": "https://cp.soar.com/articles/5602256/Cedar-Park/Williamson-County/Texas/Capital-Improvement-Advisory-Committee-approves-water-and-wastewater-impact-fee-study-report",
+        "read": "2026-10-11"
+      }
     }
   ],
-  "plainLanguage": "This Cedar Park file is unverified - our research tools were unavailable, so treat every number as a placeholder. Much of Cedar Park is over the Edwards Aquifer, so state water-quality rules can apply and limit paved area. Large trees are protected and need a survey. Expect water and sewer impact fees. The city cannot require brick, but HOAs often do.",
+  "plainLanguage": "Cedar Park uses the 2021 International Residential Code, energy code and plumbing code (effective June 2022) and the 2020 electrical code. Most new single-family lots are in the SU (Semi-Urban Residential) district: lots at least 8,250 sq ft and 75 ft wide, setbacks of 25 ft front, 10 ft sides, 15 ft on a street side and 20 ft rear, homes up to 35 ft tall and at least 1,500 sq ft. A front porch or saving a protected tree can earn up to 5 ft of setback relief. Heritage trees (26 inches or more) cost $450 per inch to remove, so plan around them. Parts of the city are over the Edwards Aquifer, where state rules apply - usually already handled by your subdivision's approved plan. Water and sewer impact fees are about $6,300 per home.",
   "openQuestions": [
-    "Typical SF district and its setbacks",
-    "Adopted code edition",
-    "Impact fee amounts",
-    "Tree thresholds"
+    "Appendix A building permit fee rate for new SF homes",
+    "Whether NEC 2023 has been adopted",
+    "Current tree fee rates (2019 ordinance)",
+    "Floodplain freeboard",
+    "Whether 2024 I-codes adopted 2025-26"
   ],
   "notFound": [
-    "Everything in this file is unverified: no web page for this city could be read this session (WebFetch failed on all hosts; shared search budget exhausted). Re-research needed."
+    "Permit fee rate table",
+    "Floodplain freeboard",
+    "City impervious cover limits"
   ],
   "comparison": {
-    "irc": "2021 IRC (unverified)",
-    "energy": "2021 IECC (unverified)",
-    "plumbing": "IPC (unverified)",
-    "district": "SF-2 Single-Family Residential (assumed)",
-    "setbacks": "25/5/10 (unverified)",
-    "maxHeight": "35 ft (unverified)",
+    "irc": "2021 IRC (amended)",
+    "energy": "2021 IECC",
+    "plumbing": "IPC 2021",
+    "district": "SU Semi-Urban Residential",
+    "setbacks": "25/10/20 (15 street side)",
+    "maxHeight": "35 ft",
     "coverageFar": "unknown / none",
     "masonry": "no city mandate (HB 2439); HOA/PUD may",
     "engFoundation": "likely - assumed",
     "windstorm": "no",
     "flood": "unverified",
-    "permitFeeExample": "not computed",
-    "impactFees": "unknown (water+ww)",
+    "permitFeeExample": "not computed (BVD valuation; rate not found)",
+    "impactFees": "~$6,350 water+ww per LUE",
     "costFactor": "PENDING"
   }
 }
