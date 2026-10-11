@@ -1,0 +1,954 @@
+{
+ "code-edition-by-city": {
+  "cities": [
+   "amarillo",
+   "arlington",
+   "austin",
+   "beaumont",
+   "cedar-park",
+   "celina",
+   "college-station",
+   "conroe",
+   "corpus-christi",
+   "cypress-unincorporated-harris",
+   "dallas",
+   "denton",
+   "el-paso",
+   "forney",
+   "fort-worth",
+   "frisco",
+   "garland",
+   "georgetown",
+   "houston",
+   "hutto",
+   "irving",
+   "katy",
+   "killeen",
+   "kyle",
+   "laredo",
+   "league-city",
+   "leander",
+   "little-elm",
+   "lubbock",
+   "mcallen",
+   "mckinney",
+   "midland",
+   "new-braunfels",
+   "pearland",
+   "pflugerville",
+   "plano",
+   "prosper",
+   "round-rock",
+   "san-antonio",
+   "sugar-land",
+   "texas-baseline",
+   "texas-unincorporated",
+   "tyler",
+   "waco"
+  ],
+  "must": 20,
+  "examples": [
+   "amarillo: Check plans against 2021 IRC (excluding Part VIII Electrical; Appendices A-J adopted) (city adoption) and energy code 2015 IECC last confirmed; 2021-cycle update not confirmed instead of the plain 2021 IRC model",
+   "arlington: Check plans against 2021 IRC (Arlington local amendments, Construction Chapter Art. I Sec. 1.04) (city adoption) and energy code 2021 IECC (Arlington amended, adopted 11-1-2022) instead of the plain 2021 IRC model",
+   "austin: Use 2024 IRC (not 2021) as base residential code for Austin permits applied on/after 2025-07-10",
+   "beaumont: Check plans against 2021 IRC (city adoption) and energy code 2021 IECC instead of the plain 2021 IRC model"
+  ]
+ },
+ "climate-zone-envelope": {
+  "cities": [
+   "amarillo",
+   "arlington",
+   "austin",
+   "beaumont",
+   "brownsville",
+   "cedar-park",
+   "celina",
+   "college-station",
+   "conroe",
+   "corpus-christi",
+   "cypress-unincorporated-harris",
+   "dallas",
+   "denton",
+   "el-paso",
+   "forney",
+   "fort-worth",
+   "frisco",
+   "garland",
+   "georgetown",
+   "houston",
+   "hutto",
+   "irving",
+   "killeen",
+   "kyle",
+   "laredo",
+   "league-city",
+   "leander",
+   "little-elm",
+   "lubbock",
+   "mcallen",
+   "mckinney",
+   "midland",
+   "new-braunfels",
+   "pearland",
+   "pflugerville",
+   "plano",
+   "prosper",
+   "round-rock",
+   "san-antonio",
+   "texas-baseline",
+   "tyler",
+   "waco"
+  ],
+  "must": 42,
+  "examples": [
+   "amarillo: Use climate zone 4B envelope tables (higher wall/ceiling R, lower fenestration U than CZ 3); energy edition unconfirmed (2015 IECC last confirmed)",
+   "arlington: Apply 2021 IECC Climate Zone 3A envelope tables.",
+   "austin: Use 2024 IECC CZ 2A envelope with Austin amendments (not state 2021 IECC)",
+   "beaumont: Use climate zone 2A envelope tables; state floor is 2015 IRC Ch. 11 (ERI option under HSC 388.003)"
+  ]
+ },
+ "setback-by-district": {
+  "cities": [
+   "arlington",
+   "austin",
+   "beaumont",
+   "brownsville",
+   "cedar-park",
+   "college-station",
+   "corpus-christi",
+   "dallas",
+   "el-paso",
+   "forney",
+   "fort-worth",
+   "frisco",
+   "garland",
+   "georgetown",
+   "houston",
+   "hutto",
+   "irving",
+   "katy",
+   "killeen",
+   "kyle",
+   "laredo",
+   "league-city",
+   "leander",
+   "little-elm",
+   "lubbock",
+   "mcallen",
+   "midland",
+   "new-braunfels",
+   "pearland",
+   "pflugerville",
+   "plano",
+   "round-rock",
+   "san-antonio",
+   "sugar-land",
+   "tyler",
+   "waco"
+  ],
+  "must": 24,
+  "examples": [
+   "arlington: RS-7.2: front 20 ft (40 ft on arterial/collector), street side 15 ft, interior side 5 ft (assumed), rear 20 ft; plat lines govern.",
+   "austin: SF-3/SF-2 setbacks: front 25, interior side 5, street side 15, rear 10 ft",
+   "beaumont: Default RS Residential Single-Family Dwelling (assumed): front 25, side 5, street side 10, rear 25 ft - ASSUMED, require user to confirm from plat/zoning letter",
+   "brownsville: R-1: front 25 / corner street side 20 / side 5 / rear 5 ft (side/rear from third-party; verify)"
+  ]
+ },
+ "engineered-foundation-flag": {
+  "cities": [
+   "arlington",
+   "beaumont",
+   "brownsville",
+   "cedar-park",
+   "celina",
+   "college-station",
+   "corpus-christi",
+   "dallas",
+   "denton",
+   "forney",
+   "fort-worth",
+   "frisco",
+   "garland",
+   "georgetown",
+   "houston",
+   "hutto",
+   "irving",
+   "katy",
+   "killeen",
+   "kyle",
+   "laredo",
+   "leander",
+   "little-elm",
+   "mcallen",
+   "mckinney",
+   "new-braunfels",
+   "pearland",
+   "pflugerville",
+   "plano",
+   "prosper",
+   "san-antonio",
+   "sugar-land",
+   "tyler",
+   "waco"
+  ],
+  "must": 14,
+  "examples": [
+   "arlington: Flag an engineered (PE-sealed) post-tensioned slab as the default for expansive DFW clay; confirm whether the city amendment mandates it.",
+   "beaumont: Flag engineer-designed slab for expansive clay",
+   "brownsville: Flag engineered slab (expansive Rio Grande delta clays) - assumed",
+   "cedar-park: Flag PE-sealed engineered slab (expansive clay east of I-35 / variable limestone and clay in the west)"
+  ]
+ },
+ "impact-fee-estimate": {
+  "cities": [
+   "arlington",
+   "austin",
+   "brownsville",
+   "cedar-park",
+   "celina",
+   "college-station",
+   "conroe",
+   "dallas",
+   "denton",
+   "el-paso",
+   "forney",
+   "fort-worth",
+   "frisco",
+   "garland",
+   "georgetown",
+   "houston",
+   "hutto",
+   "irving",
+   "killeen",
+   "kyle",
+   "league-city",
+   "leander",
+   "little-elm",
+   "lubbock",
+   "mckinney",
+   "midland",
+   "new-braunfels",
+   "pearland",
+   "pflugerville",
+   "prosper",
+   "round-rock",
+   "san-antonio",
+   "waco"
+  ],
+  "must": 13,
+  "examples": [
+   "arlington: Add water $828 + sewer $418 per 5/8 meter, plus roadway $253-312.50 per vehicle-mile by service area.",
+   "austin: Add Austin Water impact fees $4,800 water + $2,900 wastewater per unit (lots platted after 2023-10-01)",
+   "brownsville: Add city capital recovery fee ~$850-$1,050 per home (2026) + BPUB impact fees (amount TBD)",
+   "cedar-park: Add ~$6,350 water+wastewater impact fees per home (1 LUE; ~$3,170 ww + ~$3,180 water)"
+  ]
+ },
+ "flood-elevation": {
+  "cities": [
+   "arlington",
+   "austin",
+   "beaumont",
+   "brownsville",
+   "college-station",
+   "conroe",
+   "corpus-christi",
+   "cypress-unincorporated-harris",
+   "dallas",
+   "denton",
+   "garland",
+   "houston",
+   "irving",
+   "katy",
+   "kyle",
+   "laredo",
+   "league-city",
+   "lubbock",
+   "mcallen",
+   "mckinney",
+   "midland",
+   "new-braunfels",
+   "pearland",
+   "pflugerville",
+   "plano",
+   "round-rock",
+   "san-antonio",
+   "sugar-land",
+   "texas-baseline",
+   "texas-unincorporated",
+   "tyler",
+   "waco"
+  ],
+  "must": 22,
+  "examples": [
+   "arlington: In floodplain set lowest floor and finished garage 2 ft above fully urbanized BFE (not FEMA effective BFE).",
+   "austin: If in Austin regulatory floodplain (old FEMA 500-yr), lowest floor >= 100-yr WSE + 2 ft",
+   "beaumont: Require FEMA flood zone/BFE input; if in SFHA set lowest floor >= BFE + 1 ft (assumed) and elevation certificate",
+   "brownsville: If in SFHA: lowest floor >= BFE + 1 ft (assumed)"
+  ]
+ },
+ "permit-fee-formula": {
+  "cities": [
+   "amarillo",
+   "arlington",
+   "austin",
+   "beaumont",
+   "college-station",
+   "corpus-christi",
+   "dallas",
+   "denton",
+   "el-paso",
+   "garland",
+   "georgetown",
+   "houston",
+   "hutto",
+   "irving",
+   "kyle",
+   "laredo",
+   "league-city",
+   "little-elm",
+   "lubbock",
+   "mcallen",
+   "pearland",
+   "plano",
+   "prosper",
+   "round-rock",
+   "sugar-land",
+   "tyler",
+   "waco"
+  ],
+  "must": 3,
+  "examples": [
+   "amarillo: Building permit $0.45/sf (2019 rate)",
+   "arlington: Permit by sq ft tiers (Table 2: $0.80 up to 1,200; $0.64 1,201-2,000) + 35% plan review.",
+   "austin: Plan review fee tier by sq ft ($1,141 for 2,001-3,000 sf) + 6% surcharge; other permit fees TBD",
+   "beaumont: Building permit = $0.50 x sq ft (min $55) + $150 plan review + $10 usage; MEP permits separate."
+  ]
+ },
+ "survey-input-district": {
+  "cities": [
+   "amarillo",
+   "arlington",
+   "cedar-park",
+   "celina",
+   "college-station",
+   "conroe",
+   "dallas",
+   "denton",
+   "forney",
+   "frisco",
+   "garland",
+   "georgetown",
+   "hutto",
+   "irving",
+   "katy",
+   "kyle",
+   "leander",
+   "little-elm",
+   "mckinney",
+   "midland",
+   "new-braunfels",
+   "pflugerville",
+   "prosper",
+   "round-rock",
+   "sugar-land",
+   "texas-unincorporated"
+  ],
+  "must": 21,
+  "examples": [
+   "amarillo: Ask user for district (R-1/R-2/R-3) and plat setbacks; provisional R-2: front 25, side 5, rear unknown, height 35 ft",
+   "arlington: Ask for the actual zoning district (default RS-7.2) and plat building lines; no setbacks verified yet, so do not auto-fill.",
+   "cedar-park: Ask user for district (SU/SR/ES or PUD) and plat building lines; values from Zoneomics copy of UDC",
+   "celina: Ask for the lot's PD ordinance; most new Celina lots are PDs on an SF-R base. Use PD Area Regulations; if unknown use example-PD defaults front 20 / side 5 / corner side 15 / rear 20 ft and flag for confirmation."
+  ]
+ },
+ "height-limit": {
+  "cities": [
+   "arlington",
+   "austin",
+   "brownsville",
+   "cedar-park",
+   "college-station",
+   "corpus-christi",
+   "dallas",
+   "el-paso",
+   "fort-worth",
+   "frisco",
+   "georgetown",
+   "hutto",
+   "katy",
+   "killeen",
+   "kyle",
+   "laredo",
+   "little-elm",
+   "lubbock",
+   "mcallen",
+   "new-braunfels",
+   "pflugerville",
+   "plano",
+   "prosper",
+   "san-antonio",
+   "sugar-land",
+   "tyler"
+  ],
+  "must": 16,
+  "examples": [
+   "arlington: Cap height at 40 ft in RS-7.2.",
+   "austin: Max height 35 ft (32 ft inside Subchapter F boundary)",
+   "brownsville: Max height 35 ft",
+   "cedar-park: Max height 35 ft (SU)"
+  ]
+ },
+ "electrical-code-edition": {
+  "cities": [
+   "amarillo",
+   "beaumont",
+   "cedar-park",
+   "college-station",
+   "cypress-unincorporated-harris",
+   "dallas",
+   "forney",
+   "fort-worth",
+   "garland",
+   "georgetown",
+   "houston",
+   "hutto",
+   "irving",
+   "katy",
+   "kyle",
+   "laredo",
+   "leander",
+   "lubbock",
+   "midland",
+   "new-braunfels",
+   "pearland",
+   "plano",
+   "round-rock",
+   "san-antonio",
+   "texas-baseline",
+   "texas-unincorporated"
+  ],
+  "must": 8,
+  "examples": [
+   "amarillo: Electrical per NEC 2023 (IRC Part VIII excluded)",
+   "beaumont: Use 2021 IRC/IECC and NEC 2020 for Beaumont plan notes; include ICC 600 high-wind provisions where used.",
+   "cedar-park: Use 2021 IRC (appendices AA,AB,AC,AE,AG,AH,AJ,AK,AN,AP), 2021 IECC, 2021 IPC, NEC 2020",
+   "college-station: Electrical to NEC 2023"
+  ]
+ },
+ "lot-min-size": {
+  "cities": [
+   "arlington",
+   "austin",
+   "brownsville",
+   "college-station",
+   "corpus-christi",
+   "dallas",
+   "el-paso",
+   "fort-worth",
+   "frisco",
+   "houston",
+   "killeen",
+   "laredo",
+   "league-city",
+   "little-elm",
+   "lubbock",
+   "new-braunfels",
+   "pearland",
+   "pflugerville",
+   "plano",
+   "san-antonio",
+   "sugar-land",
+   "texas-baseline",
+   "tyler"
+  ],
+  "must": 0,
+  "examples": [
+   "arlington: RS-7.2 minimum lot 7,200 sf, 60 ft wide, 100 ft deep.",
+   "austin: Accept lots >= 1,800 sq ft and >= 15 ft wide for one small-lot SF home (HOME Phase 2)",
+   "brownsville: R-1 min lot 5,000 sf, 50 ft wide, 70 ft deep",
+   "college-station: GS min lot 5,000 sf, 50 ft wide, 100 ft deep"
+  ]
+ },
+ "masonry-percentage": {
+  "cities": [
+   "arlington",
+   "beaumont",
+   "celina",
+   "dallas",
+   "denton",
+   "forney",
+   "fort-worth",
+   "frisco",
+   "garland",
+   "irving",
+   "little-elm",
+   "mckinney",
+   "plano",
+   "prosper",
+   "sugar-land",
+   "texas-baseline",
+   "tyler",
+   "waco"
+  ],
+  "must": 0,
+  "examples": [
+   "arlington: Do not apply a city masonry percentage (Gov't Code ch. 3000); prompt for HOA, deed or historic-district requirements.",
+   "beaumont: Do not apply any city-mandated masonry %; only flag HOA/deed restriction check",
+   "celina: Do not enforce city masonry %; prompt for PD/HOA masonry requirement.",
+   "dallas: Do not apply any masonry percentage by default (Gov't Code ch. 3000). Show a prompt only if the lot is in a historic district or a PD or deed restriction requires masonry."
+  ]
+ },
+ "building-line-plat": {
+  "cities": [
+   "beaumont",
+   "cedar-park",
+   "conroe",
+   "forney",
+   "georgetown",
+   "houston",
+   "killeen",
+   "leander",
+   "mcallen",
+   "plano",
+   "round-rock",
+   "texas-unincorporated",
+   "tyler",
+   "waco"
+  ],
+  "must": 9,
+  "examples": [
+   "beaumont: Read platted building lines from the recorded plat; they override district defaults when larger",
+   "cedar-park: Most new homes are in PUDs/MUDs or HOA subdivisions - plat building lines, PUD standards and deed restrictions may override district setbacks and add masonry rules",
+   "conroe: Read front/side building lines from recorded subdivision plat (Ch. 94).",
+   "forney: Read platted building lines from the recorded plat; they override district defaults when larger"
+  ]
+ },
+ "deed-restriction-check": {
+  "cities": [
+   "celina",
+   "cypress-unincorporated-harris",
+   "fort-worth",
+   "frisco",
+   "houston",
+   "katy",
+   "league-city",
+   "mckinney",
+   "pearland",
+   "prosper",
+   "sugar-land",
+   "texas-baseline",
+   "texas-unincorporated"
+  ],
+  "must": 3,
+  "examples": [
+   "celina: Check HOA/deed restrictions and platted building lines.",
+   "cypress-unincorporated-harris: Master-planned community ACC: masonry %, garage orientation, roof pitch, min house size",
+   "fort-worth: Ask for HOA/deed restrictions (often impose masonry %, minimum size, garage orientation in new Fort Worth subdivisions).",
+   "frisco: Check HOA/deed restrictions and platted building lines; typical Frisco HOAs control masonry, roof pitch, garage orientation and minimum size."
+  ]
+ },
+ "windstorm-package": {
+  "cities": [
+   "beaumont",
+   "brownsville",
+   "conroe",
+   "corpus-christi",
+   "houston",
+   "katy",
+   "league-city",
+   "pearland",
+   "sugar-land",
+   "texas-baseline"
+  ],
+  "must": 11,
+  "examples": [
+   "beaumont: Apply TDI windstorm package for Inland II zone: design to 143 mph Vult (ASCE 7-10 equiv. of 110 mph) - re-check under 2024 IRC/ASCE 7-22 for certifications after 1 Apr 2026; ICC 600 high-wind prescriptive option; engineer windstorm certification and WPI-8; continuous load path.",
+   "brownsville: TDI windstorm (TWIA) package: on/after Apr 1, 2026 design and build to the 2024 IRC as adopted by TDI (28 TAC 5.4013); a TDI-appointed qualified inspector or Texas PE must certify, TDI issues WPI-8 Certificate of Compliance needed for TWIA insurance. Brownsville = legacy Inland I (TDI note).",
+   "brownsville: Wind-borne debris region: all exterior glazed openings (windows, glass doors, skylights) impact-rated or protected by tested shutters/approved panels; garage doors wind-rated.",
+   "brownsville: 2024 IRC enhanced roof deck protection / sheathing attachment in wind-design-required areas (Vult >= 130 mph): spec sealed roof deck underlayment and high-wind sheathing nailing; engineer to confirm schedule."
+  ]
+ },
+ "lot-coverage": {
+  "cities": [
+   "arlington",
+   "austin",
+   "brownsville",
+   "celina",
+   "college-station",
+   "dallas",
+   "el-paso",
+   "fort-worth",
+   "sugar-land",
+   "tyler"
+  ],
+  "must": 6,
+  "examples": [
+   "arlington: Limit lot coverage to 50% in RS-7.2.",
+   "austin: Building coverage max 40% of lot",
+   "brownsville: Max lot coverage 50% including accessory buildings",
+   "celina: Note 20% open space requirement applies at district/subdivision level (half usable); do not apply as a per-lot coverage cap unless PD says so."
+  ]
+ },
+ "garage-placement": {
+  "cities": [
+   "arlington",
+   "fort-worth",
+   "frisco",
+   "georgetown",
+   "houston",
+   "hutto",
+   "killeen",
+   "leander",
+   "lubbock",
+   "san-antonio"
+  ],
+  "must": 2,
+  "examples": [
+   "arlington: Front-facing garage: apply UDC 4.1.6.G garage setback; keep garage openings <= 55% of house width (proposed 2025).",
+   "fort-worth: Allow attached garage side setback 3 ft only if garage is >=18 ft behind front wall; detached garage behind rear wall may be 3 ft from lot line.",
+   "frisco: On front-entry (non-alley) lots apply Frisco Front Entry Lot Layout Guidelines - prefer J-swing/side-entry or recessed front garage; alley lots: rear garage 20 ft from alley (24 ft for swing-in). Treat as warning until PD/guideline values loaded.",
+   "georgetown: Provisional: set front-loaded garage door >= 25 ft from front property line / street ROW"
+  ]
+ },
+ "fire-sprinkler": {
+  "cities": [
+   "celina",
+   "cypress-unincorporated-harris",
+   "el-paso",
+   "frisco",
+   "mckinney",
+   "plano",
+   "prosper",
+   "texas-baseline",
+   "texas-unincorporated"
+  ],
+  "must": 3,
+  "examples": [
+   "celina: Do not add a residential sprinkler mandate (state preemption) unless city shows a pre-2009 grandfathered rule.",
+   "cypress-unincorporated-harris: No sprinklers",
+   "el-paso: Do not require residential fire sprinklers (R313 deleted locally)",
+   "frisco: If conditioned area + garage area >= 6,000 sq ft, require automatic fire sprinkler system (Frisco Fire Prevention approval) and add cost."
+  ]
+ },
+ "plumbing-code-variant": {
+  "cities": [
+   "arlington",
+   "austin",
+   "dallas",
+   "fort-worth",
+   "frisco",
+   "houston",
+   "laredo",
+   "round-rock",
+   "texas-baseline"
+  ],
+  "must": 1,
+  "examples": [
+   "arlington: Assume the NCTCOG regional amendments to the 2021 IRC and IECC (Chapter 11 deleted and replaced by the IECC; carport exception) until the city ordinance is confirmed.",
+   "austin: Plumbing per UPC (IAPMO) not IPC",
+   "dallas: Use IPC 2021 (Dallas amendments) rules for fixtures and venting, not UPC.",
+   "fort-worth: Plumbing per 2021 IPC/IFGC (not UPC)."
+  ]
+ },
+ "wind-speed": {
+  "cities": [
+   "brownsville",
+   "corpus-christi",
+   "cypress-unincorporated-harris",
+   "el-paso",
+   "houston",
+   "league-city",
+   "lubbock"
+  ],
+  "must": 3,
+  "examples": [
+   "brownsville: Use basic (ultimate) design wind speed 150 mph for TDI windstorm areas under the 2024 IRC R301.2.1 (per City of Corpus Christi summary of TDI adoption); Risk Category II; exposure C, check D near open water/bays.",
+   "corpus-christi: Use basic (ultimate) design wind speed 150 mph for TDI windstorm areas under the 2024 IRC R301.2.1 (per City of Corpus Christi summary of TDI adoption); Risk Category II; exposure C, check D near open water/bays.",
+   "cypress-unincorporated-harris: Design wind ~130 mph (non-windstorm area)",
+   "el-paso: Design wind speed 115 mph (local table; 2015-era value, verify 2021 table)"
+  ]
+ },
+ "impervious-cover": {
+  "cities": [
+   "austin",
+   "cedar-park",
+   "georgetown",
+   "kyle",
+   "leander",
+   "new-braunfels",
+   "san-antonio"
+  ],
+  "must": 1,
+  "examples": [
+   "austin: Impervious cover max 45% (house+garage+driveway+patios); watershed rules may be lower",
+   "cedar-park: Check TCEQ Edwards map: recharge/contributing zone homes fall under 30 TAC 213; confirm the subdivision has an approved WPAP/CZP, else individual plan needed",
+   "georgetown: Check TCEQ Edwards Aquifer map: lots on recharge zone fall under 30 TAC 213 (WPAP at subdivision level; single-family on lots > 5 ac one home exempt); city UDC Ch.13 impervious cover limits apply city+ETJ - read plat impervious cover allocation per lot",
+   "kyle: West Kyle lots may be on Edwards recharge/contributing zone: check TCEQ map; 30 TAC 213 applies to private residences unless covered by subdivision-approved plan (or lot > 5 ac, 1 home)"
+  ]
+ },
+ "tree-preservation": {
+  "cities": [
+   "austin",
+   "cedar-park",
+   "conroe",
+   "dallas",
+   "georgetown",
+   "leander",
+   "san-antonio"
+  ],
+  "must": 1,
+  "examples": [
+   "austin: Require tree survey input: trees >=19 in DBH protected (permit), >=24 in listed species heritage (no removal w/o variance); keep footprint out of critical root zones",
+   "cedar-park: Tree survey; heritage >= 26 in: avoid or budget $450/inch fee-in-lieu (3:1); $300/in 19-25.9 in, $150/in 8-18.9 in",
+   "conroe: Flag Ch. 102 tree/canopy rules (30% canopy standard) - capture existing trees on survey.",
+   "dallas: Ask for a tree survey (trees 6 in caliper or more within 50 ft of work). Estimate inch-for-inch replacement for protected trees outside the unrestricted zone. Plant at least three 2-in trees, two in the front yard."
+  ]
+ },
+ "expansive-soil-foundation": {
+  "cities": [
+   "cypress-unincorporated-harris",
+   "dallas",
+   "hutto",
+   "new-braunfels",
+   "texas-baseline",
+   "texas-unincorporated"
+  ],
+  "must": 3,
+  "examples": [
+   "cypress-unincorporated-harris: PE-designed post-tensioned slab (Houston-area expansive clay)",
+   "dallas: Default the foundation to a post-tensioned slab on grade designed for expansive clay (IRC R403.1.8 / IBC 1808.6). Add a geotech report line item.",
+   "hutto: Assume high-PI expansive clay: PT slab with geotech report; large PVR",
+   "new-braunfels: West-side lots: shallow limestone excavation adder; east-side: expansive clay"
+  ]
+ },
+ "egress-stairs-variant": {
+  "cities": [
+   "austin",
+   "denton",
+   "houston",
+   "mckinney",
+   "pflugerville",
+   "plano"
+  ],
+  "must": 2,
+  "examples": [
+   "austin: Visitability: provide accessible bathroom on entry level with 30x30 in clear floor space and accessible entry",
+   "denton: Base code 2021 IRC + 2021 IECC with Denton/NCTCOG amendments; electrical NEC 2020 (verify).",
+   "houston: Check Houston-amended egress opening (R310) and exterior deck guard rules before finalising bedrooms/decks",
+   "mckinney: Use 2024 IRC / 2024 IECC / 2024 IPC-IMC-IFGC as base code for permits applied on or after 2025-10-01."
+  ]
+ },
+ "energy-compliance-doc": {
+  "cities": [
+   "league-city",
+   "midland",
+   "sugar-land",
+   "texas-baseline",
+   "texas-unincorporated"
+  ],
+  "must": 3,
+  "examples": [
+   "league-city: City permit set to 2021 IRC/IECC (CZ 2A); separate TDI windstorm submittal to 2024 IRC.",
+   "midland: Include ACCA Manual J (or RS summary) and energy compliance statement in permit set",
+   "sugar-land: Design to 2024 IRC + 2024 IECC (CZ 2A) + NEC 2023 with Ord. 2395 amendments for applications on/after Jan 21 2026 (not the 2021 IRC baseline).",
+   "texas-baseline: Energy compliance to 2015 IRC Chapter 11 statewide minimum unless the city adopted a newer IECC/IRC energy chapter; include REScheck/ERI documentation"
+  ]
+ },
+ "no-zoning": {
+  "cities": [
+   "conroe",
+   "cypress-unincorporated-harris",
+   "houston",
+   "texas-unincorporated"
+  ],
+  "must": 4,
+  "examples": [
+   "conroe: No city zoning: do not apply district setbacks/height/coverage; require user to enter plat building lines and deed-restriction setbacks.",
+   "cypress-unincorporated-harris: No zoning - take setbacks from plat building lines and deed restrictions; ask for HOA design guidelines",
+   "houston: Disable district selection; use Chapter 42 building lines + plat + deed restrictions instead of zoning setbacks",
+   "texas-unincorporated: Disable zoning setbacks/height/coverage; use plat building lines and deed restrictions as setbacks"
+  ]
+ },
+ "sealed-drawings-required": {
+  "cities": [
+   "beaumont",
+   "corpus-christi",
+   "houston",
+   "new-braunfels"
+  ],
+  "must": 3,
+  "examples": [
+   "beaumont: Require Texas-registered engineer windstorm certification for the house (city rule: all buildings >= 120 sf).",
+   "corpus-christi: Windstorm plans sealed by TDI-certified windstorm engineer in permit set",
+   "houston: Require sealed truss/engineered-lumber drawings and construction-ready (non-preliminary) plan set",
+   "new-braunfels: Drawing set: sealed foundation + bracing sheets and engineer foundation letter"
+  ]
+ },
+ "frost-depth": {
+  "cities": [
+   "amarillo",
+   "el-paso",
+   "lubbock",
+   "midland"
+  ],
+  "must": 1,
+  "examples": [
+   "amarillo: Footings min 24 in below grade for any structure > 600 sf (city IRC amendment R403.1.4)",
+   "amarillo: Water service >= 12 in deep and 6 in below frost line; gas pipe >= 18 in cover",
+   "el-paso: Footing depth = max(12 in IRC R403.1.4, 6 in local frost line) = 12 in below undisturbed grade",
+   "lubbock: Frost line 12 in below grade (city criteria)"
+  ]
+ },
+ "tap-fee-estimate": {
+  "cities": [
+   "cypress-unincorporated-harris",
+   "garland",
+   "hutto",
+   "sugar-land"
+  ],
+  "must": 0,
+  "examples": [
+   "cypress-unincorporated-harris: Add MUD tap/capital fees placeholder; MUD tax affects owner cost",
+   "garland: Electric service is from Garland Power & Light (city utility), not Oncor. Use city utility connection fees once found.",
+   "hutto: Ask which water provider serves the lot (city vs WSC) - tap/impact fees differ",
+   "sugar-land: Add water connection $915 (5/8-in) + sewer tap $200."
+  ]
+ },
+ "min-dwelling-size": {
+  "cities": [
+   "cedar-park",
+   "garland",
+   "leander"
+  ],
+  "must": 3,
+  "examples": [
+   "cedar-park: Minimum living area 1,500 sf in SU",
+   "garland: For every two bedrooms provide one full bathroom and 120 sq ft of living area.",
+   "leander: Minimum living area 1,200 sf in SFU, 1,500 sf in SFS"
+  ]
+ },
+ "seismic-category": {
+  "cities": [
+   "el-paso",
+   "midland",
+   "texas-baseline"
+  ],
+  "must": 1,
+  "examples": [
+   "el-paso: Set Seismic Design Category C; detached one-/two-family dwellings exempt from IRC R301.2.2 seismic provisions, but townhouse/attached products must apply SDC C seismic detailing",
+   "midland: Keep SDC A per IRC, but show advisory about induced earthquakes (M5.2 Dec 2022) - suggest crack control joints/flexible connections",
+   "texas-baseline: SDC A statewide default; check El Paso area for higher SDC"
+  ]
+ },
+ "snow-load": {
+  "cities": [
+   "amarillo",
+   "el-paso",
+   "lubbock"
+  ],
+  "must": 0,
+  "examples": [
+   "amarillo: Flag ground snow load input (Panhandle about 15-20 psf; not confirmed)",
+   "el-paso: Ground snow load 5 psf (use IRC minimum roof live load 20 psf governs)",
+   "lubbock: Ground snow load 15 psf (city Table R301.2(1))"
+  ]
+ },
+ "hail-roof": {
+  "cities": [
+   "amarillo",
+   "lubbock",
+   "texas-baseline"
+  ],
+  "must": 0,
+  "examples": [
+   "amarillo: Default roof to Class 4 impact-resistant (recommended, not code)",
+   "lubbock: Default roof spec to Class 4 (UL 2218) impact-resistant shingles as recommended option (not code)",
+   "texas-baseline: Offer Class 4 impact-resistant roofing option (DFW, Panhandle, Central TX)"
+  ]
+ },
+ "side-wall-articulation": {
+  "cities": [
+   "austin",
+   "killeen"
+  ],
+  "must": 1,
+  "examples": [
+   "austin: Inside McMansion boundary: long side walls need an offset (articulation) - flag for review until trigger length verified",
+   "killeen: Include >= 5 listed architectural elements and >= 2 front-elevation features (corbels, quoins, louvered vents, keystones, etc.); use checklist"
+  ]
+ },
+ "adu-rules": {
+  "cities": [
+   "austin",
+   "dallas"
+  ],
+  "must": 0,
+  "examples": [
+   "austin: Allow up to 3 units on SF-1/2/3 lots; FAR 0.55/3,200 (2 units) or 0.65/4,350 (3 units) inside boundary, per-unit max 0.4/2,300",
+   "dallas: Block a by-right ADU in R-7.5(A). Offer it only with a Board of Adjustment special exception or an ADU overlay, at most the greater of 700 sq ft or 25% of the main house, one story, owner-occupancy deed restriction."
+  ]
+ },
+ "far-limit": {
+  "cities": [
+   "austin"
+  ],
+  "must": 1,
+  "examples": [
+   "austin: If inside McMansion boundary and single unit: gross floor area <= max(0.4 x lot area, 2,300 sq ft)"
+  ]
+ },
+ "setback-plane": {
+  "cities": [
+   "austin"
+  ],
+  "must": 1,
+  "examples": [
+   "austin: Inside McMansion boundary: setback plane starting 15 ft above grade at side/rear lines, sloping inward 45 deg; check roof/dormers"
+  ]
+ },
+ "mechanical-cooling-required": {
+  "cities": [
+   "austin"
+  ],
+  "must": 1,
+  "examples": [
+   "austin: Mechanical design must include AC able to hold <=85 F and >=15 F below outdoor"
+  ]
+ },
+ "occupancy-limit": {
+  "cities": [
+   "college-station"
+  ],
+  "must": 0,
+  "examples": [
+   "college-station: Warn when plan has more than 4 bedrooms intended for unrelated occupants: max 4 unrelated per dwelling (2 in ROO). Do not market 5+ bed 'stealth dorm' layouts as rentals"
+  ]
+ },
+ "parking-min": {
+  "cities": [
+   "college-station"
+  ],
+  "must": 0,
+  "examples": [
+   "college-station: Parking may scale with bedrooms (assumed; College Station ties single-family parking to bedroom count) - check before adding bedrooms"
+  ]
+ },
+ "termite-protection": {
+  "cities": [
+   "el-paso"
+  ],
+  "must": 0,
+  "examples": [
+   "el-paso: Termite: moderate to heavy - include termite protection (R318) on drawings"
+  ]
+ },
+ "lot-drainage": {
+  "cities": [
+   "fort-worth"
+  ],
+  "must": 0,
+  "examples": [
+   "fort-worth: Site plan must show lot surface drainage diverted to storm sewer conveyance (amended R401.3)."
+  ]
+ }
+}

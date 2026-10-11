@@ -1,848 +1,849 @@
 {
- "id": "waco",
- "name": "City of Waco",
- "state": "TX",
- "tier": 2,
- "counties": [
-  "McLennan"
- ],
- "msa": {
-  "name": "Waco, TX",
-  "blsCode": "47380"
- },
- "population": {
-  "value": 144816,
-  "status": "Secondary",
-  "source": {
-   "id": "waco-census-qf",
-   "title": "Census QuickFacts - Waco city, Texas (V2023 estimate)",
-   "url": "https://www.census.gov/quickfacts/fact/table/wacocitytexas/LND110210",
-   "read": "2026-10-11"
+  "id": "waco",
+  "name": "City of Waco",
+  "state": "TX",
+  "tier": 2,
+  "counties": [
+    "McLennan"
+  ],
+  "msa": {
+    "name": "Waco, TX",
+    "blsCode": "47380"
   },
-  "note": "Census Vintage 2023 estimate; V2024 showed NA for Waco in the QuickFacts extract. 2020 census 138,486."
- },
- "zipCodesOrBoundary": {
-  "value": null,
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed",
-   "url": "",
-   "read": "2026-10-11"
-  },
-  "note": "Not found: city-limits map/ZIP list not retrieved."
- },
- "climateZone": {
-  "value": "2A",
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed",
-   "url": "",
-   "read": "2026-10-11"
-  },
-  "note": "From 2021 IECC Table R301.1 county list (McLennan County) as recalled; not re-read this run."
- },
- "windstormCounty": {
-  "value": false,
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed (TDI catalogue county list, recalled)",
-   "url": "",
-   "read": "2026-10-11"
-  },
-  "note": "McLennan County is not in the TDI windstorm catalogue."
- },
- "codes": {
-  "irc": {
-   "edition": {
-    "value": "2024 IRC (with appendices BB, BD, BO, NE)",
+  "population": {
+    "value": 144816,
     "status": "Secondary",
     "source": {
-     "id": "waco-adopted-codes",
-     "title": "City of Waco - Inspection Services, Adopted Codes (as of 1 Jan 2026)",
-     "url": "https://www.waco-texas.com/Departments/Development-Services/Inspection-Services/Adopted-Codes",
-     "read": "2026-10-11"
+      "id": "waco-census-qf",
+      "title": "Census QuickFacts - Waco city, Texas (V2023 estimate)",
+      "url": "https://www.census.gov/quickfacts/fact/table/wacocitytexas/LND110210",
+      "read": "2026-10-11"
     },
-    "note": "City Adopted Codes page lists the 2024 IRC as of 1 Jan 2026 (previously 2018 IRC under Ord. 2021-086). Waco skipped the 2021 edition. Read only as a web-search extract of the primary page (page fetch failed: DNS); Secondary."
-   },
-   "ordinance": {
+    "note": "Census Vintage 2023 estimate; V2024 showed NA for Waco in the QuickFacts extract. 2020 census 138,486."
+  },
+  "zipCodesOrBoundary": {
     "value": null,
     "status": "Assumed",
     "source": {
-     "id": "assumed",
-     "title": "Assumed",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Not found: number/date of the 2025 ordinance adopting the 2024 codes. Prior cycle: Ord. 2021-086 adopted 2018 I-codes and 2020 NEC (Secondary, city amendments PDF)."
-   },
-   "amendments": [
-    {
-     "topic": "other",
-     "summary": "Waco's local amendments to the 2024 IRC were not retrieved; only the list of adopted codes and appendices (BB, BD, BO, NE) was seen.",
-     "section": "",
-     "status": "Assumed",
-     "source": {
-      "id": "waco-adopted-codes",
-      "title": "City of Waco - Inspection Services, Adopted Codes (as of 1 Jan 2026)",
-      "url": "https://www.waco-texas.com/Departments/Development-Services/Inspection-Services/Adopted-Codes",
+      "id": "assumed",
+      "title": "Assumed",
+      "url": "",
       "read": "2026-10-11"
-     },
-     "note": "Show 'confirm local amendments' warning."
     },
-    {
-     "topic": "fire sprinklers",
-     "summary": "No one/two-family sprinkler mandate expected (Texas SB 1410 / LGC 214.212 bar new city mandates).",
-     "section": "IRC R313",
-     "status": "Assumed",
-     "source": {
-      "id": "tx-lgc-214-212",
-      "title": "Texas Local Gov't Code 214.212 (IRC as municipal residential code; local amendments)",
-      "url": "https://texas.public.law/statutes/tex._local_gov%27t_code_section_214.212",
-      "read": "2026-10-11"
-     }
-    }
-   ]
+    "note": "Not found: city-limits map/ZIP list not retrieved."
   },
-  "energy": {
-   "edition": {
-    "value": "2018 IECC",
-    "status": "Secondary",
+  "climateZone": {
+    "value": "2A",
+    "status": "Assumed",
     "source": {
-     "id": "waco-adopted-codes",
-     "title": "City of Waco - Inspection Services, Adopted Codes (as of 1 Jan 2026)",
-     "url": "https://www.waco-texas.com/Departments/Development-Services/Inspection-Services/Adopted-Codes",
-     "read": "2026-10-11"
+      "id": "assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
     },
-    "note": "Adopted Codes page lists IECC 2018 (not 2024) as of 1 Jan 2026; exceeds the 2015 IRC Ch. 11 state floor. Read only as a web-search extract of the primary page (page fetch failed: DNS); Secondary."
-   },
-   "stretchCode": {
+    "note": "From 2021 IECC Table R301.1 county list (McLennan County) as recalled; not re-read this run."
+  },
+  "windstormCounty": {
     "value": false,
     "status": "Assumed",
     "source": {
-     "id": "assumed",
-     "title": "Assumed",
-     "url": "",
-     "read": "2026-10-11"
+      "id": "assumed",
+      "title": "Assumed (TDI catalogue county list, recalled)",
+      "url": "",
+      "read": "2026-10-11"
     },
-    "note": "No local stretch code found; none expected for this city."
-   }
+    "note": "McLennan County is not in the TDI windstorm catalogue."
   },
-  "plumbing": {
-   "value": "IPC 2024 (with appendix E)",
-   "status": "Secondary",
-   "source": {
-    "id": "waco-adopted-codes",
-    "title": "City of Waco - Inspection Services, Adopted Codes (as of 1 Jan 2026)",
-    "url": "https://www.waco-texas.com/Departments/Development-Services/Inspection-Services/Adopted-Codes",
-    "read": "2026-10-11"
-   },
-   "note": "Read only as a web-search extract of the primary page (page fetch failed: DNS); Secondary."
-  },
-  "electrical": {
-   "value": "NEC as adopted by TDLR (currently NEC 2023)",
-   "status": "Secondary",
-   "source": {
-    "id": "waco-adopted-codes",
-    "title": "City of Waco - Inspection Services, Adopted Codes (as of 1 Jan 2026)",
-    "url": "https://www.waco-texas.com/Departments/Development-Services/Inspection-Services/Adopted-Codes",
-    "read": "2026-10-11"
-   },
-   "note": "City page cites NEC 'as adopted by TDLR' rather than an edition; TDLR edition 2023 NEC (eff. 1 Sep 2023) recalled."
-  },
-  "mechanical": {
-   "value": "IMC 2024 (likely; not confirmed)",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Adopted Codes extract confirmed IRC/IPC/IECC only; same-cycle IMC assumed."
-  },
-  "fuelGas": {
-   "value": "IFGC 2024 (likely; not confirmed)",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Same-cycle assumption."
-  },
-  "fire": {
-   "value": "No one/two-family sprinkler mandate expected",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "State law bars new mandates; Waco IFC edition not confirmed."
-  },
-  "wind": {
-   "value": 110,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Central Texas; ASCE 7-16 Risk II ~105-110 mph; not verified.",
-   "unit": "mph"
-  },
-  "hailRoofing": {
-   "value": "Hail exposure moderate-high; no local Class 4 mandate found",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched this run."
-  },
-  "seismic": {
-   "value": "A",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Texas outside far-west Texas maps to SDC A in 2021 IRC Fig. R301.2(2); not checked against a city-specific table."
-  },
-  "frostDepth": {
-   "value": 6,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Typical local IRC Table R301.2(1) value for the region; not read.",
-   "unit": "in"
-  }
- },
- "zoning": {
-  "hasZoning": {
-   "value": true,
-   "status": "Secondary",
-   "source": {
-    "id": "waco-plan-commission",
-    "title": "City of Waco Plan Commission meeting agenda (references Ch. 28 zoning and R-1B)",
-    "url": "https://www.waco-texas.com/Departments/Development-Services/Planning-Services/Plan-Commission/Meetings/2.28",
-    "read": "2026-10-11"
-   },
-   "note": "Zoning is Chapter 28 of the Waco Code of Ordinances (referenced in Plan Commission agendas)."
-  },
-  "typicalDistrict": {
-   "value": "R-1B Single-Family Residence District",
-   "status": "Secondary",
-   "source": {
-    "id": "waco-zoneomics",
-    "title": "Zoneomics - Waco, Texas zoning map summary (largest zones)",
-    "url": "https://zoneomics.com/zoning-maps/texas/waco",
-    "read": "2026-10-11"
-   },
-   "note": "Zoneomics lists R-1B among Waco's largest zones; district intent is moderate-density single-family (listing text). Dimensional table NOT retrieved - setbacks below remain Assumed."
-  },
-  "minLotSqFt": {
-   "value": 7000,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found in ordinance; regional typical value.",
-   "unit": "sqft"
-  },
-  "minLotWidthFt": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: min lot width. Web search budget exhausted and page fetch unavailable during this run."
-  },
-  "minLotDepthFt": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: min lot depth. Web search budget exhausted and page fetch unavailable during this run."
-  },
-  "setbacksFt": {
-   "front": {
-    "value": 25,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed",
-     "url": "",
-     "read": "2026-10-11"
+  "codes": {
+    "irc": {
+      "edition": {
+        "value": "2024 IRC (with appendices BB, BD, BO, NE)",
+        "status": "Secondary",
+        "source": {
+          "id": "waco-adopted-codes",
+          "title": "City of Waco - Inspection Services, Adopted Codes (as of 1 Jan 2026)",
+          "url": "https://www.waco-texas.com/Departments/Development-Services/Inspection-Services/Adopted-Codes",
+          "read": "2026-10-11"
+        },
+        "note": "City Adopted Codes page lists the 2024 IRC as of 1 Jan 2026 (previously 2018 IRC under Ord. 2021-086). Waco skipped the 2021 edition. Read only as a web-search extract of the primary page (page fetch failed: DNS); Secondary."
+      },
+      "ordinance": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: number/date of the 2025 ordinance adopting the 2024 codes. Prior cycle: Ord. 2021-086 adopted 2018 I-codes and 2020 NEC (Secondary, city amendments PDF)."
+      },
+      "amendments": [
+        {
+          "topic": "other",
+          "summary": "Waco's local amendments to the 2024 IRC were not retrieved; only the list of adopted codes and appendices (BB, BD, BO, NE) was seen.",
+          "section": "",
+          "status": "Assumed",
+          "source": {
+            "id": "waco-adopted-codes",
+            "title": "City of Waco - Inspection Services, Adopted Codes (as of 1 Jan 2026)",
+            "url": "https://www.waco-texas.com/Departments/Development-Services/Inspection-Services/Adopted-Codes",
+            "read": "2026-10-11"
+          },
+          "note": "Show 'confirm local amendments' warning."
+        },
+        {
+          "topic": "fire sprinklers",
+          "summary": "No one/two-family sprinkler mandate expected (Texas SB 1410 / LGC 214.212 bar new city mandates).",
+          "section": "IRC R313",
+          "status": "Assumed",
+          "source": {
+            "id": "tx-lgc-214-212",
+            "title": "Texas Local Gov't Code 214.212 (IRC as municipal residential code; local amendments)",
+            "url": "https://texas.public.law/statutes/tex._local_gov%27t_code_section_214.212",
+            "read": "2026-10-11"
+          }
+        }
+      ]
     },
-    "note": "Not found in ordinance; regional typical value - verify before use.",
-    "unit": "ft"
-   },
-   "side": {
-    "value": 5,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed",
-     "url": "",
-     "read": "2026-10-11"
+    "energy": {
+      "edition": {
+        "value": "2018 IECC",
+        "status": "Secondary",
+        "source": {
+          "id": "waco-adopted-codes",
+          "title": "City of Waco - Inspection Services, Adopted Codes (as of 1 Jan 2026)",
+          "url": "https://www.waco-texas.com/Departments/Development-Services/Inspection-Services/Adopted-Codes",
+          "read": "2026-10-11"
+        },
+        "note": "Adopted Codes page lists IECC 2018 (not 2024) as of 1 Jan 2026; exceeds the 2015 IRC Ch. 11 state floor. Read only as a web-search extract of the primary page (page fetch failed: DNS); Secondary."
+      },
+      "stretchCode": {
+        "value": false,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "No local stretch code found; none expected for this city."
+      }
     },
-    "note": "Not found in ordinance; regional typical value - verify before use.",
-    "unit": "ft"
-   },
-   "streetSide": {
-    "value": 15,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed",
-     "url": "",
-     "read": "2026-10-11"
+    "plumbing": {
+      "value": "IPC 2024 (with appendix E)",
+      "status": "Secondary",
+      "source": {
+        "id": "waco-adopted-codes",
+        "title": "City of Waco - Inspection Services, Adopted Codes (as of 1 Jan 2026)",
+        "url": "https://www.waco-texas.com/Departments/Development-Services/Inspection-Services/Adopted-Codes",
+        "read": "2026-10-11"
+      },
+      "note": "Read only as a web-search extract of the primary page (page fetch failed: DNS); Secondary."
     },
-    "note": "Not found in ordinance; regional typical value - verify before use.",
-    "unit": "ft"
-   },
-   "rear": {
-    "value": 25,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed",
-     "url": "",
-     "read": "2026-10-11"
+    "electrical": {
+      "value": "NEC as adopted by TDLR (currently NEC 2023)",
+      "status": "Secondary",
+      "source": {
+        "id": "waco-adopted-codes",
+        "title": "City of Waco - Inspection Services, Adopted Codes (as of 1 Jan 2026)",
+        "url": "https://www.waco-texas.com/Departments/Development-Services/Inspection-Services/Adopted-Codes",
+        "read": "2026-10-11"
+      },
+      "note": "City page cites NEC 'as adopted by TDLR' rather than an edition; TDLR edition 2023 NEC (eff. 1 Sep 2023) recalled."
     },
-    "note": "Not found in ordinance; regional typical value - verify before use.",
-    "unit": "ft"
-   }
-  },
-  "maxHeightFt": {
-   "value": 35,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found; typical SF limit.",
-   "unit": "ft"
-  },
-  "maxStories": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found."
-  },
-  "maxLotCoverage": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found."
-  },
-  "imperviousCover": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found."
-  },
-  "far": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found; Texas SF districts rarely use FAR."
-  },
-  "parking": {
-   "value": "2 off-street spaces per dwelling (typical)",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found."
-  },
-  "garageRules": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found."
-  },
-  "adu": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found."
-  },
-  "masonry": {
-   "value": "No enforceable masonry % for new homes: Gov't Code 3000.002 bars local rules stricter than a national model code on building products/aesthetics (limited exceptions, e.g. historic districts; amended 2025 by SB 783, text not verified)",
-   "status": "Secondary",
-   "source": {
-    "id": "tx-gov-3000",
-    "title": "Texas Government Code Ch. 3000 (building products, materials, methods; HB 2439, 2019)",
-    "url": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.3000.htm",
-    "read": "2026-10-11",
-    "section": "3000.002"
-   },
-   "note": "Statute snippet read via search results; PD/deed restrictions (private HOA covenants) may still require brick."
-  },
-  "trees": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found."
-  },
-  "minDwellingSizeSqFt": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found."
-  },
-  "other": [
-   {
-    "value": "Other residential districts include R-1A (larger lot), R-1C and R-2 two-family",
-    "status": "Secondary",
-    "source": {
-     "id": "waco-zoneomics",
-     "title": "Zoneomics - Waco, Texas zoning map summary (largest zones)",
-     "url": "https://zoneomics.com/zoning-maps/texas/waco",
-     "read": "2026-10-11"
+    "mechanical": {
+      "value": "IMC 2024 (likely; not confirmed)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Adopted Codes extract confirmed IRC/IPC/IECC only; same-cycle IMC assumed."
     },
-    "note": "District list partly recalled; only R-1B and R-2 were seen in the extract."
-   }
-  ]
- },
- "process": {
-  "steps": [
-   {
-    "value": "Plan submittal ($50) to Inspection Services; plan review; permit; inspections; floodplain permit first if in SFHA; impact fees assessed by meter size",
-    "status": "Secondary",
-    "source": {
-     "id": "waco-fee-schedules",
-     "title": "City of Waco - Inspection Services Permit Fee Schedules",
-     "url": "https://waco-texas.com/Departments/Inspection-Services/Fee-Schedules",
-     "read": "2026-10-11"
+    "fuelGas": {
+      "value": "IFGC 2024 (likely; not confirmed)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Same-cycle assumption."
     },
-    "note": "Assembled from fee schedule, impact fee and floodplain pages; sequence Assumed."
-   }
-  ],
-  "sealsRequired": [
-   {
-    "value": "Engineered foundation customary on expansive clay",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed",
-     "url": "",
-     "read": "2026-10-11"
+    "fire": {
+      "value": "No one/two-family sprinkler mandate expected",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "State law bars new mandates; Waco IFC edition not confirmed."
     },
-    "note": "Regional practice, not a confirmed city amendment."
-   }
-  ],
-  "inspections": [
-   {
-    "value": "Foundation, framing/rough MEP, insulation, final",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed",
-     "url": "",
-     "read": "2026-10-11"
+    "wind": {
+      "value": 110,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Central Texas; ASCE 7-16 Risk II ~105-110 mph; not verified.",
+      "unit": "mph"
     },
-    "note": "Generic IRC sequence."
-   }
-  ],
-  "reviewDays": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found."
-  }
- },
- "fees": {
-  "permitFormula": {
-   "value": "$0.25 per sq ft of living + non-living area (incl. garage) and accessory structures; $50 non-refundable residential plan submittal fee; $15 technology fee; min permit $50; fees double if work starts without permit",
-   "status": "Secondary",
-   "source": {
-    "id": "waco-fee-schedules",
-    "title": "City of Waco - Inspection Services Permit Fee Schedules",
-    "url": "https://waco-texas.com/Departments/Inspection-Services/Fee-Schedules",
-    "read": "2026-10-11"
-   },
-   "note": "From search extract of the city's Permit Fee Schedules page; effective date not shown."
-  },
-  "workedExample2400sqft": {
-   "value": 775,
-   "status": "Secondary",
-   "source": {
-    "id": "waco-fee-schedules",
-    "title": "City of Waco - Inspection Services Permit Fee Schedules",
-    "url": "https://waco-texas.com/Departments/Inspection-Services/Fee-Schedules",
-    "read": "2026-10-11"
-   },
-   "unit": "USD",
-   "note": "(2,400 living + 440 garage) = 2,840 sf x $0.25 = $710; + $50 plan submittal + $15 technology = $775 (excl. trade permits and impact fees)."
-  },
-  "planReview": {
-   "value": "$50 non-refundable residential plan submittal fee",
-   "status": "Secondary",
-   "source": {
-    "id": "waco-fee-schedules",
-    "title": "City of Waco - Inspection Services Permit Fee Schedules",
-    "url": "https://waco-texas.com/Departments/Inspection-Services/Fee-Schedules",
-    "read": "2026-10-11"
-   }
-  },
-  "impactFees": [
-   {
-    "value": "Water, wastewater and roadway impact fees apply (Ord. 2020-793, effective 1 Jun 2021). Water and wastewater fees scale with meter size (water: domestic + irrigation meters; wastewater: domestic only); phase-in for pre-15 Nov 2020 preliminary plats reached 100% by June 2025. Dollar amounts per 5/8-3/4 in meter and roadway fee per dwelling not retrieved.",
-    "status": "Secondary",
-    "source": {
-     "id": "waco-impact-fees",
-     "title": "City of Waco - Adopted Impact Fees (Ord. 2020-793)",
-     "url": "https://www.waco-texas.com/Departments/Development-Services/Planning-Services/Impact-Fees",
-     "read": "2026-10-11"
+    "hailRoofing": {
+      "value": "Hail exposure moderate-high; no local Class 4 mandate found",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not researched this run."
     },
-    "note": "Amounts are in a linked PDF that search did not expose."
-   }
-  ],
-  "tapFees": [
-   {
-    "value": null,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed",
-     "url": "",
-     "read": "2026-10-11"
+    "seismic": {
+      "value": "A",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Texas outside far-west Texas maps to SDC A in 2021 IRC Fig. R301.2(2); not checked against a city-specific table."
     },
-    "note": "Not found: Waco Water Utility tap/meter charges not searched (budget)."
-   }
-  ]
- },
- "cost": {
-  "factor": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "cost-method",
-    "title": "See README cost method (filled by cost agent)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "PENDING_COST_AGENT"
+    "frostDepth": {
+      "value": 6,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Typical local IRC Table R301.2(1) value for the region; not read.",
+      "unit": "in"
+    }
   },
-  "method": "PENDING_COST_AGENT",
-  "perSqFtMarket": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: no public per-sq-ft market figure retrieved this run."
-  },
-  "drivers": [
-   {
-    "value": "Expansive clay soils -> engineered slab",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed",
-     "url": "",
-     "read": "2026-10-11"
+  "zoning": {
+    "hasZoning": {
+      "value": true,
+      "status": "Secondary",
+      "source": {
+        "id": "waco-plan-commission",
+        "title": "City of Waco Plan Commission meeting agenda (references Ch. 28 zoning and R-1B)",
+        "url": "https://www.waco-texas.com/Departments/Development-Services/Planning-Services/Plan-Commission/Meetings/2.28",
+        "read": "2026-10-11"
+      },
+      "note": "Zoning is Chapter 28 of the Waco Code of Ordinances (referenced in Plan Commission agendas)."
     },
-    "note": "Regional soils."
-   }
-  ]
- },
- "flood": {
-  "value": "Floodplain development permit required before work in zones A, A1-30, AE, AO, AH (and B); as-built lowest floor elevation recorded and Certificate of Compliance needed before occupancy. Freeboard above BFE not confirmed - assume 1 ft.",
-  "status": "Secondary",
-  "source": {
-   "id": "waco-floodplain-permit",
-   "title": "City of Waco - Floodplain Development Permit application (Public Works, Watershed Protection)",
-   "url": "https://www.waco-texas.com/files/sharedassets/public/departments/public-works/watershed-protection/floodplain-permit.pdf",
-   "read": "2026-10-11"
+    "typicalDistrict": {
+      "value": "R-1B Single-Family Residence District",
+      "status": "Secondary",
+      "source": {
+        "id": "waco-zoneomics",
+        "title": "Zoneomics - Waco, Texas zoning map summary (largest zones)",
+        "url": "https://zoneomics.com/zoning-maps/texas/waco",
+        "read": "2026-10-11"
+      },
+      "note": "Zoneomics lists R-1B among Waco's largest zones; district intent is moderate-density single-family (listing text). Dimensional table NOT retrieved - setbacks below remain Assumed."
+    },
+    "minLotSqFt": {
+      "value": 7000,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found in ordinance; regional typical value.",
+      "unit": "sqft"
+    },
+    "minLotWidthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: min lot width. Web search budget exhausted and page fetch unavailable during this run."
+    },
+    "minLotDepthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: min lot depth. Web search budget exhausted and page fetch unavailable during this run."
+    },
+    "setbacksFt": {
+      "front": {
+        "value": 25,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found in ordinance; regional typical value - verify before use.",
+        "unit": "ft"
+      },
+      "side": {
+        "value": 5,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found in ordinance; regional typical value - verify before use.",
+        "unit": "ft"
+      },
+      "streetSide": {
+        "value": 15,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found in ordinance; regional typical value - verify before use.",
+        "unit": "ft"
+      },
+      "rear": {
+        "value": 25,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found in ordinance; regional typical value - verify before use.",
+        "unit": "ft"
+      }
+    },
+    "maxHeightFt": {
+      "value": 35,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found; typical SF limit.",
+      "unit": "ft"
+    },
+    "maxStories": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found."
+    },
+    "maxLotCoverage": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found."
+    },
+    "imperviousCover": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found."
+    },
+    "far": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found; Texas SF districts rarely use FAR."
+    },
+    "parking": {
+      "value": "2 off-street spaces per dwelling (typical)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found."
+    },
+    "garageRules": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found."
+    },
+    "adu": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found."
+    },
+    "masonry": {
+      "value": "No enforceable masonry % for new homes: Gov't Code 3000.002 bars local rules stricter than a national model code on building products/aesthetics (limited exceptions, e.g. historic districts; amended 2025 by SB 783, text not verified)",
+      "status": "Secondary",
+      "source": {
+        "id": "tx-gov-3000",
+        "title": "Texas Government Code Ch. 3000 (building products, materials, methods; HB 2439, 2019)",
+        "url": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.3000.htm",
+        "read": "2026-10-11",
+        "section": "3000.002"
+      },
+      "note": "Statute snippet read via search results; PD/deed restrictions (private HOA covenants) may still require brick."
+    },
+    "trees": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found."
+    },
+    "minDwellingSizeSqFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found."
+    },
+    "other": [
+      {
+        "value": "Other residential districts include R-1A (larger lot), R-1C and R-2 two-family",
+        "status": "Secondary",
+        "source": {
+          "id": "waco-zoneomics",
+          "title": "Zoneomics - Waco, Texas zoning map summary (largest zones)",
+          "url": "https://zoneomics.com/zoning-maps/texas/waco",
+          "read": "2026-10-11"
+        },
+        "note": "District list partly recalled; only R-1B and R-2 were seen in the extract."
+      }
+    ]
   },
-  "note": "Permit application extract; freeboard figure not in extract (Assumed 1 ft)."
- },
- "engineChanges": [
-  {
-   "id": "waco-code-edition",
-   "ruleType": "code-edition-by-city",
-   "area": "plan",
-   "change": "Check plans against the 2024 IRC (not 2021) with appendices BB, BD, BO, NE; energy per 2018 IECC; plumbing IPC 2024; NEC per TDLR (2023)",
-   "priority": "must",
-   "params": {
-    "irc": "2024 IRC",
-    "appendices": [
-     "BB",
-     "BD",
-     "BO",
-     "NE"
+  "process": {
+    "steps": [
+      {
+        "value": "Plan submittal ($50) to Inspection Services; plan review; permit; inspections; floodplain permit first if in SFHA; impact fees assessed by meter size",
+        "status": "Secondary",
+        "source": {
+          "id": "waco-fee-schedules",
+          "title": "City of Waco - Inspection Services Permit Fee Schedules",
+          "url": "https://waco-texas.com/Departments/Inspection-Services/Fee-Schedules",
+          "read": "2026-10-11"
+        },
+        "note": "Assembled from fee schedule, impact fee and floodplain pages; sequence Assumed."
+      }
     ],
+    "sealsRequired": [
+      {
+        "value": "Engineered foundation customary on expansive clay",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Regional practice, not a confirmed city amendment."
+      }
+    ],
+    "inspections": [
+      {
+        "value": "Foundation, framing/rough MEP, insulation, final",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Generic IRC sequence."
+      }
+    ],
+    "reviewDays": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found."
+    }
+  },
+  "fees": {
+    "permitFormula": {
+      "value": "$0.25 per sq ft of living + non-living area (incl. garage) and accessory structures; $50 non-refundable residential plan submittal fee; $15 technology fee; min permit $50; fees double if work starts without permit",
+      "status": "Secondary",
+      "source": {
+        "id": "waco-fee-schedules",
+        "title": "City of Waco - Inspection Services Permit Fee Schedules",
+        "url": "https://waco-texas.com/Departments/Inspection-Services/Fee-Schedules",
+        "read": "2026-10-11"
+      },
+      "note": "From search extract of the city's Permit Fee Schedules page; effective date not shown."
+    },
+    "workedExample2400sqft": {
+      "value": 775,
+      "status": "Secondary",
+      "source": {
+        "id": "waco-fee-schedules",
+        "title": "City of Waco - Inspection Services Permit Fee Schedules",
+        "url": "https://waco-texas.com/Departments/Inspection-Services/Fee-Schedules",
+        "read": "2026-10-11"
+      },
+      "unit": "USD",
+      "note": "(2,400 living + 440 garage) = 2,840 sf x $0.25 = $710; + $50 plan submittal + $15 technology = $775 (excl. trade permits and impact fees)."
+    },
+    "planReview": {
+      "value": "$50 non-refundable residential plan submittal fee",
+      "status": "Secondary",
+      "source": {
+        "id": "waco-fee-schedules",
+        "title": "City of Waco - Inspection Services Permit Fee Schedules",
+        "url": "https://waco-texas.com/Departments/Inspection-Services/Fee-Schedules",
+        "read": "2026-10-11"
+      }
+    },
+    "impactFees": [
+      {
+        "value": "Water, wastewater and roadway impact fees apply (Ord. 2020-793, effective 1 Jun 2021). Water and wastewater fees scale with meter size (water: domestic + irrigation meters; wastewater: domestic only); phase-in for pre-15 Nov 2020 preliminary plats reached 100% by June 2025. Dollar amounts per 5/8-3/4 in meter and roadway fee per dwelling not retrieved.",
+        "status": "Secondary",
+        "source": {
+          "id": "waco-impact-fees",
+          "title": "City of Waco - Adopted Impact Fees (Ord. 2020-793)",
+          "url": "https://www.waco-texas.com/Departments/Development-Services/Planning-Services/Impact-Fees",
+          "read": "2026-10-11"
+        },
+        "note": "Amounts are in a linked PDF that search did not expose."
+      }
+    ],
+    "tapFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: Waco Water Utility tap/meter charges not searched (budget)."
+      }
+    ]
+  },
+  "cost": {
+    "factor": {
+      "value": 0.92,
+      "unit": "x US national",
+      "status": "Secondary",
+      "source": {
+        "id": "cost-factors",
+        "title": "Keystone metro cost factor (BLS OEWS wages, see README cost method)",
+        "url": "https://www.onetonline.org/link/localwages/47-2031.00?st=TX",
+        "read": "2026-10-11"
+      },
+      "note": "MSA 47380 Waco, TX: labour index L=0.805, materials M=1.0. 4/5 trades (OEWS May 2024 via O*NET Texas local-wages search extracts). Missing 49-9021: weights renormalised. Ratios to US: 47-2031 0.755; 47-2111 0.770; 47-2152 0.914; 47-2061 0.805. L = 0.805; factor = 0.40*0.805 + 0.60*1.00 = 0.92. M=1.00 (default, no public citable reason to adjust)."
+    },
+    "method": "Factor = 0.40*L + 0.60*M, rounded to 2 decimals. L = weighted mean of (metro annual median wage / US national annual median wage) for SOC 47-2031 Carpenters (0.30), 47-2111 Electricians (0.20), 47-2152 Plumbers/Pipefitters/Steamfitters (0.20), 47-2061 Construction Laborers (0.20), 49-9021 HVAC Mechanics/Installers (0.10), from BLS OEWS; weights renormalised over occupations available for the MSA. M = materials index, 1.00 for all Texas metros (no public citable reason to adjust); qualitative materials notes per MSA. Wave 2 (2026-10-11): all five trades retrieved from O*NET Texas local-wages pages (OEWS May 2024) via search extracts (Secondary); HVAC missing for 28660, 47380, 46340, 17780 (weights renormalised there). provisional removed for every MSA with >=4 trades.",
+    "perSqFtMarket": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: no public per-sq-ft market figure retrieved this run."
+    },
+    "drivers": [
+      {
+        "value": "Expansive clay soils -> engineered slab",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Regional soils."
+      }
+    ]
+  },
+  "flood": {
+    "value": "Floodplain development permit required before work in zones A, A1-30, AE, AO, AH (and B); as-built lowest floor elevation recorded and Certificate of Compliance needed before occupancy. Freeboard above BFE not confirmed - assume 1 ft.",
+    "status": "Secondary",
+    "source": {
+      "id": "waco-floodplain-permit",
+      "title": "City of Waco - Floodplain Development Permit application (Public Works, Watershed Protection)",
+      "url": "https://www.waco-texas.com/files/sharedassets/public/departments/public-works/watershed-protection/floodplain-permit.pdf",
+      "read": "2026-10-11"
+    },
+    "note": "Permit application extract; freeboard figure not in extract (Assumed 1 ft)."
+  },
+  "engineChanges": [
+    {
+      "id": "waco-code-edition",
+      "ruleType": "code-edition-by-city",
+      "area": "plan",
+      "change": "Check plans against the 2024 IRC (not 2021) with appendices BB, BD, BO, NE; energy per 2018 IECC; plumbing IPC 2024; NEC per TDLR (2023)",
+      "priority": "must",
+      "params": {
+        "irc": "2024 IRC",
+        "appendices": [
+          "BB",
+          "BD",
+          "BO",
+          "NE"
+        ],
+        "energy": "2018 IECC",
+        "plumbing": "IPC 2024",
+        "electrical": "NEC 2023",
+        "localAmendmentsKnown": false
+      },
+      "source": {
+        "id": "waco-adopted-codes",
+        "title": "City of Waco - Inspection Services, Adopted Codes (as of 1 Jan 2026)",
+        "url": "https://www.waco-texas.com/Departments/Development-Services/Inspection-Services/Adopted-Codes",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "waco-setbacks",
+      "ruleType": "setback-by-district",
+      "area": "setbacks",
+      "change": "Default R-1B: front 25, side 5, street side 15, rear 25 ft - ASSUMED (district confirmed, dimensions not); require user to confirm from plat/zoning letter",
+      "priority": "should",
+      "params": {
+        "district": "R-1B",
+        "frontFt": 25,
+        "sideFt": 5,
+        "streetSideFt": 15,
+        "rearFt": 25,
+        "assumed": true,
+        "requireUserConfirm": true
+      },
+      "source": {
+        "id": "waco-zoneomics",
+        "title": "Zoneomics - Waco, Texas zoning map summary (largest zones)",
+        "url": "https://zoneomics.com/zoning-maps/texas/waco",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "waco-plat-lines",
+      "ruleType": "building-line-plat",
+      "area": "survey",
+      "change": "Read platted building lines from the recorded plat; they override district defaults when larger",
+      "priority": "must",
+      "params": {
+        "usePlatBuildingLine": true
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "waco-energy-cz",
+      "ruleType": "climate-zone-envelope",
+      "area": "envelope",
+      "change": "Use 2018 IECC climate zone 2A residential envelope tables",
+      "priority": "must",
+      "params": {
+        "climateZone": "2A",
+        "energyCode": "2018 IECC"
+      },
+      "source": {
+        "id": "waco-adopted-codes",
+        "title": "City of Waco - Inspection Services, Adopted Codes (as of 1 Jan 2026)",
+        "url": "https://www.waco-texas.com/Departments/Development-Services/Inspection-Services/Adopted-Codes",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "waco-impact-fees",
+      "ruleType": "impact-fee-estimate",
+      "area": "estimate",
+      "change": "Add water + wastewater (by meter size) + roadway impact fees to estimate; amounts TBD - show placeholder and 'confirm with city'",
+      "priority": "should",
+      "params": {
+        "water": true,
+        "wastewater": true,
+        "roadway": true,
+        "basis": "meter size",
+        "amountUSD": null
+      },
+      "source": {
+        "id": "waco-impact-fees",
+        "title": "City of Waco - Adopted Impact Fees (Ord. 2020-793)",
+        "url": "https://www.waco-texas.com/Departments/Development-Services/Planning-Services/Impact-Fees",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "waco-permit-fee",
+      "ruleType": "permit-fee-formula",
+      "area": "estimate",
+      "change": "Building permit = $0.25/sf of all area under roof incl. garage + $50 plan submittal + $15 technology",
+      "priority": "should",
+      "params": {
+        "ratePerSqFt": 0.25,
+        "planSubmittal": 50,
+        "techFee": 15,
+        "minFee": 50,
+        "includeGarage": true
+      },
+      "source": {
+        "id": "waco-fee-schedules",
+        "title": "City of Waco - Inspection Services Permit Fee Schedules",
+        "url": "https://waco-texas.com/Departments/Inspection-Services/Fee-Schedules",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "waco-flood",
+      "ruleType": "flood-elevation",
+      "area": "foundation",
+      "change": "If in SFHA: floodplain development permit + as-built elevation; set lowest floor >= BFE + 1 ft (freeboard assumed)",
+      "priority": "must",
+      "params": {
+        "freeboardFt": 1,
+        "freeboardAssumed": true,
+        "floodplainPermit": true
+      },
+      "source": {
+        "id": "waco-floodplain-permit",
+        "title": "City of Waco - Floodplain Development Permit application (Public Works, Watershed Protection)",
+        "url": "https://www.waco-texas.com/files/sharedassets/public/departments/public-works/watershed-protection/floodplain-permit.pdf",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "waco-eng-fdn",
+      "ruleType": "engineered-foundation-flag",
+      "area": "foundation",
+      "change": "Flag engineer-designed slab for expansive Blackland clay (practice; city amendment not confirmed)",
+      "priority": "should",
+      "params": {
+        "engineeredFoundation": true,
+        "assumed": true
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "waco-masonry-none",
+      "ruleType": "masonry-percentage",
+      "area": "envelope",
+      "change": "Do not apply any city-mandated masonry %; only flag HOA/deed restriction check",
+      "priority": "should",
+      "params": {
+        "masonryPctMin": 0,
+        "checkDeedRestrictions": true
+      },
+      "source": {
+        "id": "tx-gov-3000",
+        "title": "Texas Government Code Ch. 3000 (building products, materials, methods; HB 2439, 2019)",
+        "url": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.3000.htm",
+        "read": "2026-10-11",
+        "section": "3000.002"
+      }
+    }
+  ],
+  "plainLanguage": "Since January 2026 Waco uses the newer 2024 International Residential Code (it skipped 2021), with the 2018 energy code and 2024 plumbing code. Waco is in Climate Zone 2A (hot-humid). The common single-family zone is R-1B; we could not confirm its setbacks, so the engine uses typical values and asks you to confirm them from your plat. The building permit is $0.25 per square foot of everything under roof plus $65 in fixed fees - about $775 for a 2,400 sq ft home with a 440 sq ft garage. Waco also charges water, wastewater and roadway impact fees on new homes; the amounts depend on meter size and are not yet in our data. Near the Brazos and Bosque rivers you need a floodplain permit and an elevation survey. Plan for an engineer-designed slab on Blackland clay; the city cannot require brick.",
+  "openQuestions": [
+    "Number/date of the 2025 ordinance adopting 2024 codes and Waco's local IRC amendments.",
+    "R-1B dimensional table (lot, setbacks, height, coverage) in Ch. 28.",
+    "Impact fee amounts for a 5/8 or 3/4 in meter and roadway fee per dwelling.",
+    "Floodplain freeboard requirement.",
+    "Water/sewer tap charges."
+  ],
+  "notFound": [
+    "R-1B dimensional standards (Ch. 28 not reachable)",
+    "Impact fee dollar amounts",
+    "2024 IRC local amendments",
+    "Floodplain freeboard",
+    "Tap fees"
+  ],
+  "comparison": {
+    "irc": "2024 IRC",
     "energy": "2018 IECC",
     "plumbing": "IPC 2024",
-    "electrical": "NEC 2023",
-    "localAmendmentsKnown": false
-   },
-   "source": {
-    "id": "waco-adopted-codes",
-    "title": "City of Waco - Inspection Services, Adopted Codes (as of 1 Jan 2026)",
-    "url": "https://www.waco-texas.com/Departments/Development-Services/Inspection-Services/Adopted-Codes",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "waco-setbacks",
-   "ruleType": "setback-by-district",
-   "area": "setbacks",
-   "change": "Default R-1B: front 25, side 5, street side 15, rear 25 ft - ASSUMED (district confirmed, dimensions not); require user to confirm from plat/zoning letter",
-   "priority": "should",
-   "params": {
     "district": "R-1B",
-    "frontFt": 25,
-    "sideFt": 5,
-    "streetSideFt": 15,
-    "rearFt": 25,
-    "assumed": true,
-    "requireUserConfirm": true
-   },
-   "source": {
-    "id": "waco-zoneomics",
-    "title": "Zoneomics - Waco, Texas zoning map summary (largest zones)",
-    "url": "https://zoneomics.com/zoning-maps/texas/waco",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "waco-plat-lines",
-   "ruleType": "building-line-plat",
-   "area": "survey",
-   "change": "Read platted building lines from the recorded plat; they override district defaults when larger",
-   "priority": "must",
-   "params": {
-    "usePlatBuildingLine": true
-   },
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "waco-energy-cz",
-   "ruleType": "climate-zone-envelope",
-   "area": "envelope",
-   "change": "Use 2018 IECC climate zone 2A residential envelope tables",
-   "priority": "must",
-   "params": {
-    "climateZone": "2A",
-    "energyCode": "2018 IECC"
-   },
-   "source": {
-    "id": "waco-adopted-codes",
-    "title": "City of Waco - Inspection Services, Adopted Codes (as of 1 Jan 2026)",
-    "url": "https://www.waco-texas.com/Departments/Development-Services/Inspection-Services/Adopted-Codes",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "waco-impact-fees",
-   "ruleType": "impact-fee-estimate",
-   "area": "estimate",
-   "change": "Add water + wastewater (by meter size) + roadway impact fees to estimate; amounts TBD - show placeholder and 'confirm with city'",
-   "priority": "should",
-   "params": {
-    "water": true,
-    "wastewater": true,
-    "roadway": true,
-    "basis": "meter size",
-    "amountUSD": null
-   },
-   "source": {
-    "id": "waco-impact-fees",
-    "title": "City of Waco - Adopted Impact Fees (Ord. 2020-793)",
-    "url": "https://www.waco-texas.com/Departments/Development-Services/Planning-Services/Impact-Fees",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "waco-permit-fee",
-   "ruleType": "permit-fee-formula",
-   "area": "estimate",
-   "change": "Building permit = $0.25/sf of all area under roof incl. garage + $50 plan submittal + $15 technology",
-   "priority": "should",
-   "params": {
-    "ratePerSqFt": 0.25,
-    "planSubmittal": 50,
-    "techFee": 15,
-    "minFee": 50,
-    "includeGarage": true
-   },
-   "source": {
-    "id": "waco-fee-schedules",
-    "title": "City of Waco - Inspection Services Permit Fee Schedules",
-    "url": "https://waco-texas.com/Departments/Inspection-Services/Fee-Schedules",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "waco-flood",
-   "ruleType": "flood-elevation",
-   "area": "foundation",
-   "change": "If in SFHA: floodplain development permit + as-built elevation; set lowest floor >= BFE + 1 ft (freeboard assumed)",
-   "priority": "must",
-   "params": {
-    "freeboardFt": 1,
-    "freeboardAssumed": true,
-    "floodplainPermit": true
-   },
-   "source": {
-    "id": "waco-floodplain-permit",
-    "title": "City of Waco - Floodplain Development Permit application (Public Works, Watershed Protection)",
-    "url": "https://www.waco-texas.com/files/sharedassets/public/departments/public-works/watershed-protection/floodplain-permit.pdf",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "waco-eng-fdn",
-   "ruleType": "engineered-foundation-flag",
-   "area": "foundation",
-   "change": "Flag engineer-designed slab for expansive Blackland clay (practice; city amendment not confirmed)",
-   "priority": "should",
-   "params": {
-    "engineeredFoundation": true,
-    "assumed": true
-   },
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "waco-masonry-none",
-   "ruleType": "masonry-percentage",
-   "area": "envelope",
-   "change": "Do not apply any city-mandated masonry %; only flag HOA/deed restriction check",
-   "priority": "should",
-   "params": {
-    "masonryPctMin": 0,
-    "checkDeedRestrictions": true
-   },
-   "source": {
-    "id": "tx-gov-3000",
-    "title": "Texas Government Code Ch. 3000 (building products, materials, methods; HB 2439, 2019)",
-    "url": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.3000.htm",
-    "read": "2026-10-11",
-    "section": "3000.002"
-   }
+    "setbacks": "25/5/25 (assumed)",
+    "maxHeight": "35 ft (assumed)",
+    "coverageFar": "unknown",
+    "masonry": "none (state preemption)",
+    "engFoundation": "practice (assumed)",
+    "windstorm": "no",
+    "flood": "floodplain permit; freeboard unconfirmed",
+    "permitFeeExample": "$775",
+    "impactFees": "water+ww+roadway (amounts TBD)",
+    "costFactor": "0.92"
   }
- ],
- "plainLanguage": "Since January 2026 Waco uses the newer 2024 International Residential Code (it skipped 2021), with the 2018 energy code and 2024 plumbing code. Waco is in Climate Zone 2A (hot-humid). The common single-family zone is R-1B; we could not confirm its setbacks, so the engine uses typical values and asks you to confirm them from your plat. The building permit is $0.25 per square foot of everything under roof plus $65 in fixed fees - about $775 for a 2,400 sq ft home with a 440 sq ft garage. Waco also charges water, wastewater and roadway impact fees on new homes; the amounts depend on meter size and are not yet in our data. Near the Brazos and Bosque rivers you need a floodplain permit and an elevation survey. Plan for an engineer-designed slab on Blackland clay; the city cannot require brick.",
- "openQuestions": [
-  "Number/date of the 2025 ordinance adopting 2024 codes and Waco's local IRC amendments.",
-  "R-1B dimensional table (lot, setbacks, height, coverage) in Ch. 28.",
-  "Impact fee amounts for a 5/8 or 3/4 in meter and roadway fee per dwelling.",
-  "Floodplain freeboard requirement.",
-  "Water/sewer tap charges."
- ],
- "notFound": [
-  "R-1B dimensional standards (Ch. 28 not reachable)",
-  "Impact fee dollar amounts",
-  "2024 IRC local amendments",
-  "Floodplain freeboard",
-  "Tap fees"
- ],
- "comparison": {
-  "irc": "2024 IRC",
-  "energy": "2018 IECC",
-  "plumbing": "IPC 2024",
-  "district": "R-1B",
-  "setbacks": "25/5/25 (assumed)",
-  "maxHeight": "35 ft (assumed)",
-  "coverageFar": "unknown",
-  "masonry": "none (state preemption)",
-  "engFoundation": "practice (assumed)",
-  "windstorm": "no",
-  "flood": "floodplain permit; freeboard unconfirmed",
-  "permitFeeExample": "$775",
-  "impactFees": "water+ww+roadway (amounts TBD)",
-  "costFactor": "PENDING"
- }
 }

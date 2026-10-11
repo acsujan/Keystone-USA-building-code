@@ -1,789 +1,790 @@
 {
- "id": "mcallen",
- "name": "City of McAllen",
- "state": "TX",
- "tier": 2,
- "counties": [
-  "Hidalgo"
- ],
- "msa": {
-  "name": "McAllen-Edinburg-Mission, TX",
-  "blsCode": "32580"
- },
- "population": {
-  "value": 148782,
-  "status": "Secondary",
-  "source": {
-   "id": "mcallen-census-qf",
-   "title": "Census QuickFacts - McAllen city, Texas (V2024 estimate)",
-   "url": "https://census.gov/quickfacts/fact/table/mcallencitytexas,krumcitytexas/POP060210",
-   "read": "2026-10-11"
+  "id": "mcallen",
+  "name": "City of McAllen",
+  "state": "TX",
+  "tier": 2,
+  "counties": [
+    "Hidalgo"
+  ],
+  "msa": {
+    "name": "McAllen-Edinburg-Mission, TX",
+    "blsCode": "32580"
   },
-  "note": "Census Vintage 2024 estimate (1 Jul 2024); V2023 146,593; 2020 base 142,188."
- },
- "zipCodesOrBoundary": {
-  "value": null,
-  "status": "Assumed",
-  "source": {
-   "id": "assumed-tools-unavailable",
-   "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-   "url": "",
-   "read": "2026-10-11"
-  },
-  "note": "City-limits map / ZIP list not retrieved. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run"
- },
- "climateZone": {
-  "value": "2A",
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed",
-   "url": "",
-   "read": "2026-10-11"
-  },
-  "note": "2021 IECC Table R301.1 not read for Hidalgo County. 2015/2018 IECC put Hidalgo in 2A; the 2021 map update (ASHRAE 169-2013 data) may have moved Rio Grande Valley counties to 1A - 2 searches did not confirm either way. McAllen appears to enforce a 2018-family code, under which 2A applies."
- },
- "windstormCounty": {
-  "value": false,
-  "status": "Assumed",
-  "source": {
-   "id": "assumed-tools-unavailable",
-   "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-   "url": "",
-   "read": "2026-10-11"
-  },
-  "note": "Not a TDI first-tier coastal catalogue county. From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
- },
- "codes": {
-  "irc": {
-   "edition": {
-    "value": "2018 IRC (inferred from city's 2018 I-code family; IRC not named)",
+  "population": {
+    "value": 148782,
     "status": "Secondary",
     "source": {
-     "id": "mcallen-res-checklist-2023",
-     "title": "City of McAllen - Residential permit checklist (revised 04/2023)",
-     "url": "https://www.MCALLEN.net/docs/default-source/permits-inspections-files/residential-checklist63931561aefc64f6a389ff0000525e9b.pdf?sfvrsn=2",
-     "read": "2026-10-11"
+      "id": "mcallen-census-qf",
+      "title": "Census QuickFacts - McAllen city, Texas (V2024 estimate)",
+      "url": "https://census.gov/quickfacts/fact/table/mcallencitytexas,krumcitytexas/POP060210",
+      "read": "2026-10-11"
     },
-    "note": "City residential checklist (rev. 04/2023) lists 2018 IBC/IPC/IMC/IFGC/IFC and 2017 NEC; it does not name the IRC. Read as search extract; Secondary. FY24-25 budget book says the next update would adopt the 2024 ICC codes (vote planned) - adoption not confirmed. A search summary claiming McAllen Ch. 151 lists 2021 codes was traced to another city's (Tool, TX) code and was discarded."
-   },
-   "ordinance": {
+    "note": "Census Vintage 2024 estimate (1 Jul 2024); V2023 146,593; 2020 base 142,188."
+  },
+  "zipCodesOrBoundary": {
     "value": null,
     "status": "Assumed",
     "source": {
-     "id": "assumed",
-     "title": "Assumed",
-     "url": "",
-     "read": "2026-10-11"
+      "id": "assumed-tools-unavailable",
+      "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+      "url": "",
+      "read": "2026-10-11"
     },
-    "note": "Not found: McAllen building code adoption ordinance (Municode Chapter on buildings not reachable)."
-   },
-   "amendments": [
-    {
-     "topic": "other",
-     "summary": "Local IRC amendments not retrieved.",
-     "section": "",
-     "status": "Assumed",
-     "source": {
+    "note": "City-limits map / ZIP list not retrieved. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run"
+  },
+  "climateZone": {
+    "value": "2A",
+    "status": "Assumed",
+    "source": {
       "id": "assumed",
       "title": "Assumed",
       "url": "",
       "read": "2026-10-11"
-     },
-     "note": "Not found."
-    }
-   ]
-  },
-  "energy": {
-   "edition": {
-    "value": "2015 IRC Ch. 11 state floor (city IECC edition not found; likely 2018 IECC with 2018 family)",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed",
-     "url": "",
-     "read": "2026-10-11"
     },
-    "note": "Checklist extract did not list an IECC edition."
-   },
-   "stretchCode": {
+    "note": "2021 IECC Table R301.1 not read for Hidalgo County. 2015/2018 IECC put Hidalgo in 2A; the 2021 map update (ASHRAE 169-2013 data) may have moved Rio Grande Valley counties to 1A - 2 searches did not confirm either way. McAllen appears to enforce a 2018-family code, under which 2A applies."
+  },
+  "windstormCounty": {
     "value": false,
     "status": "Assumed",
     "source": {
-     "id": "assumed-tools-unavailable",
-     "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-     "url": "",
-     "read": "2026-10-11"
+      "id": "assumed-tools-unavailable",
+      "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+      "url": "",
+      "read": "2026-10-11"
     },
-    "note": "No stretch code known."
-   }
+    "note": "Not a TDI first-tier coastal catalogue county. From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
   },
-  "plumbing": {
-   "value": "IPC 2018",
-   "status": "Secondary",
-   "source": {
-    "id": "mcallen-res-checklist-2023",
-    "title": "City of McAllen - Residential permit checklist (revised 04/2023)",
-    "url": "https://www.MCALLEN.net/docs/default-source/permits-inspections-files/residential-checklist63931561aefc64f6a389ff0000525e9b.pdf?sfvrsn=2",
-    "read": "2026-10-11"
-   },
-   "note": "City residential checklist (rev. 04/2023) lists 2018 IBC/IPC/IMC/IFGC/IFC and 2017 NEC; it does not name the IRC. Read as search extract; Secondary."
-  },
-  "electrical": {
-   "value": "NEC 2017 per city checklist (04/2023); TDLR statewide edition is NEC 2023 - confirm which the city enforces",
-   "status": "Secondary",
-   "source": {
-    "id": "mcallen-res-checklist-2023",
-    "title": "City of McAllen - Residential permit checklist (revised 04/2023)",
-    "url": "https://www.MCALLEN.net/docs/default-source/permits-inspections-files/residential-checklist63931561aefc64f6a389ff0000525e9b.pdf?sfvrsn=2",
-    "read": "2026-10-11"
-   },
-   "note": "City residential checklist (rev. 04/2023) lists 2018 IBC/IPC/IMC/IFGC/IFC and 2017 NEC; it does not name the IRC. Read as search extract; Secondary."
-  },
-  "mechanical": {
-   "value": "IMC 2018",
-   "status": "Secondary",
-   "source": {
-    "id": "mcallen-res-checklist-2023",
-    "title": "City of McAllen - Residential permit checklist (revised 04/2023)",
-    "url": "https://www.MCALLEN.net/docs/default-source/permits-inspections-files/residential-checklist63931561aefc64f6a389ff0000525e9b.pdf?sfvrsn=2",
-    "read": "2026-10-11"
-   },
-   "note": "City residential checklist (rev. 04/2023) lists 2018 IBC/IPC/IMC/IFGC/IFC and 2017 NEC; it does not name the IRC. Read as search extract; Secondary."
-  },
-  "fuelGas": {
-   "value": "IFGC 2018",
-   "status": "Secondary",
-   "source": {
-    "id": "mcallen-res-checklist-2023",
-    "title": "City of McAllen - Residential permit checklist (revised 04/2023)",
-    "url": "https://www.MCALLEN.net/docs/default-source/permits-inspections-files/residential-checklist63931561aefc64f6a389ff0000525e9b.pdf?sfvrsn=2",
-    "read": "2026-10-11"
-   },
-   "note": "City residential checklist (rev. 04/2023) lists 2018 IBC/IPC/IMC/IFGC/IFC and 2017 NEC; it does not name the IRC. Read as search extract; Secondary."
-  },
-  "fire": {
-   "value": "IFC 2018; no one/two-family sprinkler mandate known",
-   "status": "Secondary",
-   "source": {
-    "id": "mcallen-res-checklist-2023",
-    "title": "City of McAllen - Residential permit checklist (revised 04/2023)",
-    "url": "https://www.MCALLEN.net/docs/default-source/permits-inspections-files/residential-checklist63931561aefc64f6a389ff0000525e9b.pdf?sfvrsn=2",
-    "read": "2026-10-11"
-   },
-   "note": "City residential checklist (rev. 04/2023) lists 2018 IBC/IPC/IMC/IFGC/IFC and 2017 NEC; it does not name the IRC. Read as search extract; Secondary. Sprinkler statement based on Texas law (SB 1410)."
-  },
-  "wind": {
-   "value": 120,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed-tools-unavailable",
-    "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "unit": "mph",
-   "note": "Approximate ultimate design wind speed, Risk Cat II, from IRC Fig. R301.2(2)/ASCE 7-16 map. From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
-  },
-  "hailRoofing": {
-   "value": "No local hail/impact roofing mandate known",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed-tools-unavailable",
-    "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
-  },
-  "seismic": {
-   "value": "A",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed-tools-unavailable",
-    "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Typical for South Texas."
-  },
-  "frostDepth": {
-   "value": 6,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed-tools-unavailable",
-    "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "unit": "in",
-   "note": "Local Table R301.2(1) not retrieved; nominal value."
-  }
- },
- "zoning": {
-  "hasZoning": {
-   "value": true,
-   "status": "Secondary",
-   "source": {
-    "id": "mcallen-udc-2026",
-    "title": "City of McAllen Unified Development Code (adopted 9 Feb 2026)",
-    "url": "https://www.mcallen.net/docs/default-source/planning-files/revised-UDC.pdf",
-    "read": "2026-10-11"
-   },
-   "note": "New Unified Development Code adopted 9 Feb 2026 (replaces former Ch. 138 zoning)."
-  },
-  "typicalDistrict": {
-   "value": "R-1 Low-Density Residential (UDC; formerly R-1 Single-Family Residential, old code)",
-   "status": "Secondary",
-   "source": {
-    "id": "mcallen-zba-2024-12",
-    "title": "City of McAllen ZBA packet 4 Dec 2024 (R-1 OC vs R-1 UDC naming)",
-    "url": "https://www.mcallen.net/docs/default-source/advisory-boards/zoning/packets/december-4-2024.pdf?sfvrsn=2",
-    "read": "2026-10-11"
-   },
-   "note": "Recent ZBA/P&Z packets distinguish 'R-1 (Single-Family Residential-OC)' from 'R-1 (Low-Density Residential-UDC)'. UDC dimensional table not retrieved."
-  },
-  "minLotSqFt": {
-   "value": 6000,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed-tools-unavailable",
-    "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "unit": "sq ft",
-   "note": "Placeholder from memory; verify in UDC/LDC. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run"
-  },
-  "minLotWidthFt": {
-   "value": 50,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed-tools-unavailable",
-    "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "unit": "ft",
-   "note": "Placeholder; verify."
-  },
-  "minLotDepthFt": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed-tools-unavailable",
-    "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: minimum lot depth. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
-  },
-  "setbacksFt": {
-   "front": {
-    "value": 25,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed",
-     "url": "",
-     "read": "2026-10-11"
+  "codes": {
+    "irc": {
+      "edition": {
+        "value": "2018 IRC (inferred from city's 2018 I-code family; IRC not named)",
+        "status": "Secondary",
+        "source": {
+          "id": "mcallen-res-checklist-2023",
+          "title": "City of McAllen - Residential permit checklist (revised 04/2023)",
+          "url": "https://www.MCALLEN.net/docs/default-source/permits-inspections-files/residential-checklist63931561aefc64f6a389ff0000525e9b.pdf?sfvrsn=2",
+          "read": "2026-10-11"
+        },
+        "note": "City residential checklist (rev. 04/2023) lists 2018 IBC/IPC/IMC/IFGC/IFC and 2017 NEC; it does not name the IRC. Read as search extract; Secondary. FY24-25 budget book says the next update would adopt the 2024 ICC codes (vote planned) - adoption not confirmed. A search summary claiming McAllen Ch. 151 lists 2021 codes was traced to another city's (Tool, TX) code and was discarded."
+      },
+      "ordinance": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: McAllen building code adoption ordinance (Municode Chapter on buildings not reachable)."
+      },
+      "amendments": [
+        {
+          "topic": "other",
+          "summary": "Local IRC amendments not retrieved.",
+          "section": "",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed",
+            "title": "Assumed",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found."
+        }
+      ]
     },
-    "unit": "ft",
-    "note": "Old-code R-1 front value as commonly cited; ZBA packets show required fronts of 20/25/30 ft depending on lot/plat. UDC table not read."
-   },
-   "side": {
-    "value": 6,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed",
-     "url": "",
-     "read": "2026-10-11"
+    "energy": {
+      "edition": {
+        "value": "2015 IRC Ch. 11 state floor (city IECC edition not found; likely 2018 IECC with 2018 family)",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Checklist extract did not list an IECC edition."
+      },
+      "stretchCode": {
+        "value": false,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-tools-unavailable",
+          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "No stretch code known."
+      }
     },
-    "unit": "ft",
-    "note": "ZBA packets show required sides of 5-6 ft (one 3.5 ft) by lot; UDC table not read."
-   },
-   "streetSide": {
-    "value": 10,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed-tools-unavailable",
-     "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-     "url": "",
-     "read": "2026-10-11"
+    "plumbing": {
+      "value": "IPC 2018",
+      "status": "Secondary",
+      "source": {
+        "id": "mcallen-res-checklist-2023",
+        "title": "City of McAllen - Residential permit checklist (revised 04/2023)",
+        "url": "https://www.MCALLEN.net/docs/default-source/permits-inspections-files/residential-checklist63931561aefc64f6a389ff0000525e9b.pdf?sfvrsn=2",
+        "read": "2026-10-11"
+      },
+      "note": "City residential checklist (rev. 04/2023) lists 2018 IBC/IPC/IMC/IFGC/IFC and 2017 NEC; it does not name the IRC. Read as search extract; Secondary."
     },
-    "unit": "ft",
-    "note": "Placeholder; verify."
-   },
-   "rear": {
-    "value": 10,
-    "status": "Secondary",
-    "source": {
-     "id": "mcallen-zba-packets",
-     "title": "City of McAllen Zoning Board of Adjustment packets (e.g. 19 Jun 2024)",
-     "url": "https://mcallen.net/docs/default-source/advisory-boards/zoning/packets/june-19-2024.pdf?sfvrsn=2",
-     "read": "2026-10-11"
+    "electrical": {
+      "value": "NEC 2017 per city checklist (04/2023); TDLR statewide edition is NEC 2023 - confirm which the city enforces",
+      "status": "Secondary",
+      "source": {
+        "id": "mcallen-res-checklist-2023",
+        "title": "City of McAllen - Residential permit checklist (revised 04/2023)",
+        "url": "https://www.MCALLEN.net/docs/default-source/permits-inspections-files/residential-checklist63931561aefc64f6a389ff0000525e9b.pdf?sfvrsn=2",
+        "read": "2026-10-11"
+      },
+      "note": "City residential checklist (rev. 04/2023) lists 2018 IBC/IPC/IMC/IFGC/IFC and 2017 NEC; it does not name the IRC. Read as search extract; Secondary."
     },
-    "unit": "ft",
-    "note": "Staff stated the R-1 rear setback is 10 ft at a 2024 ZBA meeting (minutes in packet extract). Plats often impose larger rear lines (20-25 ft seen)."
-   }
-  },
-  "maxHeightFt": {
-   "value": 35,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed-tools-unavailable",
-    "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "unit": "ft",
-   "note": "Placeholder; verify."
-  },
-  "maxStories": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed-tools-unavailable",
-    "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: max stories. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
-  },
-  "maxLotCoverage": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed-tools-unavailable",
-    "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: max lot coverage. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
-  },
-  "imperviousCover": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed-tools-unavailable",
-    "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: impervious cover limit. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
-  },
-  "far": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed-tools-unavailable",
-    "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "No FAR known for single-family."
-  },
-  "parking": {
-   "value": "2 off-street spaces per dwelling (typical)",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed-tools-unavailable",
-    "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Typical Texas requirement; not verified."
-  },
-  "garageRules": {
-   "value": "Assume 20 ft from front property line to garage door",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed-tools-unavailable",
-    "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Judgement."
-  },
-  "adu": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed-tools-unavailable",
-    "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: ADU rules. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
-  },
-  "masonry": {
-   "value": "none known",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed-tools-unavailable",
-    "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "No masonry % known; Texas HB 2439 (Gov. Code 3000) generally bars cities from mandating building materials beyond the IRC, except historic/certain districts."
-  },
-  "trees": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed-tools-unavailable",
-    "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: tree preservation rules. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
-  },
-  "other": []
- },
- "process": {
-  "steps": [
-   {
-    "value": "Residential building permit application to city building/development services; plan review; inspections; certificate of occupancy",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed-tools-unavailable",
-     "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-     "url": "",
-     "read": "2026-10-11"
+    "mechanical": {
+      "value": "IMC 2018",
+      "status": "Secondary",
+      "source": {
+        "id": "mcallen-res-checklist-2023",
+        "title": "City of McAllen - Residential permit checklist (revised 04/2023)",
+        "url": "https://www.MCALLEN.net/docs/default-source/permits-inspections-files/residential-checklist63931561aefc64f6a389ff0000525e9b.pdf?sfvrsn=2",
+        "read": "2026-10-11"
+      },
+      "note": "City residential checklist (rev. 04/2023) lists 2018 IBC/IPC/IMC/IFGC/IFC and 2017 NEC; it does not name the IRC. Read as search extract; Secondary."
     },
-    "note": "From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
-   }
-  ],
-  "sealsRequired": [
-   {
-    "value": "Foundation typically by Texas PE (expansive clays)",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed-tools-unavailable",
-     "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-     "url": "",
-     "read": "2026-10-11"
+    "fuelGas": {
+      "value": "IFGC 2018",
+      "status": "Secondary",
+      "source": {
+        "id": "mcallen-res-checklist-2023",
+        "title": "City of McAllen - Residential permit checklist (revised 04/2023)",
+        "url": "https://www.MCALLEN.net/docs/default-source/permits-inspections-files/residential-checklist63931561aefc64f6a389ff0000525e9b.pdf?sfvrsn=2",
+        "read": "2026-10-11"
+      },
+      "note": "City residential checklist (rev. 04/2023) lists 2018 IBC/IPC/IMC/IFGC/IFC and 2017 NEC; it does not name the IRC. Read as search extract; Secondary."
     },
-    "note": "From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
-   }
-  ],
-  "inspections": [
-   {
-    "value": "Rough-in plumbing, foundation, framing, insulation, infiltration (air-leakage), final; red tag = fail, green tag = pass; reinspection fee $48",
-    "status": "Secondary",
-    "source": {
-     "id": "mcallen-inspection-guide",
-     "title": "City of McAllen - Building inspection guide",
-     "url": "https://www.mcallen.net/docs/default-source/permits-inspections-files/building-inspection-guide.pdf?sfvrsn=4",
-     "read": "2026-10-11"
+    "fire": {
+      "value": "IFC 2018; no one/two-family sprinkler mandate known",
+      "status": "Secondary",
+      "source": {
+        "id": "mcallen-res-checklist-2023",
+        "title": "City of McAllen - Residential permit checklist (revised 04/2023)",
+        "url": "https://www.MCALLEN.net/docs/default-source/permits-inspections-files/residential-checklist63931561aefc64f6a389ff0000525e9b.pdf?sfvrsn=2",
+        "read": "2026-10-11"
+      },
+      "note": "City residential checklist (rev. 04/2023) lists 2018 IBC/IPC/IMC/IFGC/IFC and 2017 NEC; it does not name the IRC. Read as search extract; Secondary. Sprinkler statement based on Texas law (SB 1410)."
+    },
+    "wind": {
+      "value": 120,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "mph",
+      "note": "Approximate ultimate design wind speed, Risk Cat II, from IRC Fig. R301.2(2)/ASCE 7-16 map. From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+    },
+    "hailRoofing": {
+      "value": "No local hail/impact roofing mandate known",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+    },
+    "seismic": {
+      "value": "A",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Typical for South Texas."
+    },
+    "frostDepth": {
+      "value": 6,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "in",
+      "note": "Local Table R301.2(1) not retrieved; nominal value."
     }
-   }
-  ],
-  "reviewDays": {
-   "value": 3,
-   "status": "Secondary",
-   "source": {
-    "id": "mcallen-budget-fy22-23-p145",
-    "title": "City of McAllen Budget FY 2022-2023, page 145 (performance measures)",
-    "url": "https://www.mcallen.net/files/omb/2022-2023/files/basic-html/page145.html",
-    "read": "2026-10-11"
-   },
-   "unit": "days",
-   "note": "Budget FY22-23 performance measure: average 3 review days for residential permits."
-  }
- },
- "fees": {
-  "permitFormula": {
-   "value": "R-3 one/two-family: $0.16 per sq ft (new construction/addition/remodel), minimum $48; no separate review fee",
-   "status": "Secondary",
-   "source": {
-    "id": "mcallen-permit-fee-schedule",
-    "title": "City of McAllen - Permit fee schedule (eff. 1 Oct 2016, updated 11/21/2019)",
-    "url": "https://www.MCALLEN.net/docs/default-source/permits-inspections-files/permit-fee-schedule.pdf?sfvrsn=4",
-    "read": "2026-10-11"
-   },
-   "note": "Fee schedule eff. 1 Oct 2016 (updated 11/21/2019) and checklist 04/2023 both show $0.16/sf, min $48, 'No Review Fee'. Search extracts; confirm current."
   },
-  "workedExample2400sqft": {
-   "value": 454.4,
-   "status": "Secondary",
-   "source": {
-    "id": "mcallen-permit-fee-schedule",
-    "title": "City of McAllen - Permit fee schedule (eff. 1 Oct 2016, updated 11/21/2019)",
-    "url": "https://www.MCALLEN.net/docs/default-source/permits-inspections-files/permit-fee-schedule.pdf?sfvrsn=4",
-    "read": "2026-10-11"
-   },
-   "unit": "USD",
-   "note": "Assume rate applies to all area under roof: (2,400 + 440 garage) = 2,840 sf x $0.16 = $454.40 (living only: 2,400 x 0.16 = $384). Excludes trade permits and MPU utility charges."
-  },
-  "planReview": {
-   "value": "No separate review fee",
-   "status": "Secondary",
-   "source": {
-    "id": "mcallen-res-checklist-2023",
-    "title": "City of McAllen - Residential permit checklist (revised 04/2023)",
-    "url": "https://www.MCALLEN.net/docs/default-source/permits-inspections-files/residential-checklist63931561aefc64f6a389ff0000525e9b.pdf?sfvrsn=2",
-    "read": "2026-10-11"
-   },
-   "note": "Checklist: 'Permit Fee=$48 No Review Fee'."
-  },
-  "impactFees": [
-   {
-    "value": null,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed",
-     "url": "",
-     "read": "2026-10-11"
+  "zoning": {
+    "hasZoning": {
+      "value": true,
+      "status": "Secondary",
+      "source": {
+        "id": "mcallen-udc-2026",
+        "title": "City of McAllen Unified Development Code (adopted 9 Feb 2026)",
+        "url": "https://www.mcallen.net/docs/default-source/planning-files/revised-UDC.pdf",
+        "read": "2026-10-11"
+      },
+      "note": "New Unified Development Code adopted 9 Feb 2026 (replaces former Ch. 138 zoning)."
     },
-    "note": "Not found: McAllen Public Utility (MPU) water/wastewater impact or capital recovery fees - 2 targeted searches returned nothing from mcallenpublicutility.com."
-   }
-  ],
-  "tapFees": [
-   {
-    "value": null,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed",
-     "url": "",
-     "read": "2026-10-11"
+    "typicalDistrict": {
+      "value": "R-1 Low-Density Residential (UDC; formerly R-1 Single-Family Residential, old code)",
+      "status": "Secondary",
+      "source": {
+        "id": "mcallen-zba-2024-12",
+        "title": "City of McAllen ZBA packet 4 Dec 2024 (R-1 OC vs R-1 UDC naming)",
+        "url": "https://www.mcallen.net/docs/default-source/advisory-boards/zoning/packets/december-4-2024.pdf?sfvrsn=2",
+        "read": "2026-10-11"
+      },
+      "note": "Recent ZBA/P&Z packets distinguish 'R-1 (Single-Family Residential-OC)' from 'R-1 (Low-Density Residential-UDC)'. UDC dimensional table not retrieved."
     },
-    "note": "Not found: MPU 3/4-in water tap and sewer tap charges."
-   }
-  ]
- },
- "cost": {
-  "factor": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "cost-method",
-    "title": "See README cost method (filled by cost agent)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "PENDING_COST_AGENT"
-  },
-  "method": "PENDING_COST_AGENT",
-  "perSqFtMarket": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed-tools-unavailable",
-    "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Market $/sf not retrieved. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run"
-  },
-  "drivers": [
-   {
-    "value": "Expansive clay soils -> engineered slab",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed-tools-unavailable",
-     "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-     "url": "",
-     "read": "2026-10-11"
+    "minLotSqFt": {
+      "value": 6000,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "sq ft",
+      "note": "Placeholder from memory; verify in UDC/LDC. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run"
     },
-    "note": "Judgement"
-   }
-  ]
- },
- "flood": {
-  "value": "City floodplain ordinance (NFIP participant); assume lowest floor >= BFE + 1 ft",
-  "status": "Assumed",
-  "source": {
-   "id": "assumed-tools-unavailable",
-   "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-   "url": "",
-   "read": "2026-10-11"
+    "minLotWidthFt": {
+      "value": 50,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "ft",
+      "note": "Placeholder; verify."
+    },
+    "minLotDepthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: minimum lot depth. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+    },
+    "setbacksFt": {
+      "front": {
+        "value": 25,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Old-code R-1 front value as commonly cited; ZBA packets show required fronts of 20/25/30 ft depending on lot/plat. UDC table not read."
+      },
+      "side": {
+        "value": 6,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "ZBA packets show required sides of 5-6 ft (one 3.5 ft) by lot; UDC table not read."
+      },
+      "streetSide": {
+        "value": 10,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-tools-unavailable",
+          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Placeholder; verify."
+      },
+      "rear": {
+        "value": 10,
+        "status": "Secondary",
+        "source": {
+          "id": "mcallen-zba-packets",
+          "title": "City of McAllen Zoning Board of Adjustment packets (e.g. 19 Jun 2024)",
+          "url": "https://mcallen.net/docs/default-source/advisory-boards/zoning/packets/june-19-2024.pdf?sfvrsn=2",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Staff stated the R-1 rear setback is 10 ft at a 2024 ZBA meeting (minutes in packet extract). Plats often impose larger rear lines (20-25 ft seen)."
+      }
+    },
+    "maxHeightFt": {
+      "value": 35,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "ft",
+      "note": "Placeholder; verify."
+    },
+    "maxStories": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: max stories. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+    },
+    "maxLotCoverage": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: max lot coverage. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+    },
+    "imperviousCover": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: impervious cover limit. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+    },
+    "far": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No FAR known for single-family."
+    },
+    "parking": {
+      "value": "2 off-street spaces per dwelling (typical)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Typical Texas requirement; not verified."
+    },
+    "garageRules": {
+      "value": "Assume 20 ft from front property line to garage door",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Judgement."
+    },
+    "adu": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: ADU rules. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+    },
+    "masonry": {
+      "value": "none known",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No masonry % known; Texas HB 2439 (Gov. Code 3000) generally bars cities from mandating building materials beyond the IRC, except historic/certain districts."
+    },
+    "trees": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: tree preservation rules. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+    },
+    "other": []
   },
-  "note": "Freeboard value not verified. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run"
- },
- "plainLanguage": "McAllen's posted permit checklist lists the 2018 family of building codes and the 2017 electrical code, and the city has planned an update to the 2024 codes - so confirm the edition before you submit. McAllen adopted a new Unified Development Code in February 2026; most homes are in the R-1 low-density residential zone. City staff give the R-1 rear setback as 10 ft, but your subdivision plat often sets bigger building lines, so the plat controls. The building permit is cheap: $0.16 per square foot with no separate review fee - about $455 for a 2,400 sq ft home with a 440 sq ft garage. Water and sewer taps are through McAllen Public Utility; we could not find those charges. The Valley is hot-humid (Climate Zone 2A, possibly 1A under the newest map); McAllen is not in the coastal windstorm area, but strong roof tie-downs are wise. Expect an engineered slab on clay soils.",
- "openQuestions": [
-  "Has McAllen adopted the 2021 or 2024 I-codes (FY24-25 budget planned 2024 ICC adoption)? Which IRC edition is enforced today?",
-  "UDC (Feb 2026) R-1 dimensional table: lot area/width, front/side setbacks, height, coverage.",
-  "MPU water/sewer tap and capital recovery fees.",
-  "Floodplain freeboard.",
-  "Hidalgo County: 2A or 1A under 2021 IECC Table R301.1?"
- ],
- "notFound": [
-  "IRC adoption ordinance/edition explicitly",
-  "UDC R-1 dimensional table",
-  "MPU tap/impact fees",
-  "Floodplain freeboard (1 search)",
-  "Climate zone under 2021 IECC (2 searches)"
- ],
- "comparison": {
-  "irc": "2018 IRC (inferred)",
-  "energy": "unknown (state floor)",
-  "plumbing": "IPC 2018",
-  "district": "R-1 (UDC 2026)",
-  "setbacks": "25/6/10 (rear Secondary; front/side assumed)",
-  "maxHeight": "35 ft (assumed)",
-  "coverageFar": "not found",
-  "masonry": "none known",
-  "engFoundation": "likely (assumed)",
-  "windstorm": "no",
-  "flood": "+1 ft assumed",
-  "permitFeeExample": "$454",
-  "impactFees": "not found (MPU)",
-  "costFactor": "PENDING"
- },
- "engineChanges": [
-  {
-   "id": "mcallen-code-edition",
-   "ruleType": "code-edition-by-city",
-   "area": "plan",
-   "change": "Check plans against the 2018 IRC family (not 2021) - city lists 2018 I-codes and NEC 2017; show 'confirm edition, 2024 update pending' warning",
-   "priority": "must",
-   "params": {
-    "irc": "2018 IRC (inferred)",
-    "plumbing": "IPC 2018",
-    "electrical": "NEC 2017 (city list) / 2023 (TDLR)",
-    "editionStatus": "Secondary",
-    "pendingUpdate": "2024 ICC"
-   },
-   "source": {
-    "id": "mcallen-res-checklist-2023",
-    "title": "City of McAllen - Residential permit checklist (revised 04/2023)",
-    "url": "https://www.MCALLEN.net/docs/default-source/permits-inspections-files/residential-checklist63931561aefc64f6a389ff0000525e9b.pdf?sfvrsn=2",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "mcallen-setbacks",
-   "ruleType": "setback-by-district",
-   "area": "setbacks",
-   "change": "R-1: rear 10 ft (staff); front 25 / side 6 ft assumed - require user to confirm from plat (plats commonly set 20-25 ft rear lines)",
-   "priority": "should",
-   "params": {
-    "district": "R-1",
-    "frontFt": 25,
-    "sideFt": 6,
-    "streetSideFt": 10,
-    "rearFt": 10,
-    "assumed": [
-     "frontFt",
-     "sideFt",
-     "streetSideFt"
+  "process": {
+    "steps": [
+      {
+        "value": "Residential building permit application to city building/development services; plan review; inspections; certificate of occupancy",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-tools-unavailable",
+          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+      }
     ],
-    "requireUserConfirm": true
-   },
-   "source": {
-    "id": "mcallen-zba-packets",
-    "title": "City of McAllen Zoning Board of Adjustment packets (e.g. 19 Jun 2024)",
-    "url": "https://mcallen.net/docs/default-source/advisory-boards/zoning/packets/june-19-2024.pdf?sfvrsn=2",
-    "read": "2026-10-11"
-   }
+    "sealsRequired": [
+      {
+        "value": "Foundation typically by Texas PE (expansive clays)",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-tools-unavailable",
+          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+      }
+    ],
+    "inspections": [
+      {
+        "value": "Rough-in plumbing, foundation, framing, insulation, infiltration (air-leakage), final; red tag = fail, green tag = pass; reinspection fee $48",
+        "status": "Secondary",
+        "source": {
+          "id": "mcallen-inspection-guide",
+          "title": "City of McAllen - Building inspection guide",
+          "url": "https://www.mcallen.net/docs/default-source/permits-inspections-files/building-inspection-guide.pdf?sfvrsn=4",
+          "read": "2026-10-11"
+        }
+      }
+    ],
+    "reviewDays": {
+      "value": 3,
+      "status": "Secondary",
+      "source": {
+        "id": "mcallen-budget-fy22-23-p145",
+        "title": "City of McAllen Budget FY 2022-2023, page 145 (performance measures)",
+        "url": "https://www.mcallen.net/files/omb/2022-2023/files/basic-html/page145.html",
+        "read": "2026-10-11"
+      },
+      "unit": "days",
+      "note": "Budget FY22-23 performance measure: average 3 review days for residential permits."
+    }
   },
-  {
-   "id": "mcallen-plat-lines",
-   "ruleType": "building-line-plat",
-   "area": "survey",
-   "change": "Read platted building lines; in McAllen they frequently exceed district minimums",
-   "priority": "must",
-   "params": {
-    "usePlatBuildingLine": true
-   },
-   "source": {
-    "id": "mcallen-zba-packets",
-    "title": "City of McAllen Zoning Board of Adjustment packets (e.g. 19 Jun 2024)",
-    "url": "https://mcallen.net/docs/default-source/advisory-boards/zoning/packets/june-19-2024.pdf?sfvrsn=2",
-    "read": "2026-10-11"
-   }
+  "fees": {
+    "permitFormula": {
+      "value": "R-3 one/two-family: $0.16 per sq ft (new construction/addition/remodel), minimum $48; no separate review fee",
+      "status": "Secondary",
+      "source": {
+        "id": "mcallen-permit-fee-schedule",
+        "title": "City of McAllen - Permit fee schedule (eff. 1 Oct 2016, updated 11/21/2019)",
+        "url": "https://www.MCALLEN.net/docs/default-source/permits-inspections-files/permit-fee-schedule.pdf?sfvrsn=4",
+        "read": "2026-10-11"
+      },
+      "note": "Fee schedule eff. 1 Oct 2016 (updated 11/21/2019) and checklist 04/2023 both show $0.16/sf, min $48, 'No Review Fee'. Search extracts; confirm current."
+    },
+    "workedExample2400sqft": {
+      "value": 454.4,
+      "status": "Secondary",
+      "source": {
+        "id": "mcallen-permit-fee-schedule",
+        "title": "City of McAllen - Permit fee schedule (eff. 1 Oct 2016, updated 11/21/2019)",
+        "url": "https://www.MCALLEN.net/docs/default-source/permits-inspections-files/permit-fee-schedule.pdf?sfvrsn=4",
+        "read": "2026-10-11"
+      },
+      "unit": "USD",
+      "note": "Assume rate applies to all area under roof: (2,400 + 440 garage) = 2,840 sf x $0.16 = $454.40 (living only: 2,400 x 0.16 = $384). Excludes trade permits and MPU utility charges."
+    },
+    "planReview": {
+      "value": "No separate review fee",
+      "status": "Secondary",
+      "source": {
+        "id": "mcallen-res-checklist-2023",
+        "title": "City of McAllen - Residential permit checklist (revised 04/2023)",
+        "url": "https://www.MCALLEN.net/docs/default-source/permits-inspections-files/residential-checklist63931561aefc64f6a389ff0000525e9b.pdf?sfvrsn=2",
+        "read": "2026-10-11"
+      },
+      "note": "Checklist: 'Permit Fee=$48 No Review Fee'."
+    },
+    "impactFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: McAllen Public Utility (MPU) water/wastewater impact or capital recovery fees - 2 targeted searches returned nothing from mcallenpublicutility.com."
+      }
+    ],
+    "tapFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: MPU 3/4-in water tap and sewer tap charges."
+      }
+    ]
   },
-  {
-   "id": "mcallen-height",
-   "ruleType": "height-limit",
-   "area": "massing",
-   "change": "Max height 35 ft (assumed)",
-   "priority": "should",
-   "params": {
-    "maxHeightFt": 35,
-    "verified": false
-   },
-   "source": {
-    "id": "assumed-tools-unavailable",
-    "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-    "url": "",
-    "read": "2026-10-11"
-   }
+  "cost": {
+    "factor": {
+      "value": 0.88,
+      "unit": "x US national",
+      "status": "Secondary",
+      "source": {
+        "id": "cost-factors",
+        "title": "Keystone metro cost factor (BLS OEWS wages, see README cost method)",
+        "url": "https://www.onetonline.org/link/localwages/47-2031.00?st=TX",
+        "read": "2026-10-11"
+      },
+      "note": "MSA 32580 McAllen-Edinburg-Mission, TX: labour index L=0.704, materials M=1.0. 5/5 trades (OEWS May 2024 via O*NET Texas local-wages search extracts). Ratios to US: 47-2031 0.682; 47-2111 0.719; 47-2152 0.723; 47-2061 0.670; 49-9021 0.767. L = 0.704; factor = 0.40*0.704 + 0.60*1.00 = 0.88. M=1.00 (default, no public citable reason to adjust)."
+    },
+    "method": "Factor = 0.40*L + 0.60*M, rounded to 2 decimals. L = weighted mean of (metro annual median wage / US national annual median wage) for SOC 47-2031 Carpenters (0.30), 47-2111 Electricians (0.20), 47-2152 Plumbers/Pipefitters/Steamfitters (0.20), 47-2061 Construction Laborers (0.20), 49-9021 HVAC Mechanics/Installers (0.10), from BLS OEWS; weights renormalised over occupations available for the MSA. M = materials index, 1.00 for all Texas metros (no public citable reason to adjust); qualitative materials notes per MSA. Wave 2 (2026-10-11): all five trades retrieved from O*NET Texas local-wages pages (OEWS May 2024) via search extracts (Secondary); HVAC missing for 28660, 47380, 46340, 17780 (weights renormalised there). provisional removed for every MSA with >=4 trades.",
+    "perSqFtMarket": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Market $/sf not retrieved. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run"
+    },
+    "drivers": [
+      {
+        "value": "Expansive clay soils -> engineered slab",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-tools-unavailable",
+          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Judgement"
+      }
+    ]
   },
-  {
-   "id": "mcallen-envelope",
-   "ruleType": "climate-zone-envelope",
-   "area": "envelope",
-   "change": "Envelope per climate zone 2A (flag: 2021 IECC may class Hidalgo as 1A)",
-   "priority": "must",
-   "params": {
-    "climateZone": "2A",
-    "checkZone1A": true
-   },
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   }
+  "flood": {
+    "value": "City floodplain ordinance (NFIP participant); assume lowest floor >= BFE + 1 ft",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed-tools-unavailable",
+      "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Freeboard value not verified. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run"
   },
-  {
-   "id": "mcallen-permit-fee",
-   "ruleType": "permit-fee-formula",
-   "area": "estimate",
-   "change": "Building permit = $0.16/sf (min $48), no review fee",
-   "priority": "should",
-   "params": {
-    "ratePerSqFt": 0.16,
-    "minFee": 48,
-    "planReviewFee": 0,
-    "includeGarage": true
-   },
-   "source": {
-    "id": "mcallen-permit-fee-schedule",
-    "title": "City of McAllen - Permit fee schedule (eff. 1 Oct 2016, updated 11/21/2019)",
-    "url": "https://www.MCALLEN.net/docs/default-source/permits-inspections-files/permit-fee-schedule.pdf?sfvrsn=4",
-    "read": "2026-10-11"
-   }
+  "plainLanguage": "McAllen's posted permit checklist lists the 2018 family of building codes and the 2017 electrical code, and the city has planned an update to the 2024 codes - so confirm the edition before you submit. McAllen adopted a new Unified Development Code in February 2026; most homes are in the R-1 low-density residential zone. City staff give the R-1 rear setback as 10 ft, but your subdivision plat often sets bigger building lines, so the plat controls. The building permit is cheap: $0.16 per square foot with no separate review fee - about $455 for a 2,400 sq ft home with a 440 sq ft garage. Water and sewer taps are through McAllen Public Utility; we could not find those charges. The Valley is hot-humid (Climate Zone 2A, possibly 1A under the newest map); McAllen is not in the coastal windstorm area, but strong roof tie-downs are wise. Expect an engineered slab on clay soils.",
+  "openQuestions": [
+    "Has McAllen adopted the 2021 or 2024 I-codes (FY24-25 budget planned 2024 ICC adoption)? Which IRC edition is enforced today?",
+    "UDC (Feb 2026) R-1 dimensional table: lot area/width, front/side setbacks, height, coverage.",
+    "MPU water/sewer tap and capital recovery fees.",
+    "Floodplain freeboard.",
+    "Hidalgo County: 2A or 1A under 2021 IECC Table R301.1?"
+  ],
+  "notFound": [
+    "IRC adoption ordinance/edition explicitly",
+    "UDC R-1 dimensional table",
+    "MPU tap/impact fees",
+    "Floodplain freeboard (1 search)",
+    "Climate zone under 2021 IECC (2 searches)"
+  ],
+  "comparison": {
+    "irc": "2018 IRC (inferred)",
+    "energy": "unknown (state floor)",
+    "plumbing": "IPC 2018",
+    "district": "R-1 (UDC 2026)",
+    "setbacks": "25/6/10 (rear Secondary; front/side assumed)",
+    "maxHeight": "35 ft (assumed)",
+    "coverageFar": "not found",
+    "masonry": "none known",
+    "engFoundation": "likely (assumed)",
+    "windstorm": "no",
+    "flood": "+1 ft assumed",
+    "permitFeeExample": "$454",
+    "impactFees": "not found (MPU)",
+    "costFactor": "0.88"
   },
-  {
-   "id": "mcallen-foundation",
-   "ruleType": "engineered-foundation-flag",
-   "area": "foundation",
-   "change": "Flag engineered slab (expansive clays) - assumed",
-   "priority": "should",
-   "params": {
-    "sealedFoundation": true,
-    "verified": false
-   },
-   "source": {
-    "id": "assumed-tools-unavailable",
-    "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-    "url": "",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "mcallen-flood",
-   "ruleType": "flood-elevation",
-   "area": "survey",
-   "change": "If in SFHA, lowest floor >= BFE + 1 ft (assumed)",
-   "priority": "should",
-   "params": {
-    "freeboardFt": 1,
-    "coastalVZoneRules": false
-   },
-   "source": {
-    "id": "assumed-tools-unavailable",
-    "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-    "url": "",
-    "read": "2026-10-11"
-   }
-  }
- ]
+  "engineChanges": [
+    {
+      "id": "mcallen-code-edition",
+      "ruleType": "code-edition-by-city",
+      "area": "plan",
+      "change": "Check plans against the 2018 IRC family (not 2021) - city lists 2018 I-codes and NEC 2017; show 'confirm edition, 2024 update pending' warning",
+      "priority": "must",
+      "params": {
+        "irc": "2018 IRC (inferred)",
+        "plumbing": "IPC 2018",
+        "electrical": "NEC 2017 (city list) / 2023 (TDLR)",
+        "editionStatus": "Secondary",
+        "pendingUpdate": "2024 ICC"
+      },
+      "source": {
+        "id": "mcallen-res-checklist-2023",
+        "title": "City of McAllen - Residential permit checklist (revised 04/2023)",
+        "url": "https://www.MCALLEN.net/docs/default-source/permits-inspections-files/residential-checklist63931561aefc64f6a389ff0000525e9b.pdf?sfvrsn=2",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "mcallen-setbacks",
+      "ruleType": "setback-by-district",
+      "area": "setbacks",
+      "change": "R-1: rear 10 ft (staff); front 25 / side 6 ft assumed - require user to confirm from plat (plats commonly set 20-25 ft rear lines)",
+      "priority": "should",
+      "params": {
+        "district": "R-1",
+        "frontFt": 25,
+        "sideFt": 6,
+        "streetSideFt": 10,
+        "rearFt": 10,
+        "assumed": [
+          "frontFt",
+          "sideFt",
+          "streetSideFt"
+        ],
+        "requireUserConfirm": true
+      },
+      "source": {
+        "id": "mcallen-zba-packets",
+        "title": "City of McAllen Zoning Board of Adjustment packets (e.g. 19 Jun 2024)",
+        "url": "https://mcallen.net/docs/default-source/advisory-boards/zoning/packets/june-19-2024.pdf?sfvrsn=2",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "mcallen-plat-lines",
+      "ruleType": "building-line-plat",
+      "area": "survey",
+      "change": "Read platted building lines; in McAllen they frequently exceed district minimums",
+      "priority": "must",
+      "params": {
+        "usePlatBuildingLine": true
+      },
+      "source": {
+        "id": "mcallen-zba-packets",
+        "title": "City of McAllen Zoning Board of Adjustment packets (e.g. 19 Jun 2024)",
+        "url": "https://mcallen.net/docs/default-source/advisory-boards/zoning/packets/june-19-2024.pdf?sfvrsn=2",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "mcallen-height",
+      "ruleType": "height-limit",
+      "area": "massing",
+      "change": "Max height 35 ft (assumed)",
+      "priority": "should",
+      "params": {
+        "maxHeightFt": 35,
+        "verified": false
+      },
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "mcallen-envelope",
+      "ruleType": "climate-zone-envelope",
+      "area": "envelope",
+      "change": "Envelope per climate zone 2A (flag: 2021 IECC may class Hidalgo as 1A)",
+      "priority": "must",
+      "params": {
+        "climateZone": "2A",
+        "checkZone1A": true
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "mcallen-permit-fee",
+      "ruleType": "permit-fee-formula",
+      "area": "estimate",
+      "change": "Building permit = $0.16/sf (min $48), no review fee",
+      "priority": "should",
+      "params": {
+        "ratePerSqFt": 0.16,
+        "minFee": 48,
+        "planReviewFee": 0,
+        "includeGarage": true
+      },
+      "source": {
+        "id": "mcallen-permit-fee-schedule",
+        "title": "City of McAllen - Permit fee schedule (eff. 1 Oct 2016, updated 11/21/2019)",
+        "url": "https://www.MCALLEN.net/docs/default-source/permits-inspections-files/permit-fee-schedule.pdf?sfvrsn=4",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "mcallen-foundation",
+      "ruleType": "engineered-foundation-flag",
+      "area": "foundation",
+      "change": "Flag engineered slab (expansive clays) - assumed",
+      "priority": "should",
+      "params": {
+        "sealedFoundation": true,
+        "verified": false
+      },
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "mcallen-flood",
+      "ruleType": "flood-elevation",
+      "area": "survey",
+      "change": "If in SFHA, lowest floor >= BFE + 1 ft (assumed)",
+      "priority": "should",
+      "params": {
+        "freeboardFt": 1,
+        "coastalVZoneRules": false
+      },
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    }
+  ]
 }

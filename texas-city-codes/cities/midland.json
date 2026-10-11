@@ -38,11 +38,11 @@
     "status": "Assumed",
     "source": {
       "id": "midland-assumed",
-      "title": "Assumed",
+      "title": "Assumed: 2021 IECC Table R301.1 county list (not re-read)",
       "url": "",
       "read": "2026-10-11"
     },
-    "note": "Climate zone per 2021 IECC Table R301.1 county list (researcher knowledge of the model code; table not re-fetched this session). Midland, Martin County = 3B."
+    "note": "Midland County listed in Climate Zone 3B (warm-dry) per researcher knowledge; table not fetched."
   },
   "windstormCounty": {
     "value": false,
@@ -58,40 +58,65 @@
   "codes": {
     "irc": {
       "edition": {
-        "value": null,
-        "status": "Assumed",
+        "value": "2018 IRC (with City of Midland amendments)",
+        "status": "Secondary",
         "source": {
-          "id": "midland-assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "midland-building-codes",
+          "title": "City of Midland - Building Codes (adopted codes page)",
+          "url": "https://www.midlandtexas.gov/1268/Building-Codes",
           "read": "2026-10-11"
         },
-        "note": "Not found: adopted IRC edition and adoption ordinance (web search budget exhausted and direct page fetch blocked in research environment)."
+        "note": "City Building Codes page and revised residential submittal checklist both list the 2018 IRC; 2018 codes adopted by ordinance effective 2019-07-01 (Title IV). Older 2018 checklist cites 2015 IRC. No newer adoption found (3 searches). Search-result extract only (direct fetch blocked on 2026-10-11)."
       },
       "ordinance": {
-        "value": null,
-        "status": "Assumed",
+        "value": "2018 I-codes adopted by ordinance amending Title IV (Building Regulations), effective 2019-07-01; number not found",
+        "status": "Secondary",
         "source": {
-          "id": "midland-assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "midland-swagit-2019-codes",
+          "title": "Midland City Council meeting video/agenda - ordinances adopting 2018 codes (second reading)",
+          "url": "https://midlandtx.new.swagit.com/videos/229262",
           "read": "2026-10-11"
         },
-        "note": "Not found: adoption ordinance (web search budget exhausted and direct page fetch blocked in research environment)."
+        "note": "Search-result extract only (direct fetch blocked on 2026-10-11)."
       },
-      "amendments": []
+      "amendments": [
+        {
+          "topic": "other",
+          "summary": "2018 IRC adopted 'with City of Midland amendments' (text not read).",
+          "section": "",
+          "status": "Secondary",
+          "source": {
+            "id": "midland-res-submittal",
+            "title": "City of Midland - Residential Buildings & Additions Building Permit Submittal Requirements (revised)",
+            "url": "https://www.midlandtexas.gov/DocumentCenter/View/9687/Residential-Building--Additions--Building-Permit-Submittal-Requirements---revised",
+            "read": "2026-10-11"
+          }
+        },
+        {
+          "topic": "other",
+          "summary": "Plans must include ACCA Manual J (or RS summary sheet) and energy-code compliance statements; stamps by Texas architect/engineer only where required.",
+          "section": "Residential submittal requirements",
+          "status": "Secondary",
+          "source": {
+            "id": "midland-res-submittal",
+            "title": "City of Midland - Residential Buildings & Additions Building Permit Submittal Requirements (revised)",
+            "url": "https://www.midlandtexas.gov/DocumentCenter/View/9687/Residential-Building--Additions--Building-Permit-Submittal-Requirements---revised",
+            "read": "2026-10-11"
+          }
+        }
+      ]
     },
     "energy": {
       "edition": {
-        "value": "IRC Chapter 11 (edition unverified)",
-        "status": "Assumed",
+        "value": "2015 IECC (with city amendments)",
+        "status": "Secondary",
         "source": {
-          "id": "midland-assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "midland-res-submittal",
+          "title": "City of Midland - Residential Buildings & Additions Building Permit Submittal Requirements (revised)",
+          "url": "https://www.midlandtexas.gov/DocumentCenter/View/9687/Residential-Building--Additions--Building-Permit-Submittal-Requirements---revised",
           "read": "2026-10-11"
         },
-        "note": "Not verified; Texas statewide minimum for single-family is IRC Chapter 11 (2015 IECC basis per SECO) unless city adopted newer."
+        "note": "Revised residential checklist lists the 2015 Energy Code. Search-result extract only (direct fetch blocked on 2026-10-11)."
       },
       "stretchCode": {
         "value": false,
@@ -106,48 +131,48 @@
       }
     },
     "plumbing": {
-      "value": null,
-      "status": "Assumed",
+      "value": "IPC 2018",
+      "status": "Secondary",
       "source": {
-        "id": "midland-assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "midland-res-submittal",
+        "title": "City of Midland - Residential Buildings & Additions Building Permit Submittal Requirements (revised)",
+        "url": "https://www.midlandtexas.gov/DocumentCenter/View/9687/Residential-Building--Additions--Building-Permit-Submittal-Requirements---revised",
         "read": "2026-10-11"
       },
-      "note": "Not found: plumbing code edition (web search budget exhausted and direct page fetch blocked in research environment)."
+      "note": "2018 International Plumbing Code (separate ordinance, eff. 2019-07-01). Search-result extract only (direct fetch blocked on 2026-10-11)."
     },
     "electrical": {
-      "value": null,
-      "status": "Assumed",
+      "value": "NEC 2023 (with city amendments)",
+      "status": "Secondary",
       "source": {
-        "id": "midland-assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "midland-building-codes",
+        "title": "City of Midland - Building Codes (adopted codes page)",
+        "url": "https://www.midlandtexas.gov/1268/Building-Codes",
         "read": "2026-10-11"
       },
-      "note": "Not found: NEC edition (web search budget exhausted and direct page fetch blocked in research environment)."
+      "note": "Building Codes page and revised checklist list NEC 2023; 2019 list showed NEC 2017 (superseded). Search-result extract only (direct fetch blocked on 2026-10-11)."
     },
     "mechanical": {
-      "value": null,
-      "status": "Assumed",
+      "value": "IMC 2018",
+      "status": "Secondary",
       "source": {
-        "id": "midland-assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "midland-res-submittal",
+        "title": "City of Midland - Residential Buildings & Additions Building Permit Submittal Requirements (revised)",
+        "url": "https://www.midlandtexas.gov/DocumentCenter/View/9687/Residential-Building--Additions--Building-Permit-Submittal-Requirements---revised",
         "read": "2026-10-11"
       },
-      "note": "Not found: mechanical code (web search budget exhausted and direct page fetch blocked in research environment)."
+      "note": "Search-result extract only (direct fetch blocked on 2026-10-11)."
     },
     "fuelGas": {
-      "value": null,
-      "status": "Assumed",
+      "value": "IFGC 2018 (assumed with 2018 set)",
+      "status": "Secondary",
       "source": {
-        "id": "midland-assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "midland-codes-list-2019",
+        "title": "City of Midland - Current Building Codes List effective July 1, 2019",
+        "url": "https://www.midlandtexas.gov/DocumentCenter/View/4816/Current-Building-Codes-List",
         "read": "2026-10-11"
       },
-      "note": "Not found: fuel gas code (web search budget exhausted and direct page fetch blocked in research environment)."
+      "note": "Not individually confirmed in extract."
     },
     "fire": {
       "value": "No residential sprinkler mandate assumed",
@@ -184,15 +209,15 @@
       "note": "No local Class 4 roofing mandate found/verified. Area has very high hail frequency; Class 4 (UL 2218) shingles are an insurance-discount option, not a code rule as far as known."
     },
     "seismic": {
-      "value": "A",
+      "value": "SDC A (IRC map); note induced seismicity",
       "status": "Assumed",
       "source": {
         "id": "midland-assumed",
-        "title": "Assumed",
+        "title": "Assumed (researcher judgement)",
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Assumed SDC A (low-hazard area per IRC Fig R301.2(4)). Not verified locally."
+      "note": "Model-code SDC assumed A. Midland Basin has induced earthquakes from wastewater injection: M5.2 (USGS) Dec 2022 near Midland; 1,305 quakes in Midland area 2017-2023; activity moving NE toward Stanton/Big Spring; >340,000 M>=1 Permian-wide by Oct 2025 (Seismica, Marfa Public Radio). IRC design maps do not include induced hazard; USGS one-year induced models did."
     },
     "frostDepth": {
       "value": null,
@@ -210,115 +235,123 @@
   "zoning": {
     "hasZoning": {
       "value": true,
-      "status": "Assumed",
+      "status": "Secondary",
       "source": {
-        "id": "midland-assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "midland-zoning-code",
+        "title": "City of Midland - Zoning Ordinance (current zoning code PDF)",
+        "url": "https://www.midlandtexas.gov/DocumentCenter/View/2510/Current-Zoning-Code-Ordinance",
         "read": "2026-10-11"
       },
-      "note": "Texas home-rule city with zoning (general knowledge); district standards not retrieved."
+      "note": "City zoning ordinance (Code Title 11, Ch. 1)."
     },
     "typicalDistrict": {
-      "value": null,
-      "status": "Assumed",
+      "value": "SF-2 Single-Family Dwelling District (formerly 1F-2)",
+      "status": "Secondary",
       "source": {
-        "id": "midland-assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "midland-zoneomics-ch3",
+        "title": "Zoneomics copy of Midland, TX zoning ordinance chapter 3 (districts; equivalency table)",
+        "url": "https://www.zoneomics.com/code/midland-TX/chapter_3",
         "read": "2026-10-11"
       },
-      "note": "Not found: typical single-family district (web search budget exhausted and direct page fetch blocked in research environment)."
+      "note": "Ord. 9920 (2019-05-28) equivalency table renamed 1F-1/1F-2/1F-3 to SF-1/SF-2/SF-3 (secs. 11-1-3.06 to 3.08); SF-2 chosen as middle district - most common district not confirmed. Others: SF-1, SF-3, AE, PD."
     },
     "minLotSqFt": {
-      "value": null,
+      "value": 6000,
       "status": "Assumed",
       "source": {
         "id": "midland-assumed",
-        "title": "Assumed",
+        "title": "Assumed (researcher judgement)",
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: min lot size (web search budget exhausted and direct page fetch blocked in research environment)."
+      "unit": "sqft",
+      "note": "SF-2 dimensional table NOT found (5 searches). Third-party beta site lists a generic 'R-1': 6,000 sf lot, 25 ft front, 5 ft side, 10 ft rear, 35 ft height - not tied to a Midland district name; used only as weak support."
     },
     "minLotWidthFt": {
-      "value": null,
+      "value": 50,
       "status": "Assumed",
       "source": {
         "id": "midland-assumed",
-        "title": "Assumed",
+        "title": "Assumed (researcher judgement)",
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: min lot width (web search budget exhausted and direct page fetch blocked in research environment)."
+      "unit": "ft",
+      "note": "Not found; typical."
     },
     "minLotDepthFt": {
-      "value": null,
+      "value": 100,
       "status": "Assumed",
       "source": {
         "id": "midland-assumed",
-        "title": "Assumed",
+        "title": "Assumed (researcher judgement)",
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: min lot depth (web search budget exhausted and direct page fetch blocked in research environment)."
+      "unit": "ft",
+      "note": "Not found; typical."
     },
     "setbacksFt": {
       "front": {
-        "value": null,
+        "value": 25,
         "status": "Assumed",
         "source": {
           "id": "midland-assumed",
-          "title": "Assumed",
+          "title": "Assumed (researcher judgement)",
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Not found: front setback (web search budget exhausted and direct page fetch blocked in research environment)."
+        "unit": "ft",
+        "note": "SF-2 dimensional table NOT found (5 searches). Third-party beta site lists a generic 'R-1': 6,000 sf lot, 25 ft front, 5 ft side, 10 ft rear, 35 ft height - not tied to a Midland district name; used only as weak support."
       },
       "side": {
-        "value": null,
+        "value": 5,
         "status": "Assumed",
         "source": {
           "id": "midland-assumed",
-          "title": "Assumed",
+          "title": "Assumed (researcher judgement)",
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Not found: side setback (web search budget exhausted and direct page fetch blocked in research environment)."
+        "unit": "ft",
+        "note": "SF-2 dimensional table NOT found (5 searches). Third-party beta site lists a generic 'R-1': 6,000 sf lot, 25 ft front, 5 ft side, 10 ft rear, 35 ft height - not tied to a Midland district name; used only as weak support."
       },
       "streetSide": {
-        "value": null,
+        "value": 15,
         "status": "Assumed",
         "source": {
           "id": "midland-assumed",
-          "title": "Assumed",
+          "title": "Assumed (researcher judgement)",
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Not found: streetSide setback (web search budget exhausted and direct page fetch blocked in research environment)."
+        "unit": "ft",
+        "note": "Not found; typical Texas value."
       },
       "rear": {
-        "value": null,
+        "value": 10,
         "status": "Assumed",
         "source": {
           "id": "midland-assumed",
-          "title": "Assumed",
+          "title": "Assumed (researcher judgement)",
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Not found: rear setback (web search budget exhausted and direct page fetch blocked in research environment)."
+        "unit": "ft",
+        "note": "SF-2 dimensional table NOT found (5 searches). Third-party beta site lists a generic 'R-1': 6,000 sf lot, 25 ft front, 5 ft side, 10 ft rear, 35 ft height - not tied to a Midland district name; used only as weak support. Rear may be 20-25 ft in the actual code."
       }
     },
     "maxHeightFt": {
-      "value": null,
+      "value": 35,
       "status": "Assumed",
       "source": {
         "id": "midland-assumed",
-        "title": "Assumed",
+        "title": "Assumed (researcher judgement)",
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: max height (web search budget exhausted and direct page fetch blocked in research environment)."
+      "unit": "ft",
+      "note": "SF-2 dimensional table NOT found (5 searches). Third-party beta site lists a generic 'R-1': 6,000 sf lot, 25 ft front, 5 ft side, 10 ft rear, 35 ft height - not tied to a Midland district name; used only as weak support."
     },
     "maxStories": {
       "value": null,
@@ -398,15 +431,15 @@
       "note": "Not found: ADU rules (web search budget exhausted and direct page fetch blocked in research environment)."
     },
     "masonry": {
-      "value": "None",
+      "value": "No enforceable masonry % on new single-family (Gov't Code ch. 3000 preemption)",
       "status": "Assumed",
       "source": {
         "id": "midland-assumed",
-        "title": "Assumed",
+        "title": "Assumed (researcher judgement)",
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "No masonry mandate assumed; Texas Gov. Code ch. 3000 limits city building-material mandates."
+      "note": "State law bars cities from mandating building materials beyond national model codes for residential; no Midland rule searched."
     },
     "trees": {
       "value": null,
@@ -419,33 +452,75 @@
       },
       "note": "Not found: tree rules (web search budget exhausted and direct page fetch blocked in research environment)."
     },
-    "other": []
+    "other": [
+      {
+        "value": "Property must be platted and zoned for residential use before a residential permit is issued.",
+        "status": "Secondary",
+        "source": {
+          "id": "midland-building-permits",
+          "title": "City of Midland - Building Permits",
+          "url": "https://www.midlandtexas.gov/1269/Building-Permits",
+          "read": "2026-10-11"
+        },
+        "note": "Search-result extract only (direct fetch blocked on 2026-10-11)."
+      }
+    ]
   },
   "process": {
     "steps": [
       {
-        "value": "Plan submittal, review, permit, inspections, CO",
-        "status": "Assumed",
+        "value": "Confirm plat + residential zoning; floodplain status (pre-construction floodplain certificate if in SFHA)",
+        "status": "Secondary",
         "source": {
-          "id": "midland-assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "midland-building-permits",
+          "title": "City of Midland - Building Permits",
+          "url": "https://www.midlandtexas.gov/1269/Building-Permits",
+          "read": "2026-10-11"
+        }
+      },
+      {
+        "value": "Email application + 25% of permit fee + PDF plan set (site plan, architectural, structural, electrical, mechanical, Manual J, energy compliance) to permitrequests@midlandtexas.gov; balance 75% at approval; bonded contractor required",
+        "status": "Secondary",
+        "source": {
+          "id": "midland-res-submittal",
+          "title": "City of Midland - Residential Buildings & Additions Building Permit Submittal Requirements (revised)",
+          "url": "https://www.midlandtexas.gov/DocumentCenter/View/9687/Residential-Building--Additions--Building-Permit-Submittal-Requirements---revised",
           "read": "2026-10-11"
         },
-        "note": "Generic Texas city process assumed."
+        "note": "Search-result extract only (direct fetch blocked on 2026-10-11)."
+      },
+      {
+        "value": "Review typically 5-7 business days",
+        "status": "Secondary",
+        "source": {
+          "id": "midland-building-permits",
+          "title": "City of Midland - Building Permits",
+          "url": "https://www.midlandtexas.gov/1269/Building-Permits",
+          "read": "2026-10-11"
+        }
+      },
+      {
+        "value": "Inspections; elevation certificate before final if in floodplain; CO",
+        "status": "Secondary",
+        "source": {
+          "id": "midland-flood-submittal",
+          "title": "City of Midland - Floodplain Submittal Requirements",
+          "url": "https://midlandtexas.gov/DocumentCenter/View/4666/Floodplain-Submittal-Requirements",
+          "read": "2026-10-11"
+        }
       }
     ],
     "sealsRequired": [
       {
-        "value": "Engineer seal for engineered foundation/structure",
-        "status": "Assumed",
+        "value": "Texas architect/engineer stamps only where required (no blanket residential foundation seal rule found); floodplain pre-construction certificate sealed by Texas RPLS/PE/RA",
+        "status": "Secondary",
         "source": {
-          "id": "midland-assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "midland-res-submittal",
+          "title": "City of Midland - Residential Buildings & Additions Building Permit Submittal Requirements (revised)",
+          "url": "https://www.midlandtexas.gov/DocumentCenter/View/9687/Residential-Building--Additions--Building-Permit-Submittal-Requirements---revised",
           "read": "2026-10-11"
         },
-        "note": "Prescriptive IRC plans generally need no seal in Texas; engineered foundations do."
+        "note": "Search-result extract only (direct fetch blocked on 2026-10-11)."
       }
     ],
     "inspections": [
@@ -462,15 +537,16 @@
       }
     ],
     "reviewDays": {
-      "value": null,
-      "status": "Assumed",
+      "value": 7,
+      "status": "Secondary",
       "source": {
-        "id": "midland-assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "midland-building-permits",
+        "title": "City of Midland - Building Permits",
+        "url": "https://www.midlandtexas.gov/1269/Building-Permits",
         "read": "2026-10-11"
       },
-      "note": "Not found: review time (web search budget exhausted and direct page fetch blocked in research environment)."
+      "unit": "business days",
+      "note": "About 5-7 business days per search extract."
     }
   },
   "fees": {
@@ -479,22 +555,23 @@
       "status": "Assumed",
       "source": {
         "id": "midland-assumed",
-        "title": "Assumed",
+        "title": "Assumed (researcher judgement)",
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: residential permit fee formula (note: Texas HB 852 (2019) bars value-based residential fees) (web search budget exhausted and direct page fetch blocked in research environment)."
+      "note": "Valuation-based 2019 Permit Fee Schedule exists (eff. 2019-05-01, midlandtexas.gov DocumentCenter/View/386) but values not in extracts; 25% paid at submittal."
     },
     "workedExample2400sqft": {
       "value": null,
       "status": "Assumed",
       "source": {
         "id": "midland-assumed",
-        "title": "Assumed",
+        "title": "Assumed (researcher judgement)",
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: fee schedule, so no worked example (web search budget exhausted and direct page fetch blocked in research environment)."
+      "unit": "USD",
+      "note": "Not computable: fee table values not read."
     },
     "planReview": {
       "value": null,
@@ -510,14 +587,15 @@
     "impactFees": [
       {
         "value": null,
-        "status": "Assumed",
+        "status": "Secondary",
         "source": {
-          "id": "midland-assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "midland-impact-fees",
+          "title": "City of Midland - Impact Fees",
+          "url": "https://www.midlandtexas.gov/1203/Impact-Fees",
           "read": "2026-10-11"
         },
-        "note": "Not found: impact fees (web search budget exhausted and direct page fetch blocked in research environment)."
+        "unit": "USD",
+        "note": "Water, wastewater and roadway impact fees under Ord. 9960, effective 2019-10-01, collected at building permit; water/ww by meter size, uniform across service areas; residential had 25% credit for 5 years (2022 report). Per-meter dollar amounts not found."
       }
     ],
     "tapFees": [
@@ -536,17 +614,18 @@
   },
   "cost": {
     "factor": {
-      "value": null,
-      "status": "Assumed",
+      "value": 0.95,
+      "unit": "x US national",
+      "status": "Secondary",
       "source": {
-        "id": "cost-method",
-        "title": "See README cost method (filled by cost agent)",
-        "url": "",
+        "id": "cost-factors",
+        "title": "Keystone metro cost factor (BLS OEWS wages, see README cost method)",
+        "url": "https://www.onetonline.org/link/localwages/47-2031.00?st=TX",
         "read": "2026-10-11"
       },
-      "note": "PENDING_COST_AGENT"
+      "note": "MSA 33260 Midland, TX: labour index L=0.881, materials M=1.0. 5/5 trades (OEWS May 2024 via O*NET Texas local-wages search extracts). Ratios to US: 47-2031 0.813; 47-2111 0.952; 47-2152 0.884; 47-2061 0.874; 49-9021 0.951. L = 0.881; factor = 0.40*0.881 + 0.60*1.00 = 0.95. M=1.00 (default, no public citable reason to adjust)."
     },
-    "method": "PENDING_COST_AGENT",
+    "method": "Factor = 0.40*L + 0.60*M, rounded to 2 decimals. L = weighted mean of (metro annual median wage / US national annual median wage) for SOC 47-2031 Carpenters (0.30), 47-2111 Electricians (0.20), 47-2152 Plumbers/Pipefitters/Steamfitters (0.20), 47-2061 Construction Laborers (0.20), 49-9021 HVAC Mechanics/Installers (0.10), from BLS OEWS; weights renormalised over occupations available for the MSA. M = materials index, 1.00 for all Texas metros (no public citable reason to adjust); qualitative materials notes per MSA. Wave 2 (2026-10-11): all five trades retrieved from O*NET Texas local-wages pages (OEWS May 2024) via search extracts (Secondary); HVAC missing for 28660, 47380, 46340, 17780 (weights renormalised there). provisional removed for every MSA with >=4 trades.",
     "perSqFtMarket": {
       "value": null,
       "status": "Assumed",
@@ -570,34 +649,130 @@
           "read": "2026-10-11"
         },
         "note": "General knowledge: hail-resistant roofing, wind, expansive clay/caliche soils on the High Plains / Permian Basin labor market."
+      },
+      {
+        "value": "Induced-seismicity awareness (Midland Basin): consider crack-tolerant slab/finishes; not a code requirement",
+        "status": "Secondary",
+        "source": {
+          "id": "midland-seismica-permian",
+          "title": "Seismica article - seismicity of the greater Permian Basin (through Oct 2025)",
+          "url": "https://seismica.library.mcgill.ca/article/download/1920/3918/37458",
+          "read": "2026-10-11"
+        }
       }
     ]
   },
   "flood": {
-    "value": null,
-    "status": "Assumed",
+    "value": "Inside city limits finished floor >= 1 ft above BFE (City Ordinance No. 7115); ETJ/county at or above BFE. Sealed pre-construction floodplain certificate before permit; elevation certificate before final. Where FEMA has no BFE, an engineering study must set it.",
+    "status": "Secondary",
     "source": {
-      "id": "midland-assumed",
-      "title": "Assumed",
-      "url": "",
+      "id": "midland-flood-precon",
+      "title": "City of Midland - Floodplain Compliance Pre-Construction Certificate",
+      "url": "https://www.midlandtexas.gov/DocumentCenter/View/1868/Floodplain-PreCon-Compliance-Form-1311",
       "read": "2026-10-11"
     },
-    "note": "Not found: floodplain ordinance freeboard (Playa lake areas may be mapped SFHA) (web search budget exhausted and direct page fetch blocked in research environment)."
+    "note": "Search-result extract only (direct fetch blocked on 2026-10-11)."
   },
   "engineChanges": [
+    {
+      "id": "midland-code-edition",
+      "ruleType": "code-edition-by-city",
+      "area": "plan",
+      "change": "Check plans against 2018 IRC + 2015 IECC + 2018 IPC/IMC + NEC 2023 (Midland amendments), NOT the 2021 IRC model",
+      "priority": "must",
+      "params": {
+        "irc": "2018 IRC",
+        "energy": "2015 IECC",
+        "plumbing": "IPC 2018",
+        "electrical": "NEC 2023",
+        "editionStatus": "Secondary"
+      },
+      "source": {
+        "id": "midland-building-codes",
+        "title": "City of Midland - Building Codes (adopted codes page)",
+        "url": "https://www.midlandtexas.gov/1268/Building-Codes",
+        "read": "2026-10-11"
+      }
+    },
     {
       "id": "midland-cz",
       "ruleType": "climate-zone-envelope",
       "area": "envelope",
-      "change": "Use climate zone 3B envelope tables",
+      "change": "Use climate zone 3B envelope tables of the 2015 IECC",
       "priority": "must",
       "params": {
-        "climateZone": "3B"
+        "climateZone": "3B",
+        "energyCode": "2015 IECC"
       },
       "source": {
-        "id": "iecc-2021-r301-1-assumed",
-        "title": "Assumed: 2021 IECC Table R301.1 county climate zones (not fetched)",
+        "id": "midland-assumed",
+        "title": "Assumed: IECC Table R301.1 county list",
         "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "midland-manual-j",
+      "ruleType": "energy-compliance-doc",
+      "area": "drawings",
+      "change": "Include ACCA Manual J (or RS summary) and energy compliance statement in permit set",
+      "priority": "must",
+      "params": {
+        "manualJ": true,
+        "energyStatement": true
+      },
+      "source": {
+        "id": "midland-res-submittal",
+        "title": "City of Midland - Residential Buildings & Additions Building Permit Submittal Requirements (revised)",
+        "url": "https://www.midlandtexas.gov/DocumentCenter/View/9687/Residential-Building--Additions--Building-Permit-Submittal-Requirements---revised",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "midland-setbacks",
+      "ruleType": "setback-by-district",
+      "area": "setbacks",
+      "change": "SF-2 (assumed): front 25 / side 5 / street side 15 / rear 10 ft - ASSUMED, ask user/plat",
+      "priority": "must",
+      "params": {
+        "district": "SF-2",
+        "assumed": true,
+        "frontFt": 25,
+        "sideFt": 5,
+        "streetSideFt": 15,
+        "rearFt": 10
+      },
+      "source": {
+        "id": "midland-assumed",
+        "title": "Assumed (researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "midland-survey-district",
+      "ruleType": "survey-input-district",
+      "area": "survey",
+      "change": "Ask user for zoning district (SF-1/SF-2/SF-3, formerly 1F-1/1F-2/1F-3) and plat building lines",
+      "priority": "must",
+      "params": {
+        "districts": [
+          "SF-1",
+          "SF-2",
+          "SF-3",
+          "AE",
+          "PD"
+        ],
+        "legacyNames": {
+          "1F-1": "SF-1",
+          "1F-2": "SF-2",
+          "1F-3": "SF-3"
+        }
+      },
+      "source": {
+        "id": "midland-zoneomics-ch3",
+        "title": "Zoneomics copy of Midland, TX zoning ordinance chapter 3 (districts; equivalency table)",
+        "url": "https://www.zoneomics.com/code/midland-TX/chapter_3",
         "read": "2026-10-11"
       }
     },
@@ -612,54 +787,111 @@
         "verifyLocal": true
       },
       "source": {
-        "id": "irc-2021-r403-1-4-assumed",
-        "title": "Assumed: 2021 IRC R403.1.4 minimum footing depth 12 in (model code, not fetched)",
+        "id": "midland-assumed",
+        "title": "Assumed: IRC R403.1.4 model minimum",
         "url": "",
         "read": "2026-10-11"
       }
     },
     {
-      "id": "midland-survey-district",
-      "ruleType": "survey-input-district",
+      "id": "midland-flood",
+      "ruleType": "flood-elevation",
       "area": "survey",
-      "change": "Ask user for zoning district and setbacks (not loaded)",
+      "change": "If in SFHA inside city: finished floor >= BFE + 1 ft; sealed pre-construction certificate; elevation certificate before final",
       "priority": "must",
       "params": {
-        "requireUserSetbacks": true
+        "freeboardFt": 1,
+        "ordinance": "7115"
       },
       "source": {
-        "id": "midland-assumed",
-        "title": "Assumed: data gap",
-        "url": "",
+        "id": "midland-flood-precon",
+        "title": "City of Midland - Floodplain Compliance Pre-Construction Certificate",
+        "url": "https://www.midlandtexas.gov/DocumentCenter/View/1868/Floodplain-PreCon-Compliance-Form-1311",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "midland-impact-fee",
+      "ruleType": "impact-fee-estimate",
+      "area": "estimate",
+      "change": "Add water + wastewater (by meter size) + roadway impact fee line items; amounts unknown",
+      "priority": "should",
+      "params": {
+        "amountUSD": null,
+        "basis": "meter size",
+        "ordinance": "9960"
+      },
+      "source": {
+        "id": "midland-impact-fees",
+        "title": "City of Midland - Impact Fees",
+        "url": "https://www.midlandtexas.gov/1203/Impact-Fees",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "midland-seismic-note",
+      "ruleType": "seismic-category",
+      "area": "structure",
+      "change": "Keep SDC A per IRC, but show advisory about induced earthquakes (M5.2 Dec 2022) - suggest crack control joints/flexible connections",
+      "priority": "nice",
+      "params": {
+        "sdc": "A",
+        "inducedSeismicityAdvisory": true
+      },
+      "source": {
+        "id": "midland-seismica-permian",
+        "title": "Seismica article - seismicity of the greater Permian Basin (through Oct 2025)",
+        "url": "https://seismica.library.mcgill.ca/article/download/1920/3918/37458",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "midland-electrical",
+      "ruleType": "electrical-code-edition",
+      "area": "plan",
+      "change": "Electrical to NEC 2023",
+      "priority": "should",
+      "params": {
+        "nec": "2023"
+      },
+      "source": {
+        "id": "midland-building-codes",
+        "title": "City of Midland - Building Codes (adopted codes page)",
+        "url": "https://www.midlandtexas.gov/1268/Building-Codes",
         "read": "2026-10-11"
       }
     }
   ],
-  "plainLanguage": "Midland is in climate zone 3B (hot, dry). We could not confirm the city's adopted building code edition, zoning setbacks or fees, so those must be checked with the city before final drawings. Footings should be at least 12 inches below grade. Hail and wind are the main weather risks. Construction labor costs swing with the oil economy.",
+  "plainLanguage": "Midland still uses the 2018 residential building code and the 2015 energy code (with local changes), but the newer 2023 electrical code. Midland is in a hot, dry climate zone (3B). Your permit set must include a Manual J heating/cooling load calculation and an energy compliance statement. Single-family zones are SF-1, SF-2 and SF-3 (old names 1F-1 to 1F-3); we could not read their setbacks, so check your plat and the city. In a floodplain inside the city, the floor must be at least 1 ft above the 100-year flood level. Water, sewer and road impact fees are charged at permit time based on meter size. The area has had small to moderate oil-field-related earthquakes (largest about magnitude 5.2 in 2022); building codes do not require extra design, but crack-tolerant details are sensible.",
   "openQuestions": [
-    "Adopted IRC edition and local amendments.",
-    "Typical district and setbacks.",
-    "Fees and impact fees.",
-    "Induced seismicity in Permian Basin: still SDC A for IRC?",
-    "Confirm Martin County portion of city limits."
+    "SF-1/SF-2/SF-3 dimensional standards (zoning PDF not readable)",
+    "Has Midland adopted 2021/2024 IRC since 2019?",
+    "Permit fee table values (2019 schedule) and plan review",
+    "Impact fee dollar amounts per 5/8 or 3/4 in meter and roadway per home",
+    "Text of Midland IRC amendments",
+    "Confirm Martin County portion of city limits"
   ],
   "notFound": [
-    "Nearly all city-specific values: web search budget exhausted (shared limit) and direct page fetch blocked in research environment."
+    "Zoning setbacks/lot/height for SF districts",
+    "Permit fee values",
+    "Impact fee amounts",
+    "Ordinance numbers for 2018 code adoption",
+    "Frost depth"
   ],
   "comparison": {
-    "irc": "not found",
-    "energy": "IRC Ch.11 (unverified)",
-    "plumbing": "not found",
-    "district": "not found",
-    "setbacks": "not found",
-    "maxHeight": "not found",
+    "irc": "2018 IRC",
+    "energy": "2015 IECC",
+    "plumbing": "IPC 2018",
+    "district": "SF-2 (assumed)",
+    "setbacks": "25/5/10 (assumed)",
+    "maxHeight": "35 ft (assumed)",
     "coverageFar": "not found",
     "masonry": "none (assumed)",
-    "engFoundation": "not found",
+    "engFoundation": "not required (not found)",
     "windstorm": "no",
-    "flood": "not found",
+    "flood": "1 ft freeboard",
     "permitFeeExample": "not found",
-    "impactFees": "not found",
-    "costFactor": "PENDING"
+    "impactFees": "w+ww+roadway (amounts not found)",
+    "costFactor": "0.95"
   }
 }

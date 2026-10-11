@@ -619,17 +619,18 @@
   },
   "cost": {
     "factor": {
-      "value": null,
-      "status": "Assumed",
+      "value": 0.95,
+      "unit": "x US national",
+      "status": "Secondary",
       "source": {
-        "id": "cost-method",
-        "title": "See README cost method (filled by cost agent)",
-        "url": "",
+        "id": "cost-factors",
+        "title": "Keystone metro cost factor (BLS OEWS wages, see README cost method)",
+        "url": "https://www.onetonline.org/link/localwages/47-2031.00?st=TX",
         "read": "2026-10-11"
       },
-      "note": "PENDING_COST_AGENT"
+      "note": "MSA 19100 Dallas-Fort Worth-Arlington, TX: labour index L=0.885, materials M=1.0. 5/5 trades (OEWS May 2024 via O*NET Texas local-wages search extracts). Ratios to US: 47-2031 0.816; 47-2111 0.926; 47-2152 0.959; 47-2061 0.835; 49-9021 0.964. L = 0.885; factor = 0.40*0.885 + 0.60*1.00 = 0.95. M=1.00 (default, no public citable reason to adjust)."
     },
-    "method": "PENDING_COST_AGENT",
+    "method": "Factor = 0.40*L + 0.60*M, rounded to 2 decimals. L = weighted mean of (metro annual median wage / US national annual median wage) for SOC 47-2031 Carpenters (0.30), 47-2111 Electricians (0.20), 47-2152 Plumbers/Pipefitters/Steamfitters (0.20), 47-2061 Construction Laborers (0.20), 49-9021 HVAC Mechanics/Installers (0.10), from BLS OEWS; weights renormalised over occupations available for the MSA. M = materials index, 1.00 for all Texas metros (no public citable reason to adjust); qualitative materials notes per MSA. Wave 2 (2026-10-11): all five trades retrieved from O*NET Texas local-wages pages (OEWS May 2024) via search extracts (Secondary); HVAC missing for 28660, 47380, 46340, 17780 (weights renormalised there). provisional removed for every MSA with >=4 trades.",
     "perSqFtMarket": {
       "value": null,
       "status": "Assumed",
@@ -876,6 +877,6 @@
     "flood": "2 ft (provisional)",
     "permitFeeExample": "~$1,477",
     "impactFees": "$2,693 water+ww (+ roadway)",
-    "costFactor": "PENDING"
+    "costFactor": "0.95"
   }
 }

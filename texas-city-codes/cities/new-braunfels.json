@@ -12,15 +12,15 @@
     "blsCode": "41700"
   },
   "population": {
-    "value": 116000,
-    "status": "Assumed",
+    "value": 110958,
+    "status": "Secondary",
     "source": {
-      "id": "new-braunfels-assumed",
-      "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-      "url": "",
+      "id": "new-braunfels-census-qf",
+      "title": "U.S. Census Bureau QuickFacts - New Braunfels city, Texas",
+      "url": "https://www.census.gov/quickfacts/newbraunfelscitytexas",
       "read": "2026-10-11"
     },
-    "note": "Approximate Census Vintage 2024-era estimate from researcher memory; verify on Census QuickFacts."
+    "note": "Census Vintage 2023 (July 1, 2023) estimate; QuickFacts showed V2024 city cell as NA in search extract. April 2020 base 90,408. Search-result extract of the cited page only (direct fetch blocked by DNS/proxy on 2026-10-11)."
   },
   "zipCodesOrBoundary": {
     "value": "78130, 78132 (part 78133, 78163)",
@@ -38,11 +38,11 @@
     "status": "Assumed",
     "source": {
       "id": "new-braunfels-assumed",
-      "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+      "title": "Assumed: 2021 IECC Table R301.1 county list (not re-read)",
       "url": "",
       "read": "2026-10-11"
     },
-    "note": "2021 IECC Table R301.1 county list places this county in Climate Zone 2A (hot-humid) per researcher knowledge; table not re-read this session."
+    "note": "Comal and Guadalupe Counties are listed in Climate Zone 2A in the IECC county table per researcher knowledge; table not fetched."
   },
   "windstormCounty": {
     "value": false,
@@ -58,54 +58,65 @@
   "codes": {
     "irc": {
       "edition": {
-        "value": "2021 IRC (unverified)",
-        "status": "Assumed",
+        "value": "2021 IRC (with local amendments)",
+        "status": "Secondary",
         "source": {
-          "id": "new-braunfels-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-          "url": "",
+          "id": "new-braunfels-2021-icc-adoption",
+          "title": "City of New Braunfels - 2021 ICC Code Adoption (city page)",
+          "url": "https://newbraunfels.gov/3495/2021-ICC-Code-Adoption",
           "read": "2026-10-11"
         },
-        "note": "Most Central Texas cities adopted the 2021 I-codes in 2021-2023; this city's adoption ordinance was not reached. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+        "note": "Council approved amending Code Chapters 14 and 54 on 2023-10-09 to adopt the 2021 ICC codes, effective 2023-10-23; adopted list includes the 2021 IRC. Residential checklist also says homes must comply with 2021 IRC with city amendments. Search-result extract of the cited page only (direct fetch blocked by DNS/proxy on 2026-10-11)."
       },
       "ordinance": {
-        "value": null,
-        "status": "Assumed",
+        "value": "Amendment of Code Chapters 14 and 54 approved 2023-10-09, effective 2023-10-23 (ordinance number not found)",
+        "status": "Secondary",
         "source": {
-          "id": "new-braunfels-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-          "url": "",
+          "id": "new-braunfels-2021-icc-adoption",
+          "title": "City of New Braunfels - 2021 ICC Code Adoption (city page)",
+          "url": "https://newbraunfels.gov/3495/2021-ICC-Code-Adoption",
           "read": "2026-10-11"
         },
-        "note": "Not found: building code adoption ordinance number. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+        "note": "Search-result extract of the cited page only (direct fetch blocked by DNS/proxy on 2026-10-11)."
       },
       "amendments": [
         {
+          "topic": "foundation",
+          "summary": "Foundation plans signed and sealed by a Texas-licensed engineer required for buildings over 500 sq ft (also engineered wall-bracing plans); engineer letter accepting structural design responsibility, based on geotechnical data.",
+          "section": "Residential New Building Application Checklist",
+          "status": "Secondary",
+          "source": {
+            "id": "new-braunfels-res-checklist-2021",
+            "title": "City of New Braunfels - Residential New Building Application Checklist (Jun 2021)",
+            "url": "https://newbraunfels.gov/DocumentCenter/View/22939/Residential-New-Building-Application-Checklist_Jun2021",
+            "read": "2026-10-11"
+          }
+        },
+        {
           "topic": "other",
-          "summary": "Local IRC amendments not reviewed; Texas cities must adopt local IRC amendments by ordinance after a public hearing (LGC 214.212/214.216).",
+          "summary": "Local amendments to the 2021 codes are posted on the city page but their text was not read; LGC 214.212 requires hearing + ordinance for local IRC amendments.",
           "section": "",
           "status": "Secondary",
           "source": {
-            "id": "tx-lgc-214-212",
-            "title": "Texas Local Government Code Sec. 214.212 - International Residential Code (municipal residential code)",
-            "url": "https://texas.public.law/statutes/tex._local_gov't_code_section_214.212",
-            "read": "2026-10-11",
-            "section": "214.212"
+            "id": "new-braunfels-2021-icc-adoption",
+            "title": "City of New Braunfels - 2021 ICC Code Adoption (city page)",
+            "url": "https://newbraunfels.gov/3495/2021-ICC-Code-Adoption",
+            "read": "2026-10-11"
           }
         }
       ]
     },
     "energy": {
       "edition": {
-        "value": "2021 IECC / IRC Ch. 11 (unverified)",
-        "status": "Assumed",
+        "value": "2021 IECC",
+        "status": "Secondary",
         "source": {
-          "id": "new-braunfels-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-          "url": "",
+          "id": "new-braunfels-2021-icc-adoption",
+          "title": "City of New Braunfels - 2021 ICC Code Adoption (city page)",
+          "url": "https://newbraunfels.gov/3495/2021-ICC-Code-Adoption",
           "read": "2026-10-11"
         },
-        "note": "Assumed to follow the IRC edition; Texas state minimum energy code applies regardless (Health & Safety Code Ch. 388). Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+        "note": "2021 Energy Conservation Code listed among codes adopted effective 2023-10-23. Search-result extract of the cited page only (direct fetch blocked by DNS/proxy on 2026-10-11)."
       },
       "stretchCode": {
         "value": "none known",
@@ -117,51 +128,62 @@
           "read": "2026-10-11"
         },
         "note": "No municipal stretch code known for this city"
+      },
+      "ordinance": {
+        "value": "Same 2023 Chapter 14/54 amendment",
+        "status": "Secondary",
+        "source": {
+          "id": "new-braunfels-2021-icc-adoption",
+          "title": "City of New Braunfels - 2021 ICC Code Adoption (city page)",
+          "url": "https://newbraunfels.gov/3495/2021-ICC-Code-Adoption",
+          "read": "2026-10-11"
+        },
+        "note": "Search-result extract of the cited page only (direct fetch blocked by DNS/proxy on 2026-10-11)."
       }
     },
     "plumbing": {
-      "value": "IPC 2021 (unverified)",
-      "status": "Assumed",
+      "value": "IPC 2021",
+      "status": "Secondary",
       "source": {
-        "id": "new-braunfels-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "new-braunfels-2021-icc-adoption",
+        "title": "City of New Braunfels - 2021 ICC Code Adoption (city page)",
+        "url": "https://newbraunfels.gov/3495/2021-ICC-Code-Adoption",
         "read": "2026-10-11"
       },
-      "note": "Most Central Texas suburbs adopt the IPC; UPC is possible under Texas law. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      "note": "2021 (International) Plumbing Code listed in adopted set. Search-result extract of the cited page only (direct fetch blocked by DNS/proxy on 2026-10-11)."
     },
     "electrical": {
-      "value": "NEC 2020 or 2023 (unverified)",
-      "status": "Assumed",
+      "value": "NEC 2020",
+      "status": "Secondary",
       "source": {
-        "id": "new-braunfels-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "new-braunfels-2021-icc-adoption",
+        "title": "City of New Braunfels - 2021 ICC Code Adoption (city page)",
+        "url": "https://newbraunfels.gov/3495/2021-ICC-Code-Adoption",
         "read": "2026-10-11"
       },
-      "note": "TDLR-adopted NEC applies where no local edition; city edition not read. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      "note": "2020 National Electrical Code listed in adopted set. Search-result extract of the cited page only (direct fetch blocked by DNS/proxy on 2026-10-11)."
     },
     "mechanical": {
-      "value": "IMC 2021 (unverified)",
-      "status": "Assumed",
+      "value": "IMC 2021 (assumed part of 2021 ICC set)",
+      "status": "Secondary",
       "source": {
-        "id": "new-braunfels-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "new-braunfels-2021-icc-adoption",
+        "title": "City of New Braunfels - 2021 ICC Code Adoption (city page)",
+        "url": "https://newbraunfels.gov/3495/2021-ICC-Code-Adoption",
         "read": "2026-10-11"
       },
-      "note": "Assumed to match IRC cycle"
+      "note": "City adopted the 2021 ICC family; IMC not individually confirmed in extract."
     },
     "fuelGas": {
-      "value": "IFGC 2021 (unverified)",
-      "status": "Assumed",
+      "value": "IFGC 2021 (assumed part of 2021 ICC set)",
+      "status": "Secondary",
       "source": {
-        "id": "new-braunfels-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "new-braunfels-2021-icc-adoption",
+        "title": "City of New Braunfels - 2021 ICC Code Adoption (city page)",
+        "url": "https://newbraunfels.gov/3495/2021-ICC-Code-Adoption",
         "read": "2026-10-11"
       },
-      "note": "Assumed to match IRC cycle"
+      "note": "Not individually confirmed in extract."
     },
     "fire": {
       "value": "IFC 2021 (unverified); no one/two-family sprinkler mandate known",
@@ -224,61 +246,61 @@
   "zoning": {
     "hasZoning": {
       "value": true,
-      "status": "Assumed",
+      "status": "Secondary",
       "source": {
-        "id": "new-braunfels-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "new-braunfels-municode-ch144",
+        "title": "New Braunfels Code of Ordinances Chapter 144 - Zoning (Municode)",
+        "url": "https://library.municode.com/tx/new_braunfels/codes/code_of_ordinances?nodeId=PTIICOOR_CH144ZO",
         "read": "2026-10-11"
       },
-      "note": "City is known to have zoning (UDC); text not read."
+      "note": "Chapter 144 zones the entire area of the city limits. A consolidated Land Development Ordinance (LDO) was in draft 2023-2024; adoption not confirmed."
     },
     "typicalDistrict": {
-      "value": "R-1A-6.6 (Single-family)",
-      "status": "Assumed",
+      "value": "R-1A-6.6 (Single-family, 6,600 sf lots)",
+      "status": "Secondary",
       "source": {
-        "id": "new-braunfels-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "new-braunfels-code-assessment",
+        "title": "New Braunfels Land Development Ordinance - Code Assessment Public Draft",
+        "url": "https://www.newbraunfels.gov/DocumentCenter/View/24609/NBTX---Code-Assessment-Public-Draft---final",
         "read": "2026-10-11"
       },
-      "note": "Researcher judgement of the most common detached single-family district; others: R-1, R-1A-8, R-1A-12, PD/MU-B planned districts. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      "note": "Code assessment: standard single-family lot is 6,600 sf (7,000 sf corner); R-1A-6.6 is single-family only (Community Impact). Others: R-1, R-1A-8, R-1A-12, R-1A-5.5 (Ord. 2020-27), R-1A-4 small-lot (Ord. 2020-28), R-2, and many PD/MU districts. LDO rewrite may rename districts."
     },
     "minLotSqFt": {
       "value": 6600,
-      "status": "Assumed",
+      "status": "Secondary",
       "source": {
-        "id": "new-braunfels-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "new-braunfels-code-assessment",
+        "title": "New Braunfels Land Development Ordinance - Code Assessment Public Draft",
+        "url": "https://www.newbraunfels.gov/DocumentCenter/View/24609/NBTX---Code-Assessment-Public-Draft---final",
         "read": "2026-10-11"
       },
       "unit": "sqft",
-      "note": "Typical value for this district from researcher memory; NOT verified. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      "note": "6,600 sf interior / 7,000 sf corner per code assessment extract. Search-result extract of the cited page only (direct fetch blocked by DNS/proxy on 2026-10-11)."
     },
     "minLotWidthFt": {
       "value": 60,
       "status": "Assumed",
       "source": {
         "id": "new-braunfels-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "title": "Assumed (researcher judgement)",
         "url": "",
         "read": "2026-10-11"
       },
       "unit": "ft",
-      "note": "Typical value; NOT verified."
+      "note": "Not found in searches; typical value. Draft LDO notes R-1A-4 allows 40 ft width with alley vs 45 ft."
     },
     "minLotDepthFt": {
       "value": 100,
       "status": "Assumed",
       "source": {
         "id": "new-braunfels-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "title": "Assumed (researcher judgement)",
         "url": "",
         "read": "2026-10-11"
       },
       "unit": "ft",
-      "note": "Typical value; NOT verified."
+      "note": "Not found; typical value."
     },
     "setbacksFt": {
       "front": {
@@ -286,48 +308,48 @@
         "status": "Assumed",
         "source": {
           "id": "new-braunfels-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "title": "Assumed (researcher judgement)",
           "url": "",
           "read": "2026-10-11"
         },
         "unit": "ft",
-        "note": "Typical value for this district from researcher memory; NOT verified against the UDC. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+        "note": "R-1A-6.6 setback table NOT found (4 searches). Third-party guide says NB single-family front setbacks are typically 20-25 ft and sides 5-7.5 ft; value kept as Assumed."
       },
       "side": {
         "value": 5,
         "status": "Assumed",
         "source": {
           "id": "new-braunfels-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "title": "Assumed (researcher judgement)",
           "url": "",
           "read": "2026-10-11"
         },
         "unit": "ft",
-        "note": "Typical value for this district from researcher memory; NOT verified against the UDC. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+        "note": "R-1A-6.6 setback table NOT found (4 searches). Third-party guide says NB single-family front setbacks are typically 20-25 ft and sides 5-7.5 ft; value kept as Assumed."
       },
       "streetSide": {
         "value": 15,
         "status": "Assumed",
         "source": {
           "id": "new-braunfels-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "title": "Assumed (researcher judgement)",
           "url": "",
           "read": "2026-10-11"
         },
         "unit": "ft",
-        "note": "Typical value for this district from researcher memory; NOT verified against the UDC. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+        "note": "R-1A-6.6 setback table NOT found (4 searches). Third-party guide says NB single-family front setbacks are typically 20-25 ft and sides 5-7.5 ft; value kept as Assumed."
       },
       "rear": {
         "value": 20,
         "status": "Assumed",
         "source": {
           "id": "new-braunfels-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "title": "Assumed (researcher judgement)",
           "url": "",
           "read": "2026-10-11"
         },
         "unit": "ft",
-        "note": "Typical value for this district from researcher memory; NOT verified against the UDC. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+        "note": "R-1A-6.6 setback table NOT found (4 searches). Third-party guide says NB single-family front setbacks are typically 20-25 ft and sides 5-7.5 ft; value kept as Assumed."
       }
     },
     "maxHeightFt": {
@@ -365,15 +387,15 @@
       "note": "Not found: maximum lot coverage for the district. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
     },
     "imperviousCover": {
-      "value": null,
-      "status": "Assumed",
+      "value": "Third-party guide: zoning impervious limits typically 45-65% of lot; Edwards Aquifer recharge/contributing zone (TCEQ 30 TAC 213) may add WPAP/BMP requirements - e.g. TCEQ approvals in Comal County exempt single-family subdivisions under 20% impervious from permanent BMPs.",
+      "status": "Secondary",
       "source": {
-        "id": "new-braunfels-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "new-braunfels-siteplancreator",
+        "title": "Site Plan Requirements in New Braunfels, TX (third-party permit guide)",
+        "url": "https://www.siteplancreator.com/site-plans/new-braunfels-tx",
         "read": "2026-10-11"
       },
-      "note": "Not found: impervious cover cap. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      "note": "Third-party summary + project-specific TCEQ letter; no city aquifer impervious cap found for individual lots."
     },
     "far": {
       "value": null,
@@ -441,66 +463,96 @@
       },
       "note": "Not found: tree preservation ordinance details. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
     },
-    "other": []
+    "other": [
+      {
+        "value": "Consolidated Land Development Ordinance (zoning, subdivision, historic, signs) under drafting 2022-2024; check which code applies at permit time.",
+        "status": "Secondary",
+        "source": {
+          "id": "new-braunfels-ldo-page",
+          "title": "City of New Braunfels - Land Development Ordinance project page",
+          "url": "https://www.newbraunfels.gov/3449/Land-Development-Ordinance",
+          "read": "2026-10-11"
+        }
+      },
+      {
+        "value": "Downtown historic overlay may require Historic Landmark Commission review; ETJ lots follow different rules; retaining walls over 4 ft need engineered plans.",
+        "status": "Secondary",
+        "source": {
+          "id": "new-braunfels-siteplancreator",
+          "title": "Site Plan Requirements in New Braunfels, TX (third-party permit guide)",
+          "url": "https://www.siteplancreator.com/site-plans/new-braunfels-tx",
+          "read": "2026-10-11"
+        },
+        "note": "Third-party guide."
+      }
+    ]
   },
   "process": {
     "steps": [
       {
-        "value": "Confirm zoning district and recorded plat building lines / HOA deed restrictions",
-        "status": "Assumed",
+        "value": "Confirm zoning district (Ch. 144 / LDO), plat building lines and floodplain status",
+        "status": "Secondary",
         "source": {
-          "id": "new-braunfels-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-          "url": "",
+          "id": "new-braunfels-municode-ch144",
+          "title": "New Braunfels Code of Ordinances Chapter 144 - Zoning (Municode)",
+          "url": "https://library.municode.com/tx/new_braunfels/codes/code_of_ordinances?nodeId=PTIICOOR_CH144ZO",
           "read": "2026-10-11"
-        },
-        "note": "Standard Texas suburban practice"
+        }
       },
       {
-        "value": "Submit residential building permit (site plan, floor plans, elevations, foundation design, energy compliance report) through the city's online permit portal",
-        "status": "Assumed",
+        "value": "Submit residential new-building application with scaled site plan (footprint, property lines, easements, setbacks, flatwork), plans, sealed foundation + bracing",
+        "status": "Secondary",
         "source": {
-          "id": "new-braunfels-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-          "url": "",
+          "id": "new-braunfels-res-checklist-2021",
+          "title": "City of New Braunfels - Residential New Building Application Checklist (Jun 2021)",
+          "url": "https://newbraunfels.gov/DocumentCenter/View/22939/Residential-New-Building-Application-Checklist_Jun2021",
           "read": "2026-10-11"
-        },
-        "note": "Typical Central Texas submittal; city checklist not read. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+        }
       },
       {
-        "value": "Pay permit, plan review and impact/tap fees at issuance",
-        "status": "Assumed",
+        "value": "Floodplain forms/elevation data if in SFHA",
+        "status": "Secondary",
         "source": {
-          "id": "new-braunfels-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-          "url": "",
+          "id": "new-braunfels-flood-ord",
+          "title": "City of New Braunfels - Flood Damage Prevention ordinance document (Ch. 58 Art. II)",
+          "url": "https://newbraunfels.gov/DocumentView.asp?DID=374",
           "read": "2026-10-11"
-        },
-        "note": "Texas LGC Ch. 395 impact fees typically collected at building permit"
+        }
       },
       {
-        "value": "Inspections, then Certificate of Occupancy",
+        "value": "Pay permit and NBU impact/connection fees; inspections; CO",
         "status": "Assumed",
         "source": {
           "id": "new-braunfels-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "title": "Assumed (researcher judgement)",
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Standard"
+        "note": "Typical sequence."
       }
     ],
     "sealsRequired": [
       {
-        "value": "Foundation design sealed by a Texas-licensed professional engineer (expansive clay soils)",
-        "status": "Assumed",
+        "value": "Foundation plans signed/sealed by Texas PE for buildings over 500 sq ft, plus engineered foundation letter (designed from geotechnical data; engineer takes structural responsibility)",
+        "status": "Secondary",
         "source": {
-          "id": "new-braunfels-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-          "url": "",
+          "id": "new-braunfels-res-checklist-2021",
+          "title": "City of New Braunfels - Residential New Building Application Checklist (Jun 2021)",
+          "url": "https://newbraunfels.gov/DocumentCenter/View/22939/Residential-New-Building-Application-Checklist_Jun2021",
           "read": "2026-10-11"
         },
-        "note": "Near-universal practice/requirement in Central Texas for slab-on-grade on expansive soils; city rule not read."
+        "note": "Search-result extract of the cited page only (direct fetch blocked by DNS/proxy on 2026-10-11)."
+      },
+      {
+        "value": "Engineered wall-bracing plans for buildings over 500 sq ft",
+        "status": "Secondary",
+        "source": {
+          "id": "new-braunfels-res-checklist-2021",
+          "title": "City of New Braunfels - Residential New Building Application Checklist (Jun 2021)",
+          "url": "https://newbraunfels.gov/DocumentCenter/View/22939/Residential-New-Building-Application-Checklist_Jun2021",
+          "read": "2026-10-11"
+        },
+        "note": "Search-result extract of the cited page only (direct fetch blocked by DNS/proxy on 2026-10-11)."
       }
     ],
     "inspections": [
@@ -578,23 +630,23 @@
       "status": "Assumed",
       "source": {
         "id": "new-braunfels-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "title": "Assumed (researcher judgement)",
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: city building permit fee schedule (fee ordinance / development services fee page). Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      "note": "Not found: New Braunfels residential building permit fee schedule (1 search; only third-party ranges $25-$5,000). Penalty for work without permit proposed at 2x fee."
     },
     "workedExample2400sqft": {
       "value": null,
       "status": "Assumed",
       "source": {
         "id": "new-braunfels-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "title": "Assumed (researcher judgement)",
         "url": "",
         "read": "2026-10-11"
       },
       "unit": "USD",
-      "note": "Not computed: fee formula not found. Assumption for later: 2,400 sq ft conditioned two-storey + 440 sq ft attached garage. If valuation-based, use ICC BVD R-3 VB (~$170-190/sqft) x 2,400 + U rate x 440. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      "note": "Not computable: fee schedule not found."
     },
     "planReview": {
       "value": null,
@@ -609,15 +661,28 @@
     },
     "impactFees": [
       {
-        "value": null,
-        "status": "Assumed",
+        "value": 23224,
+        "status": "Secondary",
         "source": {
-          "id": "new-braunfels-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-          "url": "",
+          "id": "new-braunfels-ci-nbu-impact",
+          "title": "Community Impact - Developers to pay maximum allowable water, wastewater impact fees in New Braunfels",
+          "url": "https://communityimpact.com/new-braunfels/developers-to-pay-maximum-allowable-water-wastewater-impact-fees-in-new-braunfels/",
           "read": "2026-10-11"
         },
-        "note": "Not found: water/wastewater/roadway impact fee schedule (Texas LGC Ch. 395 fees are normally collected at building permit). Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+        "unit": "USD",
+        "note": "NBU water $17,512 + wastewater $5,712 per LUE (single-family = 1 LUE), maximum allowable fees, effective ~Feb 2023. Herald-Zeitung first-reading report gave proposed maxima $19,448 water / $6,244 ww - conflicting; prior (2018) fees $7,989/$3,251. A 5-year update (2027-28) may change these. Search-result extract of the cited page only (direct fetch blocked by DNS/proxy on 2026-10-11)."
+      },
+      {
+        "value": null,
+        "status": "Secondary",
+        "source": {
+          "id": "new-braunfels-roadway-impact",
+          "title": "City of New Braunfels - Roadway Impact Fees",
+          "url": "https://newbraunfels.gov/3443/Roadway-Impact-Fees",
+          "read": "2026-10-11"
+        },
+        "unit": "USD",
+        "note": "City roadway impact fee: 6 service areas; collected at 50% of max for residential (eff. 2020-08-01); council gave initial approval to 100% of max for plats on/after a March date (outcome not confirmed). Assessed at final plat, collected at building permit. Dollar amount per home not found (use city calculator)."
       }
     ],
     "tapFees": [
@@ -636,17 +701,18 @@
   },
   "cost": {
     "factor": {
-      "value": null,
-      "status": "Assumed",
+      "value": 0.94,
+      "unit": "x US national",
+      "status": "Secondary",
       "source": {
-        "id": "cost-method",
-        "title": "See README cost method (filled by cost agent)",
-        "url": "",
+        "id": "cost-factors",
+        "title": "Keystone metro cost factor (BLS OEWS wages, see README cost method)",
+        "url": "https://www.onetonline.org/link/localwages/47-2031.00?st=TX",
         "read": "2026-10-11"
       },
-      "note": "PENDING_COST_AGENT"
+      "note": "MSA 41700 San Antonio-New Braunfels, TX: labour index L=0.847, materials M=1.0. 5/5 trades (OEWS May 2024 via O*NET Texas local-wages search extracts). Ratios to US: 47-2031 0.804; 47-2111 0.844; 47-2152 0.929; 47-2061 0.808; 49-9021 0.899. L = 0.847; factor = 0.40*0.847 + 0.60*1.00 = 0.94. M=1.00 (default, no public citable reason to adjust)."
     },
-    "method": "PENDING_COST_AGENT",
+    "method": "Factor = 0.40*L + 0.60*M, rounded to 2 decimals. L = weighted mean of (metro annual median wage / US national annual median wage) for SOC 47-2031 Carpenters (0.30), 47-2111 Electricians (0.20), 47-2152 Plumbers/Pipefitters/Steamfitters (0.20), 47-2061 Construction Laborers (0.20), 49-9021 HVAC Mechanics/Installers (0.10), from BLS OEWS; weights renormalised over occupations available for the MSA. M = materials index, 1.00 for all Texas metros (no public citable reason to adjust); qualitative materials notes per MSA. Wave 2 (2026-10-11): all five trades retrieved from O*NET Texas local-wages pages (OEWS May 2024) via search extracts (Secondary); HVAC missing for 28660, 47380, 46340, 17780 (weights renormalised there). provisional removed for every MSA with >=4 trades.",
     "perSqFtMarket": {
       "value": "150-200",
       "status": "Assumed",
@@ -661,15 +727,14 @@
     },
     "drivers": [
       {
-        "value": "Edwards Aquifer recharge/contributing zone controls on part of the city (TCEQ WPAP, impervious cover, best-management practices)",
-        "status": "Assumed",
+        "value": "Edwards Aquifer recharge/contributing zone on west side: TCEQ WPAP/CZP plans and BMPs for subdivisions",
+        "status": "Secondary",
         "source": {
-          "id": "new-braunfels-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-          "url": "",
+          "id": "new-braunfels-tceq-comal-czp",
+          "title": "TCEQ Edwards Aquifer contributing-zone approval letter - Waggener Ranch Unit 2 (Comal County)",
+          "url": "https://www.cceo.org/environmental/documents/CZP/Waggener_Ranch_Unit_2.pdf",
           "read": "2026-10-11"
-        },
-        "note": "Researcher judgement"
+        }
       },
       {
         "value": "Limestone/rock excavation in Hill Country (west) vs clay (east)",
@@ -683,15 +748,14 @@
         "note": "Researcher judgement"
       },
       {
-        "value": "Water/wastewater via New Braunfels Utilities (NBU) impact fees",
-        "status": "Assumed",
+        "value": "NBU water + wastewater impact fees about $23,224 per single-family LUE (2023) plus city roadway impact fee",
+        "status": "Secondary",
         "source": {
-          "id": "new-braunfels-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-          "url": "",
+          "id": "new-braunfels-ci-nbu-impact",
+          "title": "Community Impact - Developers to pay maximum allowable water, wastewater impact fees in New Braunfels",
+          "url": "https://communityimpact.com/new-braunfels/developers-to-pay-maximum-allowable-water-wastewater-impact-fees-in-new-braunfels/",
           "read": "2026-10-11"
-        },
-        "note": "Researcher judgement"
+        }
       },
       {
         "value": "San Antonio-metro labour",
@@ -707,44 +771,45 @@
     ]
   },
   "flood": {
-    "value": "City floodplain ordinance (NFIP) on Comal & Guadalupe Rivers and Dry Comal Creek; freeboard not confirmed - assume lowest floor >= 1 ft above BFE (city may require more).",
-    "status": "Assumed",
+    "value": "City Flood Damage Prevention ordinance (Ch. 58 Art. II): findings state intent to require 2 ft above BFE; floodway no-rise; cumulative substantial improvement. Use lowest floor >= BFE + 2 ft.",
+    "status": "Secondary",
     "source": {
-      "id": "new-braunfels-assumed",
-      "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-      "url": "",
+      "id": "new-braunfels-flood-ord",
+      "title": "City of New Braunfels - Flood Damage Prevention ordinance document (Ch. 58 Art. II)",
+      "url": "https://newbraunfels.gov/DocumentView.asp?DID=374",
       "read": "2026-10-11"
     },
-    "note": "Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+    "note": "Search extract of a city ordinance document with no visible date (one of two city DocumentView results, DID=374/DID=1848); exact codified wording not read."
   },
   "engineChanges": [
     {
       "id": "new-braunfels-code-edition",
       "ruleType": "code-edition-by-city",
       "area": "plan",
-      "change": "Check plans against 2021 IRC (unverified) (city adoption) and energy code 2021 IECC / IRC Ch. 11 (unverified) instead of the plain 2021 IRC model - edition is Assumed, show 'confirm with city' warning",
+      "change": "Check plans against 2021 IRC + 2021 IECC + 2021 IPC + NEC 2020 with New Braunfels amendments (eff. 2023-10-23)",
       "priority": "should",
       "params": {
-        "irc": "2021 IRC (unverified)",
-        "energy": "2021 IECC / IRC Ch. 11 (unverified)",
-        "editionStatus": "Assumed"
+        "irc": "2021 IRC",
+        "energy": "2021 IECC",
+        "plumbing": "IPC 2021",
+        "electrical": "NEC 2020",
+        "editionStatus": "Secondary"
       },
       "source": {
-        "id": "new-braunfels-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "new-braunfels-2021-icc-adoption",
+        "title": "City of New Braunfels - 2021 ICC Code Adoption (city page)",
+        "url": "https://newbraunfels.gov/3495/2021-ICC-Code-Adoption",
         "read": "2026-10-11"
-      },
-      "derived": "added by coordinator from codes.irc.edition"
+      }
     },
     {
       "id": "new-braunfels-setbacks",
       "ruleType": "setback-by-district",
       "area": "setbacks",
-      "change": "R-1A-6.6 (Single-family): front 25 / side 5 / street side 15 / rear 20 ft (ASSUMED - verify before relying)",
+      "change": "R-1A-6.6: front 25 / side 5 / street side 15 / rear 20 ft (ASSUMED - table not found; confirm with plat/city)",
       "priority": "must",
       "params": {
-        "district": "R-1A-6.6 (Single-family)",
+        "district": "R-1A-6.6",
         "assumed": true,
         "frontFt": 25,
         "sideFt": 5,
@@ -753,8 +818,25 @@
       },
       "source": {
         "id": "new-braunfels-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "title": "Assumed (researcher judgement)",
         "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "new-braunfels-lot-min",
+      "ruleType": "lot-min-size",
+      "area": "survey",
+      "change": "Min lot 6,600 sf interior / 7,000 sf corner in standard single-family district",
+      "priority": "should",
+      "params": {
+        "minLotSqFt": 6600,
+        "cornerMinLotSqFt": 7000
+      },
+      "source": {
+        "id": "new-braunfels-code-assessment",
+        "title": "New Braunfels Land Development Ordinance - Code Assessment Public Draft",
+        "url": "https://www.newbraunfels.gov/DocumentCenter/View/24609/NBTX---Code-Assessment-Public-Draft---final",
         "read": "2026-10-11"
       }
     },
@@ -762,21 +844,24 @@
       "id": "new-braunfels-district-input",
       "ruleType": "survey-input-district",
       "area": "survey",
-      "change": "Ask user for zoning district/PUD and plat building lines; do not default silently",
+      "change": "Ask user for zoning district/PD and plat building lines; LDO rewrite may change district names",
       "priority": "must",
       "params": {
         "districts": [
-          "R-1A-6.6 (Single-family)",
+          "R-1A-6.6",
           "R-1",
           "R-1A-8",
           "R-1A-12",
-          "PD/MU-B planned districts"
+          "R-1A-5.5",
+          "R-1A-4",
+          "R-2",
+          "PD"
         ]
       },
       "source": {
-        "id": "new-braunfels-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "new-braunfels-municode-ch144",
+        "title": "New Braunfels Code of Ordinances Chapter 144 - Zoning (Municode)",
+        "url": "https://library.municode.com/tx/new_braunfels/codes/code_of_ordinances?nodeId=PTIICOOR_CH144ZO",
         "read": "2026-10-11"
       }
     },
@@ -792,7 +877,7 @@
       },
       "source": {
         "id": "new-braunfels-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "title": "Assumed (researcher judgement)",
         "url": "",
         "read": "2026-10-11"
       }
@@ -801,15 +886,38 @@
       "id": "new-braunfels-eng-foundation",
       "ruleType": "engineered-foundation-flag",
       "area": "foundation",
-      "change": "Flag PE-sealed foundation design (expansive soils)",
+      "change": "Require Texas-PE sealed foundation (geotech-based) and engineered wall-bracing plans for any house > 500 sf",
       "priority": "must",
       "params": {
-        "engineeredFoundation": true
+        "engineeredFoundation": true,
+        "thresholdSqFt": 500,
+        "engineeredBracing": true,
+        "geotechRequired": true
       },
       "source": {
-        "id": "new-braunfels-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "new-braunfels-res-checklist-2021",
+        "title": "City of New Braunfels - Residential New Building Application Checklist (Jun 2021)",
+        "url": "https://newbraunfels.gov/DocumentCenter/View/22939/Residential-New-Building-Application-Checklist_Jun2021",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "new-braunfels-sealed",
+      "ruleType": "sealed-drawings-required",
+      "area": "drawings",
+      "change": "Drawing set: sealed foundation + bracing sheets and engineer foundation letter",
+      "priority": "must",
+      "params": {
+        "sheets": [
+          "foundation",
+          "wall bracing"
+        ],
+        "letter": "engineered foundation letter"
+      },
+      "source": {
+        "id": "new-braunfels-eng-foundation-letter",
+        "title": "City of New Braunfels - Engineered Foundation Letter (template)",
+        "url": "https://www.newbraunfels.gov/DocumentCenter/View/1464/Engineered-Foundation-Letter-",
         "read": "2026-10-11"
       }
     },
@@ -820,12 +928,29 @@
       "change": "Climate zone 2A envelope (2021 IECC)",
       "priority": "must",
       "params": {
-        "climateZone": "2A"
+        "climateZone": "2A",
+        "energyCode": "2021 IECC"
       },
       "source": {
         "id": "new-braunfels-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "title": "Assumed: IECC Table R301.1 county list",
         "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "new-braunfels-electrical",
+      "ruleType": "electrical-code-edition",
+      "area": "plan",
+      "change": "Electrical design to NEC 2020 (not 2023)",
+      "priority": "should",
+      "params": {
+        "nec": "2020"
+      },
+      "source": {
+        "id": "new-braunfels-2021-icc-adoption",
+        "title": "City of New Braunfels - 2021 ICC Code Adoption (city page)",
+        "url": "https://newbraunfels.gov/3495/2021-ICC-Code-Adoption",
         "read": "2026-10-11"
       }
     },
@@ -833,15 +958,19 @@
       "id": "new-braunfels-impact-fee",
       "ruleType": "impact-fee-estimate",
       "area": "estimate",
-      "change": "Add placeholder water/wastewater (and roadway if any) impact fee line; amount unknown",
-      "priority": "should",
+      "change": "Add NBU water $17,512 + wastewater $5,712 = $23,224 per single-family LUE, plus city roadway impact fee (amount by service area, unknown)",
+      "priority": "must",
       "params": {
-        "amountUSD": null
+        "waterUSD": 17512,
+        "wastewaterUSD": 5712,
+        "totalUSD": 23224,
+        "roadwayUSD": null,
+        "year": 2023
       },
       "source": {
-        "id": "new-braunfels-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "new-braunfels-ci-nbu-impact",
+        "title": "Community Impact - Developers to pay maximum allowable water, wastewater impact fees in New Braunfels",
+        "url": "https://communityimpact.com/new-braunfels/developers-to-pay-maximum-allowable-water-wastewater-impact-fees-in-new-braunfels/",
         "read": "2026-10-11"
       }
     },
@@ -849,16 +978,16 @@
       "id": "new-braunfels-edwards",
       "ruleType": "impervious-cover",
       "area": "survey",
-      "change": "If lot is in the Edwards Aquifer Recharge Zone (TCEQ 30 TAC Ch. 213), flag WPAP/subdivision BMPs and possible impervious-cover limits; ask user to confirm recharge-zone status",
+      "change": "If lot is in Edwards Aquifer recharge/contributing zone (30 TAC 213), flag TCEQ WPAP/CZP and BMP constraints; ask user",
       "priority": "should",
       "params": {
-        "edwardsRecharge": "ask",
-        "rule": "30 TAC 213 (assumed)"
+        "edwardsZone": "ask",
+        "rule": "30 TAC 213"
       },
       "source": {
-        "id": "new-braunfels-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "new-braunfels-tceq-comal-czp",
+        "title": "TCEQ Edwards Aquifer contributing-zone approval letter - Waggener Ranch Unit 2 (Comal County)",
+        "url": "https://www.cceo.org/environmental/documents/CZP/Waggener_Ranch_Unit_2.pdf",
         "read": "2026-10-11"
       }
     },
@@ -866,16 +995,16 @@
       "id": "new-braunfels-flood",
       "ruleType": "flood-elevation",
       "area": "survey",
-      "change": "If in SFHA (Comal/Guadalupe/Dry Comal), lowest floor >= BFE + 1 ft (assumed; verify city freeboard)",
+      "change": "If in SFHA (Comal/Guadalupe/Dry Comal), lowest floor >= BFE + 2 ft; floodway no-rise",
       "priority": "must",
       "params": {
-        "freeboardFt": 1,
-        "assumed": true
+        "freeboardFt": 2,
+        "noRiseFloodway": true
       },
       "source": {
-        "id": "new-braunfels-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "new-braunfels-flood-ord",
+        "title": "City of New Braunfels - Flood Damage Prevention ordinance document (Ch. 58 Art. II)",
+        "url": "https://newbraunfels.gov/DocumentView.asp?DID=374",
         "read": "2026-10-11"
       }
     },
@@ -883,65 +1012,50 @@
       "id": "new-braunfels-rock",
       "ruleType": "expansive-soil-foundation",
       "area": "foundation",
-      "change": "West-side lots: shallow limestone - foundation/excavation cost adder; east-side: expansive clay",
+      "change": "West-side lots: shallow limestone excavation adder; east-side: expansive clay",
       "priority": "nice",
       "params": {
         "rockExcavationAdder": true
       },
       "source": {
         "id": "new-braunfels-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
-        "read": "2026-10-11"
-      }
-    },
-    {
-      "id": "new-braunfels-utility",
-      "ruleType": "tap-fee-estimate",
-      "area": "estimate",
-      "change": "Water/wastewater impact & connection fees from New Braunfels Utilities (NBU), not the city - add placeholder line",
-      "priority": "should",
-      "params": {
-        "provider": "NBU",
-        "amountUSD": null
-      },
-      "source": {
-        "id": "new-braunfels-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "title": "Assumed (researcher judgement)",
         "url": "",
         "read": "2026-10-11"
       }
     }
   ],
-  "plainLanguage": "New Braunfels most likely uses the 2021 International Residential Code, but we could not confirm the ordinance this time. Typical new homes are in R-1A single-family districts or planned developments. Until verified, plan for about a 25 ft front setback, 5 ft sides and 20 ft rear. Part of the city sits over the Edwards Aquifer recharge zone, where state (TCEQ) water-quality rules can limit paving and require special plans - ask us to check your lot. Homes near the Comal or Guadalupe Rivers may need to be raised above flood level. Water and sewer fees come from New Braunfels Utilities.",
+  "plainLanguage": "New Braunfels uses the 2021 International Residential Code and 2021 energy code (in force since October 2023), with the 2020 electrical code. Every new house over 500 sq ft needs a foundation and wall-bracing design sealed by a Texas engineer, based on a soil report. The usual single-family lot is about 6,600 sq ft; confirm your exact setbacks on your plat and with the city, because we could not read the setback table. If your lot is in a floodplain, the floor must sit about 2 ft above the 100-year flood level. Water and sewer impact fees from New Braunfels Utilities are large - about $23,000 per house in 2023 - plus a city roadway impact fee. West-side lots may sit over the Edwards Aquifer zones, which can add state environmental rules, and often have rock that is costly to dig.",
   "openQuestions": [
-    "IRC adoption & amendments",
-    "R-1A-6.6 dimensions",
-    "Edwards recharge-zone extent within city and any city impervious-cover cap",
-    "NBU impact fees",
-    "City freeboard"
+    "R-1A-6.6 setbacks, width, height and coverage (Ch. 144 table not readable)",
+    "Has the new LDO been adopted, and what are its district names/standards?",
+    "Local IRC amendments text (sprinklers, foundation)",
+    "Residential permit fee schedule",
+    "Roadway impact fee amount per home by service area; was 100% collection adopted?",
+    "Confirm NBU final adopted 2023 fees ($17,512/$5,712 vs $19,448/$6,244)",
+    "Codified freeboard wording (2 ft)"
   ],
   "notFound": [
-    "All values - research tooling blocked",
-    "IRC adoption ordinance & local amendments",
-    "District dimensional table",
     "Permit fee schedule",
-    "Impact/tap fees"
+    "R-1A-6.6 dimensional table",
+    "Roadway impact fee amounts",
+    "Ordinance number for 2021 code adoption",
+    "Tap/meter fees"
   ],
   "comparison": {
-    "irc": "2021 IRC (assumed)",
-    "energy": "2021 IECC (assumed)",
-    "plumbing": "IPC 2021 (assumed)",
-    "district": "R-1A-6.6 (Single-family)",
+    "irc": "2021 IRC (2023)",
+    "energy": "2021 IECC",
+    "plumbing": "IPC 2021",
+    "district": "R-1A-6.6",
     "setbacks": "25/5/20 (assumed)",
     "maxHeight": "35 ft (assumed)",
     "coverageFar": "not found / none",
     "masonry": "none (state preemption)",
-    "engFoundation": "yes (assumed)",
+    "engFoundation": "yes - PE seal >500 sf",
     "windstorm": "no",
-    "flood": "1 ft freeboard (assumed)",
+    "flood": "2 ft freeboard",
     "permitFeeExample": "not found",
-    "impactFees": "not found",
-    "costFactor": "PENDING"
+    "impactFees": "$23,224 NBU w+ww + roadway",
+    "costFactor": "0.94"
   }
 }

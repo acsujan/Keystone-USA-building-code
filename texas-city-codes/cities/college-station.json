@@ -11,15 +11,15 @@
     "blsCode": "17780"
   },
   "population": {
-    "value": 128000,
-    "status": "Assumed",
+    "value": 125192,
+    "status": "Secondary",
     "source": {
-      "id": "college-station-assumed",
-      "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-      "url": "",
+      "id": "college-station-census-qf",
+      "title": "U.S. Census Bureau QuickFacts - College Station city, Texas",
+      "url": "https://census.gov/quickfacts/fact/table/collegestationcitytexas,leonvalleycitytexas/PST045224",
       "read": "2026-10-11"
     },
-    "note": "Approximate Census Vintage 2024-era estimate from researcher memory; verify on Census QuickFacts."
+    "note": "Census Vintage 2023 estimate (V2024 city cell showed NA in extract); April 2020 base 120,524. Search-result extract of the cited page only (direct fetch blocked on 2026-10-11)."
   },
   "zipCodesOrBoundary": {
     "value": "77840, 77845 (part 77843, 77802)",
@@ -37,11 +37,11 @@
     "status": "Assumed",
     "source": {
       "id": "college-station-assumed",
-      "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+      "title": "Assumed: 2021 IECC Table R301.1 county list (not re-read)",
       "url": "",
       "read": "2026-10-11"
     },
-    "note": "2021 IECC Table R301.1 county list places this county in Climate Zone 2A (hot-humid) per researcher knowledge; table not re-read this session."
+    "note": "Brazos County listed in Climate Zone 2A per researcher knowledge; table not fetched."
   },
   "windstormCounty": {
     "value": false,
@@ -57,54 +57,65 @@
   "codes": {
     "irc": {
       "edition": {
-        "value": "2021 IRC (unverified)",
-        "status": "Assumed",
+        "value": "2024 IRC (with local amendments)",
+        "status": "Secondary",
         "source": {
-          "id": "college-station-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-          "url": "",
+          "id": "college-station-building-codes",
+          "title": "City of College Station - Building Codes (adopted codes, eff. 2026-01-01)",
+          "url": "https://www.cstx.gov/living-here/building-and-renovating/building-codes/",
           "read": "2026-10-11"
         },
-        "note": "Most Central Texas cities adopted the 2021 I-codes in 2021-2023; this city's adoption ordinance was not reached. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+        "note": "City page: International Residential Code (2024 Edition) with Adopted Amendments, effective 2026-01-01. Search-result extract of the cited page only (direct fetch blocked on 2026-10-11)."
       },
       "ordinance": {
-        "value": null,
-        "status": "Assumed",
+        "value": "2024 I-code adoption effective 2026-01-01 (ordinance number not found)",
+        "status": "Secondary",
         "source": {
-          "id": "college-station-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-          "url": "",
+          "id": "college-station-building-codes",
+          "title": "City of College Station - Building Codes (adopted codes, eff. 2026-01-01)",
+          "url": "https://www.cstx.gov/living-here/building-and-renovating/building-codes/",
           "read": "2026-10-11"
         },
-        "note": "Not found: building code adoption ordinance number. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+        "note": "Search-result extract of the cited page only (direct fetch blocked on 2026-10-11)."
       },
       "amendments": [
         {
           "topic": "other",
-          "summary": "Local IRC amendments not reviewed; Texas cities must adopt local IRC amendments by ordinance after a public hearing (LGC 214.212/214.216).",
+          "summary": "City posts 'Adopted Amendments' to the 2024 IRC; text not read in this session.",
           "section": "",
           "status": "Secondary",
           "source": {
-            "id": "tx-lgc-214-212",
-            "title": "Texas Local Government Code Sec. 214.212 - International Residential Code (municipal residential code)",
-            "url": "https://texas.public.law/statutes/tex._local_gov't_code_section_214.212",
-            "read": "2026-10-11",
-            "section": "214.212"
+            "id": "college-station-building-codes",
+            "title": "City of College Station - Building Codes (adopted codes, eff. 2026-01-01)",
+            "url": "https://www.cstx.gov/living-here/building-and-renovating/building-codes/",
+            "read": "2026-10-11"
+          }
+        },
+        {
+          "topic": "foundation",
+          "summary": "Single-family permit requires foundation plans, wall bracing details, floor plans, elevations and MEP plans; no residential engineer-seal rule found (retaining walls > 2 ft need a Texas PE).",
+          "section": "Single Family Dwelling/Duplex permit page",
+          "status": "Secondary",
+          "source": {
+            "id": "college-station-sfd-permit",
+            "title": "City of College Station - Single Family Dwelling/Duplex building permit page",
+            "url": "https://www.cstx.gov/living-here/building-and-renovating/building-permits/single-family-dwellingduplex/",
+            "read": "2026-10-11"
           }
         }
       ]
     },
     "energy": {
       "edition": {
-        "value": "2021 IECC / IRC Ch. 11 (unverified)",
-        "status": "Assumed",
+        "value": "2024 IECC (with amendments)",
+        "status": "Secondary",
         "source": {
-          "id": "college-station-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-          "url": "",
+          "id": "college-station-building-codes",
+          "title": "City of College Station - Building Codes (adopted codes, eff. 2026-01-01)",
+          "url": "https://www.cstx.gov/living-here/building-and-renovating/building-codes/",
           "read": "2026-10-11"
         },
-        "note": "Assumed to follow the IRC edition; Texas state minimum energy code applies regardless (Health & Safety Code Ch. 388). Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+        "note": "Listed as adopted effective 2026-01-01. Search-result extract of the cited page only (direct fetch blocked on 2026-10-11)."
       },
       "stretchCode": {
         "value": "none known",
@@ -119,59 +130,59 @@
       }
     },
     "plumbing": {
-      "value": "IPC 2021 (unverified)",
-      "status": "Assumed",
+      "value": "IPC 2024",
+      "status": "Secondary",
       "source": {
-        "id": "college-station-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "college-station-building-codes",
+        "title": "City of College Station - Building Codes (adopted codes, eff. 2026-01-01)",
+        "url": "https://www.cstx.gov/living-here/building-and-renovating/building-codes/",
         "read": "2026-10-11"
       },
-      "note": "Most Central Texas suburbs adopt the IPC; UPC is possible under Texas law. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      "note": "International Plumbing Code 2024 with amendments. Search-result extract of the cited page only (direct fetch blocked on 2026-10-11)."
     },
     "electrical": {
-      "value": "NEC 2020 or 2023 (unverified)",
-      "status": "Assumed",
+      "value": "NEC 2023",
+      "status": "Secondary",
       "source": {
-        "id": "college-station-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "college-station-building-codes",
+        "title": "City of College Station - Building Codes (adopted codes, eff. 2026-01-01)",
+        "url": "https://www.cstx.gov/living-here/building-and-renovating/building-codes/",
         "read": "2026-10-11"
       },
-      "note": "TDLR-adopted NEC applies where no local edition; city edition not read. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      "note": "National Electrical Code 2023 with amendments. Search-result extract of the cited page only (direct fetch blocked on 2026-10-11)."
     },
     "mechanical": {
-      "value": "IMC 2021 (unverified)",
-      "status": "Assumed",
+      "value": "IMC 2024 (assumed part of 2024 set)",
+      "status": "Secondary",
       "source": {
-        "id": "college-station-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "college-station-building-codes",
+        "title": "City of College Station - Building Codes (adopted codes, eff. 2026-01-01)",
+        "url": "https://www.cstx.gov/living-here/building-and-renovating/building-codes/",
         "read": "2026-10-11"
       },
-      "note": "Assumed to match IRC cycle"
+      "note": "City adopted the 2024 I-code family; IMC not individually confirmed in extract."
     },
     "fuelGas": {
-      "value": "IFGC 2021 (unverified)",
-      "status": "Assumed",
+      "value": "IFGC 2024 (assumed part of 2024 set)",
+      "status": "Secondary",
       "source": {
-        "id": "college-station-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "college-station-building-codes",
+        "title": "City of College Station - Building Codes (adopted codes, eff. 2026-01-01)",
+        "url": "https://www.cstx.gov/living-here/building-and-renovating/building-codes/",
         "read": "2026-10-11"
       },
-      "note": "Assumed to match IRC cycle"
+      "note": "Not individually confirmed in extract."
     },
     "fire": {
-      "value": "IFC 2021 (unverified); no one/two-family sprinkler mandate known",
+      "value": "IFC 2024 likely (not confirmed); no one/two-family sprinkler mandate found",
       "status": "Assumed",
       "source": {
         "id": "college-station-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "title": "Assumed (researcher judgement)",
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Texas cities generally delete/omit IRC R313 sprinkler mandate; Texas LGC 214.216 permits that. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      "note": "Not found in city code list extract."
     },
     "wind": {
       "value": 108,
@@ -223,134 +234,135 @@
   "zoning": {
     "hasZoning": {
       "value": true,
-      "status": "Assumed",
+      "status": "Secondary",
       "source": {
-        "id": "college-station-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "college-station-udo-art5",
+        "title": "College Station UDO Article 5 - District Purpose Statements and Supplemental Standards (Municode)",
+        "url": "https://library.municode.com/tx/college_station/codes/code_of_ordinances?nodeId=SPBLADEOR_APXAUNDEOR_ART5DIPUSTSUST",
         "read": "2026-10-11"
       },
-      "note": "City is known to have zoning (UDC); text not read."
+      "note": "Unified Development Ordinance (UDO)."
     },
     "typicalDistrict": {
       "value": "GS (General Suburban)",
-      "status": "Assumed",
+      "status": "Secondary",
       "source": {
-        "id": "college-station-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "college-station-gs-factsheet",
+        "title": "City of College Station - GS General Suburban zoning district fact sheet",
+        "url": "https://www.cstx.gov/media/5sti0f32/gs.pdf",
         "read": "2026-10-11"
       },
-      "note": "Researcher judgement of the most common detached single-family district; others: RS (Restricted Suburban), R (Rural), E (Estate), T (Townhouse), PDD. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      "note": "Formerly R-1 Single-Family, renamed GS effective 2013-09-22. Others: RS (Restricted Suburban), R (Rural), E (Estate), SC, T, D, MH (Middle Housing; single-family there follows GS standards), PDD. Search-result extract of the cited page only (direct fetch blocked on 2026-10-11)."
     },
     "minLotSqFt": {
       "value": 5000,
-      "status": "Assumed",
+      "status": "Secondary",
       "source": {
-        "id": "college-station-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "college-station-gs-factsheet",
+        "title": "City of College Station - GS General Suburban zoning district fact sheet",
+        "url": "https://www.cstx.gov/media/5sti0f32/gs.pdf",
         "read": "2026-10-11"
       },
       "unit": "sqft",
-      "note": "Typical value for this district from researcher memory; NOT verified. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      "note": "Search-result extract of the cited page only (direct fetch blocked on 2026-10-11)."
     },
     "minLotWidthFt": {
       "value": 50,
-      "status": "Assumed",
+      "status": "Secondary",
       "source": {
-        "id": "college-station-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "college-station-gs-factsheet",
+        "title": "City of College Station - GS General Suburban zoning district fact sheet",
+        "url": "https://www.cstx.gov/media/5sti0f32/gs.pdf",
         "read": "2026-10-11"
       },
       "unit": "ft",
-      "note": "Typical value; NOT verified."
+      "note": "Search-result extract of the cited page only (direct fetch blocked on 2026-10-11)."
     },
     "minLotDepthFt": {
       "value": 100,
-      "status": "Assumed",
+      "status": "Secondary",
       "source": {
-        "id": "college-station-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "college-station-gs-factsheet",
+        "title": "City of College Station - GS General Suburban zoning district fact sheet",
+        "url": "https://www.cstx.gov/media/5sti0f32/gs.pdf",
         "read": "2026-10-11"
       },
       "unit": "ft",
-      "note": "Typical value; NOT verified."
+      "note": "Search-result extract of the cited page only (direct fetch blocked on 2026-10-11)."
     },
     "setbacksFt": {
       "front": {
         "value": 25,
-        "status": "Assumed",
+        "status": "Secondary",
         "source": {
-          "id": "college-station-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-          "url": "",
+          "id": "college-station-gs-factsheet",
+          "title": "City of College Station - GS General Suburban zoning district fact sheet",
+          "url": "https://www.cstx.gov/media/5sti0f32/gs.pdf",
           "read": "2026-10-11"
         },
         "unit": "ft",
-        "note": "Typical value for this district from researcher memory; NOT verified against the UDC. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+        "note": "Marked with an asterisk on fact sheet (footnote not seen - may allow reduction e.g. with rear-access). Search-result extract of the cited page only (direct fetch blocked on 2026-10-11)."
       },
       "side": {
         "value": 7.5,
-        "status": "Assumed",
+        "status": "Secondary",
         "source": {
-          "id": "college-station-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-          "url": "",
+          "id": "college-station-gs-factsheet",
+          "title": "City of College Station - GS General Suburban zoning district fact sheet",
+          "url": "https://www.cstx.gov/media/5sti0f32/gs.pdf",
           "read": "2026-10-11"
         },
         "unit": "ft",
-        "note": "Typical value for this district from researcher memory; NOT verified against the UDC. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+        "note": "2020 amendment adds an alternative side-setback option keeping 15 ft building separation. Search-result extract of the cited page only (direct fetch blocked on 2026-10-11)."
       },
       "streetSide": {
         "value": 15,
-        "status": "Assumed",
+        "status": "Secondary",
         "source": {
-          "id": "college-station-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-          "url": "",
+          "id": "college-station-gs-factsheet",
+          "title": "City of College Station - GS General Suburban zoning district fact sheet",
+          "url": "https://www.cstx.gov/media/5sti0f32/gs.pdf",
           "read": "2026-10-11"
         },
         "unit": "ft",
-        "note": "Typical value for this district from researcher memory; NOT verified against the UDC. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+        "note": "Search-result extract of the cited page only (direct fetch blocked on 2026-10-11)."
       },
       "rear": {
         "value": 20,
-        "status": "Assumed",
+        "status": "Secondary",
         "source": {
-          "id": "college-station-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-          "url": "",
+          "id": "college-station-gs-factsheet",
+          "title": "City of College Station - GS General Suburban zoning district fact sheet",
+          "url": "https://www.cstx.gov/media/5sti0f32/gs.pdf",
           "read": "2026-10-11"
         },
         "unit": "ft",
-        "note": "Typical value for this district from researcher memory; NOT verified against the UDC. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+        "note": "Search-result extract of the cited page only (direct fetch blocked on 2026-10-11)."
       }
     },
     "maxHeightFt": {
       "value": 35,
-      "status": "Assumed",
+      "status": "Secondary",
       "source": {
-        "id": "college-station-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "college-station-udo-art5",
+        "title": "College Station UDO Article 5 - District Purpose Statements and Supplemental Standards (Municode)",
+        "url": "https://library.municode.com/tx/college_station/codes/code_of_ordinances?nodeId=SPBLADEOR_APXAUNDEOR_ART5DIPUSTSUST",
         "read": "2026-10-11"
       },
       "unit": "ft",
-      "note": "Typical Central Texas single-family height cap; NOT verified."
+      "note": "Residential dimensional table GS column reads '2.5 Stories/35'' in scraped Municode text (column alignment imperfect). Search-result extract of the cited page only (direct fetch blocked on 2026-10-11)."
     },
     "maxStories": {
-      "value": null,
-      "status": "Assumed",
+      "value": 2.5,
+      "status": "Secondary",
       "source": {
-        "id": "college-station-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "college-station-udo-art5",
+        "title": "College Station UDO Article 5 - District Purpose Statements and Supplemental Standards (Municode)",
+        "url": "https://library.municode.com/tx/college_station/codes/code_of_ordinances?nodeId=SPBLADEOR_APXAUNDEOR_ART5DIPUSTSUST",
         "read": "2026-10-11"
       },
-      "note": "Not found"
+      "unit": "stories",
+      "note": "See maxHeightFt note."
     },
     "maxLotCoverage": {
       "value": null,
@@ -442,87 +454,103 @@
     },
     "other": [
       {
-        "value": "Occupancy: 'family' definition limits a dwelling to no more than 4 unrelated persons",
-        "status": "Assumed",
+        "value": "Occupancy: no more than 4 unrelated persons per dwelling unit in most of the city (since 1939/1972); 2 in Restricted Occupancy Overlay (ROO) areas; civil penalty $250-$500. Nov 2025 council split vote (5-2) on a broader 'family' definition for a shared-housing ordinance - adoption not confirmed.",
+        "status": "Secondary",
         "source": {
-          "id": "college-station-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-          "url": "",
+          "id": "college-station-occupancy",
+          "title": "City of College Station - Occupancy Restrictions",
+          "url": "https://www.cstx.gov/living-here/housing/occupancy-restrictions",
           "read": "2026-10-11"
         },
-        "note": "From task brief and researcher knowledge of College Station UDO; section not read. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+        "note": "Search-result extract of the cited page only (direct fetch blocked on 2026-10-11)."
       },
       {
-        "value": "Neighborhood Conservation Overlay (NCO), Neighborhood Prevailing Overlay (NPO) and Single-Family Overlay districts exist near Texas A&M",
-        "status": "Assumed",
+        "value": "Neighborhood Conservation Overlay (NCO): neighborhood-chosen add-on standards (setbacks, height, trees, fencing). Example: McCulloch NCO limits new homes to one story and 41% lot coverage (homes + parking).",
+        "status": "Secondary",
         "source": {
-          "id": "college-station-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-          "url": "",
+          "id": "college-station-sf-overlays",
+          "title": "City of College Station - Single Family Overlay Districts",
+          "url": "https://www.cstx.gov/departments___city_hall/pds/planning/single_family_overlay_districts",
           "read": "2026-10-11"
         },
-        "note": "Researcher knowledge; overlay map not read."
+        "note": "Search-result extract of the cited page only (direct fetch blocked on 2026-10-11)."
+      },
+      {
+        "value": "Restricted Occupancy Overlay (ROO): reduces occupancy cap to 2 unrelated (North Forest Estates, Southwood Ph. 21).",
+        "status": "Secondary",
+        "source": {
+          "id": "college-station-kbtx-roo-2023",
+          "title": "KBTX - College Station city council approves second ROO district",
+          "url": "https://www.kbtx.com/2023/05/26/college-station-city-council-approves-second-roo-district",
+          "read": "2026-10-11"
+        }
+      },
+      {
+        "value": "MH Middle Housing district: detached single-family follows GS standards.",
+        "status": "Secondary",
+        "source": {
+          "id": "college-station-middle-housing",
+          "title": "City of College Station - Middle Housing zoning district",
+          "url": "https://www.cstx.gov/business-development/zoning-districts/middle-housing/",
+          "read": "2026-10-11"
+        }
       }
     ]
   },
   "process": {
     "steps": [
       {
-        "value": "Confirm zoning district and recorded plat building lines / HOA deed restrictions",
-        "status": "Assumed",
+        "value": "Confirm zoning district, overlays (NCO/ROO) and plat building lines; contractor registration with city",
+        "status": "Secondary",
         "source": {
-          "id": "college-station-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-          "url": "",
+          "id": "college-station-sf-overlays",
+          "title": "City of College Station - Single Family Overlay Districts",
+          "url": "https://www.cstx.gov/departments___city_hall/pds/planning/single_family_overlay_districts",
           "read": "2026-10-11"
-        },
-        "note": "Standard Texas suburban practice"
+        }
       },
       {
-        "value": "Submit residential building permit (site plan, floor plans, elevations, foundation design, energy compliance report) through the city's online permit portal",
-        "status": "Assumed",
+        "value": "Submit application with scaled site plan (house location, easements, setbacks, driveways, property lines) and plans (foundation, floor, elevations, wall bracing, MEP)",
+        "status": "Secondary",
         "source": {
-          "id": "college-station-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-          "url": "",
+          "id": "college-station-sfd-permit",
+          "title": "City of College Station - Single Family Dwelling/Duplex building permit page",
+          "url": "https://www.cstx.gov/living-here/building-and-renovating/building-permits/single-family-dwellingduplex/",
           "read": "2026-10-11"
-        },
-        "note": "Typical Central Texas submittal; city checklist not read. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+        }
       },
       {
-        "value": "Pay permit, plan review and impact/tap fees at issuance",
-        "status": "Assumed",
+        "value": "If in SFHA: development permit plus form-board and final elevation certificates",
+        "status": "Secondary",
         "source": {
-          "id": "college-station-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-          "url": "",
+          "id": "college-station-floodplains",
+          "title": "City of College Station - Floodplains (Engineering)",
+          "url": "https://cstx.gov/departments___city_hall/pds/engineering/floodplains",
           "read": "2026-10-11"
-        },
-        "note": "Texas LGC Ch. 395 impact fees typically collected at building permit"
+        }
       },
       {
-        "value": "Inspections, then Certificate of Occupancy",
-        "status": "Assumed",
+        "value": "Pay permit ($0.74/sf) and impact fees; start construction within 180 days; inspections; CO",
+        "status": "Secondary",
         "source": {
-          "id": "college-station-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-          "url": "",
+          "id": "college-station-fy26-fees",
+          "title": "City of College Station - FY26 Planning & Development Services fee schedule",
+          "url": "https://www.cstx.gov/media/vy2i0xpy/fy26-pds-fees.pdf",
           "read": "2026-10-11"
-        },
-        "note": "Standard"
+        }
       }
     ],
     "sealsRequired": [
       {
-        "value": "Foundation design sealed by a Texas-licensed professional engineer (expansive clay soils)",
+        "value": "No residential foundation engineer seal requirement found; Brazos Valley expansive clay - engineered slab strongly recommended",
         "status": "Assumed",
         "source": {
           "id": "college-station-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "title": "Assumed (researcher judgement)",
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Near-universal practice/requirement in Central Texas for slab-on-grade on expansive soils; city rule not read."
+        "note": "City SFD page lists foundation plans but no seal rule found in search extract; retaining walls > 2 ft must be Texas-PE designed."
       }
     ],
     "inspections": [
@@ -596,50 +624,75 @@
   },
   "fees": {
     "permitFormula": {
-      "value": null,
-      "status": "Assumed",
+      "value": "New single-family/duplex building permit $0.74 per sq ft (FY26 schedule, updated 2025-09-29); remodel/addition $0.75/sf min $127",
+      "status": "Secondary",
       "source": {
-        "id": "college-station-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "college-station-fy26-fees",
+        "title": "City of College Station - FY26 Planning & Development Services fee schedule",
+        "url": "https://www.cstx.gov/media/vy2i0xpy/fy26-pds-fees.pdf",
         "read": "2026-10-11"
       },
-      "note": "Not found: city building permit fee schedule (fee ordinance / development services fee page). Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      "note": "Basis (conditioned vs under-roof) not visible in extract; plan review/trade add-ons not seen. Search-result extract of the cited page only (direct fetch blocked on 2026-10-11)."
     },
     "workedExample2400sqft": {
-      "value": null,
-      "status": "Assumed",
+      "value": 2102,
+      "status": "Secondary",
       "source": {
-        "id": "college-station-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "college-station-fy26-fees",
+        "title": "City of College Station - FY26 Planning & Development Services fee schedule",
+        "url": "https://www.cstx.gov/media/vy2i0xpy/fy26-pds-fees.pdf",
         "read": "2026-10-11"
       },
       "unit": "USD",
-      "note": "Not computed: fee formula not found. Assumption for later: 2,400 sq ft conditioned two-storey + 440 sq ft attached garage. If valuation-based, use ICC BVD R-3 VB (~$170-190/sqft) x 2,400 + U rate x 440. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      "note": "Assumes rate applies to total under-roof area: (2,400 conditioned + 440 attached garage) = 2,840 sf x $0.74 = $2,101.60. If conditioned area only: 2,400 x 0.74 = $1,776."
     },
     "planReview": {
       "value": null,
       "status": "Assumed",
       "source": {
         "id": "college-station-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "title": "Assumed (researcher judgement)",
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: residential plan review fee. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      "note": "Not seen in fee-schedule extract; may be included in $0.74/sf."
     },
     "impactFees": [
       {
-        "value": null,
-        "status": "Assumed",
+        "value": 2325,
+        "status": "Secondary",
         "source": {
-          "id": "college-station-assumed",
-          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-          "url": "",
+          "id": "college-station-ww-impact",
+          "title": "City of College Station - Water and Wastewater Impact Fees table",
+          "url": "https://www.cstx.gov/media/zw4iubt5/water-and-wastewater-impact-fees.pdf",
           "read": "2026-10-11"
         },
-        "note": "Not found: water/wastewater/roadway impact fee schedule (Texas LGC Ch. 395 fees are normally collected at building permit). Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+        "unit": "USD",
+        "note": "Water impact fee, residential 5/8x3/4 in meter, from 2026-01-01 ($2,150 in 2025); stepped increases adopted July 2023."
+      },
+      {
+        "value": 3300,
+        "status": "Secondary",
+        "source": {
+          "id": "college-station-ww-impact",
+          "title": "City of College Station - Water and Wastewater Impact Fees table",
+          "url": "https://www.cstx.gov/media/zw4iubt5/water-and-wastewater-impact-fees.pdf",
+          "read": "2026-10-11"
+        },
+        "unit": "USD",
+        "note": "Wastewater impact fee, residential 5/8x3/4 in meter (since 2022-03-01)."
+      },
+      {
+        "value": 4000,
+        "status": "Secondary",
+        "source": {
+          "id": "college-station-kbtx-roadway-2025",
+          "title": "KBTX - Bryan-College Station developer prepares to speak against impact fees",
+          "url": "https://www.kbtx.com/2025/03/26/bryan-college-station-developer-prepares-speak-against-impact-fees-upcoming-council-meeting",
+          "read": "2026-10-11"
+        },
+        "unit": "USD",
+        "note": "Roadway impact fee for a single-family house 'around $4,000' (developer quote, 2025); a councilmember said eliminating it would save ~$6,000/home. Council voted 5-2 on 2026-01-22 to keep roadway fees unchanged. Use 4,000-6,000."
       }
     ],
     "tapFees": [
@@ -658,17 +711,18 @@
   },
   "cost": {
     "factor": {
-      "value": null,
-      "status": "Assumed",
+      "value": 0.92,
+      "unit": "x US national",
+      "status": "Secondary",
       "source": {
-        "id": "cost-method",
-        "title": "See README cost method (filled by cost agent)",
-        "url": "",
+        "id": "cost-factors",
+        "title": "Keystone metro cost factor (BLS OEWS wages, see README cost method)",
+        "url": "https://www.onetonline.org/link/localwages/47-2031.00?st=TX",
         "read": "2026-10-11"
       },
-      "note": "PENDING_COST_AGENT"
+      "note": "MSA 17780 College Station-Bryan, TX: labour index L=0.789, materials M=1.0. 4/5 trades (OEWS May 2024 via O*NET Texas local-wages search extracts). Missing 49-9021: weights renormalised. Ratios to US: 47-2031 0.777; 47-2111 0.799; 47-2152 0.791; 47-2061 0.796. L = 0.789; factor = 0.40*0.789 + 0.60*1.00 = 0.92. M=1.00 (default, no public citable reason to adjust)."
     },
-    "method": "PENDING_COST_AGENT",
+    "method": "Factor = 0.40*L + 0.60*M, rounded to 2 decimals. L = weighted mean of (metro annual median wage / US national annual median wage) for SOC 47-2031 Carpenters (0.30), 47-2111 Electricians (0.20), 47-2152 Plumbers/Pipefitters/Steamfitters (0.20), 47-2061 Construction Laborers (0.20), 49-9021 HVAC Mechanics/Installers (0.10), from BLS OEWS; weights renormalised over occupations available for the MSA. M = materials index, 1.00 for all Texas metros (no public citable reason to adjust); qualitative materials notes per MSA. Wave 2 (2026-10-11): all five trades retrieved from O*NET Texas local-wages pages (OEWS May 2024) via search extracts (Secondary); HVAC missing for 28660, 47380, 46340, 17780 (weights renormalised there). provisional removed for every MSA with >=4 trades.",
     "perSqFtMarket": {
       "value": "135-180",
       "status": "Assumed",
@@ -714,81 +768,88 @@
           "read": "2026-10-11"
         },
         "note": "Researcher judgement"
+      },
+      {
+        "value": "Impact fees ~ $9,600-11,600 per home (water $2,325 + wastewater $3,300 + roadway ~$4,000-6,000)",
+        "status": "Secondary",
+        "source": {
+          "id": "college-station-ww-impact",
+          "title": "City of College Station - Water and Wastewater Impact Fees table",
+          "url": "https://www.cstx.gov/media/zw4iubt5/water-and-wastewater-impact-fees.pdf",
+          "read": "2026-10-11"
+        }
       }
     ]
   },
   "flood": {
-    "value": "City floodplain ordinance (NFIP); freeboard not confirmed - assume lowest floor >= 1 ft above BFE (Wolf Pen, Bee, Carters Creeks).",
-    "status": "Assumed",
+    "value": "Finished floor of structures in the SFHA at least 12 in (1 ft) above BFE; floodplain Development Permit required; 2 elevation certificates (form-board before slab pour, final before CO) by Texas RPLS/PE/RA; fill allowed to reach BFE+1 ft.",
+    "status": "Secondary",
     "source": {
-      "id": "college-station-assumed",
-      "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-      "url": "",
+      "id": "college-station-floodplains",
+      "title": "City of College Station - Floodplains (Engineering)",
+      "url": "https://cstx.gov/departments___city_hall/pds/engineering/floodplains",
       "read": "2026-10-11"
     },
-    "note": "Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+    "note": "Search-result extract of the cited page only (direct fetch blocked on 2026-10-11)."
   },
   "engineChanges": [
     {
       "id": "college-station-code-edition",
       "ruleType": "code-edition-by-city",
       "area": "plan",
-      "change": "Check plans against 2021 IRC (unverified) (city adoption) and energy code 2021 IECC / IRC Ch. 11 (unverified) instead of the plain 2021 IRC model - edition is Assumed, show 'confirm with city' warning",
-      "priority": "should",
+      "change": "Check plans against 2024 IRC + 2024 IECC + IPC 2024 + NEC 2023 with College Station amendments (eff. 2026-01-01), not the 2021 IRC model",
+      "priority": "must",
       "params": {
-        "irc": "2021 IRC (unverified)",
-        "energy": "2021 IECC / IRC Ch. 11 (unverified)",
-        "editionStatus": "Assumed"
+        "irc": "2024 IRC",
+        "energy": "2024 IECC",
+        "plumbing": "IPC 2024",
+        "electrical": "NEC 2023",
+        "effective": "2026-01-01",
+        "editionStatus": "Secondary"
       },
       "source": {
-        "id": "college-station-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "college-station-building-codes",
+        "title": "City of College Station - Building Codes (adopted codes, eff. 2026-01-01)",
+        "url": "https://www.cstx.gov/living-here/building-and-renovating/building-codes/",
         "read": "2026-10-11"
-      },
-      "derived": "added by coordinator from codes.irc.edition"
+      }
     },
     {
       "id": "college-station-setbacks",
       "ruleType": "setback-by-district",
       "area": "setbacks",
-      "change": "GS (General Suburban): front 25 / side 7.5 / street side 15 / rear 20 ft (ASSUMED - verify before relying)",
+      "change": "GS: front 25 / side 7.5 / street side 15 / rear 20 ft",
       "priority": "must",
       "params": {
-        "district": "GS (General Suburban)",
-        "assumed": true,
+        "district": "GS",
         "frontFt": 25,
         "sideFt": 7.5,
         "streetSideFt": 15,
-        "rearFt": 20
+        "rearFt": 20,
+        "frontFootnote": "unverified asterisk"
       },
       "source": {
-        "id": "college-station-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "college-station-gs-factsheet",
+        "title": "City of College Station - GS General Suburban zoning district fact sheet",
+        "url": "https://www.cstx.gov/media/5sti0f32/gs.pdf",
         "read": "2026-10-11"
       }
     },
     {
-      "id": "college-station-district-input",
-      "ruleType": "survey-input-district",
+      "id": "college-station-lot",
+      "ruleType": "lot-min-size",
       "area": "survey",
-      "change": "Ask user for zoning district/PUD and plat building lines; do not default silently",
-      "priority": "must",
+      "change": "GS min lot 5,000 sf, 50 ft wide, 100 ft deep",
+      "priority": "should",
       "params": {
-        "districts": [
-          "GS (General Suburban)",
-          "RS (Restricted Suburban)",
-          "R (Rural)",
-          "E (Estate)",
-          "T (Townhouse)",
-          "PDD"
-        ]
+        "minLotSqFt": 5000,
+        "minLotWidthFt": 50,
+        "minLotDepthFt": 100
       },
       "source": {
-        "id": "college-station-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "college-station-gs-factsheet",
+        "title": "City of College Station - GS General Suburban zoning district fact sheet",
+        "url": "https://www.cstx.gov/media/5sti0f32/gs.pdf",
         "read": "2026-10-11"
       }
     },
@@ -796,16 +857,78 @@
       "id": "college-station-height",
       "ruleType": "height-limit",
       "area": "massing",
-      "change": "Cap height at 35 ft (assumed)",
-      "priority": "should",
+      "change": "GS max 2.5 stories / 35 ft",
+      "priority": "must",
       "params": {
         "maxHeightFt": 35,
-        "assumed": true
+        "maxStories": 2.5
       },
       "source": {
-        "id": "college-station-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "college-station-udo-art5",
+        "title": "College Station UDO Article 5 - District Purpose Statements and Supplemental Standards (Municode)",
+        "url": "https://library.municode.com/tx/college_station/codes/code_of_ordinances?nodeId=SPBLADEOR_APXAUNDEOR_ART5DIPUSTSUST",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "college-station-district-input",
+      "ruleType": "survey-input-district",
+      "area": "survey",
+      "change": "Ask district (GS/RS/E/R/MH/PDD) and overlay (NCO, ROO); NCO may override setbacks/height/coverage",
+      "priority": "must",
+      "params": {
+        "districts": [
+          "GS",
+          "RS",
+          "E",
+          "R",
+          "MH",
+          "PDD"
+        ],
+        "overlays": [
+          "NCO",
+          "ROO"
+        ]
+      },
+      "source": {
+        "id": "college-station-sf-overlays",
+        "title": "City of College Station - Single Family Overlay Districts",
+        "url": "https://www.cstx.gov/departments___city_hall/pds/planning/single_family_overlay_districts",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "college-station-nco-overlay",
+      "ruleType": "lot-coverage",
+      "area": "massing",
+      "change": "If NCO overlay: load overlay limits (e.g. McCulloch NCO: 1 story, 41% coverage incl. parking)",
+      "priority": "should",
+      "params": {
+        "exampleOverlay": "McCulloch",
+        "maxStories": 1,
+        "maxCoverage": 0.41
+      },
+      "source": {
+        "id": "college-station-sf-overlays",
+        "title": "City of College Station - Single Family Overlay Districts",
+        "url": "https://www.cstx.gov/departments___city_hall/pds/planning/single_family_overlay_districts",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "college-station-unrelated",
+      "ruleType": "occupancy-limit",
+      "area": "plan",
+      "change": "Warn when plan has more than 4 bedrooms intended for unrelated occupants: max 4 unrelated per dwelling (2 in ROO). Do not market 5+ bed 'stealth dorm' layouts as rentals",
+      "priority": "should",
+      "params": {
+        "maxUnrelated": 4,
+        "maxUnrelatedROO": 2
+      },
+      "source": {
+        "id": "college-station-occupancy",
+        "title": "City of College Station - Occupancy Restrictions",
+        "url": "https://www.cstx.gov/living-here/housing/occupancy-restrictions",
         "read": "2026-10-11"
       }
     },
@@ -813,15 +936,16 @@
       "id": "college-station-eng-foundation",
       "ruleType": "engineered-foundation-flag",
       "area": "foundation",
-      "change": "Flag PE-sealed foundation design (expansive soils)",
-      "priority": "must",
+      "change": "Flag engineered slab (expansive clay); city requires foundation plans, seal rule not confirmed",
+      "priority": "should",
       "params": {
-        "engineeredFoundation": true
+        "engineeredFoundation": "recommended",
+        "foundationPlansRequired": true
       },
       "source": {
-        "id": "college-station-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "college-station-sfd-permit",
+        "title": "City of College Station - Single Family Dwelling/Duplex building permit page",
+        "url": "https://www.cstx.gov/living-here/building-and-renovating/building-permits/single-family-dwellingduplex/",
         "read": "2026-10-11"
       }
     },
@@ -829,15 +953,34 @@
       "id": "college-station-climate",
       "ruleType": "climate-zone-envelope",
       "area": "envelope",
-      "change": "Climate zone 2A envelope (2021 IECC)",
+      "change": "Climate zone 2A envelope per 2024 IECC (amended)",
       "priority": "must",
       "params": {
-        "climateZone": "2A"
+        "climateZone": "2A",
+        "energyCode": "2024 IECC"
       },
       "source": {
-        "id": "college-station-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "college-station-building-codes",
+        "title": "City of College Station - Building Codes (adopted codes, eff. 2026-01-01)",
+        "url": "https://www.cstx.gov/living-here/building-and-renovating/building-codes/",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "college-station-permit-fee",
+      "ruleType": "permit-fee-formula",
+      "area": "estimate",
+      "change": "Building permit = $0.74 x sq ft (assume under roof)",
+      "priority": "should",
+      "params": {
+        "ratePerSqFt": 0.74,
+        "basis": "under-roof (assumed)",
+        "example2840sfUSD": 2102
+      },
+      "source": {
+        "id": "college-station-fy26-fees",
+        "title": "City of College Station - FY26 Planning & Development Services fee schedule",
+        "url": "https://www.cstx.gov/media/vy2i0xpy/fy26-pds-fees.pdf",
         "read": "2026-10-11"
       }
     },
@@ -845,54 +988,52 @@
       "id": "college-station-impact-fee",
       "ruleType": "impact-fee-estimate",
       "area": "estimate",
-      "change": "Add placeholder water/wastewater (and roadway if any) impact fee line; amount unknown",
-      "priority": "should",
-      "params": {
-        "amountUSD": null
-      },
-      "source": {
-        "id": "college-station-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
-        "read": "2026-10-11"
-      }
-    },
-    {
-      "id": "college-station-unrelated",
-      "ruleType": "min-dwelling-size",
-      "area": "plan",
-      "change": "Occupancy rule: dwelling may house a family or no more than 4 unrelated persons (assumed from UDO 'family' definition) - warn if plan has >4 bedrooms intended for unrelated occupants; do not market as rental for >4",
-      "priority": "should",
-      "params": {
-        "maxUnrelatedOccupants": 4,
-        "warnBedroomsOver": 4,
-        "assumed": true
-      },
-      "source": {
-        "id": "college-station-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
-        "read": "2026-10-11"
-      }
-    },
-    {
-      "id": "college-station-nco-overlay",
-      "ruleType": "deed-restriction-check",
-      "area": "survey",
-      "change": "Ask whether lot is in a Neighborhood Conservation (NCO), Neighborhood Prevailing Overlay or Single-Family Overlay - these can impose larger setbacks, height, parking or lot-size rules",
+      "change": "Impact fees: water $2,325 + wastewater $3,300 + roadway ~$4,000 (to $6,000)",
       "priority": "must",
       "params": {
-        "overlays": [
-          "NCO",
-          "NPO",
-          "SFO"
-        ],
-        "ask": true
+        "waterUSD": 2325,
+        "wastewaterUSD": 3300,
+        "roadwayUSD": 4000,
+        "roadwayHighUSD": 6000,
+        "totalUSD": 9625
       },
       "source": {
-        "id": "college-station-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
+        "id": "college-station-ww-impact",
+        "title": "City of College Station - Water and Wastewater Impact Fees table",
+        "url": "https://www.cstx.gov/media/zw4iubt5/water-and-wastewater-impact-fees.pdf",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "college-station-flood",
+      "ruleType": "flood-elevation",
+      "area": "survey",
+      "change": "If in SFHA, finished floor >= BFE + 1 ft; two elevation certificates",
+      "priority": "must",
+      "params": {
+        "freeboardFt": 1,
+        "elevationCertificates": 2
+      },
+      "source": {
+        "id": "college-station-floodplains",
+        "title": "City of College Station - Floodplains (Engineering)",
+        "url": "https://cstx.gov/departments___city_hall/pds/engineering/floodplains",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "college-station-electrical",
+      "ruleType": "electrical-code-edition",
+      "area": "plan",
+      "change": "Electrical to NEC 2023",
+      "priority": "should",
+      "params": {
+        "nec": "2023"
+      },
+      "source": {
+        "id": "college-station-building-codes",
+        "title": "City of College Station - Building Codes (adopted codes, eff. 2026-01-01)",
+        "url": "https://www.cstx.gov/living-here/building-and-renovating/building-codes/",
         "read": "2026-10-11"
       }
     },
@@ -912,54 +1053,37 @@
         "url": "",
         "read": "2026-10-11"
       }
-    },
-    {
-      "id": "college-station-flood",
-      "ruleType": "flood-elevation",
-      "area": "survey",
-      "change": "If in SFHA, lowest floor >= BFE + 1 ft (assumed)",
-      "priority": "should",
-      "params": {
-        "freeboardFt": 1,
-        "assumed": true
-      },
-      "source": {
-        "id": "college-station-assumed",
-        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
-        "url": "",
-        "read": "2026-10-11"
-      }
     }
   ],
-  "plainLanguage": "College Station most likely uses the 2021 International Residential Code, but we could not confirm the ordinance this time. The most common zone for new homes is General Suburban (GS); until verified, plan for about a 25 ft front setback, 7.5 ft sides and 20 ft rear. College Station limits how many unrelated people can live in one house (no more than four), so very large bedroom counts for roommates can be a problem. Some older neighborhoods have conservation overlays that add their own rules - tell us if yours does. Expect an engineer-designed slab on the local clay soils.",
+  "plainLanguage": "Since January 1, 2026 College Station uses the newer 2024 residential, energy and plumbing codes and the 2023 electrical code, with local changes. Most new homes are in the GS (General Suburban) district: lots of at least 5,000 sq ft, 25 ft front, 7.5 ft side, 15 ft street-side and 20 ft rear setbacks, up to 2.5 stories / 35 ft. No more than 4 unrelated people may live in one house (only 2 in some overlay neighborhoods), so very large bedroom counts aimed at student renters can be a problem. Some older neighborhoods near Texas A&M have conservation overlays with stricter rules, such as one-story limits. The building permit is about $0.74 per square foot - around $2,100 for a 2,400 sq ft house with garage. Impact fees add roughly $9,600 or more (water, sewer and roads). In a floodplain, the floor must be at least 1 ft above the 100-year flood level.",
   "openQuestions": [
-    "IRC adoption & amendments",
-    "GS dimensional standards (UDO Sec. 5.x)",
-    "Exact family/unrelated occupancy definition and enforcement",
-    "Which neighborhoods carry NCO/NPO/SFO overlays and their standards",
-    "Bedroom-based parking rule"
+    "Text of 2024 IRC local amendments (foundation, sprinklers)",
+    "GS front setback asterisk footnote",
+    "Is $0.74/sf on conditioned or total area; plan review fee?",
+    "Exact roadway impact fee per single-family unit by service area",
+    "Has the 2025 'family' definition / shared housing ordinance been finalized (and effect of 2025 state law on occupancy limits)?",
+    "Max lot coverage in GS (none found)"
   ],
   "notFound": [
-    "All values - research tooling blocked",
-    "IRC adoption ordinance & local amendments",
-    "District dimensional table",
-    "Permit fee schedule",
-    "Impact/tap fees"
+    "Ordinance number for 2024 code adoption",
+    "GS lot coverage",
+    "Roadway fee table amount",
+    "Residential foundation seal rule"
   ],
   "comparison": {
-    "irc": "2021 IRC (assumed)",
-    "energy": "2021 IECC (assumed)",
-    "plumbing": "IPC 2021 (assumed)",
-    "district": "GS (General Suburban)",
-    "setbacks": "25/7.5/20 (assumed)",
-    "maxHeight": "35 ft (assumed)",
+    "irc": "2024 IRC (2026)",
+    "energy": "2024 IECC (amended)",
+    "plumbing": "IPC 2024",
+    "district": "GS",
+    "setbacks": "25/7.5/20",
+    "maxHeight": "35 ft/2.5 st",
     "coverageFar": "not found / none",
     "masonry": "none (state preemption)",
-    "engFoundation": "yes (assumed)",
+    "engFoundation": "plans req.; seal not confirmed",
     "windstorm": "no",
-    "flood": "1 ft freeboard (assumed)",
-    "permitFeeExample": "not found",
-    "impactFees": "not found",
-    "costFactor": "PENDING"
+    "flood": "1 ft freeboard",
+    "permitFeeExample": "$2,102",
+    "impactFees": "~$9,625 w+ww+roadway",
+    "costFactor": "0.92"
   }
 }

@@ -34,7 +34,7 @@ cmpcols = ["irc","energy","plumbing","district","setbacks","maxHeight","coverage
 hdr = ["City","Tier","IRC edition","Energy code","Plumbing","Typical district","Front/side/rear (ft)","Max height","Coverage / FAR","Masonry rule","Engineer-sealed foundation","Windstorm","Flood note","Permit fee, 2,400 sf example","Impact fees","Cost factor"]
 def cell(x): return str(x if x not in (None, "") else "–").replace("|", "/").replace("\n", " ")
 T = ["| " + " | ".join(hdr) + " |", "|" + "---|" * len(hdr)]
-T.append("| **IRC-2021 model (Keystone today)** | – | 2021 IRC | 2021 IECC ch. 11 | IPC | – | user value | 35 ft (no IRC limit) | – | none | no | no | none | – | none | 0.95 (single TX) |")
+T.append("| **IRC-2021 model (Keystone today)** | – | 2021 IRC | 2021 IRC ch. 11 (IECC) | IPC | – | user value | 3 storeys (IRC scope) | – | none | no | no | none | – | none | 0.95 (single TX) |")
 for d in sorted(fallbacks, key=lambda d: d["id"]) + [r[0] for r in rows]:
     c = d.get("comparison", {})
     T.append("| " + " | ".join([f"[{d['name']}](cities/{d['id']}.json)", tierName.get(d.get("tier"), "fallback")] + [cell(c.get(k)) for k in cmpcols]) + " |")

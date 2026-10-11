@@ -43,3 +43,4 @@ META = {
 "parking-min": ("Parking minimum", "Minimum off-street spaces (SB 15 caps at 1 on qualifying small lots).", "Bedrooms.", '{"spaces": 2}'),
 "small-lot-sb15": ("SB 15 small-lot limits", "On qualifying small lots in large cities, cap the city's lot and setback demands (<=3,000 sf lot, 15/5/10 ft setbacks).", "City size, tract size, plat date.", '{"maxLotReqSqFt": 3000, "setbacks": [15,5,10]}'),
 }
+META["occupancy-limit"] = ("Occupancy limit", "Cap on unrelated occupants per dwelling (College Station: 4, or 2 in Restricted Occupancy Overlay). Warn when bedrooms exceed the cap for a rental-style plan.", "Intended use (owner / rental); overlay (address).", '{"maxUnrelated": 4, "overlayMax": 2}')
