@@ -250,7 +250,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: lot width ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+      "note": "Not found: lot width. Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "minLotDepthFt": {
       "value": null,
@@ -261,7 +261,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: lot depth ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+      "note": "Not found: lot depth. Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "setbacksFt": {
       "front": {
@@ -322,7 +322,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: height ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+      "note": "Not found: height. Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "maxStories": {
       "value": null,
@@ -333,7 +333,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: stories ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+      "note": "Not found: stories. Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "maxLotCoverage": {
       "value": null,
@@ -344,7 +344,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: coverage ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+      "note": "Not found: coverage. Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "imperviousCover": {
       "value": null,
@@ -355,7 +355,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: impervious ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+      "note": "Not found: impervious. Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "far": {
       "value": null,
@@ -366,7 +366,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: FAR ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+      "note": "Not found: FAR. Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "parking": {
       "value": null,
@@ -377,7 +377,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: parking ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+      "note": "Not found: parking. Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "garageRules": {
       "value": null,
@@ -388,7 +388,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: garage ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+      "note": "Not found: garage. Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "adu": {
       "value": null,
@@ -399,7 +399,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: ADU ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+      "note": "Not found: ADU. Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "masonry": {
       "value": null,
@@ -410,7 +410,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: masonry ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+      "note": "Not found: masonry. Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "trees": {
       "value": "Ch. 102 tree preservation incl. 30% minimum canopy standard (residential and nonresidential)",
@@ -486,7 +486,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: review days ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+      "note": "Not found: review days. Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     }
   },
   "fees": {
@@ -510,7 +510,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: worked example ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+      "note": "Not found: worked example. Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "planReview": {
       "value": null,
@@ -521,7 +521,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: plan review ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+      "note": "Not found: plan review. Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "impactFees": [
       {
@@ -547,7 +547,7 @@
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Not found: tap fees; many Conroe-area subdivisions are served by MUDs ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+        "note": "Not found: tap fees; many Conroe-area subdivisions are served by MUDs. Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
       }
     ]
   },
@@ -573,7 +573,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: market $/sf ) Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
+      "note": "Not found: market $/sf. Wave 3 (2026-10-11): targeted searches did not surface this; city site/Municode not fetchable here."
     },
     "drivers": [
       {

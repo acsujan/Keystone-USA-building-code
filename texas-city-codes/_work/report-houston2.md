@@ -45,3 +45,9 @@ Read date 2026-10-11. **Environment limits:** every direct fetch failed. WebFetc
 ## Needs a follow-up run (with search/fetch access)
 - League City and Conroe: the full city data set.
 - Pearland: UDC table values, residential amendments, and the current meter-based impact fee.
+
+## Wave 3 (39 searches; Secondary)
+- league-city: 2021 IRC/IECC/IPC/IMC/IFGC + local amendments in Ch. 22 (agenda; ord. no. not seen); NEC not found. RSF-7 7,000 sf; front 25 (UDC Table 3.3.2, 2025 variance agenda); side 5/rear 20/street 15/35 ft placeholders. Flood (2018): 24 in above BFE or 3 in above 500-yr; infill variance (2022). Permit $0.40/sf -> $1,136. Impact $11,860-14,825 water+ww (+93%, Dec 2023). Pop 118,456 (V2024).
+- conroe: no zoning (2 sources); plat building lines (Ch. 94) + deed restrictions. Flood: FF >= BFE + 12 in (city handout). No impact fees (study, adoption ~Q4 2027). 2021 IRC + NEC 2023 third-party only (official record: 2009 IRC eff. 2013).
+- katy: 2021 I-codes + NEC 2023 (Ch. 3 Art. 3.02, ~Jan 2024; agenda). R-1 (third party): front 25 (35 major), corner 25, rear 15, 32 ft. Floodplain at/above 500-yr (unconfirmed for city).
+- sugar-land: 2024 I-codes + NEC 2023 (Ord. 2395, applications from 2026-01-21; 2 city pages). R-1: 6,600 sf, 60x110, front 25, sides 5 (total >= 10% width), rear 15 (25 arterial), 35 ft/2.5 st, 40% coverage (rear/coverage from garbled table). FY25 Ord. 2355 tiered fee + 50% plan check -> ~$2,730 Assumed. Tap water $915 + sewer $200.
