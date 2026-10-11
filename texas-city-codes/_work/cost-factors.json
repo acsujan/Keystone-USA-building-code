@@ -1,0 +1,1698 @@
+{
+  "baseline": "US national = 1.00 (BLS OEWS US national annual median wage, same release as metro values). Keystone currently applies a single Texas multiplier 0.95 to the national baseline.",
+  "method": "Factor = 0.40*L + 0.60*M, rounded to 2 decimals. L = weighted mean of (metro annual median wage / US national annual median wage) for SOC 47-2031 Carpenters (0.30), 47-2111 Electricians (0.20), 47-2152 Plumbers/Pipefitters/Steamfitters (0.20), 47-2061 Construction Laborers (0.20), 49-9021 HVAC Mechanics/Installers (0.10), from BLS OEWS; weights renormalised over occupations available for the MSA. M = materials index, 1.00 for all Texas metros (no public citable reason to adjust); qualitative materials notes per MSA. THIS RUN IS PROVISIONAL: only carpenters (47-2031) could be retrieved, so L = carpenter ratio alone (weight renormalised to 1.00).",
+  "weights": {
+    "47-2031": 0.3,
+    "47-2111": 0.2,
+    "47-2152": 0.2,
+    "47-2061": 0.2,
+    "49-9021": 0.1
+  },
+  "release": "BLS OEWS May 2024 (published 2025) via O*NET OnLine Texas local-wages page. May 2025 OEWS was published 2026-05-15 (USDL-26-0725) but its metro tables could not be reached; May 2025 national medians recorded for reference only.",
+  "sourceUrl": "https://www.onetonline.org/link/localwages/47-2031.00?st=TX",
+  "provisional": true,
+  "national": {
+    "47-2031": {
+      "value": 59310,
+      "unit": "USD/yr (annual median, May 2024)",
+      "status": "Secondary",
+      "source": {
+        "id": "onet-tx-47-2031",
+        "title": "O*NET OnLine - Texas Wages: 47-2031.00 Carpenters (BLS OEWS May 2024 wage data, US/Texas/MSA rows)",
+        "url": "https://www.onetonline.org/link/localwages/47-2031.00?st=TX",
+        "read": "2026-10-11",
+        "section": "United States row"
+      },
+      "note": "Used as denominator (same release as metro values). Cross-check: Salary Atlas lists $59,310 for May 2024; O*NET 47-2031 summary lists $28.51/hr, $59,310 (2024). Read via web-search extract of the page; direct fetch of the page failed (WebFetch DNS failure / proxy 403), so value not read in the rendered page itself.",
+      "may2025": {
+        "value": 60580,
+        "status": "Secondary",
+        "source": {
+          "id": "bls-ooh-carpenters",
+          "title": "BLS Occupational Outlook Handbook - Carpenters (median pay May 2025)",
+          "url": "https://www.bls.gov/ooh/construction-and-extraction/carpenters.htm",
+          "read": "2026-10-11",
+          "section": "Pay - median annual wage May 2025"
+        },
+        "note": "Also WageDex $60,580 (May 2025). Not used: no May 2025 metro values retrieved. Read via web-search extract of the page; direct fetch of the page failed (WebFetch DNS failure / proxy 403), so value not read in the rendered page itself."
+      }
+    },
+    "47-2111": {
+      "value": null,
+      "unit": "USD/yr",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-cost",
+        "title": "Assumed - cost agent judgement (no source could be read)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "May 2024 national median not retrieved. May 2025 national median $63,190 per WageDex (Secondary, unverified on bls.gov).",
+      "may2025": {
+        "value": 63190,
+        "status": "Secondary",
+        "source": {
+          "id": "wagedex-47-2111",
+          "title": "WageDex - Electricians SOC 47-2111 (cites BLS OEWS May 2025)",
+          "url": "https://wagedex.com/jobs/electricians",
+          "read": "2026-10-11"
+        },
+        "note": "Read via web-search extract of the page; direct fetch of the page failed (WebFetch DNS failure / proxy 403), so value not read in the rendered page itself."
+      }
+    },
+    "47-2152": {
+      "value": null,
+      "unit": "USD/yr",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-cost",
+        "title": "Assumed - cost agent judgement (no source could be read)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "May 2024 national median not retrieved.",
+      "may2025": {
+        "value": 63800,
+        "status": "Secondary",
+        "source": {
+          "id": "wagedex-47-2152",
+          "title": "WageDex - Plumbers, Pipefitters and Steamfitters SOC 47-2152 (cites BLS OEWS May 2025)",
+          "url": "https://wagedex.com/jobs/plumbers-pipefitters-and-steamfitters",
+          "read": "2026-10-11"
+        },
+        "note": "Read via web-search extract of the page; direct fetch of the page failed (WebFetch DNS failure / proxy 403), so value not read in the rendered page itself."
+      }
+    },
+    "47-2061": {
+      "value": null,
+      "unit": "USD/yr",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-cost",
+        "title": "Assumed - cost agent judgement (no source could be read)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "May 2024 national median not retrieved.",
+      "may2025": {
+        "value": 47120,
+        "status": "Secondary",
+        "source": {
+          "id": "wagedex-47-2061",
+          "title": "WageDex - Construction Laborers SOC 47-2061 (cites BLS OEWS May 2025)",
+          "url": "https://wagedex.com/jobs/construction-laborers",
+          "read": "2026-10-11"
+        },
+        "note": "Read via web-search extract of the page; direct fetch of the page failed (WebFetch DNS failure / proxy 403), so value not read in the rendered page itself."
+      }
+    },
+    "49-9021": {
+      "value": 59810,
+      "unit": "USD/yr (annual median, 2024)",
+      "status": "Secondary",
+      "source": {
+        "id": "onet-dc-49-9021",
+        "title": "O*NET OnLine - DC Wages 49-9021.00 (shows 2024 US national median row)",
+        "url": "https://www.onetonline.org/link/localwages/49-9021.00?st=DC",
+        "read": "2026-10-11",
+        "section": "United States row"
+      },
+      "note": "Not used in L (no metro HVAC values retrieved). Read via web-search extract of the page; direct fetch of the page failed (WebFetch DNS failure / proxy 403), so value not read in the rendered page itself.",
+      "may2025": {
+        "value": 61010,
+        "status": "Secondary",
+        "source": {
+          "id": "onet-us-49-9021",
+          "title": "O*NET OnLine - National Wages 49-9021.00 HVAC and Refrigeration Mechanics and Installers",
+          "url": "https://www.onetonline.org/link/localwages/49-9021.00",
+          "read": "2026-10-11",
+          "section": "United States 50th percentile"
+        },
+        "note": "O*NET national page and WageDex both give $61,010 (May 2025). Read via web-search extract of the page; direct fetch of the page failed (WebFetch DNS failure / proxy 403), so value not read in the rendered page itself."
+      }
+    }
+  },
+  "texas": {
+    "name": "Texas statewide",
+    "wages": {
+      "47-2031": {
+        "value": 48150,
+        "unit": "USD/yr (annual median, May 2024)",
+        "status": "Secondary",
+        "source": {
+          "id": "onet-tx-47-2031",
+          "title": "O*NET OnLine - Texas Wages: 47-2031.00 Carpenters (BLS OEWS May 2024 wage data, US/Texas/MSA rows)",
+          "url": "https://www.onetonline.org/link/localwages/47-2031.00?st=TX",
+          "read": "2026-10-11",
+          "section": "Texas row, annual 50th percentile"
+        },
+        "note": "Read via web-search extract of the page; direct fetch of the page failed (WebFetch DNS failure / proxy 403), so value not read in the rendered page itself. Page labels it 'Workers on average earn'; equals hourly median $23.15 x 2080, so treated as median."
+      },
+      "47-2111": {
+        "value": null,
+        "unit": "USD/yr",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-cost",
+          "title": "Assumed - cost agent judgement (no source could be read)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: SOC 47-2111 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+      },
+      "47-2152": {
+        "value": null,
+        "unit": "USD/yr",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-cost",
+          "title": "Assumed - cost agent judgement (no source could be read)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: SOC 47-2152 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+      },
+      "47-2061": {
+        "value": null,
+        "unit": "USD/yr",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-cost",
+          "title": "Assumed - cost agent judgement (no source could be read)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: SOC 47-2061 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+      },
+      "49-9021": {
+        "value": null,
+        "unit": "USD/yr",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-cost",
+          "title": "Assumed - cost agent judgement (no source could be read)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: SOC 49-9021 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+      }
+    },
+    "L": 0.812,
+    "M": 1.0,
+    "factor": 0.92,
+    "status": "Assumed",
+    "provisional": true,
+    "notes": "PROVISIONAL carpenter-only. L=48150/59310=0.812; factor=0.40*0.812+0.60=0.92. Compare current Keystone single Texas multiplier 0.95."
+  },
+  "msas": {
+    "26420": {
+      "name": "Houston-Pasadena-The Woodlands, TX",
+      "wages": {
+        "47-2031": {
+          "value": 48910,
+          "unit": "USD/yr (annual median, May 2024)",
+          "status": "Secondary",
+          "source": {
+            "id": "onet-tx-47-2031",
+            "title": "O*NET OnLine - Texas Wages: 47-2031.00 Carpenters (BLS OEWS May 2024 wage data, US/Texas/MSA rows)",
+            "url": "https://www.onetonline.org/link/localwages/47-2031.00?st=TX",
+            "read": "2026-10-11",
+            "section": "Houston-Pasadena-The Woodlands, TX row, annual 50th percentile"
+          },
+          "note": "Read via web-search extract of the page; direct fetch of the page failed (WebFetch DNS failure / proxy 403), so value not read in the rendered page itself."
+        },
+        "47-2111": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2111 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "47-2152": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2152 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "47-2061": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2061 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "49-9021": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 49-9021 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        }
+      },
+      "weightsUsed": {
+        "47-2031": 1.0
+      },
+      "L": 0.825,
+      "M": 1.0,
+      "factor": 0.93,
+      "status": "Assumed",
+      "provisional": true,
+      "notes": "PROVISIONAL - carpenter-only labour index (4 of 5 trades not retrieved; weights renormalised to carpenters=1.00). L = 48910/59310 = 0.825; factor = 0.40*0.825 + 0.60*1.00 = 0.93. Re-run with full basket and May 2025 data. M=1.00 kept. Qualitative (Assumed, not sourced): Port of Houston and large distribution yards; good lumber/concrete availability; windstorm-rated products in coastal counties add cost (handled separately as a code driver)."
+    },
+    "41700": {
+      "name": "San Antonio-New Braunfels, TX",
+      "wages": {
+        "47-2031": {
+          "value": 47670,
+          "unit": "USD/yr (annual median, May 2024)",
+          "status": "Secondary",
+          "source": {
+            "id": "onet-tx-47-2031",
+            "title": "O*NET OnLine - Texas Wages: 47-2031.00 Carpenters (BLS OEWS May 2024 wage data, US/Texas/MSA rows)",
+            "url": "https://www.onetonline.org/link/localwages/47-2031.00?st=TX",
+            "read": "2026-10-11",
+            "section": "San Antonio-New Braunfels, TX row, annual 50th percentile"
+          },
+          "note": "Read via web-search extract of the page; direct fetch of the page failed (WebFetch DNS failure / proxy 403), so value not read in the rendered page itself."
+        },
+        "47-2111": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2111 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "47-2152": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2152 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "47-2061": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2061 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "49-9021": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 49-9021 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        }
+      },
+      "weightsUsed": {
+        "47-2031": 1.0
+      },
+      "L": 0.804,
+      "M": 1.0,
+      "factor": 0.92,
+      "status": "Assumed",
+      "provisional": true,
+      "notes": "PROVISIONAL - carpenter-only labour index (4 of 5 trades not retrieved; weights renormalised to carpenters=1.00). L = 47670/59310 = 0.804; factor = 0.40*0.804 + 0.60*1.00 = 0.92. Re-run with full basket and May 2025 data. M=1.00 (default, no public citable reason found to adjust in this run)."
+    },
+    "19100": {
+      "name": "Dallas-Fort Worth-Arlington, TX",
+      "wages": {
+        "47-2031": {
+          "value": 48420,
+          "unit": "USD/yr (annual median, May 2024)",
+          "status": "Secondary",
+          "source": {
+            "id": "onet-tx-47-2031",
+            "title": "O*NET OnLine - Texas Wages: 47-2031.00 Carpenters (BLS OEWS May 2024 wage data, US/Texas/MSA rows)",
+            "url": "https://www.onetonline.org/link/localwages/47-2031.00?st=TX",
+            "read": "2026-10-11",
+            "section": "Dallas-Fort Worth-Arlington, TX row, annual 50th percentile"
+          },
+          "note": "Read via web-search extract of the page; direct fetch of the page failed (WebFetch DNS failure / proxy 403), so value not read in the rendered page itself."
+        },
+        "47-2111": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2111 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "47-2152": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2152 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "47-2061": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2061 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "49-9021": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 49-9021 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        }
+      },
+      "weightsUsed": {
+        "47-2031": 1.0
+      },
+      "L": 0.816,
+      "M": 1.0,
+      "factor": 0.93,
+      "status": "Assumed",
+      "provisional": true,
+      "notes": "PROVISIONAL - carpenter-only labour index (4 of 5 trades not retrieved; weights renormalised to carpenters=1.00). L = 48420/59310 = 0.816; factor = 0.40*0.816 + 0.60*1.00 = 0.93. Re-run with full basket and May 2025 data. M=1.00 (default, no public citable reason found to adjust in this run)."
+    },
+    "12420": {
+      "name": "Austin-Round Rock-San Marcos, TX",
+      "wages": {
+        "47-2031": {
+          "value": 49650,
+          "unit": "USD/yr (annual median, May 2024)",
+          "status": "Secondary",
+          "source": {
+            "id": "onet-tx-47-2031",
+            "title": "O*NET OnLine - Texas Wages: 47-2031.00 Carpenters (BLS OEWS May 2024 wage data, US/Texas/MSA rows)",
+            "url": "https://www.onetonline.org/link/localwages/47-2031.00?st=TX",
+            "read": "2026-10-11",
+            "section": "Austin-Round Rock-San Marcos, TX row, annual 50th percentile"
+          },
+          "note": "Read via web-search extract of the page; direct fetch of the page failed (WebFetch DNS failure / proxy 403), so value not read in the rendered page itself."
+        },
+        "47-2111": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2111 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "47-2152": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2152 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "47-2061": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2061 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "49-9021": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 49-9021 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        }
+      },
+      "weightsUsed": {
+        "47-2031": 1.0
+      },
+      "L": 0.837,
+      "M": 1.0,
+      "factor": 0.93,
+      "status": "Assumed",
+      "provisional": true,
+      "notes": "PROVISIONAL - carpenter-only labour index (4 of 5 trades not retrieved; weights renormalised to carpenters=1.00). L = 49650/59310 = 0.837; factor = 0.40*0.837 + 0.60*1.00 = 0.93. Re-run with full basket and May 2025 data. M=1.00 (default, no public citable reason found to adjust in this run)."
+    },
+    "21340": {
+      "name": "El Paso, TX",
+      "wages": {
+        "47-2031": {
+          "value": 39790,
+          "unit": "USD/yr (annual median, May 2024)",
+          "status": "Secondary",
+          "source": {
+            "id": "onet-tx-47-2031",
+            "title": "O*NET OnLine - Texas Wages: 47-2031.00 Carpenters (BLS OEWS May 2024 wage data, US/Texas/MSA rows)",
+            "url": "https://www.onetonline.org/link/localwages/47-2031.00?st=TX",
+            "read": "2026-10-11",
+            "section": "El Paso, TX row, annual 50th percentile"
+          },
+          "note": "Read via web-search extract of the page; direct fetch of the page failed (WebFetch DNS failure / proxy 403), so value not read in the rendered page itself."
+        },
+        "47-2111": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2111 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "47-2152": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2152 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "47-2061": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2061 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "49-9021": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 49-9021 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        }
+      },
+      "weightsUsed": {
+        "47-2031": 1.0
+      },
+      "L": 0.671,
+      "M": 1.0,
+      "factor": 0.87,
+      "status": "Assumed",
+      "provisional": true,
+      "notes": "PROVISIONAL - carpenter-only labour index (4 of 5 trades not retrieved; weights renormalised to carpenters=1.00). L = 39790/59310 = 0.671; factor = 0.40*0.671 + 0.60*1.00 = 0.87. Re-run with full basket and May 2025 data. M=1.00 kept. Qualitative (Assumed, not sourced): far West Texas, freight from DFW/Houston distribution is long; stucco/CMU construction common rather than brick veneer."
+    },
+    "18580": {
+      "name": "Corpus Christi, TX",
+      "wages": {
+        "47-2031": {
+          "value": 47850,
+          "unit": "USD/yr (annual median, May 2024)",
+          "status": "Secondary",
+          "source": {
+            "id": "onet-tx-47-2031",
+            "title": "O*NET OnLine - Texas Wages: 47-2031.00 Carpenters (BLS OEWS May 2024 wage data, US/Texas/MSA rows)",
+            "url": "https://www.onetonline.org/link/localwages/47-2031.00?st=TX",
+            "read": "2026-10-11",
+            "section": "Corpus Christi, TX row, annual 50th percentile"
+          },
+          "note": "Read via web-search extract of the page; direct fetch of the page failed (WebFetch DNS failure / proxy 403), so value not read in the rendered page itself."
+        },
+        "47-2111": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2111 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "47-2152": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2152 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "47-2061": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2061 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "49-9021": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 49-9021 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        }
+      },
+      "weightsUsed": {
+        "47-2031": 1.0
+      },
+      "L": 0.807,
+      "M": 1.0,
+      "factor": 0.92,
+      "status": "Assumed",
+      "provisional": true,
+      "notes": "PROVISIONAL - carpenter-only labour index (4 of 5 trades not retrieved; weights renormalised to carpenters=1.00). L = 47850/59310 = 0.807; factor = 0.40*0.807 + 0.60*1.00 = 0.92. Re-run with full basket and May 2025 data. M=1.00 kept. Qualitative (Assumed, not sourced): coastal port; windstorm-rated products (TDI) add cost, handled separately as a code driver."
+    },
+    "31180": {
+      "name": "Lubbock, TX",
+      "wages": {
+        "47-2031": {
+          "value": 39930,
+          "unit": "USD/yr (annual median, May 2024)",
+          "status": "Secondary",
+          "source": {
+            "id": "onet-tx-47-2031",
+            "title": "O*NET OnLine - Texas Wages: 47-2031.00 Carpenters (BLS OEWS May 2024 wage data, US/Texas/MSA rows)",
+            "url": "https://www.onetonline.org/link/localwages/47-2031.00?st=TX",
+            "read": "2026-10-11",
+            "section": "Lubbock, TX row, annual 50th percentile"
+          },
+          "note": "Read via web-search extract of the page; direct fetch of the page failed (WebFetch DNS failure / proxy 403), so value not read in the rendered page itself."
+        },
+        "47-2111": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2111 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "47-2152": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2152 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "47-2061": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2061 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "49-9021": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 49-9021 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        }
+      },
+      "weightsUsed": {
+        "47-2031": 1.0
+      },
+      "L": 0.673,
+      "M": 1.0,
+      "factor": 0.87,
+      "status": "Assumed",
+      "provisional": true,
+      "notes": "PROVISIONAL - carpenter-only labour index (4 of 5 trades not retrieved; weights renormalised to carpenters=1.00). L = 39930/59310 = 0.673; factor = 0.40*0.673 + 0.60*1.00 = 0.87. Re-run with full basket and May 2025 data. M=1.00 kept. Qualitative (Assumed, not sourced): South Plains location, longer freight haul for lumber/brick; concrete aggregate locally available."
+    },
+    "29700": {
+      "name": "Laredo, TX",
+      "wages": {
+        "47-2031": {
+          "value": 45930,
+          "unit": "USD/yr (annual median, May 2024)",
+          "status": "Secondary",
+          "source": {
+            "id": "onet-tx-47-2031",
+            "title": "O*NET OnLine - Texas Wages: 47-2031.00 Carpenters (BLS OEWS May 2024 wage data, US/Texas/MSA rows)",
+            "url": "https://www.onetonline.org/link/localwages/47-2031.00?st=TX",
+            "read": "2026-10-11",
+            "section": "Laredo, TX row, annual 50th percentile"
+          },
+          "note": "Read via web-search extract of the page; direct fetch of the page failed (WebFetch DNS failure / proxy 403), so value not read in the rendered page itself."
+        },
+        "47-2111": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2111 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "47-2152": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2152 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "47-2061": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2061 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "49-9021": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 49-9021 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        }
+      },
+      "weightsUsed": {
+        "47-2031": 1.0
+      },
+      "L": 0.774,
+      "M": 1.0,
+      "factor": 0.91,
+      "status": "Assumed",
+      "provisional": true,
+      "notes": "PROVISIONAL - carpenter-only labour index (4 of 5 trades not retrieved; weights renormalised to carpenters=1.00). L = 45930/59310 = 0.774; factor = 0.40*0.774 + 0.60*1.00 = 0.91. Re-run with full basket and May 2025 data. M=1.00 kept. Qualitative (Assumed, not sourced): border location, distance from main distribution hubs."
+    },
+    "11100": {
+      "name": "Amarillo, TX",
+      "wages": {
+        "47-2031": {
+          "value": 46030,
+          "unit": "USD/yr (annual median, May 2024)",
+          "status": "Secondary",
+          "source": {
+            "id": "onet-tx-47-2031",
+            "title": "O*NET OnLine - Texas Wages: 47-2031.00 Carpenters (BLS OEWS May 2024 wage data, US/Texas/MSA rows)",
+            "url": "https://www.onetonline.org/link/localwages/47-2031.00?st=TX",
+            "read": "2026-10-11",
+            "section": "Amarillo, TX row, annual 50th percentile"
+          },
+          "note": "Read via web-search extract of the page; direct fetch of the page failed (WebFetch DNS failure / proxy 403), so value not read in the rendered page itself."
+        },
+        "47-2111": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2111 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "47-2152": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2152 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "47-2061": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2061 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "49-9021": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 49-9021 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        }
+      },
+      "weightsUsed": {
+        "47-2031": 1.0
+      },
+      "L": 0.776,
+      "M": 1.0,
+      "factor": 0.91,
+      "status": "Assumed",
+      "provisional": true,
+      "notes": "PROVISIONAL - carpenter-only labour index (4 of 5 trades not retrieved; weights renormalised to carpenters=1.00). L = 46030/59310 = 0.776; factor = 0.40*0.776 + 0.60*1.00 = 0.91. Re-run with full basket and May 2025 data. M=1.00 kept. Qualitative (Assumed, not sourced): Panhandle location, longer freight haul for lumber/brick from East Texas and Gulf ports may lift delivered materials cost."
+    },
+    "15180": {
+      "name": "Brownsville-Harlingen, TX",
+      "wages": {
+        "47-2031": {
+          "value": 36760,
+          "unit": "USD/yr (annual median, May 2024)",
+          "status": "Secondary",
+          "source": {
+            "id": "onet-tx-47-2031",
+            "title": "O*NET OnLine - Texas Wages: 47-2031.00 Carpenters (BLS OEWS May 2024 wage data, US/Texas/MSA rows)",
+            "url": "https://www.onetonline.org/link/localwages/47-2031.00?st=TX",
+            "read": "2026-10-11",
+            "section": "Brownsville-Harlingen, TX row, annual 50th percentile"
+          },
+          "note": "Read via web-search extract of the page; direct fetch of the page failed (WebFetch DNS failure / proxy 403), so value not read in the rendered page itself."
+        },
+        "47-2111": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2111 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "47-2152": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2152 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "47-2061": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2061 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "49-9021": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 49-9021 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        }
+      },
+      "weightsUsed": {
+        "47-2031": 1.0
+      },
+      "L": 0.62,
+      "M": 1.0,
+      "factor": 0.85,
+      "status": "Assumed",
+      "provisional": true,
+      "notes": "PROVISIONAL - carpenter-only labour index (4 of 5 trades not retrieved; weights renormalised to carpenters=1.00). L = 36760/59310 = 0.620; factor = 0.40*0.620 + 0.60*1.00 = 0.85. Re-run with full basket and May 2025 data. M=1.00 kept. Qualitative (Assumed, not sourced): Rio Grande Valley is at the end of distribution chains; CMU and stucco common."
+    },
+    "28660": {
+      "name": "Killeen-Temple, TX",
+      "wages": {
+        "47-2031": {
+          "value": 44350,
+          "unit": "USD/yr (annual median, May 2024)",
+          "status": "Secondary",
+          "source": {
+            "id": "onet-tx-47-2031",
+            "title": "O*NET OnLine - Texas Wages: 47-2031.00 Carpenters (BLS OEWS May 2024 wage data, US/Texas/MSA rows)",
+            "url": "https://www.onetonline.org/link/localwages/47-2031.00?st=TX",
+            "read": "2026-10-11",
+            "section": "Killeen-Temple, TX row, annual 50th percentile"
+          },
+          "note": "Read via web-search extract of the page; direct fetch of the page failed (WebFetch DNS failure / proxy 403), so value not read in the rendered page itself."
+        },
+        "47-2111": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2111 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "47-2152": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2152 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "47-2061": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2061 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "49-9021": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 49-9021 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        }
+      },
+      "weightsUsed": {
+        "47-2031": 1.0
+      },
+      "L": 0.748,
+      "M": 1.0,
+      "factor": 0.9,
+      "status": "Assumed",
+      "provisional": true,
+      "notes": "PROVISIONAL - carpenter-only labour index (4 of 5 trades not retrieved; weights renormalised to carpenters=1.00). L = 44350/59310 = 0.748; factor = 0.40*0.748 + 0.60*1.00 = 0.90. Re-run with full basket and May 2025 data. M=1.00 (default, no public citable reason found to adjust in this run)."
+    },
+    "33260": {
+      "name": "Midland, TX",
+      "wages": {
+        "47-2031": {
+          "value": 48210,
+          "unit": "USD/yr (annual median, May 2024)",
+          "status": "Secondary",
+          "source": {
+            "id": "onet-tx-47-2031",
+            "title": "O*NET OnLine - Texas Wages: 47-2031.00 Carpenters (BLS OEWS May 2024 wage data, US/Texas/MSA rows)",
+            "url": "https://www.onetonline.org/link/localwages/47-2031.00?st=TX",
+            "read": "2026-10-11",
+            "section": "Midland, TX row, annual 50th percentile"
+          },
+          "note": "Read via web-search extract of the page; direct fetch of the page failed (WebFetch DNS failure / proxy 403), so value not read in the rendered page itself."
+        },
+        "47-2111": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2111 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "47-2152": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2152 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "47-2061": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2061 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "49-9021": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 49-9021 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        }
+      },
+      "weightsUsed": {
+        "47-2031": 1.0
+      },
+      "L": 0.813,
+      "M": 1.0,
+      "factor": 0.93,
+      "status": "Assumed",
+      "provisional": true,
+      "notes": "PROVISIONAL - carpenter-only labour index (4 of 5 trades not retrieved; weights renormalised to carpenters=1.00). L = 48210/59310 = 0.813; factor = 0.40*0.813 + 0.60*1.00 = 0.93. Re-run with full basket and May 2025 data. M=1.00 kept. Qualitative (Assumed, not sourced): Permian Basin oilfield activity competes for trucks, concrete and labour; delivered cost can spike in booms."
+    },
+    "47380": {
+      "name": "Waco, TX",
+      "wages": {
+        "47-2031": {
+          "value": 44800,
+          "unit": "USD/yr (annual median, May 2024)",
+          "status": "Secondary",
+          "source": {
+            "id": "onet-tx-47-2031",
+            "title": "O*NET OnLine - Texas Wages: 47-2031.00 Carpenters (BLS OEWS May 2024 wage data, US/Texas/MSA rows)",
+            "url": "https://www.onetonline.org/link/localwages/47-2031.00?st=TX",
+            "read": "2026-10-11",
+            "section": "Waco, TX row, annual 50th percentile"
+          },
+          "note": "Read via web-search extract of the page; direct fetch of the page failed (WebFetch DNS failure / proxy 403), so value not read in the rendered page itself."
+        },
+        "47-2111": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2111 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "47-2152": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2152 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "47-2061": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2061 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "49-9021": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 49-9021 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        }
+      },
+      "weightsUsed": {
+        "47-2031": 1.0
+      },
+      "L": 0.755,
+      "M": 1.0,
+      "factor": 0.9,
+      "status": "Assumed",
+      "provisional": true,
+      "notes": "PROVISIONAL - carpenter-only labour index (4 of 5 trades not retrieved; weights renormalised to carpenters=1.00). L = 44800/59310 = 0.755; factor = 0.40*0.755 + 0.60*1.00 = 0.90. Re-run with full basket and May 2025 data. M=1.00 (default, no public citable reason found to adjust in this run)."
+    },
+    "46340": {
+      "name": "Tyler, TX",
+      "wages": {
+        "47-2031": {
+          "value": 46460,
+          "unit": "USD/yr (annual median, May 2024)",
+          "status": "Secondary",
+          "source": {
+            "id": "onet-tx-47-2031",
+            "title": "O*NET OnLine - Texas Wages: 47-2031.00 Carpenters (BLS OEWS May 2024 wage data, US/Texas/MSA rows)",
+            "url": "https://www.onetonline.org/link/localwages/47-2031.00?st=TX",
+            "read": "2026-10-11",
+            "section": "Tyler, TX row, annual 50th percentile"
+          },
+          "note": "Read via web-search extract of the page; direct fetch of the page failed (WebFetch DNS failure / proxy 403), so value not read in the rendered page itself."
+        },
+        "47-2111": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2111 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "47-2152": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2152 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "47-2061": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2061 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "49-9021": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 49-9021 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        }
+      },
+      "weightsUsed": {
+        "47-2031": 1.0
+      },
+      "L": 0.783,
+      "M": 1.0,
+      "factor": 0.91,
+      "status": "Assumed",
+      "provisional": true,
+      "notes": "PROVISIONAL - carpenter-only labour index (4 of 5 trades not retrieved; weights renormalised to carpenters=1.00). L = 46460/59310 = 0.783; factor = 0.40*0.783 + 0.60*1.00 = 0.91. Re-run with full basket and May 2025 data. M=1.00 kept. Qualitative (Assumed, not sourced): East Texas pine region and brick manufacturing nearby; good lumber/brick availability."
+    },
+    "13140": {
+      "name": "Beaumont-Port Arthur, TX",
+      "wages": {
+        "47-2031": {
+          "value": 50230,
+          "unit": "USD/yr (annual median, May 2024)",
+          "status": "Secondary",
+          "source": {
+            "id": "onet-tx-47-2031",
+            "title": "O*NET OnLine - Texas Wages: 47-2031.00 Carpenters (BLS OEWS May 2024 wage data, US/Texas/MSA rows)",
+            "url": "https://www.onetonline.org/link/localwages/47-2031.00?st=TX",
+            "read": "2026-10-11",
+            "section": "Beaumont-Port Arthur, TX row, annual 50th percentile"
+          },
+          "note": "Read via web-search extract of the page; direct fetch of the page failed (WebFetch DNS failure / proxy 403), so value not read in the rendered page itself."
+        },
+        "47-2111": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2111 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "47-2152": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2152 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "47-2061": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2061 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "49-9021": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 49-9021 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        }
+      },
+      "weightsUsed": {
+        "47-2031": 1.0
+      },
+      "L": 0.847,
+      "M": 1.0,
+      "factor": 0.94,
+      "status": "Assumed",
+      "provisional": true,
+      "notes": "PROVISIONAL - carpenter-only labour index (4 of 5 trades not retrieved; weights renormalised to carpenters=1.00). L = 50230/59310 = 0.847; factor = 0.40*0.847 + 0.60*1.00 = 0.94. Re-run with full basket and May 2025 data. M=1.00 kept. Qualitative (Assumed, not sourced): close to East Texas/Louisiana pine lumber; coastal windstorm products add cost."
+    },
+    "32580": {
+      "name": "McAllen-Edinburg-Mission, TX",
+      "wages": {
+        "47-2031": {
+          "value": 40470,
+          "unit": "USD/yr (annual median, May 2024)",
+          "status": "Secondary",
+          "source": {
+            "id": "onet-tx-47-2031",
+            "title": "O*NET OnLine - Texas Wages: 47-2031.00 Carpenters (BLS OEWS May 2024 wage data, US/Texas/MSA rows)",
+            "url": "https://www.onetonline.org/link/localwages/47-2031.00?st=TX",
+            "read": "2026-10-11",
+            "section": "McAllen-Edinburg-Mission, TX row, annual 50th percentile"
+          },
+          "note": "Read via web-search extract of the page; direct fetch of the page failed (WebFetch DNS failure / proxy 403), so value not read in the rendered page itself."
+        },
+        "47-2111": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2111 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "47-2152": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2152 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "47-2061": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2061 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "49-9021": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 49-9021 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        }
+      },
+      "weightsUsed": {
+        "47-2031": 1.0
+      },
+      "L": 0.682,
+      "M": 1.0,
+      "factor": 0.87,
+      "status": "Assumed",
+      "provisional": true,
+      "notes": "PROVISIONAL - carpenter-only labour index (4 of 5 trades not retrieved; weights renormalised to carpenters=1.00). L = 40470/59310 = 0.682; factor = 0.40*0.682 + 0.60*1.00 = 0.87. Re-run with full basket and May 2025 data. M=1.00 kept. Qualitative (Assumed, not sourced): Rio Grande Valley is at the end of distribution chains; CMU and stucco common."
+    },
+    "17780": {
+      "name": "College Station-Bryan, TX",
+      "wages": {
+        "47-2031": {
+          "value": 46090,
+          "unit": "USD/yr (annual median, May 2024)",
+          "status": "Secondary",
+          "source": {
+            "id": "onet-tx-47-2031",
+            "title": "O*NET OnLine - Texas Wages: 47-2031.00 Carpenters (BLS OEWS May 2024 wage data, US/Texas/MSA rows)",
+            "url": "https://www.onetonline.org/link/localwages/47-2031.00?st=TX",
+            "read": "2026-10-11",
+            "section": "College Station-Bryan, TX row, annual 50th percentile"
+          },
+          "note": "Read via web-search extract of the page; direct fetch of the page failed (WebFetch DNS failure / proxy 403), so value not read in the rendered page itself."
+        },
+        "47-2111": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2111 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "47-2152": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2152 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "47-2061": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 47-2061 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        },
+        "49-9021": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: SOC 49-9021 metro median not retrieved. bls.gov (oes_<code>.htm, oes_tx.htm, oes_nat.htm, data.bls.gov), texaswages.com, lmi.twc.texas.gov, onetonline.org all unreachable by direct fetch; the shared web-search budget (200/turn) was exhausted after the carpenter table. Weight renormalised away (method rule), so L = carpenters only."
+        }
+      },
+      "weightsUsed": {
+        "47-2031": 1.0
+      },
+      "L": 0.777,
+      "M": 1.0,
+      "factor": 0.91,
+      "status": "Assumed",
+      "provisional": true,
+      "notes": "PROVISIONAL - carpenter-only labour index (4 of 5 trades not retrieved; weights renormalised to carpenters=1.00). L = 46090/59310 = 0.777; factor = 0.40*0.777 + 0.60*1.00 = 0.91. Re-run with full basket and May 2025 data. M=1.00 (default, no public citable reason found to adjust in this run)."
+    },
+    "19124": {
+      "name": "Dallas-Plano-Irving, TX Metropolitan Division",
+      "wages": {
+        "47-2031": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: O*NET Texas page lists DFW only at MSA level (19100); BLS division tables (oes_19124.htm, code unverified) unreachable."
+        },
+        "47-2111": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: O*NET Texas page lists DFW only at MSA level (19100); BLS division tables (oes_19124.htm, code unverified) unreachable."
+        },
+        "47-2152": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: O*NET Texas page lists DFW only at MSA level (19100); BLS division tables (oes_19124.htm, code unverified) unreachable."
+        },
+        "47-2061": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: O*NET Texas page lists DFW only at MSA level (19100); BLS division tables (oes_19124.htm, code unverified) unreachable."
+        },
+        "49-9021": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: O*NET Texas page lists DFW only at MSA level (19100); BLS division tables (oes_19124.htm, code unverified) unreachable."
+        }
+      },
+      "L": null,
+      "M": 1.0,
+      "factor": null,
+      "status": "Assumed",
+      "notes": "Division data not retrieved; use MSA 19100 factor. Division code 19124 is from memory of 2023 OMB delineations and is UNVERIFIED in this run."
+    },
+    "23104": {
+      "name": "Fort Worth-Arlington-Grapevine, TX Metropolitan Division",
+      "wages": {
+        "47-2031": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: O*NET Texas page lists DFW only at MSA level (19100); BLS division tables (oes_23104.htm, code unverified) unreachable."
+        },
+        "47-2111": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: O*NET Texas page lists DFW only at MSA level (19100); BLS division tables (oes_23104.htm, code unverified) unreachable."
+        },
+        "47-2152": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: O*NET Texas page lists DFW only at MSA level (19100); BLS division tables (oes_23104.htm, code unverified) unreachable."
+        },
+        "47-2061": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: O*NET Texas page lists DFW only at MSA level (19100); BLS division tables (oes_23104.htm, code unverified) unreachable."
+        },
+        "49-9021": {
+          "value": null,
+          "unit": "USD/yr",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed-cost",
+            "title": "Assumed - cost agent judgement (no source could be read)",
+            "url": "",
+            "read": "2026-10-11"
+          },
+          "note": "Not found: O*NET Texas page lists DFW only at MSA level (19100); BLS division tables (oes_23104.htm, code unverified) unreachable."
+        }
+      },
+      "L": null,
+      "M": 1.0,
+      "factor": null,
+      "status": "Assumed",
+      "notes": "Division data not retrieved; use MSA 19100 factor. Division code 23104 is from memory of 2023 OMB delineations and is UNVERIFIED in this run."
+    }
+  },
+  "marketCostPerSqFt": [
+    {
+      "id": "nahb-cost-2024",
+      "value": 162,
+      "unit": "USD per sq ft finished area (national, construction cost only)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-cost",
+        "title": "Assumed - figure from coordinator brief citing NAHB Cost of Constructing a Home 2024; NAHB page NOT read in this run",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Market figure, not a quote. NAHB 2024 survey (per brief): construction cost ~64% of sales price, ~$162/sq ft. nahb.org unreachable (proxy 403) and search budget exhausted; verify before use."
+    },
+    {
+      "id": "census-soc-south",
+      "value": null,
+      "unit": "USD per sq ft",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-cost",
+        "title": "Assumed - Census Survey of Construction (Characteristics of New Housing) not read",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: census.gov unreachable (proxy 403); search budget exhausted before lookup. Census SOC publishes average contract/sales price and floor area by region (South) for new single-family homes; divide for a market $/sq ft."
+    },
+    {
+      "id": "tx-metro-market",
+      "value": null,
+      "unit": "USD per sq ft",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-cost",
+        "title": "Assumed - no public Texas metro $/sq ft figure retrieved",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: no searches remained. City agents' cost.perSqFtMarket fields may hold metro figures."
+    }
+  ],
+  "crossChecks": [
+    {
+      "id": "houston-mean-may2025",
+      "note": "Cross-check only (means, not medians, so not used in L): BLS Houston May 2025 release mean annual wages - carpenters ~$53,000, electricians ~$61,470, plumbers ~$63,860.",
+      "status": "Secondary",
+      "source": {
+        "id": "bls-houston-oews-may2025",
+        "title": "BLS Southwest Information Office - Occupational Employment and Wages in Houston-Pasadena-The Woodlands - May 2025 (mean wages)",
+        "url": "https://www.bls.gov/regions/southwest/news-release/occupationalemploymentandwages_houston.htm",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "twc-houston-carp",
+      "note": "TWC Texas Workforce Report lists Houston-Pasadena-The Woodlands carpenters $48,524 (2024 OEWS) vs O*NET $48,910; the TWC figure's statistic type (median vs mean / WDA vs MSA) was not confirmed. Gap 0.8%, ~0.003 on factor.",
+      "status": "Secondary",
+      "source": {
+        "id": "twc-workforce-report",
+        "title": "Texas Workforce Commission - Texas Workforce Report 2024 to 2025 (PDF)",
+        "url": "https://lmi.twc.texas.gov/shared/PDFs/Workforce_Report.pdf",
+        "read": "2026-10-11"
+      }
+    }
+  ],
+  "blocked": [
+    "www.bls.gov (oes_nat.htm, oes_tx.htm, oes_26420.htm): curl proxy 403 CONNECT; WebFetch DNS ENOTFOUND",
+    "data.bls.gov, api.bls.gov, download.bls.gov: unreachable",
+    "texaswages.com, lmi.twc.texas.gov, twc.texas.gov, texascareercheck.com: unreachable",
+    "onetonline.org, careeronestop.org, wagedex.com: unreachable by fetch (read only via search extracts)",
+    "census.gov, nahb.org: unreachable",
+    "WebFetch failed for every host tried (incl. en.wikipedia.org) - tool-level DNS failure",
+    "WebSearch: shared per-turn budget of 200 exhausted after ~12 cost-agent searches"
+  ]
+}
