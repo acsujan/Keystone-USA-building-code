@@ -1,0 +1,901 @@
+{
+  "id": "killeen",
+  "name": "City of Killeen",
+  "state": "TX",
+  "tier": 1,
+  "counties": [
+    "Bell"
+  ],
+  "msa": {
+    "name": "Killeen-Temple, TX",
+    "blsCode": "28660"
+  },
+  "population": {
+    "value": 153095,
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "2020 Census count from background knowledge (not re-verified; Vintage estimate not retrieved this session). Vintage 2023/2024 likely ~160,000."
+  },
+  "zipCodesOrBoundary": {
+    "value": "76540, 76541, 76542, 76543, 76544 (Fort Cavazos), 76549",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Background knowledge; verify against official city-limits map. Some ZIPs extend outside city limits."
+  },
+  "climateZone": {
+    "value": "2A",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Bell County is listed in Climate Zone 2A in IECC Table R301.1 / Fig. R301.1 (background knowledge, not re-read this session)."
+  },
+  "windstormCounty": {
+    "value": false,
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Bell County is inland; TDI windstorm catalogue area covers only the 14 coastal counties and parts of Harris (background knowledge)."
+  },
+  "codes": {
+    "irc": {
+      "edition": {
+        "value": "2024 IRC (as amended), effective 2026-01-01",
+        "status": "Secondary",
+        "source": {
+          "id": "killeen-building-inspections",
+          "title": "City of Killeen - Building Inspections (adopted construction codes)",
+          "url": "https://www.killeentexas.gov/204/Building-Inspections",
+          "read": "2026-10-11"
+        },
+        "note": "City Building Inspections page lists 'Construction Codes (Effective January 01, 2026)' including the 2024 International Residential Code as amended, adopted/amended in Chapter 8. Web tools limited this session: WebFetch could not resolve any host and the shared web-search budget ran out; value taken from a search-engine excerpt of this page, full page not read. Adoption ordinance number not found; previous cycle was 2021 I-codes."
+      },
+      "ordinance": {
+        "value": "Chapter 8, Killeen Code of Ordinances (2024 I-code adoption ordinance number not found)",
+        "status": "Secondary",
+        "source": {
+          "id": "killeen-coo-ch8",
+          "title": "Killeen Code of Ordinances Chapter 8 Building and Construction Regulations (PDF)",
+          "url": "https://killeentexas.gov/DocumentCenter/View/4874/Chapter-8-full-ordinance-PDF?bidId=",
+          "read": "2026-10-11"
+        },
+        "note": "Web tools limited this session: WebFetch could not resolve any host and the shared web-search budget ran out; value taken from a search-engine excerpt of this page, full page not read."
+      },
+      "amendments": [
+        {
+          "topic": "other",
+          "summary": "Local amendments to the 2024 IRC exist in Chapter 8 but their content could not be read this session.",
+          "section": "Chapter 8",
+          "status": "Assumed",
+          "source": {
+            "id": "killeen-coo-ch8",
+            "title": "Killeen Code of Ordinances Chapter 8 Building and Construction Regulations (PDF)",
+            "url": "https://killeentexas.gov/DocumentCenter/View/4874/Chapter-8-full-ordinance-PDF?bidId=",
+            "read": "2026-10-11"
+          }
+        },
+        {
+          "topic": "other",
+          "summary": "Single-family architectural design standards (zoning, not IRC) apply to all new single-family homes: garage-door width cap and minimum architectural elements; Ordinance 23-073 effective 2023-12-12.",
+          "section": "Ch. 31 Sec. 31-902 to 31-904",
+          "status": "Secondary",
+          "source": {
+            "id": "killeen-coo-31-902",
+            "title": "Killeen Code Chapter 31 Art. VI Div. 1 single-family/two-family residential design standards (Sec. 31-902 to 31-904)",
+            "url": "https://library.municode.com/tx/killeen/codes/code_of_ordinances?nodeId=PTIICOOR_CH31ZO_ARTVIARSIDEST_DIV1SIMITMIREDEST_S31-902RE",
+            "read": "2026-10-11"
+          }
+        }
+      ]
+    },
+    "energy": {
+      "edition": {
+        "value": "2024 IECC (as amended), effective 2026-01-01",
+        "status": "Secondary",
+        "source": {
+          "id": "killeen-building-inspections",
+          "title": "City of Killeen - Building Inspections (adopted construction codes)",
+          "url": "https://www.killeentexas.gov/204/Building-Inspections",
+          "read": "2026-10-11"
+        },
+        "note": "Web tools limited this session: WebFetch could not resolve any host and the shared web-search budget ran out; value taken from a search-engine excerpt of this page, full page not read."
+      },
+      "stretchCode": {
+        "value": false,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "No local stretch code seen; Texas cities may not exceed state energy code minimums in ways that conflict with HB 2439 (2019) material restrictions; none found."
+      }
+    },
+    "plumbing": {
+      "value": "IPC 2024 (as amended)",
+      "status": "Secondary",
+      "source": {
+        "id": "killeen-building-inspections",
+        "title": "City of Killeen - Building Inspections (adopted construction codes)",
+        "url": "https://www.killeentexas.gov/204/Building-Inspections",
+        "read": "2026-10-11"
+      },
+      "note": "Building Inspections page lists 2024 International Plumbing Code. Web tools limited this session: WebFetch could not resolve any host and the shared web-search budget ran out; value taken from a search-engine excerpt of this page, full page not read."
+    },
+    "electrical": {
+      "value": "NEC 2023 (as amended)",
+      "status": "Secondary",
+      "source": {
+        "id": "killeen-building-inspections",
+        "title": "City of Killeen - Building Inspections (adopted construction codes)",
+        "url": "https://www.killeentexas.gov/204/Building-Inspections",
+        "read": "2026-10-11"
+      },
+      "note": "Prior cycle NEC 2020 under Ord. 22-004 (eff. 2022-03-01). Web tools limited this session: WebFetch could not resolve any host and the shared web-search budget ran out; value taken from a search-engine excerpt of this page, full page not read."
+    },
+    "mechanical": {
+      "value": "IMC 2024 (as amended)",
+      "status": "Secondary",
+      "source": {
+        "id": "killeen-building-inspections",
+        "title": "City of Killeen - Building Inspections (adopted construction codes)",
+        "url": "https://www.killeentexas.gov/204/Building-Inspections",
+        "read": "2026-10-11"
+      },
+      "note": "Web tools limited this session: WebFetch could not resolve any host and the shared web-search budget ran out; value taken from a search-engine excerpt of this page, full page not read."
+    },
+    "fuelGas": {
+      "value": "IFGC 2024 (as amended)",
+      "status": "Secondary",
+      "source": {
+        "id": "killeen-building-inspections",
+        "title": "City of Killeen - Building Inspections (adopted construction codes)",
+        "url": "https://www.killeentexas.gov/204/Building-Inspections",
+        "read": "2026-10-11"
+      },
+      "note": "Web tools limited this session: WebFetch could not resolve any host and the shared web-search budget ran out; value taken from a search-engine excerpt of this page, full page not read."
+    },
+    "fire": {
+      "value": "IFC 2024 (as amended); no local one/two-family sprinkler mandate found",
+      "status": "Secondary",
+      "source": {
+        "id": "killeen-building-inspections",
+        "title": "City of Killeen - Building Inspections (adopted construction codes)",
+        "url": "https://www.killeentexas.gov/204/Building-Inspections",
+        "read": "2026-10-11"
+      },
+      "note": "Sprinkler status for one/two-family homes not verified (Texas Occupations Code 1301.551 restricts mandatory residential sprinklers). Web tools limited this session: WebFetch could not resolve any host and the shared web-search budget ran out; value taken from a search-engine excerpt of this page, full page not read."
+    },
+    "wind": {
+      "value": 110,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "mph",
+      "note": "Approx. ultimate design wind speed, Risk Cat II, central Texas from IRC Fig. R301.2(2)/ASCE 7-16 (background knowledge, not re-read). Confirm with the city's Table R301.2(1) climatic criteria."
+    },
+    "hailRoofing": {
+      "value": "No local hail-resistant roofing mandate found; Bell County is a high-hail area - Class 4 impact-resistant shingles recommended",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found in sources read; recommendation only."
+    },
+    "seismic": {
+      "value": "A",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Central Texas is Seismic Design Category A (background knowledge)."
+    },
+    "frostDepth": {
+      "value": 6,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "in",
+      "note": "Typical central Texas local design criteria list 6-12 in frost depth; Killeen Table R301.2(1) values not retrieved."
+    }
+  },
+  "zoning": {
+    "hasZoning": {
+      "value": true,
+      "status": "Secondary",
+      "source": {
+        "id": "killeen-coo-ch31",
+        "title": "Killeen Code of Ordinances Chapter 31 Zoning (Municode)",
+        "url": "https://library.municode.com/tx/killeen/codes/code_of_ordinances?nodeId=PTIICOOR_CH31ZO",
+        "read": "2026-10-11"
+      },
+      "note": "Chapter 31 Zoning. Web tools limited this session: WebFetch could not resolve any host and the shared web-search budget ran out; value taken from a search-engine excerpt of this page, full page not read."
+    },
+    "typicalDistrict": {
+      "value": "R-1 Single-Family Residential",
+      "status": "Secondary",
+      "source": {
+        "id": "killeen-coo-ch31",
+        "title": "Killeen Code of Ordinances Chapter 31 Zoning (Municode)",
+        "url": "https://library.municode.com/tx/killeen/codes/code_of_ordinances?nodeId=PTIICOOR_CH31ZO",
+        "read": "2026-10-11"
+      },
+      "note": "Most common SF district in Killeen; many new subdivisions are also PUDs or R-1 with conditions. Other SF districts: A-R1, R-1A/ RT-1 (townhouse), SR-1, SR-2 (suburban residential)."
+    },
+    "minLotSqFt": {
+      "value": 6000,
+      "status": "Secondary",
+      "source": {
+        "id": "killeen-legistar-ch31-setback-amend",
+        "title": "Killeen Legistar: Ordinance amending Chapter 31 - architectural/site design standards and front building setback in single-family districts (redline)",
+        "url": "https://killeen.legistar.com/View.ashx?GUID=1945CCF9-62F2-4537-A1F8-1365A809E827&ID=12369000&M=F",
+        "read": "2026-10-11"
+      },
+      "unit": "sqft",
+      "note": "Sec. 31-188(b): no building on lot < 6,000 sq ft (read in Chapter 31 amending ordinance excerpt). Web tools limited this session: WebFetch could not resolve any host and the shared web-search budget ran out; value taken from a search-engine excerpt of this page, full page not read."
+    },
+    "minLotWidthFt": {
+      "value": 60,
+      "status": "Secondary",
+      "source": {
+        "id": "killeen-legistar-ch31-setback-amend",
+        "title": "Killeen Legistar: Ordinance amending Chapter 31 - architectural/site design standards and front building setback in single-family districts (redline)",
+        "url": "https://killeen.legistar.com/View.ashx?GUID=1945CCF9-62F2-4537-A1F8-1365A809E827&ID=12369000&M=F",
+        "read": "2026-10-11"
+      },
+      "unit": "ft",
+      "note": "Sec. 31-188(b) lot width 60 ft at front building line. Web tools limited this session: WebFetch could not resolve any host and the shared web-search budget ran out; value taken from a search-engine excerpt of this page, full page not read."
+    },
+    "minLotDepthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: R-1 minimum lot depth. Web access unavailable this session (WebFetch DNS failure; search budget exhausted)."
+    },
+    "setbacksFt": {
+      "front": {
+        "value": 25,
+        "status": "Secondary",
+        "source": {
+          "id": "killeen-coo-ch31",
+          "title": "Killeen Code of Ordinances Chapter 31 Zoning (Municode)",
+          "url": "https://library.municode.com/tx/killeen/codes/code_of_ordinances?nodeId=PTIICOOR_CH31ZO",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Sec. 31-188 front yard 25 ft (long-standing value; KDH 2022 report says front setbacks stayed at 25 ft). A redline Chapter 31 amending ordinance on Legistar proposes 20 ft; adoption status NOT confirmed. Web tools limited this session: WebFetch could not resolve any host and the shared web-search budget ran out; value taken from a search-engine excerpt of this page, full page not read."
+      },
+      "side": {
+        "value": 5,
+        "status": "Secondary",
+        "source": {
+          "id": "killeen-legistar-ch31-setback-amend",
+          "title": "Killeen Legistar: Ordinance amending Chapter 31 - architectural/site design standards and front building setback in single-family districts (redline)",
+          "url": "https://killeen.legistar.com/View.ashx?GUID=1945CCF9-62F2-4537-A1F8-1365A809E827&ID=12369000&M=F",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Redline amending ordinance shows interior side yard changing from 7 ft to 5 ft; city accessory-structure brochure cites 5 ft interior. Adoption status of the change not confirmed - use 5 ft but flag; older text may require 7 ft."
+      },
+      "streetSide": {
+        "value": 15,
+        "status": "Secondary",
+        "source": {
+          "id": "killeen-legistar-ch31-setback-amend",
+          "title": "Killeen Legistar: Ordinance amending Chapter 31 - architectural/site design standards and front building setback in single-family districts (redline)",
+          "url": "https://killeen.legistar.com/View.ashx?GUID=1945CCF9-62F2-4537-A1F8-1365A809E827&ID=12369000&M=F",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Sec. 31-188: side yard adjacent to a side street not less than 15 ft. Web tools limited this session: WebFetch could not resolve any host and the shared web-search budget ran out; value taken from a search-engine excerpt of this page, full page not read."
+      },
+      "rear": {
+        "value": 25,
+        "status": "Secondary",
+        "source": {
+          "id": "killeen-legistar-ch31-setback-amend",
+          "title": "Killeen Legistar: Ordinance amending Chapter 31 - architectural/site design standards and front building setback in single-family districts (redline)",
+          "url": "https://killeen.legistar.com/View.ashx?GUID=1945CCF9-62F2-4537-A1F8-1365A809E827&ID=12369000&M=F",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Sec. 31-188: rear yard 25 ft, measured from centerline of easement per subdivision ordinance (redline may change this). Web tools limited this session: WebFetch could not resolve any host and the shared web-search budget ran out; value taken from a search-engine excerpt of this page, full page not read."
+      }
+    },
+    "maxHeightFt": {
+      "value": 35,
+      "status": "Secondary",
+      "source": {
+        "id": "killeen-zoneomics-ch31-art4",
+        "title": "Zoneomics mirror of Killeen Chapter 31 Article IV district regulations",
+        "url": "https://www.zoneomics.com/code/killeen-TX/chapter_4",
+        "read": "2026-10-11"
+      },
+      "unit": "ft",
+      "note": "Sec. 31-187: R-1 max 35 ft or 2.5 stories (Zoneomics mirror, may be older text)."
+    },
+    "maxStories": {
+      "value": 2.5,
+      "status": "Secondary",
+      "source": {
+        "id": "killeen-zoneomics-ch31-art4",
+        "title": "Zoneomics mirror of Killeen Chapter 31 Article IV district regulations",
+        "url": "https://www.zoneomics.com/code/killeen-TX/chapter_4",
+        "read": "2026-10-11"
+      },
+      "note": "Sec. 31-187"
+    },
+    "maxLotCoverage": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: R-1 maximum lot coverage. Web access unavailable this session (WebFetch DNS failure; search budget exhausted)."
+    },
+    "imperviousCover": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No city impervious-cover cap for R-1 found; Killeen is not over the Edwards Aquifer recharge zone (Edwards rules 30 TAC 213 apply to Bexar, Comal, Hays, Travis, Williamson, Kinney, Medina, Uvalde counties - Bell not included; background knowledge)."
+    },
+    "far": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No FAR in R-1 found."
+    },
+    "parking": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: R-1 off-street parking minimum (typical TX value is 2 spaces per dwelling). Web access unavailable this session (WebFetch DNS failure; search budget exhausted)."
+    },
+    "garageRules": {
+      "value": "Front-loaded garage: street-facing garage door width <= 50% of front elevation length, OR garage wall not projecting beyond the front plane; third-car bay may raise cap to 60% if set back >= 12 in with different roofline.",
+      "status": "Secondary",
+      "source": {
+        "id": "killeen-coo-31-902",
+        "title": "Killeen Code Chapter 31 Art. VI Div. 1 single-family/two-family residential design standards (Sec. 31-902 to 31-904)",
+        "url": "https://library.municode.com/tx/killeen/codes/code_of_ordinances?nodeId=PTIICOOR_CH31ZO_ARTVIARSIDEST_DIV1SIMITMIREDEST_S31-902RE",
+        "read": "2026-10-11"
+      },
+      "note": "Sec. 31-903 (Ordinance 23-073 revision effective 2023-12-12). Web tools limited this session: WebFetch could not resolve any host and the shared web-search budget ran out; value taken from a search-engine excerpt of this page, full page not read."
+    },
+    "adu": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: Killeen accessory dwelling rules in R-1. Web access unavailable this session (WebFetch DNS failure; search budget exhausted)."
+    },
+    "masonry": {
+      "value": "No single-family masonry percentage found (state HB 2439 limits material mandates); instead min. 5 architectural elements + 2 front-elevation features required.",
+      "status": "Secondary",
+      "source": {
+        "id": "killeen-coo-31-902",
+        "title": "Killeen Code Chapter 31 Art. VI Div. 1 single-family/two-family residential design standards (Sec. 31-902 to 31-904)",
+        "url": "https://library.municode.com/tx/killeen/codes/code_of_ordinances?nodeId=PTIICOOR_CH31ZO_ARTVIARSIDEST_DIV1SIMITMIREDEST_S31-902RE",
+        "read": "2026-10-11"
+      },
+      "note": "Sec. 31-904: all new single-family structures include at least five listed elements; front elevation at least two features (e.g., corbels, quoins, louvered vents, keystones). Masonry rules found only for non-residential/University District."
+    },
+    "trees": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: Killeen single-family tree preservation/planting rule. Web access unavailable this session (WebFetch DNS failure; search budget exhausted)."
+    },
+    "other": [
+      {
+        "value": "Elevation repetition rule: up to five unique elevations; repetition limits apply along a block face",
+        "status": "Secondary",
+        "source": {
+          "id": "killeen-kdh-arch-2023",
+          "title": "KDH News: Killeen council approves new architectural design standards for local homebuilders (Dec 2023)",
+          "url": "https://kdhnews.com/news/local/killeen-council-approves-new-architectural-design-standards-for-local-homebuilders/article_9f4bdcd8-996c-11ee-9bad-db4bbfdb7502.html",
+          "read": "2026-10-11"
+        },
+        "note": "Dec 2023 revision allowed five unique elevations instead of three; exact spacing rule in checklist not read."
+      },
+      {
+        "value": "Home should sit as close as possible to the front setback line (design standards)",
+        "status": "Secondary",
+        "source": {
+          "id": "killeen-coo-31-902",
+          "title": "Killeen Code Chapter 31 Art. VI Div. 1 single-family/two-family residential design standards (Sec. 31-902 to 31-904)",
+          "url": "https://library.municode.com/tx/killeen/codes/code_of_ordinances?nodeId=PTIICOOR_CH31ZO_ARTVIARSIDEST_DIV1SIMITMIREDEST_S31-902RE",
+          "read": "2026-10-11"
+        },
+        "note": "Web tools limited this session: WebFetch could not resolve any host and the shared web-search budget ran out; value taken from a search-engine excerpt of this page, full page not read."
+      }
+    ]
+  },
+  "process": {
+    "steps": [
+      {
+        "value": "Platted lot required -> submit residential permit application with plot plan, plans, energy compliance -> review (zoning, architectural checklist, building) -> permit issued -> inspections -> certificate of occupancy",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Typical Texas city process; Killeen-specific steps not read."
+      }
+    ],
+    "sealsRequired": [
+      {
+        "value": "Engineered foundation design (sealed by Texas PE) typically required for slab-on-grade in central Texas expansive soils",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Assumed; Killeen requirement not verified."
+      }
+    ],
+    "inspections": [
+      {
+        "value": "Plumbing rough/ground, foundation (pre-pour), framing, MEP rough, insulation/energy, final + CO",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Typical IRC inspection sequence."
+      }
+    ],
+    "reviewDays": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: Killeen residential plan review time. Web access unavailable this session (WebFetch DNS failure; search budget exhausted)."
+    }
+  },
+  "fees": {
+    "permitFormula": {
+      "value": null,
+      "status": "Secondary",
+      "source": {
+        "id": "killeen-fee-schedule-fy22",
+        "title": "City of Killeen Comprehensive Fee Schedule (FY 2022)",
+        "url": "https://killeentexas.gov/DocumentCenter/View/4078/FY-2022-Rate--Fee-Schedule-PDF",
+        "read": "2026-10-11"
+      },
+      "note": "Comprehensive fee schedule exists (FY2022 version found in search) but its content was not read; current FY2026 schedule not located."
+    },
+    "workedExample2400sqft": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Cannot compute: fee formula not read. Assumption basis would be 2,400 sq ft conditioned + 440 sq ft attached garage."
+    },
+    "planReview": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: Killeen residential plan review fee. Web access unavailable this session (WebFetch DNS failure; search budget exhausted)."
+    },
+    "impactFees": [
+      {
+        "value": 1161,
+        "status": "Secondary",
+        "source": {
+          "id": "killeen-coo-ch33",
+          "title": "Killeen Code of Ordinances Chapter 33 Impact Fees (Municode)",
+          "url": "https://library.municode.com/tx/killeen/codes/code_of_ordinances?nodeId=PTIICOOR_CH33IMFE",
+          "read": "2026-10-11"
+        },
+        "unit": "USD",
+        "note": "Water impact fee per service unit (3/4-in meter = one single-family LUE), Ord. 21-015 under LGC Ch. 395. Figures are the adopted maximum; whether city collects 100% not confirmed. Web tools limited this session: WebFetch could not resolve any host and the shared web-search budget ran out; value taken from a search-engine excerpt of this page, full page not read."
+      },
+      {
+        "value": 418,
+        "status": "Secondary",
+        "source": {
+          "id": "killeen-coo-ch33",
+          "title": "Killeen Code of Ordinances Chapter 33 Impact Fees (Municode)",
+          "url": "https://library.municode.com/tx/killeen/codes/code_of_ordinances?nodeId=PTIICOOR_CH33IMFE",
+          "read": "2026-10-11"
+        },
+        "unit": "USD",
+        "note": "Wastewater impact fee per service unit (3/4-in meter). Same caveat."
+      },
+      {
+        "value": 0,
+        "status": "Secondary",
+        "source": {
+          "id": "killeen-kdh-roadway-fee-vote",
+          "title": "KDH News: Killeen City Council votes 4-3 against impact fees",
+          "url": "https://kdhnews.com/news/local/killeen-city-council-votes-4-3-against-impact-fees/article_c7220ac4-213a-11ea-b93c-9f8cb0d51223.html",
+          "read": "2026-10-11"
+        },
+        "unit": "USD",
+        "note": "Roadway impact fee: proposed ($190-$706/unit) but council voted 4-3 against in Dec 2019; no later adoption found."
+      }
+    ],
+    "tapFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: Killeen water/sewer tap fees. Web access unavailable this session (WebFetch DNS failure; search budget exhausted)."
+      }
+    ]
+  },
+  "cost": {
+    "factor": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "cost-method",
+        "title": "See README cost method (filled by cost agent)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "PENDING_COST_AGENT"
+    },
+    "method": "PENDING_COST_AGENT",
+    "perSqFtMarket": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No public market $/sq ft figure retrieved this session (search budget exhausted)."
+    },
+    "drivers": [
+      {
+        "value": "Expansive clay soils in Bell County -> post-tension slab / engineered foundation",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Background knowledge"
+      },
+      {
+        "value": "Architectural design standards (5 elements, garage door width) add facade cost",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "From Sec. 31-904 summary"
+      },
+      {
+        "value": "Impact fees ~$1,579 per home (water + wastewater)",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Sum of Ch. 33 values"
+      }
+    ]
+  },
+  "flood": {
+    "value": "Floodplain management per city flood damage prevention ordinance; typical Texas rule lowest floor >= 1 ft above BFE - Killeen freeboard not verified",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Not found; check FEMA FIRM for Bell County and city floodplain administrator."
+  },
+  "engineChanges": [
+    {
+      "id": "killeen-irc-2024",
+      "ruleType": "electrical-code-edition",
+      "area": "drawings",
+      "change": "Use 2024 IRC/IECC/IPC/IMC and NEC 2023 as the code basis (not 2021 IRC) for permits applied on/after 2026-01-01",
+      "priority": "must",
+      "params": {
+        "irc": "2024",
+        "iecc": "2024",
+        "nec": "2023",
+        "effective": "2026-01-01"
+      },
+      "source": {
+        "id": "killeen-building-inspections",
+        "title": "City of Killeen - Building Inspections (adopted construction codes)",
+        "url": "https://www.killeentexas.gov/204/Building-Inspections",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "killeen-setbacks-r1",
+      "ruleType": "setback-by-district",
+      "area": "setbacks",
+      "change": "R-1: front 25 ft, interior side 5 ft (flag: may be 7 ft), street side 15 ft, rear 25 ft",
+      "priority": "must",
+      "params": {
+        "district": "R-1",
+        "frontFt": 25,
+        "sideFt": 5,
+        "streetSideFt": 15,
+        "rearFt": 25,
+        "flagSideMayBe7": true,
+        "pendingFront20": true
+      },
+      "source": {
+        "id": "killeen-coo-ch31",
+        "title": "Killeen Code of Ordinances Chapter 31 Zoning (Municode)",
+        "url": "https://library.municode.com/tx/killeen/codes/code_of_ordinances?nodeId=PTIICOOR_CH31ZO",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "killeen-lot-min",
+      "ruleType": "lot-min-size",
+      "area": "survey",
+      "change": "R-1 minimum lot 6,000 sq ft, width 60 ft",
+      "priority": "should",
+      "params": {
+        "minLotSqFt": 6000,
+        "minLotWidthFt": 60
+      },
+      "source": {
+        "id": "killeen-legistar-ch31-setback-amend",
+        "title": "Killeen Legistar: Ordinance amending Chapter 31 - architectural/site design standards and front building setback in single-family districts (redline)",
+        "url": "https://killeen.legistar.com/View.ashx?GUID=1945CCF9-62F2-4537-A1F8-1365A809E827&ID=12369000&M=F",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "killeen-height",
+      "ruleType": "height-limit",
+      "area": "massing",
+      "change": "R-1 max height 35 ft / 2.5 stories",
+      "priority": "must",
+      "params": {
+        "maxHeightFt": 35,
+        "maxStories": 2.5
+      },
+      "source": {
+        "id": "killeen-zoneomics-ch31-art4",
+        "title": "Zoneomics mirror of Killeen Chapter 31 Article IV district regulations",
+        "url": "https://www.zoneomics.com/code/killeen-TX/chapter_4",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "killeen-garage-door",
+      "ruleType": "garage-placement",
+      "area": "plan",
+      "change": "Front-loaded garage door width <= 50% of front elevation length (60% for recessed 3rd bay >= 12 in with separate roofline), or garage not projecting past front plane",
+      "priority": "must",
+      "params": {
+        "maxGarageDoorFrontFraction": 0.5,
+        "thirdBayFraction": 0.6,
+        "thirdBayRecessIn": 12
+      },
+      "source": {
+        "id": "killeen-coo-31-902",
+        "title": "Killeen Code Chapter 31 Art. VI Div. 1 single-family/two-family residential design standards (Sec. 31-902 to 31-904)",
+        "url": "https://library.municode.com/tx/killeen/codes/code_of_ordinances?nodeId=PTIICOOR_CH31ZO_ARTVIARSIDEST_DIV1SIMITMIREDEST_S31-902RE",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "killeen-arch-elements",
+      "ruleType": "side-wall-articulation",
+      "area": "massing",
+      "change": "Include >= 5 listed architectural elements and >= 2 front-elevation features (corbels, quoins, louvered vents, keystones, etc.); use checklist",
+      "priority": "must",
+      "params": {
+        "minElements": 5,
+        "minFrontFeatures": 2,
+        "checklist": "killeen-sf-checklist"
+      },
+      "source": {
+        "id": "killeen-sf-checklist",
+        "title": "City of Killeen Architectural Standards Verification Checklist - Single-Family/Two-Family",
+        "url": "https://www.killeentexas.gov/DocumentCenter/View/9776/Single-Family-Two-Family-Residential-Checklist",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "killeen-envelope-2a",
+      "ruleType": "climate-zone-envelope",
+      "area": "envelope",
+      "change": "Use 2024 IECC Climate Zone 2A prescriptive envelope (not 2021)",
+      "priority": "must",
+      "params": {
+        "climateZone": "2A",
+        "iecc": "2024"
+      },
+      "source": {
+        "id": "killeen-building-inspections",
+        "title": "City of Killeen - Building Inspections (adopted construction codes)",
+        "url": "https://www.killeentexas.gov/204/Building-Inspections",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "killeen-impact",
+      "ruleType": "impact-fee-estimate",
+      "area": "estimate",
+      "change": "Add water $1,161 + wastewater $418 impact fees per single-family home (3/4-in meter)",
+      "priority": "should",
+      "params": {
+        "waterUSD": 1161,
+        "wastewaterUSD": 418,
+        "roadwayUSD": 0
+      },
+      "source": {
+        "id": "killeen-coo-ch33",
+        "title": "Killeen Code of Ordinances Chapter 33 Impact Fees (Municode)",
+        "url": "https://library.municode.com/tx/killeen/codes/code_of_ordinances?nodeId=PTIICOOR_CH33IMFE",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "killeen-eng-foundation",
+      "ruleType": "engineered-foundation-flag",
+      "area": "foundation",
+      "change": "Flag engineered (PE-sealed) slab for expansive clay soils",
+      "priority": "should",
+      "params": {
+        "engineeredFoundation": true
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "killeen-plat",
+      "ruleType": "building-line-plat",
+      "area": "survey",
+      "change": "Check recorded plat building lines/PUD conditions - may exceed district setbacks",
+      "priority": "should",
+      "params": {
+        "checkPlat": true
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    }
+  ],
+  "plainLanguage": "Killeen switched to the 2024 national building codes on January 1, 2026, so new house plans must follow the 2024 Residential and Energy codes. Most new homes are in the R-1 district: plan on a 25-foot front yard, 5-foot side yards (15 feet next to a side street) and a 25-foot back yard. Houses can be up to 35 feet or two and a half stories tall. Killeen has design rules for every new house: the garage door can be no wider than half the front of the house, and the house needs at least five decorative features. There is no brick-percentage rule. Expect about $1,580 in water and sewer impact fees. The soil is clay that swells, so plan on an engineered foundation.",
+  "openQuestions": [
+    "Was the redline reducing R-1 front yard 25->20 ft and side 7->5 ft adopted, and when?",
+    "Ordinance number and local amendments for the 2024 I-code adoption",
+    "Current FY2026 building permit fee schedule",
+    "Is the full Ch. 33 maximum impact fee collected?"
+  ],
+  "notFound": [
+    "R-1 lot coverage",
+    "parking minimum",
+    "ADU rules",
+    "tree rules",
+    "permit fee formula",
+    "tap fees",
+    "review days",
+    "flood freeboard",
+    "local Table R301.2(1) climatic values"
+  ],
+  "comparison": {
+    "irc": "2024 IRC (eff. 2026-01-01)",
+    "energy": "2024 IECC (amended)",
+    "plumbing": "IPC 2024",
+    "district": "R-1",
+    "setbacks": "25/5/25 (street side 15)",
+    "maxHeight": "35 ft/2.5 st",
+    "coverageFar": "not found / none",
+    "masonry": "none; 5 architectural elements",
+    "engFoundation": "likely (expansive clay) - assumed",
+    "windstorm": "no",
+    "flood": "not verified",
+    "permitFeeExample": "not computed",
+    "impactFees": "$1,579 water+ww",
+    "costFactor": "PENDING"
+  }
+}
