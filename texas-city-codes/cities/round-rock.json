@@ -713,7 +713,7 @@
     },
     {
       "id": "round-rock-irc-2024",
-      "ruleType": "irc-edition-variant",
+      "ruleType": "code-edition-by-city",
       "area": "drawings",
       "change": "Use 2024 IRC (not 2021) as base residential code",
       "priority": "must",

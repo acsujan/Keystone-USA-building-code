@@ -730,6 +730,25 @@
   },
   "engineChanges": [
     {
+      "id": "college-station-code-edition",
+      "ruleType": "code-edition-by-city",
+      "area": "plan",
+      "change": "Check plans against 2021 IRC (unverified) (city adoption) and energy code 2021 IECC / IRC Ch. 11 (unverified) instead of the plain 2021 IRC model - edition is Assumed, show 'confirm with city' warning",
+      "priority": "should",
+      "params": {
+        "irc": "2021 IRC (unverified)",
+        "energy": "2021 IECC / IRC Ch. 11 (unverified)",
+        "editionStatus": "Assumed"
+      },
+      "source": {
+        "id": "college-station-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "derived": "added by coordinator from codes.irc.edition"
+    },
+    {
       "id": "college-station-setbacks",
       "ruleType": "setback-by-district",
       "area": "setbacks",

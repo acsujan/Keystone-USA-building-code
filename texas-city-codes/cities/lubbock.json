@@ -698,6 +698,26 @@
   },
   "engineChanges": [
     {
+      "id": "lubbock-code-edition",
+      "ruleType": "code-edition-by-city",
+      "area": "plan",
+      "change": "Check plans against 2021 IRC (city adoption) and energy code 2021 IECC (with local amendments) instead of the plain 2021 IRC model",
+      "priority": "should",
+      "params": {
+        "irc": "2021 IRC",
+        "energy": "2021 IECC (with local amendments)",
+        "editionStatus": "Secondary"
+      },
+      "source": {
+        "id": "lubbock-ecode-28-14",
+        "title": "Lubbock Code of Ordinances Art. 28.14 Residential Code (ecode360)",
+        "url": "https://ecode360.com/45134704",
+        "read": "2026-10-11",
+        "section": "28.14.001-28.14.003"
+      },
+      "derived": "added by coordinator from codes.irc.edition"
+    },
+    {
       "id": "lubbock-sf2-setbacks",
       "ruleType": "setback-by-district",
       "area": "setbacks",

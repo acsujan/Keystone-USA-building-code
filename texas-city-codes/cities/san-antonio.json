@@ -770,6 +770,25 @@
   },
   "engineChanges": [
     {
+      "id": "san-antonio-code-edition",
+      "ruleType": "code-edition-by-city",
+      "area": "plan",
+      "change": "Check plans against 2024 IRC (with City amendments), effective May 1, 2025 (city adoption) and energy code 2021 IECC (as amended by City); IECC excluded from the 2024 adoption cycle instead of the plain 2021 IRC model",
+      "priority": "must",
+      "params": {
+        "irc": "2024 IRC (with City amendments), effective May 1, 2025",
+        "energy": "2021 IECC (as amended by City); IECC excluded from the 2024 adoption cycle",
+        "editionStatus": "Secondary"
+      },
+      "source": {
+        "id": "san-antonio-dsd-codes-ordinances",
+        "title": "Codes & Ordinances - City of San Antonio DSD",
+        "url": "https://www.sa.gov/Directory/Departments/DSD/Codes-Ordinances",
+        "read": "2026-10-11"
+      },
+      "derived": "added by coordinator from codes.irc.edition"
+    },
+    {
       "id": "san-antonio-irc-2024",
       "ruleType": "electrical-code-edition",
       "area": "drawings",

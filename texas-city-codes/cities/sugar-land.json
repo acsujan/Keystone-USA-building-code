@@ -607,6 +607,25 @@
   },
   "engineChanges": [
     {
+      "id": "sugar-land-code-edition",
+      "ruleType": "code-edition-by-city",
+      "area": "plan",
+      "change": "Check plans against 2024 IRC (city adoption) and energy code 2024 IECC (part of 2024 ICC adoption; residential energy amendments not verified) instead of the plain 2021 IRC model",
+      "priority": "must",
+      "params": {
+        "irc": "2024 IRC",
+        "energy": "2024 IECC (part of 2024 ICC adoption; residential energy amendments not verified)",
+        "editionStatus": "Secondary"
+      },
+      "source": {
+        "id": "sugar-land-permits-inspections",
+        "title": "City of Sugar Land - Permits & Inspections (2024 ICC effective Jan 21 2026)",
+        "url": "https://www.sugarlandtx.gov/2362/Permits-Inspections",
+        "read": "2026-10-11"
+      },
+      "derived": "added by coordinator from codes.irc.edition"
+    },
+    {
       "id": "sugar-land-eng-foundation",
       "ruleType": "engineered-foundation-flag",
       "area": "foundation",

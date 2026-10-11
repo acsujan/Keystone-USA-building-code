@@ -702,6 +702,25 @@
   },
   "engineChanges": [
     {
+      "id": "corpus-christi-code-edition",
+      "ruleType": "code-edition-by-city",
+      "area": "plan",
+      "change": "Check plans against 2021 IRC with local amendments (effective Aug 1, 2023) (city adoption) and energy code 2021 IECC per newer city page (older page lists 2015 IECC) - conflicting; state floor applies instead of the plain 2021 IRC model",
+      "priority": "should",
+      "params": {
+        "irc": "2021 IRC with local amendments (effective Aug 1, 2023)",
+        "energy": "2021 IECC per newer city page (older page lists 2015 IECC) - conflicting; state floor applies",
+        "editionStatus": "Secondary"
+      },
+      "source": {
+        "id": "cc-construction-codes-page",
+        "title": "Construction Codes and Ordinances (Development Services)",
+        "url": "https://www.corpuschristitx.gov/department-directory/development-services/construction-codes-and-ordinances/",
+        "read": "2026-10-11"
+      },
+      "derived": "added by coordinator from codes.irc.edition"
+    },
+    {
       "id": "corpus-christi-setbacks",
       "ruleType": "setback-by-district",
       "area": "setbacks",

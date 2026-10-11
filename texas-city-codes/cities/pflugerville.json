@@ -772,6 +772,25 @@
   },
   "engineChanges": [
     {
+      "id": "pflugerville-code-edition",
+      "ruleType": "code-edition-by-city",
+      "area": "plan",
+      "change": "Check plans against 2021 IRC with local amendments + Appendices H and J (city adoption) and energy code 2021 IECC / IRC Ch. 11 (unverified) instead of the plain 2021 IRC model",
+      "priority": "should",
+      "params": {
+        "irc": "2021 IRC with local amendments + Appendices H and J",
+        "energy": "2021 IECC / IRC Ch. 11 (unverified)",
+        "editionStatus": "Secondary"
+      },
+      "source": {
+        "id": "pflugerville-ecode-construction-code",
+        "title": "City of Pflugerville Code of Ordinances - building/construction code chapter (eCode360)",
+        "url": "https://ecode360.com/39355343",
+        "read": "2026-10-11"
+      },
+      "derived": "added by coordinator from codes.irc.edition"
+    },
+    {
       "id": "pflugerville-setbacks-sfs",
       "ruleType": "setback-by-district",
       "area": "setbacks",

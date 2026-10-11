@@ -1,834 +1,853 @@
 {
- "id": "forney",
- "name": "City of Forney",
- "state": "TX",
- "tier": 2,
- "counties": [
-  "Kaufman"
- ],
- "msa": {
-  "name": "Dallas-Fort Worth-Arlington, TX",
-  "blsCode": "19100"
- },
- "population": {
-  "value": 35470,
-  "status": "Secondary",
-  "source": {
-   "id": "forney-census-quickfacts",
-   "title": "U.S. Census QuickFacts - Forney city, Texas",
-   "url": "https://census.gov/quickfacts/fact/table/forneycitytexas/PST045223",
-   "read": "2026-10-11"
+  "id": "forney",
+  "name": "City of Forney",
+  "state": "TX",
+  "tier": 2,
+  "counties": [
+    "Kaufman"
+  ],
+  "msa": {
+    "name": "Dallas-Fort Worth-Arlington, TX",
+    "blsCode": "19100"
   },
-  "note": "Census Vintage 2023 (July 1, 2023) via QuickFacts search extract; V2024 shown NA in extract. 2020 Census 23,455 (+51%)."
- },
- "zipCodesOrBoundary": {
-  "value": null,
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed",
-   "url": "",
-   "read": "2026-10-11"
-  },
-  "note": "Not found: city-limits map/ZIP list not retrieved."
- },
- "climateZone": {
-  "value": "3A",
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed",
-   "url": "",
-   "read": "2026-10-11"
-  },
-  "note": "From 2021 IECC Table R301.1 county list (Kaufman County) as recalled; not re-read this run."
- },
- "windstormCounty": {
-  "value": false,
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed (TDI catalogue county list, recalled)",
-   "url": "",
-   "read": "2026-10-11"
-  },
-  "note": "Kaufman County is not in the TDI windstorm catalogue."
- },
- "codes": {
-  "irc": {
-   "edition": {
-    "value": "2021 IRC with local and NCTCOG regional amendments (effective 1 Jan 2023)",
+  "population": {
+    "value": 35470,
     "status": "Secondary",
     "source": {
-     "id": "forney-adopted-codes",
-     "title": "City of Forney - Adopted Building Codes (2021 I-Codes, 2020 NEC; approved Nov 2022, effective 1 Jan 2023; local + NCTCOG amendments)",
-     "url": "https://www.forneytx.gov/141/Adopted-Building-Codes",
-     "read": "2026-10-11"
+      "id": "forney-census-quickfacts",
+      "title": "U.S. Census QuickFacts - Forney city, Texas",
+      "url": "https://census.gov/quickfacts/fact/table/forneycitytexas/PST045223",
+      "read": "2026-10-11"
     },
-    "note": "City page; council approved Nov 2022. Prior cycle 2015 IRC (2016/2017). No 2024 adoption found. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-   },
-   "ordinance": {
+    "note": "Census Vintage 2023 (July 1, 2023) via QuickFacts search extract; V2024 shown NA in extract. 2020 Census 23,455 (+51%)."
+  },
+  "zipCodesOrBoundary": {
     "value": null,
     "status": "Assumed",
     "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (not found in wave 3 searches)",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Not found: adopting ordinance number (city page gives approval Nov 2022, effective 2023-01-01)."
-   },
-   "amendments": [
-    {
-     "topic": "other",
-     "summary": "NCTCOG regional amendments to the 2021 IRC plus local Forney amendments are adopted (text not read).",
-     "status": "Secondary",
-     "source": {
-      "id": "forney-adopted-codes",
-      "title": "City of Forney - Adopted Building Codes (2021 I-Codes, 2020 NEC; approved Nov 2022, effective 1 Jan 2023; local + NCTCOG amendments)",
-      "url": "https://www.forneytx.gov/141/Adopted-Building-Codes",
+      "id": "assumed",
+      "title": "Assumed",
+      "url": "",
       "read": "2026-10-11"
-     }
     },
-    {
-     "topic": "foundation",
-     "summary": "Permit submittal requires engineer-stamped structural plans and a foundation letter (engineer) for new homes.",
-     "status": "Secondary",
-     "source": {
-      "id": "forney-faq-permits",
-      "title": "City of Forney FAQ - building permit submittal (2021 IRC/2020 NEC; engineer-stamped structural plans, foundation letter, energy compliance)",
-      "url": "https://www.forneytx.gov/faq",
-      "read": "2026-10-11"
-     }
-    },
-    {
-     "topic": "fire sprinklers",
-     "summary": "No one/two-family sprinkler mandate (state preemption, LGC 250.011).",
-     "status": "Secondary",
-     "source": {
-      "id": "tx-hb738-allensworth",
-      "title": "HB 738: Texas Adopts 2012 Versions of IRC and IBC; Addresses Residential Fire Sprinklers (law-firm summary)",
-      "url": "https://www.allensworthlaw.com/legal-updates/hb-738/",
-      "read": "2026-10-11"
-     }
-    }
-   ]
+    "note": "Not found: city-limits map/ZIP list not retrieved."
   },
-  "energy": {
-   "edition": {
-    "value": "2021 IECC (2021 I-Code set; energy compliance report required)",
-    "status": "Secondary",
+  "climateZone": {
+    "value": "3A",
+    "status": "Assumed",
     "source": {
-     "id": "forney-adopted-codes",
-     "title": "City of Forney - Adopted Building Codes (2021 I-Codes, 2020 NEC; approved Nov 2022, effective 1 Jan 2023; local + NCTCOG amendments)",
-     "url": "https://www.forneytx.gov/141/Adopted-Building-Codes",
-     "read": "2026-10-11"
+      "id": "assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
     },
-    "note": "FAQ lists 2021 energy compliance (COMcheck 2021) document. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-   },
-   "stretchCode": {
+    "note": "From 2021 IECC Table R301.1 county list (Kaufman County) as recalled; not re-read this run."
+  },
+  "windstormCounty": {
     "value": false,
     "status": "Assumed",
     "source": {
-     "id": "assumed",
-     "title": "Assumed",
-     "url": "",
-     "read": "2026-10-11"
+      "id": "assumed",
+      "title": "Assumed (TDI catalogue county list, recalled)",
+      "url": "",
+      "read": "2026-10-11"
     },
-    "note": "No local stretch code found; none expected for this city."
-   }
+    "note": "Kaufman County is not in the TDI windstorm catalogue."
   },
-  "plumbing": {
-   "value": "IPC 2021",
-   "status": "Secondary",
-   "source": {
-    "id": "forney-adopted-codes",
-    "title": "City of Forney - Adopted Building Codes (2021 I-Codes, 2020 NEC; approved Nov 2022, effective 1 Jan 2023; local + NCTCOG amendments)",
-    "url": "https://www.forneytx.gov/141/Adopted-Building-Codes",
-    "read": "2026-10-11"
-   },
-   "note": "Part of 2021 International Code Series adopted. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+  "codes": {
+    "irc": {
+      "edition": {
+        "value": "2021 IRC with local and NCTCOG regional amendments (effective 1 Jan 2023)",
+        "status": "Secondary",
+        "source": {
+          "id": "forney-adopted-codes",
+          "title": "City of Forney - Adopted Building Codes (2021 I-Codes, 2020 NEC; approved Nov 2022, effective 1 Jan 2023; local + NCTCOG amendments)",
+          "url": "https://www.forneytx.gov/141/Adopted-Building-Codes",
+          "read": "2026-10-11"
+        },
+        "note": "City page; council approved Nov 2022. Prior cycle 2015 IRC (2016/2017). No 2024 adoption found. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+      },
+      "ordinance": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (not found in wave 3 searches)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: adopting ordinance number (city page gives approval Nov 2022, effective 2023-01-01)."
+      },
+      "amendments": [
+        {
+          "topic": "other",
+          "summary": "NCTCOG regional amendments to the 2021 IRC plus local Forney amendments are adopted (text not read).",
+          "status": "Secondary",
+          "source": {
+            "id": "forney-adopted-codes",
+            "title": "City of Forney - Adopted Building Codes (2021 I-Codes, 2020 NEC; approved Nov 2022, effective 1 Jan 2023; local + NCTCOG amendments)",
+            "url": "https://www.forneytx.gov/141/Adopted-Building-Codes",
+            "read": "2026-10-11"
+          }
+        },
+        {
+          "topic": "foundation",
+          "summary": "Permit submittal requires engineer-stamped structural plans and a foundation letter (engineer) for new homes.",
+          "status": "Secondary",
+          "source": {
+            "id": "forney-faq-permits",
+            "title": "City of Forney FAQ - building permit submittal (2021 IRC/2020 NEC; engineer-stamped structural plans, foundation letter, energy compliance)",
+            "url": "https://www.forneytx.gov/faq",
+            "read": "2026-10-11"
+          }
+        },
+        {
+          "topic": "fire sprinklers",
+          "summary": "No one/two-family sprinkler mandate (state preemption, LGC 250.011).",
+          "status": "Secondary",
+          "source": {
+            "id": "tx-hb738-allensworth",
+            "title": "HB 738: Texas Adopts 2012 Versions of IRC and IBC; Addresses Residential Fire Sprinklers (law-firm summary)",
+            "url": "https://www.allensworthlaw.com/legal-updates/hb-738/",
+            "read": "2026-10-11"
+          }
+        }
+      ]
+    },
+    "energy": {
+      "edition": {
+        "value": "2021 IECC (2021 I-Code set; energy compliance report required)",
+        "status": "Secondary",
+        "source": {
+          "id": "forney-adopted-codes",
+          "title": "City of Forney - Adopted Building Codes (2021 I-Codes, 2020 NEC; approved Nov 2022, effective 1 Jan 2023; local + NCTCOG amendments)",
+          "url": "https://www.forneytx.gov/141/Adopted-Building-Codes",
+          "read": "2026-10-11"
+        },
+        "note": "FAQ lists 2021 energy compliance (COMcheck 2021) document. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+      },
+      "stretchCode": {
+        "value": false,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "No local stretch code found; none expected for this city."
+      }
+    },
+    "plumbing": {
+      "value": "IPC 2021",
+      "status": "Secondary",
+      "source": {
+        "id": "forney-adopted-codes",
+        "title": "City of Forney - Adopted Building Codes (2021 I-Codes, 2020 NEC; approved Nov 2022, effective 1 Jan 2023; local + NCTCOG amendments)",
+        "url": "https://www.forneytx.gov/141/Adopted-Building-Codes",
+        "read": "2026-10-11"
+      },
+      "note": "Part of 2021 International Code Series adopted. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+    },
+    "electrical": {
+      "value": "NEC 2020",
+      "status": "Secondary",
+      "source": {
+        "id": "forney-adopted-codes",
+        "title": "City of Forney - Adopted Building Codes (2021 I-Codes, 2020 NEC; approved Nov 2022, effective 1 Jan 2023; local + NCTCOG amendments)",
+        "url": "https://www.forneytx.gov/141/Adopted-Building-Codes",
+        "read": "2026-10-11"
+      },
+      "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+    },
+    "mechanical": {
+      "value": "IMC 2021",
+      "status": "Secondary",
+      "source": {
+        "id": "forney-adopted-codes",
+        "title": "City of Forney - Adopted Building Codes (2021 I-Codes, 2020 NEC; approved Nov 2022, effective 1 Jan 2023; local + NCTCOG amendments)",
+        "url": "https://www.forneytx.gov/141/Adopted-Building-Codes",
+        "read": "2026-10-11"
+      },
+      "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+    },
+    "fuelGas": {
+      "value": "IFGC 2021",
+      "status": "Secondary",
+      "source": {
+        "id": "forney-adopted-codes",
+        "title": "City of Forney - Adopted Building Codes (2021 I-Codes, 2020 NEC; approved Nov 2022, effective 1 Jan 2023; local + NCTCOG amendments)",
+        "url": "https://www.forneytx.gov/141/Adopted-Building-Codes",
+        "read": "2026-10-11"
+      },
+      "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+    },
+    "fire": {
+      "value": "IFC 2021; no one/two-family sprinkler mandate (Texas LGC 250.011 preemption).",
+      "status": "Secondary",
+      "source": {
+        "id": "forney-adopted-codes",
+        "title": "City of Forney - Adopted Building Codes (2021 I-Codes, 2020 NEC; approved Nov 2022, effective 1 Jan 2023; local + NCTCOG amendments)",
+        "url": "https://www.forneytx.gov/141/Adopted-Building-Codes",
+        "read": "2026-10-11"
+      },
+      "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+    },
+    "wind": {
+      "value": 115,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "North Texas; ASCE 7-16 Risk II ~105-115 mph; not verified.",
+      "unit": "mph"
+    },
+    "hailRoofing": {
+      "value": "Hail exposure moderate-high; no local Class 4 mandate found",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not researched this run."
+    },
+    "seismic": {
+      "value": "A",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Texas outside far-west Texas maps to SDC A in 2021 IRC Fig. R301.2(2); not checked against a city-specific table."
+    },
+    "frostDepth": {
+      "value": 12,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Typical local IRC Table R301.2(1) value for the region; not read.",
+      "unit": "in"
+    }
   },
-  "electrical": {
-   "value": "NEC 2020",
-   "status": "Secondary",
-   "source": {
-    "id": "forney-adopted-codes",
-    "title": "City of Forney - Adopted Building Codes (2021 I-Codes, 2020 NEC; approved Nov 2022, effective 1 Jan 2023; local + NCTCOG amendments)",
-    "url": "https://www.forneytx.gov/141/Adopted-Building-Codes",
-    "read": "2026-10-11"
-   },
-   "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+  "zoning": {
+    "hasZoning": {
+      "value": true,
+      "status": "Secondary",
+      "source": {
+        "id": "forney-zoning-sf6-listing",
+        "title": "Forney zoning text reproduced on real-estate listing (SF-6 district purpose; PDs preferred for new residential)",
+        "url": "https://www.redfin.com/TX/Forney/612-Maple-75126/home/33794378",
+        "read": "2026-10-11"
+      },
+      "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+    },
+    "typicalDistrict": {
+      "value": "Planned Development (PD) - city policy: PDs are the preferred method for new residential areas; legacy SF-6 etc. for older platted areas",
+      "status": "Secondary",
+      "source": {
+        "id": "forney-zoning-sf6-listing",
+        "title": "Forney zoning text reproduced on real-estate listing (SF-6 district purpose; PDs preferred for new residential)",
+        "url": "https://www.redfin.com/TX/Forney/612-Maple-75126/home/33794378",
+        "read": "2026-10-11"
+      },
+      "note": "Zoning text (reproduced on a listing site) says new SF-6 areas are 'not anticipated nor desired' and PDs are preferred. Weak secondary source; confirm in city zoning ordinance."
+    },
+    "minLotSqFt": {
+      "value": 7700,
+      "status": "Secondary",
+      "source": {
+        "id": "forney-zoning-sf6-listing",
+        "title": "Forney zoning text reproduced on real-estate listing (SF-6 district purpose; PDs preferred for new residential)",
+        "url": "https://www.redfin.com/TX/Forney/612-Maple-75126/home/33794378",
+        "read": "2026-10-11"
+      },
+      "unit": "sq ft",
+      "note": "Legacy SF-6 district minimum lot 7,700 sf (PD lot sizes vary, often smaller). Weak secondary source."
+    },
+    "minLotWidthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: min lot width. Web search budget exhausted and page fetch unavailable during this run."
+    },
+    "minLotDepthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: min lot depth. Web search budget exhausted and page fetch unavailable during this run."
+    },
+    "setbacksFt": {
+      "front": {
+        "value": 25,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (not found in wave 3 searches)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Not found: Forney SF district yard table; PD sets setbacks. Engine default (25/5/15/20) stays ASSUMED."
+      },
+      "side": {
+        "value": 5,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (not found in wave 3 searches)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Not found: Forney SF district yard table; PD sets setbacks. Engine default (25/5/15/20) stays ASSUMED."
+      },
+      "streetSide": {
+        "value": 15,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (not found in wave 3 searches)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Not found: Forney SF district yard table; PD sets setbacks. Engine default (25/5/15/20) stays ASSUMED."
+      },
+      "rear": {
+        "value": 20,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (not found in wave 3 searches)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Not found: Forney SF district yard table; PD sets setbacks. Engine default (25/5/15/20) stays ASSUMED."
+      }
+    },
+    "maxHeightFt": {
+      "value": 35,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found; typical SF limit.",
+      "unit": "ft"
+    },
+    "maxStories": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found."
+    },
+    "maxLotCoverage": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found."
+    },
+    "imperviousCover": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found."
+    },
+    "far": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found; Texas SF districts rarely use FAR."
+    },
+    "parking": {
+      "value": "2 off-street spaces per dwelling (typical)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found."
+    },
+    "garageRules": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found."
+    },
+    "adu": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found."
+    },
+    "masonry": {
+      "value": "City masonry % not enforceable on new homes under Gov't Code ch. 3000 (HB 2439); PD/HOA covenants may still require masonry.",
+      "status": "Secondary",
+      "source": {
+        "id": "tx-gov-3000",
+        "title": "Texas Government Code Ch. 3000 (building products, materials, methods; HB 2439, 2019)",
+        "url": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.3000.htm",
+        "read": "2026-10-11",
+        "section": "3000.002"
+      },
+      "note": "State statute."
+    },
+    "trees": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found."
+    },
+    "minDwellingSizeSqFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found."
+    },
+    "other": []
   },
-  "mechanical": {
-   "value": "IMC 2021",
-   "status": "Secondary",
-   "source": {
-    "id": "forney-adopted-codes",
-    "title": "City of Forney - Adopted Building Codes (2021 I-Codes, 2020 NEC; approved Nov 2022, effective 1 Jan 2023; local + NCTCOG amendments)",
-    "url": "https://www.forneytx.gov/141/Adopted-Building-Codes",
-    "read": "2026-10-11"
-   },
-   "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+  "process": {
+    "steps": [
+      {
+        "value": "Apply online (MyGov) with permit application, architectural plans, engineer-stamped structural plans, foundation letter, 2021 energy compliance report, fence plan.",
+        "status": "Secondary",
+        "source": {
+          "id": "forney-faq-permits",
+          "title": "City of Forney FAQ - building permit submittal (2021 IRC/2020 NEC; engineer-stamped structural plans, foundation letter, energy compliance)",
+          "url": "https://www.forneytx.gov/faq",
+          "read": "2026-10-11"
+        },
+        "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+      }
+    ],
+    "sealsRequired": [
+      {
+        "value": "Engineer-stamped structural plans and engineer foundation letter for new homes; architect seal not required for 1-2 family (Tex. Occ. Code ch. 1051 exemption).",
+        "status": "Secondary",
+        "source": {
+          "id": "forney-faq-permits",
+          "title": "City of Forney FAQ - building permit submittal (2021 IRC/2020 NEC; engineer-stamped structural plans, foundation letter, energy compliance)",
+          "url": "https://www.forneytx.gov/faq",
+          "read": "2026-10-11"
+        },
+        "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+      }
+    ],
+    "inspections": [
+      {
+        "value": "Foundation, framing/rough MEP, insulation, final",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Generic IRC sequence."
+      }
+    ],
+    "reviewDays": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found."
+    }
   },
-  "fuelGas": {
-   "value": "IFGC 2021",
-   "status": "Secondary",
-   "source": {
-    "id": "forney-adopted-codes",
-    "title": "City of Forney - Adopted Building Codes (2021 I-Codes, 2020 NEC; approved Nov 2022, effective 1 Jan 2023; local + NCTCOG amendments)",
-    "url": "https://www.forneytx.gov/141/Adopted-Building-Codes",
-    "read": "2026-10-11"
-   },
-   "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+  "fees": {
+    "permitFormula": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (not found in wave 3 searches)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: Forney new-home permit fee schedule (searches returned FAQ only). LGC 214.907 (HB 852, 2019) bars value-based residential fees, so expect a per-sq-ft fee."
+    },
+    "workedExample2400sqft": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (not found in wave 3 searches)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not computed: rate not found (assumption 2,400 sf conditioned + 440 sf attached garage)."
+    },
+    "planReview": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found."
+    },
+    "impactFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (not found in wave 3 searches)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found after 3 targeted searches (city ordinance, council news). Forney may rely on MUD/PID and developer agreements; treat as unknown, not zero."
+      }
+    ],
+    "tapFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found."
+      }
+    ]
   },
-  "fire": {
-   "value": "IFC 2021; no one/two-family sprinkler mandate (Texas LGC 250.011 preemption).",
-   "status": "Secondary",
-   "source": {
-    "id": "forney-adopted-codes",
-    "title": "City of Forney - Adopted Building Codes (2021 I-Codes, 2020 NEC; approved Nov 2022, effective 1 Jan 2023; local + NCTCOG amendments)",
-    "url": "https://www.forneytx.gov/141/Adopted-Building-Codes",
-    "read": "2026-10-11"
-   },
-   "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+  "cost": {
+    "factor": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "cost-method",
+        "title": "See README cost method (filled by cost agent)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "PENDING_COST_AGENT"
+    },
+    "method": "PENDING_COST_AGENT",
+    "perSqFtMarket": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: no public per-sq-ft market figure retrieved this run."
+    },
+    "drivers": [
+      {
+        "value": "Expansive clay soils -> engineer-designed slab and foundation letter required.",
+        "status": "Secondary",
+        "source": {
+          "id": "forney-faq-permits",
+          "title": "City of Forney FAQ - building permit submittal (2021 IRC/2020 NEC; engineer-stamped structural plans, foundation letter, energy compliance)",
+          "url": "https://www.forneytx.gov/faq",
+          "read": "2026-10-11"
+        },
+        "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+      },
+      {
+        "value": "PD/HOA masonry and design standards.",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (not found in wave 3 searches)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Typical PD-driven suburb."
+      },
+      {
+        "value": "Possible MUD/PID assessments and impact fees (amounts not found).",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (not found in wave 3 searches)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not verified."
+      }
+    ]
   },
-  "wind": {
-   "value": 115,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "North Texas; ASCE 7-16 Risk II ~105-115 mph; not verified.",
-   "unit": "mph"
+  "flood": {
+    "value": "NFIP participant; Forney floodplain freeboard not found (DFW cities commonly 1-2 ft above BFE).",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed - agent judgement (not found in wave 3 searches)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Search returned only other cities' ordinances."
   },
-  "hailRoofing": {
-   "value": "Hail exposure moderate-high; no local Class 4 mandate found",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched this run."
-  },
-  "seismic": {
-   "value": "A",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Texas outside far-west Texas maps to SDC A in 2021 IRC Fig. R301.2(2); not checked against a city-specific table."
-  },
-  "frostDepth": {
-   "value": 12,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Typical local IRC Table R301.2(1) value for the region; not read.",
-   "unit": "in"
+  "engineChanges": [
+    {
+      "id": "forney-code-edition",
+      "ruleType": "code-edition-by-city",
+      "area": "plan",
+      "change": "Check plans against 2021 IRC with local and NCTCOG regional amendments (effective 1 Jan 2023) (city adoption) and energy code 2021 IECC (2021 I-Code set; energy compliance report required) instead of the plain 2021 IRC model",
+      "priority": "should",
+      "params": {
+        "irc": "2021 IRC with local and NCTCOG regional amendments (effective 1 Jan 2023)",
+        "energy": "2021 IECC (2021 I-Code set; energy compliance report required)",
+        "editionStatus": "Secondary"
+      },
+      "source": {
+        "id": "forney-adopted-codes",
+        "title": "City of Forney - Adopted Building Codes (2021 I-Codes, 2020 NEC; approved Nov 2022, effective 1 Jan 2023; local + NCTCOG amendments)",
+        "url": "https://www.forneytx.gov/141/Adopted-Building-Codes",
+        "read": "2026-10-11"
+      },
+      "derived": "added by coordinator from codes.irc.edition"
+    },
+    {
+      "id": "forney-setbacks",
+      "ruleType": "setback-by-district",
+      "area": "setbacks",
+      "change": "Default PD/legacy SF setbacks front 25, side 5, street side 15, rear 20 ft - ASSUMED; require PD ordinance or plat.",
+      "priority": "should",
+      "params": {
+        "district": "PD (preferred) / legacy SF",
+        "frontFt": 25,
+        "sideFt": 5,
+        "streetSideFt": 15,
+        "rearFt": 20,
+        "assumed": true,
+        "requireUserConfirm": true
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "forney-plat-lines",
+      "ruleType": "building-line-plat",
+      "area": "survey",
+      "change": "Read platted building lines from the recorded plat; they override district defaults when larger",
+      "priority": "must",
+      "params": {
+        "usePlatBuildingLine": true
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "forney-eng-fdn",
+      "ruleType": "engineered-foundation-flag",
+      "area": "foundation",
+      "change": "Require engineer-stamped structural plans and engineer foundation letter for every new home (city submittal requirement).",
+      "priority": "must",
+      "params": {
+        "engineeredFoundation": true,
+        "foundationLetter": true,
+        "stampedStructural": true
+      },
+      "source": {
+        "id": "forney-faq-permits",
+        "title": "City of Forney FAQ - building permit submittal (2021 IRC/2020 NEC; engineer-stamped structural plans, foundation letter, energy compliance)",
+        "url": "https://www.forneytx.gov/faq",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "forney-energy-cz",
+      "ruleType": "climate-zone-envelope",
+      "area": "envelope",
+      "change": "Use 2021 IECC climate zone 3A envelope tables; submit 2021 energy compliance report.",
+      "priority": "must",
+      "params": {
+        "climateZone": "3A",
+        "energyCode": "2021 IECC"
+      },
+      "source": {
+        "id": "forney-adopted-codes",
+        "title": "City of Forney - Adopted Building Codes (2021 I-Codes, 2020 NEC; approved Nov 2022, effective 1 Jan 2023; local + NCTCOG amendments)",
+        "url": "https://www.forneytx.gov/141/Adopted-Building-Codes",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "forney-masonry-none",
+      "ruleType": "masonry-percentage",
+      "area": "envelope",
+      "change": "Do not apply any city-mandated masonry %; only flag HOA/deed restriction check",
+      "priority": "should",
+      "params": {
+        "masonryPctMin": 0,
+        "checkDeedRestrictions": true
+      },
+      "source": {
+        "id": "tx-gov-3000",
+        "title": "Texas Government Code Ch. 3000 (building products, materials, methods; HB 2439, 2019)",
+        "url": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.3000.htm",
+        "read": "2026-10-11",
+        "section": "3000.002"
+      }
+    },
+    {
+      "id": "forney-pd-check",
+      "ruleType": "survey-input-district",
+      "area": "survey",
+      "change": "Ask for the PD ordinance first: Forney uses PDs as the preferred zoning for all new residential areas; PD standards override base districts.",
+      "priority": "must",
+      "params": {
+        "askPD": true,
+        "pdLikely": true
+      },
+      "source": {
+        "id": "forney-zoning-sf6-listing",
+        "title": "Forney zoning text reproduced on real-estate listing (SF-6 district purpose; PDs preferred for new residential)",
+        "url": "https://www.redfin.com/TX/Forney/612-Maple-75126/home/33794378",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "forney-impact",
+      "ruleType": "impact-fee-estimate",
+      "area": "estimate",
+      "change": "Add placeholder impact-fee line (water/ww/roadway) flagged 'verify with city'",
+      "priority": "should",
+      "params": {
+        "placeholder": true
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "forney-codes-2021",
+      "ruleType": "electrical-code-edition",
+      "area": "drawings",
+      "change": "Use 2021 IRC + NCTCOG amendments and NEC 2020 (not 2023) for Forney plan notes.",
+      "priority": "should",
+      "params": {
+        "irc": "2021",
+        "nec": "2020"
+      },
+      "source": {
+        "id": "forney-adopted-codes",
+        "title": "City of Forney - Adopted Building Codes (2021 I-Codes, 2020 NEC; approved Nov 2022, effective 1 Jan 2023; local + NCTCOG amendments)",
+        "url": "https://www.forneytx.gov/141/Adopted-Building-Codes",
+        "read": "2026-10-11"
+      }
+    }
+  ],
+  "plainLanguage": "Forney uses the 2021 International Residential Code with North Texas (NCTCOG) and local amendments, and the 2020 National Electrical Code, in force since January 2023. New neighborhoods are almost all planned developments (PDs), so your PD ordinance and plat set the setbacks; our defaults are placeholders until you confirm. The city asks for engineer-stamped structural plans and an engineer's foundation letter with every new-home permit, because of expansive clay soils. You also submit an energy compliance report under the 2021 energy code. We could not find Forney's permit fee or impact fee amounts, so those lines are left open. Texas law stops the city requiring brick, but your HOA likely will.",
+  "openQuestions": [
+    "Forney zoning district tables / typical PD setbacks",
+    "Permit fee schedule",
+    "Impact fees (water, wastewater, roadway) or MUD fees",
+    "Floodplain freeboard",
+    "Local IRC amendment text"
+  ],
+  "notFound": [
+    "Setbacks/height/coverage",
+    "Permit fee rate",
+    "Impact fees",
+    "Flood freeboard",
+    "Ordinance number",
+    "Market $/sf"
+  ],
+  "comparison": {
+    "irc": "2021 IRC + NCTCOG (eff. 1/1/2023)",
+    "energy": "2021 IECC",
+    "plumbing": "IPC 2021",
+    "district": "PD (preferred); legacy SF-6",
+    "setbacks": "25/5/20 (assumed)",
+    "maxHeight": "35 ft (assumed)",
+    "coverageFar": "unknown",
+    "masonry": "not city-enforceable; PD/HOA",
+    "engFoundation": "yes - engineer stamped + foundation letter",
+    "windstorm": "no",
+    "flood": "not found",
+    "permitFeeExample": "not found",
+    "impactFees": "not found",
+    "costFactor": "PENDING"
   }
- },
- "zoning": {
-  "hasZoning": {
-   "value": true,
-   "status": "Secondary",
-   "source": {
-    "id": "forney-zoning-sf6-listing",
-    "title": "Forney zoning text reproduced on real-estate listing (SF-6 district purpose; PDs preferred for new residential)",
-    "url": "https://www.redfin.com/TX/Forney/612-Maple-75126/home/33794378",
-    "read": "2026-10-11"
-   },
-   "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-  },
-  "typicalDistrict": {
-   "value": "Planned Development (PD) - city policy: PDs are the preferred method for new residential areas; legacy SF-6 etc. for older platted areas",
-   "status": "Secondary",
-   "source": {
-    "id": "forney-zoning-sf6-listing",
-    "title": "Forney zoning text reproduced on real-estate listing (SF-6 district purpose; PDs preferred for new residential)",
-    "url": "https://www.redfin.com/TX/Forney/612-Maple-75126/home/33794378",
-    "read": "2026-10-11"
-   },
-   "note": "Zoning text (reproduced on a listing site) says new SF-6 areas are 'not anticipated nor desired' and PDs are preferred. Weak secondary source; confirm in city zoning ordinance."
-  },
-  "minLotSqFt": {
-   "value": 7700,
-   "status": "Secondary",
-   "source": {
-    "id": "forney-zoning-sf6-listing",
-    "title": "Forney zoning text reproduced on real-estate listing (SF-6 district purpose; PDs preferred for new residential)",
-    "url": "https://www.redfin.com/TX/Forney/612-Maple-75126/home/33794378",
-    "read": "2026-10-11"
-   },
-   "unit": "sq ft",
-   "note": "Legacy SF-6 district minimum lot 7,700 sf (PD lot sizes vary, often smaller). Weak secondary source."
-  },
-  "minLotWidthFt": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: min lot width. Web search budget exhausted and page fetch unavailable during this run."
-  },
-  "minLotDepthFt": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: min lot depth. Web search budget exhausted and page fetch unavailable during this run."
-  },
-  "setbacksFt": {
-   "front": {
-    "value": 25,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (not found in wave 3 searches)",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "unit": "ft",
-    "note": "Not found: Forney SF district yard table; PD sets setbacks. Engine default (25/5/15/20) stays ASSUMED."
-   },
-   "side": {
-    "value": 5,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (not found in wave 3 searches)",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "unit": "ft",
-    "note": "Not found: Forney SF district yard table; PD sets setbacks. Engine default (25/5/15/20) stays ASSUMED."
-   },
-   "streetSide": {
-    "value": 15,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (not found in wave 3 searches)",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "unit": "ft",
-    "note": "Not found: Forney SF district yard table; PD sets setbacks. Engine default (25/5/15/20) stays ASSUMED."
-   },
-   "rear": {
-    "value": 20,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (not found in wave 3 searches)",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "unit": "ft",
-    "note": "Not found: Forney SF district yard table; PD sets setbacks. Engine default (25/5/15/20) stays ASSUMED."
-   }
-  },
-  "maxHeightFt": {
-   "value": 35,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found; typical SF limit.",
-   "unit": "ft"
-  },
-  "maxStories": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found."
-  },
-  "maxLotCoverage": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found."
-  },
-  "imperviousCover": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found."
-  },
-  "far": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found; Texas SF districts rarely use FAR."
-  },
-  "parking": {
-   "value": "2 off-street spaces per dwelling (typical)",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found."
-  },
-  "garageRules": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found."
-  },
-  "adu": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found."
-  },
-  "masonry": {
-   "value": "City masonry % not enforceable on new homes under Gov't Code ch. 3000 (HB 2439); PD/HOA covenants may still require masonry.",
-   "status": "Secondary",
-   "source": {
-    "id": "tx-gov-3000",
-    "title": "Texas Government Code Ch. 3000 (building products, materials, methods; HB 2439, 2019)",
-    "url": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.3000.htm",
-    "read": "2026-10-11",
-    "section": "3000.002"
-   },
-   "note": "State statute."
-  },
-  "trees": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found."
-  },
-  "minDwellingSizeSqFt": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found."
-  },
-  "other": []
- },
- "process": {
-  "steps": [
-   {
-    "value": "Apply online (MyGov) with permit application, architectural plans, engineer-stamped structural plans, foundation letter, 2021 energy compliance report, fence plan.",
-    "status": "Secondary",
-    "source": {
-     "id": "forney-faq-permits",
-     "title": "City of Forney FAQ - building permit submittal (2021 IRC/2020 NEC; engineer-stamped structural plans, foundation letter, energy compliance)",
-     "url": "https://www.forneytx.gov/faq",
-     "read": "2026-10-11"
-    },
-    "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-   }
-  ],
-  "sealsRequired": [
-   {
-    "value": "Engineer-stamped structural plans and engineer foundation letter for new homes; architect seal not required for 1-2 family (Tex. Occ. Code ch. 1051 exemption).",
-    "status": "Secondary",
-    "source": {
-     "id": "forney-faq-permits",
-     "title": "City of Forney FAQ - building permit submittal (2021 IRC/2020 NEC; engineer-stamped structural plans, foundation letter, energy compliance)",
-     "url": "https://www.forneytx.gov/faq",
-     "read": "2026-10-11"
-    },
-    "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-   }
-  ],
-  "inspections": [
-   {
-    "value": "Foundation, framing/rough MEP, insulation, final",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Generic IRC sequence."
-   }
-  ],
-  "reviewDays": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found."
-  }
- },
- "fees": {
-  "permitFormula": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (not found in wave 3 searches)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: Forney new-home permit fee schedule (searches returned FAQ only). LGC 214.907 (HB 852, 2019) bars value-based residential fees, so expect a per-sq-ft fee."
-  },
-  "workedExample2400sqft": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (not found in wave 3 searches)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not computed: rate not found (assumption 2,400 sf conditioned + 440 sf attached garage)."
-  },
-  "planReview": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found."
-  },
-  "impactFees": [
-   {
-    "value": null,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (not found in wave 3 searches)",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Not found after 3 targeted searches (city ordinance, council news). Forney may rely on MUD/PID and developer agreements; treat as unknown, not zero."
-   }
-  ],
-  "tapFees": [
-   {
-    "value": null,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Not found."
-   }
-  ]
- },
- "cost": {
-  "factor": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "cost-method",
-    "title": "See README cost method (filled by cost agent)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "PENDING_COST_AGENT"
-  },
-  "method": "PENDING_COST_AGENT",
-  "perSqFtMarket": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: no public per-sq-ft market figure retrieved this run."
-  },
-  "drivers": [
-   {
-    "value": "Expansive clay soils -> engineer-designed slab and foundation letter required.",
-    "status": "Secondary",
-    "source": {
-     "id": "forney-faq-permits",
-     "title": "City of Forney FAQ - building permit submittal (2021 IRC/2020 NEC; engineer-stamped structural plans, foundation letter, energy compliance)",
-     "url": "https://www.forneytx.gov/faq",
-     "read": "2026-10-11"
-    },
-    "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-   },
-   {
-    "value": "PD/HOA masonry and design standards.",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (not found in wave 3 searches)",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Typical PD-driven suburb."
-   },
-   {
-    "value": "Possible MUD/PID assessments and impact fees (amounts not found).",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (not found in wave 3 searches)",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Not verified."
-   }
-  ]
- },
- "flood": {
-  "value": "NFIP participant; Forney floodplain freeboard not found (DFW cities commonly 1-2 ft above BFE).",
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed - agent judgement (not found in wave 3 searches)",
-   "url": "",
-   "read": "2026-10-11"
-  },
-  "note": "Search returned only other cities' ordinances."
- },
- "engineChanges": [
-  {
-   "id": "forney-setbacks",
-   "ruleType": "setback-by-district",
-   "area": "setbacks",
-   "change": "Default PD/legacy SF setbacks front 25, side 5, street side 15, rear 20 ft - ASSUMED; require PD ordinance or plat.",
-   "priority": "should",
-   "params": {
-    "district": "PD (preferred) / legacy SF",
-    "frontFt": 25,
-    "sideFt": 5,
-    "streetSideFt": 15,
-    "rearFt": 20,
-    "assumed": true,
-    "requireUserConfirm": true
-   },
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "forney-plat-lines",
-   "ruleType": "building-line-plat",
-   "area": "survey",
-   "change": "Read platted building lines from the recorded plat; they override district defaults when larger",
-   "priority": "must",
-   "params": {
-    "usePlatBuildingLine": true
-   },
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "forney-eng-fdn",
-   "ruleType": "engineered-foundation-flag",
-   "area": "foundation",
-   "change": "Require engineer-stamped structural plans and engineer foundation letter for every new home (city submittal requirement).",
-   "priority": "must",
-   "params": {
-    "engineeredFoundation": true,
-    "foundationLetter": true,
-    "stampedStructural": true
-   },
-   "source": {
-    "id": "forney-faq-permits",
-    "title": "City of Forney FAQ - building permit submittal (2021 IRC/2020 NEC; engineer-stamped structural plans, foundation letter, energy compliance)",
-    "url": "https://www.forneytx.gov/faq",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "forney-energy-cz",
-   "ruleType": "climate-zone-envelope",
-   "area": "envelope",
-   "change": "Use 2021 IECC climate zone 3A envelope tables; submit 2021 energy compliance report.",
-   "priority": "must",
-   "params": {
-    "climateZone": "3A",
-    "energyCode": "2021 IECC"
-   },
-   "source": {
-    "id": "forney-adopted-codes",
-    "title": "City of Forney - Adopted Building Codes (2021 I-Codes, 2020 NEC; approved Nov 2022, effective 1 Jan 2023; local + NCTCOG amendments)",
-    "url": "https://www.forneytx.gov/141/Adopted-Building-Codes",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "forney-masonry-none",
-   "ruleType": "masonry-percentage",
-   "area": "envelope",
-   "change": "Do not apply any city-mandated masonry %; only flag HOA/deed restriction check",
-   "priority": "should",
-   "params": {
-    "masonryPctMin": 0,
-    "checkDeedRestrictions": true
-   },
-   "source": {
-    "id": "tx-gov-3000",
-    "title": "Texas Government Code Ch. 3000 (building products, materials, methods; HB 2439, 2019)",
-    "url": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.3000.htm",
-    "read": "2026-10-11",
-    "section": "3000.002"
-   }
-  },
-  {
-   "id": "forney-pd-check",
-   "ruleType": "survey-input-district",
-   "area": "survey",
-   "change": "Ask for the PD ordinance first: Forney uses PDs as the preferred zoning for all new residential areas; PD standards override base districts.",
-   "priority": "must",
-   "params": {
-    "askPD": true,
-    "pdLikely": true
-   },
-   "source": {
-    "id": "forney-zoning-sf6-listing",
-    "title": "Forney zoning text reproduced on real-estate listing (SF-6 district purpose; PDs preferred for new residential)",
-    "url": "https://www.redfin.com/TX/Forney/612-Maple-75126/home/33794378",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "forney-impact",
-   "ruleType": "impact-fee-estimate",
-   "area": "estimate",
-   "change": "Add placeholder impact-fee line (water/ww/roadway) flagged 'verify with city'",
-   "priority": "should",
-   "params": {
-    "placeholder": true
-   },
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "forney-codes-2021",
-   "ruleType": "electrical-code-edition",
-   "area": "drawings",
-   "change": "Use 2021 IRC + NCTCOG amendments and NEC 2020 (not 2023) for Forney plan notes.",
-   "priority": "should",
-   "params": {
-    "irc": "2021",
-    "nec": "2020"
-   },
-   "source": {
-    "id": "forney-adopted-codes",
-    "title": "City of Forney - Adopted Building Codes (2021 I-Codes, 2020 NEC; approved Nov 2022, effective 1 Jan 2023; local + NCTCOG amendments)",
-    "url": "https://www.forneytx.gov/141/Adopted-Building-Codes",
-    "read": "2026-10-11"
-   }
-  }
- ],
- "plainLanguage": "Forney uses the 2021 International Residential Code with North Texas (NCTCOG) and local amendments, and the 2020 National Electrical Code, in force since January 2023. New neighborhoods are almost all planned developments (PDs), so your PD ordinance and plat set the setbacks; our defaults are placeholders until you confirm. The city asks for engineer-stamped structural plans and an engineer's foundation letter with every new-home permit, because of expansive clay soils. You also submit an energy compliance report under the 2021 energy code. We could not find Forney's permit fee or impact fee amounts, so those lines are left open. Texas law stops the city requiring brick, but your HOA likely will.",
- "openQuestions": [
-  "Forney zoning district tables / typical PD setbacks",
-  "Permit fee schedule",
-  "Impact fees (water, wastewater, roadway) or MUD fees",
-  "Floodplain freeboard",
-  "Local IRC amendment text"
- ],
- "notFound": [
-  "Setbacks/height/coverage",
-  "Permit fee rate",
-  "Impact fees",
-  "Flood freeboard",
-  "Ordinance number",
-  "Market $/sf"
- ],
- "comparison": {
-  "irc": "2021 IRC + NCTCOG (eff. 1/1/2023)",
-  "energy": "2021 IECC",
-  "plumbing": "IPC 2021",
-  "district": "PD (preferred); legacy SF-6",
-  "setbacks": "25/5/20 (assumed)",
-  "maxHeight": "35 ft (assumed)",
-  "coverageFar": "unknown",
-  "masonry": "not city-enforceable; PD/HOA",
-  "engFoundation": "yes - engineer stamped + foundation letter",
-  "windstorm": "no",
-  "flood": "not found",
-  "permitFeeExample": "not found",
-  "impactFees": "not found",
-  "costFactor": "PENDING"
- }
 }

@@ -1,902 +1,902 @@
 {
- "id": "little-elm",
- "name": "Town of Little Elm",
- "state": "TX",
- "tier": 2,
- "counties": [
-  "Denton"
- ],
- "msa": {
-  "name": "Dallas-Fort Worth-Arlington, TX",
-  "blsCode": "19100"
- },
- "population": {
-  "value": 46453,
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed",
-   "url": "",
-   "read": "2026-10-11"
+  "id": "little-elm",
+  "name": "Town of Little Elm",
+  "state": "TX",
+  "tier": 2,
+  "counties": [
+    "Denton"
+  ],
+  "msa": {
+    "name": "Dallas-Fort Worth-Arlington, TX",
+    "blsCode": "19100"
   },
-  "note": "2020 Census count. Census Vintage 2024 estimate could not be retrieved (search budget exhausted); value is the 2020 decennial count recalled, verify."
- },
- "zipCodesOrBoundary": {
-  "value": null,
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed",
-   "url": "",
-   "read": "2026-10-11"
-  },
-  "note": "Not found: city-limits map/ZIP list not retrieved."
- },
- "climateZone": {
-  "value": "3A",
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed",
-   "url": "",
-   "read": "2026-10-11"
-  },
-  "note": "From 2021 IECC Table R301.1 county list (Denton County) as recalled; not re-read this run."
- },
- "windstormCounty": {
-  "value": false,
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed",
-   "url": "",
-   "read": "2026-10-11"
-  },
-  "note": "Denton County is not in the TDI windstorm catalogue (14 coastal counties + parts of Harris)."
- },
- "codes": {
-  "irc": {
-   "edition": {
-    "value": "2024 IRC",
-    "status": "Secondary",
+  "population": {
+    "value": 46453,
+    "status": "Assumed",
     "source": {
-     "id": "little-elm-municode-ch22",
-     "title": "Town of Little Elm Code of Ordinances Ch. 22 Buildings and Building Regulations, Art. II Technical Codes (Sec. 22-19 adoption; 22-22 amendments)",
-     "url": "https://library.municode.com/tx/little_elm/codes/code_of_ordinances?nodeId=PTIICOOR_CH22BUBURE_ARTIITECO_S22-22INENCOCOAM",
-     "read": "2026-10-11",
-     "section": "Sec. 22-19"
+      "id": "assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
     },
-    "note": "Municode Ch. 22 text (online supplement 2026) adopts the 2024 IRC with AWC span amendments, some appendices excluded. Read via search-engine excerpt of this page; the page itself could not be fetched (fetch tool DNS failure on 2026-10-11). Town's 2020 residential packet still listed 2018 IRC (superseded)."
-   },
-   "ordinance": {
+    "note": "2020 Census count. Census Vintage 2024 estimate could not be retrieved (search budget exhausted); value is the 2020 decennial count recalled, verify."
+  },
+  "zipCodesOrBoundary": {
     "value": null,
     "status": "Assumed",
     "source": {
-     "id": "assumed",
-     "title": "Assumed",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Adopting ordinance number/date not visible in excerpt; Municode header indicated updates through a 2026 ordinance."
-   },
-   "amendments": [
-    {
-     "topic": "other",
-     "summary": "Local amendments to the IRC are kept in Ch. 22 Art. II (Sec. 22-22 'International Energy Conservation Code amendments' node and related sections); historically Little Elm adopted the NCTCOG regional amendments. Specific clauses not read.",
-     "section": "Ch. 22 Art. II",
-     "status": "Secondary",
-     "source": {
-      "id": "little-elm-municode-ch22",
-      "title": "Town of Little Elm Code of Ordinances Ch. 22 Buildings and Building Regulations, Art. II Technical Codes (Sec. 22-19 adoption; 22-22 amendments)",
-      "url": "https://library.municode.com/tx/little_elm/codes/code_of_ordinances?nodeId=PTIICOOR_CH22BUBURE_ARTIITECO_S22-22INENCOCOAM",
+      "id": "assumed",
+      "title": "Assumed",
+      "url": "",
       "read": "2026-10-11"
-     }
-    }
-   ]
+    },
+    "note": "Not found: city-limits map/ZIP list not retrieved."
   },
-  "energy": {
-   "edition": {
-    "value": "2024 IECC (likely, adopted with the 2024 I-code package) - not confirmed",
+  "climateZone": {
+    "value": "3A",
     "status": "Assumed",
     "source": {
-     "id": "assumed",
-     "title": "Assumed",
-     "url": "",
-     "read": "2026-10-11"
+      "id": "assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
     },
-    "note": "Municode Ch.22 has an IECC amendments section (22-22) but edition not visible in excerpt; state floor is 2015 IRC Ch. 11 (HSC 388.003)."
-   },
-   "stretchCode": {
+    "note": "From 2021 IECC Table R301.1 county list (Denton County) as recalled; not re-read this run."
+  },
+  "windstormCounty": {
     "value": false,
     "status": "Assumed",
     "source": {
-     "id": "assumed",
-     "title": "Assumed",
-     "url": "",
-     "read": "2026-10-11"
+      "id": "assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
     },
-    "note": "None found."
-   }
+    "note": "Denton County is not in the TDI windstorm catalogue (14 coastal counties + parts of Harris)."
   },
-  "plumbing": {
-   "value": "IPC 2024 (likely)",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Sec. 22-19 adopts the 2024 I-code family per excerpt (IBC, IFC, IRC, IMC listed); IPC edition not shown explicitly. 2020 packet showed 2018 IPC."
-  },
-  "electrical": {
-   "value": "NEC 2023 (state-adopted by TDLR for Texas)",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Municode excerpt says the National Electrical Code applies statewide for residential construction; edition not named. TDLR adopted the 2023 NEC eff. 1 Sep 2023 (recalled; could not re-search)."
-  },
-  "mechanical": {
-   "value": "2024 IMC",
-   "status": "Secondary",
-   "source": {
-    "id": "little-elm-municode-ch22",
-    "title": "Town of Little Elm Code of Ordinances Ch. 22 Buildings and Building Regulations, Art. II Technical Codes (Sec. 22-19 adoption; 22-22 amendments)",
-    "url": "https://library.municode.com/tx/little_elm/codes/code_of_ordinances?nodeId=PTIICOOR_CH22BUBURE_ARTIITECO_S22-22INENCOCOAM",
-    "read": "2026-10-11",
-    "section": "Sec. 22-19"
-   },
-   "note": "Read via search-engine excerpt of this page; the page itself could not be fetched (fetch tool DNS failure on 2026-10-11)."
-  },
-  "fuelGas": {
-   "value": "2024 IFGC (likely)",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Part of 2024 I-code package per Sec. 22-19 excerpt; not explicitly seen."
-  },
-  "fire": {
-   "value": "2024 IFC per Municode Sec. 22-19; Town Fire Code web page still says 2018 IFC with local amendments. No one/two-family sprinkler mandate found",
-   "status": "Secondary",
-   "source": {
-    "id": "little-elm-municode-ch22",
-    "title": "Town of Little Elm Code of Ordinances Ch. 22 Buildings and Building Regulations, Art. II Technical Codes (Sec. 22-19 adoption; 22-22 amendments)",
-    "url": "https://library.municode.com/tx/little_elm/codes/code_of_ordinances?nodeId=PTIICOOR_CH22BUBURE_ARTIITECO_S22-22INENCOCOAM",
-    "read": "2026-10-11",
-    "section": "Sec. 22-19"
-   },
-   "note": "Read via search-engine excerpt of this page; the page itself could not be fetched (fetch tool DNS failure on 2026-10-11). Conflict with https://www.littleelm.gov/997/Fire-Code; IRC R313 sprinklers commonly deleted in Texas (Occ. Code/LGC limits); verify."
-  },
-  "wind": {
-   "value": 115,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "ASCE 7-16 Risk Cat II for north Texas ~105-115 mph; NCTCOG-region amendments commonly state 115 mph ultimate. Not verified for Little Elm.",
-   "unit": "mph"
-  },
-  "hailRoofing": {
-   "value": "High hail exposure (DFW); no local Class 4 mandate found",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Engine should offer impact-resistant (UL 2218 Class 4) shingles as cost/insurance option."
-  },
-  "seismic": {
-   "value": "A",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Texas outside far-west Texas maps to SDC A in 2021 IRC Fig. R301.2(2); not checked against a city-specific table."
-  },
-  "frostDepth": {
-   "value": 12,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "DFW-area local IRC Table R301.2(1) entries are typically 6-12 in.; value not read for Little Elm.",
-   "unit": "in"
-  }
- },
- "zoning": {
-  "hasZoning": {
-   "value": true,
-   "status": "Secondary",
-   "source": {
-    "id": "little-elm-zoning-page",
-    "title": "Little Elm Planning - Zoning page",
-    "url": "https://www.littleelm.gov/121/Zoning",
-    "read": "2026-10-11"
-   },
-   "note": "Zoning in Ch. 106 of Code of Ordinances. Read via search-engine excerpt of this page; the page itself could not be fetched (fetch tool DNS failure on 2026-10-11)."
-  },
-  "typicalDistrict": {
-   "value": "SF-4 Single-Family (min 6,000 sq ft lots); most newer subdivisions are Planned Developments (PD) with their own standards",
-   "status": "Secondary",
-   "source": {
-    "id": "little-elm-gridics-sf4",
-    "title": "PropZone parcel zoning detail, 2124 Sundown Dr, Little Elm (SF-4)",
-    "url": "https://propzone.gridics.com/zoning-detail/278d8d7633e31532e-R270065",
-    "read": "2026-10-11"
-   },
-   "note": "Zoning map 2021 shows SF-1..SF-4 and SF-RE; SF-4 chosen as most common straight SF district. Read via search-engine excerpt of this page; the page itself could not be fetched (fetch tool DNS failure on 2026-10-11)."
-  },
-  "minLotSqFt": {
-   "value": 6000,
-   "status": "Secondary",
-   "source": {
-    "id": "little-elm-gridics-sf4",
-    "title": "PropZone parcel zoning detail, 2124 Sundown Dr, Little Elm (SF-4)",
-    "url": "https://propzone.gridics.com/zoning-detail/278d8d7633e31532e-R270065",
-    "read": "2026-10-11"
-   },
-   "unit": "sqft",
-   "note": "District purpose statement quoted by PropZone: lots of not less than 6,000 sq ft."
-  },
-  "minLotWidthFt": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: SF-4 minimum lot width. Web search budget exhausted and page fetch unavailable during this run."
-  },
-  "minLotDepthFt": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: SF-4 minimum lot depth. Web search budget exhausted and page fetch unavailable during this run."
-  },
-  "setbacksFt": {
-   "front": {
-    "value": 25,
-    "status": "Secondary",
-    "source": {
-     "id": "little-elm-gridics-sf4",
-     "title": "PropZone parcel zoning detail, 2124 Sundown Dr, Little Elm (SF-4)",
-     "url": "https://propzone.gridics.com/zoning-detail/278d8d7633e31532e-R270065",
-     "read": "2026-10-11"
+  "codes": {
+    "irc": {
+      "edition": {
+        "value": "2024 IRC",
+        "status": "Secondary",
+        "source": {
+          "id": "little-elm-municode-ch22",
+          "title": "Town of Little Elm Code of Ordinances Ch. 22 Buildings and Building Regulations, Art. II Technical Codes (Sec. 22-19 adoption; 22-22 amendments)",
+          "url": "https://library.municode.com/tx/little_elm/codes/code_of_ordinances?nodeId=PTIICOOR_CH22BUBURE_ARTIITECO_S22-22INENCOCOAM",
+          "read": "2026-10-11",
+          "section": "Sec. 22-19"
+        },
+        "note": "Municode Ch. 22 text (online supplement 2026) adopts the 2024 IRC with AWC span amendments, some appendices excluded. Read via search-engine excerpt of this page; the page itself could not be fetched (fetch tool DNS failure on 2026-10-11). Town's 2020 residential packet still listed 2018 IRC (superseded)."
+      },
+      "ordinance": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Adopting ordinance number/date not visible in excerpt; Municode header indicated updates through a 2026 ordinance."
+      },
+      "amendments": [
+        {
+          "topic": "other",
+          "summary": "Local amendments to the IRC are kept in Ch. 22 Art. II (Sec. 22-22 'International Energy Conservation Code amendments' node and related sections); historically Little Elm adopted the NCTCOG regional amendments. Specific clauses not read.",
+          "section": "Ch. 22 Art. II",
+          "status": "Secondary",
+          "source": {
+            "id": "little-elm-municode-ch22",
+            "title": "Town of Little Elm Code of Ordinances Ch. 22 Buildings and Building Regulations, Art. II Technical Codes (Sec. 22-19 adoption; 22-22 amendments)",
+            "url": "https://library.municode.com/tx/little_elm/codes/code_of_ordinances?nodeId=PTIICOOR_CH22BUBURE_ARTIITECO_S22-22INENCOCOAM",
+            "read": "2026-10-11"
+          }
+        }
+      ]
     },
-    "unit": "ft",
-    "note": "Parcel-level PropZone table for an SF-4 lot; not the ordinance text."
-   },
-   "side": {
-    "value": 6,
-    "status": "Secondary",
-    "source": {
-     "id": "little-elm-gridics-sf4",
-     "title": "PropZone parcel zoning detail, 2124 Sundown Dr, Little Elm (SF-4)",
-     "url": "https://propzone.gridics.com/zoning-detail/278d8d7633e31532e-R270065",
-     "read": "2026-10-11"
+    "energy": {
+      "edition": {
+        "value": "2024 IECC (likely, adopted with the 2024 I-code package) - not confirmed",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Municode Ch.22 has an IECC amendments section (22-22) but edition not visible in excerpt; state floor is 2015 IRC Ch. 11 (HSC 388.003)."
+      },
+      "stretchCode": {
+        "value": false,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "None found."
+      }
     },
-    "unit": "ft",
-    "note": "Parcel-level PropZone table for an SF-4 lot."
-   },
-   "streetSide": {
-    "value": 15,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed",
-     "url": "",
-     "read": "2026-10-11"
+    "plumbing": {
+      "value": "IPC 2024 (likely)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Sec. 22-19 adopts the 2024 I-code family per excerpt (IBC, IFC, IRC, IMC listed); IPC edition not shown explicitly. 2020 packet showed 2018 IPC."
     },
-    "note": "Not found; 15 ft corner side yard is typical for DFW SF districts - verify.",
-    "unit": "ft"
-   },
-   "rear": {
-    "value": 20,
-    "status": "Secondary",
-    "source": {
-     "id": "little-elm-gridics-sf4",
-     "title": "PropZone parcel zoning detail, 2124 Sundown Dr, Little Elm (SF-4)",
-     "url": "https://propzone.gridics.com/zoning-detail/278d8d7633e31532e-R270065",
-     "read": "2026-10-11"
+    "electrical": {
+      "value": "NEC 2023 (state-adopted by TDLR for Texas)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Municode excerpt says the National Electrical Code applies statewide for residential construction; edition not named. TDLR adopted the 2023 NEC eff. 1 Sep 2023 (recalled; could not re-search)."
     },
-    "unit": "ft",
-    "note": "Parcel-level PropZone table for an SF-4 lot."
-   }
-  },
-  "maxHeightFt": {
-   "value": 35,
-   "status": "Secondary",
-   "source": {
-    "id": "little-elm-gridics-sf4",
-    "title": "PropZone parcel zoning detail, 2124 Sundown Dr, Little Elm (SF-4)",
-    "url": "https://propzone.gridics.com/zoning-detail/278d8d7633e31532e-R270065",
-    "read": "2026-10-11"
-   },
-   "unit": "ft",
-   "note": "PropZone: 35 ft / 3 stories."
-  },
-  "maxStories": {
-   "value": 3,
-   "status": "Secondary",
-   "source": {
-    "id": "little-elm-gridics-sf4",
-    "title": "PropZone parcel zoning detail, 2124 Sundown Dr, Little Elm (SF-4)",
-    "url": "https://propzone.gridics.com/zoning-detail/278d8d7633e31532e-R270065",
-    "read": "2026-10-11"
-   }
-  },
-  "maxLotCoverage": {
-   "value": null,
-   "status": "Secondary",
-   "source": {
-    "id": "little-elm-gridics-sf4",
-    "title": "PropZone parcel zoning detail, 2124 Sundown Dr, Little Elm (SF-4)",
-    "url": "https://propzone.gridics.com/zoning-detail/278d8d7633e31532e-R270065",
-    "read": "2026-10-11"
-   },
-   "note": "PropZone shows max lot coverage N/A for SF-4; ordinance not checked."
-  },
-  "imperviousCover": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "No impervious cover limit found."
-  },
-  "far": {
-   "value": null,
-   "status": "Secondary",
-   "source": {
-    "id": "little-elm-gridics-sf4",
-    "title": "PropZone parcel zoning detail, 2124 Sundown Dr, Little Elm (SF-4)",
-    "url": "https://propzone.gridics.com/zoning-detail/278d8d7633e31532e-R270065",
-    "read": "2026-10-11"
-   },
-   "note": "PropZone lists FAR 0 (i.e. no FAR limit)."
-  },
-  "parking": {
-   "value": "2 off-street spaces per dwelling (typical); not found",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Ch. 106 parking table not read; DFW suburbs typically require 2 enclosed or covered spaces."
-  },
-  "garageRules": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: garage orientation/front-entry rules for SF-4 or PDs. Web search budget exhausted and page fetch unavailable during this run."
-  },
-  "adu": {
-   "value": "Only one dwelling per lot in single-family districts, except SF-RE (Residential Estate) may have one accessory dwelling unit",
-   "status": "Secondary",
-   "source": {
-    "id": "little-elm-municode-code",
-    "title": "Town of Little Elm Code of Ordinances (Municode, supplement updated 2026)",
-    "url": "https://library.municode.com/tx/little_elm/codes/code_of_ordinances",
-    "read": "2026-10-11",
-    "section": "Sec. 106.06.01"
-   },
-   "note": "Read via search-engine excerpt of this page; the page itself could not be fetched (fetch tool DNS failure on 2026-10-11)."
-  },
-  "masonry": {
-   "value": "No enforceable masonry % for new homes: Gov't Code 3000.002 bars local rules stricter than a national model code on building products/aesthetics (limited exceptions, e.g. historic districts; amended 2025 by SB 783, text not verified)",
-   "status": "Secondary",
-   "source": {
-    "id": "tx-gov-3000",
-    "title": "Texas Government Code Ch. 3000 (building products, materials, methods; HB 2439, 2019)",
-    "url": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.3000.htm",
-    "read": "2026-10-11",
-    "section": "3000.002"
-   },
-   "note": "Statute snippet read via search results; PD/deed restrictions (private HOA covenants) may still require brick."
-  },
-  "trees": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: tree preservation rules (Ch. 106 Art. VI landscaping). Web search budget exhausted and page fetch unavailable during this run."
-  },
-  "minDwellingSizeSqFt": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: SF-4 minimum dwelling unit size. Web search budget exhausted and page fetch unavailable during this run."
-  },
-  "other": [
-   {
-    "value": "Lakefront Residential Overlay: SF-4/A1/A2 lots near Lewisville Lake follow base-district area/yard/bulk rules with listed exceptions",
-    "status": "Secondary",
-    "source": {
-     "id": "little-elm-municode-106-lakefront",
-     "title": "Little Elm Ch. 106 Zoning Art. IV Special Districts (Lakefront Residential Overlay 106.04.05)",
-     "url": "https://library.municode.com/tx/little_elm/codes/code_of_ordinances?nodeId=PTIICOOR_CH106ZO_ARTIVSPDI_106.04.05RE",
-     "read": "2026-10-11",
-     "section": "106.04.05"
+    "mechanical": {
+      "value": "2024 IMC",
+      "status": "Secondary",
+      "source": {
+        "id": "little-elm-municode-ch22",
+        "title": "Town of Little Elm Code of Ordinances Ch. 22 Buildings and Building Regulations, Art. II Technical Codes (Sec. 22-19 adoption; 22-22 amendments)",
+        "url": "https://library.municode.com/tx/little_elm/codes/code_of_ordinances?nodeId=PTIICOOR_CH22BUBURE_ARTIITECO_S22-22INENCOCOAM",
+        "read": "2026-10-11",
+        "section": "Sec. 22-19"
+      },
+      "note": "Read via search-engine excerpt of this page; the page itself could not be fetched (fetch tool DNS failure on 2026-10-11)."
     },
-    "note": "Read via search-engine excerpt of this page; the page itself could not be fetched (fetch tool DNS failure on 2026-10-11)."
-   },
-   {
-    "value": "Accessory buildings on interior lots: min 3 ft from side/rear property line or fence",
-    "status": "Secondary",
-    "source": {
-     "id": "little-elm-accessory-2024",
-     "title": "Little Elm Building Safety - Accessory Structures handout (3-18-2024)",
-     "url": "https://www.littleelm.gov/DocumentCenter/View/19761/Accessory-Structures-3-18-2024",
-     "read": "2026-10-11"
+    "fuelGas": {
+      "value": "2024 IFGC (likely)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Part of 2024 I-code package per Sec. 22-19 excerpt; not explicitly seen."
+    },
+    "fire": {
+      "value": "2024 IFC per Municode Sec. 22-19; Town Fire Code web page still says 2018 IFC with local amendments. No one/two-family sprinkler mandate found",
+      "status": "Secondary",
+      "source": {
+        "id": "little-elm-municode-ch22",
+        "title": "Town of Little Elm Code of Ordinances Ch. 22 Buildings and Building Regulations, Art. II Technical Codes (Sec. 22-19 adoption; 22-22 amendments)",
+        "url": "https://library.municode.com/tx/little_elm/codes/code_of_ordinances?nodeId=PTIICOOR_CH22BUBURE_ARTIITECO_S22-22INENCOCOAM",
+        "read": "2026-10-11",
+        "section": "Sec. 22-19"
+      },
+      "note": "Read via search-engine excerpt of this page; the page itself could not be fetched (fetch tool DNS failure on 2026-10-11). Conflict with https://www.littleelm.gov/997/Fire-Code; IRC R313 sprinklers commonly deleted in Texas (Occ. Code/LGC limits); verify."
+    },
+    "wind": {
+      "value": 115,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "ASCE 7-16 Risk Cat II for north Texas ~105-115 mph; NCTCOG-region amendments commonly state 115 mph ultimate. Not verified for Little Elm.",
+      "unit": "mph"
+    },
+    "hailRoofing": {
+      "value": "High hail exposure (DFW); no local Class 4 mandate found",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Engine should offer impact-resistant (UL 2218 Class 4) shingles as cost/insurance option."
+    },
+    "seismic": {
+      "value": "A",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Texas outside far-west Texas maps to SDC A in 2021 IRC Fig. R301.2(2); not checked against a city-specific table."
+    },
+    "frostDepth": {
+      "value": 12,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "DFW-area local IRC Table R301.2(1) entries are typically 6-12 in.; value not read for Little Elm.",
+      "unit": "in"
     }
-   }
-  ]
- },
- "process": {
-  "steps": [
-   {
-    "value": "Submit residential building permit application with plans, site/plot plan and energy compliance to Building Safety; plan review; permit issued after impact fees paid",
-    "status": "Secondary",
-    "source": {
-     "id": "little-elm-res-packet-2020",
-     "title": "Town of Little Elm Building Safety - Residential Building Packet (rev. 1-13-2020)",
-     "url": "https://www.littleelm.gov/DocumentCenter/View/14541/Residential-Building-Packet_Revised_-1-13-2020",
-     "read": "2026-10-11"
-    },
-    "note": "2020 packet; impact fees must be paid before building permit (impact fee page)."
-   }
-  ],
-  "sealsRequired": [
-   {
-    "value": "Engineer-sealed foundation design (post-tensioned slab) customary for North Texas expansive clays",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Not confirmed as a Little Elm amendment; NCTCOG-region practice."
-   }
-  ],
-  "inspections": [
-   {
-    "value": "Typical: pre-pour foundation, framing/rough MEP, insulation/energy, final",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Standard IRC inspection sequence; Little Elm list not read."
-   }
-  ],
-  "reviewDays": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: residential plan review turnaround. Web search budget exhausted and page fetch unavailable during this run."
-  }
- },
- "fees": {
-  "permitFormula": {
-   "value": "$0.85 per gross sq ft for 1- and 2-family dwellings (includes MEP)",
-   "status": "Secondary",
-   "source": {
-    "id": "little-elm-fee-chart-2019",
-    "title": "Little Elm Development Services Comprehensive Fee Schedule (updated 18 June 2019)",
-    "url": "https://www.littleelm.gov/DocumentCenter/View/13431/Development-Services-Comprehensive-Fee-Chart-Revision",
-    "read": "2026-10-11"
-   },
-   "note": "2019 fee schedule (latest found); confirmed by zonefee.com. Read via search-engine excerpt of this page; the page itself could not be fetched (fetch tool DNS failure on 2026-10-11)."
   },
-  "workedExample2400sqft": {
-   "value": 2414,
-   "status": "Secondary",
-   "source": {
-    "id": "little-elm-fee-chart-2019",
-    "title": "Little Elm Development Services Comprehensive Fee Schedule (updated 18 June 2019)",
-    "url": "https://www.littleelm.gov/DocumentCenter/View/13431/Development-Services-Comprehensive-Fee-Chart-Revision",
-    "read": "2026-10-11"
-   },
-   "unit": "USD",
-   "note": "Assume gross area = 2,400 conditioned + 440 attached garage = 2,840 sq ft x $0.85 = $2,414. Plus plan review $295 -> $2,709 total. 2019 schedule; may be outdated."
+  "zoning": {
+    "hasZoning": {
+      "value": true,
+      "status": "Secondary",
+      "source": {
+        "id": "little-elm-zoning-page",
+        "title": "Little Elm Planning - Zoning page",
+        "url": "https://www.littleelm.gov/121/Zoning",
+        "read": "2026-10-11"
+      },
+      "note": "Zoning in Ch. 106 of Code of Ordinances. Read via search-engine excerpt of this page; the page itself could not be fetched (fetch tool DNS failure on 2026-10-11)."
+    },
+    "typicalDistrict": {
+      "value": "SF-4 Single-Family (min 6,000 sq ft lots); most newer subdivisions are Planned Developments (PD) with their own standards",
+      "status": "Secondary",
+      "source": {
+        "id": "little-elm-gridics-sf4",
+        "title": "PropZone parcel zoning detail, 2124 Sundown Dr, Little Elm (SF-4)",
+        "url": "https://propzone.gridics.com/zoning-detail/278d8d7633e31532e-R270065",
+        "read": "2026-10-11"
+      },
+      "note": "Zoning map 2021 shows SF-1..SF-4 and SF-RE; SF-4 chosen as most common straight SF district. Read via search-engine excerpt of this page; the page itself could not be fetched (fetch tool DNS failure on 2026-10-11)."
+    },
+    "minLotSqFt": {
+      "value": 6000,
+      "status": "Secondary",
+      "source": {
+        "id": "little-elm-gridics-sf4",
+        "title": "PropZone parcel zoning detail, 2124 Sundown Dr, Little Elm (SF-4)",
+        "url": "https://propzone.gridics.com/zoning-detail/278d8d7633e31532e-R270065",
+        "read": "2026-10-11"
+      },
+      "unit": "sqft",
+      "note": "District purpose statement quoted by PropZone: lots of not less than 6,000 sq ft."
+    },
+    "minLotWidthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: SF-4 minimum lot width. Web search budget exhausted and page fetch unavailable during this run."
+    },
+    "minLotDepthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: SF-4 minimum lot depth. Web search budget exhausted and page fetch unavailable during this run."
+    },
+    "setbacksFt": {
+      "front": {
+        "value": 25,
+        "status": "Secondary",
+        "source": {
+          "id": "little-elm-gridics-sf4",
+          "title": "PropZone parcel zoning detail, 2124 Sundown Dr, Little Elm (SF-4)",
+          "url": "https://propzone.gridics.com/zoning-detail/278d8d7633e31532e-R270065",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Parcel-level PropZone table for an SF-4 lot; not the ordinance text."
+      },
+      "side": {
+        "value": 6,
+        "status": "Secondary",
+        "source": {
+          "id": "little-elm-gridics-sf4",
+          "title": "PropZone parcel zoning detail, 2124 Sundown Dr, Little Elm (SF-4)",
+          "url": "https://propzone.gridics.com/zoning-detail/278d8d7633e31532e-R270065",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Parcel-level PropZone table for an SF-4 lot."
+      },
+      "streetSide": {
+        "value": 15,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found; 15 ft corner side yard is typical for DFW SF districts - verify.",
+        "unit": "ft"
+      },
+      "rear": {
+        "value": 20,
+        "status": "Secondary",
+        "source": {
+          "id": "little-elm-gridics-sf4",
+          "title": "PropZone parcel zoning detail, 2124 Sundown Dr, Little Elm (SF-4)",
+          "url": "https://propzone.gridics.com/zoning-detail/278d8d7633e31532e-R270065",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Parcel-level PropZone table for an SF-4 lot."
+      }
+    },
+    "maxHeightFt": {
+      "value": 35,
+      "status": "Secondary",
+      "source": {
+        "id": "little-elm-gridics-sf4",
+        "title": "PropZone parcel zoning detail, 2124 Sundown Dr, Little Elm (SF-4)",
+        "url": "https://propzone.gridics.com/zoning-detail/278d8d7633e31532e-R270065",
+        "read": "2026-10-11"
+      },
+      "unit": "ft",
+      "note": "PropZone: 35 ft / 3 stories."
+    },
+    "maxStories": {
+      "value": 3,
+      "status": "Secondary",
+      "source": {
+        "id": "little-elm-gridics-sf4",
+        "title": "PropZone parcel zoning detail, 2124 Sundown Dr, Little Elm (SF-4)",
+        "url": "https://propzone.gridics.com/zoning-detail/278d8d7633e31532e-R270065",
+        "read": "2026-10-11"
+      }
+    },
+    "maxLotCoverage": {
+      "value": null,
+      "status": "Secondary",
+      "source": {
+        "id": "little-elm-gridics-sf4",
+        "title": "PropZone parcel zoning detail, 2124 Sundown Dr, Little Elm (SF-4)",
+        "url": "https://propzone.gridics.com/zoning-detail/278d8d7633e31532e-R270065",
+        "read": "2026-10-11"
+      },
+      "note": "PropZone shows max lot coverage N/A for SF-4; ordinance not checked."
+    },
+    "imperviousCover": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No impervious cover limit found."
+    },
+    "far": {
+      "value": null,
+      "status": "Secondary",
+      "source": {
+        "id": "little-elm-gridics-sf4",
+        "title": "PropZone parcel zoning detail, 2124 Sundown Dr, Little Elm (SF-4)",
+        "url": "https://propzone.gridics.com/zoning-detail/278d8d7633e31532e-R270065",
+        "read": "2026-10-11"
+      },
+      "note": "PropZone lists FAR 0 (i.e. no FAR limit)."
+    },
+    "parking": {
+      "value": "2 off-street spaces per dwelling (typical); not found",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Ch. 106 parking table not read; DFW suburbs typically require 2 enclosed or covered spaces."
+    },
+    "garageRules": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: garage orientation/front-entry rules for SF-4 or PDs. Web search budget exhausted and page fetch unavailable during this run."
+    },
+    "adu": {
+      "value": "Only one dwelling per lot in single-family districts, except SF-RE (Residential Estate) may have one accessory dwelling unit",
+      "status": "Secondary",
+      "source": {
+        "id": "little-elm-municode-code",
+        "title": "Town of Little Elm Code of Ordinances (Municode, supplement updated 2026)",
+        "url": "https://library.municode.com/tx/little_elm/codes/code_of_ordinances",
+        "read": "2026-10-11",
+        "section": "Sec. 106.06.01"
+      },
+      "note": "Read via search-engine excerpt of this page; the page itself could not be fetched (fetch tool DNS failure on 2026-10-11)."
+    },
+    "masonry": {
+      "value": "No enforceable masonry % for new homes: Gov't Code 3000.002 bars local rules stricter than a national model code on building products/aesthetics (limited exceptions, e.g. historic districts; amended 2025 by SB 783, text not verified)",
+      "status": "Secondary",
+      "source": {
+        "id": "tx-gov-3000",
+        "title": "Texas Government Code Ch. 3000 (building products, materials, methods; HB 2439, 2019)",
+        "url": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.3000.htm",
+        "read": "2026-10-11",
+        "section": "3000.002"
+      },
+      "note": "Statute snippet read via search results; PD/deed restrictions (private HOA covenants) may still require brick."
+    },
+    "trees": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: tree preservation rules (Ch. 106 Art. VI landscaping). Web search budget exhausted and page fetch unavailable during this run."
+    },
+    "minDwellingSizeSqFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: SF-4 minimum dwelling unit size. Web search budget exhausted and page fetch unavailable during this run."
+    },
+    "other": [
+      {
+        "value": "Lakefront Residential Overlay: SF-4/A1/A2 lots near Lewisville Lake follow base-district area/yard/bulk rules with listed exceptions",
+        "status": "Secondary",
+        "source": {
+          "id": "little-elm-municode-106-lakefront",
+          "title": "Little Elm Ch. 106 Zoning Art. IV Special Districts (Lakefront Residential Overlay 106.04.05)",
+          "url": "https://library.municode.com/tx/little_elm/codes/code_of_ordinances?nodeId=PTIICOOR_CH106ZO_ARTIVSPDI_106.04.05RE",
+          "read": "2026-10-11",
+          "section": "106.04.05"
+        },
+        "note": "Read via search-engine excerpt of this page; the page itself could not be fetched (fetch tool DNS failure on 2026-10-11)."
+      },
+      {
+        "value": "Accessory buildings on interior lots: min 3 ft from side/rear property line or fence",
+        "status": "Secondary",
+        "source": {
+          "id": "little-elm-accessory-2024",
+          "title": "Little Elm Building Safety - Accessory Structures handout (3-18-2024)",
+          "url": "https://www.littleelm.gov/DocumentCenter/View/19761/Accessory-Structures-3-18-2024",
+          "read": "2026-10-11"
+        }
+      }
+    ]
   },
-  "planReview": {
-   "value": "$295 per 1-2 family dwelling (expedited $500; revised plan check $175)",
-   "status": "Secondary",
-   "source": {
-    "id": "little-elm-fee-chart-2019",
-    "title": "Little Elm Development Services Comprehensive Fee Schedule (updated 18 June 2019)",
-    "url": "https://www.littleelm.gov/DocumentCenter/View/13431/Development-Services-Comprehensive-Fee-Chart-Revision",
-    "read": "2026-10-11"
-   },
-   "note": "Read via search-engine excerpt of this page; the page itself could not be fetched (fetch tool DNS failure on 2026-10-11)."
-  },
-  "impactFees": [
-   {
-    "value": 1519,
-    "status": "Secondary",
-    "source": {
-     "id": "little-elm-zonefee",
-     "title": "Little Elm, TX Development Fees (zonefee.com)",
-     "url": "https://zonefee.com/states/texas/little-elm/",
-     "read": "2026-10-11"
-    },
-    "unit": "USD",
-    "note": "Water impact fee per 5/8-in meter (Ord. 1431, eff. 19 Dec 2017) per zonefee.com; Town page confirms Ord. 1431 amended Oct 2017."
-   },
-   {
-    "value": 2930,
-    "status": "Secondary",
-    "source": {
-     "id": "little-elm-zonefee",
-     "title": "Little Elm, TX Development Fees (zonefee.com)",
-     "url": "https://zonefee.com/states/texas/little-elm/",
-     "read": "2026-10-11"
-    },
-    "unit": "USD",
-    "note": "Wastewater impact fee per 5/8-in meter (Ord. 1431)."
-   },
-   {
-    "value": 3498,
-    "status": "Secondary",
-    "source": {
-     "id": "little-elm-zonefee",
-     "title": "Little Elm, TX Development Fees (zonefee.com)",
-     "url": "https://zonefee.com/states/texas/little-elm/",
-     "read": "2026-10-11"
-    },
-    "unit": "USD",
-    "note": "Roadway impact fee, single-family detached, Service Area 1 ($1,684 in SA2). Total SA1 ~ $7,947."
-   }
-  ],
-  "tapFees": [
-   {
-    "value": null,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Not found: water/sewer tap or meter set fee. Web search budget exhausted and page fetch unavailable during this run."
-   }
-  ]
- },
- "cost": {
-  "factor": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "cost-method",
-    "title": "See README cost method (filled by cost agent)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "PENDING_COST_AGENT"
-  },
-  "method": "PENDING_COST_AGENT",
-  "perSqFtMarket": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: no public per-sq-ft market figure retrieved this run (search budget exhausted)."
-  },
-  "drivers": [
-   {
-    "value": "Expansive clay soils -> engineered post-tensioned slab",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "North Texas Blackland/clay soils."
-   },
-   {
-    "value": "Impact fees ~$7.9k (water+ww+roadway SA1)",
-    "status": "Secondary",
-    "source": {
-     "id": "little-elm-zonefee",
-     "title": "Little Elm, TX Development Fees (zonefee.com)",
-     "url": "https://zonefee.com/states/texas/little-elm/",
-     "read": "2026-10-11"
+  "process": {
+    "steps": [
+      {
+        "value": "Submit residential building permit application with plans, site/plot plan and energy compliance to Building Safety; plan review; permit issued after impact fees paid",
+        "status": "Secondary",
+        "source": {
+          "id": "little-elm-res-packet-2020",
+          "title": "Town of Little Elm Building Safety - Residential Building Packet (rev. 1-13-2020)",
+          "url": "https://www.littleelm.gov/DocumentCenter/View/14541/Residential-Building-Packet_Revised_-1-13-2020",
+          "read": "2026-10-11"
+        },
+        "note": "2020 packet; impact fees must be paid before building permit (impact fee page)."
+      }
+    ],
+    "sealsRequired": [
+      {
+        "value": "Engineer-sealed foundation design (post-tensioned slab) customary for North Texas expansive clays",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not confirmed as a Little Elm amendment; NCTCOG-region practice."
+      }
+    ],
+    "inspections": [
+      {
+        "value": "Typical: pre-pour foundation, framing/rough MEP, insulation/energy, final",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Standard IRC inspection sequence; Little Elm list not read."
+      }
+    ],
+    "reviewDays": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: residential plan review turnaround. Web search budget exhausted and page fetch unavailable during this run."
     }
-   },
-   {
-    "value": "Hail exposure -> Class 4 roofing option",
+  },
+  "fees": {
+    "permitFormula": {
+      "value": "$0.85 per gross sq ft for 1- and 2-family dwellings (includes MEP)",
+      "status": "Secondary",
+      "source": {
+        "id": "little-elm-fee-chart-2019",
+        "title": "Little Elm Development Services Comprehensive Fee Schedule (updated 18 June 2019)",
+        "url": "https://www.littleelm.gov/DocumentCenter/View/13431/Development-Services-Comprehensive-Fee-Chart-Revision",
+        "read": "2026-10-11"
+      },
+      "note": "2019 fee schedule (latest found); confirmed by zonefee.com. Read via search-engine excerpt of this page; the page itself could not be fetched (fetch tool DNS failure on 2026-10-11)."
+    },
+    "workedExample2400sqft": {
+      "value": 2414,
+      "status": "Secondary",
+      "source": {
+        "id": "little-elm-fee-chart-2019",
+        "title": "Little Elm Development Services Comprehensive Fee Schedule (updated 18 June 2019)",
+        "url": "https://www.littleelm.gov/DocumentCenter/View/13431/Development-Services-Comprehensive-Fee-Chart-Revision",
+        "read": "2026-10-11"
+      },
+      "unit": "USD",
+      "note": "Assume gross area = 2,400 conditioned + 440 attached garage = 2,840 sq ft x $0.85 = $2,414. Plus plan review $295 -> $2,709 total. 2019 schedule; may be outdated."
+    },
+    "planReview": {
+      "value": "$295 per 1-2 family dwelling (expedited $500; revised plan check $175)",
+      "status": "Secondary",
+      "source": {
+        "id": "little-elm-fee-chart-2019",
+        "title": "Little Elm Development Services Comprehensive Fee Schedule (updated 18 June 2019)",
+        "url": "https://www.littleelm.gov/DocumentCenter/View/13431/Development-Services-Comprehensive-Fee-Chart-Revision",
+        "read": "2026-10-11"
+      },
+      "note": "Read via search-engine excerpt of this page; the page itself could not be fetched (fetch tool DNS failure on 2026-10-11)."
+    },
+    "impactFees": [
+      {
+        "value": 1519,
+        "status": "Secondary",
+        "source": {
+          "id": "little-elm-zonefee",
+          "title": "Little Elm, TX Development Fees (zonefee.com)",
+          "url": "https://zonefee.com/states/texas/little-elm/",
+          "read": "2026-10-11"
+        },
+        "unit": "USD",
+        "note": "Water impact fee per 5/8-in meter (Ord. 1431, eff. 19 Dec 2017) per zonefee.com; Town page confirms Ord. 1431 amended Oct 2017."
+      },
+      {
+        "value": 2930,
+        "status": "Secondary",
+        "source": {
+          "id": "little-elm-zonefee",
+          "title": "Little Elm, TX Development Fees (zonefee.com)",
+          "url": "https://zonefee.com/states/texas/little-elm/",
+          "read": "2026-10-11"
+        },
+        "unit": "USD",
+        "note": "Wastewater impact fee per 5/8-in meter (Ord. 1431)."
+      },
+      {
+        "value": 3498,
+        "status": "Secondary",
+        "source": {
+          "id": "little-elm-zonefee",
+          "title": "Little Elm, TX Development Fees (zonefee.com)",
+          "url": "https://zonefee.com/states/texas/little-elm/",
+          "read": "2026-10-11"
+        },
+        "unit": "USD",
+        "note": "Roadway impact fee, single-family detached, Service Area 1 ($1,684 in SA2). Total SA1 ~ $7,947."
+      }
+    ],
+    "tapFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: water/sewer tap or meter set fee. Web search budget exhausted and page fetch unavailable during this run."
+      }
+    ]
+  },
+  "cost": {
+    "factor": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "cost-method",
+        "title": "See README cost method (filled by cost agent)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "PENDING_COST_AGENT"
+    },
+    "method": "PENDING_COST_AGENT",
+    "perSqFtMarket": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: no public per-sq-ft market figure retrieved this run (search budget exhausted)."
+    },
+    "drivers": [
+      {
+        "value": "Expansive clay soils -> engineered post-tensioned slab",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "North Texas Blackland/clay soils."
+      },
+      {
+        "value": "Impact fees ~$7.9k (water+ww+roadway SA1)",
+        "status": "Secondary",
+        "source": {
+          "id": "little-elm-zonefee",
+          "title": "Little Elm, TX Development Fees (zonefee.com)",
+          "url": "https://zonefee.com/states/texas/little-elm/",
+          "read": "2026-10-11"
+        }
+      },
+      {
+        "value": "Hail exposure -> Class 4 roofing option",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "DFW hail belt."
+      }
+    ]
+  },
+  "flood": {
+    "value": "Town participates in NFIP; lake-adjacent (Lewisville Lake) floodplain lots need elevation per flood damage prevention ordinance; freeboard not found",
     "status": "Assumed",
     "source": {
-     "id": "assumed",
-     "title": "Assumed",
-     "url": "",
-     "read": "2026-10-11"
+      "id": "assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
     },
-    "note": "DFW hail belt."
-   }
-  ]
- },
- "flood": {
-  "value": "Town participates in NFIP; lake-adjacent (Lewisville Lake) floodplain lots need elevation per flood damage prevention ordinance; freeboard not found",
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed",
-   "url": "",
-   "read": "2026-10-11"
+    "note": "Not found: freeboard value; assume 1 ft above BFE pending verification (common DFW standard, some require 2 ft)."
   },
-  "note": "Not found: freeboard value; assume 1 ft above BFE pending verification (common DFW standard, some require 2 ft)."
- },
- "engineChanges": [
-  {
-   "id": "little-elm-irc-2024",
-   "ruleType": "irc-edition",
-   "area": "drawings",
-   "change": "Use 2024 IRC (not 2021) as base residential code for Little Elm",
-   "priority": "must",
-   "params": {
-    "ircEdition": "2024",
-    "necEdition": "2023"
-   },
-   "source": {
-    "id": "little-elm-municode-ch22",
-    "title": "Town of Little Elm Code of Ordinances Ch. 22 Buildings and Building Regulations, Art. II Technical Codes (Sec. 22-19 adoption; 22-22 amendments)",
-    "url": "https://library.municode.com/tx/little_elm/codes/code_of_ordinances?nodeId=PTIICOOR_CH22BUBURE_ARTIITECO_S22-22INENCOCOAM",
-    "read": "2026-10-11",
-    "section": "Sec. 22-19"
-   }
-  },
-  {
-   "id": "little-elm-setbacks-sf4",
-   "ruleType": "setback-by-district",
-   "area": "setbacks",
-   "change": "SF-4: front 25 ft, side 6 ft, rear 20 ft, street side 15 ft (assumed); PD lots: ask user for PD standards",
-   "priority": "must",
-   "params": {
+  "engineChanges": [
+    {
+      "id": "little-elm-irc-2024",
+      "ruleType": "code-edition-by-city",
+      "area": "drawings",
+      "change": "Use 2024 IRC (not 2021) as base residential code for Little Elm",
+      "priority": "must",
+      "params": {
+        "ircEdition": "2024",
+        "necEdition": "2023"
+      },
+      "source": {
+        "id": "little-elm-municode-ch22",
+        "title": "Town of Little Elm Code of Ordinances Ch. 22 Buildings and Building Regulations, Art. II Technical Codes (Sec. 22-19 adoption; 22-22 amendments)",
+        "url": "https://library.municode.com/tx/little_elm/codes/code_of_ordinances?nodeId=PTIICOOR_CH22BUBURE_ARTIITECO_S22-22INENCOCOAM",
+        "read": "2026-10-11",
+        "section": "Sec. 22-19"
+      }
+    },
+    {
+      "id": "little-elm-setbacks-sf4",
+      "ruleType": "setback-by-district",
+      "area": "setbacks",
+      "change": "SF-4: front 25 ft, side 6 ft, rear 20 ft, street side 15 ft (assumed); PD lots: ask user for PD standards",
+      "priority": "must",
+      "params": {
+        "district": "SF-4",
+        "frontFt": 25,
+        "sideFt": 6,
+        "rearFt": 20,
+        "streetSideFt": 15,
+        "streetSideAssumed": true
+      },
+      "source": {
+        "id": "little-elm-gridics-sf4",
+        "title": "PropZone parcel zoning detail, 2124 Sundown Dr, Little Elm (SF-4)",
+        "url": "https://propzone.gridics.com/zoning-detail/278d8d7633e31532e-R270065",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "little-elm-lot-min",
+      "ruleType": "lot-min-size",
+      "area": "survey",
+      "change": "SF-4 minimum lot 6,000 sq ft",
+      "priority": "should",
+      "params": {
+        "district": "SF-4",
+        "minLotSqFt": 6000
+      },
+      "source": {
+        "id": "little-elm-gridics-sf4",
+        "title": "PropZone parcel zoning detail, 2124 Sundown Dr, Little Elm (SF-4)",
+        "url": "https://propzone.gridics.com/zoning-detail/278d8d7633e31532e-R270065",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "little-elm-height",
+      "ruleType": "height-limit",
+      "area": "massing",
+      "change": "Max 35 ft / 3 stories in SF-4",
+      "priority": "must",
+      "params": {
+        "maxHeightFt": 35,
+        "maxStories": 3
+      },
+      "source": {
+        "id": "little-elm-gridics-sf4",
+        "title": "PropZone parcel zoning detail, 2124 Sundown Dr, Little Elm (SF-4)",
+        "url": "https://propzone.gridics.com/zoning-detail/278d8d7633e31532e-R270065",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "little-elm-pd-check",
+      "ruleType": "survey-input-district",
+      "area": "survey",
+      "change": "Ask whether lot is in a PD; if so, PD ordinance setbacks/masonry/garage rules override SF-4",
+      "priority": "must",
+      "params": {
+        "askPD": true
+      },
+      "source": {
+        "id": "little-elm-zoning-map-2021",
+        "title": "Little Elm Zoning Map 2021",
+        "url": "https://littleelm.gov/DocumentCenter/View/13331/Zoning-2021",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "little-elm-permit-fee",
+      "ruleType": "permit-fee-formula",
+      "area": "estimate",
+      "change": "Permit = $0.85 x gross sq ft (incl. garage) + $295 plan review",
+      "priority": "should",
+      "params": {
+        "ratePerGrossSqFt": 0.85,
+        "planReviewUSD": 295,
+        "includesMEP": true
+      },
+      "source": {
+        "id": "little-elm-fee-chart-2019",
+        "title": "Little Elm Development Services Comprehensive Fee Schedule (updated 18 June 2019)",
+        "url": "https://www.littleelm.gov/DocumentCenter/View/13431/Development-Services-Comprehensive-Fee-Chart-Revision",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "little-elm-impact",
+      "ruleType": "impact-fee-estimate",
+      "area": "estimate",
+      "change": "Add impact fees: water $1,519 + wastewater $2,930 + roadway $3,498 (SA1) / $1,684 (SA2)",
+      "priority": "should",
+      "params": {
+        "waterUSD": 1519,
+        "wastewaterUSD": 2930,
+        "roadwaySA1USD": 3498,
+        "roadwaySA2USD": 1684
+      },
+      "source": {
+        "id": "little-elm-zonefee",
+        "title": "Little Elm, TX Development Fees (zonefee.com)",
+        "url": "https://zonefee.com/states/texas/little-elm/",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "little-elm-eng-fdn",
+      "ruleType": "engineered-foundation-flag",
+      "area": "foundation",
+      "change": "Flag engineer-designed slab (expansive clay)",
+      "priority": "should",
+      "params": {
+        "engineeredFoundation": true,
+        "assumed": true
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "little-elm-energy-cz",
+      "ruleType": "climate-zone-envelope",
+      "area": "envelope",
+      "change": "Use climate zone 3A envelope tables; state floor is 2015 IRC Ch. 11 (ERI option under HSC 388.003)",
+      "priority": "must",
+      "params": {
+        "climateZone": "3A",
+        "energyBase": "2015 IRC Ch.11 (state floor)",
+        "eriMaxCZ2_3": 59
+      },
+      "source": {
+        "id": "tx-hsc-388",
+        "title": "Texas Health & Safety Code Ch. 388 (Texas Building Energy Performance Standards)",
+        "url": "https://statutes.capitol.texas.gov/Docs/HS/htm/HS.388.htm",
+        "read": "2026-10-11",
+        "section": "388.003"
+      }
+    },
+    {
+      "id": "little-elm-masonry-none",
+      "ruleType": "masonry-percentage",
+      "area": "envelope",
+      "change": "Do not apply any city-mandated masonry %; only flag HOA/deed restriction check",
+      "priority": "should",
+      "params": {
+        "masonryPctMin": 0,
+        "checkDeedRestrictions": true
+      },
+      "source": {
+        "id": "tx-gov-3000",
+        "title": "Texas Government Code Ch. 3000 (building products, materials, methods; HB 2439, 2019)",
+        "url": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.3000.htm",
+        "read": "2026-10-11",
+        "section": "3000.002"
+      }
+    }
+  ],
+  "plainLanguage": "Little Elm uses the 2024 International Residential Code, one edition newer than many Texas cities. In the common SF-4 zoning, lots are at least 6,000 sq ft and the house usually sits 25 ft back from the street, 6 ft from each side and 20 ft from the back. Houses can be up to 35 ft and 3 stories. Many neighborhoods are Planned Developments with their own rules, so check your plat and HOA papers. The Town cannot require a brick percentage, but your HOA might. Expect a building permit of about $0.85 per square foot plus a $295 plan review, and roughly $6,000-8,000 of water, sewer and road impact fees. Plan for an engineer-designed slab because of the clay soils.",
+  "openQuestions": [
+    "Confirm 2024 IRC/IECC adoption ordinance number and local amendments (Sec. 22-22).",
+    "Current (2025-2026) fee schedule and whether impact fees were updated after Ord. 1431.",
+    "SF-4 corner side yard, lot width/depth, min dwelling size from Ch. 106 table.",
+    "Floodplain freeboard requirement."
+  ],
+  "notFound": [
+    "Census Vintage 2024 population",
+    "SF-4 lot width/depth, corner setback, min dwelling size",
+    "freeboard",
+    "tap fees",
+    "review days",
+    "tree rules"
+  ],
+  "comparison": {
+    "irc": "2024 IRC",
+    "energy": "2024 IECC? (unconfirmed; state floor 2015 IRC Ch.11)",
+    "plumbing": "IPC (2024 likely)",
     "district": "SF-4",
-    "frontFt": 25,
-    "sideFt": 6,
-    "rearFt": 20,
-    "streetSideFt": 15,
-    "streetSideAssumed": true
-   },
-   "source": {
-    "id": "little-elm-gridics-sf4",
-    "title": "PropZone parcel zoning detail, 2124 Sundown Dr, Little Elm (SF-4)",
-    "url": "https://propzone.gridics.com/zoning-detail/278d8d7633e31532e-R270065",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "little-elm-lot-min",
-   "ruleType": "lot-min-size",
-   "area": "survey",
-   "change": "SF-4 minimum lot 6,000 sq ft",
-   "priority": "should",
-   "params": {
-    "district": "SF-4",
-    "minLotSqFt": 6000
-   },
-   "source": {
-    "id": "little-elm-gridics-sf4",
-    "title": "PropZone parcel zoning detail, 2124 Sundown Dr, Little Elm (SF-4)",
-    "url": "https://propzone.gridics.com/zoning-detail/278d8d7633e31532e-R270065",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "little-elm-height",
-   "ruleType": "height-limit",
-   "area": "massing",
-   "change": "Max 35 ft / 3 stories in SF-4",
-   "priority": "must",
-   "params": {
-    "maxHeightFt": 35,
-    "maxStories": 3
-   },
-   "source": {
-    "id": "little-elm-gridics-sf4",
-    "title": "PropZone parcel zoning detail, 2124 Sundown Dr, Little Elm (SF-4)",
-    "url": "https://propzone.gridics.com/zoning-detail/278d8d7633e31532e-R270065",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "little-elm-pd-check",
-   "ruleType": "survey-input-district",
-   "area": "survey",
-   "change": "Ask whether lot is in a PD; if so, PD ordinance setbacks/masonry/garage rules override SF-4",
-   "priority": "must",
-   "params": {
-    "askPD": true
-   },
-   "source": {
-    "id": "little-elm-zoning-map-2021",
-    "title": "Little Elm Zoning Map 2021",
-    "url": "https://littleelm.gov/DocumentCenter/View/13331/Zoning-2021",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "little-elm-permit-fee",
-   "ruleType": "permit-fee-formula",
-   "area": "estimate",
-   "change": "Permit = $0.85 x gross sq ft (incl. garage) + $295 plan review",
-   "priority": "should",
-   "params": {
-    "ratePerGrossSqFt": 0.85,
-    "planReviewUSD": 295,
-    "includesMEP": true
-   },
-   "source": {
-    "id": "little-elm-fee-chart-2019",
-    "title": "Little Elm Development Services Comprehensive Fee Schedule (updated 18 June 2019)",
-    "url": "https://www.littleelm.gov/DocumentCenter/View/13431/Development-Services-Comprehensive-Fee-Chart-Revision",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "little-elm-impact",
-   "ruleType": "impact-fee-estimate",
-   "area": "estimate",
-   "change": "Add impact fees: water $1,519 + wastewater $2,930 + roadway $3,498 (SA1) / $1,684 (SA2)",
-   "priority": "should",
-   "params": {
-    "waterUSD": 1519,
-    "wastewaterUSD": 2930,
-    "roadwaySA1USD": 3498,
-    "roadwaySA2USD": 1684
-   },
-   "source": {
-    "id": "little-elm-zonefee",
-    "title": "Little Elm, TX Development Fees (zonefee.com)",
-    "url": "https://zonefee.com/states/texas/little-elm/",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "little-elm-eng-fdn",
-   "ruleType": "engineered-foundation-flag",
-   "area": "foundation",
-   "change": "Flag engineer-designed slab (expansive clay)",
-   "priority": "should",
-   "params": {
-    "engineeredFoundation": true,
-    "assumed": true
-   },
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "little-elm-energy-cz",
-   "ruleType": "climate-zone-envelope",
-   "area": "envelope",
-   "change": "Use climate zone 3A envelope tables; state floor is 2015 IRC Ch. 11 (ERI option under HSC 388.003)",
-   "priority": "must",
-   "params": {
-    "climateZone": "3A",
-    "energyBase": "2015 IRC Ch.11 (state floor)",
-    "eriMaxCZ2_3": 59
-   },
-   "source": {
-    "id": "tx-hsc-388",
-    "title": "Texas Health & Safety Code Ch. 388 (Texas Building Energy Performance Standards)",
-    "url": "https://statutes.capitol.texas.gov/Docs/HS/htm/HS.388.htm",
-    "read": "2026-10-11",
-    "section": "388.003"
-   }
-  },
-  {
-   "id": "little-elm-masonry-none",
-   "ruleType": "masonry-percentage",
-   "area": "envelope",
-   "change": "Do not apply any city-mandated masonry %; only flag HOA/deed restriction check",
-   "priority": "should",
-   "params": {
-    "masonryPctMin": 0,
-    "checkDeedRestrictions": true
-   },
-   "source": {
-    "id": "tx-gov-3000",
-    "title": "Texas Government Code Ch. 3000 (building products, materials, methods; HB 2439, 2019)",
-    "url": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.3000.htm",
-    "read": "2026-10-11",
-    "section": "3000.002"
-   }
+    "setbacks": "25/6/20 (street side ~15 assumed)",
+    "maxHeight": "35 ft/3 st",
+    "coverageFar": "none found / none",
+    "masonry": "none (state preemption); check HOA/PD",
+    "engFoundation": "assumed yes",
+    "windstorm": "no",
+    "flood": "NFIP; freeboard not found",
+    "permitFeeExample": "$2,414 (+$295 review)",
+    "impactFees": "~$7,947 SA1 (water+ww+road)",
+    "costFactor": "PENDING"
   }
- ],
- "plainLanguage": "Little Elm uses the 2024 International Residential Code, one edition newer than many Texas cities. In the common SF-4 zoning, lots are at least 6,000 sq ft and the house usually sits 25 ft back from the street, 6 ft from each side and 20 ft from the back. Houses can be up to 35 ft and 3 stories. Many neighborhoods are Planned Developments with their own rules, so check your plat and HOA papers. The Town cannot require a brick percentage, but your HOA might. Expect a building permit of about $0.85 per square foot plus a $295 plan review, and roughly $6,000-8,000 of water, sewer and road impact fees. Plan for an engineer-designed slab because of the clay soils.",
- "openQuestions": [
-  "Confirm 2024 IRC/IECC adoption ordinance number and local amendments (Sec. 22-22).",
-  "Current (2025-2026) fee schedule and whether impact fees were updated after Ord. 1431.",
-  "SF-4 corner side yard, lot width/depth, min dwelling size from Ch. 106 table.",
-  "Floodplain freeboard requirement."
- ],
- "notFound": [
-  "Census Vintage 2024 population",
-  "SF-4 lot width/depth, corner setback, min dwelling size",
-  "freeboard",
-  "tap fees",
-  "review days",
-  "tree rules"
- ],
- "comparison": {
-  "irc": "2024 IRC",
-  "energy": "2024 IECC? (unconfirmed; state floor 2015 IRC Ch.11)",
-  "plumbing": "IPC (2024 likely)",
-  "district": "SF-4",
-  "setbacks": "25/6/20 (street side ~15 assumed)",
-  "maxHeight": "35 ft/3 st",
-  "coverageFar": "none found / none",
-  "masonry": "none (state preemption); check HOA/PD",
-  "engFoundation": "assumed yes",
-  "windstorm": "no",
-  "flood": "NFIP; freeboard not found",
-  "permitFeeExample": "$2,414 (+$295 review)",
-  "impactFees": "~$7,947 SA1 (water+ww+road)",
-  "costFactor": "PENDING"
- }
 }

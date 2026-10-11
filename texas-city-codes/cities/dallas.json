@@ -738,6 +738,26 @@
   },
   "engineChanges": [
     {
+      "id": "dallas-code-edition",
+      "ruleType": "code-edition-by-city",
+      "area": "plan",
+      "change": "Check plans against 2021 IRC (Chapter 57 Dallas One- and Two-Family Dwelling Code; renamed One- to Eight-Family Dwelling Code by Ord. 33099, effective 2025-05-23) (city adoption) and energy code 2021 IECC with Dallas amendments (Chapter 59 Dallas Energy Conservation Code) instead of the plain 2021 IRC model",
+      "priority": "should",
+      "params": {
+        "irc": "2021 IRC (Chapter 57 Dallas One- and Two-Family Dwelling Code; renamed One- to Eight-Family Dwelling Code by Ord. 33099, effective 2025-05-23)",
+        "energy": "2021 IECC with Dallas amendments (Chapter 59 Dallas Energy Conservation Code)",
+        "editionStatus": "Secondary"
+      },
+      "source": {
+        "id": "dallas-ord-23-0471",
+        "title": "City of Dallas Ordinance file 23-0471 (3-28-23): amends Chapter 57 Dallas One- and Two-Family Dwelling Code, adopts 2021 IRC with changes",
+        "url": "https://dallascityhall.com/departments/sustainabledevelopment/buildinginspection/DCH%20documents/pdf/code_amendments/2021_codes/23-0471.pdf",
+        "read": "2026-10-11",
+        "section": "Ch. 57, Sec. 1"
+      },
+      "derived": "added by coordinator from codes.irc.edition"
+    },
+    {
       "id": "dallas-setbacks-r75a",
       "ruleType": "setback-by-district",
       "area": "setbacks",

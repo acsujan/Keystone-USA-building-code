@@ -682,6 +682,25 @@
   },
   "engineChanges": [
     {
+      "id": "pearland-code-edition",
+      "ruleType": "code-edition-by-city",
+      "area": "plan",
+      "change": "Check plans against 2021 IRC (city adoption) and energy code 2021 IECC instead of the plain 2021 IRC model",
+      "priority": "should",
+      "params": {
+        "irc": "2021 IRC",
+        "energy": "2021 IECC",
+        "editionStatus": "Secondary"
+      },
+      "source": {
+        "id": "pearland-adopted-codes",
+        "title": "City of Pearland - Adopted Building Codes",
+        "url": "https://www.pearlandtx.gov/departments/community-development/permits/adopted-building-codes",
+        "read": "2026-10-11"
+      },
+      "derived": "added by coordinator from codes.irc.edition"
+    },
+    {
       "id": "pearland-windstorm",
       "ruleType": "windstorm-package",
       "area": "structure",

@@ -666,6 +666,26 @@
   },
   "engineChanges": [
     {
+      "id": "garland-code-edition",
+      "ruleType": "code-edition-by-city",
+      "area": "plan",
+      "change": "Check plans against 2015 IRC (Garland amended; appendices A, B, C, G; Part VIII Electrical excluded) (city adoption) and energy code 2015 IECC (eff. 9-19-2016) instead of the plain 2021 IRC model",
+      "priority": "must",
+      "params": {
+        "irc": "2015 IRC (Garland amended; appendices A, B, C, G; Part VIII Electrical excluded)",
+        "energy": "2015 IECC (eff. 9-19-2016)",
+        "editionStatus": "Secondary"
+      },
+      "source": {
+        "id": "garland-ecode-irc",
+        "title": "City of Garland Code Ch. 30 Art. XIII International Residential Code (Secs. 30.225-30.226) (eCode360)",
+        "url": "https://ecode360.com/40075515",
+        "read": "2026-10-11",
+        "section": "Sec. 30.225"
+      },
+      "derived": "added by coordinator from codes.irc.edition"
+    },
+    {
       "id": "garland-irc-2015",
       "ruleType": "electrical-code-edition",
       "area": "drawings",

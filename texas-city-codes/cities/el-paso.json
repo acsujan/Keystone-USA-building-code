@@ -86,7 +86,7 @@
           "status": "Secondary",
           "source": {
             "id": "el-paso-18-10-050",
-            "title": "El Paso Code of Ordinances \u00a718.10.050 Section R301.2 Climatic and geographic design criteria, amended (eLaws mirror)",
+            "title": "El Paso Code of Ordinances §18.10.050 Section R301.2 Climatic and geographic design criteria, amended (eLaws mirror)",
             "url": "http://elpaso-tx.elaws.us/code/coor_title18_ch18.10_sec18.10.050",
             "read": "2026-10-11",
             "section": "18.10.050 / IRC Table R301.2(1)"
@@ -190,7 +190,7 @@
       "status": "Secondary",
       "source": {
         "id": "el-paso-18-10-050",
-        "title": "El Paso Code of Ordinances \u00a718.10.050 Section R301.2 Climatic and geographic design criteria, amended (eLaws mirror)",
+        "title": "El Paso Code of Ordinances §18.10.050 Section R301.2 Climatic and geographic design criteria, amended (eLaws mirror)",
         "url": "http://elpaso-tx.elaws.us/code/coor_title18_ch18.10_sec18.10.050",
         "read": "2026-10-11",
         "section": "18.10.050 / IRC Table R301.2(1)"
@@ -214,7 +214,7 @@
       "status": "Secondary",
       "source": {
         "id": "el-paso-18-10-050",
-        "title": "El Paso Code of Ordinances \u00a718.10.050 Section R301.2 Climatic and geographic design criteria, amended (eLaws mirror)",
+        "title": "El Paso Code of Ordinances §18.10.050 Section R301.2 Climatic and geographic design criteria, amended (eLaws mirror)",
         "url": "http://elpaso-tx.elaws.us/code/coor_title18_ch18.10_sec18.10.050",
         "read": "2026-10-11",
         "section": "18.10.050 / IRC Table R301.2(1)"
@@ -226,7 +226,7 @@
       "status": "Secondary",
       "source": {
         "id": "el-paso-18-10-050",
-        "title": "El Paso Code of Ordinances \u00a718.10.050 Section R301.2 Climatic and geographic design criteria, amended (eLaws mirror)",
+        "title": "El Paso Code of Ordinances §18.10.050 Section R301.2 Climatic and geographic design criteria, amended (eLaws mirror)",
         "url": "http://elpaso-tx.elaws.us/code/coor_title18_ch18.10_sec18.10.050",
         "read": "2026-10-11",
         "section": "18.10.050 / IRC Table R301.2(1)"
@@ -433,11 +433,11 @@
       "note": "No garage-placement/front-facing garage rule found."
     },
     "adu": {
-      "value": "ADUs regulated by \u00a720.10.035 (supplemental use regulations); details not read",
+      "value": "ADUs regulated by §20.10.035 (supplemental use regulations); details not read",
       "status": "Secondary",
       "source": {
         "id": "el-paso-20-10-035",
-        "title": "El Paso Code \u00a720.10.035 Accessory dwelling unit (ADU) (eLaws mirror)",
+        "title": "El Paso Code §20.10.035 Accessory dwelling unit (ADU) (eLaws mirror)",
         "url": "https://elpaso-tx.elaws.us/code/coor_title20_ch20.10_sec20.10.035",
         "read": "2026-10-11",
         "section": "20.10.035"
@@ -538,12 +538,12 @@
       "status": "Secondary",
       "source": {
         "id": "el-paso-18-02-106",
-        "title": "El Paso Code \u00a718.02.106 Permit fees (Municode)",
+        "title": "El Paso Code §18.02.106 Permit fees (Municode)",
         "url": "https://library.municode.com/tx/el_paso/codes/code_of_ordinances?nodeId=TIT18BUCO_CH18.02BUCOADCO_18.02.106PEFE_18.02.106.6VACOMAPE",
         "read": "2026-10-11",
         "section": "18.02.106"
       },
-      "note": "\u00a718.02.106 text seen in search extract. Tiers seen: FY2024 shows 401-1,299 sf tier at about $0.87/sf; third party lists $0.72/sf (3,400-4,399) and $0.61/sf (4,400+). 2019 flat rate was $0.82/sf after HB 852 banned valuation-based residential fees."
+      "note": "§18.02.106 text seen in search extract. Tiers seen: FY2024 shows 401-1,299 sf tier at about $0.87/sf; third party lists $0.72/sf (3,400-4,399) and $0.61/sf (4,400+). 2019 flat rate was $0.82/sf after HB 852 banned valuation-based residential fees."
     },
     "workedExample2400sqft": {
       "value": 2258,
@@ -647,6 +647,25 @@
   },
   "engineChanges": [
     {
+      "id": "el-paso-code-edition",
+      "ruleType": "code-edition-by-city",
+      "area": "plan",
+      "change": "Check plans against 2021 IRC (city adoption) and energy code 2021 IRC Chapter 11 (assumed) instead of the plain 2021 IRC model",
+      "priority": "should",
+      "params": {
+        "irc": "2021 IRC",
+        "energy": "2021 IRC Chapter 11 (assumed)",
+        "editionStatus": "Secondary"
+      },
+      "source": {
+        "id": "el-paso-ch18-10-2021-draft",
+        "title": "City of El Paso, Chapter 18.10 Residential Code (2021 IRC adoption ordinance PDF)",
+        "url": "https://www.elpasotexas.gov/assets/Documents/CoEP/Planning-and-Inspections/2021-International-Building-Codes/Chapter-18.10-RESIDENTIAL-CODE.pdf",
+        "read": "2026-10-11"
+      },
+      "derived": "added by coordinator from codes.irc.edition"
+    },
+    {
       "id": "el-paso-setbacks-r3",
       "ruleType": "setback-by-district",
       "area": "setbacks",
@@ -735,7 +754,7 @@
       },
       "source": {
         "id": "el-paso-18-10-050",
-        "title": "El Paso Code of Ordinances \u00a718.10.050 Section R301.2 Climatic and geographic design criteria, amended (eLaws mirror)",
+        "title": "El Paso Code of Ordinances §18.10.050 Section R301.2 Climatic and geographic design criteria, amended (eLaws mirror)",
         "url": "http://elpaso-tx.elaws.us/code/coor_title18_ch18.10_sec18.10.050",
         "read": "2026-10-11",
         "section": "18.10.050 / IRC Table R301.2(1)"
@@ -753,7 +772,7 @@
       },
       "source": {
         "id": "el-paso-18-10-050",
-        "title": "El Paso Code of Ordinances \u00a718.10.050 Section R301.2 Climatic and geographic design criteria, amended (eLaws mirror)",
+        "title": "El Paso Code of Ordinances §18.10.050 Section R301.2 Climatic and geographic design criteria, amended (eLaws mirror)",
         "url": "http://elpaso-tx.elaws.us/code/coor_title18_ch18.10_sec18.10.050",
         "read": "2026-10-11",
         "section": "18.10.050 / IRC Table R301.2(1)"
@@ -761,7 +780,7 @@
     },
     {
       "id": "el-paso-snow",
-      "ruleType": "other",
+      "ruleType": "snow-load",
       "area": "structure",
       "change": "Ground snow load 5 psf (use IRC minimum roof live load 20 psf governs)",
       "priority": "nice",
@@ -770,7 +789,7 @@
       },
       "source": {
         "id": "el-paso-18-10-050",
-        "title": "El Paso Code of Ordinances \u00a718.10.050 Section R301.2 Climatic and geographic design criteria, amended (eLaws mirror)",
+        "title": "El Paso Code of Ordinances §18.10.050 Section R301.2 Climatic and geographic design criteria, amended (eLaws mirror)",
         "url": "http://elpaso-tx.elaws.us/code/coor_title18_ch18.10_sec18.10.050",
         "read": "2026-10-11",
         "section": "18.10.050 / IRC Table R301.2(1)"
@@ -788,7 +807,7 @@
       },
       "source": {
         "id": "el-paso-18-10-050",
-        "title": "El Paso Code of Ordinances \u00a718.10.050 Section R301.2 Climatic and geographic design criteria, amended (eLaws mirror)",
+        "title": "El Paso Code of Ordinances §18.10.050 Section R301.2 Climatic and geographic design criteria, amended (eLaws mirror)",
         "url": "http://elpaso-tx.elaws.us/code/coor_title18_ch18.10_sec18.10.050",
         "read": "2026-10-11",
         "section": "18.10.050 / IRC Table R301.2(1)"
@@ -796,7 +815,7 @@
     },
     {
       "id": "el-paso-termite",
-      "ruleType": "other",
+      "ruleType": "termite-protection",
       "area": "structure",
       "change": "Termite: moderate to heavy - include termite protection (R318) on drawings",
       "priority": "should",
@@ -805,7 +824,7 @@
       },
       "source": {
         "id": "el-paso-18-10-050",
-        "title": "El Paso Code of Ordinances \u00a718.10.050 Section R301.2 Climatic and geographic design criteria, amended (eLaws mirror)",
+        "title": "El Paso Code of Ordinances §18.10.050 Section R301.2 Climatic and geographic design criteria, amended (eLaws mirror)",
         "url": "http://elpaso-tx.elaws.us/code/coor_title18_ch18.10_sec18.10.050",
         "read": "2026-10-11",
         "section": "18.10.050 / IRC Table R301.2(1)"
@@ -880,7 +899,7 @@
       },
       "source": {
         "id": "el-paso-18-02-106",
-        "title": "El Paso Code \u00a718.02.106 Permit fees (Municode)",
+        "title": "El Paso Code §18.02.106 Permit fees (Municode)",
         "url": "https://library.municode.com/tx/el_paso/codes/code_of_ordinances?nodeId=TIT18BUCO_CH18.02BUCOADCO_18.02.106PEFE_18.02.106.6VACOMAPE",
         "read": "2026-10-11",
         "section": "18.02.106"

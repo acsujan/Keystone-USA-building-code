@@ -762,7 +762,7 @@
     },
     {
       "id": "texas-unincorporated-lgc233",
-      "ruleType": "code-edition-baseline",
+      "ruleType": "code-edition-by-city",
       "area": "drawings",
       "change": "No county building permit. Design to 2021 IRC; note legal floor in opted-in counties = IRC as of May 1, 2008 or the county-seat edition (LGC 233.153). Produce an inspection plan for 3 third-party inspections (pre-pour foundation, framing+MEP before drywall, final) and a county notice.",
       "priority": "must",

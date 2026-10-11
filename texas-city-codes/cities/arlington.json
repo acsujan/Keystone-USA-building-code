@@ -688,6 +688,25 @@
   },
   "engineChanges": [
     {
+      "id": "arlington-code-edition",
+      "ruleType": "code-edition-by-city",
+      "area": "plan",
+      "change": "Check plans against 2021 IRC (Arlington local amendments, Construction Chapter Art. I Sec. 1.04) (city adoption) and energy code 2021 IECC (Arlington amended, adopted 11-1-2022) instead of the plain 2021 IRC model",
+      "priority": "should",
+      "params": {
+        "irc": "2021 IRC (Arlington local amendments, Construction Chapter Art. I Sec. 1.04)",
+        "energy": "2021 IECC (Arlington amended, adopted 11-1-2022)",
+        "editionStatus": "Secondary"
+      },
+      "source": {
+        "id": "arlington-ord-25-075",
+        "title": "City of Arlington Ordinance 25-075 amending the Construction Chapter (recites 2021 code adoption by Ords. 22-055, 22-057, 22-058, 22-059 on 11-1-2022)",
+        "url": "https://www.arlingtontx.gov/files/assets/city/v/1/city-secretary/documents/city-code-of-ordinances/adopted-ordinances-not-yet-codified/construction-chapter-ord.-25-075.pdf",
+        "read": "2026-10-11"
+      },
+      "derived": "added by coordinator from codes.irc.edition"
+    },
+    {
       "id": "arlington-setbacks-rs72",
       "ruleType": "setback-by-district",
       "area": "setbacks",

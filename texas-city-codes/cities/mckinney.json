@@ -709,6 +709,25 @@
   },
   "engineChanges": [
     {
+      "id": "mckinney-code-edition",
+      "ruleType": "code-edition-by-city",
+      "area": "plan",
+      "change": "Check plans against 2024 IRC (city adoption) and energy code 2024 IECC (with amendments) instead of the plain 2021 IRC model",
+      "priority": "must",
+      "params": {
+        "irc": "2024 IRC",
+        "energy": "2024 IECC (with amendments)",
+        "editionStatus": "Secondary"
+      },
+      "source": {
+        "id": "mckinney-building-inspections",
+        "title": "City of McKinney Building Inspections page (2024 codes adopted, effective 2025-10-01)",
+        "url": "https://www.mckinneytexas.org/243/Building-Inspections",
+        "read": "2026-10-11"
+      },
+      "derived": "added by coordinator from codes.irc.edition"
+    },
+    {
       "id": "mckinney-pd-check",
       "ruleType": "survey-input-district",
       "area": "survey",

@@ -1,884 +1,903 @@
 {
- "id": "beaumont",
- "name": "City of Beaumont",
- "state": "TX",
- "tier": 2,
- "counties": [
-  "Jefferson"
- ],
- "msa": {
-  "name": "Beaumont-Port Arthur, TX",
-  "blsCode": "13140"
- },
- "population": {
-  "value": 112193,
-  "status": "Secondary",
-  "source": {
-   "id": "beaumont-census-quickfacts",
-   "title": "U.S. Census QuickFacts - Beaumont city, Texas",
-   "url": "https://census.gov/quickfacts/fact/table/beaumontcitytexas/HEA775223",
-   "read": "2026-10-11"
+  "id": "beaumont",
+  "name": "City of Beaumont",
+  "state": "TX",
+  "tier": 2,
+  "counties": [
+    "Jefferson"
+  ],
+  "msa": {
+    "name": "Beaumont-Port Arthur, TX",
+    "blsCode": "13140"
   },
-  "note": "Census Vintage 2023 (July 1, 2023) via QuickFacts search extract (V2024 shown NA); 2020 Census 115,282."
- },
- "zipCodesOrBoundary": {
-  "value": null,
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed",
-   "url": "",
-   "read": "2026-10-11"
-  },
-  "note": "Not found: city-limits map/ZIP list not retrieved."
- },
- "climateZone": {
-  "value": "2A",
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed",
-   "url": "",
-   "read": "2026-10-11"
-  },
-  "note": "From 2021 IECC Table R301.1 county list (Jefferson County) as recalled; not re-read this run."
- },
- "windstormCounty": {
-  "value": true,
-  "status": "Secondary",
-  "source": {
-   "id": "beaumont-tdi-jefferson-map",
-   "title": "TDI Windstorm - Jefferson County wind zone page (Beaumont = Inland II, 110 mph 3-s gust under 2006 IRC/IBC w/ Texas revisions)",
-   "url": "https://tdi.texas.gov/wind/maps/jefferso.html",
-   "read": "2026-10-11"
-  },
-  "note": "Jefferson County is a TDI designated catastrophe area; Beaumont is in the Inland II zone. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
- },
- "codes": {
-  "irc": {
-   "edition": {
-    "value": "2021 IRC",
+  "population": {
+    "value": 112193,
     "status": "Secondary",
     "source": {
-     "id": "beaumont-accessory-permit-checklist",
-     "title": "City of Beaumont Commercial and Residential Accessory Building Permit Checklist (lists 2021 IRC/IBC/IFC/IECC, 2020 NEC, ICC 600-2020; windstorm engineer certification for buildings >= 120 sf)",
-     "url": "https://www.beaumonttexas.gov/DocumentCenter/View/4134/Commercial-and-Residential-Accessory-Building-Permit-Checklist",
-     "read": "2026-10-11"
+      "id": "beaumont-census-quickfacts",
+      "title": "U.S. Census QuickFacts - Beaumont city, Texas",
+      "url": "https://census.gov/quickfacts/fact/table/beaumontcitytexas/HEA775223",
+      "read": "2026-10-11"
     },
-    "note": "City permit checklist lists 2021 IRC/IBC/IFC/IECC. Checklist date not shown; no 2024 adoption found. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-   },
-   "ordinance": {
+    "note": "Census Vintage 2023 (July 1, 2023) via QuickFacts search extract (V2024 shown NA); 2020 Census 115,282."
+  },
+  "zipCodesOrBoundary": {
     "value": null,
     "status": "Assumed",
     "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (not found in wave 3 searches)",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Not found: adopting ordinance number."
-   },
-   "amendments": [
-    {
-     "topic": "other",
-     "summary": "City lists ICC 600-2020 (Standard for Residential Construction in High-Wind Regions) among adopted codes and requires Texas-registered engineer windstorm certification for buildings 120 sf and larger.",
-     "status": "Secondary",
-     "source": {
-      "id": "beaumont-accessory-permit-checklist",
-      "title": "City of Beaumont Commercial and Residential Accessory Building Permit Checklist (lists 2021 IRC/IBC/IFC/IECC, 2020 NEC, ICC 600-2020; windstorm engineer certification for buildings >= 120 sf)",
-      "url": "https://www.beaumonttexas.gov/DocumentCenter/View/4134/Commercial-and-Residential-Accessory-Building-Permit-Checklist",
+      "id": "assumed",
+      "title": "Assumed",
+      "url": "",
       "read": "2026-10-11"
-     }
     },
-    {
-     "topic": "fire sprinklers",
-     "summary": "No one/two-family sprinkler mandate (state preemption, LGC 250.011).",
-     "status": "Secondary",
-     "source": {
-      "id": "tx-hb738-allensworth",
-      "title": "HB 738: Texas Adopts 2012 Versions of IRC and IBC; Addresses Residential Fire Sprinklers (law-firm summary)",
-      "url": "https://www.allensworthlaw.com/legal-updates/hb-738/",
+    "note": "Not found: city-limits map/ZIP list not retrieved."
+  },
+  "climateZone": {
+    "value": "2A",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed",
+      "url": "",
       "read": "2026-10-11"
-     }
+    },
+    "note": "From 2021 IECC Table R301.1 county list (Jefferson County) as recalled; not re-read this run."
+  },
+  "windstormCounty": {
+    "value": true,
+    "status": "Secondary",
+    "source": {
+      "id": "beaumont-tdi-jefferson-map",
+      "title": "TDI Windstorm - Jefferson County wind zone page (Beaumont = Inland II, 110 mph 3-s gust under 2006 IRC/IBC w/ Texas revisions)",
+      "url": "https://tdi.texas.gov/wind/maps/jefferso.html",
+      "read": "2026-10-11"
+    },
+    "note": "Jefferson County is a TDI designated catastrophe area; Beaumont is in the Inland II zone. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+  },
+  "codes": {
+    "irc": {
+      "edition": {
+        "value": "2021 IRC",
+        "status": "Secondary",
+        "source": {
+          "id": "beaumont-accessory-permit-checklist",
+          "title": "City of Beaumont Commercial and Residential Accessory Building Permit Checklist (lists 2021 IRC/IBC/IFC/IECC, 2020 NEC, ICC 600-2020; windstorm engineer certification for buildings >= 120 sf)",
+          "url": "https://www.beaumonttexas.gov/DocumentCenter/View/4134/Commercial-and-Residential-Accessory-Building-Permit-Checklist",
+          "read": "2026-10-11"
+        },
+        "note": "City permit checklist lists 2021 IRC/IBC/IFC/IECC. Checklist date not shown; no 2024 adoption found. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+      },
+      "ordinance": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (not found in wave 3 searches)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: adopting ordinance number."
+      },
+      "amendments": [
+        {
+          "topic": "other",
+          "summary": "City lists ICC 600-2020 (Standard for Residential Construction in High-Wind Regions) among adopted codes and requires Texas-registered engineer windstorm certification for buildings 120 sf and larger.",
+          "status": "Secondary",
+          "source": {
+            "id": "beaumont-accessory-permit-checklist",
+            "title": "City of Beaumont Commercial and Residential Accessory Building Permit Checklist (lists 2021 IRC/IBC/IFC/IECC, 2020 NEC, ICC 600-2020; windstorm engineer certification for buildings >= 120 sf)",
+            "url": "https://www.beaumonttexas.gov/DocumentCenter/View/4134/Commercial-and-Residential-Accessory-Building-Permit-Checklist",
+            "read": "2026-10-11"
+          }
+        },
+        {
+          "topic": "fire sprinklers",
+          "summary": "No one/two-family sprinkler mandate (state preemption, LGC 250.011).",
+          "status": "Secondary",
+          "source": {
+            "id": "tx-hb738-allensworth",
+            "title": "HB 738: Texas Adopts 2012 Versions of IRC and IBC; Addresses Residential Fire Sprinklers (law-firm summary)",
+            "url": "https://www.allensworthlaw.com/legal-updates/hb-738/",
+            "read": "2026-10-11"
+          }
+        }
+      ]
+    },
+    "energy": {
+      "edition": {
+        "value": "2021 IECC",
+        "status": "Secondary",
+        "source": {
+          "id": "beaumont-accessory-permit-checklist",
+          "title": "City of Beaumont Commercial and Residential Accessory Building Permit Checklist (lists 2021 IRC/IBC/IFC/IECC, 2020 NEC, ICC 600-2020; windstorm engineer certification for buildings >= 120 sf)",
+          "url": "https://www.beaumonttexas.gov/DocumentCenter/View/4134/Commercial-and-Residential-Accessory-Building-Permit-Checklist",
+          "read": "2026-10-11"
+        },
+        "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+      },
+      "stretchCode": {
+        "value": false,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "No local stretch code found; none expected for this city."
+      }
+    },
+    "plumbing": {
+      "value": "IPC 2021 (likely)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (not found in wave 3 searches)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Plumbing code not named in checklist extract; IPC assumed as most Texas cities outside Houston use IPC."
+    },
+    "electrical": {
+      "value": "NEC 2020",
+      "status": "Secondary",
+      "source": {
+        "id": "beaumont-accessory-permit-checklist",
+        "title": "City of Beaumont Commercial and Residential Accessory Building Permit Checklist (lists 2021 IRC/IBC/IFC/IECC, 2020 NEC, ICC 600-2020; windstorm engineer certification for buildings >= 120 sf)",
+        "url": "https://www.beaumonttexas.gov/DocumentCenter/View/4134/Commercial-and-Residential-Accessory-Building-Permit-Checklist",
+        "read": "2026-10-11"
+      },
+      "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+    },
+    "mechanical": {
+      "value": "IMC 2021 (likely)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (not found in wave 3 searches)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not named in extract."
+    },
+    "fuelGas": {
+      "value": "IFGC 2021 (likely)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (not found in wave 3 searches)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not named in extract."
+    },
+    "fire": {
+      "value": "IFC 2021; no one/two-family sprinkler mandate (Texas LGC 250.011 preemption).",
+      "status": "Secondary",
+      "source": {
+        "id": "beaumont-accessory-permit-checklist",
+        "title": "City of Beaumont Commercial and Residential Accessory Building Permit Checklist (lists 2021 IRC/IBC/IFC/IECC, 2020 NEC, ICC 600-2020; windstorm engineer certification for buildings >= 120 sf)",
+        "url": "https://www.beaumonttexas.gov/DocumentCenter/View/4134/Commercial-and-Residential-Accessory-Building-Permit-Checklist",
+        "read": "2026-10-11"
+      },
+      "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+    },
+    "wind": {
+      "value": 143,
+      "status": "Secondary",
+      "source": {
+        "id": "beaumont-tdi-newsletter-2018",
+        "title": "TDI Windstorm newsletter 2018 (ASCE 7-10 ultimate speed equivalents: Inland II 110 -> 143 mph)",
+        "url": "https://tdi.texas.gov/WIND/documents/newsletter22018 .pdf",
+        "read": "2026-10-11"
+      },
+      "unit": "mph Vult",
+      "note": "TDI Inland II zone = 110 mph 3-s gust (2006 IRC basis) = 143 mph ultimate (ASCE 7-10 equivalent). From 1 Apr 2026 TDI certifies to the 2024 IRC/IBC (ASCE 7-22); confirm the site Vult with the ASCE Hazard Tool. Port Arthur/Nederland are Inland I (120 mph), Sabine Pass/Pleasure Island Seaward (130 mph)."
+    },
+    "hailRoofing": {
+      "value": "Hail exposure moderate-high; no local Class 4 mandate found",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not researched this run."
+    },
+    "seismic": {
+      "value": "A",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Texas outside far-west Texas maps to SDC A in 2021 IRC Fig. R301.2(2); not checked against a city-specific table."
+    },
+    "frostDepth": {
+      "value": 0,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Gulf Coast; frost depth negligible (local tables typically list 0-6 in). Not read.",
+      "unit": "in"
     }
-   ]
   },
-  "energy": {
-   "edition": {
-    "value": "2021 IECC",
-    "status": "Secondary",
-    "source": {
-     "id": "beaumont-accessory-permit-checklist",
-     "title": "City of Beaumont Commercial and Residential Accessory Building Permit Checklist (lists 2021 IRC/IBC/IFC/IECC, 2020 NEC, ICC 600-2020; windstorm engineer certification for buildings >= 120 sf)",
-     "url": "https://www.beaumonttexas.gov/DocumentCenter/View/4134/Commercial-and-Residential-Accessory-Building-Permit-Checklist",
-     "read": "2026-10-11"
+  "zoning": {
+    "hasZoning": {
+      "value": true,
+      "status": "Secondary",
+      "source": {
+        "id": "beaumont-zoneomics-ch3",
+        "title": "Beaumont TX Code Ch. 28 Zoning (Zoneomics mirror) - Sec. 28.03.002 R-S Residential Single-Family Dwelling District",
+        "url": "https://www.zoneomics.com/code/beaumont-TX/chapter_3",
+        "read": "2026-10-11"
+      },
+      "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
     },
-    "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-   },
-   "stretchCode": {
-    "value": false,
+    "typicalDistrict": {
+      "value": "R-S Residential Single-Family Dwelling District (Sec. 28.03.002) - most restrictive residential district",
+      "status": "Secondary",
+      "source": {
+        "id": "beaumont-zoneomics-ch3",
+        "title": "Beaumont TX Code Ch. 28 Zoning (Zoneomics mirror) - Sec. 28.03.002 R-S Residential Single-Family Dwelling District",
+        "url": "https://www.zoneomics.com/code/beaumont-TX/chapter_3",
+        "read": "2026-10-11"
+      },
+      "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+    },
+    "minLotSqFt": {
+      "value": 5000,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: R-S area/height table (2 targeted searches); engine value ASSUMED.",
+      "unit": "sqft"
+    },
+    "minLotWidthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: min lot width. Web search budget exhausted and page fetch unavailable during this run."
+    },
+    "minLotDepthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: min lot depth. Web search budget exhausted and page fetch unavailable during this run."
+    },
+    "setbacksFt": {
+      "front": {
+        "value": 25,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: R-S area/height table (2 targeted searches); engine value ASSUMED. Not found in ordinance; regional typical value - verify before use.",
+        "unit": "ft"
+      },
+      "side": {
+        "value": 5,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: R-S area/height table (2 targeted searches); engine value ASSUMED. Not found in ordinance; regional typical value - verify before use.",
+        "unit": "ft"
+      },
+      "streetSide": {
+        "value": 10,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: R-S area/height table (2 targeted searches); engine value ASSUMED. Not found in ordinance; regional typical value - verify before use.",
+        "unit": "ft"
+      },
+      "rear": {
+        "value": 25,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: R-S area/height table (2 targeted searches); engine value ASSUMED. Not found in ordinance; regional typical value - verify before use.",
+        "unit": "ft"
+      }
+    },
+    "maxHeightFt": {
+      "value": 35,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found; typical SF limit.",
+      "unit": "ft"
+    },
+    "maxStories": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found."
+    },
+    "maxLotCoverage": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found."
+    },
+    "imperviousCover": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found."
+    },
+    "far": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found; Texas SF districts rarely use FAR."
+    },
+    "parking": {
+      "value": "2 off-street spaces per dwelling (typical)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found."
+    },
+    "garageRules": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found."
+    },
+    "adu": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found."
+    },
+    "masonry": {
+      "value": "No enforceable city masonry % for new homes (Gov't Code ch. 3000, HB 2439); deed restrictions may require brick.",
+      "status": "Secondary",
+      "source": {
+        "id": "tx-gov-3000",
+        "title": "Texas Government Code Ch. 3000 (building products, materials, methods; HB 2439, 2019)",
+        "url": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.3000.htm",
+        "read": "2026-10-11",
+        "section": "3000.002"
+      },
+      "note": "State statute."
+    },
+    "trees": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found."
+    },
+    "minDwellingSizeSqFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found."
+    },
+    "other": []
+  },
+  "process": {
+    "steps": [
+      {
+        "value": "Building permit application with plans and site plan to city Building Inspection; plan review; inspections; certificate of occupancy",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Generic Texas municipal process; city specifics not read."
+      }
+    ],
+    "sealsRequired": [
+      {
+        "value": "Texas-registered engineer windstorm certification for buildings 120 sf and larger (city checklist); TDI WPI-8 certificate needed for TWIA insurance.",
+        "status": "Secondary",
+        "source": {
+          "id": "beaumont-accessory-permit-checklist",
+          "title": "City of Beaumont Commercial and Residential Accessory Building Permit Checklist (lists 2021 IRC/IBC/IFC/IECC, 2020 NEC, ICC 600-2020; windstorm engineer certification for buildings >= 120 sf)",
+          "url": "https://www.beaumonttexas.gov/DocumentCenter/View/4134/Commercial-and-Residential-Accessory-Building-Permit-Checklist",
+          "read": "2026-10-11"
+        },
+        "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+      },
+      {
+        "value": "PE-designed foundation commonly used on Beaumont clays; architect seal not required for 1-2 family (Tex. Occ. Code ch. 1051).",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (not found in wave 3 searches)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not verified as a city requirement."
+      }
+    ],
+    "inspections": [
+      {
+        "value": "Foundation, framing/rough MEP, insulation, final",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Generic IRC sequence."
+      }
+    ],
+    "reviewDays": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found."
+    }
+  },
+  "fees": {
+    "permitFormula": {
+      "value": "$0.50 per sq ft (single-family) building permit; $150 residential plan review; $10 usage fee; $55 minimum; MEP permits separate",
+      "status": "Secondary",
+      "source": {
+        "id": "beaumont-res-permit-fee-2024",
+        "title": "COB Residential Building Permit Fee Schedule 2024",
+        "url": "https://www.beaumonttexas.gov/DocumentCenter/View/2179/COB-Residential-Building-Permit-Fee-Schedule-2024",
+        "read": "2026-10-11"
+      },
+      "note": "2024 schedule; whether garage area counts not shown in extract (assumed counted). Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+    },
+    "workedExample2400sqft": {
+      "value": 1580,
+      "status": "Secondary",
+      "source": {
+        "id": "beaumont-res-permit-fee-2024",
+        "title": "COB Residential Building Permit Fee Schedule 2024",
+        "url": "https://www.beaumonttexas.gov/DocumentCenter/View/2179/COB-Residential-Building-Permit-Fee-Schedule-2024",
+        "read": "2026-10-11"
+      },
+      "unit": "USD",
+      "note": "Assume 2,400 sf conditioned + 440 sf attached garage counted: 2,840 x $0.50 = $1,420 + $150 plan review + $10 usage = $1,580 (house area only: $1,200 + $160 = $1,360). MEP permits extra."
+    },
+    "planReview": {
+      "value": 150,
+      "status": "Secondary",
+      "source": {
+        "id": "beaumont-res-permit-fee-2024",
+        "title": "COB Residential Building Permit Fee Schedule 2024",
+        "url": "https://www.beaumonttexas.gov/DocumentCenter/View/2179/COB-Residential-Building-Permit-Fee-Schedule-2024",
+        "read": "2026-10-11"
+      },
+      "unit": "USD",
+      "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+    },
+    "impactFees": [
+      {
+        "value": 0,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (not found in wave 3 searches)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "USD",
+        "note": "No Beaumont impact fee ordinance found in searches (older built-out city); treat as none pending confirmation."
+      }
+    ],
+    "tapFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (not found in wave 3 searches)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: Beaumont water/sewer tap fees (search returned other cities)."
+      }
+    ]
+  },
+  "cost": {
+    "factor": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "cost-method",
+        "title": "See README cost method (filled by cost agent)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "PENDING_COST_AGENT"
+    },
+    "method": "PENDING_COST_AGENT",
+    "perSqFtMarket": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: no public per-sq-ft market figure retrieved this run."
+    },
+    "drivers": [
+      {
+        "value": "Expansive clay soils -> engineered slab.",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (not found in wave 3 searches)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Typical Gulf Coast clay."
+      },
+      {
+        "value": "TDI windstorm design and engineer certification (WPI-8), high-wind connectors, impact-rated or protected openings where required.",
+        "status": "Secondary",
+        "source": {
+          "id": "beaumont-accessory-permit-checklist",
+          "title": "City of Beaumont Commercial and Residential Accessory Building Permit Checklist (lists 2021 IRC/IBC/IFC/IECC, 2020 NEC, ICC 600-2020; windstorm engineer certification for buildings >= 120 sf)",
+          "url": "https://www.beaumonttexas.gov/DocumentCenter/View/4134/Commercial-and-Residential-Accessory-Building-Permit-Checklist",
+          "read": "2026-10-11"
+        },
+        "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+      },
+      {
+        "value": "Flood elevation and flood insurance in SFHA areas.",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (not found in wave 3 searches)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Large mapped floodplains."
+      }
+    ]
+  },
+  "flood": {
+    "value": "Flood Damage Prevention: City Code Ch. 24 Art. 24.05 (exists per eCode360 search listing); freeboard value not found. Large SFHA areas (Neches River, Harvey/Imelda). Engine assumes lowest floor >= BFE + 1 ft until confirmed.",
     "status": "Assumed",
     "source": {
-     "id": "assumed",
-     "title": "Assumed",
-     "url": "",
-     "read": "2026-10-11"
+      "id": "assumed",
+      "title": "Assumed - agent judgement (not found in wave 3 searches)",
+      "url": "",
+      "read": "2026-10-11"
     },
-    "note": "No local stretch code found; none expected for this city."
-   }
+    "note": "Article located in search results but text (elevation section) not seen; ecode360 page URL could not be tied to Beaumont with certainty, so not cited."
   },
-  "plumbing": {
-   "value": "IPC 2021 (likely)",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (not found in wave 3 searches)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Plumbing code not named in checklist extract; IPC assumed as most Texas cities outside Houston use IPC."
-  },
-  "electrical": {
-   "value": "NEC 2020",
-   "status": "Secondary",
-   "source": {
-    "id": "beaumont-accessory-permit-checklist",
-    "title": "City of Beaumont Commercial and Residential Accessory Building Permit Checklist (lists 2021 IRC/IBC/IFC/IECC, 2020 NEC, ICC 600-2020; windstorm engineer certification for buildings >= 120 sf)",
-    "url": "https://www.beaumonttexas.gov/DocumentCenter/View/4134/Commercial-and-Residential-Accessory-Building-Permit-Checklist",
-    "read": "2026-10-11"
-   },
-   "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-  },
-  "mechanical": {
-   "value": "IMC 2021 (likely)",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (not found in wave 3 searches)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not named in extract."
-  },
-  "fuelGas": {
-   "value": "IFGC 2021 (likely)",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (not found in wave 3 searches)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not named in extract."
-  },
-  "fire": {
-   "value": "IFC 2021; no one/two-family sprinkler mandate (Texas LGC 250.011 preemption).",
-   "status": "Secondary",
-   "source": {
-    "id": "beaumont-accessory-permit-checklist",
-    "title": "City of Beaumont Commercial and Residential Accessory Building Permit Checklist (lists 2021 IRC/IBC/IFC/IECC, 2020 NEC, ICC 600-2020; windstorm engineer certification for buildings >= 120 sf)",
-    "url": "https://www.beaumonttexas.gov/DocumentCenter/View/4134/Commercial-and-Residential-Accessory-Building-Permit-Checklist",
-    "read": "2026-10-11"
-   },
-   "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-  },
-  "wind": {
-   "value": 143,
-   "status": "Secondary",
-   "source": {
-    "id": "beaumont-tdi-newsletter-2018",
-    "title": "TDI Windstorm newsletter 2018 (ASCE 7-10 ultimate speed equivalents: Inland II 110 -> 143 mph)",
-    "url": "https://tdi.texas.gov/WIND/documents/newsletter22018 .pdf",
-    "read": "2026-10-11"
-   },
-   "unit": "mph Vult",
-   "note": "TDI Inland II zone = 110 mph 3-s gust (2006 IRC basis) = 143 mph ultimate (ASCE 7-10 equivalent). From 1 Apr 2026 TDI certifies to the 2024 IRC/IBC (ASCE 7-22); confirm the site Vult with the ASCE Hazard Tool. Port Arthur/Nederland are Inland I (120 mph), Sabine Pass/Pleasure Island Seaward (130 mph)."
-  },
-  "hailRoofing": {
-   "value": "Hail exposure moderate-high; no local Class 4 mandate found",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not researched this run."
-  },
-  "seismic": {
-   "value": "A",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Texas outside far-west Texas maps to SDC A in 2021 IRC Fig. R301.2(2); not checked against a city-specific table."
-  },
-  "frostDepth": {
-   "value": 0,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Gulf Coast; frost depth negligible (local tables typically list 0-6 in). Not read.",
-   "unit": "in"
+  "engineChanges": [
+    {
+      "id": "beaumont-code-edition",
+      "ruleType": "code-edition-by-city",
+      "area": "plan",
+      "change": "Check plans against 2021 IRC (city adoption) and energy code 2021 IECC instead of the plain 2021 IRC model",
+      "priority": "should",
+      "params": {
+        "irc": "2021 IRC",
+        "energy": "2021 IECC",
+        "editionStatus": "Secondary"
+      },
+      "source": {
+        "id": "beaumont-accessory-permit-checklist",
+        "title": "City of Beaumont Commercial and Residential Accessory Building Permit Checklist (lists 2021 IRC/IBC/IFC/IECC, 2020 NEC, ICC 600-2020; windstorm engineer certification for buildings >= 120 sf)",
+        "url": "https://www.beaumonttexas.gov/DocumentCenter/View/4134/Commercial-and-Residential-Accessory-Building-Permit-Checklist",
+        "read": "2026-10-11"
+      },
+      "derived": "added by coordinator from codes.irc.edition"
+    },
+    {
+      "id": "beaumont-setbacks",
+      "ruleType": "setback-by-district",
+      "area": "setbacks",
+      "change": "Default RS Residential Single-Family Dwelling (assumed): front 25, side 5, street side 10, rear 25 ft - ASSUMED, require user to confirm from plat/zoning letter",
+      "priority": "should",
+      "params": {
+        "district": "RS Residential Single-Family Dwelling (assumed)",
+        "frontFt": 25,
+        "sideFt": 5,
+        "streetSideFt": 10,
+        "rearFt": 25,
+        "assumed": true,
+        "requireUserConfirm": true
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "beaumont-plat-lines",
+      "ruleType": "building-line-plat",
+      "area": "survey",
+      "change": "Read platted building lines from the recorded plat; they override district defaults when larger",
+      "priority": "must",
+      "params": {
+        "usePlatBuildingLine": true
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "beaumont-eng-fdn",
+      "ruleType": "engineered-foundation-flag",
+      "area": "foundation",
+      "change": "Flag engineer-designed slab for expansive clay",
+      "priority": "should",
+      "params": {
+        "engineeredFoundation": true,
+        "assumed": true
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "beaumont-energy-cz",
+      "ruleType": "climate-zone-envelope",
+      "area": "envelope",
+      "change": "Use climate zone 2A envelope tables; state floor is 2015 IRC Ch. 11 (ERI option under HSC 388.003)",
+      "priority": "must",
+      "params": {
+        "climateZone": "2A",
+        "energyBase": "2015 IRC Ch.11 (state floor)",
+        "eriMaxCZ2_3": 59
+      },
+      "source": {
+        "id": "tx-hsc-388",
+        "title": "Texas Health & Safety Code Ch. 388 (Texas Building Energy Performance Standards)",
+        "url": "https://statutes.capitol.texas.gov/Docs/HS/htm/HS.388.htm",
+        "read": "2026-10-11",
+        "section": "388.003"
+      }
+    },
+    {
+      "id": "beaumont-masonry-none",
+      "ruleType": "masonry-percentage",
+      "area": "envelope",
+      "change": "Do not apply any city-mandated masonry %; only flag HOA/deed restriction check",
+      "priority": "should",
+      "params": {
+        "masonryPctMin": 0,
+        "checkDeedRestrictions": true
+      },
+      "source": {
+        "id": "tx-gov-3000",
+        "title": "Texas Government Code Ch. 3000 (building products, materials, methods; HB 2439, 2019)",
+        "url": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.3000.htm",
+        "read": "2026-10-11",
+        "section": "3000.002"
+      }
+    },
+    {
+      "id": "beaumont-windstorm",
+      "ruleType": "windstorm-package",
+      "area": "structure",
+      "change": "Apply TDI windstorm package for Inland II zone: design to 143 mph Vult (ASCE 7-10 equiv. of 110 mph) - re-check under 2024 IRC/ASCE 7-22 for certifications after 1 Apr 2026; ICC 600 high-wind prescriptive option; engineer windstorm certification and WPI-8; continuous load path.",
+      "priority": "must",
+      "params": {
+        "tdiCounty": "Jefferson",
+        "tdiZone": "Inland II",
+        "designWind3sGustMph": 110,
+        "designWindVultMph": 143,
+        "certificate": "WPI-8",
+        "codeBasisAfter2026_04_01": "2024 IRC",
+        "icc600": true,
+        "verifyZone": true
+      },
+      "source": {
+        "id": "beaumont-tdi-jefferson-map",
+        "title": "TDI Windstorm - Jefferson County wind zone page (Beaumont = Inland II, 110 mph 3-s gust under 2006 IRC/IBC w/ Texas revisions)",
+        "url": "https://tdi.texas.gov/wind/maps/jefferso.html",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "beaumont-flood",
+      "ruleType": "flood-elevation",
+      "area": "foundation",
+      "change": "Require FEMA flood zone/BFE input; if in SFHA set lowest floor >= BFE + 1 ft (assumed) and elevation certificate",
+      "priority": "must",
+      "params": {
+        "freeboardFt": 1,
+        "assumed": true,
+        "elevationCertificate": true
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "beaumont-sealed",
+      "ruleType": "sealed-drawings-required",
+      "area": "drawings",
+      "change": "Require Texas-registered engineer windstorm certification for the house (city rule: all buildings >= 120 sf).",
+      "priority": "must",
+      "params": {
+        "sealedWind": true,
+        "minBuildingSqFt": 120
+      },
+      "source": {
+        "id": "beaumont-accessory-permit-checklist",
+        "title": "City of Beaumont Commercial and Residential Accessory Building Permit Checklist (lists 2021 IRC/IBC/IFC/IECC, 2020 NEC, ICC 600-2020; windstorm engineer certification for buildings >= 120 sf)",
+        "url": "https://www.beaumonttexas.gov/DocumentCenter/View/4134/Commercial-and-Residential-Accessory-Building-Permit-Checklist",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "beaumont-permit-fee",
+      "ruleType": "permit-fee-formula",
+      "area": "estimate",
+      "change": "Building permit = $0.50 x sq ft (min $55) + $150 plan review + $10 usage; MEP permits separate.",
+      "priority": "should",
+      "params": {
+        "usdPerSqFt": 0.5,
+        "planReviewUSD": 150,
+        "usageUSD": 10,
+        "minUSD": 55
+      },
+      "source": {
+        "id": "beaumont-res-permit-fee-2024",
+        "title": "COB Residential Building Permit Fee Schedule 2024",
+        "url": "https://www.beaumonttexas.gov/DocumentCenter/View/2179/COB-Residential-Building-Permit-Fee-Schedule-2024",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "beaumont-codes",
+      "ruleType": "electrical-code-edition",
+      "area": "drawings",
+      "change": "Use 2021 IRC/IECC and NEC 2020 for Beaumont plan notes; include ICC 600 high-wind provisions where used.",
+      "priority": "should",
+      "params": {
+        "irc": "2021",
+        "iecc": "2021",
+        "nec": "2020"
+      },
+      "source": {
+        "id": "beaumont-accessory-permit-checklist",
+        "title": "City of Beaumont Commercial and Residential Accessory Building Permit Checklist (lists 2021 IRC/IBC/IFC/IECC, 2020 NEC, ICC 600-2020; windstorm engineer certification for buildings >= 120 sf)",
+        "url": "https://www.beaumonttexas.gov/DocumentCenter/View/4134/Commercial-and-Residential-Accessory-Building-Permit-Checklist",
+        "read": "2026-10-11"
+      }
+    }
+  ],
+  "plainLanguage": "Beaumont uses the 2021 International Residential Code and energy code and the 2020 National Electrical Code. It is in Jefferson County, inside the state windstorm area: Beaumont is in TDI's Inland II zone (110 mph old-basis, about 143 mph in today's terms), so your house needs wind-resistant design and an engineer's windstorm certificate to get TWIA insurance. The city itself requires an engineer windstorm certification for any building of 120 sq ft or more. Since April 2026 the state certifies windstorm work to the 2024 code, so your engineer may use slightly different wind numbers. Much of Beaumont is in mapped flood zones; if yours is, the floor must sit above the flood level (we assume 1 ft above until confirmed). The building permit is about $0.50 per sq ft plus $150 plan review, roughly $1,600 for a 2,400 sq ft home with garage. No impact fees were found. The city cannot require brick.",
+  "openQuestions": [
+    "R-S lot size, setbacks, height, coverage (Sec. 28.03 area/height table)",
+    "Flood freeboard in Art. 24.05",
+    "Whether Beaumont is moving to 2024 I-codes",
+    "Site-specific Vult under ASCE 7-22 for post-April-2026 TDI certifications",
+    "Whether permit $/sf counts garage",
+    "Tap fees"
+  ],
+  "notFound": [
+    "R-S dimensions",
+    "Flood freeboard",
+    "Tap fees",
+    "Adoption ordinance number",
+    "Plumbing/mechanical code names",
+    "Market $/sf"
+  ],
+  "comparison": {
+    "irc": "2021 IRC",
+    "energy": "2021 IECC",
+    "plumbing": "IPC 2021 (assumed)",
+    "district": "R-S",
+    "setbacks": "25/5/25 (assumed)",
+    "maxHeight": "35 ft (assumed)",
+    "coverageFar": "unknown",
+    "masonry": "none (state preemption)",
+    "engFoundation": "assumed yes",
+    "windstorm": "yes - TDI Inland II, 110 mph (143 Vult); engineer cert",
+    "flood": "Art. 24.05; freeboard not found (assume BFE+1)",
+    "permitFeeExample": "$1,580",
+    "impactFees": "none found",
+    "costFactor": "PENDING"
   }
- },
- "zoning": {
-  "hasZoning": {
-   "value": true,
-   "status": "Secondary",
-   "source": {
-    "id": "beaumont-zoneomics-ch3",
-    "title": "Beaumont TX Code Ch. 28 Zoning (Zoneomics mirror) - Sec. 28.03.002 R-S Residential Single-Family Dwelling District",
-    "url": "https://www.zoneomics.com/code/beaumont-TX/chapter_3",
-    "read": "2026-10-11"
-   },
-   "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-  },
-  "typicalDistrict": {
-   "value": "R-S Residential Single-Family Dwelling District (Sec. 28.03.002) - most restrictive residential district",
-   "status": "Secondary",
-   "source": {
-    "id": "beaumont-zoneomics-ch3",
-    "title": "Beaumont TX Code Ch. 28 Zoning (Zoneomics mirror) - Sec. 28.03.002 R-S Residential Single-Family Dwelling District",
-    "url": "https://www.zoneomics.com/code/beaumont-TX/chapter_3",
-    "read": "2026-10-11"
-   },
-   "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-  },
-  "minLotSqFt": {
-   "value": 5000,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: R-S area/height table (2 targeted searches); engine value ASSUMED.",
-   "unit": "sqft"
-  },
-  "minLotWidthFt": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: min lot width. Web search budget exhausted and page fetch unavailable during this run."
-  },
-  "minLotDepthFt": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: min lot depth. Web search budget exhausted and page fetch unavailable during this run."
-  },
-  "setbacksFt": {
-   "front": {
-    "value": 25,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Not found: R-S area/height table (2 targeted searches); engine value ASSUMED. Not found in ordinance; regional typical value - verify before use.",
-    "unit": "ft"
-   },
-   "side": {
-    "value": 5,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Not found: R-S area/height table (2 targeted searches); engine value ASSUMED. Not found in ordinance; regional typical value - verify before use.",
-    "unit": "ft"
-   },
-   "streetSide": {
-    "value": 10,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Not found: R-S area/height table (2 targeted searches); engine value ASSUMED. Not found in ordinance; regional typical value - verify before use.",
-    "unit": "ft"
-   },
-   "rear": {
-    "value": 25,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Not found: R-S area/height table (2 targeted searches); engine value ASSUMED. Not found in ordinance; regional typical value - verify before use.",
-    "unit": "ft"
-   }
-  },
-  "maxHeightFt": {
-   "value": 35,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found; typical SF limit.",
-   "unit": "ft"
-  },
-  "maxStories": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found."
-  },
-  "maxLotCoverage": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found."
-  },
-  "imperviousCover": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found."
-  },
-  "far": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found; Texas SF districts rarely use FAR."
-  },
-  "parking": {
-   "value": "2 off-street spaces per dwelling (typical)",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found."
-  },
-  "garageRules": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found."
-  },
-  "adu": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found."
-  },
-  "masonry": {
-   "value": "No enforceable city masonry % for new homes (Gov't Code ch. 3000, HB 2439); deed restrictions may require brick.",
-   "status": "Secondary",
-   "source": {
-    "id": "tx-gov-3000",
-    "title": "Texas Government Code Ch. 3000 (building products, materials, methods; HB 2439, 2019)",
-    "url": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.3000.htm",
-    "read": "2026-10-11",
-    "section": "3000.002"
-   },
-   "note": "State statute."
-  },
-  "trees": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found."
-  },
-  "minDwellingSizeSqFt": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found."
-  },
-  "other": []
- },
- "process": {
-  "steps": [
-   {
-    "value": "Building permit application with plans and site plan to city Building Inspection; plan review; inspections; certificate of occupancy",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Generic Texas municipal process; city specifics not read."
-   }
-  ],
-  "sealsRequired": [
-   {
-    "value": "Texas-registered engineer windstorm certification for buildings 120 sf and larger (city checklist); TDI WPI-8 certificate needed for TWIA insurance.",
-    "status": "Secondary",
-    "source": {
-     "id": "beaumont-accessory-permit-checklist",
-     "title": "City of Beaumont Commercial and Residential Accessory Building Permit Checklist (lists 2021 IRC/IBC/IFC/IECC, 2020 NEC, ICC 600-2020; windstorm engineer certification for buildings >= 120 sf)",
-     "url": "https://www.beaumonttexas.gov/DocumentCenter/View/4134/Commercial-and-Residential-Accessory-Building-Permit-Checklist",
-     "read": "2026-10-11"
-    },
-    "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-   },
-   {
-    "value": "PE-designed foundation commonly used on Beaumont clays; architect seal not required for 1-2 family (Tex. Occ. Code ch. 1051).",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (not found in wave 3 searches)",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Not verified as a city requirement."
-   }
-  ],
-  "inspections": [
-   {
-    "value": "Foundation, framing/rough MEP, insulation, final",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Generic IRC sequence."
-   }
-  ],
-  "reviewDays": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found."
-  }
- },
- "fees": {
-  "permitFormula": {
-   "value": "$0.50 per sq ft (single-family) building permit; $150 residential plan review; $10 usage fee; $55 minimum; MEP permits separate",
-   "status": "Secondary",
-   "source": {
-    "id": "beaumont-res-permit-fee-2024",
-    "title": "COB Residential Building Permit Fee Schedule 2024",
-    "url": "https://www.beaumonttexas.gov/DocumentCenter/View/2179/COB-Residential-Building-Permit-Fee-Schedule-2024",
-    "read": "2026-10-11"
-   },
-   "note": "2024 schedule; whether garage area counts not shown in extract (assumed counted). Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-  },
-  "workedExample2400sqft": {
-   "value": 1580,
-   "status": "Secondary",
-   "source": {
-    "id": "beaumont-res-permit-fee-2024",
-    "title": "COB Residential Building Permit Fee Schedule 2024",
-    "url": "https://www.beaumonttexas.gov/DocumentCenter/View/2179/COB-Residential-Building-Permit-Fee-Schedule-2024",
-    "read": "2026-10-11"
-   },
-   "unit": "USD",
-   "note": "Assume 2,400 sf conditioned + 440 sf attached garage counted: 2,840 x $0.50 = $1,420 + $150 plan review + $10 usage = $1,580 (house area only: $1,200 + $160 = $1,360). MEP permits extra."
-  },
-  "planReview": {
-   "value": 150,
-   "status": "Secondary",
-   "source": {
-    "id": "beaumont-res-permit-fee-2024",
-    "title": "COB Residential Building Permit Fee Schedule 2024",
-    "url": "https://www.beaumonttexas.gov/DocumentCenter/View/2179/COB-Residential-Building-Permit-Fee-Schedule-2024",
-    "read": "2026-10-11"
-   },
-   "unit": "USD",
-   "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-  },
-  "impactFees": [
-   {
-    "value": 0,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (not found in wave 3 searches)",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "unit": "USD",
-    "note": "No Beaumont impact fee ordinance found in searches (older built-out city); treat as none pending confirmation."
-   }
-  ],
-  "tapFees": [
-   {
-    "value": null,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (not found in wave 3 searches)",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Not found: Beaumont water/sewer tap fees (search returned other cities)."
-   }
-  ]
- },
- "cost": {
-  "factor": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "cost-method",
-    "title": "See README cost method (filled by cost agent)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "PENDING_COST_AGENT"
-  },
-  "method": "PENDING_COST_AGENT",
-  "perSqFtMarket": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: no public per-sq-ft market figure retrieved this run."
-  },
-  "drivers": [
-   {
-    "value": "Expansive clay soils -> engineered slab.",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (not found in wave 3 searches)",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Typical Gulf Coast clay."
-   },
-   {
-    "value": "TDI windstorm design and engineer certification (WPI-8), high-wind connectors, impact-rated or protected openings where required.",
-    "status": "Secondary",
-    "source": {
-     "id": "beaumont-accessory-permit-checklist",
-     "title": "City of Beaumont Commercial and Residential Accessory Building Permit Checklist (lists 2021 IRC/IBC/IFC/IECC, 2020 NEC, ICC 600-2020; windstorm engineer certification for buildings >= 120 sf)",
-     "url": "https://www.beaumonttexas.gov/DocumentCenter/View/4134/Commercial-and-Residential-Accessory-Building-Permit-Checklist",
-     "read": "2026-10-11"
-    },
-    "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-   },
-   {
-    "value": "Flood elevation and flood insurance in SFHA areas.",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (not found in wave 3 searches)",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Large mapped floodplains."
-   }
-  ]
- },
- "flood": {
-  "value": "Flood Damage Prevention: City Code Ch. 24 Art. 24.05 (exists per eCode360 search listing); freeboard value not found. Large SFHA areas (Neches River, Harvey/Imelda). Engine assumes lowest floor >= BFE + 1 ft until confirmed.",
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed - agent judgement (not found in wave 3 searches)",
-   "url": "",
-   "read": "2026-10-11"
-  },
-  "note": "Article located in search results but text (elevation section) not seen; ecode360 page URL could not be tied to Beaumont with certainty, so not cited."
- },
- "engineChanges": [
-  {
-   "id": "beaumont-setbacks",
-   "ruleType": "setback-by-district",
-   "area": "setbacks",
-   "change": "Default RS Residential Single-Family Dwelling (assumed): front 25, side 5, street side 10, rear 25 ft - ASSUMED, require user to confirm from plat/zoning letter",
-   "priority": "should",
-   "params": {
-    "district": "RS Residential Single-Family Dwelling (assumed)",
-    "frontFt": 25,
-    "sideFt": 5,
-    "streetSideFt": 10,
-    "rearFt": 25,
-    "assumed": true,
-    "requireUserConfirm": true
-   },
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "beaumont-plat-lines",
-   "ruleType": "building-line-plat",
-   "area": "survey",
-   "change": "Read platted building lines from the recorded plat; they override district defaults when larger",
-   "priority": "must",
-   "params": {
-    "usePlatBuildingLine": true
-   },
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "beaumont-eng-fdn",
-   "ruleType": "engineered-foundation-flag",
-   "area": "foundation",
-   "change": "Flag engineer-designed slab for expansive clay",
-   "priority": "should",
-   "params": {
-    "engineeredFoundation": true,
-    "assumed": true
-   },
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "beaumont-energy-cz",
-   "ruleType": "climate-zone-envelope",
-   "area": "envelope",
-   "change": "Use climate zone 2A envelope tables; state floor is 2015 IRC Ch. 11 (ERI option under HSC 388.003)",
-   "priority": "must",
-   "params": {
-    "climateZone": "2A",
-    "energyBase": "2015 IRC Ch.11 (state floor)",
-    "eriMaxCZ2_3": 59
-   },
-   "source": {
-    "id": "tx-hsc-388",
-    "title": "Texas Health & Safety Code Ch. 388 (Texas Building Energy Performance Standards)",
-    "url": "https://statutes.capitol.texas.gov/Docs/HS/htm/HS.388.htm",
-    "read": "2026-10-11",
-    "section": "388.003"
-   }
-  },
-  {
-   "id": "beaumont-masonry-none",
-   "ruleType": "masonry-percentage",
-   "area": "envelope",
-   "change": "Do not apply any city-mandated masonry %; only flag HOA/deed restriction check",
-   "priority": "should",
-   "params": {
-    "masonryPctMin": 0,
-    "checkDeedRestrictions": true
-   },
-   "source": {
-    "id": "tx-gov-3000",
-    "title": "Texas Government Code Ch. 3000 (building products, materials, methods; HB 2439, 2019)",
-    "url": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.3000.htm",
-    "read": "2026-10-11",
-    "section": "3000.002"
-   }
-  },
-  {
-   "id": "beaumont-windstorm",
-   "ruleType": "windstorm-package",
-   "area": "structure",
-   "change": "Apply TDI windstorm package for Inland II zone: design to 143 mph Vult (ASCE 7-10 equiv. of 110 mph) - re-check under 2024 IRC/ASCE 7-22 for certifications after 1 Apr 2026; ICC 600 high-wind prescriptive option; engineer windstorm certification and WPI-8; continuous load path.",
-   "priority": "must",
-   "params": {
-    "tdiCounty": "Jefferson",
-    "tdiZone": "Inland II",
-    "designWind3sGustMph": 110,
-    "designWindVultMph": 143,
-    "certificate": "WPI-8",
-    "codeBasisAfter2026_04_01": "2024 IRC",
-    "icc600": true,
-    "verifyZone": true
-   },
-   "source": {
-    "id": "beaumont-tdi-jefferson-map",
-    "title": "TDI Windstorm - Jefferson County wind zone page (Beaumont = Inland II, 110 mph 3-s gust under 2006 IRC/IBC w/ Texas revisions)",
-    "url": "https://tdi.texas.gov/wind/maps/jefferso.html",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "beaumont-flood",
-   "ruleType": "flood-elevation",
-   "area": "foundation",
-   "change": "Require FEMA flood zone/BFE input; if in SFHA set lowest floor >= BFE + 1 ft (assumed) and elevation certificate",
-   "priority": "must",
-   "params": {
-    "freeboardFt": 1,
-    "assumed": true,
-    "elevationCertificate": true
-   },
-   "source": {
-    "id": "assumed",
-    "title": "Assumed",
-    "url": "",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "beaumont-sealed",
-   "ruleType": "sealed-drawings-required",
-   "area": "drawings",
-   "change": "Require Texas-registered engineer windstorm certification for the house (city rule: all buildings >= 120 sf).",
-   "priority": "must",
-   "params": {
-    "sealedWind": true,
-    "minBuildingSqFt": 120
-   },
-   "source": {
-    "id": "beaumont-accessory-permit-checklist",
-    "title": "City of Beaumont Commercial and Residential Accessory Building Permit Checklist (lists 2021 IRC/IBC/IFC/IECC, 2020 NEC, ICC 600-2020; windstorm engineer certification for buildings >= 120 sf)",
-    "url": "https://www.beaumonttexas.gov/DocumentCenter/View/4134/Commercial-and-Residential-Accessory-Building-Permit-Checklist",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "beaumont-permit-fee",
-   "ruleType": "permit-fee-formula",
-   "area": "estimate",
-   "change": "Building permit = $0.50 x sq ft (min $55) + $150 plan review + $10 usage; MEP permits separate.",
-   "priority": "should",
-   "params": {
-    "usdPerSqFt": 0.5,
-    "planReviewUSD": 150,
-    "usageUSD": 10,
-    "minUSD": 55
-   },
-   "source": {
-    "id": "beaumont-res-permit-fee-2024",
-    "title": "COB Residential Building Permit Fee Schedule 2024",
-    "url": "https://www.beaumonttexas.gov/DocumentCenter/View/2179/COB-Residential-Building-Permit-Fee-Schedule-2024",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "beaumont-codes",
-   "ruleType": "electrical-code-edition",
-   "area": "drawings",
-   "change": "Use 2021 IRC/IECC and NEC 2020 for Beaumont plan notes; include ICC 600 high-wind provisions where used.",
-   "priority": "should",
-   "params": {
-    "irc": "2021",
-    "iecc": "2021",
-    "nec": "2020"
-   },
-   "source": {
-    "id": "beaumont-accessory-permit-checklist",
-    "title": "City of Beaumont Commercial and Residential Accessory Building Permit Checklist (lists 2021 IRC/IBC/IFC/IECC, 2020 NEC, ICC 600-2020; windstorm engineer certification for buildings >= 120 sf)",
-    "url": "https://www.beaumonttexas.gov/DocumentCenter/View/4134/Commercial-and-Residential-Accessory-Building-Permit-Checklist",
-    "read": "2026-10-11"
-   }
-  }
- ],
- "plainLanguage": "Beaumont uses the 2021 International Residential Code and energy code and the 2020 National Electrical Code. It is in Jefferson County, inside the state windstorm area: Beaumont is in TDI's Inland II zone (110 mph old-basis, about 143 mph in today's terms), so your house needs wind-resistant design and an engineer's windstorm certificate to get TWIA insurance. The city itself requires an engineer windstorm certification for any building of 120 sq ft or more. Since April 2026 the state certifies windstorm work to the 2024 code, so your engineer may use slightly different wind numbers. Much of Beaumont is in mapped flood zones; if yours is, the floor must sit above the flood level (we assume 1 ft above until confirmed). The building permit is about $0.50 per sq ft plus $150 plan review, roughly $1,600 for a 2,400 sq ft home with garage. No impact fees were found. The city cannot require brick.",
- "openQuestions": [
-  "R-S lot size, setbacks, height, coverage (Sec. 28.03 area/height table)",
-  "Flood freeboard in Art. 24.05",
-  "Whether Beaumont is moving to 2024 I-codes",
-  "Site-specific Vult under ASCE 7-22 for post-April-2026 TDI certifications",
-  "Whether permit $/sf counts garage",
-  "Tap fees"
- ],
- "notFound": [
-  "R-S dimensions",
-  "Flood freeboard",
-  "Tap fees",
-  "Adoption ordinance number",
-  "Plumbing/mechanical code names",
-  "Market $/sf"
- ],
- "comparison": {
-  "irc": "2021 IRC",
-  "energy": "2021 IECC",
-  "plumbing": "IPC 2021 (assumed)",
-  "district": "R-S",
-  "setbacks": "25/5/25 (assumed)",
-  "maxHeight": "35 ft (assumed)",
-  "coverageFar": "unknown",
-  "masonry": "none (state preemption)",
-  "engFoundation": "assumed yes",
-  "windstorm": "yes - TDI Inland II, 110 mph (143 Vult); engineer cert",
-  "flood": "Art. 24.05; freeboard not found (assume BFE+1)",
-  "permitFeeExample": "$1,580",
-  "impactFees": "none found",
-  "costFactor": "PENDING"
- }
 }

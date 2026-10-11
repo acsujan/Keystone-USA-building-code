@@ -640,6 +640,25 @@
   },
   "engineChanges": [
     {
+      "id": "league-city-code-edition",
+      "ruleType": "code-edition-by-city",
+      "area": "plan",
+      "change": "Check plans against 2021 IRC (city adoption) and energy code 2021 IECC instead of the plain 2021 IRC model",
+      "priority": "should",
+      "params": {
+        "irc": "2021 IRC",
+        "energy": "2021 IECC",
+        "editionStatus": "Secondary"
+      },
+      "source": {
+        "id": "league-city-cc-agenda-ch22-2021",
+        "title": "League City Council agenda/video - public hearing & action amending Ch. 22 Building to adopt 2021 I-codes with local amendments",
+        "url": "https://leaguecitytx.new.swagit.com/videos/246207",
+        "read": "2026-10-11"
+      },
+      "derived": "added by coordinator from codes.irc.edition"
+    },
+    {
       "id": "league-city-windstorm",
       "ruleType": "windstorm-package",
       "area": "structure",

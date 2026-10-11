@@ -657,6 +657,25 @@
   },
   "engineChanges": [
     {
+      "id": "plano-code-edition",
+      "ruleType": "code-edition-by-city",
+      "area": "plan",
+      "change": "Check plans against 2024 IRC (city adoption) and energy code unknown instead of the plain 2021 IRC model",
+      "priority": "must",
+      "params": {
+        "irc": "2024 IRC",
+        "energy": null,
+        "editionStatus": "Secondary"
+      },
+      "source": {
+        "id": "plano-ord-irc-2024",
+        "title": "City of Plano ordinance adopting the 2024 International Residential Code with local amendments (repeals Ord. 2022-1-17; retains Sec. R325 sprinklers)",
+        "url": "https://content.civicplus.com/api/assets/tx-plano/6a2b7a22-3b2f-41c5-844b-6f5d6bb15067",
+        "read": "2026-10-11"
+      },
+      "derived": "added by coordinator from codes.irc.edition"
+    },
+    {
       "id": "plano-sf7-setbacks",
       "ruleType": "setback-by-district",
       "area": "setbacks",

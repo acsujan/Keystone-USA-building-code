@@ -687,7 +687,7 @@
   "engineChanges": [
     {
       "id": "killeen-irc-2024",
-      "ruleType": "irc-edition-variant",
+      "ruleType": "code-edition-by-city",
       "area": "drawings",
       "change": "Use 2024 IRC/IECC/IPC/IMC and NEC 2023 as the code basis (not 2021 IRC) for permits applied on/after 2026-01-01",
       "priority": "must",

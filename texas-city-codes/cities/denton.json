@@ -657,6 +657,25 @@
   },
   "engineChanges": [
     {
+      "id": "denton-code-edition",
+      "ruleType": "code-edition-by-city",
+      "area": "plan",
+      "change": "Check plans against 2021 IRC (city adoption) and energy code 2021 IECC (with local/NCTCOG amendments) instead of the plain 2021 IRC model",
+      "priority": "should",
+      "params": {
+        "irc": "2021 IRC",
+        "energy": "2021 IECC (with local/NCTCOG amendments)",
+        "editionStatus": "Secondary"
+      },
+      "source": {
+        "id": "denton-agenda-22-667-irc2021",
+        "title": "Denton City Council 2022-04-05 item 22-667: ordinance repealing 2012 IRC and adopting 2021 IRC (Code Secs. 28-33, 28-34)",
+        "url": "https://denton-tx.granicusideas.com/meetings/3021-city-council-on-2022-04-05-2-00-pm/agenda_items/62476031f395e7d7be000c4e-y-id-22-667-consider-adoption-of-an-ordinance-of",
+        "read": "2026-10-11"
+      },
+      "derived": "added by coordinator from codes.irc.edition"
+    },
+    {
       "id": "denton-verify-district",
       "ruleType": "survey-input-district",
       "area": "survey",

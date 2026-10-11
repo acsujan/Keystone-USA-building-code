@@ -1,883 +1,902 @@
 {
- "id": "prosper",
- "name": "Town of Prosper",
- "state": "TX",
- "tier": 2,
- "counties": [
-  "Collin",
-  "Denton"
- ],
- "msa": {
-  "name": "Dallas-Fort Worth-Arlington, TX",
-  "blsCode": "19100"
- },
- "population": {
-  "value": 42000,
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed - agent judgement (no source could be read this session)",
-   "url": "",
-   "read": "2026-10-11"
+  "id": "prosper",
+  "name": "Town of Prosper",
+  "state": "TX",
+  "tier": 2,
+  "counties": [
+    "Collin",
+    "Denton"
+  ],
+  "msa": {
+    "name": "Dallas-Fort Worth-Arlington, TX",
+    "blsCode": "19100"
   },
-  "note": "Rough Census Vintage 2024 estimate (~42,000) from agent knowledge."
- },
- "zipCodesOrBoundary": {
-  "value": "75078 (75009 partly)",
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed - agent judgement (no source could be read this session)",
-   "url": "",
-   "read": "2026-10-11"
-  },
-  "note": "Agent knowledge; confirm with city-limits GIS map (also ETJ/MUD areas)."
- },
- "climateZone": {
-  "value": "3A",
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed - agent judgement (no source could be read this session)",
-   "url": "",
-   "read": "2026-10-11"
-  },
-  "note": "2021/2024 IECC Table R301.1 county list places Collin and Denton Counties in Climate Zone 3A (agent knowledge; could not fetch IECC/DOE page this session)."
- },
- "windstormCounty": {
-  "value": false,
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed - agent judgement (no source could be read this session)",
-   "url": "",
-   "read": "2026-10-11"
-  },
-  "note": "Collin/Denton are inland North Texas counties, not in the TDI windstorm (catastrophe) area, which covers only the 14 coastal counties and parts of Harris (agent knowledge)."
- },
- "codes": {
-  "irc": {
-   "edition": {
-    "value": "2021 IRC (permits applied for on/after 1 May 2023)",
-    "status": "Secondary",
-    "source": {
-     "id": "prosper-inspection-guidelines",
-     "title": "Town of Prosper - Inspection Guidelines (2021 International Codes for permits on/after 1 May 2023; 2023 NEC on/after 1 Nov 2023)",
-     "url": "https://prospertx.gov/338/Inspection-Guidelines",
-     "read": "2026-10-11"
-    },
-    "note": "Town page says 2021 International Codes adopted; no 2024 IRC adoption found in searches (Oct 2026). Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-   },
-   "ordinance": {
-    "value": null,
+  "population": {
+    "value": 42000,
     "status": "Assumed",
     "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (not found in wave 3 searches)",
-     "url": "",
-     "read": "2026-10-11"
+      "id": "assumed",
+      "title": "Assumed - agent judgement (no source could be read this session)",
+      "url": "",
+      "read": "2026-10-11"
     },
-    "note": "Not found: adopting ordinance number (town page cites the code cycle and effective date only)."
-   },
-   "amendments": [
-    {
-     "topic": "other",
-     "summary": "Prosper adopts I-Codes with local amendments; NCTCOG regional amendments to the 2021 IRC likely (frost depth, wind, foundation clarifications) - not read.",
-     "status": "Assumed",
-     "source": {
+    "note": "Rough Census Vintage 2024 estimate (~42,000) from agent knowledge."
+  },
+  "zipCodesOrBoundary": {
+    "value": "75078 (75009 partly)",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed - agent judgement (no source could be read this session)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Agent knowledge; confirm with city-limits GIS map (also ETJ/MUD areas)."
+  },
+  "climateZone": {
+    "value": "3A",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed - agent judgement (no source could be read this session)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "2021/2024 IECC Table R301.1 county list places Collin and Denton Counties in Climate Zone 3A (agent knowledge; could not fetch IECC/DOE page this session)."
+  },
+  "windstormCounty": {
+    "value": false,
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed - agent judgement (no source could be read this session)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Collin/Denton are inland North Texas counties, not in the TDI windstorm (catastrophe) area, which covers only the 14 coastal counties and parts of Harris (agent knowledge)."
+  },
+  "codes": {
+    "irc": {
+      "edition": {
+        "value": "2021 IRC (permits applied for on/after 1 May 2023)",
+        "status": "Secondary",
+        "source": {
+          "id": "prosper-inspection-guidelines",
+          "title": "Town of Prosper - Inspection Guidelines (2021 International Codes for permits on/after 1 May 2023; 2023 NEC on/after 1 Nov 2023)",
+          "url": "https://prospertx.gov/338/Inspection-Guidelines",
+          "read": "2026-10-11"
+        },
+        "note": "Town page says 2021 International Codes adopted; no 2024 IRC adoption found in searches (Oct 2026). Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+      },
+      "ordinance": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (not found in wave 3 searches)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: adopting ordinance number (town page cites the code cycle and effective date only)."
+      },
+      "amendments": [
+        {
+          "topic": "other",
+          "summary": "Prosper adopts I-Codes with local amendments; NCTCOG regional amendments to the 2021 IRC likely (frost depth, wind, foundation clarifications) - not read.",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed",
+            "title": "Assumed - agent judgement (not found in wave 3 searches)",
+            "url": "",
+            "read": "2026-10-11"
+          }
+        },
+        {
+          "topic": "fire sprinklers",
+          "summary": "No one/two-family sprinkler mandate (state preemption, LGC 250.011).",
+          "status": "Secondary",
+          "source": {
+            "id": "tx-hb738-allensworth",
+            "title": "HB 738: Texas Adopts 2012 Versions of IRC and IBC; Addresses Residential Fire Sprinklers (law-firm summary)",
+            "url": "https://www.allensworthlaw.com/legal-updates/hb-738/",
+            "read": "2026-10-11"
+          }
+        }
+      ]
+    },
+    "energy": {
+      "edition": {
+        "value": "2021 IECC (part of the 2021 International Codes adopted May 2023)",
+        "status": "Secondary",
+        "source": {
+          "id": "prosper-inspection-guidelines",
+          "title": "Town of Prosper - Inspection Guidelines (2021 International Codes for permits on/after 1 May 2023; 2023 NEC on/after 1 Nov 2023)",
+          "url": "https://prospertx.gov/338/Inspection-Guidelines",
+          "read": "2026-10-11"
+        },
+        "note": "Energy report required in new-house submittal. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+      },
+      "stretchCode": {
+        "value": "None known",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (not found in wave 3 searches)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "No stretch code found."
+      }
+    },
+    "plumbing": {
+      "value": "IPC 2021 (2021 International Codes)",
+      "status": "Secondary",
+      "source": {
+        "id": "prosper-inspection-guidelines",
+        "title": "Town of Prosper - Inspection Guidelines (2021 International Codes for permits on/after 1 May 2023; 2023 NEC on/after 1 Nov 2023)",
+        "url": "https://prospertx.gov/338/Inspection-Guidelines",
+        "read": "2026-10-11"
+      },
+      "note": "Town adopted the 2021 International Codes; IPC assumed to be the plumbing code in that set. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+    },
+    "electrical": {
+      "value": "NEC 2023 (permits on/after 1 Nov 2023)",
+      "status": "Secondary",
+      "source": {
+        "id": "prosper-inspection-guidelines",
+        "title": "Town of Prosper - Inspection Guidelines (2021 International Codes for permits on/after 1 May 2023; 2023 NEC on/after 1 Nov 2023)",
+        "url": "https://prospertx.gov/338/Inspection-Guidelines",
+        "read": "2026-10-11"
+      },
+      "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+    },
+    "mechanical": {
+      "value": "IMC 2021",
+      "status": "Secondary",
+      "source": {
+        "id": "prosper-inspection-guidelines",
+        "title": "Town of Prosper - Inspection Guidelines (2021 International Codes for permits on/after 1 May 2023; 2023 NEC on/after 1 Nov 2023)",
+        "url": "https://prospertx.gov/338/Inspection-Guidelines",
+        "read": "2026-10-11"
+      },
+      "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+    },
+    "fuelGas": {
+      "value": "IFGC 2021",
+      "status": "Secondary",
+      "source": {
+        "id": "prosper-inspection-guidelines",
+        "title": "Town of Prosper - Inspection Guidelines (2021 International Codes for permits on/after 1 May 2023; 2023 NEC on/after 1 Nov 2023)",
+        "url": "https://prospertx.gov/338/Inspection-Guidelines",
+        "read": "2026-10-11"
+      },
+      "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+    },
+    "fire": {
+      "value": "IFC 2021; no one/two-family sprinkler mandate (Texas LGC 250.011 preemption).",
+      "status": "Secondary",
+      "source": {
+        "id": "prosper-inspection-guidelines",
+        "title": "Town of Prosper - Inspection Guidelines (2021 International Codes for permits on/after 1 May 2023; 2023 NEC on/after 1 Nov 2023)",
+        "url": "https://prospertx.gov/338/Inspection-Guidelines",
+        "read": "2026-10-11"
+      },
+      "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+    },
+    "wind": {
+      "value": 105,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "mph Vult",
+      "note": "Approx. ultimate design wind speed for Risk Category II in Collin County per ASCE 7-16 / IRC Fig. R301.2(2) is about 105 mph (agent estimate; NCTCOG regional amendments commonly list ~105-115 mph). Verify with ASCE Hazard Tool."
+    },
+    "hailRoofing": {
+      "value": "No local hail-resistant roofing mandate found; North Texas is a high-hail region - Class 4 impact-resistant shingles (UL 2218) are a common insurer-driven upgrade, not a code requirement.",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not verified in local amendments."
+    },
+    "seismic": {
+      "value": "A",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Seismic Design Category A for North Texas (IRC Fig. R301.2(7) shows low seismicity); agent knowledge."
+    },
+    "frostDepth": {
+      "value": 6,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "in",
+      "note": "NCTCOG-region amendments typically fill IRC Table R301.2(1) frost depth for DFW at about 6 in. (some cities list 12 in.); not verified for this city."
+    }
+  },
+  "zoning": {
+    "hasZoning": {
+      "value": true,
+      "status": "Secondary",
+      "source": {
+        "id": "prosper-ecode-zoning-districts",
+        "title": "Town of Prosper Zoning Ordinance - zoning districts list (eCode360)",
+        "url": "https://ecode360.com/44920240",
+        "read": "2026-10-11"
+      },
+      "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+    },
+    "typicalDistrict": {
+      "value": "SF-10 (Single Family-10) base district; most new homes are in Planned Developments (e.g. PD-127)",
+      "status": "Secondary",
+      "source": {
+        "id": "prosper-ecode-zoning-districts",
+        "title": "Town of Prosper Zoning Ordinance - zoning districts list (eCode360)",
+        "url": "https://ecode360.com/44920240",
+        "read": "2026-10-11"
+      },
+      "note": "District list runs SF-22 down to SF-10. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+    },
+    "minLotSqFt": {
+      "value": 10000,
+      "status": "Secondary",
+      "source": {
+        "id": "prosper-ecode-zoning-districts",
+        "title": "Town of Prosper Zoning Ordinance - zoning districts list (eCode360)",
+        "url": "https://ecode360.com/44920240",
+        "read": "2026-10-11"
+      },
+      "unit": "sq ft",
+      "note": "SF-10 purpose: single family detached on minimum 10,000 sf lots. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+    },
+    "minLotWidthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (not found in wave 3 searches)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: SF-10 lot width."
+    },
+    "minLotDepthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (not found in wave 3 searches)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: SF-10 lot depth."
+    },
+    "setbacksFt": {
+      "front": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (not found in wave 3 searches)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Not found: Prosper SF-10 yard figure (SF-12.5 values found are in zoning.other)."
+      },
+      "side": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (not found in wave 3 searches)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Not found: Prosper SF-10 yard figure (SF-12.5 values found are in zoning.other)."
+      },
+      "streetSide": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (not found in wave 3 searches)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Not found: Prosper SF-10 yard figure (SF-12.5 values found are in zoning.other)."
+      },
+      "rear": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (not found in wave 3 searches)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Not found: Prosper SF-10 yard figure (SF-12.5 values found are in zoning.other)."
+      }
+    },
+    "maxHeightFt": {
+      "value": 40,
+      "status": "Secondary",
+      "source": {
+        "id": "prosper-ecode-sf125-unverified",
+        "title": "eCode360 SF-12.5 district regulations page (city attribution not shown in extract; same structure as Prosper code)",
+        "url": "https://ecode360.com/44920356",
+        "read": "2026-10-11"
+      },
+      "unit": "ft",
+      "note": "SF-12.5 page: 2.5 stories, max 40 ft; city attribution of that eCode360 page not confirmed in extract; SF-10 assumed same. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+    },
+    "maxStories": {
+      "value": 2.5,
+      "status": "Secondary",
+      "source": {
+        "id": "prosper-ecode-sf125-unverified",
+        "title": "eCode360 SF-12.5 district regulations page (city attribution not shown in extract; same structure as Prosper code)",
+        "url": "https://ecode360.com/44920356",
+        "read": "2026-10-11"
+      },
+      "unit": "stories",
+      "note": "Same caveat as maxHeightFt."
+    },
+    "maxLotCoverage": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (not found in wave 3 searches)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found."
+    },
+    "imperviousCover": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No SF impervious cap expected (agent knowledge)."
+    },
+    "far": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No SF FAR expected."
+    },
+    "parking": {
+      "value": "2 enclosed garage spaces per SF dwelling typical in Collin County cities; not verified.",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not verified."
+    },
+    "garageRules": {
+      "value": "PD-specific; town-wide garage-orientation (J-swing) rule not found. Detached garages must meet one of three placement options in the accessory-structure handout.",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (not found in wave 3 searches)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Search found no J-swing provision; see Accessory Structure Placement Handout (Secondary) for detached garages."
+    },
+    "adu": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (not found in wave 3 searches)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: ADU rules."
+    },
+    "masonry": {
+      "value": "City masonry % not enforceable on new homes under Gov't Code ch. 3000 (HB 2439); PD/HOA covenants may still require masonry.",
+      "status": "Secondary",
+      "source": {
+        "id": "tx-gov-3000",
+        "title": "Texas Government Code Ch. 3000 (building products, materials, methods; HB 2439, 2019)",
+        "url": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.3000.htm",
+        "read": "2026-10-11",
+        "section": "3000.002"
+      },
+      "note": "State statute; Prosper PD text not read."
+    },
+    "trees": {
+      "value": "Tree preservation ordinance likely (common in Collin County); not verified.",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not verified."
+    },
+    "other": [
+      {
+        "value": "SF-12.5 (if this page is Prosper's): min lot 12,500 sf, width 80 ft, depth 135 ft; front 30 ft, side 8 ft (15 ft corner street side), rear 25 ft; 2.5 stories / 40 ft.",
+        "status": "Secondary",
+        "source": {
+          "id": "prosper-ecode-sf125-unverified",
+          "title": "eCode360 SF-12.5 district regulations page (city attribution not shown in extract; same structure as Prosper code)",
+          "url": "https://ecode360.com/44920356",
+          "read": "2026-10-11"
+        },
+        "note": "City attribution not confirmed in search extract."
+      },
+      {
+        "value": "Other SF districts: SF-22, SF-15, SF-12.5, SF-10; new residential growth mostly via PDs (e.g. PD-127 Ord. 2024-32).",
+        "status": "Secondary",
+        "source": {
+          "id": "prosper-ecode-zoning-districts",
+          "title": "Town of Prosper Zoning Ordinance - zoning districts list (eCode360)",
+          "url": "https://ecode360.com/44920240",
+          "read": "2026-10-11"
+        },
+        "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+      },
+      {
+        "value": "Accessory structures with roofs (incl. detached garage, patio cover) must meet one of three placement options based on distance from the house.",
+        "status": "Secondary",
+        "source": {
+          "id": "prosper-accessory-handout",
+          "title": "Prosper Accessory Structure Placement Handout",
+          "url": "https://prospertx.gov/DocumentCenter/View/1697/Accessory-Structure-Placement-Handout",
+          "read": "2026-10-11"
+        },
+        "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+      }
+    ]
+  },
+  "process": {
+    "steps": [
+      {
+        "value": "Submit new-house permit with site (plot) plan, construction plans, energy report, engineered foundation; OSSF permit if on septic; pay non-refundable application fee.",
+        "status": "Secondary",
+        "source": {
+          "id": "prosper-new-house-submittal",
+          "title": "Prosper New House Submittal requirements (rev. 04/2025)",
+          "url": "https://prospertx.gov/DocumentCenter/View/1669/New-House-Submittal",
+          "read": "2026-10-11"
+        },
+        "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+      }
+    ],
+    "sealsRequired": [
+      {
+        "value": "PE-sealed foundation design expected (expansive clay); architect seal not required for 1-2 family homes (Tex. Occ. Code ch. 1051 exemption).",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (no source could be read this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not verified locally."
+      }
+    ],
+    "inspections": [
+      {
+        "value": "Typical: plumbing ground, foundation, framing, MEP rough, insulation, final/CO.",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (no source could be read this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not verified."
+      }
+    ],
+    "reviewDays": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: review time. Web fetch blocked by egress policy and session web-search budget exhausted."
+    }
+  },
+  "fees": {
+    "permitFormula": {
+      "value": "$1.00 per sq ft of total area including garages, patios and porches (+ non-refundable application fee; CO $100)",
+      "status": "Secondary",
+      "source": {
+        "id": "prosper-fee-schedule-2025-10",
+        "title": "Town of Prosper Fee Schedule (effective 10/1/2025), DocumentCenter/View/4924",
+        "url": "https://prospertx.gov/DocumentCenter/View/4924",
+        "read": "2026-10-11"
+      },
+      "note": "Fee schedule eff. 10/1/2025; extracted layout was jumbled so the $1.00/sf line is attributed to new residential with moderate confidence. A $6.25 per $1,000 valuation line also appears but LGC 214.907 bars value-based residential fees, so it likely applies to non-residential. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+    },
+    "workedExample2400sqft": {
+      "value": 2940,
+      "status": "Secondary",
+      "source": {
+        "id": "prosper-fee-schedule-2025-10",
+        "title": "Town of Prosper Fee Schedule (effective 10/1/2025), DocumentCenter/View/4924",
+        "url": "https://prospertx.gov/DocumentCenter/View/4924",
+        "read": "2026-10-11"
+      },
+      "unit": "USD",
+      "note": "Assume 2,400 sf conditioned + 440 sf attached garage, no porch/patio: 2,840 sf x $1.00 = $2,840 + CO $100 = $2,940; application fee (amount not seen) and trade permits extra."
+    },
+    "planReview": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (not found in wave 3 searches)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: separate plan review fee; a non-refundable application fee applies."
+    },
+    "impactFees": [
+      {
+        "value": 14390,
+        "status": "Secondary",
+        "source": {
+          "id": "prosper-ci-impact-2025",
+          "title": "Prosper council OKs increasing new development impact fees",
+          "url": "https://communityimpact.com/prosper-celina/government/prosper-council-oks-increasing-new-development-impact-fees/",
+          "read": "2026-10-11"
+        },
+        "unit": "USD",
+        "note": "Water + wastewater impact fee per service unit raised from $6,643 to $14,390 (approved Aug/Sep 2025, first update since 2017). A single-family home on a standard meter is normally 1 service unit. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+      },
+      {
+        "value": "Roadway: $1,258-1,347 per vehicle-mile west of BNSF railroad; $940-1,397 per vehicle-mile east",
+        "status": "Secondary",
+        "source": {
+          "id": "prosper-ci-impact-2025",
+          "title": "Prosper council OKs increasing new development impact fees",
+          "url": "https://communityimpact.com/prosper-celina/government/prosper-council-oks-increasing-new-development-impact-fees/",
+          "read": "2026-10-11"
+        },
+        "note": "Per-home amount depends on the town's vehicle-miles per SF unit (not found). Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+      }
+    ],
+    "tapFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (not found in wave 3 searches)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: water/sewer tap and meter fees."
+      }
+    ]
+  },
+  "cost": {
+    "factor": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "cost-method",
+        "title": "See README cost method (filled by cost agent)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "PENDING_COST_AGENT"
+    },
+    "method": "PENDING_COST_AGENT",
+    "perSqFtMarket": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: public market $/sf figure. Web fetch blocked by egress policy and session web-search budget exhausted."
+    },
+    "drivers": [
+      {
+        "value": "Engineered slab on expansive clay.",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (not found in wave 3 searches)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Typical North Texas."
+      },
+      {
+        "value": "PD/HOA masonry and architectural standards; large lots (SF-10 to SF-22).",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (not found in wave 3 searches)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Typical Prosper."
+      },
+      {
+        "value": "Water+wastewater impact fee $14,390 per home (2025) plus roadway fee (per vehicle-mile).",
+        "status": "Secondary",
+        "source": {
+          "id": "prosper-ci-impact-2025",
+          "title": "Prosper council OKs increasing new development impact fees",
+          "url": "https://communityimpact.com/prosper-celina/government/prosper-council-oks-increasing-new-development-impact-fees/",
+          "read": "2026-10-11"
+        },
+        "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+      }
+    ]
+  },
+  "flood": {
+    "value": "NFIP participant; Prosper floodplain freeboard not found in searches (DFW cities commonly 1-2 ft above BFE).",
+    "status": "Assumed",
+    "source": {
       "id": "assumed",
       "title": "Assumed - agent judgement (not found in wave 3 searches)",
       "url": "",
       "read": "2026-10-11"
-     }
+    },
+    "note": "Search returned only other cities' ordinances."
+  },
+  "engineChanges": [
+    {
+      "id": "prosper-code-edition",
+      "ruleType": "code-edition-by-city",
+      "area": "plan",
+      "change": "Check plans against 2021 IRC (permits applied for on/after 1 May 2023) (city adoption) and energy code 2021 IECC (part of the 2021 International Codes adopted May 2023) instead of the plain 2021 IRC model",
+      "priority": "should",
+      "params": {
+        "irc": "2021 IRC (permits applied for on/after 1 May 2023)",
+        "energy": "2021 IECC (part of the 2021 International Codes adopted May 2023)",
+        "editionStatus": "Secondary"
+      },
+      "source": {
+        "id": "prosper-inspection-guidelines",
+        "title": "Town of Prosper - Inspection Guidelines (2021 International Codes for permits on/after 1 May 2023; 2023 NEC on/after 1 Nov 2023)",
+        "url": "https://prospertx.gov/338/Inspection-Guidelines",
+        "read": "2026-10-11"
+      },
+      "derived": "added by coordinator from codes.irc.edition"
     },
     {
-     "topic": "fire sprinklers",
-     "summary": "No one/two-family sprinkler mandate (state preemption, LGC 250.011).",
-     "status": "Secondary",
-     "source": {
-      "id": "tx-hb738-allensworth",
-      "title": "HB 738: Texas Adopts 2012 Versions of IRC and IBC; Addresses Residential Fire Sprinklers (law-firm summary)",
-      "url": "https://www.allensworthlaw.com/legal-updates/hb-738/",
-      "read": "2026-10-11"
-     }
+      "id": "prosper-pd-check",
+      "ruleType": "survey-input-district",
+      "area": "survey",
+      "change": "Ask for the lot's zoning/PD; most new Prosper lots are in PDs. Base SF-10 needs min 10,000 sf lot; height default 40 ft / 2.5 stories; setbacks must come from PD or plat (SF-10 yards not verified).",
+      "priority": "must",
+      "params": {
+        "defaultDistrict": "SF-10",
+        "minLotSqFt": 10000,
+        "maxHeightFt": 40,
+        "maxStories": 2.5,
+        "pdLikely": true,
+        "setbacksVerified": false,
+        "requireUserConfirm": true
+      },
+      "source": {
+        "id": "prosper-ecode-zoning-districts",
+        "title": "Town of Prosper Zoning Ordinance - zoning districts list (eCode360)",
+        "url": "https://ecode360.com/44920240",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "prosper-eng-foundation",
+      "ruleType": "engineered-foundation-flag",
+      "area": "foundation",
+      "change": "Flag PE-sealed engineered foundation (post-tensioned slab) for all new homes on Collin County expansive clay.",
+      "priority": "must",
+      "params": {
+        "peSealed": true,
+        "status": "Assumed"
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "prosper-energy",
+      "ruleType": "climate-zone-envelope",
+      "area": "envelope",
+      "change": "Use 2021 IECC climate zone 3A envelope values; energy report required at submittal.",
+      "priority": "must",
+      "params": {
+        "climateZone": "3A",
+        "energyCode": "2021 IECC"
+      },
+      "source": {
+        "id": "prosper-inspection-guidelines",
+        "title": "Town of Prosper - Inspection Guidelines (2021 International Codes for permits on/after 1 May 2023; 2023 NEC on/after 1 Nov 2023)",
+        "url": "https://prospertx.gov/338/Inspection-Guidelines",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "prosper-masonry",
+      "ruleType": "masonry-percentage",
+      "area": "envelope",
+      "change": "Do not enforce city masonry %; prompt for PD/HOA masonry requirement.",
+      "priority": "should",
+      "params": {
+        "cityEnforceable": false
+      },
+      "source": {
+        "id": "tx-gov-3000",
+        "title": "Texas Government Code Ch. 3000 (building products, materials, methods; HB 2439, 2019)",
+        "url": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.3000.htm",
+        "read": "2026-10-11",
+        "section": "3000.002"
+      }
+    },
+    {
+      "id": "prosper-impact-fees",
+      "ruleType": "impact-fee-estimate",
+      "area": "estimate",
+      "change": "Add water+wastewater impact fee $14,390 per SF home plus roadway impact fee (rate $940-1,397 per vehicle-mile by area; per-home vehicle-miles to confirm).",
+      "priority": "must",
+      "params": {
+        "waterWastewaterUSD": 14390,
+        "roadwayPerVehMileUSD": [
+          940,
+          1397
+        ],
+        "roadwayVehMilesPerSF": null
+      },
+      "source": {
+        "id": "prosper-ci-impact-2025",
+        "title": "Prosper council OKs increasing new development impact fees",
+        "url": "https://communityimpact.com/prosper-celina/government/prosper-council-oks-increasing-new-development-impact-fees/",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "prosper-no-sprinkler",
+      "ruleType": "fire-sprinkler",
+      "area": "plan",
+      "change": "Do not add a residential sprinkler mandate (state preemption) unless city shows a pre-2009 grandfathered rule.",
+      "priority": "nice",
+      "params": {
+        "required": false,
+        "status": "Secondary-state law"
+      },
+      "source": {
+        "id": "tx-hb738-allensworth",
+        "title": "HB 738: Texas Adopts 2012 Versions of IRC and IBC; Addresses Residential Fire Sprinklers (law-firm summary)",
+        "url": "https://www.allensworthlaw.com/legal-updates/hb-738/",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "prosper-deed",
+      "ruleType": "deed-restriction-check",
+      "area": "survey",
+      "change": "Check HOA/deed restrictions and platted building lines.",
+      "priority": "should",
+      "params": {},
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "prosper-permit-fee",
+      "ruleType": "permit-fee-formula",
+      "area": "estimate",
+      "change": "Building permit fee = $1.00 x total sq ft (house + garage + porches/patios) + CO $100 + application fee.",
+      "priority": "should",
+      "params": {
+        "usdPerSqFt": 1.0,
+        "includesGarage": true,
+        "includesPorchPatio": true,
+        "coUSD": 100
+      },
+      "source": {
+        "id": "prosper-fee-schedule-2025-10",
+        "title": "Town of Prosper Fee Schedule (effective 10/1/2025), DocumentCenter/View/4924",
+        "url": "https://prospertx.gov/DocumentCenter/View/4924",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "prosper-height",
+      "ruleType": "height-limit",
+      "area": "massing",
+      "change": "Cap height at 40 ft / 2.5 stories for SF districts unless PD differs.",
+      "priority": "should",
+      "params": {
+        "maxHeightFt": 40,
+        "maxStories": 2.5
+      },
+      "source": {
+        "id": "prosper-ecode-sf125-unverified",
+        "title": "eCode360 SF-12.5 district regulations page (city attribution not shown in extract; same structure as Prosper code)",
+        "url": "https://ecode360.com/44920356",
+        "read": "2026-10-11"
+      }
     }
-   ]
-  },
-  "energy": {
-   "edition": {
-    "value": "2021 IECC (part of the 2021 International Codes adopted May 2023)",
-    "status": "Secondary",
-    "source": {
-     "id": "prosper-inspection-guidelines",
-     "title": "Town of Prosper - Inspection Guidelines (2021 International Codes for permits on/after 1 May 2023; 2023 NEC on/after 1 Nov 2023)",
-     "url": "https://prospertx.gov/338/Inspection-Guidelines",
-     "read": "2026-10-11"
-    },
-    "note": "Energy report required in new-house submittal. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-   },
-   "stretchCode": {
-    "value": "None known",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (not found in wave 3 searches)",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "No stretch code found."
-   }
-  },
-  "plumbing": {
-   "value": "IPC 2021 (2021 International Codes)",
-   "status": "Secondary",
-   "source": {
-    "id": "prosper-inspection-guidelines",
-    "title": "Town of Prosper - Inspection Guidelines (2021 International Codes for permits on/after 1 May 2023; 2023 NEC on/after 1 Nov 2023)",
-    "url": "https://prospertx.gov/338/Inspection-Guidelines",
-    "read": "2026-10-11"
-   },
-   "note": "Town adopted the 2021 International Codes; IPC assumed to be the plumbing code in that set. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-  },
-  "electrical": {
-   "value": "NEC 2023 (permits on/after 1 Nov 2023)",
-   "status": "Secondary",
-   "source": {
-    "id": "prosper-inspection-guidelines",
-    "title": "Town of Prosper - Inspection Guidelines (2021 International Codes for permits on/after 1 May 2023; 2023 NEC on/after 1 Nov 2023)",
-    "url": "https://prospertx.gov/338/Inspection-Guidelines",
-    "read": "2026-10-11"
-   },
-   "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-  },
-  "mechanical": {
-   "value": "IMC 2021",
-   "status": "Secondary",
-   "source": {
-    "id": "prosper-inspection-guidelines",
-    "title": "Town of Prosper - Inspection Guidelines (2021 International Codes for permits on/after 1 May 2023; 2023 NEC on/after 1 Nov 2023)",
-    "url": "https://prospertx.gov/338/Inspection-Guidelines",
-    "read": "2026-10-11"
-   },
-   "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-  },
-  "fuelGas": {
-   "value": "IFGC 2021",
-   "status": "Secondary",
-   "source": {
-    "id": "prosper-inspection-guidelines",
-    "title": "Town of Prosper - Inspection Guidelines (2021 International Codes for permits on/after 1 May 2023; 2023 NEC on/after 1 Nov 2023)",
-    "url": "https://prospertx.gov/338/Inspection-Guidelines",
-    "read": "2026-10-11"
-   },
-   "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-  },
-  "fire": {
-   "value": "IFC 2021; no one/two-family sprinkler mandate (Texas LGC 250.011 preemption).",
-   "status": "Secondary",
-   "source": {
-    "id": "prosper-inspection-guidelines",
-    "title": "Town of Prosper - Inspection Guidelines (2021 International Codes for permits on/after 1 May 2023; 2023 NEC on/after 1 Nov 2023)",
-    "url": "https://prospertx.gov/338/Inspection-Guidelines",
-    "read": "2026-10-11"
-   },
-   "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-  },
-  "wind": {
-   "value": 105,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "unit": "mph Vult",
-   "note": "Approx. ultimate design wind speed for Risk Category II in Collin County per ASCE 7-16 / IRC Fig. R301.2(2) is about 105 mph (agent estimate; NCTCOG regional amendments commonly list ~105-115 mph). Verify with ASCE Hazard Tool."
-  },
-  "hailRoofing": {
-   "value": "No local hail-resistant roofing mandate found; North Texas is a high-hail region - Class 4 impact-resistant shingles (UL 2218) are a common insurer-driven upgrade, not a code requirement.",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not verified in local amendments."
-  },
-  "seismic": {
-   "value": "A",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Seismic Design Category A for North Texas (IRC Fig. R301.2(7) shows low seismicity); agent knowledge."
-  },
-  "frostDepth": {
-   "value": 6,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "unit": "in",
-   "note": "NCTCOG-region amendments typically fill IRC Table R301.2(1) frost depth for DFW at about 6 in. (some cities list 12 in.); not verified for this city."
+  ],
+  "plainLanguage": "Prosper builds to the 2021 International Residential Code (since May 2023) and the 2023 National Electrical Code. Most new homes are in planned developments (PDs) with their own setbacks, garage and material rules; the base SF-10 district needs at least a 10,000 sq ft lot. Homes can be up to about 40 ft or 2.5 stories in single-family districts, but your PD may differ. The building permit costs about $1 per square foot including the garage (around $2,900 for a 2,400 sq ft house). Impact fees are high: $14,390 for water and wastewater per home since 2025, plus a roadway fee. Plan on an engineer-designed foundation for expansive clay. Texas law stops the town requiring brick, but your HOA likely will.",
+  "openQuestions": [
+    "SF-10 setbacks, coverage and dwelling size",
+    "Confirm SF-12.5 eCode360 page is Prosper's",
+    "Roadway impact fee vehicle-miles per SF unit",
+    "Whether Prosper has started 2024 IRC adoption",
+    "Application fee and plan review amounts",
+    "Floodplain freeboard",
+    "Garage orientation rules"
+  ],
+  "notFound": [
+    "SF-10 setbacks/coverage",
+    "Flood freeboard",
+    "Roadway impact fee per home",
+    "Tap fees",
+    "Adoption ordinance number",
+    "Market $/sf"
+  ],
+  "comparison": {
+    "irc": "2021 IRC (eff. 5/1/2023)",
+    "energy": "2021 IECC",
+    "plumbing": "IPC 2021",
+    "district": "SF-10 base (most new = PD)",
+    "setbacks": "not found (SF-12.5: 30/8/25)",
+    "maxHeight": "40 ft / 2.5 st",
+    "coverageFar": "not found",
+    "masonry": "not city-enforceable; PD/HOA",
+    "engFoundation": "yes (assumed)",
+    "windstorm": "no",
+    "flood": "not found",
+    "permitFeeExample": "$2,940",
+    "impactFees": "$14,390 water+ww + roadway",
+    "costFactor": "PENDING"
   }
- },
- "zoning": {
-  "hasZoning": {
-   "value": true,
-   "status": "Secondary",
-   "source": {
-    "id": "prosper-ecode-zoning-districts",
-    "title": "Town of Prosper Zoning Ordinance - zoning districts list (eCode360)",
-    "url": "https://ecode360.com/44920240",
-    "read": "2026-10-11"
-   },
-   "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-  },
-  "typicalDistrict": {
-   "value": "SF-10 (Single Family-10) base district; most new homes are in Planned Developments (e.g. PD-127)",
-   "status": "Secondary",
-   "source": {
-    "id": "prosper-ecode-zoning-districts",
-    "title": "Town of Prosper Zoning Ordinance - zoning districts list (eCode360)",
-    "url": "https://ecode360.com/44920240",
-    "read": "2026-10-11"
-   },
-   "note": "District list runs SF-22 down to SF-10. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-  },
-  "minLotSqFt": {
-   "value": 10000,
-   "status": "Secondary",
-   "source": {
-    "id": "prosper-ecode-zoning-districts",
-    "title": "Town of Prosper Zoning Ordinance - zoning districts list (eCode360)",
-    "url": "https://ecode360.com/44920240",
-    "read": "2026-10-11"
-   },
-   "unit": "sq ft",
-   "note": "SF-10 purpose: single family detached on minimum 10,000 sf lots. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-  },
-  "minLotWidthFt": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (not found in wave 3 searches)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: SF-10 lot width."
-  },
-  "minLotDepthFt": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (not found in wave 3 searches)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: SF-10 lot depth."
-  },
-  "setbacksFt": {
-   "front": {
-    "value": null,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (not found in wave 3 searches)",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "unit": "ft",
-    "note": "Not found: Prosper SF-10 yard figure (SF-12.5 values found are in zoning.other)."
-   },
-   "side": {
-    "value": null,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (not found in wave 3 searches)",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "unit": "ft",
-    "note": "Not found: Prosper SF-10 yard figure (SF-12.5 values found are in zoning.other)."
-   },
-   "streetSide": {
-    "value": null,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (not found in wave 3 searches)",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "unit": "ft",
-    "note": "Not found: Prosper SF-10 yard figure (SF-12.5 values found are in zoning.other)."
-   },
-   "rear": {
-    "value": null,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (not found in wave 3 searches)",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "unit": "ft",
-    "note": "Not found: Prosper SF-10 yard figure (SF-12.5 values found are in zoning.other)."
-   }
-  },
-  "maxHeightFt": {
-   "value": 40,
-   "status": "Secondary",
-   "source": {
-    "id": "prosper-ecode-sf125-unverified",
-    "title": "eCode360 SF-12.5 district regulations page (city attribution not shown in extract; same structure as Prosper code)",
-    "url": "https://ecode360.com/44920356",
-    "read": "2026-10-11"
-   },
-   "unit": "ft",
-   "note": "SF-12.5 page: 2.5 stories, max 40 ft; city attribution of that eCode360 page not confirmed in extract; SF-10 assumed same. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-  },
-  "maxStories": {
-   "value": 2.5,
-   "status": "Secondary",
-   "source": {
-    "id": "prosper-ecode-sf125-unverified",
-    "title": "eCode360 SF-12.5 district regulations page (city attribution not shown in extract; same structure as Prosper code)",
-    "url": "https://ecode360.com/44920356",
-    "read": "2026-10-11"
-   },
-   "unit": "stories",
-   "note": "Same caveat as maxHeightFt."
-  },
-  "maxLotCoverage": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (not found in wave 3 searches)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found."
-  },
-  "imperviousCover": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "No SF impervious cap expected (agent knowledge)."
-  },
-  "far": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "No SF FAR expected."
-  },
-  "parking": {
-   "value": "2 enclosed garage spaces per SF dwelling typical in Collin County cities; not verified.",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not verified."
-  },
-  "garageRules": {
-   "value": "PD-specific; town-wide garage-orientation (J-swing) rule not found. Detached garages must meet one of three placement options in the accessory-structure handout.",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (not found in wave 3 searches)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Search found no J-swing provision; see Accessory Structure Placement Handout (Secondary) for detached garages."
-  },
-  "adu": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (not found in wave 3 searches)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: ADU rules."
-  },
-  "masonry": {
-   "value": "City masonry % not enforceable on new homes under Gov't Code ch. 3000 (HB 2439); PD/HOA covenants may still require masonry.",
-   "status": "Secondary",
-   "source": {
-    "id": "tx-gov-3000",
-    "title": "Texas Government Code Ch. 3000 (building products, materials, methods; HB 2439, 2019)",
-    "url": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.3000.htm",
-    "read": "2026-10-11",
-    "section": "3000.002"
-   },
-   "note": "State statute; Prosper PD text not read."
-  },
-  "trees": {
-   "value": "Tree preservation ordinance likely (common in Collin County); not verified.",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not verified."
-  },
-  "other": [
-   {
-    "value": "SF-12.5 (if this page is Prosper's): min lot 12,500 sf, width 80 ft, depth 135 ft; front 30 ft, side 8 ft (15 ft corner street side), rear 25 ft; 2.5 stories / 40 ft.",
-    "status": "Secondary",
-    "source": {
-     "id": "prosper-ecode-sf125-unverified",
-     "title": "eCode360 SF-12.5 district regulations page (city attribution not shown in extract; same structure as Prosper code)",
-     "url": "https://ecode360.com/44920356",
-     "read": "2026-10-11"
-    },
-    "note": "City attribution not confirmed in search extract."
-   },
-   {
-    "value": "Other SF districts: SF-22, SF-15, SF-12.5, SF-10; new residential growth mostly via PDs (e.g. PD-127 Ord. 2024-32).",
-    "status": "Secondary",
-    "source": {
-     "id": "prosper-ecode-zoning-districts",
-     "title": "Town of Prosper Zoning Ordinance - zoning districts list (eCode360)",
-     "url": "https://ecode360.com/44920240",
-     "read": "2026-10-11"
-    },
-    "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-   },
-   {
-    "value": "Accessory structures with roofs (incl. detached garage, patio cover) must meet one of three placement options based on distance from the house.",
-    "status": "Secondary",
-    "source": {
-     "id": "prosper-accessory-handout",
-     "title": "Prosper Accessory Structure Placement Handout",
-     "url": "https://prospertx.gov/DocumentCenter/View/1697/Accessory-Structure-Placement-Handout",
-     "read": "2026-10-11"
-    },
-    "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-   }
-  ]
- },
- "process": {
-  "steps": [
-   {
-    "value": "Submit new-house permit with site (plot) plan, construction plans, energy report, engineered foundation; OSSF permit if on septic; pay non-refundable application fee.",
-    "status": "Secondary",
-    "source": {
-     "id": "prosper-new-house-submittal",
-     "title": "Prosper New House Submittal requirements (rev. 04/2025)",
-     "url": "https://prospertx.gov/DocumentCenter/View/1669/New-House-Submittal",
-     "read": "2026-10-11"
-    },
-    "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-   }
-  ],
-  "sealsRequired": [
-   {
-    "value": "PE-sealed foundation design expected (expansive clay); architect seal not required for 1-2 family homes (Tex. Occ. Code ch. 1051 exemption).",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (no source could be read this session)",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Not verified locally."
-   }
-  ],
-  "inspections": [
-   {
-    "value": "Typical: plumbing ground, foundation, framing, MEP rough, insulation, final/CO.",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (no source could be read this session)",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Not verified."
-   }
-  ],
-  "reviewDays": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: review time. Web fetch blocked by egress policy and session web-search budget exhausted."
-  }
- },
- "fees": {
-  "permitFormula": {
-   "value": "$1.00 per sq ft of total area including garages, patios and porches (+ non-refundable application fee; CO $100)",
-   "status": "Secondary",
-   "source": {
-    "id": "prosper-fee-schedule-2025-10",
-    "title": "Town of Prosper Fee Schedule (effective 10/1/2025), DocumentCenter/View/4924",
-    "url": "https://prospertx.gov/DocumentCenter/View/4924",
-    "read": "2026-10-11"
-   },
-   "note": "Fee schedule eff. 10/1/2025; extracted layout was jumbled so the $1.00/sf line is attributed to new residential with moderate confidence. A $6.25 per $1,000 valuation line also appears but LGC 214.907 bars value-based residential fees, so it likely applies to non-residential. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-  },
-  "workedExample2400sqft": {
-   "value": 2940,
-   "status": "Secondary",
-   "source": {
-    "id": "prosper-fee-schedule-2025-10",
-    "title": "Town of Prosper Fee Schedule (effective 10/1/2025), DocumentCenter/View/4924",
-    "url": "https://prospertx.gov/DocumentCenter/View/4924",
-    "read": "2026-10-11"
-   },
-   "unit": "USD",
-   "note": "Assume 2,400 sf conditioned + 440 sf attached garage, no porch/patio: 2,840 sf x $1.00 = $2,840 + CO $100 = $2,940; application fee (amount not seen) and trade permits extra."
-  },
-  "planReview": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (not found in wave 3 searches)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: separate plan review fee; a non-refundable application fee applies."
-  },
-  "impactFees": [
-   {
-    "value": 14390,
-    "status": "Secondary",
-    "source": {
-     "id": "prosper-ci-impact-2025",
-     "title": "Prosper council OKs increasing new development impact fees",
-     "url": "https://communityimpact.com/prosper-celina/government/prosper-council-oks-increasing-new-development-impact-fees/",
-     "read": "2026-10-11"
-    },
-    "unit": "USD",
-    "note": "Water + wastewater impact fee per service unit raised from $6,643 to $14,390 (approved Aug/Sep 2025, first update since 2017). A single-family home on a standard meter is normally 1 service unit. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-   },
-   {
-    "value": "Roadway: $1,258-1,347 per vehicle-mile west of BNSF railroad; $940-1,397 per vehicle-mile east",
-    "status": "Secondary",
-    "source": {
-     "id": "prosper-ci-impact-2025",
-     "title": "Prosper council OKs increasing new development impact fees",
-     "url": "https://communityimpact.com/prosper-celina/government/prosper-council-oks-increasing-new-development-impact-fees/",
-     "read": "2026-10-11"
-    },
-    "note": "Per-home amount depends on the town's vehicle-miles per SF unit (not found). Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-   }
-  ],
-  "tapFees": [
-   {
-    "value": null,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (not found in wave 3 searches)",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Not found: water/sewer tap and meter fees."
-   }
-  ]
- },
- "cost": {
-  "factor": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "cost-method",
-    "title": "See README cost method (filled by cost agent)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "PENDING_COST_AGENT"
-  },
-  "method": "PENDING_COST_AGENT",
-  "perSqFtMarket": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: public market $/sf figure. Web fetch blocked by egress policy and session web-search budget exhausted."
-  },
-  "drivers": [
-   {
-    "value": "Engineered slab on expansive clay.",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (not found in wave 3 searches)",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Typical North Texas."
-   },
-   {
-    "value": "PD/HOA masonry and architectural standards; large lots (SF-10 to SF-22).",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (not found in wave 3 searches)",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Typical Prosper."
-   },
-   {
-    "value": "Water+wastewater impact fee $14,390 per home (2025) plus roadway fee (per vehicle-mile).",
-    "status": "Secondary",
-    "source": {
-     "id": "prosper-ci-impact-2025",
-     "title": "Prosper council OKs increasing new development impact fees",
-     "url": "https://communityimpact.com/prosper-celina/government/prosper-council-oks-increasing-new-development-impact-fees/",
-     "read": "2026-10-11"
-    },
-    "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-   }
-  ]
- },
- "flood": {
-  "value": "NFIP participant; Prosper floodplain freeboard not found in searches (DFW cities commonly 1-2 ft above BFE).",
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed - agent judgement (not found in wave 3 searches)",
-   "url": "",
-   "read": "2026-10-11"
-  },
-  "note": "Search returned only other cities' ordinances."
- },
- "engineChanges": [
-  {
-   "id": "prosper-pd-check",
-   "ruleType": "survey-input-district",
-   "area": "survey",
-   "change": "Ask for the lot's zoning/PD; most new Prosper lots are in PDs. Base SF-10 needs min 10,000 sf lot; height default 40 ft / 2.5 stories; setbacks must come from PD or plat (SF-10 yards not verified).",
-   "priority": "must",
-   "params": {
-    "defaultDistrict": "SF-10",
-    "minLotSqFt": 10000,
-    "maxHeightFt": 40,
-    "maxStories": 2.5,
-    "pdLikely": true,
-    "setbacksVerified": false,
-    "requireUserConfirm": true
-   },
-   "source": {
-    "id": "prosper-ecode-zoning-districts",
-    "title": "Town of Prosper Zoning Ordinance - zoning districts list (eCode360)",
-    "url": "https://ecode360.com/44920240",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "prosper-eng-foundation",
-   "ruleType": "engineered-foundation-flag",
-   "area": "foundation",
-   "change": "Flag PE-sealed engineered foundation (post-tensioned slab) for all new homes on Collin County expansive clay.",
-   "priority": "must",
-   "params": {
-    "peSealed": true,
-    "status": "Assumed"
-   },
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "prosper-energy",
-   "ruleType": "climate-zone-envelope",
-   "area": "envelope",
-   "change": "Use 2021 IECC climate zone 3A envelope values; energy report required at submittal.",
-   "priority": "must",
-   "params": {
-    "climateZone": "3A",
-    "energyCode": "2021 IECC"
-   },
-   "source": {
-    "id": "prosper-inspection-guidelines",
-    "title": "Town of Prosper - Inspection Guidelines (2021 International Codes for permits on/after 1 May 2023; 2023 NEC on/after 1 Nov 2023)",
-    "url": "https://prospertx.gov/338/Inspection-Guidelines",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "prosper-masonry",
-   "ruleType": "masonry-percentage",
-   "area": "envelope",
-   "change": "Do not enforce city masonry %; prompt for PD/HOA masonry requirement.",
-   "priority": "should",
-   "params": {
-    "cityEnforceable": false
-   },
-   "source": {
-    "id": "tx-gov-3000",
-    "title": "Texas Government Code Ch. 3000 (building products, materials, methods; HB 2439, 2019)",
-    "url": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.3000.htm",
-    "read": "2026-10-11",
-    "section": "3000.002"
-   }
-  },
-  {
-   "id": "prosper-impact-fees",
-   "ruleType": "impact-fee-estimate",
-   "area": "estimate",
-   "change": "Add water+wastewater impact fee $14,390 per SF home plus roadway impact fee (rate $940-1,397 per vehicle-mile by area; per-home vehicle-miles to confirm).",
-   "priority": "must",
-   "params": {
-    "waterWastewaterUSD": 14390,
-    "roadwayPerVehMileUSD": [
-     940,
-     1397
-    ],
-    "roadwayVehMilesPerSF": null
-   },
-   "source": {
-    "id": "prosper-ci-impact-2025",
-    "title": "Prosper council OKs increasing new development impact fees",
-    "url": "https://communityimpact.com/prosper-celina/government/prosper-council-oks-increasing-new-development-impact-fees/",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "prosper-no-sprinkler",
-   "ruleType": "fire-sprinkler",
-   "area": "plan",
-   "change": "Do not add a residential sprinkler mandate (state preemption) unless city shows a pre-2009 grandfathered rule.",
-   "priority": "nice",
-   "params": {
-    "required": false,
-    "status": "Secondary-state law"
-   },
-   "source": {
-    "id": "tx-hb738-allensworth",
-    "title": "HB 738: Texas Adopts 2012 Versions of IRC and IBC; Addresses Residential Fire Sprinklers (law-firm summary)",
-    "url": "https://www.allensworthlaw.com/legal-updates/hb-738/",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "prosper-deed",
-   "ruleType": "deed-restriction-check",
-   "area": "survey",
-   "change": "Check HOA/deed restrictions and platted building lines.",
-   "priority": "should",
-   "params": {},
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "prosper-permit-fee",
-   "ruleType": "permit-fee-formula",
-   "area": "estimate",
-   "change": "Building permit fee = $1.00 x total sq ft (house + garage + porches/patios) + CO $100 + application fee.",
-   "priority": "should",
-   "params": {
-    "usdPerSqFt": 1.0,
-    "includesGarage": true,
-    "includesPorchPatio": true,
-    "coUSD": 100
-   },
-   "source": {
-    "id": "prosper-fee-schedule-2025-10",
-    "title": "Town of Prosper Fee Schedule (effective 10/1/2025), DocumentCenter/View/4924",
-    "url": "https://prospertx.gov/DocumentCenter/View/4924",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "prosper-height",
-   "ruleType": "height-limit",
-   "area": "massing",
-   "change": "Cap height at 40 ft / 2.5 stories for SF districts unless PD differs.",
-   "priority": "should",
-   "params": {
-    "maxHeightFt": 40,
-    "maxStories": 2.5
-   },
-   "source": {
-    "id": "prosper-ecode-sf125-unverified",
-    "title": "eCode360 SF-12.5 district regulations page (city attribution not shown in extract; same structure as Prosper code)",
-    "url": "https://ecode360.com/44920356",
-    "read": "2026-10-11"
-   }
-  }
- ],
- "plainLanguage": "Prosper builds to the 2021 International Residential Code (since May 2023) and the 2023 National Electrical Code. Most new homes are in planned developments (PDs) with their own setbacks, garage and material rules; the base SF-10 district needs at least a 10,000 sq ft lot. Homes can be up to about 40 ft or 2.5 stories in single-family districts, but your PD may differ. The building permit costs about $1 per square foot including the garage (around $2,900 for a 2,400 sq ft house). Impact fees are high: $14,390 for water and wastewater per home since 2025, plus a roadway fee. Plan on an engineer-designed foundation for expansive clay. Texas law stops the town requiring brick, but your HOA likely will.",
- "openQuestions": [
-  "SF-10 setbacks, coverage and dwelling size",
-  "Confirm SF-12.5 eCode360 page is Prosper's",
-  "Roadway impact fee vehicle-miles per SF unit",
-  "Whether Prosper has started 2024 IRC adoption",
-  "Application fee and plan review amounts",
-  "Floodplain freeboard",
-  "Garage orientation rules"
- ],
- "notFound": [
-  "SF-10 setbacks/coverage",
-  "Flood freeboard",
-  "Roadway impact fee per home",
-  "Tap fees",
-  "Adoption ordinance number",
-  "Market $/sf"
- ],
- "comparison": {
-  "irc": "2021 IRC (eff. 5/1/2023)",
-  "energy": "2021 IECC",
-  "plumbing": "IPC 2021",
-  "district": "SF-10 base (most new = PD)",
-  "setbacks": "not found (SF-12.5: 30/8/25)",
-  "maxHeight": "40 ft / 2.5 st",
-  "coverageFar": "not found",
-  "masonry": "not city-enforceable; PD/HOA",
-  "engFoundation": "yes (assumed)",
-  "windstorm": "no",
-  "flood": "not found",
-  "permitFeeExample": "$2,940",
-  "impactFees": "$14,390 water+ww + roadway",
-  "costFactor": "PENDING"
- }
 }

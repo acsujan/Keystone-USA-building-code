@@ -754,7 +754,7 @@
   "engineChanges": [
     {
       "id": "texas-baseline-code-edition",
-      "ruleType": "code-edition-baseline",
+      "ruleType": "code-edition-by-city",
       "area": "drawings",
       "change": "Use 2021 IRC as the design code for an unlisted Texas city (state floor is 2012 IRC); show 'confirm city adoption' warning",
       "priority": "must",

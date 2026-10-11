@@ -705,6 +705,25 @@
   },
   "engineChanges": [
     {
+      "id": "hutto-code-edition",
+      "ruleType": "code-edition-by-city",
+      "area": "plan",
+      "change": "Check plans against 2024 IRC (city adoption) and energy code 2024 IECC (assumed with 2024 I-code suite per Ord. 2025-008) instead of the plain 2021 IRC model",
+      "priority": "must",
+      "params": {
+        "irc": "2024 IRC",
+        "energy": "2024 IECC (assumed with 2024 I-code suite per Ord. 2025-008)",
+        "editionStatus": "Secondary"
+      },
+      "source": {
+        "id": "hutto-building-codes-page",
+        "title": "City of Hutto - Building Codes",
+        "url": "https://www.huttotx.gov/159/Building-Codes",
+        "read": "2026-10-11"
+      },
+      "derived": "added by coordinator from codes.irc.edition"
+    },
+    {
       "id": "hutto-setbacks",
       "ruleType": "setback-by-district",
       "area": "setbacks",

@@ -602,6 +602,25 @@
   },
   "engineChanges": [
     {
+      "id": "conroe-code-edition",
+      "ruleType": "code-edition-by-city",
+      "area": "plan",
+      "change": "Check plans against 2021 IRC (likely; unconfirmed) (city adoption) and energy code 2021 IECC instead of the plain 2021 IRC model",
+      "priority": "should",
+      "params": {
+        "irc": "2021 IRC (likely; unconfirmed)",
+        "energy": "2021 IECC",
+        "editionStatus": "Secondary"
+      },
+      "source": {
+        "id": "conroe-permitmint-generator",
+        "title": "PermitMint - How to Get a Generator Permit in Conroe, TX (2026 Guide) (lists 2021 IRC/IFGC with local amendments, NEC 2023)",
+        "url": "https://permitmint.com/guides/generator/texas/conroe/",
+        "read": "2026-10-11"
+      },
+      "derived": "added by coordinator from codes.irc.edition"
+    },
+    {
       "id": "conroe-nowind",
       "ruleType": "windstorm-package",
       "area": "structure",

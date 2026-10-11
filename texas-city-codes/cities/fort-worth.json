@@ -70,7 +70,7 @@
           "read": "2026-10-11",
           "section": "Sec. 7-61 to 7-64"
         },
-        "note": "Ordinance 25383-03-2022 adopts 2021 IRC with local amendments, amending City Code \u00a7\u00a7 7-61 to 7-64; city page lists it effective April 1, 2022. Search results showed no 2024 IRC adoption as of 2026-10. Read via web-search extract of this page; direct fetch blocked by session egress policy."
+        "note": "Ordinance 25383-03-2022 adopts 2021 IRC with local amendments, amending City Code §§ 7-61 to 7-64; city page lists it effective April 1, 2022. Search results showed no 2024 IRC adoption as of 2026-10. Read via web-search extract of this page; direct fetch blocked by session egress policy."
       },
       "ordinance": {
         "value": "Ordinance No. 25383-03-2022 (effective 2022-04-01)",
@@ -125,14 +125,14 @@
         {
           "topic": "other",
           "summary": "City Electrical Code replaces IRC Chapters 34-43; IRC Appendix AA (gas pipe sizing) adopted.",
-          "section": "\u00a7 7-61",
+          "section": "§ 7-61",
           "status": "Secondary",
           "source": {
             "id": "fw-code-7-61",
-            "title": "Fort Worth Code of Ordinances \u00a7 7-61 The 2021 Edition of the International Residential Code Adopted",
+            "title": "Fort Worth Code of Ordinances § 7-61 The 2021 Edition of the International Residential Code Adopted",
             "url": "https://codelibrary.amlegal.com/codes/ftworth/latest/ftworth_tx/0-0-0-8128",
             "read": "2026-10-11",
-            "section": "\u00a7 7-61"
+            "section": "§ 7-61"
           }
         }
       ]
@@ -269,10 +269,10 @@
       "status": "Secondary",
       "source": {
         "id": "fw-zo-4-705",
-        "title": "Fort Worth Zoning Ordinance \u00a7 4.705 One-Family (\"A-5\") District",
+        "title": "Fort Worth Zoning Ordinance § 4.705 One-Family (\"A-5\") District",
         "url": "https://codelibrary.amlegal.com/codes/ftworth/latest/ftworth_tx/0-0-0-35059",
         "read": "2026-10-11",
-        "section": "\u00a7 4.705"
+        "section": "§ 4.705"
       },
       "note": " Read via web-search extract of this page; direct fetch blocked by session egress policy."
     },
@@ -281,10 +281,10 @@
       "status": "Secondary",
       "source": {
         "id": "fw-zo-4-705",
-        "title": "Fort Worth Zoning Ordinance \u00a7 4.705 One-Family (\"A-5\") District",
+        "title": "Fort Worth Zoning Ordinance § 4.705 One-Family (\"A-5\") District",
         "url": "https://codelibrary.amlegal.com/codes/ftworth/latest/ftworth_tx/0-0-0-35059",
         "read": "2026-10-11",
-        "section": "\u00a7 4.705"
+        "section": "§ 4.705"
       },
       "note": "Most common single-family district for new detached subdivisions in Fort Worth. Others: A-7.5, A-10, A-21, A-43, AR (one-family restricted), B two-family. Read via web-search extract of this page; direct fetch blocked by session egress policy."
     },
@@ -293,23 +293,23 @@
       "status": "Secondary",
       "source": {
         "id": "fw-zo-4-705",
-        "title": "Fort Worth Zoning Ordinance \u00a7 4.705 One-Family (\"A-5\") District",
+        "title": "Fort Worth Zoning Ordinance § 4.705 One-Family (\"A-5\") District",
         "url": "https://codelibrary.amlegal.com/codes/ftworth/latest/ftworth_tx/0-0-0-35059",
         "read": "2026-10-11",
-        "section": "\u00a7 4.705"
+        "section": "§ 4.705"
       },
       "unit": "sqft",
-      "note": "\u00a7 4.705 property development table. Note SB 15 (2025) lets new subdivisions in large cities use lots as small as 3,000 sq ft in single-family districts, subject to exceptions (Fort Worth Report). Read via web-search extract of this page; direct fetch blocked by session egress policy."
+      "note": "§ 4.705 property development table. Note SB 15 (2025) lets new subdivisions in large cities use lots as small as 3,000 sq ft in single-family districts, subject to exceptions (Fort Worth Report). Read via web-search extract of this page; direct fetch blocked by session egress policy."
     },
     "minLotWidthFt": {
       "value": 50,
       "status": "Secondary",
       "source": {
         "id": "fw-zo-4-705",
-        "title": "Fort Worth Zoning Ordinance \u00a7 4.705 One-Family (\"A-5\") District",
+        "title": "Fort Worth Zoning Ordinance § 4.705 One-Family (\"A-5\") District",
         "url": "https://codelibrary.amlegal.com/codes/ftworth/latest/ftworth_tx/0-0-0-35059",
         "read": "2026-10-11",
-        "section": "\u00a7 4.705"
+        "section": "§ 4.705"
       },
       "unit": "ft",
       "note": "Measured at building line. Read via web-search extract of this page; direct fetch blocked by session egress policy."
@@ -324,7 +324,7 @@
         "read": "2026-10-11"
       },
       "unit": "ft",
-      "note": "Not found in search extract of \u00a7 4.705 table."
+      "note": "Not found in search extract of § 4.705 table."
     },
     "setbacksFt": {
       "front": {
@@ -332,23 +332,23 @@
         "status": "Secondary",
         "source": {
           "id": "fw-zo-4-705",
-          "title": "Fort Worth Zoning Ordinance \u00a7 4.705 One-Family (\"A-5\") District",
+          "title": "Fort Worth Zoning Ordinance § 4.705 One-Family (\"A-5\") District",
           "url": "https://codelibrary.amlegal.com/codes/ftworth/latest/ftworth_tx/0-0-0-35059",
           "read": "2026-10-11",
-          "section": "\u00a7 4.705"
+          "section": "§ 4.705"
         },
         "unit": "ft",
-        "note": "20 ft on local street; 15 ft on limited local street. Corner/projected front yard rules in \u00a7 6.101(f). Re-checked: same figure in A-7.5 table (\u00a7 4.704) and zoning summary; a third-party site (PropertyZoned) says 25 ft - rejected as non-primary. Read via web-search extract of this page; direct fetch blocked by session egress policy."
+        "note": "20 ft on local street; 15 ft on limited local street. Corner/projected front yard rules in § 6.101(f). Re-checked: same figure in A-7.5 table (§ 4.704) and zoning summary; a third-party site (PropertyZoned) says 25 ft - rejected as non-primary. Read via web-search extract of this page; direct fetch blocked by session egress policy."
       },
       "side": {
         "value": 5,
         "status": "Secondary",
         "source": {
           "id": "fw-zo-4-705",
-          "title": "Fort Worth Zoning Ordinance \u00a7 4.705 One-Family (\"A-5\") District",
+          "title": "Fort Worth Zoning Ordinance § 4.705 One-Family (\"A-5\") District",
           "url": "https://codelibrary.amlegal.com/codes/ftworth/latest/ftworth_tx/0-0-0-35059",
           "read": "2026-10-11",
-          "section": "\u00a7 4.705"
+          "section": "§ 4.705"
         },
         "unit": "ft",
         "note": "Interior side 5 ft; attached garage side yard may be 3 ft if garage is at least 18 ft behind front wall of house. BOA dockets also show 5 ft side for A-5. Read via web-search extract of this page; direct fetch blocked by session egress policy."
@@ -358,23 +358,23 @@
         "status": "Secondary",
         "source": {
           "id": "fw-zo-4-705",
-          "title": "Fort Worth Zoning Ordinance \u00a7 4.705 One-Family (\"A-5\") District",
+          "title": "Fort Worth Zoning Ordinance § 4.705 One-Family (\"A-5\") District",
           "url": "https://codelibrary.amlegal.com/codes/ftworth/latest/ftworth_tx/0-0-0-35059",
           "read": "2026-10-11",
-          "section": "\u00a7 4.705"
+          "section": "§ 4.705"
         },
         "unit": "ft",
-        "note": "Search extract of \u00a7 4.705 table showed 10 ft adjacent to side street but layout was garbled; verify. \u00a7 6.101(f) may require side yard equal to adjacent lot's front yard on some corner lots. Read via web-search extract of this page; direct fetch blocked by session egress policy."
+        "note": "Search extract of § 4.705 table showed 10 ft adjacent to side street but layout was garbled; verify. § 6.101(f) may require side yard equal to adjacent lot's front yard on some corner lots. Read via web-search extract of this page; direct fetch blocked by session egress policy."
       },
       "rear": {
         "value": 5,
         "status": "Secondary",
         "source": {
           "id": "fw-zo-4-705",
-          "title": "Fort Worth Zoning Ordinance \u00a7 4.705 One-Family (\"A-5\") District",
+          "title": "Fort Worth Zoning Ordinance § 4.705 One-Family (\"A-5\") District",
           "url": "https://codelibrary.amlegal.com/codes/ftworth/latest/ftworth_tx/0-0-0-35059",
           "read": "2026-10-11",
-          "section": "\u00a7 4.705"
+          "section": "§ 4.705"
         },
         "unit": "ft",
         "note": "Rear 5 ft; detached garage behind rear wall of house may use 3 ft setback. Read via web-search extract of this page; direct fetch blocked by session egress policy."
@@ -385,10 +385,10 @@
       "status": "Secondary",
       "source": {
         "id": "fw-zo-4-705",
-        "title": "Fort Worth Zoning Ordinance \u00a7 4.705 One-Family (\"A-5\") District",
+        "title": "Fort Worth Zoning Ordinance § 4.705 One-Family (\"A-5\") District",
         "url": "https://codelibrary.amlegal.com/codes/ftworth/latest/ftworth_tx/0-0-0-35059",
         "read": "2026-10-11",
-        "section": "\u00a7 4.705"
+        "section": "§ 4.705"
       },
       "unit": "ft",
       "note": " Read via web-search extract of this page; direct fetch blocked by session egress policy."
@@ -409,10 +409,10 @@
       "status": "Secondary",
       "source": {
         "id": "fw-zo-4-705",
-        "title": "Fort Worth Zoning Ordinance \u00a7 4.705 One-Family (\"A-5\") District",
+        "title": "Fort Worth Zoning Ordinance § 4.705 One-Family (\"A-5\") District",
         "url": "https://codelibrary.amlegal.com/codes/ftworth/latest/ftworth_tx/0-0-0-35059",
         "read": "2026-10-11",
-        "section": "\u00a7 4.705"
+        "section": "§ 4.705"
       },
       "unit": "fraction",
       "note": "50% maximum lot coverage. Read via web-search extract of this page; direct fetch blocked by session egress policy."
@@ -448,17 +448,17 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Exact one-family parking count not found (searches did not return Ch. 6 parking table). \u00a7 22-160 bars parking in front/side yards except on the required driveway to garage/carport/parking area. Commonly 2 spaces behind front building line - unverified."
+      "note": "Exact one-family parking count not found (searches did not return Ch. 6 parking table). § 22-160 bars parking in front/side yards except on the required driveway to garage/carport/parking area. Commonly 2 spaces behind front building line - unverified."
     },
     "garageRules": {
-      "value": "Attached garage: side yard may be 3 ft if garage is >=18 ft behind front wall of house. Detached garage behind rear wall of house: 3 ft setback. Carports/porte cocheres in side yards only in limited cases (\u00a7 5.301, \u00a7 6.101).",
+      "value": "Attached garage: side yard may be 3 ft if garage is >=18 ft behind front wall of house. Detached garage behind rear wall of house: 3 ft setback. Carports/porte cocheres in side yards only in limited cases (§ 5.301, § 6.101).",
       "status": "Secondary",
       "source": {
         "id": "fw-zo-4-705",
-        "title": "Fort Worth Zoning Ordinance \u00a7 4.705 One-Family (\"A-5\") District",
+        "title": "Fort Worth Zoning Ordinance § 4.705 One-Family (\"A-5\") District",
         "url": "https://codelibrary.amlegal.com/codes/ftworth/latest/ftworth_tx/0-0-0-35059",
         "read": "2026-10-11",
-        "section": "\u00a7 4.705"
+        "section": "§ 4.705"
       },
       "note": " Read via web-search extract of this page; direct fetch blocked by session egress policy."
     },
@@ -471,7 +471,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Fort Worth ADU rules (allowed districts, size) not verified; 2025 changes reported by third parties (rentredteam blog) not read in detail. Check \u00a7 5.301 accessory uses."
+      "note": "Fort Worth ADU rules (allowed districts, size) not verified; 2025 changes reported by third parties (rentredteam blog) not read in detail. Check § 5.301 accessory uses."
     },
     "masonry": {
       "value": "No masonry percentage in A-5 found; and HB 2439 (2019, Gov't Code ch. 3000) bars Texas cities from requiring specific building materials beyond national model codes (exceptions: historic districts, etc.). HOA/deed restrictions may still require masonry.",
@@ -523,10 +523,10 @@
         "status": "Secondary",
         "source": {
           "id": "fw-zo-6-101",
-          "title": "Fort Worth Zoning Ordinance \u00a7 6.101 Yards",
+          "title": "Fort Worth Zoning Ordinance § 6.101 Yards",
           "url": "https://codelibrary.amlegal.com/codes/ftworth/latest/ftworth_tx/0-0-0-38206",
           "read": "2026-10-11",
-          "section": "\u00a7 6.101(f)"
+          "section": "§ 6.101(f)"
         },
         "note": " Read via web-search extract of this page; direct fetch blocked by session egress policy."
       }
@@ -767,6 +767,26 @@
   },
   "engineChanges": [
     {
+      "id": "fort-worth-code-edition",
+      "ruleType": "code-edition-by-city",
+      "area": "plan",
+      "change": "Check plans against 2021 IRC (city adoption) and energy code 2015 IECC (with local amendments) - Fort Worth retained 2015 IECC when it adopted the 2021 I-codes instead of the plain 2021 IRC model",
+      "priority": "should",
+      "params": {
+        "irc": "2021 IRC",
+        "energy": "2015 IECC (with local amendments) - Fort Worth retained 2015 IECC when it adopted the 2021 I-codes",
+        "editionStatus": "Secondary"
+      },
+      "source": {
+        "id": "fw-irc-ord-25383",
+        "title": "Ordinance No. 25383-03-2022 - Fort Worth Residential Code (2021 IRC with local amendments)",
+        "url": "https://www.fortworthtexas.gov/files/assets/public/development-services/documents/building-code-local-amendments/2021-approved-local-amendments/irc-amendments-2021-ordinance-25383-03-2022.pdf",
+        "read": "2026-10-11",
+        "section": "Sec. 7-61 to 7-64"
+      },
+      "derived": "added by coordinator from codes.irc.edition"
+    },
+    {
       "id": "fw-a5-setbacks",
       "ruleType": "setback-by-district",
       "area": "setbacks",
@@ -782,10 +802,10 @@
       },
       "source": {
         "id": "fw-zo-4-705",
-        "title": "Fort Worth Zoning Ordinance \u00a7 4.705 One-Family (\"A-5\") District",
+        "title": "Fort Worth Zoning Ordinance § 4.705 One-Family (\"A-5\") District",
         "url": "https://codelibrary.amlegal.com/codes/ftworth/latest/ftworth_tx/0-0-0-35059",
         "read": "2026-10-11",
-        "section": "\u00a7 4.705"
+        "section": "§ 4.705"
       }
     },
     {
@@ -800,10 +820,10 @@
       },
       "source": {
         "id": "fw-zo-4-705",
-        "title": "Fort Worth Zoning Ordinance \u00a7 4.705 One-Family (\"A-5\") District",
+        "title": "Fort Worth Zoning Ordinance § 4.705 One-Family (\"A-5\") District",
         "url": "https://codelibrary.amlegal.com/codes/ftworth/latest/ftworth_tx/0-0-0-35059",
         "read": "2026-10-11",
-        "section": "\u00a7 4.705"
+        "section": "§ 4.705"
       }
     },
     {
@@ -817,10 +837,10 @@
       },
       "source": {
         "id": "fw-zo-4-705",
-        "title": "Fort Worth Zoning Ordinance \u00a7 4.705 One-Family (\"A-5\") District",
+        "title": "Fort Worth Zoning Ordinance § 4.705 One-Family (\"A-5\") District",
         "url": "https://codelibrary.amlegal.com/codes/ftworth/latest/ftworth_tx/0-0-0-35059",
         "read": "2026-10-11",
-        "section": "\u00a7 4.705"
+        "section": "§ 4.705"
       }
     },
     {
@@ -834,10 +854,10 @@
       },
       "source": {
         "id": "fw-zo-4-705",
-        "title": "Fort Worth Zoning Ordinance \u00a7 4.705 One-Family (\"A-5\") District",
+        "title": "Fort Worth Zoning Ordinance § 4.705 One-Family (\"A-5\") District",
         "url": "https://codelibrary.amlegal.com/codes/ftworth/latest/ftworth_tx/0-0-0-35059",
         "read": "2026-10-11",
-        "section": "\u00a7 4.705"
+        "section": "§ 4.705"
       }
     },
     {
@@ -853,10 +873,10 @@
       },
       "source": {
         "id": "fw-zo-4-705",
-        "title": "Fort Worth Zoning Ordinance \u00a7 4.705 One-Family (\"A-5\") District",
+        "title": "Fort Worth Zoning Ordinance § 4.705 One-Family (\"A-5\") District",
         "url": "https://codelibrary.amlegal.com/codes/ftworth/latest/ftworth_tx/0-0-0-35059",
         "read": "2026-10-11",
-        "section": "\u00a7 4.705"
+        "section": "§ 4.705"
       }
     },
     {
@@ -929,7 +949,7 @@
     },
     {
       "id": "fw-drainage",
-      "ruleType": "other-drainage-to-storm",
+      "ruleType": "lot-drainage",
       "area": "survey",
       "change": "Site plan must show lot surface drainage diverted to storm sewer conveyance (amended R401.3).",
       "priority": "nice",

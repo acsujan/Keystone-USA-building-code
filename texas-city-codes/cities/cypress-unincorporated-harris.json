@@ -764,7 +764,7 @@
     },
     {
       "id": "cypress-lgc233",
-      "ruleType": "code-edition-baseline",
+      "ruleType": "code-edition-by-city",
       "area": "drawings",
       "change": "No county building permit; design to 2021 IRC (Houston, the county seat, uses 2021 IRC). Plan 3 third-party inspections (pre-pour, pre-drywall, final) per LGC 233.154 if Harris County opted in.",
       "priority": "must",

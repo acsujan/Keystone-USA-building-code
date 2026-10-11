@@ -707,6 +707,25 @@
   },
   "engineChanges": [
     {
+      "id": "kyle-code-edition",
+      "ruleType": "code-edition-by-city",
+      "area": "plan",
+      "change": "Check plans against 2021 IRC (city adoption) and energy code 2021 IECC instead of the plain 2021 IRC model",
+      "priority": "should",
+      "params": {
+        "irc": "2021 IRC",
+        "energy": "2021 IECC",
+        "editionStatus": "Secondary"
+      },
+      "source": {
+        "id": "kyle-building-services",
+        "title": "City of Kyle - Building Services (adopted codes)",
+        "url": "https://www.cityofkyle.gov/doing-business/building-services-permits/",
+        "read": "2026-10-11"
+      },
+      "derived": "added by coordinator from codes.irc.edition"
+    },
+    {
       "id": "kyle-setbacks",
       "ruleType": "setback-by-district",
       "area": "setbacks",

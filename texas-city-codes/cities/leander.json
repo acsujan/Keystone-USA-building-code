@@ -679,6 +679,25 @@
   },
   "engineChanges": [
     {
+      "id": "leander-code-edition",
+      "ruleType": "code-edition-by-city",
+      "area": "plan",
+      "change": "Check plans against 2021 IRC (city adoption) and energy code 2021 IECC (2021 series adopted by Ord. 25-034-00) instead of the plain 2021 IRC model",
+      "priority": "should",
+      "params": {
+        "irc": "2021 IRC",
+        "energy": "2021 IECC (2021 series adopted by Ord. 25-034-00)",
+        "editionStatus": "Secondary"
+      },
+      "source": {
+        "id": "leander-building-codes-page",
+        "title": "City of Leander - Building Codes",
+        "url": "https://www.leandertx.gov/339/Building-Codes",
+        "read": "2026-10-11"
+      },
+      "derived": "added by coordinator from codes.irc.edition"
+    },
+    {
       "id": "leander-setbacks",
       "ruleType": "setback-by-district",
       "area": "setbacks",

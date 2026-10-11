@@ -618,6 +618,25 @@
   },
   "engineChanges": [
     {
+      "id": "mcallen-code-edition",
+      "ruleType": "code-edition-by-city",
+      "area": "plan",
+      "change": "Check plans against 2021 IRC (assumed; edition not verified) (city adoption) and energy code 2015 IECC minimum (Texas state energy code floor for single-family under Health & Safety Code ch. 388 via IRC Ch. 11) - city edition not verified instead of the plain 2021 IRC model - edition is Assumed, show 'confirm with city' warning",
+      "priority": "should",
+      "params": {
+        "irc": "2021 IRC (assumed; edition not verified)",
+        "energy": "2015 IECC minimum (Texas state energy code floor for single-family under Health & Safety Code ch. 388 via IRC Ch. 11) - city edition not verified",
+        "editionStatus": "Assumed"
+      },
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "derived": "added by coordinator from codes.irc.edition"
+    },
+    {
       "id": "mcallen-setbacks",
       "ruleType": "setback-by-district",
       "area": "setbacks",

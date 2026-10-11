@@ -627,6 +627,25 @@
   },
   "engineChanges": [
     {
+      "id": "laredo-code-edition",
+      "ruleType": "code-edition-by-city",
+      "area": "plan",
+      "change": "Check plans against 2021 IRC (city adoption) and energy code 2021 IECC (Ord. 2024-O-149) instead of the plain 2021 IRC model",
+      "priority": "should",
+      "params": {
+        "irc": "2021 IRC",
+        "energy": "2021 IECC (Ord. 2024-O-149)",
+        "editionStatus": "Secondary"
+      },
+      "source": {
+        "id": "laredo-bds-ordinances",
+        "title": "Building Development Services - City Ordinances (index of 2024 code adoptions)",
+        "url": "https://cityoflaredo.com/departments/building-development-services/city-ordinances",
+        "read": "2026-10-11"
+      },
+      "derived": "added by coordinator from codes.irc.edition"
+    },
+    {
       "id": "laredo-setbacks",
       "ruleType": "setback-by-district",
       "area": "setbacks",

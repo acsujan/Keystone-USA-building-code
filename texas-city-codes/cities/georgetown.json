@@ -639,6 +639,25 @@
   },
   "engineChanges": [
     {
+      "id": "georgetown-code-edition",
+      "ruleType": "code-edition-by-city",
+      "area": "plan",
+      "change": "Check plans against 2021 IRC (city adoption) and energy code 2021 IECC (with local amendments) instead of the plain 2021 IRC model",
+      "priority": "should",
+      "params": {
+        "irc": "2021 IRC",
+        "energy": "2021 IECC (with local amendments)",
+        "editionStatus": "Secondary"
+      },
+      "source": {
+        "id": "georgetown-adopted-building-code",
+        "title": "City of Georgetown Permits - Adopted Building Code",
+        "url": "https://permits.georgetown.org/?p=853",
+        "read": "2026-10-11"
+      },
+      "derived": "added by coordinator from codes.irc.edition"
+    },
+    {
       "id": "georgetown-setbacks",
       "ruleType": "setback-by-district",
       "area": "setbacks",

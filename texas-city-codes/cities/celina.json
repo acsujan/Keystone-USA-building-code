@@ -1,916 +1,916 @@
 {
- "id": "celina",
- "name": "City of Celina",
- "state": "TX",
- "tier": 2,
- "counties": [
-  "Collin",
-  "Denton"
- ],
- "msa": {
-  "name": "Dallas-Fort Worth-Arlington, TX",
-  "blsCode": "19100"
- },
- "population": {
-  "value": 51661,
-  "status": "Secondary",
-  "source": {
-   "id": "tx-census-v2024-spectrum",
-   "title": "Texas cities lead the way in population growth (Census Vintage 2024 table)",
-   "url": "https://spectrumlocalnews.com/tx/south-texas-el-paso/news/2025/05/15/texas-cities-lead-the-way-in-population-growth",
-   "read": "2026-10-11"
+  "id": "celina",
+  "name": "City of Celina",
+  "state": "TX",
+  "tier": 2,
+  "counties": [
+    "Collin",
+    "Denton"
+  ],
+  "msa": {
+    "name": "Dallas-Fort Worth-Arlington, TX",
+    "blsCode": "19100"
   },
-  "note": "Census Vintage 2024 (July 1, 2024) via news reproduction of Census table; Celina grew 18.2% in 2023-24. Later (V2025) reports say >64,000."
- },
- "zipCodesOrBoundary": {
-  "value": "75009 (75078 partly); large ETJ and MUDs",
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed - agent judgement (no source could be read this session)",
-   "url": "",
-   "read": "2026-10-11"
-  },
-  "note": "Agent knowledge; city mailing address 112 N. Colorado St, Celina TX 75009. Confirm with city-limits GIS map (large ETJ, MUD/PID areas)."
- },
- "climateZone": {
-  "value": "3A",
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed - agent judgement (no source could be read this session)",
-   "url": "",
-   "read": "2026-10-11"
-  },
-  "note": "2021/2024 IECC Table R301.1 county list places Collin and Denton Counties in Climate Zone 3A (agent knowledge; could not fetch IECC/DOE page this session)."
- },
- "windstormCounty": {
-  "value": false,
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed - agent judgement (no source could be read this session)",
-   "url": "",
-   "read": "2026-10-11"
-  },
-  "note": "Collin/Denton are inland North Texas counties, not in the TDI windstorm (catastrophe) area, which covers only the 14 coastal counties and parts of Harris (agent knowledge)."
- },
- "codes": {
-  "irc": {
-   "edition": {
-    "value": "2024 IRC with local/NCTCOG amendments (effective Jan-Feb 2026); previously 2021 IRC from 1 Nov 2022",
+  "population": {
+    "value": 51661,
     "status": "Secondary",
     "source": {
-     "id": "celina-ord-2026-003-2024-icodes",
-     "title": "Celina - Signed Building and Fire Code Ordinance 2024 I-Codes (Ord. 2026-003, amends Code Ch. 3; Div. 4 IRC with amendments)",
-     "url": "https://www.celina-tx.gov/DocumentCenter/View/14757/Signed_Building-and-Fire-Code-Ordinance_2024-I-Codes",
-     "read": "2026-10-11"
+      "id": "tx-census-v2024-spectrum",
+      "title": "Texas cities lead the way in population growth (Census Vintage 2024 table)",
+      "url": "https://spectrumlocalnews.com/tx/south-texas-el-paso/news/2025/05/15/texas-cities-lead-the-way-in-population-growth",
+      "read": "2026-10-11"
     },
-    "note": "Ord. 2026-003 amends Code Ch. 3 incl. Div. 4 IRC with amendments. Cover sheet says effective 1 Feb 2026; Building Services page says January 2026. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-   },
-   "ordinance": {
-    "value": "Ord. 2026-003 (Code of Ordinances Ch. 3, Div. 4 IRC with amendments)",
-    "status": "Secondary",
+    "note": "Census Vintage 2024 (July 1, 2024) via news reproduction of Census table; Celina grew 18.2% in 2023-24. Later (V2025) reports say >64,000."
+  },
+  "zipCodesOrBoundary": {
+    "value": "75009 (75078 partly); large ETJ and MUDs",
+    "status": "Assumed",
     "source": {
-     "id": "celina-ord-2026-003-2024-icodes",
-     "title": "Celina - Signed Building and Fire Code Ordinance 2024 I-Codes (Ord. 2026-003, amends Code Ch. 3; Div. 4 IRC with amendments)",
-     "url": "https://www.celina-tx.gov/DocumentCenter/View/14757/Signed_Building-and-Fire-Code-Ordinance_2024-I-Codes",
-     "read": "2026-10-11"
-    },
-    "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary. Operative amendment text not seen."
-   },
-   "amendments": [
-    {
-     "topic": "other",
-     "summary": "Celina adopts the I-Codes with NCTCOG regional amendments (2021 cycle confirmed; 2024 cycle amendments in Ord. 2026-003 not read). Expect NCTCOG items such as frost depth, wind, foundation/soil and garage separation clarifications.",
-     "section": "Code Ch. 3 Div. 4",
-     "status": "Secondary",
-     "source": {
-      "id": "celina-dba-2021-icodes",
-      "title": "Celina to hold builders meeting to discuss changes in the 2021 IRC after adopting 2021 I-Codes with regional amendments",
-      "url": "https://dallasbuilders.org/celina-to-hold-builders-meeting-to-discuss-changes-in-the-2021-irc-after-adopting-2021-i-codes-with-regional-amendments/",
+      "id": "assumed",
+      "title": "Assumed - agent judgement (no source could be read this session)",
+      "url": "",
       "read": "2026-10-11"
-     }
     },
-    {
-     "topic": "fire sprinklers",
-     "summary": "No one/two-family sprinkler mandate (state preemption, LGC 250.011).",
-     "status": "Secondary",
-     "source": {
-      "id": "tx-hb738-allensworth",
-      "title": "HB 738: Texas Adopts 2012 Versions of IRC and IBC; Addresses Residential Fire Sprinklers (law-firm summary)",
-      "url": "https://www.allensworthlaw.com/legal-updates/hb-738/",
+    "note": "Agent knowledge; city mailing address 112 N. Colorado St, Celina TX 75009. Confirm with city-limits GIS map (large ETJ, MUD/PID areas)."
+  },
+  "climateZone": {
+    "value": "3A",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed - agent judgement (no source could be read this session)",
+      "url": "",
       "read": "2026-10-11"
-     }
+    },
+    "note": "2021/2024 IECC Table R301.1 county list places Collin and Denton Counties in Climate Zone 3A (agent knowledge; could not fetch IECC/DOE page this session)."
+  },
+  "windstormCounty": {
+    "value": false,
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed - agent judgement (no source could be read this session)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Collin/Denton are inland North Texas counties, not in the TDI windstorm (catastrophe) area, which covers only the 14 coastal counties and parts of Harris (agent knowledge)."
+  },
+  "codes": {
+    "irc": {
+      "edition": {
+        "value": "2024 IRC with local/NCTCOG amendments (effective Jan-Feb 2026); previously 2021 IRC from 1 Nov 2022",
+        "status": "Secondary",
+        "source": {
+          "id": "celina-ord-2026-003-2024-icodes",
+          "title": "Celina - Signed Building and Fire Code Ordinance 2024 I-Codes (Ord. 2026-003, amends Code Ch. 3; Div. 4 IRC with amendments)",
+          "url": "https://www.celina-tx.gov/DocumentCenter/View/14757/Signed_Building-and-Fire-Code-Ordinance_2024-I-Codes",
+          "read": "2026-10-11"
+        },
+        "note": "Ord. 2026-003 amends Code Ch. 3 incl. Div. 4 IRC with amendments. Cover sheet says effective 1 Feb 2026; Building Services page says January 2026. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+      },
+      "ordinance": {
+        "value": "Ord. 2026-003 (Code of Ordinances Ch. 3, Div. 4 IRC with amendments)",
+        "status": "Secondary",
+        "source": {
+          "id": "celina-ord-2026-003-2024-icodes",
+          "title": "Celina - Signed Building and Fire Code Ordinance 2024 I-Codes (Ord. 2026-003, amends Code Ch. 3; Div. 4 IRC with amendments)",
+          "url": "https://www.celina-tx.gov/DocumentCenter/View/14757/Signed_Building-and-Fire-Code-Ordinance_2024-I-Codes",
+          "read": "2026-10-11"
+        },
+        "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary. Operative amendment text not seen."
+      },
+      "amendments": [
+        {
+          "topic": "other",
+          "summary": "Celina adopts the I-Codes with NCTCOG regional amendments (2021 cycle confirmed; 2024 cycle amendments in Ord. 2026-003 not read). Expect NCTCOG items such as frost depth, wind, foundation/soil and garage separation clarifications.",
+          "section": "Code Ch. 3 Div. 4",
+          "status": "Secondary",
+          "source": {
+            "id": "celina-dba-2021-icodes",
+            "title": "Celina to hold builders meeting to discuss changes in the 2021 IRC after adopting 2021 I-Codes with regional amendments",
+            "url": "https://dallasbuilders.org/celina-to-hold-builders-meeting-to-discuss-changes-in-the-2021-irc-after-adopting-2021-i-codes-with-regional-amendments/",
+            "read": "2026-10-11"
+          }
+        },
+        {
+          "topic": "fire sprinklers",
+          "summary": "No one/two-family sprinkler mandate (state preemption, LGC 250.011).",
+          "status": "Secondary",
+          "source": {
+            "id": "tx-hb738-allensworth",
+            "title": "HB 738: Texas Adopts 2012 Versions of IRC and IBC; Addresses Residential Fire Sprinklers (law-firm summary)",
+            "url": "https://www.allensworthlaw.com/legal-updates/hb-738/",
+            "read": "2026-10-11"
+          }
+        }
+      ]
+    },
+    "energy": {
+      "edition": {
+        "value": "2024 IECC (with amendments) per Ord. 2026-003; state floor is 2015 IRC Ch. 11",
+        "status": "Secondary",
+        "source": {
+          "id": "celina-ord-2026-003-2024-icodes",
+          "title": "Celina - Signed Building and Fire Code Ordinance 2024 I-Codes (Ord. 2026-003, amends Code Ch. 3; Div. 4 IRC with amendments)",
+          "url": "https://www.celina-tx.gov/DocumentCenter/View/14757/Signed_Building-and-Fire-Code-Ordinance_2024-I-Codes",
+          "read": "2026-10-11"
+        },
+        "note": "Ordinance title lists the energy code among 2024 I-Codes; amendment text not read. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+      },
+      "stretchCode": {
+        "value": "None known",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (not found in wave 3 searches)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "No local stretch code found in searches."
+      },
+      "ordinance": {
+        "value": "Ord. 2026-003",
+        "status": "Secondary",
+        "source": {
+          "id": "celina-ord-2026-003-2024-icodes",
+          "title": "Celina - Signed Building and Fire Code Ordinance 2024 I-Codes (Ord. 2026-003, amends Code Ch. 3; Div. 4 IRC with amendments)",
+          "url": "https://www.celina-tx.gov/DocumentCenter/View/14757/Signed_Building-and-Fire-Code-Ordinance_2024-I-Codes",
+          "read": "2026-10-11"
+        },
+        "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+      }
+    },
+    "plumbing": {
+      "value": "IPC 2024 (per Ord. 2026-003 code list)",
+      "status": "Secondary",
+      "source": {
+        "id": "celina-ord-2026-003-2024-icodes",
+        "title": "Celina - Signed Building and Fire Code Ordinance 2024 I-Codes (Ord. 2026-003, amends Code Ch. 3; Div. 4 IRC with amendments)",
+        "url": "https://www.celina-tx.gov/DocumentCenter/View/14757/Signed_Building-and-Fire-Code-Ordinance_2024-I-Codes",
+        "read": "2026-10-11"
+      },
+      "note": "Ordinance lists the plumbing code among the 2024 International Codes; IPC is the ICC plumbing code. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+    },
+    "electrical": {
+      "value": "NEC 2023 (Ord. 2023-111), amended by Ord. 2026-002 to allow copper-clad aluminum wire",
+      "status": "Secondary",
+      "source": {
+        "id": "celina-ord-2023-111-nec",
+        "title": "Celina ORD 2023-111 - 2023 National Electrical Code adoption",
+        "url": "https://www.celina-tx.gov/DocumentCenter/View/11735/ORD-2023-111_2023-national-electric-code-adoption",
+        "read": "2026-10-11"
+      },
+      "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+    },
+    "mechanical": {
+      "value": "IMC 2024",
+      "status": "Secondary",
+      "source": {
+        "id": "celina-ord-2026-003-2024-icodes",
+        "title": "Celina - Signed Building and Fire Code Ordinance 2024 I-Codes (Ord. 2026-003, amends Code Ch. 3; Div. 4 IRC with amendments)",
+        "url": "https://www.celina-tx.gov/DocumentCenter/View/14757/Signed_Building-and-Fire-Code-Ordinance_2024-I-Codes",
+        "read": "2026-10-11"
+      },
+      "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+    },
+    "fuelGas": {
+      "value": "IFGC 2024",
+      "status": "Secondary",
+      "source": {
+        "id": "celina-ord-2026-003-2024-icodes",
+        "title": "Celina - Signed Building and Fire Code Ordinance 2024 I-Codes (Ord. 2026-003, amends Code Ch. 3; Div. 4 IRC with amendments)",
+        "url": "https://www.celina-tx.gov/DocumentCenter/View/14757/Signed_Building-and-Fire-Code-Ordinance_2024-I-Codes",
+        "read": "2026-10-11"
+      },
+      "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+    },
+    "fire": {
+      "value": "IFC 2024 (Ord. 2026-003). No one/two-family sprinkler mandate (Texas LGC 250.011 preemption).",
+      "status": "Secondary",
+      "source": {
+        "id": "celina-ord-2026-003-2024-icodes",
+        "title": "Celina - Signed Building and Fire Code Ordinance 2024 I-Codes (Ord. 2026-003, amends Code Ch. 3; Div. 4 IRC with amendments)",
+        "url": "https://www.celina-tx.gov/DocumentCenter/View/14757/Signed_Building-and-Fire-Code-Ordinance_2024-I-Codes",
+        "read": "2026-10-11"
+      },
+      "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+    },
+    "wind": {
+      "value": 105,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "mph Vult",
+      "note": "Approx. ultimate design wind speed for Risk Category II in Collin County per ASCE 7-16 / IRC Fig. R301.2(2) is about 105 mph (agent estimate; NCTCOG regional amendments commonly list ~105-115 mph). Verify with ASCE Hazard Tool."
+    },
+    "hailRoofing": {
+      "value": "No local hail-resistant roofing mandate found; North Texas is a high-hail region - Class 4 impact-resistant shingles (UL 2218) are a common insurer-driven upgrade, not a code requirement.",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not verified in local amendments."
+    },
+    "seismic": {
+      "value": "A",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Seismic Design Category A for North Texas (IRC Fig. R301.2(7) shows low seismicity); agent knowledge."
+    },
+    "frostDepth": {
+      "value": 6,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "in",
+      "note": "NCTCOG-region amendments typically fill IRC Table R301.2(1) frost depth for DFW at about 6 in. (some cities list 12 in.); not verified for this city."
     }
-   ]
   },
-  "energy": {
-   "edition": {
-    "value": "2024 IECC (with amendments) per Ord. 2026-003; state floor is 2015 IRC Ch. 11",
-    "status": "Secondary",
-    "source": {
-     "id": "celina-ord-2026-003-2024-icodes",
-     "title": "Celina - Signed Building and Fire Code Ordinance 2024 I-Codes (Ord. 2026-003, amends Code Ch. 3; Div. 4 IRC with amendments)",
-     "url": "https://www.celina-tx.gov/DocumentCenter/View/14757/Signed_Building-and-Fire-Code-Ordinance_2024-I-Codes",
-     "read": "2026-10-11"
+  "zoning": {
+    "hasZoning": {
+      "value": true,
+      "status": "Secondary",
+      "source": {
+        "id": "celina-zoneomics-zoning-ch2",
+        "title": "Celina TX Zoning Ordinance Art. 14.02 (Zoneomics mirror): SF-E, SF-R (Sec. 14.02.203), open space rule Sec. 14.02.101",
+        "url": "https://www.zoneomics.com/code/celina-TX/chapter_2",
+        "read": "2026-10-11"
+      },
+      "note": "Celina Zoning Ordinance Art. 14.02. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
     },
-    "note": "Ordinance title lists the energy code among 2024 I-Codes; amendment text not read. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-   },
-   "stretchCode": {
-    "value": "None known",
+    "typicalDistrict": {
+      "value": "PD with SF-R base (Single-family residential detached, Zoning Ord. Sec. 14.02.203); SF-R consolidated former SF-15, SF-10, SF-9, SF-7.5",
+      "status": "Secondary",
+      "source": {
+        "id": "celina-zoneomics-zoning-ch2",
+        "title": "Celina TX Zoning Ordinance Art. 14.02 (Zoneomics mirror): SF-E, SF-R (Sec. 14.02.203), open space rule Sec. 14.02.101",
+        "url": "https://www.zoneomics.com/code/celina-TX/chapter_2",
+        "read": "2026-10-11"
+      },
+      "note": "Most new subdivisions are PDs on an SF-R base with their own Area Regulations (e.g. Millen Farms Ord. 2025-68, Sutton Fields PD). Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+    },
+    "minLotSqFt": {
+      "value": 5750,
+      "status": "Secondary",
+      "source": {
+        "id": "celina-sutton-fields-pd",
+        "title": "Celina - Sutton Fields Planned Development ordinance (DocumentCenter/View/2987)",
+        "url": "https://www.celina-tx.gov/DocumentCenter/View/2987",
+        "read": "2026-10-11"
+      },
+      "unit": "sq ft",
+      "note": "Sutton Fields PD: Lot Type A 6,900 sf, Lot Type B 5,750 sf. Values from the Sutton Fields PD (one example PD on SF-R-type lots), NOT the base SF-R table, which was not found. Use only as a default until the user's PD is known. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+    },
+    "minLotWidthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (not found in wave 3 searches)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: SF-R base / PD lot width (Sutton Fields widths not in snippet)."
+    },
+    "minLotDepthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (not found in wave 3 searches)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: lot depth."
+    },
+    "setbacksFt": {
+      "front": {
+        "value": 20,
+        "status": "Secondary",
+        "source": {
+          "id": "celina-sutton-fields-pd",
+          "title": "Celina - Sutton Fields Planned Development ordinance (DocumentCenter/View/2987)",
+          "url": "https://www.celina-tx.gov/DocumentCenter/View/2987",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Values from the Sutton Fields PD (one example PD on SF-R-type lots), NOT the base SF-R table, which was not found. Use only as a default until the user's PD is known. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+      },
+      "side": {
+        "value": 5,
+        "status": "Secondary",
+        "source": {
+          "id": "celina-sutton-fields-pd",
+          "title": "Celina - Sutton Fields Planned Development ordinance (DocumentCenter/View/2987)",
+          "url": "https://www.celina-tx.gov/DocumentCenter/View/2987",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Values from the Sutton Fields PD (one example PD on SF-R-type lots), NOT the base SF-R table, which was not found. Use only as a default until the user's PD is known. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+      },
+      "streetSide": {
+        "value": 15,
+        "status": "Secondary",
+        "source": {
+          "id": "celina-sutton-fields-pd",
+          "title": "Celina - Sutton Fields Planned Development ordinance (DocumentCenter/View/2987)",
+          "url": "https://www.celina-tx.gov/DocumentCenter/View/2987",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Corner-lot side yard 15 ft. Values from the Sutton Fields PD (one example PD on SF-R-type lots), NOT the base SF-R table, which was not found. Use only as a default until the user's PD is known. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+      },
+      "rear": {
+        "value": 20,
+        "status": "Secondary",
+        "source": {
+          "id": "celina-sutton-fields-pd",
+          "title": "Celina - Sutton Fields Planned Development ordinance (DocumentCenter/View/2987)",
+          "url": "https://www.celina-tx.gov/DocumentCenter/View/2987",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Values from the Sutton Fields PD (one example PD on SF-R-type lots), NOT the base SF-R table, which was not found. Use only as a default until the user's PD is known. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+      }
+    },
+    "maxHeightFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (not found in wave 3 searches)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: SF-R height limit (Sec. 14.02.203 table not in search extracts). Typical Collin County SF limit 35-40 ft / 2.5 stories."
+    },
+    "maxStories": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (not found in wave 3 searches)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found."
+    },
+    "maxLotCoverage": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (not found in wave 3 searches)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: SF-R lot coverage."
+    },
+    "imperviousCover": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (not found in wave 3 searches)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No SF impervious cap found; see 20% open space rule in other."
+    },
+    "far": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (not found in wave 3 searches)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No SF FAR found."
+    },
+    "parking": {
+      "value": "2 enclosed garage spaces per SF dwelling typical in Collin County cities; not verified.",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not verified."
+    },
+    "garageRules": {
+      "value": "PD-specific garage rules (swing/J-entry, rear-entry common in newer PDs per listings); base SF-R garage orientation rule not found.",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (not found in wave 3 searches)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Search for city garage-orientation rule returned only real-estate listings; check PD Area/Architectural Regulations."
+    },
+    "adu": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: ADU rules. Web fetch blocked by egress policy and session web-search budget exhausted."
+    },
+    "masonry": {
+      "value": "City masonry % not enforceable on new homes under Gov't Code ch. 3000 (HB 2439); PD/HOA covenants may still require brick/stone.",
+      "status": "Secondary",
+      "source": {
+        "id": "tx-gov-3000",
+        "title": "Texas Government Code Ch. 3000 (building products, materials, methods; HB 2439, 2019)",
+        "url": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.3000.htm",
+        "read": "2026-10-11",
+        "section": "3000.002"
+      },
+      "note": "State statute; Celina PD text not read."
+    },
+    "trees": {
+      "value": "Tree preservation ordinance likely (common in Collin County); not verified.",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not verified."
+    },
+    "other": [
+      {
+        "value": "All residential districts: 20% open space, at least half of it usable open space (Sec. 14.02.101 general regs).",
+        "status": "Secondary",
+        "source": {
+          "id": "celina-zoneomics-zoning-ch2",
+          "title": "Celina TX Zoning Ordinance Art. 14.02 (Zoneomics mirror): SF-E, SF-R (Sec. 14.02.203), open space rule Sec. 14.02.101",
+          "url": "https://www.zoneomics.com/code/celina-TX/chapter_2",
+          "read": "2026-10-11"
+        },
+        "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+      },
+      {
+        "value": "Other SF districts: SF-E estate (min 1 acre; front 40, side 20, rear 25 ft), SF-A attached, SF-M manufactured, OT-R old town residential.",
+        "status": "Secondary",
+        "source": {
+          "id": "celina-zoneomics-zoning-ch2",
+          "title": "Celina TX Zoning Ordinance Art. 14.02 (Zoneomics mirror): SF-E, SF-R (Sec. 14.02.203), open space rule Sec. 14.02.101",
+          "url": "https://www.zoneomics.com/code/celina-TX/chapter_2",
+          "read": "2026-10-11"
+        },
+        "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+      },
+      {
+        "value": "Example PD: Millen Farms (Ord. 2025-68) rezoned to PD with SF-R base standards; single-family setbacks follow the PD Area Regulations.",
+        "status": "Secondary",
+        "source": {
+          "id": "celina-ord-2025-68-millen-farms",
+          "title": "Celina Ord 2025-68 amending Comprehensive Zoning Ordinance - Millen Farms PD (SF-R base)",
+          "url": "https://www.celina-tx.gov/DocumentCenter/View/14318/Ord-2025-68-amending-Comp-Zoning-Ord-Millen-Farms",
+          "read": "2026-10-11"
+        },
+        "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+      }
+    ]
+  },
+  "process": {
+    "steps": [
+      {
+        "value": "Register as contractor, then apply for residential building permit with site/plot plan, construction plans, PE-sealed foundation plan and energy compliance; HOA/ARC approval is separate.",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (not found in wave 3 searches)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Typical Collin County process; Celina residential permits office (945) 362-9250 per city page; city submittal checklist not read."
+      }
+    ],
+    "sealsRequired": [
+      {
+        "value": "PE-sealed foundation design expected (expansive clay); architect seal not required for 1-2 family homes (Tex. Occ. Code ch. 1051 exemption).",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (no source could be read this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not verified locally."
+      }
+    ],
+    "inspections": [
+      {
+        "value": "Typical: plumbing ground, foundation, framing, MEP rough, insulation, final/CO.",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (no source could be read this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not verified."
+      }
+    ],
+    "reviewDays": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: review time. Web fetch blocked by egress policy and session web-search budget exhausted."
+    }
+  },
+  "fees": {
+    "permitFormula": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (not found in wave 3 searches)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: Celina new-home permit fee schedule (only a $100 roof-permit fee seen on the Building page). Note LGC 214.907 bars value-based residential fees, so expect a per-sq-ft fee."
+    },
+    "workedExample2400sqft": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (not found in wave 3 searches)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not computed: fee rate not found (assumption: 2,400 sf conditioned + 440 sf attached garage)."
+    },
+    "planReview": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: plan review fee. Web fetch blocked by egress policy and session web-search budget exhausted."
+    },
+    "impactFees": [
+      {
+        "value": 4400,
+        "status": "Secondary",
+        "source": {
+          "id": "celina-dba-impact-update",
+          "title": "City of Celina updates impact fees",
+          "url": "https://dallasbuilders.org/city-of-celina-updates-impact-fees/",
+          "read": "2026-10-11"
+        },
+        "unit": "USD",
+        "note": "Water impact fee per SF unit as reported adopted by council (DBA post, year not shown in extract; likely pre-2025). Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+      },
+      {
+        "value": 5500,
+        "status": "Secondary",
+        "source": {
+          "id": "celina-dba-impact-update",
+          "title": "City of Celina updates impact fees",
+          "url": "https://dallasbuilders.org/city-of-celina-updates-impact-fees/",
+          "read": "2026-10-11"
+        },
+        "unit": "USD",
+        "note": "Wastewater impact fee per SF unit (same DBA report; an earlier DBA post said $5,200 proposed). Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+      },
+      {
+        "value": 5500,
+        "status": "Secondary",
+        "source": {
+          "id": "celina-dba-impact-update",
+          "title": "City of Celina updates impact fees",
+          "url": "https://dallasbuilders.org/city-of-celina-updates-impact-fees/",
+          "read": "2026-10-11"
+        },
+        "unit": "USD",
+        "note": "Roadway impact fee per SF unit, service areas 1-6 ($4,400 in SA 7); roadway rates date from March 2018 and an update is pending. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+      },
+      {
+        "value": 14369,
+        "status": "Secondary",
+        "source": {
+          "id": "celina-cc-2025-04-01-impact-presentation",
+          "title": "City Council 4/1/2025 impact fee presentation (destinyhosted agenda document)",
+          "url": "https://public.destinyhosted.com/scherdocs/2025/CC/20250401_807/4189_4.1.25_Presentation.pdf",
+          "read": "2026-10-11"
+        },
+        "unit": "USD",
+        "note": "2025 update: calculated MAXIMUM water $8,814 + wastewater $5,556 per LUE (~$14,369); new rates effective July 2025, adopted (collected) amount not seen. Study: Freese and Nichols July 2025 report. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
+      }
+    ],
+    "tapFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (not found in wave 3 searches)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: water/sewer tap and meter fees. Many lots are in MUDs/PIDs with their own fees/assessments."
+      }
+    ]
+  },
+  "cost": {
+    "factor": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "cost-method",
+        "title": "See README cost method (filled by cost agent)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "PENDING_COST_AGENT"
+    },
+    "method": "PENDING_COST_AGENT",
+    "perSqFtMarket": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: public market $/sf figure. Web fetch blocked by egress policy and session web-search budget exhausted."
+    },
+    "drivers": [
+      {
+        "value": "Engineered slab on expansive clay.",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (not found in wave 3 searches)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Typical North Texas."
+      },
+      {
+        "value": "PD/HOA masonry and architectural standards.",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (not found in wave 3 searches)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Typical Celina PDs."
+      },
+      {
+        "value": "Impact fees roughly $15,000-20,000 per home (water + wastewater + roadway), plus MUD/PID assessments in many subdivisions.",
+        "status": "Secondary",
+        "source": {
+          "id": "celina-dba-impact-update",
+          "title": "City of Celina updates impact fees",
+          "url": "https://dallasbuilders.org/city-of-celina-updates-impact-fees/",
+          "read": "2026-10-11"
+        },
+        "note": "Range combines DBA-reported adopted fees ($15,400) and 2025 water/ww maximum ($14,369) + roadway $5,500; actual collected amount to be confirmed."
+      }
+    ]
+  },
+  "flood": {
+    "value": "NFIP participant; Celina flood damage prevention ordinance and freeboard not found in searches (DFW cities commonly 1-2 ft above BFE).",
     "status": "Assumed",
     "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (not found in wave 3 searches)",
-     "url": "",
-     "read": "2026-10-11"
+      "id": "assumed",
+      "title": "Assumed - agent judgement (not found in wave 3 searches)",
+      "url": "",
+      "read": "2026-10-11"
     },
-    "note": "No local stretch code found in searches."
-   },
-   "ordinance": {
-    "value": "Ord. 2026-003",
-    "status": "Secondary",
-    "source": {
-     "id": "celina-ord-2026-003-2024-icodes",
-     "title": "Celina - Signed Building and Fire Code Ordinance 2024 I-Codes (Ord. 2026-003, amends Code Ch. 3; Div. 4 IRC with amendments)",
-     "url": "https://www.celina-tx.gov/DocumentCenter/View/14757/Signed_Building-and-Fire-Code-Ordinance_2024-I-Codes",
-     "read": "2026-10-11"
+    "note": "Search returned only Celina, Ohio and other cities."
+  },
+  "engineChanges": [
+    {
+      "id": "celina-pd-check",
+      "ruleType": "survey-input-district",
+      "area": "survey",
+      "change": "Ask for the lot's PD ordinance; most new Celina lots are PDs on an SF-R base. Use PD Area Regulations; if unknown use example-PD defaults front 20 / side 5 / corner side 15 / rear 20 ft and flag for confirmation.",
+      "priority": "must",
+      "params": {
+        "defaultDistrict": "PD (SF-R base)",
+        "pdLikely": true,
+        "frontFt": 20,
+        "sideFt": 5,
+        "streetSideFt": 15,
+        "rearFt": 20,
+        "defaultsFrom": "Sutton Fields PD example",
+        "requireUserConfirm": true
+      },
+      "source": {
+        "id": "celina-sutton-fields-pd",
+        "title": "Celina - Sutton Fields Planned Development ordinance (DocumentCenter/View/2987)",
+        "url": "https://www.celina-tx.gov/DocumentCenter/View/2987",
+        "read": "2026-10-11"
+      }
     },
-    "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-   }
-  },
-  "plumbing": {
-   "value": "IPC 2024 (per Ord. 2026-003 code list)",
-   "status": "Secondary",
-   "source": {
-    "id": "celina-ord-2026-003-2024-icodes",
-    "title": "Celina - Signed Building and Fire Code Ordinance 2024 I-Codes (Ord. 2026-003, amends Code Ch. 3; Div. 4 IRC with amendments)",
-    "url": "https://www.celina-tx.gov/DocumentCenter/View/14757/Signed_Building-and-Fire-Code-Ordinance_2024-I-Codes",
-    "read": "2026-10-11"
-   },
-   "note": "Ordinance lists the plumbing code among the 2024 International Codes; IPC is the ICC plumbing code. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-  },
-  "electrical": {
-   "value": "NEC 2023 (Ord. 2023-111), amended by Ord. 2026-002 to allow copper-clad aluminum wire",
-   "status": "Secondary",
-   "source": {
-    "id": "celina-ord-2023-111-nec",
-    "title": "Celina ORD 2023-111 - 2023 National Electrical Code adoption",
-    "url": "https://www.celina-tx.gov/DocumentCenter/View/11735/ORD-2023-111_2023-national-electric-code-adoption",
-    "read": "2026-10-11"
-   },
-   "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-  },
-  "mechanical": {
-   "value": "IMC 2024",
-   "status": "Secondary",
-   "source": {
-    "id": "celina-ord-2026-003-2024-icodes",
-    "title": "Celina - Signed Building and Fire Code Ordinance 2024 I-Codes (Ord. 2026-003, amends Code Ch. 3; Div. 4 IRC with amendments)",
-    "url": "https://www.celina-tx.gov/DocumentCenter/View/14757/Signed_Building-and-Fire-Code-Ordinance_2024-I-Codes",
-    "read": "2026-10-11"
-   },
-   "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-  },
-  "fuelGas": {
-   "value": "IFGC 2024",
-   "status": "Secondary",
-   "source": {
-    "id": "celina-ord-2026-003-2024-icodes",
-    "title": "Celina - Signed Building and Fire Code Ordinance 2024 I-Codes (Ord. 2026-003, amends Code Ch. 3; Div. 4 IRC with amendments)",
-    "url": "https://www.celina-tx.gov/DocumentCenter/View/14757/Signed_Building-and-Fire-Code-Ordinance_2024-I-Codes",
-    "read": "2026-10-11"
-   },
-   "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-  },
-  "fire": {
-   "value": "IFC 2024 (Ord. 2026-003). No one/two-family sprinkler mandate (Texas LGC 250.011 preemption).",
-   "status": "Secondary",
-   "source": {
-    "id": "celina-ord-2026-003-2024-icodes",
-    "title": "Celina - Signed Building and Fire Code Ordinance 2024 I-Codes (Ord. 2026-003, amends Code Ch. 3; Div. 4 IRC with amendments)",
-    "url": "https://www.celina-tx.gov/DocumentCenter/View/14757/Signed_Building-and-Fire-Code-Ordinance_2024-I-Codes",
-    "read": "2026-10-11"
-   },
-   "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-  },
-  "wind": {
-   "value": 105,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "unit": "mph Vult",
-   "note": "Approx. ultimate design wind speed for Risk Category II in Collin County per ASCE 7-16 / IRC Fig. R301.2(2) is about 105 mph (agent estimate; NCTCOG regional amendments commonly list ~105-115 mph). Verify with ASCE Hazard Tool."
-  },
-  "hailRoofing": {
-   "value": "No local hail-resistant roofing mandate found; North Texas is a high-hail region - Class 4 impact-resistant shingles (UL 2218) are a common insurer-driven upgrade, not a code requirement.",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not verified in local amendments."
-  },
-  "seismic": {
-   "value": "A",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Seismic Design Category A for North Texas (IRC Fig. R301.2(7) shows low seismicity); agent knowledge."
-  },
-  "frostDepth": {
-   "value": 6,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "unit": "in",
-   "note": "NCTCOG-region amendments typically fill IRC Table R301.2(1) frost depth for DFW at about 6 in. (some cities list 12 in.); not verified for this city."
+    {
+      "id": "celina-eng-foundation",
+      "ruleType": "engineered-foundation-flag",
+      "area": "foundation",
+      "change": "Flag PE-sealed engineered foundation (post-tensioned slab) for all new homes on Collin County expansive clay.",
+      "priority": "must",
+      "params": {
+        "peSealed": true,
+        "status": "Assumed"
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "celina-energy",
+      "ruleType": "climate-zone-envelope",
+      "area": "envelope",
+      "change": "Use 2024 IECC climate zone 3A envelope values (Celina adopted 2024 I-Codes, effective early 2026).",
+      "priority": "must",
+      "params": {
+        "climateZone": "3A",
+        "energyCode": "2024 IECC"
+      },
+      "source": {
+        "id": "celina-ord-2026-003-2024-icodes",
+        "title": "Celina - Signed Building and Fire Code Ordinance 2024 I-Codes (Ord. 2026-003, amends Code Ch. 3; Div. 4 IRC with amendments)",
+        "url": "https://www.celina-tx.gov/DocumentCenter/View/14757/Signed_Building-and-Fire-Code-Ordinance_2024-I-Codes",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "celina-masonry",
+      "ruleType": "masonry-percentage",
+      "area": "envelope",
+      "change": "Do not enforce city masonry %; prompt for PD/HOA masonry requirement.",
+      "priority": "should",
+      "params": {
+        "cityEnforceable": false
+      },
+      "source": {
+        "id": "tx-gov-3000",
+        "title": "Texas Government Code Ch. 3000 (building products, materials, methods; HB 2439, 2019)",
+        "url": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.3000.htm",
+        "read": "2026-10-11",
+        "section": "3000.002"
+      }
+    },
+    {
+      "id": "celina-impact-fees",
+      "ruleType": "impact-fee-estimate",
+      "area": "estimate",
+      "change": "Add impact fees per SF home: water + wastewater + roadway, default ~$15,400 (DBA-reported adopted) with a high case ~$19,900 (2025 water/ww maximum $14,369 + roadway $5,500). Show as large line item.",
+      "priority": "must",
+      "params": {
+        "waterUSD": 4400,
+        "wastewaterUSD": 5500,
+        "roadwayUSD": 5500,
+        "roadwaySA7USD": 4400,
+        "lowTotalUSD": 15400,
+        "highTotalUSD": 19869,
+        "checkMudPid": true
+      },
+      "source": {
+        "id": "celina-dba-impact-update",
+        "title": "City of Celina updates impact fees",
+        "url": "https://dallasbuilders.org/city-of-celina-updates-impact-fees/",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "celina-no-sprinkler",
+      "ruleType": "fire-sprinkler",
+      "area": "plan",
+      "change": "Do not add a residential sprinkler mandate (state preemption) unless city shows a pre-2009 grandfathered rule.",
+      "priority": "nice",
+      "params": {
+        "required": false,
+        "status": "Secondary-state law"
+      },
+      "source": {
+        "id": "tx-hb738-allensworth",
+        "title": "HB 738: Texas Adopts 2012 Versions of IRC and IBC; Addresses Residential Fire Sprinklers (law-firm summary)",
+        "url": "https://www.allensworthlaw.com/legal-updates/hb-738/",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "celina-deed",
+      "ruleType": "deed-restriction-check",
+      "area": "survey",
+      "change": "Check HOA/deed restrictions and platted building lines.",
+      "priority": "should",
+      "params": {},
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "celina-irc-2024",
+      "ruleType": "code-edition-by-city",
+      "area": "plan",
+      "change": "Run plan checks against the 2024 IRC (not 2021) for permits after early 2026.",
+      "priority": "must",
+      "params": {
+        "ircEdition": "2024",
+        "effective": "2026-01/02"
+      },
+      "source": {
+        "id": "celina-ord-2026-003-2024-icodes",
+        "title": "Celina - Signed Building and Fire Code Ordinance 2024 I-Codes (Ord. 2026-003, amends Code Ch. 3; Div. 4 IRC with amendments)",
+        "url": "https://www.celina-tx.gov/DocumentCenter/View/14757/Signed_Building-and-Fire-Code-Ordinance_2024-I-Codes",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "celina-open-space",
+      "ruleType": "lot-coverage",
+      "area": "massing",
+      "change": "Note 20% open space requirement applies at district/subdivision level (half usable); do not apply as a per-lot coverage cap unless PD says so.",
+      "priority": "nice",
+      "params": {
+        "openSpaceFraction": 0.2,
+        "perLot": false
+      },
+      "source": {
+        "id": "celina-zoneomics-zoning-ch2",
+        "title": "Celina TX Zoning Ordinance Art. 14.02 (Zoneomics mirror): SF-E, SF-R (Sec. 14.02.203), open space rule Sec. 14.02.101",
+        "url": "https://www.zoneomics.com/code/celina-TX/chapter_2",
+        "read": "2026-10-11"
+      }
+    }
+  ],
+  "plainLanguage": "Celina moved to the 2024 International Residential Code in early 2026 (Ordinance 2026-003), with North Texas regional amendments; electrical work follows the 2023 NEC. Almost every new home is in a planned development (PD), which sets its own setbacks, garage and material rules, so give us your subdivision's PD number. A typical example PD uses 20 ft front, 5 ft side and 20 ft rear setbacks on 5,750-6,900 sq ft lots; we use those only until your PD is confirmed. Impact fees are large here: about $15,000-20,000 per home for water, wastewater and roads. Many Celina subdivisions are also in MUDs or PIDs, which add yearly assessments. Plan on an engineer-designed foundation because of expansive clay. Texas law stops the city from requiring a brick percentage, but your HOA likely still will.",
+  "openQuestions": [
+    "Operative 2024 IRC local amendments in Ord. 2026-003 (foundation, frost depth, wind)",
+    "Base SF-R dimensional table (Sec. 14.02.203): lot size, setbacks, height, coverage",
+    "Currently collected water/wastewater impact fees after July 2025 update; roadway update",
+    "Permit fee schedule ($/sq ft) and plan review fee",
+    "Garage orientation rules",
+    "Floodplain freeboard"
+  ],
+  "notFound": [
+    "SF-R base dimensions",
+    "Permit fee rate",
+    "Flood freeboard",
+    "Garage orientation rule",
+    "Tap fees",
+    "Market $/sf"
+  ],
+  "comparison": {
+    "irc": "2024 IRC (Ord. 2026-003, eff. early 2026)",
+    "energy": "2024 IECC",
+    "plumbing": "IPC 2024",
+    "district": "PD on SF-R base",
+    "setbacks": "20/5/20 (example PD)",
+    "maxHeight": "not found",
+    "coverageFar": "not found (20% open space district-level)",
+    "masonry": "not city-enforceable; PD/HOA",
+    "engFoundation": "yes (assumed)",
+    "windstorm": "no",
+    "flood": "not found",
+    "permitFeeExample": "not found",
+    "impactFees": "~$15,400-19,900 water+ww+roadway",
+    "costFactor": "PENDING"
   }
- },
- "zoning": {
-  "hasZoning": {
-   "value": true,
-   "status": "Secondary",
-   "source": {
-    "id": "celina-zoneomics-zoning-ch2",
-    "title": "Celina TX Zoning Ordinance Art. 14.02 (Zoneomics mirror): SF-E, SF-R (Sec. 14.02.203), open space rule Sec. 14.02.101",
-    "url": "https://www.zoneomics.com/code/celina-TX/chapter_2",
-    "read": "2026-10-11"
-   },
-   "note": "Celina Zoning Ordinance Art. 14.02. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-  },
-  "typicalDistrict": {
-   "value": "PD with SF-R base (Single-family residential detached, Zoning Ord. Sec. 14.02.203); SF-R consolidated former SF-15, SF-10, SF-9, SF-7.5",
-   "status": "Secondary",
-   "source": {
-    "id": "celina-zoneomics-zoning-ch2",
-    "title": "Celina TX Zoning Ordinance Art. 14.02 (Zoneomics mirror): SF-E, SF-R (Sec. 14.02.203), open space rule Sec. 14.02.101",
-    "url": "https://www.zoneomics.com/code/celina-TX/chapter_2",
-    "read": "2026-10-11"
-   },
-   "note": "Most new subdivisions are PDs on an SF-R base with their own Area Regulations (e.g. Millen Farms Ord. 2025-68, Sutton Fields PD). Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-  },
-  "minLotSqFt": {
-   "value": 5750,
-   "status": "Secondary",
-   "source": {
-    "id": "celina-sutton-fields-pd",
-    "title": "Celina - Sutton Fields Planned Development ordinance (DocumentCenter/View/2987)",
-    "url": "https://www.celina-tx.gov/DocumentCenter/View/2987",
-    "read": "2026-10-11"
-   },
-   "unit": "sq ft",
-   "note": "Sutton Fields PD: Lot Type A 6,900 sf, Lot Type B 5,750 sf. Values from the Sutton Fields PD (one example PD on SF-R-type lots), NOT the base SF-R table, which was not found. Use only as a default until the user's PD is known. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-  },
-  "minLotWidthFt": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (not found in wave 3 searches)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: SF-R base / PD lot width (Sutton Fields widths not in snippet)."
-  },
-  "minLotDepthFt": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (not found in wave 3 searches)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: lot depth."
-  },
-  "setbacksFt": {
-   "front": {
-    "value": 20,
-    "status": "Secondary",
-    "source": {
-     "id": "celina-sutton-fields-pd",
-     "title": "Celina - Sutton Fields Planned Development ordinance (DocumentCenter/View/2987)",
-     "url": "https://www.celina-tx.gov/DocumentCenter/View/2987",
-     "read": "2026-10-11"
-    },
-    "unit": "ft",
-    "note": "Values from the Sutton Fields PD (one example PD on SF-R-type lots), NOT the base SF-R table, which was not found. Use only as a default until the user's PD is known. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-   },
-   "side": {
-    "value": 5,
-    "status": "Secondary",
-    "source": {
-     "id": "celina-sutton-fields-pd",
-     "title": "Celina - Sutton Fields Planned Development ordinance (DocumentCenter/View/2987)",
-     "url": "https://www.celina-tx.gov/DocumentCenter/View/2987",
-     "read": "2026-10-11"
-    },
-    "unit": "ft",
-    "note": "Values from the Sutton Fields PD (one example PD on SF-R-type lots), NOT the base SF-R table, which was not found. Use only as a default until the user's PD is known. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-   },
-   "streetSide": {
-    "value": 15,
-    "status": "Secondary",
-    "source": {
-     "id": "celina-sutton-fields-pd",
-     "title": "Celina - Sutton Fields Planned Development ordinance (DocumentCenter/View/2987)",
-     "url": "https://www.celina-tx.gov/DocumentCenter/View/2987",
-     "read": "2026-10-11"
-    },
-    "unit": "ft",
-    "note": "Corner-lot side yard 15 ft. Values from the Sutton Fields PD (one example PD on SF-R-type lots), NOT the base SF-R table, which was not found. Use only as a default until the user's PD is known. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-   },
-   "rear": {
-    "value": 20,
-    "status": "Secondary",
-    "source": {
-     "id": "celina-sutton-fields-pd",
-     "title": "Celina - Sutton Fields Planned Development ordinance (DocumentCenter/View/2987)",
-     "url": "https://www.celina-tx.gov/DocumentCenter/View/2987",
-     "read": "2026-10-11"
-    },
-    "unit": "ft",
-    "note": "Values from the Sutton Fields PD (one example PD on SF-R-type lots), NOT the base SF-R table, which was not found. Use only as a default until the user's PD is known. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-   }
-  },
-  "maxHeightFt": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (not found in wave 3 searches)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: SF-R height limit (Sec. 14.02.203 table not in search extracts). Typical Collin County SF limit 35-40 ft / 2.5 stories."
-  },
-  "maxStories": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (not found in wave 3 searches)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found."
-  },
-  "maxLotCoverage": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (not found in wave 3 searches)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: SF-R lot coverage."
-  },
-  "imperviousCover": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (not found in wave 3 searches)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "No SF impervious cap found; see 20% open space rule in other."
-  },
-  "far": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (not found in wave 3 searches)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "No SF FAR found."
-  },
-  "parking": {
-   "value": "2 enclosed garage spaces per SF dwelling typical in Collin County cities; not verified.",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not verified."
-  },
-  "garageRules": {
-   "value": "PD-specific garage rules (swing/J-entry, rear-entry common in newer PDs per listings); base SF-R garage orientation rule not found.",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (not found in wave 3 searches)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Search for city garage-orientation rule returned only real-estate listings; check PD Area/Architectural Regulations."
-  },
-  "adu": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: ADU rules. Web fetch blocked by egress policy and session web-search budget exhausted."
-  },
-  "masonry": {
-   "value": "City masonry % not enforceable on new homes under Gov't Code ch. 3000 (HB 2439); PD/HOA covenants may still require brick/stone.",
-   "status": "Secondary",
-   "source": {
-    "id": "tx-gov-3000",
-    "title": "Texas Government Code Ch. 3000 (building products, materials, methods; HB 2439, 2019)",
-    "url": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.3000.htm",
-    "read": "2026-10-11",
-    "section": "3000.002"
-   },
-   "note": "State statute; Celina PD text not read."
-  },
-  "trees": {
-   "value": "Tree preservation ordinance likely (common in Collin County); not verified.",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not verified."
-  },
-  "other": [
-   {
-    "value": "All residential districts: 20% open space, at least half of it usable open space (Sec. 14.02.101 general regs).",
-    "status": "Secondary",
-    "source": {
-     "id": "celina-zoneomics-zoning-ch2",
-     "title": "Celina TX Zoning Ordinance Art. 14.02 (Zoneomics mirror): SF-E, SF-R (Sec. 14.02.203), open space rule Sec. 14.02.101",
-     "url": "https://www.zoneomics.com/code/celina-TX/chapter_2",
-     "read": "2026-10-11"
-    },
-    "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-   },
-   {
-    "value": "Other SF districts: SF-E estate (min 1 acre; front 40, side 20, rear 25 ft), SF-A attached, SF-M manufactured, OT-R old town residential.",
-    "status": "Secondary",
-    "source": {
-     "id": "celina-zoneomics-zoning-ch2",
-     "title": "Celina TX Zoning Ordinance Art. 14.02 (Zoneomics mirror): SF-E, SF-R (Sec. 14.02.203), open space rule Sec. 14.02.101",
-     "url": "https://www.zoneomics.com/code/celina-TX/chapter_2",
-     "read": "2026-10-11"
-    },
-    "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-   },
-   {
-    "value": "Example PD: Millen Farms (Ord. 2025-68) rezoned to PD with SF-R base standards; single-family setbacks follow the PD Area Regulations.",
-    "status": "Secondary",
-    "source": {
-     "id": "celina-ord-2025-68-millen-farms",
-     "title": "Celina Ord 2025-68 amending Comprehensive Zoning Ordinance - Millen Farms PD (SF-R base)",
-     "url": "https://www.celina-tx.gov/DocumentCenter/View/14318/Ord-2025-68-amending-Comp-Zoning-Ord-Millen-Farms",
-     "read": "2026-10-11"
-    },
-    "note": "Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-   }
-  ]
- },
- "process": {
-  "steps": [
-   {
-    "value": "Register as contractor, then apply for residential building permit with site/plot plan, construction plans, PE-sealed foundation plan and energy compliance; HOA/ARC approval is separate.",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (not found in wave 3 searches)",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Typical Collin County process; Celina residential permits office (945) 362-9250 per city page; city submittal checklist not read."
-   }
-  ],
-  "sealsRequired": [
-   {
-    "value": "PE-sealed foundation design expected (expansive clay); architect seal not required for 1-2 family homes (Tex. Occ. Code ch. 1051 exemption).",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (no source could be read this session)",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Not verified locally."
-   }
-  ],
-  "inspections": [
-   {
-    "value": "Typical: plumbing ground, foundation, framing, MEP rough, insulation, final/CO.",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (no source could be read this session)",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Not verified."
-   }
-  ],
-  "reviewDays": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: review time. Web fetch blocked by egress policy and session web-search budget exhausted."
-  }
- },
- "fees": {
-  "permitFormula": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (not found in wave 3 searches)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: Celina new-home permit fee schedule (only a $100 roof-permit fee seen on the Building page). Note LGC 214.907 bars value-based residential fees, so expect a per-sq-ft fee."
-  },
-  "workedExample2400sqft": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (not found in wave 3 searches)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not computed: fee rate not found (assumption: 2,400 sf conditioned + 440 sf attached garage)."
-  },
-  "planReview": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: plan review fee. Web fetch blocked by egress policy and session web-search budget exhausted."
-  },
-  "impactFees": [
-   {
-    "value": 4400,
-    "status": "Secondary",
-    "source": {
-     "id": "celina-dba-impact-update",
-     "title": "City of Celina updates impact fees",
-     "url": "https://dallasbuilders.org/city-of-celina-updates-impact-fees/",
-     "read": "2026-10-11"
-    },
-    "unit": "USD",
-    "note": "Water impact fee per SF unit as reported adopted by council (DBA post, year not shown in extract; likely pre-2025). Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-   },
-   {
-    "value": 5500,
-    "status": "Secondary",
-    "source": {
-     "id": "celina-dba-impact-update",
-     "title": "City of Celina updates impact fees",
-     "url": "https://dallasbuilders.org/city-of-celina-updates-impact-fees/",
-     "read": "2026-10-11"
-    },
-    "unit": "USD",
-    "note": "Wastewater impact fee per SF unit (same DBA report; an earlier DBA post said $5,200 proposed). Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-   },
-   {
-    "value": 5500,
-    "status": "Secondary",
-    "source": {
-     "id": "celina-dba-impact-update",
-     "title": "City of Celina updates impact fees",
-     "url": "https://dallasbuilders.org/city-of-celina-updates-impact-fees/",
-     "read": "2026-10-11"
-    },
-    "unit": "USD",
-    "note": "Roadway impact fee per SF unit, service areas 1-6 ($4,400 in SA 7); roadway rates date from March 2018 and an update is pending. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-   },
-   {
-    "value": 14369,
-    "status": "Secondary",
-    "source": {
-     "id": "celina-cc-2025-04-01-impact-presentation",
-     "title": "City Council 4/1/2025 impact fee presentation (destinyhosted agenda document)",
-     "url": "https://public.destinyhosted.com/scherdocs/2025/CC/20250401_807/4189_4.1.25_Presentation.pdf",
-     "read": "2026-10-11"
-    },
-    "unit": "USD",
-    "note": "2025 update: calculated MAXIMUM water $8,814 + wastewater $5,556 per LUE (~$14,369); new rates effective July 2025, adopted (collected) amount not seen. Study: Freese and Nichols July 2025 report. Seen only in a web-search extract of this document (WebFetch blocked by DNS), so Secondary."
-   }
-  ],
-  "tapFees": [
-   {
-    "value": null,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (not found in wave 3 searches)",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Not found: water/sewer tap and meter fees. Many lots are in MUDs/PIDs with their own fees/assessments."
-   }
-  ]
- },
- "cost": {
-  "factor": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "cost-method",
-    "title": "See README cost method (filled by cost agent)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "PENDING_COST_AGENT"
-  },
-  "method": "PENDING_COST_AGENT",
-  "perSqFtMarket": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: public market $/sf figure. Web fetch blocked by egress policy and session web-search budget exhausted."
-  },
-  "drivers": [
-   {
-    "value": "Engineered slab on expansive clay.",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (not found in wave 3 searches)",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Typical North Texas."
-   },
-   {
-    "value": "PD/HOA masonry and architectural standards.",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (not found in wave 3 searches)",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Typical Celina PDs."
-   },
-   {
-    "value": "Impact fees roughly $15,000-20,000 per home (water + wastewater + roadway), plus MUD/PID assessments in many subdivisions.",
-    "status": "Secondary",
-    "source": {
-     "id": "celina-dba-impact-update",
-     "title": "City of Celina updates impact fees",
-     "url": "https://dallasbuilders.org/city-of-celina-updates-impact-fees/",
-     "read": "2026-10-11"
-    },
-    "note": "Range combines DBA-reported adopted fees ($15,400) and 2025 water/ww maximum ($14,369) + roadway $5,500; actual collected amount to be confirmed."
-   }
-  ]
- },
- "flood": {
-  "value": "NFIP participant; Celina flood damage prevention ordinance and freeboard not found in searches (DFW cities commonly 1-2 ft above BFE).",
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed - agent judgement (not found in wave 3 searches)",
-   "url": "",
-   "read": "2026-10-11"
-  },
-  "note": "Search returned only Celina, Ohio and other cities."
- },
- "engineChanges": [
-  {
-   "id": "celina-pd-check",
-   "ruleType": "survey-input-district",
-   "area": "survey",
-   "change": "Ask for the lot's PD ordinance; most new Celina lots are PDs on an SF-R base. Use PD Area Regulations; if unknown use example-PD defaults front 20 / side 5 / corner side 15 / rear 20 ft and flag for confirmation.",
-   "priority": "must",
-   "params": {
-    "defaultDistrict": "PD (SF-R base)",
-    "pdLikely": true,
-    "frontFt": 20,
-    "sideFt": 5,
-    "streetSideFt": 15,
-    "rearFt": 20,
-    "defaultsFrom": "Sutton Fields PD example",
-    "requireUserConfirm": true
-   },
-   "source": {
-    "id": "celina-sutton-fields-pd",
-    "title": "Celina - Sutton Fields Planned Development ordinance (DocumentCenter/View/2987)",
-    "url": "https://www.celina-tx.gov/DocumentCenter/View/2987",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "celina-eng-foundation",
-   "ruleType": "engineered-foundation-flag",
-   "area": "foundation",
-   "change": "Flag PE-sealed engineered foundation (post-tensioned slab) for all new homes on Collin County expansive clay.",
-   "priority": "must",
-   "params": {
-    "peSealed": true,
-    "status": "Assumed"
-   },
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "celina-energy",
-   "ruleType": "climate-zone-envelope",
-   "area": "envelope",
-   "change": "Use 2024 IECC climate zone 3A envelope values (Celina adopted 2024 I-Codes, effective early 2026).",
-   "priority": "must",
-   "params": {
-    "climateZone": "3A",
-    "energyCode": "2024 IECC"
-   },
-   "source": {
-    "id": "celina-ord-2026-003-2024-icodes",
-    "title": "Celina - Signed Building and Fire Code Ordinance 2024 I-Codes (Ord. 2026-003, amends Code Ch. 3; Div. 4 IRC with amendments)",
-    "url": "https://www.celina-tx.gov/DocumentCenter/View/14757/Signed_Building-and-Fire-Code-Ordinance_2024-I-Codes",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "celina-masonry",
-   "ruleType": "masonry-percentage",
-   "area": "envelope",
-   "change": "Do not enforce city masonry %; prompt for PD/HOA masonry requirement.",
-   "priority": "should",
-   "params": {
-    "cityEnforceable": false
-   },
-   "source": {
-    "id": "tx-gov-3000",
-    "title": "Texas Government Code Ch. 3000 (building products, materials, methods; HB 2439, 2019)",
-    "url": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.3000.htm",
-    "read": "2026-10-11",
-    "section": "3000.002"
-   }
-  },
-  {
-   "id": "celina-impact-fees",
-   "ruleType": "impact-fee-estimate",
-   "area": "estimate",
-   "change": "Add impact fees per SF home: water + wastewater + roadway, default ~$15,400 (DBA-reported adopted) with a high case ~$19,900 (2025 water/ww maximum $14,369 + roadway $5,500). Show as large line item.",
-   "priority": "must",
-   "params": {
-    "waterUSD": 4400,
-    "wastewaterUSD": 5500,
-    "roadwayUSD": 5500,
-    "roadwaySA7USD": 4400,
-    "lowTotalUSD": 15400,
-    "highTotalUSD": 19869,
-    "checkMudPid": true
-   },
-   "source": {
-    "id": "celina-dba-impact-update",
-    "title": "City of Celina updates impact fees",
-    "url": "https://dallasbuilders.org/city-of-celina-updates-impact-fees/",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "celina-no-sprinkler",
-   "ruleType": "fire-sprinkler",
-   "area": "plan",
-   "change": "Do not add a residential sprinkler mandate (state preemption) unless city shows a pre-2009 grandfathered rule.",
-   "priority": "nice",
-   "params": {
-    "required": false,
-    "status": "Secondary-state law"
-   },
-   "source": {
-    "id": "tx-hb738-allensworth",
-    "title": "HB 738: Texas Adopts 2012 Versions of IRC and IBC; Addresses Residential Fire Sprinklers (law-firm summary)",
-    "url": "https://www.allensworthlaw.com/legal-updates/hb-738/",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "celina-deed",
-   "ruleType": "deed-restriction-check",
-   "area": "survey",
-   "change": "Check HOA/deed restrictions and platted building lines.",
-   "priority": "should",
-   "params": {},
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "celina-irc-2024",
-   "ruleType": "irc-edition",
-   "area": "plan",
-   "change": "Run plan checks against the 2024 IRC (not 2021) for permits after early 2026.",
-   "priority": "must",
-   "params": {
-    "ircEdition": "2024",
-    "effective": "2026-01/02"
-   },
-   "source": {
-    "id": "celina-ord-2026-003-2024-icodes",
-    "title": "Celina - Signed Building and Fire Code Ordinance 2024 I-Codes (Ord. 2026-003, amends Code Ch. 3; Div. 4 IRC with amendments)",
-    "url": "https://www.celina-tx.gov/DocumentCenter/View/14757/Signed_Building-and-Fire-Code-Ordinance_2024-I-Codes",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "celina-open-space",
-   "ruleType": "lot-coverage",
-   "area": "massing",
-   "change": "Note 20% open space requirement applies at district/subdivision level (half usable); do not apply as a per-lot coverage cap unless PD says so.",
-   "priority": "nice",
-   "params": {
-    "openSpaceFraction": 0.2,
-    "perLot": false
-   },
-   "source": {
-    "id": "celina-zoneomics-zoning-ch2",
-    "title": "Celina TX Zoning Ordinance Art. 14.02 (Zoneomics mirror): SF-E, SF-R (Sec. 14.02.203), open space rule Sec. 14.02.101",
-    "url": "https://www.zoneomics.com/code/celina-TX/chapter_2",
-    "read": "2026-10-11"
-   }
-  }
- ],
- "plainLanguage": "Celina moved to the 2024 International Residential Code in early 2026 (Ordinance 2026-003), with North Texas regional amendments; electrical work follows the 2023 NEC. Almost every new home is in a planned development (PD), which sets its own setbacks, garage and material rules, so give us your subdivision's PD number. A typical example PD uses 20 ft front, 5 ft side and 20 ft rear setbacks on 5,750-6,900 sq ft lots; we use those only until your PD is confirmed. Impact fees are large here: about $15,000-20,000 per home for water, wastewater and roads. Many Celina subdivisions are also in MUDs or PIDs, which add yearly assessments. Plan on an engineer-designed foundation because of expansive clay. Texas law stops the city from requiring a brick percentage, but your HOA likely still will.",
- "openQuestions": [
-  "Operative 2024 IRC local amendments in Ord. 2026-003 (foundation, frost depth, wind)",
-  "Base SF-R dimensional table (Sec. 14.02.203): lot size, setbacks, height, coverage",
-  "Currently collected water/wastewater impact fees after July 2025 update; roadway update",
-  "Permit fee schedule ($/sq ft) and plan review fee",
-  "Garage orientation rules",
-  "Floodplain freeboard"
- ],
- "notFound": [
-  "SF-R base dimensions",
-  "Permit fee rate",
-  "Flood freeboard",
-  "Garage orientation rule",
-  "Tap fees",
-  "Market $/sf"
- ],
- "comparison": {
-  "irc": "2024 IRC (Ord. 2026-003, eff. early 2026)",
-  "energy": "2024 IECC",
-  "plumbing": "IPC 2024",
-  "district": "PD on SF-R base",
-  "setbacks": "20/5/20 (example PD)",
-  "maxHeight": "not found",
-  "coverageFar": "not found (20% open space district-level)",
-  "masonry": "not city-enforceable; PD/HOA",
-  "engFoundation": "yes (assumed)",
-  "windstorm": "no",
-  "flood": "not found",
-  "permitFeeExample": "not found",
-  "impactFees": "~$15,400-19,900 water+ww+roadway",
-  "costFactor": "PENDING"
- }
 }

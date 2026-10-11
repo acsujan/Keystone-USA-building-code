@@ -651,6 +651,25 @@
   },
   "engineChanges": [
     {
+      "id": "amarillo-code-edition",
+      "ruleType": "code-edition-by-city",
+      "area": "plan",
+      "change": "Check plans against 2021 IRC (excluding Part VIII Electrical; Appendices A-J adopted) (city adoption) and energy code 2015 IECC last confirmed; 2021-cycle update not confirmed instead of the plain 2021 IRC model",
+      "priority": "should",
+      "params": {
+        "irc": "2021 IRC (excluding Part VIII Electrical; Appendices A-J adopted)",
+        "energy": "2015 IECC last confirmed; 2021-cycle update not confirmed",
+        "editionStatus": "Secondary"
+      },
+      "source": {
+        "id": "amarillo-residential-code-info",
+        "title": "City of Amarillo - Residential Code Information (2021 IRC with City amendments FAQ)",
+        "url": "https://www.amarillo.gov/building-safety/residential-permits/",
+        "read": "2026-10-11"
+      },
+      "derived": "added by coordinator from codes.irc.edition"
+    },
+    {
       "id": "amarillo-cz",
       "ruleType": "climate-zone-envelope",
       "area": "envelope",
@@ -668,7 +687,7 @@
     },
     {
       "id": "amarillo-snow",
-      "ruleType": "other",
+      "ruleType": "snow-load",
       "area": "structure",
       "change": "Flag ground snow load input (Panhandle about 15-20 psf; not confirmed)",
       "priority": "should",
@@ -773,7 +792,7 @@
     },
     {
       "id": "amarillo-water-depth",
-      "ruleType": "other",
+      "ruleType": "frost-depth",
       "area": "drawings",
       "change": "Water service >= 12 in deep and 6 in below frost line; gas pipe >= 18 in cover",
       "priority": "nice",

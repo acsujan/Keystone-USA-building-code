@@ -1,1107 +1,1107 @@
 {
- "id": "austin",
- "name": "City of Austin",
- "state": "TX",
- "tier": 1,
- "counties": [
-  "Travis",
-  "Williamson",
-  "Hays"
- ],
- "msa": {
-  "name": "Austin-Round Rock-San Marcos, TX",
-  "blsCode": "12420"
- },
- "population": {
-  "value": 993588,
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed (agent judgement)",
-   "url": "",
-   "read": "2026-10-11"
+  "id": "austin",
+  "name": "City of Austin",
+  "state": "TX",
+  "tier": 1,
+  "counties": [
+    "Travis",
+    "Williamson",
+    "Hays"
+  ],
+  "msa": {
+    "name": "Austin-Round Rock-San Marcos, TX",
+    "blsCode": "12420"
   },
-  "note": "Agent background knowledge of Census Vintage 2024 estimate (~994k); not re-fetched this session. Verify at census.gov QuickFacts."
- },
- "zipCodesOrBoundary": {
-  "value": "City limits: see City of Austin jurisdiction map / ATXFloodPro / Property Profile",
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed (agent judgement)",
-   "url": "",
-   "read": "2026-10-11"
-  },
-  "note": "Official map URL not fetched this session."
- },
- "climateZone": {
-  "value": "2A",
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed (agent judgement)",
-   "url": "",
-   "read": "2026-10-11"
-  },
-  "note": "Travis, Williamson and Hays counties are listed as Zone 2A in 2021/2024 IECC Table R301.1 (agent knowledge; not fetched)."
- },
- "windstormCounty": {
-  "value": false,
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed (agent judgement)",
-   "url": "",
-   "read": "2026-10-11"
-  },
-  "note": "TDI windstorm catalogue covers 14 coastal counties plus part of Harris; Travis is inland."
- },
- "codes": {
-  "irc": {
-   "edition": {
-    "value": "2024 IRC",
-    "status": "Secondary",
+  "population": {
+    "value": 993588,
+    "status": "Assumed",
     "source": {
-     "id": "austin-technical-codes-page",
-     "title": "City of Austin - Building Technical Codes (local amendment table)",
-     "url": "https://www.austintexas.gov/development-services/building-technical-codes",
-     "read": "2026-10-11"
-    },
-    "note": "City table lists IRC 2024 replacing 2021, effective 2025-07-10. Read via web-search result summary; direct page fetch was blocked in this session (proxy 403)."
-   },
-   "ordinance": {
-    "value": "Ord. No. 20250410-040 (Ch. 25-12 Art. 11, local amendments in 25-12-243), effective 2025-07-10",
-    "status": "Secondary",
-    "source": {
-     "id": "austin-ord-20250410-040",
-     "title": "Ordinance No. 20250410-040 (2024 IRC + local amendments, Ch. 25-12 Art. 11)",
-     "url": "https://services.austintexas.gov/edims/document.cfm?id=450486",
-     "read": "2026-10-11"
-    },
-    "note": "Ordinance adopts 2024 IRC + appendices BA, BB, BF, BI, BJ, BK, BL, BM, BO. Prior: 2021 IRC adopted June 3, 2021 with the 2021 technical codes (IBC Ord. 20210603-059), effective 2021-09-01. Read via web-search result summary; direct page fetch was blocked in this session (proxy 403)."
-   },
-   "amendments": [
-    {
-     "topic": "other",
-     "summary": "Air conditioning required in dwellings: system must hold indoor temp at or below 85 F and at least 15 F below outdoor temp (new and existing buildings), effective 2025-07-10.",
-     "section": "25-12-243 (IRC local amendments)",
-     "status": "Secondary",
-     "source": {
-      "id": "austin-ac-news",
-      "title": "Community Impact - Housing in Austin will soon be required to have air conditioning",
-      "url": "https://communityimpact.com/south-central-austin/government/housing-in-austin-will-soon-be-required-to-have-air-conditioning-for-residents/",
+      "id": "assumed",
+      "title": "Assumed (agent judgement)",
+      "url": "",
       "read": "2026-10-11"
-     }
     },
-    {
-     "topic": "other",
-     "summary": "Visitability: bathroom on visitable level needs a 30 in x 30 in clear floor space (Board of Appeals clarification); Austin has long-standing visitability rules for new 1-2 family homes (entry-level accessible bathroom, wide doors).",
-     "section": "25-12-243",
-     "status": "Secondary",
-     "source": {
-      "id": "austin-irc2024-ais",
-      "title": "Affordability Impact Statement - 2024 IRC local amendments",
-      "url": "https://services.austintexas.gov/edims/document.cfm?id=431901",
+    "note": "Agent background knowledge of Census Vintage 2024 estimate (~994k); not re-fetched this session. Verify at census.gov QuickFacts."
+  },
+  "zipCodesOrBoundary": {
+    "value": "City limits: see City of Austin jurisdiction map / ATXFloodPro / Property Profile",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed (agent judgement)",
+      "url": "",
       "read": "2026-10-11"
-     }
     },
-    {
-     "topic": "other",
-     "summary": "Triplexes (HOME 3-unit use) codified for review under the IRC rather than the IBC.",
-     "section": "R101.2 scope as amended",
-     "status": "Secondary",
-     "source": {
-      "id": "austin-irc2024-draft",
-      "title": "Proposed IRC 2024 local amendments draft (City of Austin)",
-      "url": "https://services.austintexas.gov/edims/document.cfm?id=435344",
+    "note": "Official map URL not fetched this session."
+  },
+  "climateZone": {
+    "value": "2A",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed (agent judgement)",
+      "url": "",
       "read": "2026-10-11"
-     }
-    }
-   ]
+    },
+    "note": "Travis, Williamson and Hays counties are listed as Zone 2A in 2021/2024 IECC Table R301.1 (agent knowledge; not fetched)."
   },
-  "energy": {
-   "edition": {
-    "value": "2024 IECC with Austin local amendments",
-    "status": "Secondary",
-    "source": {
-     "id": "austin-iecc2024-backup",
-     "title": "Council backup File ID 25-0605: 2024 IECC adoption (Ch. 25-12 Art. 12)",
-     "url": "https://services.austintexas.gov/edims/document.cfm?id=448388",
-     "read": "2026-10-11"
-    },
-    "note": "Council File 25-0605 (Apr 10, 2025) repeals/replaces Ch. 25-12 Art. 12; adopts appendices CG, CH, CI, CJ, RE, RF, RJ, RK; city table shows effective 2025-07-10. Ordinance number not confirmed. Residential appendices RE/RF/RJ/RK suggest solar-ready/EV-ready/electric-ready type provisions - verify. Read via web-search result summary; direct page fetch was blocked in this session (proxy 403)."
-   },
-   "stretchCode": {
-    "value": "Austin amendments stricter than state minimum (Texas state energy code is 2021 IECC); AEGB rating only mandatory where required by PUD zoning, density-bonus programs or S.M.A.R.T. Housing agreements",
-    "status": "Secondary",
-    "source": {
-     "id": "austin-aegb-policies",
-     "title": "Austin Energy Green Building - City Policies & Building Codes",
-     "url": "https://www.austinenergy.com/energy-efficiency/green-building/partner/policies-code",
-     "read": "2026-10-11"
-    },
-    "note": "Read via web-search result summary; direct page fetch was blocked in this session (proxy 403)."
-   },
-   "ordinance": {
-    "value": null,
+  "windstormCounty": {
+    "value": false,
     "status": "Assumed",
     "source": {
-     "id": "assumed",
-     "title": "Assumed (agent judgement)",
-     "url": "",
-     "read": "2026-10-11"
+      "id": "assumed",
+      "title": "Assumed (agent judgement)",
+      "url": "",
+      "read": "2026-10-11"
     },
-    "note": "Exact IECC ordinance number not found (File ID 25-0605 of 2025-04-10 meeting)."
-   }
+    "note": "TDI windstorm catalogue covers 14 coastal counties plus part of Harris; Travis is inland."
   },
-  "plumbing": {
-   "value": "UPC (Uniform Plumbing Code) with Austin amendments; likely 2024 UPC adopted with 2024 technical codes",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed (agent judgement)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Austin historically adopts UPC/UMC (IAPMO) rather than IPC. Edition not verified this session."
-  },
-  "electrical": {
-   "value": "NEC (likely 2023 NEC) with Austin amendments",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed (agent judgement)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found this session: direct fetch blocked and search budget exhausted."
-  },
-  "mechanical": {
-   "value": "UMC (Uniform Mechanical Code) with Austin amendments; edition likely 2024",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed (agent judgement)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found this session: direct fetch blocked and search budget exhausted."
-  },
-  "fuelGas": {
-   "value": "Fuel gas per UPC/UMC (IAPMO) - edition not verified",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed (agent judgement)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found this session: direct fetch blocked and search budget exhausted."
-  },
-  "fire": {
-   "value": "2024 IFC with Austin amendments; no automatic sprinklers required for one/two-family dwellings",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed (agent judgement)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Texas Occupations Code 1301.551(i) prohibits cities from requiring sprinklers in 1-2 family dwellings (agent knowledge); 2024 IWUIC with local amendments also adopted (wildland-urban interface areas of west Austin)."
-  },
-  "wind": {
-   "value": 110,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed (agent judgement)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "unit": "mph",
-   "note": "ASCE 7-16 Risk Cat II ultimate wind speed for Austin approx. 105-110 mph from map; no local value found."
-  },
-  "hailRoofing": {
-   "value": "No local hail/impact-rated roofing mandate found; Class 4 shingles optional (insurance driven)",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed (agent judgement)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found this session: direct fetch blocked and search budget exhausted."
-  },
-  "seismic": {
-   "value": "A",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed (agent judgement)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Central Texas SDC A (low seismicity)."
-  },
-  "frostDepth": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed (agent judgement)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "unit": "in",
-   "note": "Local IRC Table R301.2(1) values not obtained; typical Central Texas practice 6-12 in."
-  }
- },
- "zoning": {
-  "hasZoning": {
-   "value": true,
-   "status": "Secondary",
-   "source": {
-    "id": "austin-boa-sf3-case",
-    "title": "City of Austin Board of Adjustment staff report citing 25-2-492 SF-3 limits",
-    "url": "https://services.austintexas.gov/edims/document.cfm?id=440463",
-    "read": "2026-10-11",
-    "section": "LDC 25-2-492"
-   }
-  },
-  "typicalDistrict": {
-   "value": "SF-3 (Family Residence)",
-   "status": "Secondary",
-   "source": {
-    "id": "austin-boa-sf3-case",
-    "title": "City of Austin Board of Adjustment staff report citing 25-2-492 SF-3 limits",
-    "url": "https://services.austintexas.gov/edims/document.cfm?id=440463",
-    "read": "2026-10-11"
-   },
-   "note": "Others: SF-2 (Single-Family Standard Lot), SF-1, SF-4A/B (small lot), SF-5/6. Since HOME Phase 1, SF-1/2/3 allow up to 3 units."
-  },
-  "minLotSqFt": {
-   "value": 5750,
-   "status": "Secondary",
-   "source": {
-    "id": "austin-neuhaus-zoning-guide",
-    "title": "Neuhaus RE - Complete Guide to Zoning and Land Use in Austin (2026)",
-    "url": "https://neuhausre.com/guides/zoning-land-use-guide-austin/",
-    "read": "2026-10-11",
-    "section": "25-2-492"
-   },
-   "unit": "sqft",
-   "note": "Standard lot. HOME Phase 2 (May 16, 2024; effective Aug 16, 2024, or Nov 16, 2024 in WUI/displacement-risk tracts) added Small Lot Single-Family use allowing one unit on lots 1,800-5,749 sq ft in SF-1/2/3, min width 15 ft (city HOME page, SpeakUpAustin, AIA). Ordinance number for Phase 2 (20240516-006?) not confirmed."
-  },
-  "minLotWidthFt": {
-   "value": 50,
-   "status": "Secondary",
-   "source": {
-    "id": "austin-neuhaus-zoning-guide",
-    "title": "Neuhaus RE - Complete Guide to Zoning and Land Use in Austin (2026)",
-    "url": "https://neuhausre.com/guides/zoning-land-use-guide-austin/",
-    "read": "2026-10-11"
-   },
-   "unit": "ft",
-   "note": "Small-lot use: 15 ft (HOME Phase 2)."
-  },
-  "minLotDepthFt": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed (agent judgement)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "unit": "ft",
-   "note": "No min depth in 25-2-492 table per secondary sources; not verified."
-  },
-  "setbacksFt": {
-   "front": {
-    "value": 25,
-    "status": "Secondary",
-    "source": {
-     "id": "austin-neuhaus-zoning-guide",
-     "title": "Neuhaus RE - Complete Guide to Zoning and Land Use in Austin (2026)",
-     "url": "https://neuhausre.com/guides/zoning-land-use-guide-austin/",
-     "read": "2026-10-11",
-     "section": "25-2-492"
+  "codes": {
+    "irc": {
+      "edition": {
+        "value": "2024 IRC",
+        "status": "Secondary",
+        "source": {
+          "id": "austin-technical-codes-page",
+          "title": "City of Austin - Building Technical Codes (local amendment table)",
+          "url": "https://www.austintexas.gov/development-services/building-technical-codes",
+          "read": "2026-10-11"
+        },
+        "note": "City table lists IRC 2024 replacing 2021, effective 2025-07-10. Read via web-search result summary; direct page fetch was blocked in this session (proxy 403)."
+      },
+      "ordinance": {
+        "value": "Ord. No. 20250410-040 (Ch. 25-12 Art. 11, local amendments in 25-12-243), effective 2025-07-10",
+        "status": "Secondary",
+        "source": {
+          "id": "austin-ord-20250410-040",
+          "title": "Ordinance No. 20250410-040 (2024 IRC + local amendments, Ch. 25-12 Art. 11)",
+          "url": "https://services.austintexas.gov/edims/document.cfm?id=450486",
+          "read": "2026-10-11"
+        },
+        "note": "Ordinance adopts 2024 IRC + appendices BA, BB, BF, BI, BJ, BK, BL, BM, BO. Prior: 2021 IRC adopted June 3, 2021 with the 2021 technical codes (IBC Ord. 20210603-059), effective 2021-09-01. Read via web-search result summary; direct page fetch was blocked in this session (proxy 403)."
+      },
+      "amendments": [
+        {
+          "topic": "other",
+          "summary": "Air conditioning required in dwellings: system must hold indoor temp at or below 85 F and at least 15 F below outdoor temp (new and existing buildings), effective 2025-07-10.",
+          "section": "25-12-243 (IRC local amendments)",
+          "status": "Secondary",
+          "source": {
+            "id": "austin-ac-news",
+            "title": "Community Impact - Housing in Austin will soon be required to have air conditioning",
+            "url": "https://communityimpact.com/south-central-austin/government/housing-in-austin-will-soon-be-required-to-have-air-conditioning-for-residents/",
+            "read": "2026-10-11"
+          }
+        },
+        {
+          "topic": "other",
+          "summary": "Visitability: bathroom on visitable level needs a 30 in x 30 in clear floor space (Board of Appeals clarification); Austin has long-standing visitability rules for new 1-2 family homes (entry-level accessible bathroom, wide doors).",
+          "section": "25-12-243",
+          "status": "Secondary",
+          "source": {
+            "id": "austin-irc2024-ais",
+            "title": "Affordability Impact Statement - 2024 IRC local amendments",
+            "url": "https://services.austintexas.gov/edims/document.cfm?id=431901",
+            "read": "2026-10-11"
+          }
+        },
+        {
+          "topic": "other",
+          "summary": "Triplexes (HOME 3-unit use) codified for review under the IRC rather than the IBC.",
+          "section": "R101.2 scope as amended",
+          "status": "Secondary",
+          "source": {
+            "id": "austin-irc2024-draft",
+            "title": "Proposed IRC 2024 local amendments draft (City of Austin)",
+            "url": "https://services.austintexas.gov/edims/document.cfm?id=435344",
+            "read": "2026-10-11"
+          }
+        }
+      ]
     },
-    "unit": "ft",
-    "note": "Also implied in BOA variance reports. Small-lot use may differ."
-   },
-   "side": {
-    "value": 5,
-    "status": "Secondary",
-    "source": {
-     "id": "austin-neuhaus-zoning-guide",
-     "title": "Neuhaus RE - Complete Guide to Zoning and Land Use in Austin (2026)",
-     "url": "https://neuhausre.com/guides/zoning-land-use-guide-austin/",
-     "read": "2026-10-11",
-     "section": "25-2-492"
+    "energy": {
+      "edition": {
+        "value": "2024 IECC with Austin local amendments",
+        "status": "Secondary",
+        "source": {
+          "id": "austin-iecc2024-backup",
+          "title": "Council backup File ID 25-0605: 2024 IECC adoption (Ch. 25-12 Art. 12)",
+          "url": "https://services.austintexas.gov/edims/document.cfm?id=448388",
+          "read": "2026-10-11"
+        },
+        "note": "Council File 25-0605 (Apr 10, 2025) repeals/replaces Ch. 25-12 Art. 12; adopts appendices CG, CH, CI, CJ, RE, RF, RJ, RK; city table shows effective 2025-07-10. Ordinance number not confirmed. Residential appendices RE/RF/RJ/RK suggest solar-ready/EV-ready/electric-ready type provisions - verify. Read via web-search result summary; direct page fetch was blocked in this session (proxy 403)."
+      },
+      "stretchCode": {
+        "value": "Austin amendments stricter than state minimum (Texas state energy code is 2021 IECC); AEGB rating only mandatory where required by PUD zoning, density-bonus programs or S.M.A.R.T. Housing agreements",
+        "status": "Secondary",
+        "source": {
+          "id": "austin-aegb-policies",
+          "title": "Austin Energy Green Building - City Policies & Building Codes",
+          "url": "https://www.austinenergy.com/energy-efficiency/green-building/partner/policies-code",
+          "read": "2026-10-11"
+        },
+        "note": "Read via web-search result summary; direct page fetch was blocked in this session (proxy 403)."
+      },
+      "ordinance": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed (agent judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Exact IECC ordinance number not found (File ID 25-0605 of 2025-04-10 meeting)."
+      }
     },
-    "unit": "ft",
-    "note": "Interior side 5 ft. One BOA case (Westlake Cove) showed 10 ft interior side - likely a different district/overlay."
-   },
-   "streetSide": {
-    "value": 15,
-    "status": "Secondary",
-    "source": {
-     "id": "austin-boa-sf3-case",
-     "title": "City of Austin Board of Adjustment staff report citing 25-2-492 SF-3 limits",
-     "url": "https://services.austintexas.gov/edims/document.cfm?id=440463",
-     "read": "2026-10-11",
-     "section": "25-2-492"
+    "plumbing": {
+      "value": "UPC (Uniform Plumbing Code) with Austin amendments; likely 2024 UPC adopted with 2024 technical codes",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed (agent judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Austin historically adopts UPC/UMC (IAPMO) rather than IPC. Edition not verified this session."
     },
-    "unit": "ft"
-   },
-   "rear": {
-    "value": 10,
-    "status": "Secondary",
-    "source": {
-     "id": "austin-neuhaus-zoning-guide",
-     "title": "Neuhaus RE - Complete Guide to Zoning and Land Use in Austin (2026)",
-     "url": "https://neuhausre.com/guides/zoning-land-use-guide-austin/",
-     "read": "2026-10-11",
-     "section": "25-2-492"
+    "electrical": {
+      "value": "NEC (likely 2023 NEC) with Austin amendments",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed (agent judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found this session: direct fetch blocked and search budget exhausted."
     },
-    "unit": "ft"
-   }
-  },
-  "maxHeightFt": {
-   "value": 35,
-   "status": "Secondary",
-   "source": {
-    "id": "austin-neuhaus-zoning-guide",
-    "title": "Neuhaus RE - Complete Guide to Zoning and Land Use in Austin (2026)",
-    "url": "https://neuhausre.com/guides/zoning-land-use-guide-austin/",
-    "read": "2026-10-11",
-    "section": "25-2-492"
-   },
-   "unit": "ft",
-   "note": "Inside the Subchapter F (McMansion) boundary max height is 32 ft measured per Subchapter F, plus setback-plane (tent) limits."
-  },
-  "maxStories": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed (agent judgement)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "25-2-492 limits height in feet, not stories (secondary sources)."
-  },
-  "maxLotCoverage": {
-   "value": 0.4,
-   "status": "Secondary",
-   "source": {
-    "id": "austin-boa-sf3-case",
-    "title": "City of Austin Board of Adjustment staff report citing 25-2-492 SF-3 limits",
-    "url": "https://services.austintexas.gov/edims/document.cfm?id=440463",
-    "read": "2026-10-11",
-    "section": "25-2-492"
-   },
-   "unit": "fraction",
-   "note": "Building coverage 40%. Confirmed in BOA staff reports and Neuhaus guide (2 sources)."
-  },
-  "imperviousCover": {
-   "value": 0.45,
-   "status": "Secondary",
-   "source": {
-    "id": "austin-boa-sf3-case",
-    "title": "City of Austin Board of Adjustment staff report citing 25-2-492 SF-3 limits",
-    "url": "https://services.austintexas.gov/edims/document.cfm?id=440463",
-    "read": "2026-10-11",
-    "section": "25-2-492"
-   },
-   "unit": "fraction",
-   "note": "Impervious cover 45%; watershed rules (Ch. 25-8) may be stricter in water-supply watersheds / Barton Springs Zone. HOME Phase 2 left IC limits unchanged."
-  },
-  "far": {
-   "value": "Inside Subchapter F boundary, single-unit lot: greater of 0.4 FAR or 2,300 sq ft gross floor area. 2-3 unit sites under 25-2-773 (Ord. 20250424-073, eff. 2025-05-05): 2 units 0.55/3,200 sq ft (0.65/4,350 if existing unit preserved); 3 units 0.65/4,350 sq ft with each unit max 0.4/2,300. No FAR outside boundary; small-lot SF use exempt from Subchapter F (unit size cap instead).",
-   "status": "Secondary",
-   "source": {
-    "id": "austin-ord-20250424-073",
-    "title": "Ordinance 20250424-073 amending 25-2-773 FAR (council document)",
-    "url": "https://services.austintexas.gov/edims/document.cfm?id=451575",
-    "read": "2026-10-11"
-   },
-   "note": "0.4/2,300 origin: 2006 McMansion ordinance (Austin Monitor); per-unit 0.4/2,300 and site caps from 2025 council document. Read via web-search result summary; direct page fetch was blocked in this session (proxy 403)."
-  },
-  "parking": {
-   "value": "No minimum off-street parking (citywide parking minimums eliminated Nov 2023)",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed (agent judgement)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Agent knowledge (Ord. adopted 2023-11-02 removing parking minimums); not re-verified this session."
-  },
-  "garageRules": {
-   "value": "Subchapter F: garages/carports count toward GFA above an exemption (commonly 450 sq ft attached / 200 sq ft for detached rear) and street-facing garage width limits may apply - verify",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed (agent judgement)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Exact exemptions not verified this session."
-  },
-  "adu": {
-   "value": "HOME Phase 1 (Ord. 20231207-001, adopted 2023-12-07, effective 2024-02-05): up to 3 dwelling units on SF-1/2/3 lots (Two-Unit / Three-Unit / Duplex uses replace old 25-2-773); existing dwelling area excluded from FAR if 50% of house and 100% of street facade preserved (>=20 yrs old).",
-   "status": "Secondary",
-   "source": {
-    "id": "austin-home1-faq",
-    "title": "AIA Austin - HOME Summary FAQ (2024-01-26)",
-    "url": "https://aiaaustin.org/wp-content/uploads/2024/01/HOME_Summary-FAQ_20240126-1039.pdf",
-    "read": "2026-10-11"
-   },
-   "note": "Also city HOME page. Read via web-search result summary; direct page fetch was blocked in this session (proxy 403)."
-  },
-  "masonry": {
-   "value": "None (Texas Gov. Code 3000 bars masonry mandates; none found in Austin)",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed (agent judgement)",
-    "url": "",
-    "read": "2026-10-11"
-   }
-  },
-  "trees": {
-   "value": "Protected tree: >=19 in diameter at 4.5 ft - removal needs permit (25-8-621). Heritage tree: >=24 in of listed species (all oaks, pecan, etc.) - removal prohibited without variance (25-8-641/642/643); critical root zone protection affects footprint.",
-   "status": "Secondary",
-   "source": {
-    "id": "austin-city-arborist",
-    "title": "City of Austin - City Arborist / Tree reviews and permitting",
-    "url": "https://www.austintexas.gov/development-services/city-arborist",
-    "read": "2026-10-11",
-    "section": "LDC 25-8 Art. 1 Div. 2"
-   }
-  },
-  "other": [
-   {
-    "value": "SF-2: same core numbers as SF-3 in secondary sources (5,750 sf lot, 50 ft width, 25/5/15/10 setbacks, 35 ft, 40% bldg / 45% IC); SF-2 historically limited to one unit, but HOME made SF-1/2/3 allow up to 3 units.",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed (agent judgement)",
-     "url": "",
-     "read": "2026-10-11"
+    "mechanical": {
+      "value": "UMC (Uniform Mechanical Code) with Austin amendments; edition likely 2024",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed (agent judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found this session: direct fetch blocked and search budget exhausted."
     },
-    "note": "Not separately verified this session."
-   },
-   {
-    "value": "Subchapter F setback plane ('tent'): starts 15 ft above grade at side and rear setback lines (property line per 2006 text) and slopes inward at 45 degrees; side-wall articulation required for long side walls; exemptions for gables/dormers limited (dormers penetrating tent count toward GFA).",
-    "status": "Secondary",
-    "source": {
-     "id": "austin-monitor-mcmansion-2006",
-     "title": "Austin Monitor (2006) - Council to hear McMansion proposal",
-     "url": "https://www.austinmonitor.com/stories/2006/06/council-to-hear-mcmansion-proposal-today/",
-     "read": "2026-10-11"
+    "fuelGas": {
+      "value": "Fuel gas per UPC/UMC (IAPMO) - edition not verified",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed (agent judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found this session: direct fetch blocked and search budget exhausted."
     },
-    "note": "From 2006 adopted-proposal coverage and secondary guides; current text (incl. 2024 HOME tweaks) not read. Articulation trigger length not confirmed."
-   },
-   {
-    "value": "Citywide compatibility standards rewritten May 16, 2024 (Subchapter C Art. 10) - affect multifamily/commercial near SF, not SF homes themselves.",
-    "status": "Secondary",
-    "source": {
-     "id": "austin-home2-speakup",
-     "title": "SpeakUpAustin - C20-2023-035 HOME Phase 2 summary",
-     "url": "https://speakupaustin.org/R6817",
-     "read": "2026-10-11"
+    "fire": {
+      "value": "2024 IFC with Austin amendments; no automatic sprinklers required for one/two-family dwellings",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed (agent judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Texas Occupations Code 1301.551(i) prohibits cities from requiring sprinklers in 1-2 family dwellings (agent knowledge); 2024 IWUIC with local amendments also adopted (wildland-urban interface areas of west Austin)."
+    },
+    "wind": {
+      "value": 110,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed (agent judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "mph",
+      "note": "ASCE 7-16 Risk Cat II ultimate wind speed for Austin approx. 105-110 mph from map; no local value found."
+    },
+    "hailRoofing": {
+      "value": "No local hail/impact-rated roofing mandate found; Class 4 shingles optional (insurance driven)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed (agent judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found this session: direct fetch blocked and search budget exhausted."
+    },
+    "seismic": {
+      "value": "A",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed (agent judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Central Texas SDC A (low seismicity)."
+    },
+    "frostDepth": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed (agent judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "in",
+      "note": "Local IRC Table R301.2(1) values not obtained; typical Central Texas practice 6-12 in."
     }
-   },
-   {
-    "value": "Wildland-urban interface: 2024 IWUIC with Austin amendments applies in mapped WUI (ignition-resistant construction).",
-    "status": "Secondary",
-    "source": {
-     "id": "austin-technical-codes-page",
-     "title": "City of Austin - Building Technical Codes (local amendment table)",
-     "url": "https://www.austintexas.gov/development-services/building-technical-codes",
-     "read": "2026-10-11"
+  },
+  "zoning": {
+    "hasZoning": {
+      "value": true,
+      "status": "Secondary",
+      "source": {
+        "id": "austin-boa-sf3-case",
+        "title": "City of Austin Board of Adjustment staff report citing 25-2-492 SF-3 limits",
+        "url": "https://services.austintexas.gov/edims/document.cfm?id=440463",
+        "read": "2026-10-11",
+        "section": "LDC 25-2-492"
+      }
     },
-    "note": "Read via web-search result summary; direct page fetch was blocked in this session (proxy 403)."
-   }
-  ]
- },
- "process": {
-  "steps": [
-   {
-    "value": "Check zoning, Subchapter F boundary, floodplain (ATXFloodPro), trees and watershed via Property Profile.",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed (agent judgement)",
-     "url": "",
-     "read": "2026-10-11"
-    }
-   },
-   {
-    "value": "Submit Residential New Construction application (building plan review) to DSD; Subchapter F calc sheets if inside boundary; tree survey if protected trees within reach.",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed (agent judgement)",
-     "url": "",
-     "read": "2026-10-11"
-    }
-   },
-   {
-    "value": "Austin Energy / Austin Water service applications; pay capital recovery (impact) fees at permit/tap.",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed (agent judgement)",
-     "url": "",
-     "read": "2026-10-11"
-    }
-   },
-   {
-    "value": "Inspections, then certificate of occupancy.",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed (agent judgement)",
-     "url": "",
-     "read": "2026-10-11"
-    }
-   }
-  ],
-  "sealsRequired": [
-   {
-    "value": "Texas-licensed engineer seal for foundation design commonly required for new homes in Austin (verify in 25-12-243)",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed (agent judgement)",
-     "url": "",
-     "read": "2026-10-11"
+    "typicalDistrict": {
+      "value": "SF-3 (Family Residence)",
+      "status": "Secondary",
+      "source": {
+        "id": "austin-boa-sf3-case",
+        "title": "City of Austin Board of Adjustment staff report citing 25-2-492 SF-3 limits",
+        "url": "https://services.austintexas.gov/edims/document.cfm?id=440463",
+        "read": "2026-10-11"
+      },
+      "note": "Others: SF-2 (Single-Family Standard Lot), SF-1, SF-4A/B (small lot), SF-5/6. Since HOME Phase 1, SF-1/2/3 allow up to 3 units."
     },
-    "note": "Not found this session: direct fetch blocked and search budget exhausted."
-   }
-  ],
-  "inspections": [
-   {
-    "value": "Standard IRC sequence: foundation, framing, MEP rough, insulation/energy, final; Austin Energy energy code inspections",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed (agent judgement)",
-     "url": "",
-     "read": "2026-10-11"
-    }
-   }
-  ],
-  "reviewDays": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed (agent judgement)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found this session: direct fetch blocked and search budget exhausted."
-  }
- },
- "fees": {
-  "permitFormula": {
-   "value": "Residential plan review tiered by sq ft: $815 base (first tier), $978 for 1,001-2,000 sq ft, $1,141 for 2,001-3,000 sq ft, plus per-sq-ft add-on; 6% Development Services Surcharge on all permit fees; building permit and trade permits separate",
-   "status": "Secondary",
-   "source": {
-    "id": "austin-fees-residential-pdf",
-    "title": "City of Austin - Fees Residential (PDF)",
-    "url": "https://austintexas.gov/sites/default/files/files/Development_Services/Fees_Residential.pdf",
-    "read": "2026-10-11"
-   },
-   "note": "PDF fiscal year not confirmed (FY2025-26 schedule effective 2025-10-01 per fees page); per-sq-ft rates garbled in extraction. Read via web-search result summary; direct page fetch was blocked in this session (proxy 403)."
-  },
-  "workedExample2400sqft": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "austin-fees-residential-pdf",
-    "title": "City of Austin - Fees Residential (PDF)",
-    "url": "https://austintexas.gov/sites/default/files/files/Development_Services/Fees_Residential.pdf",
-    "read": "2026-10-11"
-   },
-   "note": "Incomplete: only plan review base found: tier 2,001-3,000 sq ft = $1,141 x 1.06 surcharge = $1,209.46 (plus unknown per-sq-ft add-on). Building permit, trade permit, Austin Energy and tap fees not found. Assumption: 2,400 sf conditioned + 440 sf attached garage."
-  },
-  "planReview": {
-   "value": 1209.46,
-   "status": "Secondary",
-   "source": {
-    "id": "austin-fees-residential-pdf",
-    "title": "City of Austin - Fees Residential (PDF)",
-    "url": "https://austintexas.gov/sites/default/files/files/Development_Services/Fees_Residential.pdf",
-    "read": "2026-10-11"
-   },
-   "unit": "USD",
-   "note": "$1,141 tier fee x 1.06 surcharge; excludes per-sq-ft add-on. Fiscal year of PDF unverified."
-  },
-  "impactFees": [
-   {
-    "value": 7700,
-    "status": "Secondary",
-    "source": {
-     "id": "austin-water-rates-fees",
-     "title": "Austin Water - Rates and Fees (impact fee schedule)",
-     "url": "https://www.austintexas.gov/water/rates-and-fees",
-     "read": "2026-10-11"
+    "minLotSqFt": {
+      "value": 5750,
+      "status": "Secondary",
+      "source": {
+        "id": "austin-neuhaus-zoning-guide",
+        "title": "Neuhaus RE - Complete Guide to Zoning and Land Use in Austin (2026)",
+        "url": "https://neuhausre.com/guides/zoning-land-use-guide-austin/",
+        "read": "2026-10-11",
+        "section": "25-2-492"
+      },
+      "unit": "sqft",
+      "note": "Standard lot. HOME Phase 2 (May 16, 2024; effective Aug 16, 2024, or Nov 16, 2024 in WUI/displacement-risk tracts) added Small Lot Single-Family use allowing one unit on lots 1,800-5,749 sq ft in SF-1/2/3, min width 15 ft (city HOME page, SpeakUpAustin, AIA). Ordinance number for Phase 2 (20240516-006?) not confirmed."
     },
-    "unit": "USD per service unit",
-    "note": "Austin Water impact fee for lots platted after 2023-10-01, all zones: water $4,800 + wastewater $2,900 = $7,700 per service unit (single-family = 1 SU typically). Lots platted before 2014-01-01 vary by zone. Page may predate later changes. Read via web-search result summary; direct page fetch was blocked in this session (proxy 403)."
-   }
-  ],
-  "tapFees": [
-   {
-    "value": null,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed (agent judgement)",
-     "url": "",
-     "read": "2026-10-11"
+    "minLotWidthFt": {
+      "value": 50,
+      "status": "Secondary",
+      "source": {
+        "id": "austin-neuhaus-zoning-guide",
+        "title": "Neuhaus RE - Complete Guide to Zoning and Land Use in Austin (2026)",
+        "url": "https://neuhausre.com/guides/zoning-land-use-guide-austin/",
+        "read": "2026-10-11"
+      },
+      "unit": "ft",
+      "note": "Small-lot use: 15 ft (HOME Phase 2)."
     },
-    "note": "Austin Water tap/meter fees and Austin Energy line extension fees not found this session."
-   }
-  ]
- },
- "cost": {
-  "factor": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "cost-method",
-    "title": "See README cost method (filled by cost agent)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "PENDING_COST_AGENT"
-  },
-  "method": "PENDING_COST_AGENT",
-  "perSqFtMarket": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed (agent judgement)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Public market figure not obtained this session (search budget exhausted)."
-  },
-  "drivers": [
-   {
-    "value": "Heritage/protected tree root zones constrain footprint and add arborist cost",
-    "status": "Secondary",
-    "source": {
-     "id": "austin-city-arborist",
-     "title": "City of Austin - City Arborist / Tree reviews and permitting",
-     "url": "https://www.austintexas.gov/development-services/city-arborist",
-     "read": "2026-10-11"
-    }
-   },
-   {
-    "value": "Capital recovery fees ~$7,700 per unit (water+wastewater)",
-    "status": "Secondary",
-    "source": {
-     "id": "austin-water-rates-fees",
-     "title": "Austin Water - Rates and Fees (impact fee schedule)",
-     "url": "https://www.austintexas.gov/water/rates-and-fees",
-     "read": "2026-10-11"
-    }
-   },
-   {
-    "value": "Expansive clay soils east of I-35 / limestone west (engineered post-tensioned slabs, rock excavation)",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed (agent judgement)",
-     "url": "",
-     "read": "2026-10-11"
-    }
-   },
-   {
-    "value": "Mandatory AC and Austin IECC amendments; atlas-14 floodplain 2 ft freeboard",
-    "status": "Secondary",
-    "source": {
-     "id": "austin-atlas14-code-summary",
-     "title": "City of Austin Watershed - Atlas 14 Summary of Code Changes",
-     "url": "https://www.austintexas.gov/sites/default/files/files/Watershed/flood/Atlas_14_Summary_of_Code_Changes.pdf",
-     "read": "2026-10-11"
-    }
-   }
-  ]
- },
- "flood": {
-  "value": "Atlas 14 rules (Nov 2019): regulatory 100-yr floodplain = pre-Atlas-14 FEMA 500-yr floodplain (old 100-yr becomes 25-yr) pending new studies; lowest finished floor at least 2 ft above 100-yr flood elevation (freeboard raised from 1 ft to 2 ft).",
-  "status": "Secondary",
-  "source": {
-   "id": "austin-atlas14-code-summary",
-   "title": "City of Austin Watershed - Atlas 14 Summary of Code Changes",
-   "url": "https://www.austintexas.gov/sites/default/files/files/Watershed/flood/Atlas_14_Summary_of_Code_Changes.pdf",
-   "read": "2026-10-11"
-  },
-  "note": "Also Austin Monitor Nov 2019 and city floodplain page (interim still in effect per page). Ordinance number and any 2024-2025 new map adoption not confirmed. Read via web-search result summary; direct page fetch was blocked in this session (proxy 403)."
- },
- "engineChanges": [
-  {
-   "id": "austin-irc-2024",
-   "ruleType": "irc-edition",
-   "area": "drawings",
-   "change": "Use 2024 IRC (not 2021) as base residential code for Austin permits applied on/after 2025-07-10",
-   "priority": "must",
-   "params": {
-    "ircEdition": "2024",
-    "effective": "2025-07-10"
-   },
-   "source": {
-    "id": "austin-ord-20250410-040",
-    "title": "Ordinance No. 20250410-040 (2024 IRC + local amendments, Ch. 25-12 Art. 11)",
-    "url": "https://services.austintexas.gov/edims/document.cfm?id=450486",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "austin-sf3-setbacks",
-   "ruleType": "setback-by-district",
-   "area": "setbacks",
-   "change": "SF-3/SF-2 setbacks: front 25, interior side 5, street side 15, rear 10 ft",
-   "priority": "must",
-   "params": {
-    "district": "SF-3",
-    "frontFt": 25,
-    "sideFt": 5,
-    "streetSideFt": 15,
-    "rearFt": 10
-   },
-   "source": {
-    "id": "austin-neuhaus-zoning-guide",
-    "title": "Neuhaus RE - Complete Guide to Zoning and Land Use in Austin (2026)",
-    "url": "https://neuhausre.com/guides/zoning-land-use-guide-austin/",
-    "read": "2026-10-11",
-    "section": "25-2-492"
-   }
-  },
-  {
-   "id": "austin-sf3-height",
-   "ruleType": "height-limit",
-   "area": "massing",
-   "change": "Max height 35 ft (32 ft inside Subchapter F boundary)",
-   "priority": "must",
-   "params": {
-    "maxHeightFt": 35,
-    "maxHeightFtSubchF": 32
-   },
-   "source": {
-    "id": "austin-neuhaus-zoning-guide",
-    "title": "Neuhaus RE - Complete Guide to Zoning and Land Use in Austin (2026)",
-    "url": "https://neuhausre.com/guides/zoning-land-use-guide-austin/",
-    "read": "2026-10-11",
-    "section": "25-2-492"
-   }
-  },
-  {
-   "id": "austin-sf3-coverage",
-   "ruleType": "lot-coverage",
-   "area": "massing",
-   "change": "Building coverage max 40% of lot",
-   "priority": "must",
-   "params": {
-    "maxBuildingCoverage": 0.4
-   },
-   "source": {
-    "id": "austin-boa-sf3-case",
-    "title": "City of Austin Board of Adjustment staff report citing 25-2-492 SF-3 limits",
-    "url": "https://services.austintexas.gov/edims/document.cfm?id=440463",
-    "read": "2026-10-11",
-    "section": "25-2-492"
-   }
-  },
-  {
-   "id": "austin-sf3-ic",
-   "ruleType": "impervious-cover",
-   "area": "plan",
-   "change": "Impervious cover max 45% (house+garage+driveway+patios); watershed rules may be lower",
-   "priority": "must",
-   "params": {
-    "maxImpervious": 0.45
-   },
-   "source": {
-    "id": "austin-boa-sf3-case",
-    "title": "City of Austin Board of Adjustment staff report citing 25-2-492 SF-3 limits",
-    "url": "https://services.austintexas.gov/edims/document.cfm?id=440463",
-    "read": "2026-10-11",
-    "section": "25-2-492"
-   }
-  },
-  {
-   "id": "austin-subchf-far",
-   "ruleType": "far-limit",
-   "area": "massing",
-   "change": "If inside McMansion boundary and single unit: gross floor area <= max(0.4 x lot area, 2,300 sq ft)",
-   "priority": "must",
-   "params": {
-    "far": 0.4,
-    "minAllowanceSqFt": 2300,
-    "appliesIf": "insideSubchapterFBoundary"
-   },
-   "source": {
-    "id": "austin-ord-20250424-073",
-    "title": "Ordinance 20250424-073 amending 25-2-773 FAR (council document)",
-    "url": "https://services.austintexas.gov/edims/document.cfm?id=451575",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "austin-subchf-tent",
-   "ruleType": "setback-plane",
-   "area": "massing",
-   "change": "Inside McMansion boundary: setback plane starting 15 ft above grade at side/rear lines, sloping inward 45 deg; check roof/dormers",
-   "priority": "must",
-   "params": {
-    "startHeightFt": 15,
-    "angleDeg": 45,
-    "appliesIf": "insideSubchapterFBoundary"
-   },
-   "source": {
-    "id": "austin-monitor-mcmansion-2006",
-    "title": "Austin Monitor (2006) - Council to hear McMansion proposal",
-    "url": "https://www.austinmonitor.com/stories/2006/06/council-to-hear-mcmansion-proposal-today/",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "austin-subchf-articulation",
-   "ruleType": "side-wall-articulation",
-   "area": "massing",
-   "change": "Inside McMansion boundary: long side walls need an offset (articulation) - flag for review until trigger length verified",
-   "priority": "should",
-   "params": {
-    "appliesIf": "insideSubchapterFBoundary",
-    "triggerLengthFt": null
-   },
-   "source": {
-    "id": "austin-rdcs-page",
-    "title": "City of Austin - Residential Design & Compatibility Standards (Subchapter F)",
-    "url": "https://austintexas.gov/department/residential-design-compatibility-standards",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "austin-home-units",
-   "ruleType": "adu-rules",
-   "area": "plan",
-   "change": "Allow up to 3 units on SF-1/2/3 lots; FAR 0.55/3,200 (2 units) or 0.65/4,350 (3 units) inside boundary, per-unit max 0.4/2,300",
-   "priority": "nice",
-   "params": {
-    "maxUnits": 3,
-    "far2": 0.55,
-    "far3": 0.65
-   },
-   "source": {
-    "id": "austin-ord-20250424-073",
-    "title": "Ordinance 20250424-073 amending 25-2-773 FAR (council document)",
-    "url": "https://services.austintexas.gov/edims/document.cfm?id=451575",
-    "read": "2026-10-11",
-    "section": "25-2-773"
-   }
-  },
-  {
-   "id": "austin-small-lot",
-   "ruleType": "lot-min-size",
-   "area": "survey",
-   "change": "Accept lots >= 1,800 sq ft and >= 15 ft wide for one small-lot SF home (HOME Phase 2)",
-   "priority": "should",
-   "params": {
-    "minLotSqFt": 1800,
-    "minLotWidthFt": 15,
-    "standardMinLotSqFt": 5750
-   },
-   "source": {
-    "id": "austin-home-amendments-page",
-    "title": "City of Austin - HOME Amendments page",
-    "url": "https://www.austintexas.gov/development-services/home-amendments",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "austin-trees",
-   "ruleType": "tree-preservation",
-   "area": "survey",
-   "change": "Require tree survey input: trees >=19 in DBH protected (permit), >=24 in listed species heritage (no removal w/o variance); keep footprint out of critical root zones",
-   "priority": "must",
-   "params": {
-    "protectedIn": 19,
-    "heritageIn": 24
-   },
-   "source": {
-    "id": "austin-city-arborist",
-    "title": "City of Austin - City Arborist / Tree reviews and permitting",
-    "url": "https://www.austintexas.gov/development-services/city-arborist",
-    "read": "2026-10-11",
-    "section": "25-8-621/641"
-   }
-  },
-  {
-   "id": "austin-flood",
-   "ruleType": "flood-elevation",
-   "area": "foundation",
-   "change": "If in Austin regulatory floodplain (old FEMA 500-yr), lowest floor >= 100-yr WSE + 2 ft",
-   "priority": "must",
-   "params": {
-    "freeboardFt": 2,
-    "regulatoryFloodplain": "FEMA 500-yr (interim Atlas 14)"
-   },
-   "source": {
-    "id": "austin-atlas14-code-summary",
-    "title": "City of Austin Watershed - Atlas 14 Summary of Code Changes",
-    "url": "https://www.austintexas.gov/sites/default/files/files/Watershed/flood/Atlas_14_Summary_of_Code_Changes.pdf",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "austin-ac",
-   "ruleType": "mechanical-cooling-required",
-   "area": "envelope",
-   "change": "Mechanical design must include AC able to hold <=85 F and >=15 F below outdoor",
-   "priority": "must",
-   "params": {
-    "maxIndoorF": 85,
-    "minDeltaF": 15
-   },
-   "source": {
-    "id": "austin-ac-news",
-    "title": "Community Impact - Housing in Austin will soon be required to have air conditioning",
-    "url": "https://communityimpact.com/south-central-austin/government/housing-in-austin-will-soon-be-required-to-have-air-conditioning-for-residents/",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "austin-energy",
-   "ruleType": "climate-zone-envelope",
-   "area": "envelope",
-   "change": "Use 2024 IECC CZ 2A envelope with Austin amendments (not state 2021 IECC)",
-   "priority": "must",
-   "params": {
-    "climateZone": "2A",
-    "iecc": "2024-Austin"
-   },
-   "source": {
-    "id": "austin-iecc2024-backup",
-    "title": "Council backup File ID 25-0605: 2024 IECC adoption (Ch. 25-12 Art. 12)",
-    "url": "https://services.austintexas.gov/edims/document.cfm?id=448388",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "austin-impact",
-   "ruleType": "impact-fee-estimate",
-   "area": "estimate",
-   "change": "Add Austin Water impact fees $4,800 water + $2,900 wastewater per unit (lots platted after 2023-10-01)",
-   "priority": "must",
-   "params": {
-    "waterUSD": 4800,
-    "wastewaterUSD": 2900
-   },
-   "source": {
-    "id": "austin-water-rates-fees",
-    "title": "Austin Water - Rates and Fees (impact fee schedule)",
-    "url": "https://www.austintexas.gov/water/rates-and-fees",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "austin-permit",
-   "ruleType": "permit-fee-formula",
-   "area": "estimate",
-   "change": "Plan review fee tier by sq ft ($1,141 for 2,001-3,000 sf) + 6% surcharge; other permit fees TBD",
-   "priority": "should",
-   "params": {
-    "tier2001to3000USD": 1141,
-    "surcharge": 0.06
-   },
-   "source": {
-    "id": "austin-fees-residential-pdf",
-    "title": "City of Austin - Fees Residential (PDF)",
-    "url": "https://austintexas.gov/sites/default/files/files/Development_Services/Fees_Residential.pdf",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "austin-visitability",
-   "ruleType": "egress-stairs-variant",
-   "area": "plan",
-   "change": "Visitability: provide accessible bathroom on entry level with 30x30 in clear floor space and accessible entry",
-   "priority": "should",
-   "params": {
-    "bathClearFloorIn": [
-     30,
-     30
+    "minLotDepthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed (agent judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "ft",
+      "note": "No min depth in 25-2-492 table per secondary sources; not verified."
+    },
+    "setbacksFt": {
+      "front": {
+        "value": 25,
+        "status": "Secondary",
+        "source": {
+          "id": "austin-neuhaus-zoning-guide",
+          "title": "Neuhaus RE - Complete Guide to Zoning and Land Use in Austin (2026)",
+          "url": "https://neuhausre.com/guides/zoning-land-use-guide-austin/",
+          "read": "2026-10-11",
+          "section": "25-2-492"
+        },
+        "unit": "ft",
+        "note": "Also implied in BOA variance reports. Small-lot use may differ."
+      },
+      "side": {
+        "value": 5,
+        "status": "Secondary",
+        "source": {
+          "id": "austin-neuhaus-zoning-guide",
+          "title": "Neuhaus RE - Complete Guide to Zoning and Land Use in Austin (2026)",
+          "url": "https://neuhausre.com/guides/zoning-land-use-guide-austin/",
+          "read": "2026-10-11",
+          "section": "25-2-492"
+        },
+        "unit": "ft",
+        "note": "Interior side 5 ft. One BOA case (Westlake Cove) showed 10 ft interior side - likely a different district/overlay."
+      },
+      "streetSide": {
+        "value": 15,
+        "status": "Secondary",
+        "source": {
+          "id": "austin-boa-sf3-case",
+          "title": "City of Austin Board of Adjustment staff report citing 25-2-492 SF-3 limits",
+          "url": "https://services.austintexas.gov/edims/document.cfm?id=440463",
+          "read": "2026-10-11",
+          "section": "25-2-492"
+        },
+        "unit": "ft"
+      },
+      "rear": {
+        "value": 10,
+        "status": "Secondary",
+        "source": {
+          "id": "austin-neuhaus-zoning-guide",
+          "title": "Neuhaus RE - Complete Guide to Zoning and Land Use in Austin (2026)",
+          "url": "https://neuhausre.com/guides/zoning-land-use-guide-austin/",
+          "read": "2026-10-11",
+          "section": "25-2-492"
+        },
+        "unit": "ft"
+      }
+    },
+    "maxHeightFt": {
+      "value": 35,
+      "status": "Secondary",
+      "source": {
+        "id": "austin-neuhaus-zoning-guide",
+        "title": "Neuhaus RE - Complete Guide to Zoning and Land Use in Austin (2026)",
+        "url": "https://neuhausre.com/guides/zoning-land-use-guide-austin/",
+        "read": "2026-10-11",
+        "section": "25-2-492"
+      },
+      "unit": "ft",
+      "note": "Inside the Subchapter F (McMansion) boundary max height is 32 ft measured per Subchapter F, plus setback-plane (tent) limits."
+    },
+    "maxStories": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed (agent judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "25-2-492 limits height in feet, not stories (secondary sources)."
+    },
+    "maxLotCoverage": {
+      "value": 0.4,
+      "status": "Secondary",
+      "source": {
+        "id": "austin-boa-sf3-case",
+        "title": "City of Austin Board of Adjustment staff report citing 25-2-492 SF-3 limits",
+        "url": "https://services.austintexas.gov/edims/document.cfm?id=440463",
+        "read": "2026-10-11",
+        "section": "25-2-492"
+      },
+      "unit": "fraction",
+      "note": "Building coverage 40%. Confirmed in BOA staff reports and Neuhaus guide (2 sources)."
+    },
+    "imperviousCover": {
+      "value": 0.45,
+      "status": "Secondary",
+      "source": {
+        "id": "austin-boa-sf3-case",
+        "title": "City of Austin Board of Adjustment staff report citing 25-2-492 SF-3 limits",
+        "url": "https://services.austintexas.gov/edims/document.cfm?id=440463",
+        "read": "2026-10-11",
+        "section": "25-2-492"
+      },
+      "unit": "fraction",
+      "note": "Impervious cover 45%; watershed rules (Ch. 25-8) may be stricter in water-supply watersheds / Barton Springs Zone. HOME Phase 2 left IC limits unchanged."
+    },
+    "far": {
+      "value": "Inside Subchapter F boundary, single-unit lot: greater of 0.4 FAR or 2,300 sq ft gross floor area. 2-3 unit sites under 25-2-773 (Ord. 20250424-073, eff. 2025-05-05): 2 units 0.55/3,200 sq ft (0.65/4,350 if existing unit preserved); 3 units 0.65/4,350 sq ft with each unit max 0.4/2,300. No FAR outside boundary; small-lot SF use exempt from Subchapter F (unit size cap instead).",
+      "status": "Secondary",
+      "source": {
+        "id": "austin-ord-20250424-073",
+        "title": "Ordinance 20250424-073 amending 25-2-773 FAR (council document)",
+        "url": "https://services.austintexas.gov/edims/document.cfm?id=451575",
+        "read": "2026-10-11"
+      },
+      "note": "0.4/2,300 origin: 2006 McMansion ordinance (Austin Monitor); per-unit 0.4/2,300 and site caps from 2025 council document. Read via web-search result summary; direct page fetch was blocked in this session (proxy 403)."
+    },
+    "parking": {
+      "value": "No minimum off-street parking (citywide parking minimums eliminated Nov 2023)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed (agent judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Agent knowledge (Ord. adopted 2023-11-02 removing parking minimums); not re-verified this session."
+    },
+    "garageRules": {
+      "value": "Subchapter F: garages/carports count toward GFA above an exemption (commonly 450 sq ft attached / 200 sq ft for detached rear) and street-facing garage width limits may apply - verify",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed (agent judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Exact exemptions not verified this session."
+    },
+    "adu": {
+      "value": "HOME Phase 1 (Ord. 20231207-001, adopted 2023-12-07, effective 2024-02-05): up to 3 dwelling units on SF-1/2/3 lots (Two-Unit / Three-Unit / Duplex uses replace old 25-2-773); existing dwelling area excluded from FAR if 50% of house and 100% of street facade preserved (>=20 yrs old).",
+      "status": "Secondary",
+      "source": {
+        "id": "austin-home1-faq",
+        "title": "AIA Austin - HOME Summary FAQ (2024-01-26)",
+        "url": "https://aiaaustin.org/wp-content/uploads/2024/01/HOME_Summary-FAQ_20240126-1039.pdf",
+        "read": "2026-10-11"
+      },
+      "note": "Also city HOME page. Read via web-search result summary; direct page fetch was blocked in this session (proxy 403)."
+    },
+    "masonry": {
+      "value": "None (Texas Gov. Code 3000 bars masonry mandates; none found in Austin)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed (agent judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    "trees": {
+      "value": "Protected tree: >=19 in diameter at 4.5 ft - removal needs permit (25-8-621). Heritage tree: >=24 in of listed species (all oaks, pecan, etc.) - removal prohibited without variance (25-8-641/642/643); critical root zone protection affects footprint.",
+      "status": "Secondary",
+      "source": {
+        "id": "austin-city-arborist",
+        "title": "City of Austin - City Arborist / Tree reviews and permitting",
+        "url": "https://www.austintexas.gov/development-services/city-arborist",
+        "read": "2026-10-11",
+        "section": "LDC 25-8 Art. 1 Div. 2"
+      }
+    },
+    "other": [
+      {
+        "value": "SF-2: same core numbers as SF-3 in secondary sources (5,750 sf lot, 50 ft width, 25/5/15/10 setbacks, 35 ft, 40% bldg / 45% IC); SF-2 historically limited to one unit, but HOME made SF-1/2/3 allow up to 3 units.",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed (agent judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not separately verified this session."
+      },
+      {
+        "value": "Subchapter F setback plane ('tent'): starts 15 ft above grade at side and rear setback lines (property line per 2006 text) and slopes inward at 45 degrees; side-wall articulation required for long side walls; exemptions for gables/dormers limited (dormers penetrating tent count toward GFA).",
+        "status": "Secondary",
+        "source": {
+          "id": "austin-monitor-mcmansion-2006",
+          "title": "Austin Monitor (2006) - Council to hear McMansion proposal",
+          "url": "https://www.austinmonitor.com/stories/2006/06/council-to-hear-mcmansion-proposal-today/",
+          "read": "2026-10-11"
+        },
+        "note": "From 2006 adopted-proposal coverage and secondary guides; current text (incl. 2024 HOME tweaks) not read. Articulation trigger length not confirmed."
+      },
+      {
+        "value": "Citywide compatibility standards rewritten May 16, 2024 (Subchapter C Art. 10) - affect multifamily/commercial near SF, not SF homes themselves.",
+        "status": "Secondary",
+        "source": {
+          "id": "austin-home2-speakup",
+          "title": "SpeakUpAustin - C20-2023-035 HOME Phase 2 summary",
+          "url": "https://speakupaustin.org/R6817",
+          "read": "2026-10-11"
+        }
+      },
+      {
+        "value": "Wildland-urban interface: 2024 IWUIC with Austin amendments applies in mapped WUI (ignition-resistant construction).",
+        "status": "Secondary",
+        "source": {
+          "id": "austin-technical-codes-page",
+          "title": "City of Austin - Building Technical Codes (local amendment table)",
+          "url": "https://www.austintexas.gov/development-services/building-technical-codes",
+          "read": "2026-10-11"
+        },
+        "note": "Read via web-search result summary; direct page fetch was blocked in this session (proxy 403)."
+      }
     ]
-   },
-   "source": {
-    "id": "austin-irc2024-ais",
-    "title": "Affordability Impact Statement - 2024 IRC local amendments",
-    "url": "https://services.austintexas.gov/edims/document.cfm?id=431901",
-    "read": "2026-10-11"
-   }
   },
-  {
-   "id": "austin-plumbing",
-   "ruleType": "plumbing-code-variant",
-   "area": "drawings",
-   "change": "Plumbing per UPC (IAPMO) not IPC",
-   "priority": "should",
-   "params": {
-    "plumbingCode": "UPC"
-   },
-   "source": {
-    "id": "assumed",
-    "title": "Assumed (agent judgement) - Austin historically adopts UPC; edition not verified",
-    "url": "",
-    "read": "2026-10-11"
-   }
+  "process": {
+    "steps": [
+      {
+        "value": "Check zoning, Subchapter F boundary, floodplain (ATXFloodPro), trees and watershed via Property Profile.",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed (agent judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        }
+      },
+      {
+        "value": "Submit Residential New Construction application (building plan review) to DSD; Subchapter F calc sheets if inside boundary; tree survey if protected trees within reach.",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed (agent judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        }
+      },
+      {
+        "value": "Austin Energy / Austin Water service applications; pay capital recovery (impact) fees at permit/tap.",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed (agent judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        }
+      },
+      {
+        "value": "Inspections, then certificate of occupancy.",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed (agent judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        }
+      }
+    ],
+    "sealsRequired": [
+      {
+        "value": "Texas-licensed engineer seal for foundation design commonly required for new homes in Austin (verify in 25-12-243)",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed (agent judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found this session: direct fetch blocked and search budget exhausted."
+      }
+    ],
+    "inspections": [
+      {
+        "value": "Standard IRC sequence: foundation, framing, MEP rough, insulation/energy, final; Austin Energy energy code inspections",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed (agent judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        }
+      }
+    ],
+    "reviewDays": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed (agent judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found this session: direct fetch blocked and search budget exhausted."
+    }
+  },
+  "fees": {
+    "permitFormula": {
+      "value": "Residential plan review tiered by sq ft: $815 base (first tier), $978 for 1,001-2,000 sq ft, $1,141 for 2,001-3,000 sq ft, plus per-sq-ft add-on; 6% Development Services Surcharge on all permit fees; building permit and trade permits separate",
+      "status": "Secondary",
+      "source": {
+        "id": "austin-fees-residential-pdf",
+        "title": "City of Austin - Fees Residential (PDF)",
+        "url": "https://austintexas.gov/sites/default/files/files/Development_Services/Fees_Residential.pdf",
+        "read": "2026-10-11"
+      },
+      "note": "PDF fiscal year not confirmed (FY2025-26 schedule effective 2025-10-01 per fees page); per-sq-ft rates garbled in extraction. Read via web-search result summary; direct page fetch was blocked in this session (proxy 403)."
+    },
+    "workedExample2400sqft": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "austin-fees-residential-pdf",
+        "title": "City of Austin - Fees Residential (PDF)",
+        "url": "https://austintexas.gov/sites/default/files/files/Development_Services/Fees_Residential.pdf",
+        "read": "2026-10-11"
+      },
+      "note": "Incomplete: only plan review base found: tier 2,001-3,000 sq ft = $1,141 x 1.06 surcharge = $1,209.46 (plus unknown per-sq-ft add-on). Building permit, trade permit, Austin Energy and tap fees not found. Assumption: 2,400 sf conditioned + 440 sf attached garage."
+    },
+    "planReview": {
+      "value": 1209.46,
+      "status": "Secondary",
+      "source": {
+        "id": "austin-fees-residential-pdf",
+        "title": "City of Austin - Fees Residential (PDF)",
+        "url": "https://austintexas.gov/sites/default/files/files/Development_Services/Fees_Residential.pdf",
+        "read": "2026-10-11"
+      },
+      "unit": "USD",
+      "note": "$1,141 tier fee x 1.06 surcharge; excludes per-sq-ft add-on. Fiscal year of PDF unverified."
+    },
+    "impactFees": [
+      {
+        "value": 7700,
+        "status": "Secondary",
+        "source": {
+          "id": "austin-water-rates-fees",
+          "title": "Austin Water - Rates and Fees (impact fee schedule)",
+          "url": "https://www.austintexas.gov/water/rates-and-fees",
+          "read": "2026-10-11"
+        },
+        "unit": "USD per service unit",
+        "note": "Austin Water impact fee for lots platted after 2023-10-01, all zones: water $4,800 + wastewater $2,900 = $7,700 per service unit (single-family = 1 SU typically). Lots platted before 2014-01-01 vary by zone. Page may predate later changes. Read via web-search result summary; direct page fetch was blocked in this session (proxy 403)."
+      }
+    ],
+    "tapFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed (agent judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Austin Water tap/meter fees and Austin Energy line extension fees not found this session."
+      }
+    ]
+  },
+  "cost": {
+    "factor": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "cost-method",
+        "title": "See README cost method (filled by cost agent)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "PENDING_COST_AGENT"
+    },
+    "method": "PENDING_COST_AGENT",
+    "perSqFtMarket": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed (agent judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Public market figure not obtained this session (search budget exhausted)."
+    },
+    "drivers": [
+      {
+        "value": "Heritage/protected tree root zones constrain footprint and add arborist cost",
+        "status": "Secondary",
+        "source": {
+          "id": "austin-city-arborist",
+          "title": "City of Austin - City Arborist / Tree reviews and permitting",
+          "url": "https://www.austintexas.gov/development-services/city-arborist",
+          "read": "2026-10-11"
+        }
+      },
+      {
+        "value": "Capital recovery fees ~$7,700 per unit (water+wastewater)",
+        "status": "Secondary",
+        "source": {
+          "id": "austin-water-rates-fees",
+          "title": "Austin Water - Rates and Fees (impact fee schedule)",
+          "url": "https://www.austintexas.gov/water/rates-and-fees",
+          "read": "2026-10-11"
+        }
+      },
+      {
+        "value": "Expansive clay soils east of I-35 / limestone west (engineered post-tensioned slabs, rock excavation)",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed (agent judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        }
+      },
+      {
+        "value": "Mandatory AC and Austin IECC amendments; atlas-14 floodplain 2 ft freeboard",
+        "status": "Secondary",
+        "source": {
+          "id": "austin-atlas14-code-summary",
+          "title": "City of Austin Watershed - Atlas 14 Summary of Code Changes",
+          "url": "https://www.austintexas.gov/sites/default/files/files/Watershed/flood/Atlas_14_Summary_of_Code_Changes.pdf",
+          "read": "2026-10-11"
+        }
+      }
+    ]
+  },
+  "flood": {
+    "value": "Atlas 14 rules (Nov 2019): regulatory 100-yr floodplain = pre-Atlas-14 FEMA 500-yr floodplain (old 100-yr becomes 25-yr) pending new studies; lowest finished floor at least 2 ft above 100-yr flood elevation (freeboard raised from 1 ft to 2 ft).",
+    "status": "Secondary",
+    "source": {
+      "id": "austin-atlas14-code-summary",
+      "title": "City of Austin Watershed - Atlas 14 Summary of Code Changes",
+      "url": "https://www.austintexas.gov/sites/default/files/files/Watershed/flood/Atlas_14_Summary_of_Code_Changes.pdf",
+      "read": "2026-10-11"
+    },
+    "note": "Also Austin Monitor Nov 2019 and city floodplain page (interim still in effect per page). Ordinance number and any 2024-2025 new map adoption not confirmed. Read via web-search result summary; direct page fetch was blocked in this session (proxy 403)."
+  },
+  "engineChanges": [
+    {
+      "id": "austin-irc-2024",
+      "ruleType": "code-edition-by-city",
+      "area": "drawings",
+      "change": "Use 2024 IRC (not 2021) as base residential code for Austin permits applied on/after 2025-07-10",
+      "priority": "must",
+      "params": {
+        "ircEdition": "2024",
+        "effective": "2025-07-10"
+      },
+      "source": {
+        "id": "austin-ord-20250410-040",
+        "title": "Ordinance No. 20250410-040 (2024 IRC + local amendments, Ch. 25-12 Art. 11)",
+        "url": "https://services.austintexas.gov/edims/document.cfm?id=450486",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "austin-sf3-setbacks",
+      "ruleType": "setback-by-district",
+      "area": "setbacks",
+      "change": "SF-3/SF-2 setbacks: front 25, interior side 5, street side 15, rear 10 ft",
+      "priority": "must",
+      "params": {
+        "district": "SF-3",
+        "frontFt": 25,
+        "sideFt": 5,
+        "streetSideFt": 15,
+        "rearFt": 10
+      },
+      "source": {
+        "id": "austin-neuhaus-zoning-guide",
+        "title": "Neuhaus RE - Complete Guide to Zoning and Land Use in Austin (2026)",
+        "url": "https://neuhausre.com/guides/zoning-land-use-guide-austin/",
+        "read": "2026-10-11",
+        "section": "25-2-492"
+      }
+    },
+    {
+      "id": "austin-sf3-height",
+      "ruleType": "height-limit",
+      "area": "massing",
+      "change": "Max height 35 ft (32 ft inside Subchapter F boundary)",
+      "priority": "must",
+      "params": {
+        "maxHeightFt": 35,
+        "maxHeightFtSubchF": 32
+      },
+      "source": {
+        "id": "austin-neuhaus-zoning-guide",
+        "title": "Neuhaus RE - Complete Guide to Zoning and Land Use in Austin (2026)",
+        "url": "https://neuhausre.com/guides/zoning-land-use-guide-austin/",
+        "read": "2026-10-11",
+        "section": "25-2-492"
+      }
+    },
+    {
+      "id": "austin-sf3-coverage",
+      "ruleType": "lot-coverage",
+      "area": "massing",
+      "change": "Building coverage max 40% of lot",
+      "priority": "must",
+      "params": {
+        "maxBuildingCoverage": 0.4
+      },
+      "source": {
+        "id": "austin-boa-sf3-case",
+        "title": "City of Austin Board of Adjustment staff report citing 25-2-492 SF-3 limits",
+        "url": "https://services.austintexas.gov/edims/document.cfm?id=440463",
+        "read": "2026-10-11",
+        "section": "25-2-492"
+      }
+    },
+    {
+      "id": "austin-sf3-ic",
+      "ruleType": "impervious-cover",
+      "area": "plan",
+      "change": "Impervious cover max 45% (house+garage+driveway+patios); watershed rules may be lower",
+      "priority": "must",
+      "params": {
+        "maxImpervious": 0.45
+      },
+      "source": {
+        "id": "austin-boa-sf3-case",
+        "title": "City of Austin Board of Adjustment staff report citing 25-2-492 SF-3 limits",
+        "url": "https://services.austintexas.gov/edims/document.cfm?id=440463",
+        "read": "2026-10-11",
+        "section": "25-2-492"
+      }
+    },
+    {
+      "id": "austin-subchf-far",
+      "ruleType": "far-limit",
+      "area": "massing",
+      "change": "If inside McMansion boundary and single unit: gross floor area <= max(0.4 x lot area, 2,300 sq ft)",
+      "priority": "must",
+      "params": {
+        "far": 0.4,
+        "minAllowanceSqFt": 2300,
+        "appliesIf": "insideSubchapterFBoundary"
+      },
+      "source": {
+        "id": "austin-ord-20250424-073",
+        "title": "Ordinance 20250424-073 amending 25-2-773 FAR (council document)",
+        "url": "https://services.austintexas.gov/edims/document.cfm?id=451575",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "austin-subchf-tent",
+      "ruleType": "setback-plane",
+      "area": "massing",
+      "change": "Inside McMansion boundary: setback plane starting 15 ft above grade at side/rear lines, sloping inward 45 deg; check roof/dormers",
+      "priority": "must",
+      "params": {
+        "startHeightFt": 15,
+        "angleDeg": 45,
+        "appliesIf": "insideSubchapterFBoundary"
+      },
+      "source": {
+        "id": "austin-monitor-mcmansion-2006",
+        "title": "Austin Monitor (2006) - Council to hear McMansion proposal",
+        "url": "https://www.austinmonitor.com/stories/2006/06/council-to-hear-mcmansion-proposal-today/",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "austin-subchf-articulation",
+      "ruleType": "side-wall-articulation",
+      "area": "massing",
+      "change": "Inside McMansion boundary: long side walls need an offset (articulation) - flag for review until trigger length verified",
+      "priority": "should",
+      "params": {
+        "appliesIf": "insideSubchapterFBoundary",
+        "triggerLengthFt": null
+      },
+      "source": {
+        "id": "austin-rdcs-page",
+        "title": "City of Austin - Residential Design & Compatibility Standards (Subchapter F)",
+        "url": "https://austintexas.gov/department/residential-design-compatibility-standards",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "austin-home-units",
+      "ruleType": "adu-rules",
+      "area": "plan",
+      "change": "Allow up to 3 units on SF-1/2/3 lots; FAR 0.55/3,200 (2 units) or 0.65/4,350 (3 units) inside boundary, per-unit max 0.4/2,300",
+      "priority": "nice",
+      "params": {
+        "maxUnits": 3,
+        "far2": 0.55,
+        "far3": 0.65
+      },
+      "source": {
+        "id": "austin-ord-20250424-073",
+        "title": "Ordinance 20250424-073 amending 25-2-773 FAR (council document)",
+        "url": "https://services.austintexas.gov/edims/document.cfm?id=451575",
+        "read": "2026-10-11",
+        "section": "25-2-773"
+      }
+    },
+    {
+      "id": "austin-small-lot",
+      "ruleType": "lot-min-size",
+      "area": "survey",
+      "change": "Accept lots >= 1,800 sq ft and >= 15 ft wide for one small-lot SF home (HOME Phase 2)",
+      "priority": "should",
+      "params": {
+        "minLotSqFt": 1800,
+        "minLotWidthFt": 15,
+        "standardMinLotSqFt": 5750
+      },
+      "source": {
+        "id": "austin-home-amendments-page",
+        "title": "City of Austin - HOME Amendments page",
+        "url": "https://www.austintexas.gov/development-services/home-amendments",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "austin-trees",
+      "ruleType": "tree-preservation",
+      "area": "survey",
+      "change": "Require tree survey input: trees >=19 in DBH protected (permit), >=24 in listed species heritage (no removal w/o variance); keep footprint out of critical root zones",
+      "priority": "must",
+      "params": {
+        "protectedIn": 19,
+        "heritageIn": 24
+      },
+      "source": {
+        "id": "austin-city-arborist",
+        "title": "City of Austin - City Arborist / Tree reviews and permitting",
+        "url": "https://www.austintexas.gov/development-services/city-arborist",
+        "read": "2026-10-11",
+        "section": "25-8-621/641"
+      }
+    },
+    {
+      "id": "austin-flood",
+      "ruleType": "flood-elevation",
+      "area": "foundation",
+      "change": "If in Austin regulatory floodplain (old FEMA 500-yr), lowest floor >= 100-yr WSE + 2 ft",
+      "priority": "must",
+      "params": {
+        "freeboardFt": 2,
+        "regulatoryFloodplain": "FEMA 500-yr (interim Atlas 14)"
+      },
+      "source": {
+        "id": "austin-atlas14-code-summary",
+        "title": "City of Austin Watershed - Atlas 14 Summary of Code Changes",
+        "url": "https://www.austintexas.gov/sites/default/files/files/Watershed/flood/Atlas_14_Summary_of_Code_Changes.pdf",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "austin-ac",
+      "ruleType": "mechanical-cooling-required",
+      "area": "envelope",
+      "change": "Mechanical design must include AC able to hold <=85 F and >=15 F below outdoor",
+      "priority": "must",
+      "params": {
+        "maxIndoorF": 85,
+        "minDeltaF": 15
+      },
+      "source": {
+        "id": "austin-ac-news",
+        "title": "Community Impact - Housing in Austin will soon be required to have air conditioning",
+        "url": "https://communityimpact.com/south-central-austin/government/housing-in-austin-will-soon-be-required-to-have-air-conditioning-for-residents/",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "austin-energy",
+      "ruleType": "climate-zone-envelope",
+      "area": "envelope",
+      "change": "Use 2024 IECC CZ 2A envelope with Austin amendments (not state 2021 IECC)",
+      "priority": "must",
+      "params": {
+        "climateZone": "2A",
+        "iecc": "2024-Austin"
+      },
+      "source": {
+        "id": "austin-iecc2024-backup",
+        "title": "Council backup File ID 25-0605: 2024 IECC adoption (Ch. 25-12 Art. 12)",
+        "url": "https://services.austintexas.gov/edims/document.cfm?id=448388",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "austin-impact",
+      "ruleType": "impact-fee-estimate",
+      "area": "estimate",
+      "change": "Add Austin Water impact fees $4,800 water + $2,900 wastewater per unit (lots platted after 2023-10-01)",
+      "priority": "must",
+      "params": {
+        "waterUSD": 4800,
+        "wastewaterUSD": 2900
+      },
+      "source": {
+        "id": "austin-water-rates-fees",
+        "title": "Austin Water - Rates and Fees (impact fee schedule)",
+        "url": "https://www.austintexas.gov/water/rates-and-fees",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "austin-permit",
+      "ruleType": "permit-fee-formula",
+      "area": "estimate",
+      "change": "Plan review fee tier by sq ft ($1,141 for 2,001-3,000 sf) + 6% surcharge; other permit fees TBD",
+      "priority": "should",
+      "params": {
+        "tier2001to3000USD": 1141,
+        "surcharge": 0.06
+      },
+      "source": {
+        "id": "austin-fees-residential-pdf",
+        "title": "City of Austin - Fees Residential (PDF)",
+        "url": "https://austintexas.gov/sites/default/files/files/Development_Services/Fees_Residential.pdf",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "austin-visitability",
+      "ruleType": "egress-stairs-variant",
+      "area": "plan",
+      "change": "Visitability: provide accessible bathroom on entry level with 30x30 in clear floor space and accessible entry",
+      "priority": "should",
+      "params": {
+        "bathClearFloorIn": [
+          30,
+          30
+        ]
+      },
+      "source": {
+        "id": "austin-irc2024-ais",
+        "title": "Affordability Impact Statement - 2024 IRC local amendments",
+        "url": "https://services.austintexas.gov/edims/document.cfm?id=431901",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "austin-plumbing",
+      "ruleType": "plumbing-code-variant",
+      "area": "drawings",
+      "change": "Plumbing per UPC (IAPMO) not IPC",
+      "priority": "should",
+      "params": {
+        "plumbingCode": "UPC"
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed (agent judgement) - Austin historically adopts UPC; edition not verified",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    }
+  ],
+  "plainLanguage": "Austin uses the 2024 residential and energy codes with its own local changes, effective July 10, 2025. Most new homes sit in SF-3 zoning: 25 ft front, 5 ft side, 10 ft rear and 15 ft street-side setbacks, 35 ft height, 40% building coverage and 45% impervious cover. In central Austin the 'McMansion' rules cap house size at the larger of 40% of the lot or 2,300 sq ft and add a sloping 'tent' you can't build through. Since 2024 you may build up to three homes on most single-family lots, and lots as small as 1,800 sq ft can hold one home. Big trees matter: trees 19 in or wider need a permit to remove and large oaks and pecans (24 in+) are protected. If you are near a creek, Austin uses the larger 500-year floodplain and wants your floor 2 ft above flood level. Expect about $7,700 in water and wastewater impact fees plus permit fees. New homes must have air conditioning.",
+  "openQuestions": [
+    "Exact current Subchapter F text after 2024-2025 amendments (setback plane, articulation trigger, garage exemptions)",
+    "HOME Phase 2 ordinance number (20240516-006 suspected, unverified)",
+    "IECC 2024 ordinance number and residential local amendments (electric-ready/solar-ready appendices?)",
+    "Plumbing/electrical/mechanical editions adopted 2025",
+    "Full DSD residential fee schedule FY2025-26 (per sq ft rates, building permit)",
+    "Is engineered foundation sealed design mandatory under 25-12-243?",
+    "Status of new Atlas 14 floodplain maps (2024-2026)"
+  ],
+  "notFound": [
+    "Primary LDC text (Municode blocked)",
+    "DSD per-sq-ft fees",
+    "tap fees",
+    "frost depth",
+    "market $/sqft",
+    "population vintage verification"
+  ],
+  "comparison": {
+    "irc": "2024 IRC (amended)",
+    "energy": "2024 IECC (Austin amended)",
+    "plumbing": "UPC (edition unverified)",
+    "district": "SF-3",
+    "setbacks": "25/5/10 (15 street side)",
+    "maxHeight": "35 ft (32 ft in McMansion area)",
+    "coverageFar": "40% bldg / 45% IC / FAR 0.4 or 2,300 sf (McMansion area)",
+    "masonry": "none",
+    "engFoundation": "unverified",
+    "windstorm": "no",
+    "flood": "2 ft above Atlas-14 100-yr (old 500-yr)",
+    "permitFeeExample": "incomplete (plan review ~$1,209+)",
+    "impactFees": "$7,700 water+ww",
+    "costFactor": "PENDING"
   }
- ],
- "plainLanguage": "Austin uses the 2024 residential and energy codes with its own local changes, effective July 10, 2025. Most new homes sit in SF-3 zoning: 25 ft front, 5 ft side, 10 ft rear and 15 ft street-side setbacks, 35 ft height, 40% building coverage and 45% impervious cover. In central Austin the 'McMansion' rules cap house size at the larger of 40% of the lot or 2,300 sq ft and add a sloping 'tent' you can't build through. Since 2024 you may build up to three homes on most single-family lots, and lots as small as 1,800 sq ft can hold one home. Big trees matter: trees 19 in or wider need a permit to remove and large oaks and pecans (24 in+) are protected. If you are near a creek, Austin uses the larger 500-year floodplain and wants your floor 2 ft above flood level. Expect about $7,700 in water and wastewater impact fees plus permit fees. New homes must have air conditioning.",
- "openQuestions": [
-  "Exact current Subchapter F text after 2024-2025 amendments (setback plane, articulation trigger, garage exemptions)",
-  "HOME Phase 2 ordinance number (20240516-006 suspected, unverified)",
-  "IECC 2024 ordinance number and residential local amendments (electric-ready/solar-ready appendices?)",
-  "Plumbing/electrical/mechanical editions adopted 2025",
-  "Full DSD residential fee schedule FY2025-26 (per sq ft rates, building permit)",
-  "Is engineered foundation sealed design mandatory under 25-12-243?",
-  "Status of new Atlas 14 floodplain maps (2024-2026)"
- ],
- "notFound": [
-  "Primary LDC text (Municode blocked)",
-  "DSD per-sq-ft fees",
-  "tap fees",
-  "frost depth",
-  "market $/sqft",
-  "population vintage verification"
- ],
- "comparison": {
-  "irc": "2024 IRC (amended)",
-  "energy": "2024 IECC (Austin amended)",
-  "plumbing": "UPC (edition unverified)",
-  "district": "SF-3",
-  "setbacks": "25/5/10 (15 street side)",
-  "maxHeight": "35 ft (32 ft in McMansion area)",
-  "coverageFar": "40% bldg / 45% IC / FAR 0.4 or 2,300 sf (McMansion area)",
-  "masonry": "none",
-  "engFoundation": "unverified",
-  "windstorm": "no",
-  "flood": "2 ft above Atlas-14 100-yr (old 500-yr)",
-  "permitFeeExample": "incomplete (plan review ~$1,209+)",
-  "impactFees": "$7,700 water+ww",
-  "costFactor": "PENDING"
- }
 }

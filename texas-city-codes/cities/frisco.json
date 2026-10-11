@@ -1,1007 +1,1007 @@
 {
- "id": "frisco",
- "name": "City of Frisco",
- "state": "TX",
- "tier": 1,
- "counties": [
-  "Collin",
-  "Denton"
- ],
- "msa": {
-  "name": "Dallas-Fort Worth-Arlington, TX",
-  "blsCode": "19100"
- },
- "population": {
-  "value": 235000,
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed - agent judgement (no source could be read this session)",
-   "url": "",
-   "read": "2026-10-11"
+  "id": "frisco",
+  "name": "City of Frisco",
+  "state": "TX",
+  "tier": 1,
+  "counties": [
+    "Collin",
+    "Denton"
+  ],
+  "msa": {
+    "name": "Dallas-Fort Worth-Arlington, TX",
+    "blsCode": "19100"
   },
-  "note": "Approximate Census Vintage 2024 estimate (~235,000; Vintage 2023 ~225,000) from agent knowledge; census.gov not reachable this session."
- },
- "zipCodesOrBoundary": {
-  "value": "75033, 75034, 75035, 75036 (75068/75078 partly)",
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed - agent judgement (no source could be read this session)",
-   "url": "",
-   "read": "2026-10-11"
-  },
-  "note": "Frisco ZIPs from agent knowledge; use city-limits GIS map to confirm parcel is inside city."
- },
- "climateZone": {
-  "value": "3A",
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed - agent judgement (no source could be read this session)",
-   "url": "",
-   "read": "2026-10-11"
-  },
-  "note": "2021/2024 IECC Table R301.1 county list places Collin and Denton Counties in Climate Zone 3A (agent knowledge; could not fetch IECC/DOE page this session)."
- },
- "windstormCounty": {
-  "value": false,
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed - agent judgement (no source could be read this session)",
-   "url": "",
-   "read": "2026-10-11"
-  },
-  "note": "Collin/Denton are inland North Texas counties, not in the TDI windstorm (catastrophe) area, which covers only the 14 coastal counties and parts of Harris (agent knowledge)."
- },
- "codes": {
-  "irc": {
-   "edition": {
-    "value": "2024 IRC",
-    "status": "Secondary",
+  "population": {
+    "value": 235000,
+    "status": "Assumed",
     "source": {
-     "id": "frisco-adopted-codes",
-     "title": "Adopted Codes (Development Services)",
-     "url": "https://www.friscotexas.gov/397/Adopted-Codes",
-     "read": "2026-10-11"
+      "id": "assumed",
+      "title": "Assumed - agent judgement (no source could be read this session)",
+      "url": "",
+      "read": "2026-10-11"
     },
-    "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read. Adopted Codes page lists '2024 International Residential Code (IRC), with amendments, effective 03-01-2026, Ord. 2026-01-10'. Confirmed by Residential Submittal Guide and Most Requested Ordinances page (second source). Previous: 2021 IRC via Ord. 2022-11-58 (Sec. 18-190)."
-   },
-   "ordinance": {
-    "value": "Ordinance No. 2026-01-10 (effective 2026-03-01); replaced Ord. 2022-11-58 (2021 IRC incl. Appendices AH and AJ)",
-    "status": "Secondary",
+    "note": "Approximate Census Vintage 2024 estimate (~235,000; Vintage 2023 ~225,000) from agent knowledge; census.gov not reachable this session."
+  },
+  "zipCodesOrBoundary": {
+    "value": "75033, 75034, 75035, 75036 (75068/75078 partly)",
+    "status": "Assumed",
     "source": {
-     "id": "frisco-most-requested-ords",
-     "title": "Most Requested Ordinances",
-     "url": "https://www.friscotexas.gov/481/Most-Requested-Ordinances",
-     "read": "2026-10-11"
-    },
-    "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read."
-   },
-   "amendments": [
-    {
-     "topic": "fire sprinklers",
-     "summary": "Automatic fire sprinklers required when a house reaches 6,000 sq ft counted as total air-conditioned area PLUS garage area; design/installation approved by Frisco Fire Prevention Office. Allowed under Texas law only through the pre-2009 grandfather (Frisco's long-standing rule).",
-     "section": "Residential Submittal Guide (fire sprinkler note)",
-     "status": "Secondary",
-     "source": {
-      "id": "frisco-res-submittal-guide",
-      "title": "Residential Submittal Guide, Frisco, Texas",
-      "url": "https://www.friscotexas.gov/DocumentCenter/View/852/Residential-Submittal-Guideline-PDF",
+      "id": "assumed",
+      "title": "Assumed - agent judgement (no source could be read this session)",
+      "url": "",
       "read": "2026-10-11"
-     }
     },
-    {
-     "topic": "foundation",
-     "summary": "All foundation plans must be designed, signed and sealed by a Texas-registered Professional Engineer, with engineer-of-record letter and PTI (Post-Tensioning Institute) design data; soils report needed for pier-and-beam.",
-     "section": "Residential Submittal Guide",
-     "status": "Secondary",
-     "source": {
-      "id": "frisco-res-submittal-guide",
-      "title": "Residential Submittal Guide, Frisco, Texas",
-      "url": "https://www.friscotexas.gov/DocumentCenter/View/852/Residential-Submittal-Guideline-PDF",
+    "note": "Frisco ZIPs from agent knowledge; use city-limits GIS map to confirm parcel is inside city."
+  },
+  "climateZone": {
+    "value": "3A",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed - agent judgement (no source could be read this session)",
+      "url": "",
       "read": "2026-10-11"
-     }
     },
-    {
-     "topic": "other",
-     "summary": "Exact text of 2024 IRC local amendments (Exhibit A to Ord. 2026-01-10) not read; amendments are posted on city's development services page, not codified. Frisco historically follows NCTCOG regional amendments.",
-     "section": "Sec. 18-190 note",
-     "status": "Secondary",
-     "source": {
-      "id": "frisco-code-18-190",
-      "title": "Frisco Code of Ordinances Ch. 18, Residential Code (Sec. 18-190)",
-      "url": "https://ecode360.com/38320658",
+    "note": "2021/2024 IECC Table R301.1 county list places Collin and Denton Counties in Climate Zone 3A (agent knowledge; could not fetch IECC/DOE page this session)."
+  },
+  "windstormCounty": {
+    "value": false,
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed - agent judgement (no source could be read this session)",
+      "url": "",
       "read": "2026-10-11"
-     }
+    },
+    "note": "Collin/Denton are inland North Texas counties, not in the TDI windstorm (catastrophe) area, which covers only the 14 coastal counties and parts of Harris (agent knowledge)."
+  },
+  "codes": {
+    "irc": {
+      "edition": {
+        "value": "2024 IRC",
+        "status": "Secondary",
+        "source": {
+          "id": "frisco-adopted-codes",
+          "title": "Adopted Codes (Development Services)",
+          "url": "https://www.friscotexas.gov/397/Adopted-Codes",
+          "read": "2026-10-11"
+        },
+        "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read. Adopted Codes page lists '2024 International Residential Code (IRC), with amendments, effective 03-01-2026, Ord. 2026-01-10'. Confirmed by Residential Submittal Guide and Most Requested Ordinances page (second source). Previous: 2021 IRC via Ord. 2022-11-58 (Sec. 18-190)."
+      },
+      "ordinance": {
+        "value": "Ordinance No. 2026-01-10 (effective 2026-03-01); replaced Ord. 2022-11-58 (2021 IRC incl. Appendices AH and AJ)",
+        "status": "Secondary",
+        "source": {
+          "id": "frisco-most-requested-ords",
+          "title": "Most Requested Ordinances",
+          "url": "https://www.friscotexas.gov/481/Most-Requested-Ordinances",
+          "read": "2026-10-11"
+        },
+        "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read."
+      },
+      "amendments": [
+        {
+          "topic": "fire sprinklers",
+          "summary": "Automatic fire sprinklers required when a house reaches 6,000 sq ft counted as total air-conditioned area PLUS garage area; design/installation approved by Frisco Fire Prevention Office. Allowed under Texas law only through the pre-2009 grandfather (Frisco's long-standing rule).",
+          "section": "Residential Submittal Guide (fire sprinkler note)",
+          "status": "Secondary",
+          "source": {
+            "id": "frisco-res-submittal-guide",
+            "title": "Residential Submittal Guide, Frisco, Texas",
+            "url": "https://www.friscotexas.gov/DocumentCenter/View/852/Residential-Submittal-Guideline-PDF",
+            "read": "2026-10-11"
+          }
+        },
+        {
+          "topic": "foundation",
+          "summary": "All foundation plans must be designed, signed and sealed by a Texas-registered Professional Engineer, with engineer-of-record letter and PTI (Post-Tensioning Institute) design data; soils report needed for pier-and-beam.",
+          "section": "Residential Submittal Guide",
+          "status": "Secondary",
+          "source": {
+            "id": "frisco-res-submittal-guide",
+            "title": "Residential Submittal Guide, Frisco, Texas",
+            "url": "https://www.friscotexas.gov/DocumentCenter/View/852/Residential-Submittal-Guideline-PDF",
+            "read": "2026-10-11"
+          }
+        },
+        {
+          "topic": "other",
+          "summary": "Exact text of 2024 IRC local amendments (Exhibit A to Ord. 2026-01-10) not read; amendments are posted on city's development services page, not codified. Frisco historically follows NCTCOG regional amendments.",
+          "section": "Sec. 18-190 note",
+          "status": "Secondary",
+          "source": {
+            "id": "frisco-code-18-190",
+            "title": "Frisco Code of Ordinances Ch. 18, Residential Code (Sec. 18-190)",
+            "url": "https://ecode360.com/38320658",
+            "read": "2026-10-11"
+          }
+        }
+      ]
+    },
+    "energy": {
+      "edition": {
+        "value": "2024 IECC (with amendments)",
+        "status": "Secondary",
+        "source": {
+          "id": "frisco-adopted-codes",
+          "title": "Adopted Codes (Development Services)",
+          "url": "https://www.friscotexas.gov/397/Adopted-Codes",
+          "read": "2026-10-11"
+        },
+        "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read. Adopted Codes lists 2024 IECC under Ord. 2026-01-05 (CivicPlus mirror: effective 03-01-2026) but another version shows effective 06-02-2026 / 2026-06-42 (likely a later amendment). Prior: 2021 IECC Ord. 22-11-57 (EnergyBot). Texas state minimum for single-family is the IRC Ch.11 energy chapter; cities may adopt newer."
+      },
+      "stretchCode": {
+        "value": "None found beyond IECC adoption; Frisco repealed its former Green Building program in 2013 (EnergyBot summary).",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (no source could be read this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not verified in ordinance text."
+      },
+      "ordinance": {
+        "value": "Ord. 2026-01-05 (+ 2026-06-42)",
+        "status": "Secondary",
+        "source": {
+          "id": "frisco-energy-ecode",
+          "title": "Frisco Code Ch. 18 Division 5: Energy Conservation",
+          "url": "https://ecode360.com/38320665",
+          "read": "2026-10-11"
+        },
+        "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read."
+      }
+    },
+    "plumbing": {
+      "value": "IPC 2024",
+      "status": "Secondary",
+      "source": {
+        "id": "frisco-ord-2026-01-08",
+        "title": "City of Frisco Ordinance No. 2026-01-08 (2024 International Plumbing Code)",
+        "url": "https://www.friscotexas.gov/DocumentCenter/View/39095/2024-International-Plumbing-Code-IPC-PDF",
+        "read": "2026-10-11"
+      },
+      "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read. Ord. 2026-01-08 adopts 2024 International Plumbing Code with amendments, effective 03-01-2026."
+    },
+    "electrical": {
+      "value": "NEC 2023",
+      "status": "Secondary",
+      "source": {
+        "id": "frisco-ord-2024-01-02",
+        "title": "City of Frisco Ordinance No. 2024-01-02 (2023 National Electrical Code)",
+        "url": "https://friscotexas.gov/DocumentCenter/View/844/2023-National-Electrical-Code-NEC-Ordinance-2024-01-02PDF?bidId=",
+        "read": "2026-10-11"
+      },
+      "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read. Ord. 2024-01-02 adopted 2023 NEC with amendments, effective 02-16-2024, repealing Ord. 2022-11-54."
+    },
+    "mechanical": {
+      "value": "IMC 2024",
+      "status": "Secondary",
+      "source": {
+        "id": "frisco-adopted-codes",
+        "title": "Adopted Codes (Development Services)",
+        "url": "https://www.friscotexas.gov/397/Adopted-Codes",
+        "read": "2026-10-11"
+      },
+      "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read. Listed among the 2024 code batch effective 03-01-2026 (Ord. 2026-01-03 ... 2026-01-12)."
+    },
+    "fuelGas": {
+      "value": "IFGC 2024",
+      "status": "Secondary",
+      "source": {
+        "id": "frisco-adopted-codes",
+        "title": "Adopted Codes (Development Services)",
+        "url": "https://www.friscotexas.gov/397/Adopted-Codes",
+        "read": "2026-10-11"
+      },
+      "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read. Listed among the 2024 code batch effective 03-01-2026."
+    },
+    "fire": {
+      "value": "2024 IFC with amendments; one/two-family dwellings >= 6,000 sq ft (A/C + garage) must be sprinklered (Frisco grandfathered rule); NFPA 13R amendments in Ch. 38 Div. 3 apply to residential occupancies up to 4 stories (multifamily-oriented).",
+      "status": "Secondary",
+      "source": {
+        "id": "frisco-res-submittal-guide",
+        "title": "Residential Submittal Guide, Frisco, Texas",
+        "url": "https://www.friscotexas.gov/DocumentCenter/View/852/Residential-Submittal-Guideline-PDF",
+        "read": "2026-10-11"
+      },
+      "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read. 2024 IFC adoption: CitizenPortal council summary; sprinkler threshold: Residential Submittal Guide. Legality: Texas law bars new sprinkler mandates for 1-2 family homes except where in effect on/before 2009-01-01 (Allensworth HB 738 summary)."
+    },
+    "wind": {
+      "value": 105,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "mph Vult",
+      "note": "Approx. ultimate design wind speed for Risk Category II in Collin County per ASCE 7-16 / IRC Fig. R301.2(2) is about 105 mph (agent estimate; NCTCOG regional amendments commonly list ~105-115 mph). Verify with ASCE Hazard Tool."
+    },
+    "hailRoofing": {
+      "value": "No local hail-resistant roofing mandate found; North Texas is a high-hail region - Class 4 impact-resistant shingles (UL 2218) are a common insurer-driven upgrade, not a code requirement.",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not verified in local amendments."
+    },
+    "seismic": {
+      "value": "A",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Seismic Design Category A for North Texas (IRC Fig. R301.2(7) shows low seismicity); agent knowledge."
+    },
+    "frostDepth": {
+      "value": 6,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "in",
+      "note": "NCTCOG-region amendments typically fill IRC Table R301.2(1) frost depth for DFW at about 6 in. (some cities list 12 in.); not verified for this city."
     }
-   ]
   },
-  "energy": {
-   "edition": {
-    "value": "2024 IECC (with amendments)",
-    "status": "Secondary",
-    "source": {
-     "id": "frisco-adopted-codes",
-     "title": "Adopted Codes (Development Services)",
-     "url": "https://www.friscotexas.gov/397/Adopted-Codes",
-     "read": "2026-10-11"
+  "zoning": {
+    "hasZoning": {
+      "value": true,
+      "status": "Secondary",
+      "source": {
+        "id": "frisco-zo-2-03",
+        "title": "Frisco Zoning Ordinance Subsection 2.03: Residential Zoning Districts",
+        "url": "https://ecode360.com/45144096",
+        "read": "2026-10-11"
+      },
+      "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read."
     },
-    "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read. Adopted Codes lists 2024 IECC under Ord. 2026-01-05 (CivicPlus mirror: effective 03-01-2026) but another version shows effective 06-02-2026 / 2026-06-42 (likely a later amendment). Prior: 2021 IECC Ord. 22-11-57 (EnergyBot). Texas state minimum for single-family is the IRC Ch.11 energy chapter; cities may adopt newer."
-   },
-   "stretchCode": {
-    "value": "None found beyond IECC adoption; Frisco repealed its former Green Building program in 2013 (EnergyBot summary).",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (no source could be read this session)",
-     "url": "",
-     "read": "2026-10-11"
+    "typicalDistrict": {
+      "value": "SF-7 (Single Family-7) as base; most new Frisco subdivisions are Planned Developments (PD-###-SF-x) with their own lot/setback standards",
+      "status": "Secondary",
+      "source": {
+        "id": "frisco-zo-2-03",
+        "title": "Frisco Zoning Ordinance Subsection 2.03: Residential Zoning Districts",
+        "url": "https://ecode360.com/45144096",
+        "read": "2026-10-11"
+      },
+      "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read. Base districts SF-5, SF-7, SF-8.5, SF-10, SF-12.5, SF-16 etc. exist; PD ordinance controls where it differs. SF-7 chosen as typical base."
     },
-    "note": "Not verified in ordinance text."
-   },
-   "ordinance": {
-    "value": "Ord. 2026-01-05 (+ 2026-06-42)",
-    "status": "Secondary",
-    "source": {
-     "id": "frisco-energy-ecode",
-     "title": "Frisco Code Ch. 18 Division 5: Energy Conservation",
-     "url": "https://ecode360.com/38320665",
-     "read": "2026-10-11"
+    "minLotSqFt": {
+      "value": 7000,
+      "status": "Secondary",
+      "source": {
+        "id": "frisco-zo-2-03",
+        "title": "Frisco Zoning Ordinance Subsection 2.03: Residential Zoning Districts",
+        "url": "https://ecode360.com/45144096",
+        "read": "2026-10-11"
+      },
+      "unit": "sq ft",
+      "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read. SF-7 purpose statement: minimum lot area 7,000 sq ft; area-regulation table agrees (frisco-zo-area-regs)."
     },
-    "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read."
-   }
-  },
-  "plumbing": {
-   "value": "IPC 2024",
-   "status": "Secondary",
-   "source": {
-    "id": "frisco-ord-2026-01-08",
-    "title": "City of Frisco Ordinance No. 2026-01-08 (2024 International Plumbing Code)",
-    "url": "https://www.friscotexas.gov/DocumentCenter/View/39095/2024-International-Plumbing-Code-IPC-PDF",
-    "read": "2026-10-11"
-   },
-   "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read. Ord. 2026-01-08 adopts 2024 International Plumbing Code with amendments, effective 03-01-2026."
-  },
-  "electrical": {
-   "value": "NEC 2023",
-   "status": "Secondary",
-   "source": {
-    "id": "frisco-ord-2024-01-02",
-    "title": "City of Frisco Ordinance No. 2024-01-02 (2023 National Electrical Code)",
-    "url": "https://friscotexas.gov/DocumentCenter/View/844/2023-National-Electrical-Code-NEC-Ordinance-2024-01-02PDF?bidId=",
-    "read": "2026-10-11"
-   },
-   "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read. Ord. 2024-01-02 adopted 2023 NEC with amendments, effective 02-16-2024, repealing Ord. 2022-11-54."
-  },
-  "mechanical": {
-   "value": "IMC 2024",
-   "status": "Secondary",
-   "source": {
-    "id": "frisco-adopted-codes",
-    "title": "Adopted Codes (Development Services)",
-    "url": "https://www.friscotexas.gov/397/Adopted-Codes",
-    "read": "2026-10-11"
-   },
-   "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read. Listed among the 2024 code batch effective 03-01-2026 (Ord. 2026-01-03 ... 2026-01-12)."
-  },
-  "fuelGas": {
-   "value": "IFGC 2024",
-   "status": "Secondary",
-   "source": {
-    "id": "frisco-adopted-codes",
-    "title": "Adopted Codes (Development Services)",
-    "url": "https://www.friscotexas.gov/397/Adopted-Codes",
-    "read": "2026-10-11"
-   },
-   "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read. Listed among the 2024 code batch effective 03-01-2026."
-  },
-  "fire": {
-   "value": "2024 IFC with amendments; one/two-family dwellings >= 6,000 sq ft (A/C + garage) must be sprinklered (Frisco grandfathered rule); NFPA 13R amendments in Ch. 38 Div. 3 apply to residential occupancies up to 4 stories (multifamily-oriented).",
-   "status": "Secondary",
-   "source": {
-    "id": "frisco-res-submittal-guide",
-    "title": "Residential Submittal Guide, Frisco, Texas",
-    "url": "https://www.friscotexas.gov/DocumentCenter/View/852/Residential-Submittal-Guideline-PDF",
-    "read": "2026-10-11"
-   },
-   "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read. 2024 IFC adoption: CitizenPortal council summary; sprinkler threshold: Residential Submittal Guide. Legality: Texas law bars new sprinkler mandates for 1-2 family homes except where in effect on/before 2009-01-01 (Allensworth HB 738 summary)."
-  },
-  "wind": {
-   "value": 105,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "unit": "mph Vult",
-   "note": "Approx. ultimate design wind speed for Risk Category II in Collin County per ASCE 7-16 / IRC Fig. R301.2(2) is about 105 mph (agent estimate; NCTCOG regional amendments commonly list ~105-115 mph). Verify with ASCE Hazard Tool."
-  },
-  "hailRoofing": {
-   "value": "No local hail-resistant roofing mandate found; North Texas is a high-hail region - Class 4 impact-resistant shingles (UL 2218) are a common insurer-driven upgrade, not a code requirement.",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not verified in local amendments."
-  },
-  "seismic": {
-   "value": "A",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Seismic Design Category A for North Texas (IRC Fig. R301.2(7) shows low seismicity); agent knowledge."
-  },
-  "frostDepth": {
-   "value": 6,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "unit": "in",
-   "note": "NCTCOG-region amendments typically fill IRC Table R301.2(1) frost depth for DFW at about 6 in. (some cities list 12 in.); not verified for this city."
-  }
- },
- "zoning": {
-  "hasZoning": {
-   "value": true,
-   "status": "Secondary",
-   "source": {
-    "id": "frisco-zo-2-03",
-    "title": "Frisco Zoning Ordinance Subsection 2.03: Residential Zoning Districts",
-    "url": "https://ecode360.com/45144096",
-    "read": "2026-10-11"
-   },
-   "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read."
-  },
-  "typicalDistrict": {
-   "value": "SF-7 (Single Family-7) as base; most new Frisco subdivisions are Planned Developments (PD-###-SF-x) with their own lot/setback standards",
-   "status": "Secondary",
-   "source": {
-    "id": "frisco-zo-2-03",
-    "title": "Frisco Zoning Ordinance Subsection 2.03: Residential Zoning Districts",
-    "url": "https://ecode360.com/45144096",
-    "read": "2026-10-11"
-   },
-   "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read. Base districts SF-5, SF-7, SF-8.5, SF-10, SF-12.5, SF-16 etc. exist; PD ordinance controls where it differs. SF-7 chosen as typical base."
-  },
-  "minLotSqFt": {
-   "value": 7000,
-   "status": "Secondary",
-   "source": {
-    "id": "frisco-zo-2-03",
-    "title": "Frisco Zoning Ordinance Subsection 2.03: Residential Zoning Districts",
-    "url": "https://ecode360.com/45144096",
-    "read": "2026-10-11"
-   },
-   "unit": "sq ft",
-   "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read. SF-7 purpose statement: minimum lot area 7,000 sq ft; area-regulation table agrees (frisco-zo-area-regs)."
-  },
-  "minLotWidthFt": {
-   "value": 60,
-   "status": "Secondary",
-   "source": {
-    "id": "frisco-zo-area-regs",
-    "title": "Frisco Zoning Ordinance: Establishment of Area Regulations and Standards",
-    "url": "https://ecode360.com/45144906",
-    "read": "2026-10-11"
-   },
-   "unit": "ft",
-   "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read. Table column with 7,000 SF min lot area shows 60 ft min width; column-to-SF-7 match inferred from snippet."
-  },
-  "minLotDepthFt": {
-   "value": 100,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "unit": "ft",
-   "note": "Typical Frisco SF-7 depth (agent knowledge); not seen in sources this session."
-  },
-  "setbacksFt": {
-   "front": {
-    "value": 25,
-    "status": "Secondary",
-    "source": {
-     "id": "frisco-zo-2-03",
-     "title": "Frisco Zoning Ordinance Subsection 2.03: Residential Zoning Districts",
-     "url": "https://ecode360.com/45144096",
-     "read": "2026-10-11"
+    "minLotWidthFt": {
+      "value": 60,
+      "status": "Secondary",
+      "source": {
+        "id": "frisco-zo-area-regs",
+        "title": "Frisco Zoning Ordinance: Establishment of Area Regulations and Standards",
+        "url": "https://ecode360.com/45144906",
+        "read": "2026-10-11"
+      },
+      "unit": "ft",
+      "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read. Table column with 7,000 SF min lot area shows 60 ft min width; column-to-SF-7 match inferred from snippet."
     },
-    "unit": "ft",
-    "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read. Residential district text shows 25 ft minimum front yard next to the SF-7 heading; district label not unambiguous in snippet. Zoning also allows reduced front yards in some SF districts (floor 10-20 ft) - PD may differ."
-   },
-   "side": {
-    "value": 5,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (no source could be read this session)",
-     "url": "",
-     "read": "2026-10-11"
+    "minLotDepthFt": {
+      "value": 100,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "ft",
+      "note": "Typical Frisco SF-7 depth (agent knowledge); not seen in sources this session."
     },
-    "unit": "ft",
-    "note": "Typical SF-7 interior side yard 5 ft (agent knowledge); snippet showed 5 ft only for lots abutting open space/amenity lots."
-   },
-   "streetSide": {
-    "value": 15,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (no source could be read this session)",
-     "url": "",
-     "read": "2026-10-11"
+    "setbacksFt": {
+      "front": {
+        "value": 25,
+        "status": "Secondary",
+        "source": {
+          "id": "frisco-zo-2-03",
+          "title": "Frisco Zoning Ordinance Subsection 2.03: Residential Zoning Districts",
+          "url": "https://ecode360.com/45144096",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read. Residential district text shows 25 ft minimum front yard next to the SF-7 heading; district label not unambiguous in snippet. Zoning also allows reduced front yards in some SF districts (floor 10-20 ft) - PD may differ."
+      },
+      "side": {
+        "value": 5,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (no source could be read this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Typical SF-7 interior side yard 5 ft (agent knowledge); snippet showed 5 ft only for lots abutting open space/amenity lots."
+      },
+      "streetSide": {
+        "value": 15,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (no source could be read this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Search snippets showed 15 ft and 20 ft side yards adjacent to a street depending on district; 15 ft assumed for SF-7."
+      },
+      "rear": {
+        "value": 20,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (no source could be read this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Not confirmed. Snippets show 20 ft rear in some residential districts; smaller-lot districts show 8 ft rear with 20 ft for alley-facing garage and 24 ft for swing-in garage."
+      }
     },
-    "unit": "ft",
-    "note": "Search snippets showed 15 ft and 20 ft side yards adjacent to a street depending on district; 15 ft assumed for SF-7."
-   },
-   "rear": {
-    "value": 20,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (no source could be read this session)",
-     "url": "",
-     "read": "2026-10-11"
+    "maxHeightFt": {
+      "value": 40,
+      "status": "Secondary",
+      "source": {
+        "id": "frisco-zo-area-regs",
+        "title": "Frisco Zoning Ordinance: Establishment of Area Regulations and Standards",
+        "url": "https://ecode360.com/45144906",
+        "read": "2026-10-11"
+      },
+      "unit": "ft",
+      "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read. 40 ft / 2.5 stories in the 7,000 sq ft column of the area-regulation table."
     },
-    "unit": "ft",
-    "note": "Not confirmed. Snippets show 20 ft rear in some residential districts; smaller-lot districts show 8 ft rear with 20 ft for alley-facing garage and 24 ft for swing-in garage."
-   }
-  },
-  "maxHeightFt": {
-   "value": 40,
-   "status": "Secondary",
-   "source": {
-    "id": "frisco-zo-area-regs",
-    "title": "Frisco Zoning Ordinance: Establishment of Area Regulations and Standards",
-    "url": "https://ecode360.com/45144906",
-    "read": "2026-10-11"
-   },
-   "unit": "ft",
-   "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read. 40 ft / 2.5 stories in the 7,000 sq ft column of the area-regulation table."
-  },
-  "maxStories": {
-   "value": 2.5,
-   "status": "Secondary",
-   "source": {
-    "id": "frisco-zo-area-regs",
-    "title": "Frisco Zoning Ordinance: Establishment of Area Regulations and Standards",
-    "url": "https://ecode360.com/45144906",
-    "read": "2026-10-11"
-   },
-   "unit": "stories",
-   "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read."
-  },
-  "maxLotCoverage": {
-   "value": 0.45,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "unit": "fraction",
-   "note": "Frisco SF districts commonly 45% max lot coverage (agent knowledge); not seen this session."
-  },
-  "imperviousCover": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "No impervious-cover cap known for Frisco SF districts; drainage handled at subdivision level."
-  },
-  "far": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "No FAR for single-family in Frisco (agent knowledge)."
-  },
-  "parking": {
-   "value": "2 enclosed garage spaces per single-family dwelling (typical Frisco requirement; not verified this session).",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Frisco ZO off-street parking section not read."
-  },
-  "garageRules": {
-   "value": "Frisco publishes 'Single-Family Front Entry Lot Layout Guidelines' (2013) controlling front-entry garage placement on non-alley lots; smaller-lot districts show 20 ft rear yard for alley-facing garages and 24 ft for swing-in (J-swing) garages. Exact front-entry limits (e.g. J-swing/recessed garage, garage-door share of facade) not read; PDs set their own.",
-   "status": "Secondary",
-   "source": {
-    "id": "frisco-front-entry-guidelines",
-    "title": "Single-Family Front Entry Lot Layout Guidelines (Feb 20, 2013)",
-    "url": "https://friscotexas.gov/DocumentCenter/View/1002/Single-Family-Front-Entry-Lot-Layout-Guidelines-PDF?bidId=",
-    "read": "2026-10-11"
-   },
-   "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read."
-  },
-  "adu": {
-   "value": "Accessory dwelling/servant quarters allowed only under limited conditions in Frisco SF districts (agent knowledge; not verified).",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Use-chart Section 3 not read."
-  },
-  "masonry": {
-   "value": "Frisco historically required high masonry content (often 100% masonry on exterior walls, commonly stated in PDs). Since HB 2439 (2019, Tex. Gov't Code ch. 3000) cities generally cannot mandate a building material that is approved by the national model codes, so a city masonry % is not enforceable on most new homes; PD/HOA deed restrictions and builder covenants still commonly require masonry.",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Ordinance text and statute not read this session (agent knowledge). Flag for designer: check PD and HOA."
-  },
-  "trees": {
-   "value": "Frisco has a tree preservation ordinance protecting quality trees (typically 6 in.+ caliper) with mitigation; most PD lots are pre-cleared at platting.",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not verified."
-  },
-  "minDwellingSizeSqFt": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Frisco SF districts historically set minimum dwelling sizes (larger in SF-10+); value not found this session."
-  },
-  "other": [
-   {
-    "value": "Planned Development (PD) ordinances govern most new subdivisions; PD standards override base district.",
-    "status": "Secondary",
-    "source": {
-     "id": "frisco-zo-2-03",
-     "title": "Frisco Zoning Ordinance Subsection 2.03: Residential Zoning Districts",
-     "url": "https://ecode360.com/45144096",
-     "read": "2026-10-11"
+    "maxStories": {
+      "value": 2.5,
+      "status": "Secondary",
+      "source": {
+        "id": "frisco-zo-area-regs",
+        "title": "Frisco Zoning Ordinance: Establishment of Area Regulations and Standards",
+        "url": "https://ecode360.com/45144906",
+        "read": "2026-10-11"
+      },
+      "unit": "stories",
+      "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read."
     },
-    "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read."
-   },
-   {
-    "value": "Supplementary regulations (Subsection 4.21) can modify yards (projections, corner visibility, accessory buildings).",
-    "status": "Secondary",
-    "source": {
-     "id": "frisco-zo-4-21",
-     "title": "Frisco Zoning Ordinance Subsection 4.21: Supplementary Regulations",
-     "url": "https://ecode360.com/45146073",
-     "read": "2026-10-11"
+    "maxLotCoverage": {
+      "value": 0.45,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "fraction",
+      "note": "Frisco SF districts commonly 45% max lot coverage (agent knowledge); not seen this session."
     },
-    "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read."
-   }
-  ]
- },
- "process": {
-  "steps": [
-   {
-    "value": "Submit residential new-construction application with site plan, architectural plans, sealed engineered foundation plan + engineer letter, energy compliance, erosion-control plan, and plat/lot info to Frisco Development Services (online).",
-    "status": "Secondary",
-    "source": {
-     "id": "frisco-res-submittal-guide",
-     "title": "Residential Submittal Guide, Frisco, Texas",
-     "url": "https://www.friscotexas.gov/DocumentCenter/View/852/Residential-Submittal-Guideline-PDF",
-     "read": "2026-10-11"
+    "imperviousCover": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No impervious-cover cap known for Frisco SF districts; drainage handled at subdivision level."
     },
-    "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read."
-   },
-   {
-    "value": "Obtain HOA/ARC approval separately where the subdivision requires it (not a city step).",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (no source could be read this session)",
-     "url": "",
-     "read": "2026-10-11"
+    "far": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No FAR for single-family in Frisco (agent knowledge)."
     },
-    "note": "Typical for Frisco PDs."
-   }
-  ],
-  "sealsRequired": [
-   {
-    "value": "Foundation: Texas PE seal required on all foundation plans.",
-    "status": "Secondary",
-    "source": {
-     "id": "frisco-res-submittal-guide",
-     "title": "Residential Submittal Guide, Frisco, Texas",
-     "url": "https://www.friscotexas.gov/DocumentCenter/View/852/Residential-Submittal-Guideline-PDF",
-     "read": "2026-10-11"
+    "parking": {
+      "value": "2 enclosed garage spaces per single-family dwelling (typical Frisco requirement; not verified this session).",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Frisco ZO off-street parking section not read."
     },
-    "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read."
-   },
-   {
-    "value": "Architectural plans for a 1-2 family house need no architect seal under Texas Occupations Code ch. 1051 exemption.",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (no source could be read this session)",
-     "url": "",
-     "read": "2026-10-11"
+    "garageRules": {
+      "value": "Frisco publishes 'Single-Family Front Entry Lot Layout Guidelines' (2013) controlling front-entry garage placement on non-alley lots; smaller-lot districts show 20 ft rear yard for alley-facing garages and 24 ft for swing-in (J-swing) garages. Exact front-entry limits (e.g. J-swing/recessed garage, garage-door share of facade) not read; PDs set their own.",
+      "status": "Secondary",
+      "source": {
+        "id": "frisco-front-entry-guidelines",
+        "title": "Single-Family Front Entry Lot Layout Guidelines (Feb 20, 2013)",
+        "url": "https://friscotexas.gov/DocumentCenter/View/1002/Single-Family-Front-Entry-Lot-Layout-Guidelines-PDF?bidId=",
+        "read": "2026-10-11"
+      },
+      "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read."
     },
-    "note": "Agent knowledge."
-   }
-  ],
-  "inspections": [
-   {
-    "value": "Typical: plumbing rough/ground, foundation (pier/pre-pour), framing, MEP rough, insulation/energy, sprinkler (if >=6,000 sf), final + Certificate of Occupancy.",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (no source could be read this session)",
-     "url": "",
-     "read": "2026-10-11"
+    "adu": {
+      "value": "Accessory dwelling/servant quarters allowed only under limited conditions in Frisco SF districts (agent knowledge; not verified).",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Use-chart Section 3 not read."
     },
-    "note": "Inspection list not read."
-   }
-  ],
-  "reviewDays": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found; Frisco review times not found this session."
-  }
- },
- "fees": {
-  "permitFormula": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: Frisco residential building permit fee schedule (fee likely per sq ft or valuation). Web fetch blocked by egress policy and session web-search budget exhausted."
-  },
-  "workedExample2400sqft": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not computed: Frisco fee schedule could not be read. Assumption for later: 2,400 sf conditioned + 440 sf attached garage."
-  },
-  "planReview": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: Frisco plan review fee. Web fetch blocked by egress policy and session web-search budget exhausted."
-  },
-  "impactFees": [
-   {
-    "value": null,
-    "status": "Secondary",
-    "source": {
-     "id": "frisco-impact-audit-2025",
-     "title": "2025 Impact Fee Update Audit Final Report (roadway, water, wastewater; Oct 2019-Sep 2024)",
-     "url": "https://www.friscotexas.gov/DocumentCenter/View/42692/2025-Impact-Fee-Update-Audit-Final-Report",
-     "read": "2026-10-11"
+    "masonry": {
+      "value": "Frisco historically required high masonry content (often 100% masonry on exterior walls, commonly stated in PDs). Since HB 2439 (2019, Tex. Gov't Code ch. 3000) cities generally cannot mandate a building material that is approved by the national model codes, so a city masonry % is not enforceable on most new homes; PD/HOA deed restrictions and builder covenants still commonly require masonry.",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Ordinance text and statute not read this session (agent knowledge). Flag for designer: check PD and HOA."
     },
-    "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read. Frisco levies roadway, water and wastewater impact fees (2025 audit of Oct 2019-Sep 2024 collections). Per-unit single-family rates not found; Dallas Builders Assn reports Frisco revising CIP and impact fee schedules. Expect a combined several-thousand-dollar to >$10,000 per single-family unit (agent expectation, unverified) - obtain the current rate from the city before estimating."
-   }
-  ],
-  "tapFees": [
-   {
-    "value": null,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (no source could be read this session)",
-     "url": "",
-     "read": "2026-10-11"
+    "trees": {
+      "value": "Frisco has a tree preservation ordinance protecting quality trees (typically 6 in.+ caliper) with mitigation; most PD lots are pre-cleared at platting.",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not verified."
     },
-    "note": "Not found: Frisco water/sewer tap and meter fees. Web fetch blocked by egress policy and session web-search budget exhausted."
-   }
-  ]
- },
- "cost": {
-  "factor": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "cost-method",
-    "title": "See README cost method (filled by cost agent)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "PENDING_COST_AGENT"
-  },
-  "method": "PENDING_COST_AGENT",
-  "perSqFtMarket": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: no public market cost-per-sq-ft figure could be read this session."
-  },
-  "drivers": [
-   {
-    "value": "Sprinkler system required on homes >= 6,000 sf (A/C + garage).",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (no source could be read this session)",
-     "url": "",
-     "read": "2026-10-11"
+    "minDwellingSizeSqFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Frisco SF districts historically set minimum dwelling sizes (larger in SF-10+); value not found this session."
     },
-    "note": "Frisco rule, see fire."
-   },
-   {
-    "value": "Engineered post-tensioned slab on expansive clay (high-PI Collin County soils).",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (no source could be read this session)",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Typical."
-   },
-   {
-    "value": "High masonry/stone content demanded by PD/HOA covenants.",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (no source could be read this session)",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Typical."
-   },
-   {
-    "value": "Impact fees (roadway + water + wastewater).",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (no source could be read this session)",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "See fees."
-   }
-  ]
- },
- "flood": {
-  "value": "Frisco floodplain management ordinance (NFIP participant). Many DFW cities require finished floor >= 2 ft above BFE / 1 ft above 100-yr fully-developed WSEL; Frisco value not verified.",
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed - agent judgement (no source could be read this session)",
-   "url": "",
-   "read": "2026-10-11"
-  },
-  "note": "Not found this session."
- },
- "engineChanges": [
-  {
-   "id": "frisco-irc-2024",
-   "ruleType": "irc-edition",
-   "area": "structure",
-   "change": "Use 2024 IRC (not 2021) for permits applied for on/after 2026-03-01, plus Frisco amendments (Ord. 2026-01-10).",
-   "priority": "must",
-   "params": {
-    "ircEdition": "2024",
-    "effective": "2026-03-01",
-    "ordinance": "2026-01-10",
-    "status": "Secondary"
-   },
-   "source": {
-    "id": "frisco-adopted-codes",
-    "title": "Adopted Codes (Development Services)",
-    "url": "https://www.friscotexas.gov/397/Adopted-Codes",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "frisco-sprinkler-6000",
-   "ruleType": "fire-sprinkler",
-   "area": "plan",
-   "change": "If conditioned area + garage area >= 6,000 sq ft, require automatic fire sprinkler system (Frisco Fire Prevention approval) and add cost.",
-   "priority": "must",
-   "params": {
-    "thresholdSqFt": 6000,
-    "countsGarage": true,
-    "countsConditioned": true,
-    "approval": "Frisco Fire Prevention Office",
-    "status": "Secondary"
-   },
-   "source": {
-    "id": "frisco-res-submittal-guide",
-    "title": "Residential Submittal Guide, Frisco, Texas",
-    "url": "https://www.friscotexas.gov/DocumentCenter/View/852/Residential-Submittal-Guideline-PDF",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "frisco-eng-foundation",
-   "ruleType": "engineered-foundation-flag",
-   "area": "foundation",
-   "change": "All new homes need a Texas PE-sealed foundation plan (PTI design data, engineer letter); soils report for pier-and-beam.",
-   "priority": "must",
-   "params": {
-    "peSealed": true,
-    "ptiData": true,
-    "soilsReportPierBeam": true
-   },
-   "source": {
-    "id": "frisco-res-submittal-guide",
-    "title": "Residential Submittal Guide, Frisco, Texas",
-    "url": "https://www.friscotexas.gov/DocumentCenter/View/852/Residential-Submittal-Guideline-PDF",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "frisco-energy-2024",
-   "ruleType": "climate-zone-envelope",
-   "area": "envelope",
-   "change": "Apply 2024 IECC (as amended) climate zone 3A envelope/compliance values instead of 2021 IRC Ch. 11.",
-   "priority": "must",
-   "params": {
-    "iecc": "2024",
-    "climateZone": "3A",
-    "status": "Secondary/Assumed CZ"
-   },
-   "source": {
-    "id": "frisco-adopted-codes",
-    "title": "Adopted Codes (Development Services)",
-    "url": "https://www.friscotexas.gov/397/Adopted-Codes",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "frisco-pd-check",
-   "ruleType": "survey-input-district",
-   "area": "survey",
-   "change": "Ask user for zoning on the lot; most new Frisco lots are in a PD - load PD lot/setback/masonry/garage standards when known, else fall back to SF-7.",
-   "priority": "must",
-   "params": {
-    "defaultDistrict": "SF-7",
-    "pdLikely": true
-   },
-   "source": {
-    "id": "frisco-zo-2-03",
-    "title": "Frisco Zoning Ordinance Subsection 2.03: Residential Zoning Districts",
-    "url": "https://ecode360.com/45144096",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "frisco-sf7-setbacks",
-   "ruleType": "setback-by-district",
-   "area": "setbacks",
-   "change": "SF-7 base: front 25 ft (Secondary), side 5 ft, street side 15 ft, rear 20 ft (Assumed) unless PD/plat building line differs.",
-   "priority": "should",
-   "params": {
-    "district": "SF-7",
-    "frontFt": 25,
-    "sideFt": 5,
-    "streetSideFt": 15,
-    "rearFt": 20,
-    "assumedKeys": [
-     "sideFt",
-     "streetSideFt",
-     "rearFt"
+    "other": [
+      {
+        "value": "Planned Development (PD) ordinances govern most new subdivisions; PD standards override base district.",
+        "status": "Secondary",
+        "source": {
+          "id": "frisco-zo-2-03",
+          "title": "Frisco Zoning Ordinance Subsection 2.03: Residential Zoning Districts",
+          "url": "https://ecode360.com/45144096",
+          "read": "2026-10-11"
+        },
+        "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read."
+      },
+      {
+        "value": "Supplementary regulations (Subsection 4.21) can modify yards (projections, corner visibility, accessory buildings).",
+        "status": "Secondary",
+        "source": {
+          "id": "frisco-zo-4-21",
+          "title": "Frisco Zoning Ordinance Subsection 4.21: Supplementary Regulations",
+          "url": "https://ecode360.com/45146073",
+          "read": "2026-10-11"
+        },
+        "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read."
+      }
     ]
-   },
-   "source": {
-    "id": "frisco-zo-2-03",
-    "title": "Frisco Zoning Ordinance Subsection 2.03: Residential Zoning Districts",
-    "url": "https://ecode360.com/45144096",
-    "read": "2026-10-11"
-   }
   },
-  {
-   "id": "frisco-sf7-lot",
-   "ruleType": "lot-min-size",
-   "area": "survey",
-   "change": "SF-7 min lot 7,000 sf, min width 60 ft.",
-   "priority": "nice",
-   "params": {
-    "minLotSqFt": 7000,
-    "minWidthFt": 60
-   },
-   "source": {
-    "id": "frisco-zo-area-regs",
-    "title": "Frisco Zoning Ordinance: Establishment of Area Regulations and Standards",
-    "url": "https://ecode360.com/45144906",
-    "read": "2026-10-11"
-   }
+  "process": {
+    "steps": [
+      {
+        "value": "Submit residential new-construction application with site plan, architectural plans, sealed engineered foundation plan + engineer letter, energy compliance, erosion-control plan, and plat/lot info to Frisco Development Services (online).",
+        "status": "Secondary",
+        "source": {
+          "id": "frisco-res-submittal-guide",
+          "title": "Residential Submittal Guide, Frisco, Texas",
+          "url": "https://www.friscotexas.gov/DocumentCenter/View/852/Residential-Submittal-Guideline-PDF",
+          "read": "2026-10-11"
+        },
+        "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read."
+      },
+      {
+        "value": "Obtain HOA/ARC approval separately where the subdivision requires it (not a city step).",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (no source could be read this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Typical for Frisco PDs."
+      }
+    ],
+    "sealsRequired": [
+      {
+        "value": "Foundation: Texas PE seal required on all foundation plans.",
+        "status": "Secondary",
+        "source": {
+          "id": "frisco-res-submittal-guide",
+          "title": "Residential Submittal Guide, Frisco, Texas",
+          "url": "https://www.friscotexas.gov/DocumentCenter/View/852/Residential-Submittal-Guideline-PDF",
+          "read": "2026-10-11"
+        },
+        "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read."
+      },
+      {
+        "value": "Architectural plans for a 1-2 family house need no architect seal under Texas Occupations Code ch. 1051 exemption.",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (no source could be read this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Agent knowledge."
+      }
+    ],
+    "inspections": [
+      {
+        "value": "Typical: plumbing rough/ground, foundation (pier/pre-pour), framing, MEP rough, insulation/energy, sprinkler (if >=6,000 sf), final + Certificate of Occupancy.",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (no source could be read this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Inspection list not read."
+      }
+    ],
+    "reviewDays": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found; Frisco review times not found this session."
+    }
   },
-  {
-   "id": "frisco-height",
-   "ruleType": "height-limit",
-   "area": "massing",
-   "change": "Max height 40 ft and 2.5 stories in SF-7 base.",
-   "priority": "should",
-   "params": {
-    "maxHeightFt": 40,
-    "maxStories": 2.5
-   },
-   "source": {
-    "id": "frisco-zo-area-regs",
-    "title": "Frisco Zoning Ordinance: Establishment of Area Regulations and Standards",
-    "url": "https://ecode360.com/45144906",
-    "read": "2026-10-11"
-   }
+  "fees": {
+    "permitFormula": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: Frisco residential building permit fee schedule (fee likely per sq ft or valuation). Web fetch blocked by egress policy and session web-search budget exhausted."
+    },
+    "workedExample2400sqft": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not computed: Frisco fee schedule could not be read. Assumption for later: 2,400 sf conditioned + 440 sf attached garage."
+    },
+    "planReview": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: Frisco plan review fee. Web fetch blocked by egress policy and session web-search budget exhausted."
+    },
+    "impactFees": [
+      {
+        "value": null,
+        "status": "Secondary",
+        "source": {
+          "id": "frisco-impact-audit-2025",
+          "title": "2025 Impact Fee Update Audit Final Report (roadway, water, wastewater; Oct 2019-Sep 2024)",
+          "url": "https://www.friscotexas.gov/DocumentCenter/View/42692/2025-Impact-Fee-Update-Audit-Final-Report",
+          "read": "2026-10-11"
+        },
+        "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read. Frisco levies roadway, water and wastewater impact fees (2025 audit of Oct 2019-Sep 2024 collections). Per-unit single-family rates not found; Dallas Builders Assn reports Frisco revising CIP and impact fee schedules. Expect a combined several-thousand-dollar to >$10,000 per single-family unit (agent expectation, unverified) - obtain the current rate from the city before estimating."
+      }
+    ],
+    "tapFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (no source could be read this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: Frisco water/sewer tap and meter fees. Web fetch blocked by egress policy and session web-search budget exhausted."
+      }
+    ]
   },
-  {
-   "id": "frisco-garage",
-   "ruleType": "garage-placement",
-   "area": "plan",
-   "change": "On front-entry (non-alley) lots apply Frisco Front Entry Lot Layout Guidelines - prefer J-swing/side-entry or recessed front garage; alley lots: rear garage 20 ft from alley (24 ft for swing-in). Treat as warning until PD/guideline values loaded.",
-   "priority": "should",
-   "params": {
-    "alleyGarageRearFt": 20,
-    "swingInGarageRearFt": 24,
-    "frontEntryGuideline": "2013",
-    "status": "Secondary-partial"
-   },
-   "source": {
-    "id": "frisco-front-entry-guidelines",
-    "title": "Single-Family Front Entry Lot Layout Guidelines (Feb 20, 2013)",
-    "url": "https://friscotexas.gov/DocumentCenter/View/1002/Single-Family-Front-Entry-Lot-Layout-Guidelines-PDF?bidId=",
-    "read": "2026-10-11"
-   }
+  "cost": {
+    "factor": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "cost-method",
+        "title": "See README cost method (filled by cost agent)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "PENDING_COST_AGENT"
+    },
+    "method": "PENDING_COST_AGENT",
+    "perSqFtMarket": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: no public market cost-per-sq-ft figure could be read this session."
+    },
+    "drivers": [
+      {
+        "value": "Sprinkler system required on homes >= 6,000 sf (A/C + garage).",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (no source could be read this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Frisco rule, see fire."
+      },
+      {
+        "value": "Engineered post-tensioned slab on expansive clay (high-PI Collin County soils).",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (no source could be read this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Typical."
+      },
+      {
+        "value": "High masonry/stone content demanded by PD/HOA covenants.",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (no source could be read this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Typical."
+      },
+      {
+        "value": "Impact fees (roadway + water + wastewater).",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (no source could be read this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "See fees."
+      }
+    ]
   },
-  {
-   "id": "frisco-masonry",
-   "ruleType": "masonry-percentage",
-   "area": "envelope",
-   "change": "Do not enforce a city masonry % (HB 2439 preemption), but prompt for PD/HOA masonry requirement (often 80-100%) and default estimate to brick/stone veneer.",
-   "priority": "should",
-   "params": {
-    "cityEnforceable": false,
-    "typicalCovenantPct": "80-100",
-    "status": "Assumed"
-   },
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   }
+  "flood": {
+    "value": "Frisco floodplain management ordinance (NFIP participant). Many DFW cities require finished floor >= 2 ft above BFE / 1 ft above 100-yr fully-developed WSEL; Frisco value not verified.",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed - agent judgement (no source could be read this session)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Not found this session."
   },
-  {
-   "id": "frisco-impact-fees",
-   "ruleType": "impact-fee-estimate",
-   "area": "estimate",
-   "change": "Add roadway + water + wastewater impact fee line items for a single-family unit; amounts pending (city schedule not read).",
-   "priority": "should",
-   "params": {
-    "roadway": null,
-    "water": null,
-    "wastewater": null,
-    "status": "Not found"
-   },
-   "source": {
-    "id": "frisco-impact-audit-2025",
-    "title": "2025 Impact Fee Update Audit Final Report (roadway, water, wastewater; Oct 2019-Sep 2024)",
-    "url": "https://www.friscotexas.gov/DocumentCenter/View/42692/2025-Impact-Fee-Update-Audit-Final-Report",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "frisco-ipc-nec",
-   "ruleType": "plumbing-code-variant",
-   "area": "drawings",
-   "change": "Plumbing per 2024 IPC (Frisco amended); electrical per 2023 NEC.",
-   "priority": "nice",
-   "params": {
+  "engineChanges": [
+    {
+      "id": "frisco-irc-2024",
+      "ruleType": "code-edition-by-city",
+      "area": "structure",
+      "change": "Use 2024 IRC (not 2021) for permits applied for on/after 2026-03-01, plus Frisco amendments (Ord. 2026-01-10).",
+      "priority": "must",
+      "params": {
+        "ircEdition": "2024",
+        "effective": "2026-03-01",
+        "ordinance": "2026-01-10",
+        "status": "Secondary"
+      },
+      "source": {
+        "id": "frisco-adopted-codes",
+        "title": "Adopted Codes (Development Services)",
+        "url": "https://www.friscotexas.gov/397/Adopted-Codes",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "frisco-sprinkler-6000",
+      "ruleType": "fire-sprinkler",
+      "area": "plan",
+      "change": "If conditioned area + garage area >= 6,000 sq ft, require automatic fire sprinkler system (Frisco Fire Prevention approval) and add cost.",
+      "priority": "must",
+      "params": {
+        "thresholdSqFt": 6000,
+        "countsGarage": true,
+        "countsConditioned": true,
+        "approval": "Frisco Fire Prevention Office",
+        "status": "Secondary"
+      },
+      "source": {
+        "id": "frisco-res-submittal-guide",
+        "title": "Residential Submittal Guide, Frisco, Texas",
+        "url": "https://www.friscotexas.gov/DocumentCenter/View/852/Residential-Submittal-Guideline-PDF",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "frisco-eng-foundation",
+      "ruleType": "engineered-foundation-flag",
+      "area": "foundation",
+      "change": "All new homes need a Texas PE-sealed foundation plan (PTI design data, engineer letter); soils report for pier-and-beam.",
+      "priority": "must",
+      "params": {
+        "peSealed": true,
+        "ptiData": true,
+        "soilsReportPierBeam": true
+      },
+      "source": {
+        "id": "frisco-res-submittal-guide",
+        "title": "Residential Submittal Guide, Frisco, Texas",
+        "url": "https://www.friscotexas.gov/DocumentCenter/View/852/Residential-Submittal-Guideline-PDF",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "frisco-energy-2024",
+      "ruleType": "climate-zone-envelope",
+      "area": "envelope",
+      "change": "Apply 2024 IECC (as amended) climate zone 3A envelope/compliance values instead of 2021 IRC Ch. 11.",
+      "priority": "must",
+      "params": {
+        "iecc": "2024",
+        "climateZone": "3A",
+        "status": "Secondary/Assumed CZ"
+      },
+      "source": {
+        "id": "frisco-adopted-codes",
+        "title": "Adopted Codes (Development Services)",
+        "url": "https://www.friscotexas.gov/397/Adopted-Codes",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "frisco-pd-check",
+      "ruleType": "survey-input-district",
+      "area": "survey",
+      "change": "Ask user for zoning on the lot; most new Frisco lots are in a PD - load PD lot/setback/masonry/garage standards when known, else fall back to SF-7.",
+      "priority": "must",
+      "params": {
+        "defaultDistrict": "SF-7",
+        "pdLikely": true
+      },
+      "source": {
+        "id": "frisco-zo-2-03",
+        "title": "Frisco Zoning Ordinance Subsection 2.03: Residential Zoning Districts",
+        "url": "https://ecode360.com/45144096",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "frisco-sf7-setbacks",
+      "ruleType": "setback-by-district",
+      "area": "setbacks",
+      "change": "SF-7 base: front 25 ft (Secondary), side 5 ft, street side 15 ft, rear 20 ft (Assumed) unless PD/plat building line differs.",
+      "priority": "should",
+      "params": {
+        "district": "SF-7",
+        "frontFt": 25,
+        "sideFt": 5,
+        "streetSideFt": 15,
+        "rearFt": 20,
+        "assumedKeys": [
+          "sideFt",
+          "streetSideFt",
+          "rearFt"
+        ]
+      },
+      "source": {
+        "id": "frisco-zo-2-03",
+        "title": "Frisco Zoning Ordinance Subsection 2.03: Residential Zoning Districts",
+        "url": "https://ecode360.com/45144096",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "frisco-sf7-lot",
+      "ruleType": "lot-min-size",
+      "area": "survey",
+      "change": "SF-7 min lot 7,000 sf, min width 60 ft.",
+      "priority": "nice",
+      "params": {
+        "minLotSqFt": 7000,
+        "minWidthFt": 60
+      },
+      "source": {
+        "id": "frisco-zo-area-regs",
+        "title": "Frisco Zoning Ordinance: Establishment of Area Regulations and Standards",
+        "url": "https://ecode360.com/45144906",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "frisco-height",
+      "ruleType": "height-limit",
+      "area": "massing",
+      "change": "Max height 40 ft and 2.5 stories in SF-7 base.",
+      "priority": "should",
+      "params": {
+        "maxHeightFt": 40,
+        "maxStories": 2.5
+      },
+      "source": {
+        "id": "frisco-zo-area-regs",
+        "title": "Frisco Zoning Ordinance: Establishment of Area Regulations and Standards",
+        "url": "https://ecode360.com/45144906",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "frisco-garage",
+      "ruleType": "garage-placement",
+      "area": "plan",
+      "change": "On front-entry (non-alley) lots apply Frisco Front Entry Lot Layout Guidelines - prefer J-swing/side-entry or recessed front garage; alley lots: rear garage 20 ft from alley (24 ft for swing-in). Treat as warning until PD/guideline values loaded.",
+      "priority": "should",
+      "params": {
+        "alleyGarageRearFt": 20,
+        "swingInGarageRearFt": 24,
+        "frontEntryGuideline": "2013",
+        "status": "Secondary-partial"
+      },
+      "source": {
+        "id": "frisco-front-entry-guidelines",
+        "title": "Single-Family Front Entry Lot Layout Guidelines (Feb 20, 2013)",
+        "url": "https://friscotexas.gov/DocumentCenter/View/1002/Single-Family-Front-Entry-Lot-Layout-Guidelines-PDF?bidId=",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "frisco-masonry",
+      "ruleType": "masonry-percentage",
+      "area": "envelope",
+      "change": "Do not enforce a city masonry % (HB 2439 preemption), but prompt for PD/HOA masonry requirement (often 80-100%) and default estimate to brick/stone veneer.",
+      "priority": "should",
+      "params": {
+        "cityEnforceable": false,
+        "typicalCovenantPct": "80-100",
+        "status": "Assumed"
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "frisco-impact-fees",
+      "ruleType": "impact-fee-estimate",
+      "area": "estimate",
+      "change": "Add roadway + water + wastewater impact fee line items for a single-family unit; amounts pending (city schedule not read).",
+      "priority": "should",
+      "params": {
+        "roadway": null,
+        "water": null,
+        "wastewater": null,
+        "status": "Not found"
+      },
+      "source": {
+        "id": "frisco-impact-audit-2025",
+        "title": "2025 Impact Fee Update Audit Final Report (roadway, water, wastewater; Oct 2019-Sep 2024)",
+        "url": "https://www.friscotexas.gov/DocumentCenter/View/42692/2025-Impact-Fee-Update-Audit-Final-Report",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "frisco-ipc-nec",
+      "ruleType": "plumbing-code-variant",
+      "area": "drawings",
+      "change": "Plumbing per 2024 IPC (Frisco amended); electrical per 2023 NEC.",
+      "priority": "nice",
+      "params": {
+        "plumbing": "IPC 2024",
+        "electrical": "NEC 2023"
+      },
+      "source": {
+        "id": "frisco-ord-2026-01-08",
+        "title": "City of Frisco Ordinance No. 2026-01-08 (2024 International Plumbing Code)",
+        "url": "https://www.friscotexas.gov/DocumentCenter/View/39095/2024-International-Plumbing-Code-IPC-PDF",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "frisco-deed",
+      "ruleType": "deed-restriction-check",
+      "area": "survey",
+      "change": "Check HOA/deed restrictions and platted building lines; typical Frisco HOAs control masonry, roof pitch, garage orientation and minimum size.",
+      "priority": "should",
+      "params": {},
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    }
+  ],
+  "plainLanguage": "Frisco moved to the 2024 International Residential Code on March 1, 2026, with its own local changes. Every new house needs a foundation designed and sealed by a Texas engineer, because North Texas clay soils swell and shrink. If your house plus garage reaches 6,000 square feet, Frisco requires an indoor fire sprinkler system; this is allowed because Frisco had the rule before Texas limited such mandates in 2009. Most new lots in Frisco are in planned developments, which set their own setbacks, garage and masonry rules; the plain SF-7 district has a 25-foot front yard and a 40-foot, 2.5-story height limit. The city can no longer require a set percentage of brick or stone, but your HOA or developer usually still does. Frisco charges roadway, water and wastewater impact fees on each new house; ask the city for the current amount, it can be several thousand dollars or more.",
+  "openQuestions": [
+    "Exact 2024 IRC local amendments in Exhibit A of Ord. 2026-01-10 (sprinkler threshold codified there?)",
+    "2024 IECC effective date: 2026-03-01 vs 2026-06-02 (Ord. 2026-06-42)",
+    "Current Frisco roadway (by service area), water and wastewater impact fee per single-family unit",
+    "Frisco residential permit fee schedule",
+    "SF-7 side, street-side and rear yards and lot coverage confirmation (ZO 2.06.04 table)",
+    "Content of 2013 Front Entry Lot Layout Guidelines (J-swing / garage-door limits)"
+  ],
+  "notFound": [
+    "Permit and plan review fees",
+    "Impact fee rates",
+    "Tap fees",
+    "Flood freeboard value",
+    "Lot coverage",
+    "Min dwelling size",
+    "Review days"
+  ],
+  "comparison": {
+    "irc": "2024 IRC (amended, eff. 2026-03-01)",
+    "energy": "2024 IECC (amended)",
     "plumbing": "IPC 2024",
-    "electrical": "NEC 2023"
-   },
-   "source": {
-    "id": "frisco-ord-2026-01-08",
-    "title": "City of Frisco Ordinance No. 2026-01-08 (2024 International Plumbing Code)",
-    "url": "https://www.friscotexas.gov/DocumentCenter/View/39095/2024-International-Plumbing-Code-IPC-PDF",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "frisco-deed",
-   "ruleType": "deed-restriction-check",
-   "area": "survey",
-   "change": "Check HOA/deed restrictions and platted building lines; typical Frisco HOAs control masonry, roof pitch, garage orientation and minimum size.",
-   "priority": "should",
-   "params": {},
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   }
+    "district": "SF-7 (most new = PD)",
+    "setbacks": "25/5/20 (side/rear assumed)",
+    "maxHeight": "40 ft/2.5 st",
+    "coverageFar": "45% assumed / no FAR",
+    "masonry": "not city-enforceable (HB 2439); PD/HOA usually 80-100%",
+    "engFoundation": "yes - PE sealed, all new homes",
+    "windstorm": "no",
+    "flood": "not verified",
+    "permitFeeExample": "not found",
+    "impactFees": "roadway+water+ww (amount not found)",
+    "costFactor": "PENDING"
   }
- ],
- "plainLanguage": "Frisco moved to the 2024 International Residential Code on March 1, 2026, with its own local changes. Every new house needs a foundation designed and sealed by a Texas engineer, because North Texas clay soils swell and shrink. If your house plus garage reaches 6,000 square feet, Frisco requires an indoor fire sprinkler system; this is allowed because Frisco had the rule before Texas limited such mandates in 2009. Most new lots in Frisco are in planned developments, which set their own setbacks, garage and masonry rules; the plain SF-7 district has a 25-foot front yard and a 40-foot, 2.5-story height limit. The city can no longer require a set percentage of brick or stone, but your HOA or developer usually still does. Frisco charges roadway, water and wastewater impact fees on each new house; ask the city for the current amount, it can be several thousand dollars or more.",
- "openQuestions": [
-  "Exact 2024 IRC local amendments in Exhibit A of Ord. 2026-01-10 (sprinkler threshold codified there?)",
-  "2024 IECC effective date: 2026-03-01 vs 2026-06-02 (Ord. 2026-06-42)",
-  "Current Frisco roadway (by service area), water and wastewater impact fee per single-family unit",
-  "Frisco residential permit fee schedule",
-  "SF-7 side, street-side and rear yards and lot coverage confirmation (ZO 2.06.04 table)",
-  "Content of 2013 Front Entry Lot Layout Guidelines (J-swing / garage-door limits)"
- ],
- "notFound": [
-  "Permit and plan review fees",
-  "Impact fee rates",
-  "Tap fees",
-  "Flood freeboard value",
-  "Lot coverage",
-  "Min dwelling size",
-  "Review days"
- ],
- "comparison": {
-  "irc": "2024 IRC (amended, eff. 2026-03-01)",
-  "energy": "2024 IECC (amended)",
-  "plumbing": "IPC 2024",
-  "district": "SF-7 (most new = PD)",
-  "setbacks": "25/5/20 (side/rear assumed)",
-  "maxHeight": "40 ft/2.5 st",
-  "coverageFar": "45% assumed / no FAR",
-  "masonry": "not city-enforceable (HB 2439); PD/HOA usually 80-100%",
-  "engFoundation": "yes - PE sealed, all new homes",
-  "windstorm": "no",
-  "flood": "not verified",
-  "permitFeeExample": "not found",
-  "impactFees": "roadway+water+ww (amount not found)",
-  "costFactor": "PENDING"
- }
 }
