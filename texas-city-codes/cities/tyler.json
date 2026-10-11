@@ -1,0 +1,757 @@
+{
+ "id": "tyler",
+ "name": "City of Tyler",
+ "state": "TX",
+ "tier": 2,
+ "counties": [
+  "Smith"
+ ],
+ "msa": {
+  "name": "Tyler, TX",
+  "blsCode": "46340"
+ },
+ "population": {
+  "value": 105995,
+  "status": "Assumed",
+  "source": {
+   "id": "assumed",
+   "title": "Assumed",
+   "url": "",
+   "read": "2026-10-11"
+  },
+  "note": "2020 Census count. Census Vintage 2024 estimate could not be retrieved (search budget exhausted); value is the 2020 decennial count recalled, verify."
+ },
+ "zipCodesOrBoundary": {
+  "value": null,
+  "status": "Assumed",
+  "source": {
+   "id": "assumed",
+   "title": "Assumed",
+   "url": "",
+   "read": "2026-10-11"
+  },
+  "note": "Not found: city-limits map/ZIP list not retrieved."
+ },
+ "climateZone": {
+  "value": "3A",
+  "status": "Assumed",
+  "source": {
+   "id": "assumed",
+   "title": "Assumed",
+   "url": "",
+   "read": "2026-10-11"
+  },
+  "note": "From 2021 IECC Table R301.1 county list (Smith County) as recalled; not re-read this run."
+ },
+ "windstormCounty": {
+  "value": false,
+  "status": "Assumed",
+  "source": {
+   "id": "assumed",
+   "title": "Assumed (TDI catalogue county list, recalled)",
+   "url": "",
+   "read": "2026-10-11"
+  },
+  "note": "Smith County is not in the TDI windstorm catalogue."
+ },
+ "codes": {
+  "irc": {
+   "edition": {
+    "value": "2021 IRC",
+    "status": "Secondary",
+    "source": {
+     "id": "tyler-amlegal-irc",
+     "title": "City of Tyler Code of Ordinances (American Legal) - IRC adoption (2021 IRC as amended in Sec. 6-151)",
+     "url": "https://codelibrary.amlegal.com/codes/tyler/latest/tyler_tx/0-0-0-103972",
+     "read": "2026-10-11",
+     "section": "Sec. 6-150/6-151"
+    },
+    "note": "Code text: '2021 Edition of the International Residential Code, as amended in Section 6-151 is hereby adopted by reference'. Read via search-engine excerpt of this page; the page itself could not be fetched (fetch tool DNS failure on 2026-10-11)."
+   },
+   "ordinance": {
+    "value": null,
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "note": "Not found: adoption ordinance not retrieved."
+   },
+   "amendments": [
+    {
+     "topic": "other",
+     "summary": "Tyler amends the 2021 IRC in Sec. 6-151; specific amendments not read.",
+     "section": "6-151",
+     "status": "Secondary",
+     "source": {
+      "id": "tyler-amlegal-irc",
+      "title": "City of Tyler Code of Ordinances (American Legal) - IRC adoption (2021 IRC as amended in Sec. 6-151)",
+      "url": "https://codelibrary.amlegal.com/codes/tyler/latest/tyler_tx/0-0-0-103972",
+      "read": "2026-10-11",
+      "section": "Sec. 6-151"
+     }
+    }
+   ]
+  },
+  "energy": {
+   "edition": {
+    "value": "2015 IRC Chapter 11 (state minimum for single-family); city may adopt newer IECC/IRC energy chapter",
+    "status": "Secondary",
+    "source": {
+     "id": "tx-hsc-388",
+     "title": "Texas Health & Safety Code Ch. 388 (Texas Building Energy Performance Standards)",
+     "url": "https://statutes.capitol.texas.gov/Docs/HS/htm/HS.388.htm",
+     "read": "2026-10-11",
+     "section": "HSC 388.003(a)"
+    },
+    "note": "State floor. City-specific adopted energy edition not confirmed for City of Tyler; SECO was reviewing the 2024 IRC energy chapter (Texas Register 24 Oct 2025)."
+   },
+   "stretchCode": {
+    "value": false,
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "note": "No local stretch code found; none expected for this city."
+   }
+  },
+  "plumbing": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found: plumbing code (IPC vs UPC) not retrieved; most Texas cities use IPC."
+  },
+  "electrical": {
+   "value": "NEC 2023 (TDLR statewide)",
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "TDLR adopted 2023 NEC eff. 1 Sep 2023 (recalled; not re-searched). City edition not verified."
+  },
+  "mechanical": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found."
+  },
+  "fuelGas": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found."
+  },
+  "fire": {
+   "value": "No one/two-family sprinkler mandate expected",
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found; Texas cities rarely require IRC R313 sprinklers."
+  },
+  "wind": {
+   "value": 110,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "East Texas; ASCE 7-16 Risk II ~105-115 mph; not verified.",
+   "unit": "mph"
+  },
+  "hailRoofing": {
+   "value": "Hail exposure moderate-high; no local Class 4 mandate found",
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not researched this run."
+  },
+  "seismic": {
+   "value": "A",
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Texas outside far-west Texas maps to SDC A in 2021 IRC Fig. R301.2(2); not checked against a city-specific table."
+  },
+  "frostDepth": {
+   "value": 6,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Typical local IRC Table R301.2(1) value for the region; not read.",
+   "unit": "in"
+  }
+ },
+ "zoning": {
+  "hasZoning": {
+   "value": true,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "City is known to have a zoning ordinance; not re-verified this run."
+  },
+  "typicalDistrict": {
+   "value": "R-1B Single-Family (assumed)",
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found: Tyler UDC (Ch. 10) district table not retrieved; district names unverified."
+  },
+  "minLotSqFt": {
+   "value": 6000,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found in ordinance; regional typical value.",
+   "unit": "sqft"
+  },
+  "minLotWidthFt": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found: min lot width. Web search budget exhausted and page fetch unavailable during this run."
+  },
+  "minLotDepthFt": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found: min lot depth. Web search budget exhausted and page fetch unavailable during this run."
+  },
+  "setbacksFt": {
+   "front": {
+    "value": 25,
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "note": "Not found in ordinance; regional typical value - verify before use.",
+    "unit": "ft"
+   },
+   "side": {
+    "value": 5,
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "note": "Not found in ordinance; regional typical value - verify before use.",
+    "unit": "ft"
+   },
+   "streetSide": {
+    "value": 15,
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "note": "Not found in ordinance; regional typical value - verify before use.",
+    "unit": "ft"
+   },
+   "rear": {
+    "value": 25,
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "note": "Not found in ordinance; regional typical value - verify before use.",
+    "unit": "ft"
+   }
+  },
+  "maxHeightFt": {
+   "value": 35,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found; typical SF limit.",
+   "unit": "ft"
+  },
+  "maxStories": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found."
+  },
+  "maxLotCoverage": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found."
+  },
+  "imperviousCover": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found."
+  },
+  "far": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found; Texas SF districts rarely use FAR."
+  },
+  "parking": {
+   "value": "2 off-street spaces per dwelling (typical)",
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found."
+  },
+  "garageRules": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found."
+  },
+  "adu": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found."
+  },
+  "masonry": {
+   "value": "No enforceable masonry % for new homes: Gov't Code 3000.002 bars local rules stricter than a national model code on building products/aesthetics (limited exceptions, e.g. historic districts; amended 2025 by SB 783, text not verified)",
+   "status": "Secondary",
+   "source": {
+    "id": "tx-gov-3000",
+    "title": "Texas Government Code Ch. 3000 (building products, materials, methods; HB 2439, 2019)",
+    "url": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.3000.htm",
+    "read": "2026-10-11",
+    "section": "3000.002"
+   },
+   "note": "Statute snippet read via search results; PD/deed restrictions (private HOA covenants) may still require brick."
+  },
+  "trees": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found."
+  },
+  "minDwellingSizeSqFt": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found."
+  },
+  "other": []
+ },
+ "process": {
+  "steps": [
+   {
+    "value": "Building permit application with plans and site plan to city Building Inspection; plan review; inspections; certificate of occupancy",
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "note": "Generic Texas municipal process; city specifics not read."
+   }
+  ],
+  "sealsRequired": [
+   {
+    "value": "Engineered foundation customary on expansive clay",
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "note": "Regional practice, not a confirmed city amendment."
+   }
+  ],
+  "inspections": [
+   {
+    "value": "Foundation, framing/rough MEP, insulation, final",
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "note": "Generic IRC sequence."
+   }
+  ],
+  "reviewDays": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found."
+  }
+ },
+ "fees": {
+  "permitFormula": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found: city fee schedule not retrieved."
+  },
+  "workedExample2400sqft": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not computed: fee formula not found. If by valuation, use 2,400 sq ft x ICC BVD R-3 VB (~$170-190/sq ft) + 440 sq ft x BVD U rate against the city's table."
+  },
+  "planReview": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found."
+  },
+  "impactFees": [
+   {
+    "value": "No impact fees found (assumed none)",
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "note": "Not found; verify."
+   }
+  ],
+  "tapFees": [
+   {
+    "value": null,
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "note": "Not found."
+   }
+  ]
+ },
+ "cost": {
+  "factor": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "cost-method",
+    "title": "See README cost method (filled by cost agent)",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "PENDING_COST_AGENT"
+  },
+  "method": "PENDING_COST_AGENT",
+  "perSqFtMarket": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found: no public per-sq-ft market figure retrieved this run."
+  },
+  "drivers": [
+   {
+    "value": "Expansive clay soils -> engineered slab",
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "note": "Regional soils."
+   }
+  ]
+ },
+ "flood": {
+  "value": null,
+  "status": "Assumed",
+  "source": {
+   "id": "assumed",
+   "title": "Assumed",
+   "url": "",
+   "read": "2026-10-11"
+  },
+  "note": "Not found: Tyler floodplain ordinance not retrieved; assume 1 ft above BFE pending verification."
+ },
+ "engineChanges": [
+  {
+   "id": "tyler-setbacks",
+   "ruleType": "setback-by-district",
+   "area": "setbacks",
+   "change": "Default R-1B Single-Family (assumed): front 25, side 5, street side 15, rear 25 ft - ASSUMED, require user to confirm from plat/zoning letter",
+   "priority": "should",
+   "params": {
+    "district": "R-1B Single-Family (assumed)",
+    "frontFt": 25,
+    "sideFt": 5,
+    "streetSideFt": 15,
+    "rearFt": 25,
+    "assumed": true,
+    "requireUserConfirm": true
+   },
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   }
+  },
+  {
+   "id": "tyler-plat-lines",
+   "ruleType": "building-line-plat",
+   "area": "survey",
+   "change": "Read platted building lines from the recorded plat; they override district defaults when larger",
+   "priority": "must",
+   "params": {
+    "usePlatBuildingLine": true
+   },
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   }
+  },
+  {
+   "id": "tyler-eng-fdn",
+   "ruleType": "engineered-foundation-flag",
+   "area": "foundation",
+   "change": "Flag engineer-designed slab for expansive clay",
+   "priority": "should",
+   "params": {
+    "engineeredFoundation": true,
+    "assumed": true
+   },
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   }
+  },
+  {
+   "id": "tyler-energy-cz",
+   "ruleType": "climate-zone-envelope",
+   "area": "envelope",
+   "change": "Use climate zone 3A envelope tables; state floor is 2015 IRC Ch. 11 (ERI option under HSC 388.003)",
+   "priority": "must",
+   "params": {
+    "climateZone": "3A",
+    "energyBase": "2015 IRC Ch.11 (state floor)",
+    "eriMaxCZ2_3": 59
+   },
+   "source": {
+    "id": "tx-hsc-388",
+    "title": "Texas Health & Safety Code Ch. 388 (Texas Building Energy Performance Standards)",
+    "url": "https://statutes.capitol.texas.gov/Docs/HS/htm/HS.388.htm",
+    "read": "2026-10-11",
+    "section": "388.003"
+   }
+  },
+  {
+   "id": "tyler-masonry-none",
+   "ruleType": "masonry-percentage",
+   "area": "envelope",
+   "change": "Do not apply any city-mandated masonry %; only flag HOA/deed restriction check",
+   "priority": "should",
+   "params": {
+    "masonryPctMin": 0,
+    "checkDeedRestrictions": true
+   },
+   "source": {
+    "id": "tx-gov-3000",
+    "title": "Texas Government Code Ch. 3000 (building products, materials, methods; HB 2439, 2019)",
+    "url": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.3000.htm",
+    "read": "2026-10-11",
+    "section": "3000.002"
+   }
+  },
+  {
+   "id": "tyler-irc-2021",
+   "ruleType": "irc-edition",
+   "area": "drawings",
+   "change": "Use 2021 IRC with Tyler local amendments (Sec. 6-151); amendment content not yet read",
+   "priority": "must",
+   "params": {
+    "ircEdition": "2021",
+    "amendmentSection": "6-151"
+   },
+   "source": {
+    "id": "tyler-amlegal-irc",
+    "title": "City of Tyler Code of Ordinances (American Legal) - IRC adoption (2021 IRC as amended in Sec. 6-151)",
+    "url": "https://codelibrary.amlegal.com/codes/tyler/latest/tyler_tx/0-0-0-103972",
+    "read": "2026-10-11",
+    "section": "Sec. 6-151"
+   }
+  }
+ ],
+ "plainLanguage": "Tyler uses the 2021 International Residential Code with its own local changes in Section 6-151 of the city code. Tyler is in Smith County, Climate Zone 3A. We could not confirm the zoning setbacks in this pass, so the engine uses typical values and asks you to confirm them from your plat. The city cannot require a brick percentage. East Texas soils and hail make an engineered slab and impact-resistant roof worth pricing.",
+ "openQuestions": [
+  "Confirm adopted IRC edition and local amendments from the city code/adoption ordinance.",
+  "Confirm typical district and setbacks from the zoning ordinance table.",
+  "Permit fee schedule and impact/tap fees.",
+  "Content of Tyler Sec. 6-151 IRC amendments."
+ ],
+ "notFound": [
+  "Most city-specific values: research stopped because the shared web-search budget was exhausted and page fetching failed (DNS) on 2026-10-11."
+ ],
+ "comparison": {
+  "irc": "2021 IRC",
+  "energy": "state floor 2015 IRC Ch.11 (city edition unknown)",
+  "plumbing": "unknown",
+  "district": "R-1B Single-Family (assumed) (assumed)",
+  "setbacks": "25/5/25 (assumed)",
+  "maxHeight": "35 ft (assumed)",
+  "coverageFar": "unknown",
+  "masonry": "none (state preemption)",
+  "engFoundation": "assumed yes",
+  "windstorm": "no",
+  "flood": "unknown",
+  "permitFeeExample": "not found",
+  "impactFees": "No impact fees found (assumed none)",
+  "costFactor": "PENDING"
+ }
+}

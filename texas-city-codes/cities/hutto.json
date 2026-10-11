@@ -1,0 +1,879 @@
+{
+  "id": "hutto",
+  "name": "City of Hutto",
+  "state": "TX",
+  "tier": 2,
+  "counties": [
+    "Williamson"
+  ],
+  "msa": {
+    "name": "Austin-Round Rock-San Marcos, TX",
+    "blsCode": "12420"
+  },
+  "population": {
+    "value": 40000,
+    "status": "Assumed",
+    "source": {
+      "id": "hutto-assumed",
+      "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Approximate Census Vintage 2024-era estimate from researcher memory; verify on Census QuickFacts."
+  },
+  "zipCodesOrBoundary": {
+    "value": "78634",
+    "status": "Assumed",
+    "source": {
+      "id": "hutto-assumed",
+      "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "General knowledge; use city GIS city-limits map for exact boundary."
+  },
+  "climateZone": {
+    "value": "2A",
+    "status": "Assumed",
+    "source": {
+      "id": "hutto-assumed",
+      "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "2021 IECC Table R301.1 county list places this county in Climate Zone 2A (hot-humid) per researcher knowledge; table not re-read this session."
+  },
+  "windstormCounty": {
+    "value": false,
+    "status": "Assumed",
+    "source": {
+      "id": "hutto-assumed",
+      "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Not one of the 14 TDI first-tier coastal catalogue counties (inland Central Texas); TDI windstorm inspection program does not apply."
+  },
+  "codes": {
+    "irc": {
+      "edition": {
+        "value": "2021 IRC (unverified)",
+        "status": "Assumed",
+        "source": {
+          "id": "hutto-assumed",
+          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Most Central Texas cities adopted the 2021 I-codes in 2021-2023; this city's adoption ordinance was not reached. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      },
+      "ordinance": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "hutto-assumed",
+          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: building code adoption ordinance number. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      },
+      "amendments": [
+        {
+          "topic": "other",
+          "summary": "Local IRC amendments not reviewed; Texas cities must adopt local IRC amendments by ordinance after a public hearing (LGC 214.212/214.216).",
+          "section": "",
+          "status": "Secondary",
+          "source": {
+            "id": "tx-lgc-214-212",
+            "title": "Texas Local Government Code Sec. 214.212 - International Residential Code (municipal residential code)",
+            "url": "https://texas.public.law/statutes/tex._local_gov't_code_section_214.212",
+            "read": "2026-10-11",
+            "section": "214.212"
+          }
+        }
+      ]
+    },
+    "energy": {
+      "edition": {
+        "value": "2021 IECC / IRC Ch. 11 (unverified)",
+        "status": "Assumed",
+        "source": {
+          "id": "hutto-assumed",
+          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Assumed to follow the IRC edition; Texas state minimum energy code applies regardless (Health & Safety Code Ch. 388). Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      },
+      "stretchCode": {
+        "value": "none known",
+        "status": "Assumed",
+        "source": {
+          "id": "hutto-assumed",
+          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "No municipal stretch code known for this city"
+      }
+    },
+    "plumbing": {
+      "value": "IPC 2021 (unverified)",
+      "status": "Assumed",
+      "source": {
+        "id": "hutto-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Most Central Texas suburbs adopt the IPC; UPC is possible under Texas law. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+    },
+    "electrical": {
+      "value": "NEC 2020 or 2023 (unverified)",
+      "status": "Assumed",
+      "source": {
+        "id": "hutto-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "TDLR-adopted NEC applies where no local edition; city edition not read. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+    },
+    "mechanical": {
+      "value": "IMC 2021 (unverified)",
+      "status": "Assumed",
+      "source": {
+        "id": "hutto-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Assumed to match IRC cycle"
+    },
+    "fuelGas": {
+      "value": "IFGC 2021 (unverified)",
+      "status": "Assumed",
+      "source": {
+        "id": "hutto-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Assumed to match IRC cycle"
+    },
+    "fire": {
+      "value": "IFC 2021 (unverified); no one/two-family sprinkler mandate known",
+      "status": "Assumed",
+      "source": {
+        "id": "hutto-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Texas cities generally delete/omit IRC R313 sprinkler mandate; Texas LGC 214.216 permits that. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+    },
+    "wind": {
+      "value": 108,
+      "status": "Assumed",
+      "source": {
+        "id": "hutto-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "mph",
+      "note": "Approx. ASCE 7-16 Risk Cat II ultimate design wind speed for inland Central Texas is about 105-110 mph (IRC 2021 Fig. R301.2(2)); site value must come from ASCE hazard tool. Not a locally published value."
+    },
+    "hailRoofing": {
+      "value": "No local hail-roof mandate found; Central Texas is a high-hail region - Class 4 (UL 2218) impact-resistant shingles recommended for insurance discounts",
+      "status": "Assumed",
+      "source": {
+        "id": "hutto-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Insurance-driven, not code. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+    },
+    "seismic": {
+      "value": "SDC A",
+      "status": "Assumed",
+      "source": {
+        "id": "hutto-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Central Texas is Seismic Design Category A on IRC 2021 Fig. R301.2(7); no seismic detailing required."
+    },
+    "frostDepth": {
+      "value": 6,
+      "status": "Assumed",
+      "source": {
+        "id": "hutto-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "in",
+      "note": "Typical Central Texas local IRC Table R301.2(1) frost depth is 6 in or less (often 'NA'/6 in); local table not read."
+    }
+  },
+  "zoning": {
+    "hasZoning": {
+      "value": true,
+      "status": "Assumed",
+      "source": {
+        "id": "hutto-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "City is known to have zoning (UDC); text not read."
+    },
+    "typicalDistrict": {
+      "value": "SF-2 (Single-family)",
+      "status": "Assumed",
+      "source": {
+        "id": "hutto-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Researcher judgement of the most common detached single-family district; others: SF-1, SF-3, PUD. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+    },
+    "minLotSqFt": {
+      "value": 6000,
+      "status": "Assumed",
+      "source": {
+        "id": "hutto-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "sqft",
+      "note": "Typical value for this district from researcher memory; NOT verified. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+    },
+    "minLotWidthFt": {
+      "value": 50,
+      "status": "Assumed",
+      "source": {
+        "id": "hutto-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "ft",
+      "note": "Typical value; NOT verified."
+    },
+    "minLotDepthFt": {
+      "value": 110,
+      "status": "Assumed",
+      "source": {
+        "id": "hutto-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "ft",
+      "note": "Typical value; NOT verified."
+    },
+    "setbacksFt": {
+      "front": {
+        "value": 25,
+        "status": "Assumed",
+        "source": {
+          "id": "hutto-assumed",
+          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Typical value for this district from researcher memory; NOT verified against the UDC. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      },
+      "side": {
+        "value": 5,
+        "status": "Assumed",
+        "source": {
+          "id": "hutto-assumed",
+          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Typical value for this district from researcher memory; NOT verified against the UDC. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      },
+      "streetSide": {
+        "value": 15,
+        "status": "Assumed",
+        "source": {
+          "id": "hutto-assumed",
+          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Typical value for this district from researcher memory; NOT verified against the UDC. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      },
+      "rear": {
+        "value": 20,
+        "status": "Assumed",
+        "source": {
+          "id": "hutto-assumed",
+          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Typical value for this district from researcher memory; NOT verified against the UDC. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      }
+    },
+    "maxHeightFt": {
+      "value": 35,
+      "status": "Assumed",
+      "source": {
+        "id": "hutto-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "ft",
+      "note": "Typical Central Texas single-family height cap; NOT verified."
+    },
+    "maxStories": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "hutto-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found"
+    },
+    "maxLotCoverage": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "hutto-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: maximum lot coverage for the district. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+    },
+    "imperviousCover": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "hutto-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: impervious cover cap. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+    },
+    "far": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "hutto-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No FAR for single-family expected"
+    },
+    "parking": {
+      "value": "2 spaces per dwelling (typically 2-car garage)",
+      "status": "Assumed",
+      "source": {
+        "id": "hutto-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Typical Central Texas requirement; not read."
+    },
+    "garageRules": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "hutto-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: garage placement/front-loaded garage rules. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+    },
+    "adu": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "hutto-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: accessory dwelling unit rules. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+    },
+    "masonry": {
+      "value": "No enforceable masonry % on new single-family (state preemption)",
+      "status": "Assumed",
+      "source": {
+        "id": "hutto-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Texas Gov't Code Ch. 3000 (HB 2439, 2019) bars most municipal building-material mandates; any UDC masonry % is generally unenforceable outside historic districts."
+    },
+    "trees": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "hutto-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: tree preservation ordinance details. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+    },
+    "other": []
+  },
+  "process": {
+    "steps": [
+      {
+        "value": "Confirm zoning district and recorded plat building lines / HOA deed restrictions",
+        "status": "Assumed",
+        "source": {
+          "id": "hutto-assumed",
+          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Standard Texas suburban practice"
+      },
+      {
+        "value": "Submit residential building permit (site plan, floor plans, elevations, foundation design, energy compliance report) through the city's online permit portal",
+        "status": "Assumed",
+        "source": {
+          "id": "hutto-assumed",
+          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Typical Central Texas submittal; city checklist not read. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      },
+      {
+        "value": "Pay permit, plan review and impact/tap fees at issuance",
+        "status": "Assumed",
+        "source": {
+          "id": "hutto-assumed",
+          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Texas LGC Ch. 395 impact fees typically collected at building permit"
+      },
+      {
+        "value": "Inspections, then Certificate of Occupancy",
+        "status": "Assumed",
+        "source": {
+          "id": "hutto-assumed",
+          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Standard"
+      }
+    ],
+    "sealsRequired": [
+      {
+        "value": "Foundation design sealed by a Texas-licensed professional engineer (expansive clay soils)",
+        "status": "Assumed",
+        "source": {
+          "id": "hutto-assumed",
+          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Near-universal practice/requirement in Central Texas for slab-on-grade on expansive soils; city rule not read."
+      }
+    ],
+    "inspections": [
+      {
+        "value": "Plumbing rough / under-slab",
+        "status": "Assumed",
+        "source": {
+          "id": "hutto-assumed",
+          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Typical IRC inspection sequence"
+      },
+      {
+        "value": "Foundation (pre-pour, form survey)",
+        "status": "Assumed",
+        "source": {
+          "id": "hutto-assumed",
+          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Typical IRC inspection sequence"
+      },
+      {
+        "value": "Framing + MEP rough",
+        "status": "Assumed",
+        "source": {
+          "id": "hutto-assumed",
+          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Typical IRC inspection sequence"
+      },
+      {
+        "value": "Insulation / energy",
+        "status": "Assumed",
+        "source": {
+          "id": "hutto-assumed",
+          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Typical IRC inspection sequence"
+      },
+      {
+        "value": "Final + CO",
+        "status": "Assumed",
+        "source": {
+          "id": "hutto-assumed",
+          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Typical IRC inspection sequence"
+      }
+    ],
+    "reviewDays": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "hutto-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: published residential plan review turnaround. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+    }
+  },
+  "fees": {
+    "permitFormula": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "hutto-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: city building permit fee schedule (fee ordinance / development services fee page). Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+    },
+    "workedExample2400sqft": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "hutto-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "USD",
+      "note": "Not computed: fee formula not found. Assumption for later: 2,400 sq ft conditioned two-storey + 440 sq ft attached garage. If valuation-based, use ICC BVD R-3 VB (~$170-190/sqft) x 2,400 + U rate x 440. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+    },
+    "planReview": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "hutto-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: residential plan review fee. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+    },
+    "impactFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "hutto-assumed",
+          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: water/wastewater/roadway impact fee schedule (Texas LGC Ch. 395 fees are normally collected at building permit). Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      }
+    ],
+    "tapFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "hutto-assumed",
+          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: water and sewer tap/meter fees. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      }
+    ]
+  },
+  "cost": {
+    "factor": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "cost-method",
+        "title": "See README cost method (filled by cost agent)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "PENDING_COST_AGENT"
+    },
+    "method": "PENDING_COST_AGENT",
+    "perSqFtMarket": {
+      "value": "150-200",
+      "status": "Assumed",
+      "source": {
+        "id": "hutto-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "USD/sqft",
+      "note": "Researcher estimate of typical production/semi-custom new-home build cost (excluding land) in the Austin/Central Texas market, 2025-2026. Market figure, not a quote; no public source re-read this session (Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document.)"
+    },
+    "drivers": [
+      {
+        "value": "Very high-plasticity Blackland Prairie clay (Houston Black) - stiffer PT slabs, moisture control",
+        "status": "Assumed",
+        "source": {
+          "id": "hutto-assumed",
+          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Researcher judgement"
+      },
+      {
+        "value": "Water/wastewater impact fees (multiple providers e.g. city, Jonah WSC, Manville WSC)",
+        "status": "Assumed",
+        "source": {
+          "id": "hutto-assumed",
+          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Researcher judgement"
+      },
+      {
+        "value": "Austin-metro labour",
+        "status": "Assumed",
+        "source": {
+          "id": "hutto-assumed",
+          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Researcher judgement"
+      }
+    ]
+  },
+  "flood": {
+    "value": "City floodplain ordinance (NFIP); freeboard not confirmed - assume lowest floor >= 1 ft above BFE (Brushy Creek / Cottonwood Creek).",
+    "status": "Assumed",
+    "source": {
+      "id": "hutto-assumed",
+      "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+  },
+  "engineChanges": [
+    {
+      "id": "hutto-setbacks",
+      "ruleType": "setback-by-district",
+      "area": "setbacks",
+      "change": "SF-2 (Single-family): front 25 / side 5 / street side 15 / rear 20 ft (ASSUMED - verify before relying)",
+      "priority": "must",
+      "params": {
+        "district": "SF-2 (Single-family)",
+        "assumed": true,
+        "frontFt": 25,
+        "sideFt": 5,
+        "streetSideFt": 15,
+        "rearFt": 20
+      },
+      "source": {
+        "id": "hutto-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "hutto-district-input",
+      "ruleType": "survey-input-district",
+      "area": "survey",
+      "change": "Ask user for zoning district/PUD and plat building lines; do not default silently",
+      "priority": "must",
+      "params": {
+        "districts": [
+          "SF-2 (Single-family)",
+          "SF-1",
+          "SF-3",
+          "PUD"
+        ]
+      },
+      "source": {
+        "id": "hutto-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "hutto-height",
+      "ruleType": "height-limit",
+      "area": "massing",
+      "change": "Cap height at 35 ft (assumed)",
+      "priority": "should",
+      "params": {
+        "maxHeightFt": 35,
+        "assumed": true
+      },
+      "source": {
+        "id": "hutto-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "hutto-eng-foundation",
+      "ruleType": "engineered-foundation-flag",
+      "area": "foundation",
+      "change": "Flag PE-sealed foundation design (expansive soils)",
+      "priority": "must",
+      "params": {
+        "engineeredFoundation": true
+      },
+      "source": {
+        "id": "hutto-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "hutto-climate",
+      "ruleType": "climate-zone-envelope",
+      "area": "envelope",
+      "change": "Climate zone 2A envelope (2021 IECC)",
+      "priority": "must",
+      "params": {
+        "climateZone": "2A"
+      },
+      "source": {
+        "id": "hutto-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "hutto-impact-fee",
+      "ruleType": "impact-fee-estimate",
+      "area": "estimate",
+      "change": "Add placeholder water/wastewater (and roadway if any) impact fee line; amount unknown",
+      "priority": "should",
+      "params": {
+        "amountUSD": null
+      },
+      "source": {
+        "id": "hutto-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "hutto-expansive-soil",
+      "ruleType": "expansive-soil-foundation",
+      "area": "foundation",
+      "change": "Assume high-PI expansive clay: PT slab with geotech report; large PVR",
+      "priority": "should",
+      "params": {
+        "geotechRequired": true,
+        "soil": "Blackland Prairie clay"
+      },
+      "source": {
+        "id": "hutto-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "hutto-water-provider",
+      "ruleType": "tap-fee-estimate",
+      "area": "estimate",
+      "change": "Ask which water provider serves the lot (city vs WSC) - tap/impact fees differ",
+      "priority": "nice",
+      "params": {
+        "askProvider": true
+      },
+      "source": {
+        "id": "hutto-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    }
+  ],
+  "plainLanguage": "Hutto most likely uses the 2021 International Residential Code, but we could not confirm the ordinance this time. Most new homes are in single-family (SF) districts or planned developments that set their own setbacks. Until verified, plan for about a 25 ft front setback, 5 ft sides and 20 ft rear. Hutto sits on some of the most expansive clay in Texas, so a geotechnical report and engineered slab are expected. Your water may come from the city or a water supply corporation, which changes tap fees.",
+  "openQuestions": [
+    "IRC adoption & amendments",
+    "SF district dimensional table (UDC)",
+    "Impact fees by provider"
+  ],
+  "notFound": [
+    "All values - research tooling blocked",
+    "IRC adoption ordinance & local amendments",
+    "District dimensional table",
+    "Permit fee schedule",
+    "Impact/tap fees"
+  ],
+  "comparison": {
+    "irc": "2021 IRC (assumed)",
+    "energy": "2021 IECC (assumed)",
+    "plumbing": "IPC 2021 (assumed)",
+    "district": "SF-2 (Single-family)",
+    "setbacks": "25/5/20 (assumed)",
+    "maxHeight": "35 ft (assumed)",
+    "coverageFar": "not found / none",
+    "masonry": "none (state preemption)",
+    "engFoundation": "yes (assumed)",
+    "windstorm": "no",
+    "flood": "1 ft freeboard (assumed)",
+    "permitFeeExample": "not found",
+    "impactFees": "not found",
+    "costFactor": "PENDING"
+  }
+}

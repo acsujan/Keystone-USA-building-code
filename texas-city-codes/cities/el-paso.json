@@ -1,0 +1,923 @@
+{
+  "id": "el-paso",
+  "name": "City of El Paso",
+  "state": "TX",
+  "tier": 1,
+  "counties": [
+    "El Paso"
+  ],
+  "msa": {
+    "name": "El Paso, TX",
+    "blsCode": "21340"
+  },
+  "population": {
+    "value": 681723,
+    "status": "Sourced",
+    "source": {
+      "id": "el-paso-census-v2024",
+      "title": "U.S. Census Bureau QuickFacts: El Paso city, Texas (V2024)",
+      "url": "https://www.census.gov/quickfacts/fact/table/elpasocitytexas/PST045224",
+      "read": "2026-10-11"
+    },
+    "note": "Census Vintage 2024 estimate, July 1, 2024 (also reported by El Paso Matters). V2025 city value not legible in search result."
+  },
+  "zipCodesOrBoundary": {
+    "value": null,
+    "status": "Assumed",
+    "source": {
+      "id": "el-paso-assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Not compiled: city limits do not match ZIPs (Fort Bliss, unincorporated county). Use El Paso CAD / city GIS city-limits layer."
+  },
+  "climateZone": {
+    "value": "3B",
+    "status": "Assumed",
+    "source": {
+      "id": "el-paso-assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Climate zone per 2021 IECC Table R301.1 county list (researcher knowledge of the model code; table not re-fetched this session). El Paso County = 3B (warm-dry)."
+  },
+  "windstormCounty": {
+    "value": false,
+    "status": "Assumed",
+    "source": {
+      "id": "el-paso-assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Inland county; TDI windstorm catalogue covers only 14 coastal counties and parts of Harris."
+  },
+  "codes": {
+    "irc": {
+      "edition": {
+        "value": "2021 IRC",
+        "status": "Secondary",
+        "source": {
+          "id": "el-paso-ch18-10-2021-draft",
+          "title": "City of El Paso, Chapter 18.10 Residential Code (2021 IRC adoption ordinance PDF)",
+          "url": "https://www.elpasotexas.gov/assets/Documents/CoEP/Planning-and-Inspections/2021-International-Building-Codes/Chapter-18.10-RESIDENTIAL-CODE.pdf",
+          "read": "2026-10-11"
+        },
+        "note": "City-posted Chapter 18.10 ordinance replaces 2015 IRC with 2021 IRC with local amendments; Chapter 18.02 admin code also references IRC 2021. Posted copies have blank ordinance number, so passage date/effective date unverified. Seen only as a search-result extract; WebFetch/curl to this host failed from the research environment, full document not read."
+      },
+      "ordinance": {
+        "value": "El Paso City Code Title 18, Chapter 18.10 (Residential Code); administration in Chapter 18.02",
+        "status": "Secondary",
+        "source": {
+          "id": "el-paso-ch18-02-2021",
+          "title": "City of El Paso, Chapter 18.02 Building and Construction Administrative Code (2021 codes PDF)",
+          "url": "https://elpasotexas.gov/assets/Documents/CoEP/Planning-and-Inspections/2021-International-Building-Codes/Chapter-18.02-BUILDING-AND-CONSTRUCTION-ADMINISTRATIVE-CODE.pdf",
+          "read": "2026-10-11"
+        },
+        "note": "Ordinance number/effective date not seen."
+      },
+      "amendments": [
+        {
+          "topic": "other",
+          "summary": "Table R301.2(1) completed locally: ground snow 5 psf, wind 115 mph, SDC C, weathering negligible, frost line 6 in, termite moderate to heavy, winter design 32 F (2015-IRC era values).",
+          "section": "18.10.050 (R301.2)",
+          "status": "Secondary",
+          "source": {
+            "id": "el-paso-18-10-050",
+            "title": "El Paso Code of Ordinances \u00a718.10.050 Section R301.2 Climatic and geographic design criteria, amended (eLaws mirror)",
+            "url": "http://elpaso-tx.elaws.us/code/coor_title18_ch18.10_sec18.10.050",
+            "read": "2026-10-11",
+            "section": "18.10.050 / IRC Table R301.2(1)"
+          }
+        },
+        {
+          "topic": "fire sprinklers",
+          "summary": "IRC R313 (automatic sprinklers in houses) was deleted locally in the 2009-IRC adoption; assume still deleted for 2021 (verify in 2021 Ch. 18.10).",
+          "section": "18.10.080 (2010 ordinance)",
+          "status": "Secondary",
+          "source": {
+            "id": "el-paso-2010-irc-ord",
+            "title": "El Paso ordinance adopting International Residential Code with local amendments (2010 council agenda item)",
+            "url": "https://www2.elpasotexas.gov/municipal-clerk/agenda/07-20-10/07201011B-c.pdf",
+            "read": "2026-10-11"
+          }
+        }
+      ]
+    },
+    "energy": {
+      "edition": {
+        "value": "2021 IRC Chapter 11 (assumed)",
+        "status": "Assumed",
+        "source": {
+          "id": "el-paso-assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not verified. Texas state energy code for single-family is IRC Ch. 11 (2015 IECC-based minimum per SECO); El Paso adopting 2021 IRC likely carries 2021 IRC Ch. 11 with possible local amendments."
+      },
+      "stretchCode": {
+        "value": false,
+        "status": "Assumed",
+        "source": {
+          "id": "el-paso-assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "No stretch code found."
+      }
+    },
+    "plumbing": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "el-paso-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: plumbing code edition (El Paso historically adopts IPC; unverified) (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "electrical": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "el-paso-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: NEC edition (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "mechanical": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "el-paso-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: mechanical code edition (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "fuelGas": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "el-paso-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: fuel gas code edition (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "fire": {
+      "value": "2021 IFC with local amendments; no one-/two-family dwelling sprinkler mandate (IRC R313 deleted historically)",
+      "status": "Secondary",
+      "source": {
+        "id": "el-paso-fire-code-ord",
+        "title": "City of El Paso International Fire Prevention Code Ordinance",
+        "url": "https://www.elpasotexas.gov/assets/Documents/CoEP/Fire/International-Fire-Prevention-Code-Ordinance-new.pdf",
+        "read": "2026-10-11"
+      },
+      "note": "Fire ordinance seen in search results only; R313 status per 2010 IRC ordinance."
+    },
+    "wind": {
+      "value": 115,
+      "status": "Secondary",
+      "source": {
+        "id": "el-paso-18-10-050",
+        "title": "El Paso Code of Ordinances \u00a718.10.050 Section R301.2 Climatic and geographic design criteria, amended (eLaws mirror)",
+        "url": "http://elpaso-tx.elaws.us/code/coor_title18_ch18.10_sec18.10.050",
+        "read": "2026-10-11",
+        "section": "18.10.050 / IRC Table R301.2(1)"
+      },
+      "unit": "mph",
+      "note": "Values from El Paso's amendment completing IRC Table R301.2(1) as codified for the 2015 IRC (OCR'd text, column alignment imperfect). The 2021 Chapter 18.10 draft PDF likely carries the table forward but could not be opened. Seen only as a search-result extract; WebFetch/curl to this host failed from the research environment, full document not read."
+    },
+    "hailRoofing": {
+      "value": "No local rule found",
+      "status": "Assumed",
+      "source": {
+        "id": "el-paso-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No local hail/Class 4 roofing rule found. El Paso hail exposure lower than Panhandle."
+    },
+    "seismic": {
+      "value": "C",
+      "status": "Secondary",
+      "source": {
+        "id": "el-paso-18-10-050",
+        "title": "El Paso Code of Ordinances \u00a718.10.050 Section R301.2 Climatic and geographic design criteria, amended (eLaws mirror)",
+        "url": "http://elpaso-tx.elaws.us/code/coor_title18_ch18.10_sec18.10.050",
+        "read": "2026-10-11",
+        "section": "18.10.050 / IRC Table R301.2(1)"
+      },
+      "note": "Values from El Paso's amendment completing IRC Table R301.2(1) as codified for the 2015 IRC (OCR'd text, column alignment imperfect). The 2021 Chapter 18.10 draft PDF likely carries the table forward but could not be opened. Seen only as a search-result extract; WebFetch/curl to this host failed from the research environment, full document not read. Under IRC R301.2.2 detached one-/two-family dwellings in SDC C are exempt from the IRC seismic provisions (townhouses are not), so impact on a detached house is mainly on masonry/stone veneer and chimney detailing choices; verify."
+    },
+    "frostDepth": {
+      "value": 6,
+      "status": "Secondary",
+      "source": {
+        "id": "el-paso-18-10-050",
+        "title": "El Paso Code of Ordinances \u00a718.10.050 Section R301.2 Climatic and geographic design criteria, amended (eLaws mirror)",
+        "url": "http://elpaso-tx.elaws.us/code/coor_title18_ch18.10_sec18.10.050",
+        "read": "2026-10-11",
+        "section": "18.10.050 / IRC Table R301.2(1)"
+      },
+      "unit": "in",
+      "note": "Values from El Paso's amendment completing IRC Table R301.2(1) as codified for the 2015 IRC (OCR'd text, column alignment imperfect). The 2021 Chapter 18.10 draft PDF likely carries the table forward but could not be opened. Seen only as a search-result extract; WebFetch/curl to this host failed from the research environment, full document not read. IRC R403.1.4 still requires footings at least 12 in below undisturbed ground surface; engine should use max(12, local)."
+    }
+  },
+  "zoning": {
+    "hasZoning": {
+      "value": true,
+      "status": "Secondary",
+      "source": {
+        "id": "el-paso-pi-faq",
+        "title": "City of El Paso Planning & Inspections FAQs",
+        "url": "https://www.elpasotexas.gov/planning-and-inspections/faqs",
+        "read": "2026-10-11"
+      },
+      "note": "City FAQ points to Title 20 Zoning, Appendix B Table of Density and Dimensional Standards."
+    },
+    "typicalDistrict": {
+      "value": "R-3 (Residential)",
+      "status": "Secondary",
+      "source": {
+        "id": "el-paso-t20-appb",
+        "title": "El Paso Code Title 20 Zoning, Appendix B Table of Density and Dimensional Standards (eLaws mirror)",
+        "url": "https://elpaso-tx.elaws.us/code/coor_title20_appb",
+        "read": "2026-10-11",
+        "section": "Title 20 App. B, R-3 row"
+      },
+      "note": "R-3 is among the most common districts for detached single-family subdivisions; R-3A (5,000 sf) and R-4/R-5 (smaller lots) also common. Seen only as a search-result extract; WebFetch/curl to this host failed from the research environment, full document not read."
+    },
+    "minLotSqFt": {
+      "value": 6000,
+      "status": "Secondary",
+      "source": {
+        "id": "el-paso-t20-appb",
+        "title": "El Paso Code Title 20 Zoning, Appendix B Table of Density and Dimensional Standards (eLaws mirror)",
+        "url": "https://elpaso-tx.elaws.us/code/coor_title20_appb",
+        "read": "2026-10-11",
+        "section": "Title 20 App. B, R-3 row"
+      },
+      "unit": "sqft",
+      "note": "App. B R-3 single-family row: 6,000 sf, 60 ft avg width, 90 ft depth. Seen only as a search-result extract; WebFetch/curl to this host failed from the research environment, full document not read."
+    },
+    "minLotWidthFt": {
+      "value": 60,
+      "status": "Secondary",
+      "source": {
+        "id": "el-paso-t20-appb",
+        "title": "El Paso Code Title 20 Zoning, Appendix B Table of Density and Dimensional Standards (eLaws mirror)",
+        "url": "https://elpaso-tx.elaws.us/code/coor_title20_appb",
+        "read": "2026-10-11",
+        "section": "Title 20 App. B, R-3 row"
+      },
+      "unit": "ft",
+      "note": "Average lot width. Seen only as a search-result extract; WebFetch/curl to this host failed from the research environment, full document not read."
+    },
+    "minLotDepthFt": {
+      "value": 90,
+      "status": "Secondary",
+      "source": {
+        "id": "el-paso-t20-appb",
+        "title": "El Paso Code Title 20 Zoning, Appendix B Table of Density and Dimensional Standards (eLaws mirror)",
+        "url": "https://elpaso-tx.elaws.us/code/coor_title20_appb",
+        "read": "2026-10-11",
+        "section": "Title 20 App. B, R-3 row"
+      },
+      "unit": "ft",
+      "note": "Seen only as a search-result extract; WebFetch/curl to this host failed from the research environment, full document not read."
+    },
+    "setbacksFt": {
+      "front": {
+        "value": 20,
+        "status": "Secondary",
+        "source": {
+          "id": "el-paso-t20-appb",
+          "title": "El Paso Code Title 20 Zoning, Appendix B Table of Density and Dimensional Standards (eLaws mirror)",
+          "url": "https://elpaso-tx.elaws.us/code/coor_title20_appb",
+          "read": "2026-10-11",
+          "section": "Title 20 App. B, R-3 row"
+        },
+        "unit": "ft",
+        "note": "Front 20 ft; cumulative front+rear must be at least 50 ft. 2nd check: PropertyZoned also lists 20 ft front. Seen only as a search-result extract; WebFetch/curl to this host failed from the research environment, full document not read."
+      },
+      "side": {
+        "value": 5,
+        "status": "Secondary",
+        "source": {
+          "id": "el-paso-t20-appb",
+          "title": "El Paso Code Title 20 Zoning, Appendix B Table of Density and Dimensional Standards (eLaws mirror)",
+          "url": "https://elpaso-tx.elaws.us/code/coor_title20_appb",
+          "read": "2026-10-11",
+          "section": "Title 20 App. B, R-3 row"
+        },
+        "unit": "ft",
+        "note": "Interior side 5 ft (PropertyZoned agrees). Seen only as a search-result extract; WebFetch/curl to this host failed from the research environment, full document not read."
+      },
+      "streetSide": {
+        "value": 10,
+        "status": "Secondary",
+        "source": {
+          "id": "el-paso-t20-appb",
+          "title": "El Paso Code Title 20 Zoning, Appendix B Table of Density and Dimensional Standards (eLaws mirror)",
+          "url": "https://elpaso-tx.elaws.us/code/coor_title20_appb",
+          "read": "2026-10-11",
+          "section": "Title 20 App. B, R-3 row"
+        },
+        "unit": "ft",
+        "note": "Seen only as a search-result extract; WebFetch/curl to this host failed from the research environment, full document not read."
+      },
+      "rear": {
+        "value": 20,
+        "status": "Secondary",
+        "source": {
+          "id": "el-paso-t20-appb",
+          "title": "El Paso Code Title 20 Zoning, Appendix B Table of Density and Dimensional Standards (eLaws mirror)",
+          "url": "https://elpaso-tx.elaws.us/code/coor_title20_appb",
+          "read": "2026-10-11",
+          "section": "Title 20 App. B, R-3 row"
+        },
+        "unit": "ft",
+        "note": "Rear 20 ft min, AND front+rear >= 50 ft (so with a 20 ft front, rear is effectively 30 ft). PropertyZoned shows 10 ft rear, conflicting; App. B row is preferred. Seen only as a search-result extract; WebFetch/curl to this host failed from the research environment, full document not read."
+      }
+    },
+    "maxHeightFt": {
+      "value": 35,
+      "status": "Secondary",
+      "source": {
+        "id": "el-paso-t20-appb",
+        "title": "El Paso Code Title 20 Zoning, Appendix B Table of Density and Dimensional Standards (eLaws mirror)",
+        "url": "https://elpaso-tx.elaws.us/code/coor_title20_appb",
+        "read": "2026-10-11",
+        "section": "Title 20 App. B, R-3 row"
+      },
+      "unit": "ft",
+      "note": "Row extract begins '35 ... R-3' read as 35 ft max height; PropertyZoned says 40 ft. Use 35 (conservative). Seen only as a search-result extract; WebFetch/curl to this host failed from the research environment, full document not read."
+    },
+    "maxStories": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "el-paso-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: story limit (height in feet governs) (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "maxLotCoverage": {
+      "value": 0.5,
+      "status": "Secondary",
+      "source": {
+        "id": "el-paso-propertyzoned-r3",
+        "title": "PropertyZoned: El Paso R-3 zone summary",
+        "url": "https://www.propertyzoned.com/city/texas/el-paso/zones/r-3",
+        "read": "2026-10-11"
+      },
+      "unit": "fraction",
+      "note": "Third-party summary; not checked against App. B."
+    },
+    "imperviousCover": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "el-paso-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No impervious cover limit found for R-3."
+    },
+    "far": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "el-paso-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No FAR in El Paso single-family districts found."
+    },
+    "parking": {
+      "value": "2 spaces per single-family dwelling",
+      "status": "Secondary",
+      "source": {
+        "id": "el-paso-propertyzoned-r3",
+        "title": "PropertyZoned: El Paso R-3 zone summary",
+        "url": "https://www.propertyzoned.com/city/texas/el-paso/zones/r-3",
+        "read": "2026-10-11"
+      },
+      "note": "Third-party summary citing Title 20; confirm in Title 20 parking chapter."
+    },
+    "garageRules": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "el-paso-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No garage-placement/front-facing garage rule found."
+    },
+    "adu": {
+      "value": "ADUs regulated by \u00a720.10.035 (supplemental use regulations); details not read",
+      "status": "Secondary",
+      "source": {
+        "id": "el-paso-20-10-035",
+        "title": "El Paso Code \u00a720.10.035 Accessory dwelling unit (ADU) (eLaws mirror)",
+        "url": "https://elpaso-tx.elaws.us/code/coor_title20_ch20.10_sec20.10.035",
+        "read": "2026-10-11",
+        "section": "20.10.035"
+      },
+      "note": "Seen only as a search-result extract; WebFetch/curl to this host failed from the research environment, full document not read."
+    },
+    "masonry": {
+      "value": "None",
+      "status": "Assumed",
+      "source": {
+        "id": "el-paso-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No masonry-percentage requirement found; Texas Gov. Code 3000 limits city material mandates anyway."
+    },
+    "trees": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "el-paso-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No residential tree-preservation rule found (landscaping rules in Title 18.46 apply mainly to non-residential)."
+    },
+    "other": [
+      {
+        "value": "Cumulative front + rear yard of 50 ft in R-3",
+        "status": "Secondary",
+        "source": {
+          "id": "el-paso-t20-appb",
+          "title": "El Paso Code Title 20 Zoning, Appendix B Table of Density and Dimensional Standards (eLaws mirror)",
+          "url": "https://elpaso-tx.elaws.us/code/coor_title20_appb",
+          "read": "2026-10-11",
+          "section": "Title 20 App. B, R-3 row"
+        },
+        "note": "Seen only as a search-result extract; WebFetch/curl to this host failed from the research environment, full document not read."
+      }
+    ]
+  },
+  "process": {
+    "steps": [
+      {
+        "value": "Submit residential plans with submittal fee deposit (credited to permit), plan review, permit issuance, inspections, certificate of occupancy",
+        "status": "Secondary",
+        "source": {
+          "id": "el-paso-jaspector",
+          "title": "Jaspector: El Paso, TX 2026 Building Permit Guide",
+          "url": "https://www.jaspector.com/permits/texas/el-paso/el-paso/",
+          "read": "2026-10-11"
+        }
+      }
+    ],
+    "sealsRequired": [
+      {
+        "value": "Engineer seal for non-prescriptive structural / foundation design",
+        "status": "Assumed",
+        "source": {
+          "id": "el-paso-assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Texas: engineer seal needed for engineered foundations/structural; not required for prescriptive IRC house plans. Local rule not verified."
+      }
+    ],
+    "inspections": [
+      {
+        "value": "Foundation, frame, rough MEP, insulation, final",
+        "status": "Assumed",
+        "source": {
+          "id": "el-paso-assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Typical IRC sequence assumed: foundation, framing, MEP rough, insulation/energy, final."
+      }
+    ],
+    "reviewDays": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "el-paso-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: residential plan review turnaround (web search budget exhausted and direct page fetch blocked in research environment)."
+    }
+  },
+  "fees": {
+    "permitFormula": {
+      "value": "New residential master permit fee = square footage x per-sq-ft rate from current FY Schedule C (tiered by size), plus technology fee",
+      "status": "Secondary",
+      "source": {
+        "id": "el-paso-18-02-106",
+        "title": "El Paso Code \u00a718.02.106 Permit fees (Municode)",
+        "url": "https://library.municode.com/tx/el_paso/codes/code_of_ordinances?nodeId=TIT18BUCO_CH18.02BUCOADCO_18.02.106PEFE_18.02.106.6VACOMAPE",
+        "read": "2026-10-11",
+        "section": "18.02.106"
+      },
+      "note": "\u00a718.02.106 text seen in search extract. Tiers seen: FY2024 shows 401-1,299 sf tier at about $0.87/sf; third party lists $0.72/sf (3,400-4,399) and $0.61/sf (4,400+). 2019 flat rate was $0.82/sf after HB 852 banned valuation-based residential fees."
+    },
+    "workedExample2400sqft": {
+      "value": 2258,
+      "status": "Assumed",
+      "source": {
+        "id": "el-paso-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "USD",
+      "note": "Assumed: 2,400 sf conditioned + 440 sf attached garage = 2,840 sf, assumed to fall in a 2,400-3,399 sf tier whose rate was not found; bracketed between $0.72 and $0.87/sf: 2,840 x 0.72 = $2,045; 2,840 x 0.87 = $2,471; midpoint ~$2,258. Excludes tech fee and trade permits. A third-party guide estimates only $800-1,400 for 2,000-3,000 sf, so verify against FY2026 Schedule C."
+    },
+    "planReview": {
+      "value": "$200 residential submittal fee deposit credited toward permit; expedited review +$200",
+      "status": "Secondary",
+      "source": {
+        "id": "el-paso-jaspector",
+        "title": "Jaspector: El Paso, TX 2026 Building Permit Guide",
+        "url": "https://www.jaspector.com/permits/texas/el-paso/el-paso/",
+        "read": "2026-10-11"
+      }
+    },
+    "impactFees": [
+      {
+        "value": 2070,
+        "status": "Secondary",
+        "source": {
+          "id": "el-paso-kvia-impact-2024",
+          "title": "KVIA: Homebuilders to pay more to extend water service in some new El Paso neighborhoods (2024-05-07)",
+          "url": "https://kvia.com/news/2024/05/07/homebuilders-to-pay-more-to-extend-water-service-in-some-new-el-paso-neighborhoods/",
+          "read": "2026-10-11"
+        },
+        "unit": "USD",
+        "note": "Water+wastewater impact fee, meter < 1 in, 2024 council-approved +28%: Northeast ~$1,880, Westside ~$2,031, Eastside ~$2,070. Applies only in those impact-fee service areas (not infill). Fee schedule is Appendix B to Ch. 15.22; current FY2026 table not read."
+      }
+    ],
+    "tapFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "el-paso-assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: El Paso Water tap/meter set fee for 3/4 in residential meter (web search budget exhausted and direct page fetch blocked in research environment)."
+      }
+    ]
+  },
+  "cost": {
+    "factor": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "cost-method",
+        "title": "See README cost method (filled by cost agent)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "PENDING_COST_AGENT"
+    },
+    "method": "PENDING_COST_AGENT",
+    "perSqFtMarket": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "el-paso-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "USD/sqft",
+      "note": "Not researched (search budget exhausted)."
+    },
+    "drivers": [
+      {
+        "value": "SDC C detailing; impact fees in NE/West/East growth areas; caliche and collapsible soils",
+        "status": "Assumed",
+        "source": {
+          "id": "el-paso-assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Seismic Design Category C detailing, impact fees in growth areas, stucco/masonry exterior norms, caliche/collapsible soils in some areas."
+      }
+    ]
+  },
+  "flood": {
+    "value": null,
+    "status": "Assumed",
+    "source": {
+      "id": "el-paso-assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Not found: El Paso floodplain ordinance freeboard (assume NFIP minimum lowest floor at BFE plus check city rule) (web search budget exhausted and direct page fetch blocked in research environment)."
+  },
+  "engineChanges": [
+    {
+      "id": "el-paso-setbacks-r3",
+      "ruleType": "setback-by-district",
+      "area": "setbacks",
+      "change": "When district is R-3: front 20 ft, interior side 5 ft, street side 10 ft, rear 20 ft and front+rear >= 50 ft",
+      "priority": "must",
+      "params": {
+        "district": "R-3",
+        "frontFt": 20,
+        "sideFt": 5,
+        "streetSideFt": 10,
+        "rearFt": 20,
+        "frontPlusRearMinFt": 50
+      },
+      "source": {
+        "id": "el-paso-t20-appb",
+        "title": "El Paso Code Title 20 Zoning, Appendix B Table of Density and Dimensional Standards (eLaws mirror)",
+        "url": "https://elpaso-tx.elaws.us/code/coor_title20_appb",
+        "read": "2026-10-11",
+        "section": "Title 20 App. B, R-3 row"
+      }
+    },
+    {
+      "id": "el-paso-lot-r3",
+      "ruleType": "lot-min-size",
+      "area": "survey",
+      "change": "R-3 lot minimum 6,000 sf, 60 ft average width, 90 ft depth; warn if lot smaller",
+      "priority": "should",
+      "params": {
+        "district": "R-3",
+        "minLotSqFt": 6000,
+        "minWidthFt": 60,
+        "minDepthFt": 90
+      },
+      "source": {
+        "id": "el-paso-t20-appb",
+        "title": "El Paso Code Title 20 Zoning, Appendix B Table of Density and Dimensional Standards (eLaws mirror)",
+        "url": "https://elpaso-tx.elaws.us/code/coor_title20_appb",
+        "read": "2026-10-11",
+        "section": "Title 20 App. B, R-3 row"
+      }
+    },
+    {
+      "id": "el-paso-height",
+      "ruleType": "height-limit",
+      "area": "massing",
+      "change": "Cap R-3 building height at 35 ft",
+      "priority": "must",
+      "params": {
+        "district": "R-3",
+        "maxHeightFt": 35
+      },
+      "source": {
+        "id": "el-paso-t20-appb",
+        "title": "El Paso Code Title 20 Zoning, Appendix B Table of Density and Dimensional Standards (eLaws mirror)",
+        "url": "https://elpaso-tx.elaws.us/code/coor_title20_appb",
+        "read": "2026-10-11",
+        "section": "Title 20 App. B, R-3 row"
+      }
+    },
+    {
+      "id": "el-paso-coverage",
+      "ruleType": "lot-coverage",
+      "area": "massing",
+      "change": "Max lot coverage 50% in R-3 (secondary source; verify)",
+      "priority": "should",
+      "params": {
+        "district": "R-3",
+        "maxCoverage": 0.5
+      },
+      "source": {
+        "id": "el-paso-propertyzoned-r3",
+        "title": "PropertyZoned: El Paso R-3 zone summary",
+        "url": "https://www.propertyzoned.com/city/texas/el-paso/zones/r-3",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "el-paso-sdc-c",
+      "ruleType": "seismic-category",
+      "area": "structure",
+      "change": "Set Seismic Design Category C; detached one-/two-family dwellings exempt from IRC R301.2.2 seismic provisions, but townhouse/attached products must apply SDC C seismic detailing",
+      "priority": "must",
+      "params": {
+        "seismicDesignCategory": "C",
+        "detachedExempt": true
+      },
+      "source": {
+        "id": "el-paso-18-10-050",
+        "title": "El Paso Code of Ordinances \u00a718.10.050 Section R301.2 Climatic and geographic design criteria, amended (eLaws mirror)",
+        "url": "http://elpaso-tx.elaws.us/code/coor_title18_ch18.10_sec18.10.050",
+        "read": "2026-10-11",
+        "section": "18.10.050 / IRC Table R301.2(1)"
+      }
+    },
+    {
+      "id": "el-paso-wind",
+      "ruleType": "wind-speed",
+      "area": "structure",
+      "change": "Design wind speed 115 mph (local table; 2015-era value, verify 2021 table)",
+      "priority": "should",
+      "params": {
+        "windMph": 115,
+        "exposure": "B or C per site"
+      },
+      "source": {
+        "id": "el-paso-18-10-050",
+        "title": "El Paso Code of Ordinances \u00a718.10.050 Section R301.2 Climatic and geographic design criteria, amended (eLaws mirror)",
+        "url": "http://elpaso-tx.elaws.us/code/coor_title18_ch18.10_sec18.10.050",
+        "read": "2026-10-11",
+        "section": "18.10.050 / IRC Table R301.2(1)"
+      }
+    },
+    {
+      "id": "el-paso-snow",
+      "ruleType": "other",
+      "area": "structure",
+      "change": "Ground snow load 5 psf (use IRC minimum roof live load 20 psf governs)",
+      "priority": "nice",
+      "params": {
+        "groundSnowPsf": 5
+      },
+      "source": {
+        "id": "el-paso-18-10-050",
+        "title": "El Paso Code of Ordinances \u00a718.10.050 Section R301.2 Climatic and geographic design criteria, amended (eLaws mirror)",
+        "url": "http://elpaso-tx.elaws.us/code/coor_title18_ch18.10_sec18.10.050",
+        "read": "2026-10-11",
+        "section": "18.10.050 / IRC Table R301.2(1)"
+      }
+    },
+    {
+      "id": "el-paso-frost",
+      "ruleType": "frost-depth",
+      "area": "foundation",
+      "change": "Footing depth = max(12 in IRC R403.1.4, 6 in local frost line) = 12 in below undisturbed grade",
+      "priority": "should",
+      "params": {
+        "frostDepthIn": 6,
+        "minFootingDepthIn": 12
+      },
+      "source": {
+        "id": "el-paso-18-10-050",
+        "title": "El Paso Code of Ordinances \u00a718.10.050 Section R301.2 Climatic and geographic design criteria, amended (eLaws mirror)",
+        "url": "http://elpaso-tx.elaws.us/code/coor_title18_ch18.10_sec18.10.050",
+        "read": "2026-10-11",
+        "section": "18.10.050 / IRC Table R301.2(1)"
+      }
+    },
+    {
+      "id": "el-paso-termite",
+      "ruleType": "other",
+      "area": "structure",
+      "change": "Termite: moderate to heavy - include termite protection (R318) on drawings",
+      "priority": "should",
+      "params": {
+        "termite": "moderate-to-heavy"
+      },
+      "source": {
+        "id": "el-paso-18-10-050",
+        "title": "El Paso Code of Ordinances \u00a718.10.050 Section R301.2 Climatic and geographic design criteria, amended (eLaws mirror)",
+        "url": "http://elpaso-tx.elaws.us/code/coor_title18_ch18.10_sec18.10.050",
+        "read": "2026-10-11",
+        "section": "18.10.050 / IRC Table R301.2(1)"
+      }
+    },
+    {
+      "id": "el-paso-cz",
+      "ruleType": "climate-zone-envelope",
+      "area": "envelope",
+      "change": "Use climate zone 3B envelope tables (2021 IRC N1102)",
+      "priority": "must",
+      "params": {
+        "climateZone": "3B",
+        "winterDesignTempF": 32
+      },
+      "source": {
+        "id": "el-paso-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "el-paso-no-sprinkler",
+      "ruleType": "fire-sprinkler",
+      "area": "plan",
+      "change": "Do not require residential fire sprinklers (R313 deleted locally)",
+      "priority": "should",
+      "params": {
+        "sprinklersRequired": false
+      },
+      "source": {
+        "id": "el-paso-2010-irc-ord",
+        "title": "El Paso ordinance adopting International Residential Code with local amendments (2010 council agenda item)",
+        "url": "https://www2.elpasotexas.gov/municipal-clerk/agenda/07-20-10/07201011B-c.pdf",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "el-paso-impact",
+      "ruleType": "impact-fee-estimate",
+      "area": "estimate",
+      "change": "Add El Paso Water impact fee ~$1,880-2,070 for 3/4 in meter when lot is in Northeast/Westside/Eastside impact-fee service area; $0 elsewhere",
+      "priority": "should",
+      "params": {
+        "lowUSD": 1880,
+        "highUSD": 2070,
+        "meterIn": 0.75,
+        "areas": [
+          "Northeast",
+          "Westside",
+          "Eastside"
+        ]
+      },
+      "source": {
+        "id": "el-paso-kvia-impact-2024",
+        "title": "KVIA: Homebuilders to pay more to extend water service in some new El Paso neighborhoods (2024-05-07)",
+        "url": "https://kvia.com/news/2024/05/07/homebuilders-to-pay-more-to-extend-water-service-in-some-new-el-paso-neighborhoods/",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "el-paso-permit-fee",
+      "ruleType": "permit-fee-formula",
+      "area": "estimate",
+      "change": "Permit fee = total sq ft x Schedule C tier rate (~$0.72-0.87/sf) + tech fee; not valuation",
+      "priority": "should",
+      "params": {
+        "rateLowPerSqFt": 0.72,
+        "rateHighPerSqFt": 0.87,
+        "basis": "square footage"
+      },
+      "source": {
+        "id": "el-paso-18-02-106",
+        "title": "El Paso Code \u00a718.02.106 Permit fees (Municode)",
+        "url": "https://library.municode.com/tx/el_paso/codes/code_of_ordinances?nodeId=TIT18BUCO_CH18.02BUCOADCO_18.02.106PEFE_18.02.106.6VACOMAPE",
+        "read": "2026-10-11",
+        "section": "18.02.106"
+      }
+    }
+  ],
+  "plainLanguage": "El Paso builds homes under the 2021 International Residential Code with local changes. El Paso is mapped in a moderate earthquake zone (Seismic Design Category C); a detached single-family house is exempt from the extra IRC earthquake rules, but attached townhomes are not. Design wind is 115 mph, snow load is tiny (5 psf), and frost depth is shallow; footings still go at least 12 inches down. In the common R-3 district, keep the house 20 ft from the front, 5 ft from each side and 20 ft from the back, and front plus back yards together must be at least 50 ft. Height is limited to 35 ft and lot coverage to about half the lot. Permit fees are set by square footage, not value. In newer areas on the Northeast, Westside and Eastside, El Paso Water charges an impact fee of about $1,900-2,100 for a normal house meter. Home fire sprinklers are not required.",
+  "openQuestions": [
+    "Confirm 2021 Chapter 18.10 ordinance number, effective date and whether Table R301.2(1) values changed from the 2015-era table (wind 115, SDC C, frost 6 in).",
+    "Confirm R-3 max height (35 vs 40 ft) and lot coverage (50%) against App. B.",
+    "Get FY2026 Schedule C per-sq-ft tier for 2,400-3,399 sf and whether garage area counts.",
+    "Floodplain freeboard rule.",
+    "Plumbing/electrical/energy code editions."
+  ],
+  "notFound": [
+    "2021 IRC adoption ordinance number/date",
+    "FY2026 permit fee tier rate",
+    "Floodplain freeboard",
+    "Plumbing, electrical, mechanical, fuel gas editions",
+    "Tap fees",
+    "Market cost per sq ft",
+    "Review times"
+  ],
+  "comparison": {
+    "irc": "2021 IRC (secondary)",
+    "energy": "2021 IRC Ch.11 (assumed)",
+    "plumbing": "not found",
+    "district": "R-3",
+    "setbacks": "20/5/20 (front+rear>=50)",
+    "maxHeight": "35 ft",
+    "coverageFar": "50% / no FAR",
+    "masonry": "none",
+    "engFoundation": "no local mandate found",
+    "windstorm": "no",
+    "flood": "not found",
+    "permitFeeExample": "~$2,258 (assumed tier)",
+    "impactFees": "$1,880-2,070 w+ww (growth areas)",
+    "costFactor": "PENDING"
+  }
+}

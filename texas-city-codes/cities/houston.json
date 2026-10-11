@@ -1,0 +1,1170 @@
+{
+ "id": "houston",
+ "name": "City of Houston",
+ "state": "TX",
+ "tier": 1,
+ "counties": [
+  "Harris",
+  "Fort Bend",
+  "Montgomery"
+ ],
+ "msa": {
+  "name": "Houston-Pasadena-The Woodlands, TX",
+  "blsCode": "26420"
+ },
+ "population": {
+  "value": 2314157,
+  "status": "Secondary",
+  "source": {
+   "id": "houston-census-qf",
+   "title": "U.S. Census Bureau QuickFacts: Houston city, Texas",
+   "url": "https://census.gov/quickfacts/fact/table/houstoncitytexas,US/RHI225220",
+   "read": "2026-10-11"
+  },
+  "note": "Census Vintage 2023 estimate (QuickFacts snippet; V2024 city cell showed NA in snippet). City Planning Dept July 1, 2024 estimate: 2,333,346 (+/-1%)."
+ },
+ "zipCodesOrBoundary": {
+  "value": "City limits: use City of Houston Planning & Development city-limits/GIS map; ZIP list not compiled",
+  "status": "Assumed",
+  "source": {
+   "id": "assumed",
+   "title": "Assumed - no official ZIP list fetched",
+   "url": "",
+   "read": "2026-10-11"
+  },
+  "note": "Not found: city-limit map not reachable in this environment. Many Houston-addressed ZIPs are outside city limits (ETJ / MUDs) - engine should confirm city-limits status by address."
+ },
+ "climateZone": {
+  "value": "2A",
+  "status": "Assumed",
+  "source": {
+   "id": "assumed",
+   "title": "Assumed - IECC county list from background knowledge",
+   "url": "",
+   "read": "2026-10-11"
+  },
+  "note": "2021 IECC Table R301.1 places Harris, Fort Bend and Montgomery counties in 2A (hot-humid); not re-fetched this session."
+ },
+ "windstormCounty": {
+  "value": false,
+  "status": "Secondary",
+  "source": {
+   "id": "tdi-wind-harris",
+   "title": "TDI windstorm designated catastrophe area map - Harris County",
+   "url": "https://tdi.texas.gov/wind/maps/harris.html",
+   "read": "2026-10-11"
+  },
+  "note": "TDI catastrophe area in Harris County is only east of SH 146 within Seabrook, La Porte, Shoreacres, Pasadena and Morgan's Point - not City of Houston proper."
+ },
+ "codes": {
+  "irc": {
+   "edition": {
+    "value": "2021 IRC with Houston Amendments (Houston Residential Code)",
+    "status": "Secondary",
+    "source": {
+     "id": "houston-irc-amend-2021",
+     "title": "Houston Amendments to the 2021 International Residential Code for One- and Two-Family Dwellings",
+     "url": "https://www.houstonpermittingcenter.org/media/9056/download",
+     "read": "2026-10-11"
+    },
+    "note": "Adopted Oct 25, 2023; effective Jan 1, 2024 per amendments document (ICC release says Jan 2, 2024). Direct page fetch blocked in research environment (WebFetch DNS failure / proxy 403); value taken from search-result snippet of this document."
+   },
+   "ordinance": {
+    "value": "Ord. No. 2023-907 (snippet text read '2023-9071', trailing 1 likely a footnote marker), passed 2023-10-25",
+    "status": "Secondary",
+    "source": {
+     "id": "houston-irc-amend-2021",
+     "title": "Houston Amendments to the 2021 International Residential Code for One- and Two-Family Dwellings",
+     "url": "https://www.houstonpermittingcenter.org/media/9056/download",
+     "read": "2026-10-11"
+    },
+    "note": "Direct page fetch blocked in research environment (WebFetch DNS failure / proxy 403); value taken from search-result snippet of this document."
+   },
+   "amendments": [
+    {
+     "topic": "egress",
+     "summary": "Local changes to emergency escape and rescue opening requirements (R310).",
+     "section": "R310 (per city presentation)",
+     "status": "Secondary",
+     "source": {
+      "id": "houston-code-modernization-2023",
+      "title": "Houston Construction Code Modernization 2021 Building Code Adoption (TTI committee 2023-08-24)",
+      "url": "https://311.houstontx.gov/council/committees/tti/20230824/Houston-Construction-Code-Modernization-2021-Building-Code-Adoption.pdf",
+      "read": "2026-10-11"
+     },
+     "note": "Direct page fetch blocked in research environment (WebFetch DNS failure / proxy 403); value taken from search-result snippet of this document."
+    },
+    {
+     "topic": "other",
+     "summary": "New requirements for exterior deck guards.",
+     "section": "R312 / R507 area (exact clause not read)",
+     "status": "Secondary",
+     "source": {
+      "id": "houston-code-modernization-2023",
+      "title": "Houston Construction Code Modernization 2021 Building Code Adoption (TTI committee 2023-08-24)",
+      "url": "https://311.houstontx.gov/council/committees/tti/20230824/Houston-Construction-Code-Modernization-2021-Building-Code-Adoption.pdf",
+      "read": "2026-10-11"
+     },
+     "note": "Direct page fetch blocked in research environment (WebFetch DNS failure / proxy 403); value taken from search-result snippet of this document."
+    },
+    {
+     "topic": "other",
+     "summary": "Rules for shipping containers used as buildings.",
+     "section": "not read",
+     "status": "Secondary",
+     "source": {
+      "id": "houston-code-modernization-2023",
+      "title": "Houston Construction Code Modernization 2021 Building Code Adoption (TTI committee 2023-08-24)",
+      "url": "https://311.houstontx.gov/council/committees/tti/20230824/Houston-Construction-Code-Modernization-2021-Building-Code-Adoption.pdf",
+      "read": "2026-10-11"
+     }
+    },
+    {
+     "topic": "other",
+     "summary": "IRC Part VIII Electrical (Ch. 34-43) NOT adopted; all electrical work follows the Houston Electrical Code.",
+     "section": "Part VIII",
+     "status": "Secondary",
+     "source": {
+      "id": "houston-irc-amend-2021",
+      "title": "Houston Amendments to the 2021 International Residential Code for One- and Two-Family Dwellings",
+      "url": "https://www.houstonpermittingcenter.org/media/9056/download",
+      "read": "2026-10-11"
+     },
+     "note": "Direct page fetch blocked in research environment (WebFetch DNS failure / proxy 403); value taken from search-result snippet of this document."
+    },
+    {
+     "topic": "other",
+     "summary": "Appendices A, B, C, H, K, L, M, Q, T, U and V adopted as part of the code.",
+     "section": "Appendices",
+     "status": "Secondary",
+     "source": {
+      "id": "houston-irc-amend-2021",
+      "title": "Houston Amendments to the 2021 International Residential Code for One- and Two-Family Dwellings",
+      "url": "https://www.houstonpermittingcenter.org/media/9056/download",
+      "read": "2026-10-11"
+     },
+     "note": "Direct page fetch blocked in research environment (WebFetch DNS failure / proxy 403); value taken from search-result snippet of this document."
+    },
+    {
+     "topic": "other",
+     "summary": "Ultimate design wind speed is set by entering the property's physical address (address lookup), not a single citywide value.",
+     "section": "Table R301.2(1) / R301.2.1",
+     "status": "Secondary",
+     "source": {
+      "id": "houston-irc-amend-2021",
+      "title": "Houston Amendments to the 2021 International Residential Code for One- and Two-Family Dwellings",
+      "url": "https://www.houstonpermittingcenter.org/media/9056/download",
+      "read": "2026-10-11"
+     },
+     "note": "Direct page fetch blocked in research environment (WebFetch DNS failure / proxy 403); value taken from search-result snippet of this document."
+    },
+    {
+     "topic": "foundation",
+     "summary": "Foundations require a Texas engineer's seal (Residential Master Plan page: plans need not be professionally drafted except engineer's seal required for foundations, prefab trusses, metal/CMU structures, engineered lumber/beams).",
+     "section": "HPC residential plan review guidance",
+     "status": "Secondary",
+     "source": {
+      "id": "houston-res-master-plan",
+      "title": "Residential Master Plan (Houston Permitting Center)",
+      "url": "https://www.houstonpermittingcenter.org/node/816",
+      "read": "2026-10-11"
+     }
+    },
+    {
+     "topic": "other",
+     "summary": "A foundation (form) survey is required at the first structural inspection for all new construction and footprint additions (slab-on-grade and pier-and-beam).",
+     "section": "HPC new SFR prerequisites",
+     "status": "Secondary",
+     "source": {
+      "id": "houston-sfr-checklist",
+      "title": "Prerequisite checklist for new single-family plans (CE-1301)",
+      "url": "https://www.houstonpermittingcenter.org/media/1786/download",
+      "read": "2026-10-11"
+     }
+    }
+   ]
+  },
+  "energy": {
+   "edition": {
+    "value": "2021 IECC with Houston amendments; Appendix RB (solar-ready) mandatory, Appendix RD (EV-ready) optional",
+    "status": "Secondary",
+    "source": {
+     "id": "houston-green-bldg-energybot",
+     "title": "City of Houston - Residential and Commercial Green Building Requirements",
+     "url": "https://energybot.com/incentives/texas/city-of-houston-residential-and-commercial-green-building-requirements-5593.html",
+     "read": "2026-10-11"
+    },
+    "note": "Adopted Oct 2023, effective early 2024 (also ICC release). Prior rule: new homes 15% better than 2009 IECC (2014 ord)."
+   },
+   "stretchCode": {
+    "value": "No separate stretch code; Appendix RB solar-ready made mandatory",
+    "status": "Secondary",
+    "source": {
+     "id": "houston-green-bldg-energybot",
+     "title": "City of Houston - Residential and Commercial Green Building Requirements",
+     "url": "https://energybot.com/incentives/texas/city-of-houston-residential-and-commercial-green-building-requirements-5593.html",
+     "read": "2026-10-11"
+    }
+   },
+   "ordinance": {
+    "value": "Adopted with the 2021 code package, Oct 25, 2023",
+    "status": "Secondary",
+    "source": {
+     "id": "houston-icc-news-2023",
+     "title": "Houston's City Council approves adoption of the 2021 International Codes",
+     "url": "https://www.iccsafe.org/about/periodicals-and-newsroom/houstons-city-council-approves-adoption-of-the-2021-international-codes/",
+     "read": "2026-10-11"
+    }
+   }
+  },
+  "plumbing": {
+   "value": "UPC 2021 (Houston Plumbing Code)",
+   "status": "Secondary",
+   "source": {
+    "id": "houston-iapmo-upc-2023",
+    "title": "Houston adopts 2021 UPC and UMC (IAPMO release 2023-10-26)",
+    "url": "https://www.iapmo.org:443/media/31938/2023-10-26-houston-adopts-2021-upc-umc.pdf",
+    "read": "2026-10-11"
+   },
+   "note": "Houston has used Uniform codes since 1985; 2021 UPC & UMC effective Jan 2, 2024."
+  },
+  "electrical": {
+   "value": "NEC 2023 (Houston Electrical Code)",
+   "status": "Secondary",
+   "source": {
+    "id": "houston-code-interp-adopted",
+    "title": "City of Houston Building Code Enforcement code interpretation document listing adopted codes",
+    "url": "https://www.houstonpermittingcenter.org/media/8551/download",
+    "read": "2026-10-11"
+   },
+   "note": "Listed in a city code-interpretation document; adoption ordinance not read. IRC Part VIII not adopted."
+  },
+  "mechanical": {
+   "value": "UMC 2021",
+   "status": "Secondary",
+   "source": {
+    "id": "houston-iapmo-upc-2023",
+    "title": "Houston adopts 2021 UPC and UMC (IAPMO release 2023-10-26)",
+    "url": "https://www.iapmo.org:443/media/31938/2023-10-26-houston-adopts-2021-upc-umc.pdf",
+    "read": "2026-10-11"
+   }
+  },
+  "fuelGas": {
+   "value": "Fuel gas per 2021 UPC/UMC (Uniform codes) - IFGC adoption not confirmed",
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed - Uniform codes cover fuel gas piping",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not confirmed which fuel-gas code Houston uses for IRC dwellings."
+  },
+  "fire": {
+   "value": "2021 IFC adopted (Houston Fire Code); no mandatory one/two-family sprinkler rule found",
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed - Texas cities generally may not mandate SFR sprinklers",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "ICC release confirms 2021 IFC adoption; IRC R313 status in Houston amendments not read."
+  },
+  "wind": {
+   "value": "Address-based lookup required by Houston amendment; roughly 130-140 mph Vult (ASCE 7-16, Risk Cat. II) across Houston",
+   "status": "Assumed",
+   "source": {
+    "id": "houston-irc-amend-2021",
+    "title": "Houston Amendments to the 2021 International Residential Code for One- and Two-Family Dwellings",
+    "url": "https://www.houstonpermittingcenter.org/media/9056/download",
+    "read": "2026-10-11"
+   },
+   "note": "Houston amendment says use the property's physical address; numeric range is background estimate - engine must look up by address."
+  },
+  "hailRoofing": {
+   "value": "No local hail/impact-resistant roofing mandate found",
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed - nothing found",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found."
+  },
+  "seismic": {
+   "value": "SDC A",
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed - Gulf Coast Texas low seismicity",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not read from Houston table."
+  },
+  "frostDepth": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed - Houston R301.2(1) values not read",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "unit": "in",
+   "note": "Not found; frost negligible on Gulf Coast - use IRC R403.1.4 minimum 12 in footing embedment below undisturbed ground."
+  }
+ },
+ "zoning": {
+  "hasZoning": {
+   "value": false,
+   "status": "Secondary",
+   "source": {
+    "id": "houston-ch42-faq",
+    "title": "Proposed Amendments to Chapter 42 of the Code of Ordinances - FAQ",
+    "url": "https://www.houstontx.gov/planning/DevelopRegs/docs_pdfs/chapter42-faq-v2.doc",
+    "read": "2026-10-11"
+   },
+   "note": "Houston has no zoning; lot size, building lines and open space are controlled by Chapter 42 (subdivision/development ordinance) plus private deed restrictions, which the City enforces."
+  },
+  "typicalDistrict": {
+   "value": "No zoning - Chapter 42 single-family lot on a local street (inside city limits)",
+   "status": "Secondary",
+   "source": {
+    "id": "houston-ch42-faq",
+    "title": "Proposed Amendments to Chapter 42 of the Code of Ordinances - FAQ",
+    "url": "https://www.houstontx.gov/planning/DevelopRegs/docs_pdfs/chapter42-faq-v2.doc",
+    "read": "2026-10-11"
+   }
+  },
+  "minLotSqFt": {
+   "value": 5000,
+   "status": "Secondary",
+   "source": {
+    "id": "houston-ch42-faq",
+    "title": "Proposed Amendments to Chapter 42 of the Code of Ordinances - FAQ",
+    "url": "https://www.houstontx.gov/planning/DevelopRegs/docs_pdfs/chapter42-faq-v2.doc",
+    "read": "2026-10-11"
+   },
+   "unit": "sqft",
+   "note": "Standard lot 5,000 sq ft (suburban area) / 3,500 sq ft (urban area); smaller lots down to 1,400 sq ft (average) allowed with compensating open space or density+lot-coverage limits. Urban/suburban boundary and current figures not read in the ordinance itself."
+  },
+  "minLotWidthFt": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed - not found",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found in snippets; Chapter 42 lot frontage may be public street, permanent access easement or shared driveway."
+  },
+  "minLotDepthFt": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed - not found",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found."
+  },
+  "setbacksFt": {
+   "front": {
+    "value": 20,
+    "status": "Secondary",
+    "source": {
+     "id": "houston-ch42-municode-div3",
+     "title": "Houston Code of Ordinances Ch. 42 Art. III Div. 3 Building Lines (Municode)",
+     "url": "https://library.municode.com/tx/houston/codes/code_of_ordinances/312514?nodeId=COOR_CH42SUDEPL_ARTIIIPLST_DIV3BULI_SDAGEREBULI",
+     "read": "2026-10-11"
+    },
+    "unit": "ft",
+    "note": "Ch. 42 building line, local street, single-family: 20 ft (Sec. 42-150 table / 42-156). Optional 10 ft principal-structure line under Sec. 42-157 performance standards, with street-facing garage/carport line 17 ft (older text) -> 19 ft (2023 Livable Places amendment / 2024 plat note); GHBA summary says garage line min 20 ft for some lots. Major thoroughfare: 25 ft. Recorded plat and deed restrictions control if greater."
+   },
+   "side": {
+    "value": 0,
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed - Chapter 42 sets no side building line",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "unit": "ft",
+    "note": "No side setback in Ch. 42; apply IRC R302.1 fire-separation (exterior wall <5 ft from lot line needs 1-hr rating) and any deed restriction/plat."
+   },
+   "streetSide": {
+    "value": null,
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed - corner-lot rule not read",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "unit": "ft",
+    "note": "Not found; Ch. 42 has building lines on each street frontage - engine should ask (default 10 ft on local street side)."
+   },
+   "rear": {
+    "value": 0,
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed - Chapter 42 sets no rear building line on internal lots",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "unit": "ft",
+    "note": "Except lots backing a major thoroughfare (10 ft if 42-152(b) met). Apply IRC R302.1 and deed restrictions."
+   }
+  },
+  "maxHeightFt": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed - no zoning height limit",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "No citywide height limit for SFR; deed restrictions or historic districts may limit. IRC limits to 3 stories above grade plane."
+  },
+  "maxStories": {
+   "value": 3,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed - IRC scope limit",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "IRC R101.2 scope: up to 3 stories above grade plane."
+  },
+  "maxLotCoverage": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed - no zoning",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "unit": "fraction",
+   "note": "No citywide limit; lot-coverage caps apply only when using the urban compensating-open-space alternative on small lots (density 27 du/acre option)."
+  },
+  "imperviousCover": {
+   "value": "No cap; added impervious cover triggers drainage impact fee (1 SU = 1,000 sq ft) and possibly detention per Infrastructure Design Manual",
+   "status": "Secondary",
+   "source": {
+    "id": "houston-drainage-impact-study",
+    "title": "Drainage Impact Fee Study (BFA committee 2023-03-07)",
+    "url": "https://311.houstontx.gov/council/committees/bfacommittee/20230307/Drainage-Impact-Fee-Study.pdf",
+    "read": "2026-10-11"
+   }
+  },
+  "far": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed - no zoning",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "No FAR."
+  },
+  "parking": {
+   "value": "Chapter 26 off-street parking: commonly 2 spaces per single-family dwelling (2023 Livable Places changes reduced some small-lot requirements)",
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed - Chapter 26 not read",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not verified this session."
+  },
+  "garageRules": {
+   "value": "Street-facing garage/carport building line 19 ft on local/collector streets when using the 10 ft principal-structure line (Sec. 42-157(b)); at least 1/3 of street-facing width must be occupiable space when garage faces street; one driveway approach max 12 ft wide on narrow lots (2023 amendment summary)",
+   "status": "Secondary",
+   "source": {
+    "id": "houston-ord-note-2024",
+    "title": "City of Houston Planning and Development Department plat notes (October 23, 2024)",
+    "url": "https://www.houstontx.gov/planning/DevelopRegs/docs_pdfs/ORD_NOTE.pdf",
+    "read": "2026-10-11"
+   },
+   "note": "Combined from 2024 plat-note doc, Sec. 42-157(b)(3) snippet, and GHBA summary; exact current text not read."
+  },
+  "adu": {
+   "value": "ADUs allowed (no zoning); deed restrictions often prohibit; secondary units subject to Ch. 42 and building code",
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed - no zoning, typical practice",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not verified."
+  },
+  "masonry": {
+   "value": "No city masonry requirement; Texas Gov. Code ch. 3000 (HB 2439, 2019) bars cities from mandating building materials for residences; deed restrictions may still require masonry",
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed - state law background",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Deed restrictions are private and not preempted."
+  },
+  "trees": {
+   "value": "Chapter 33 street-tree / tree-preservation rules apply mainly to public right-of-way and new development; not read",
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed - not read",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not verified."
+  },
+  "other": [
+   {
+    "value": "Private deed restrictions (setbacks, lot use, fences, sometimes masonry/height) are enforceable by the City Legal Department under Tex. Local Gov't Code ch. 212 and Houston Code Ch. 10 Art. XV Secs. 10-551 to 10-555; applicant signs a Deed Restriction Compliance Affidavit",
+    "status": "Secondary",
+    "source": {
+     "id": "houston-legal-deed",
+     "title": "City of Houston Legal Department - Deed Restrictions",
+     "url": "https://houstontx.gov/legal/deed.html",
+     "read": "2026-10-11"
+    }
+   },
+   {
+    "value": "Special minimum lot size / special building line areas can be designated by petition (e.g., protect existing neighborhood lot sizes)",
+    "status": "Secondary",
+    "source": {
+     "id": "houston-ch42-faq",
+     "title": "Proposed Amendments to Chapter 42 of the Code of Ordinances - FAQ",
+     "url": "https://www.houstontx.gov/planning/DevelopRegs/docs_pdfs/chapter42-faq-v2.doc",
+     "read": "2026-10-11"
+    }
+   },
+   {
+    "value": "Historic districts (Ch. 33 Art. VII) impose design review - not researched",
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed - not researched",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "note": "Not found."
+   }
+  ]
+ },
+ "process": {
+  "steps": [
+   {
+    "value": "Confirm city-limits vs ETJ, plat building lines and deed restrictions; sign Deed Restriction Compliance Affidavit",
+    "status": "Secondary",
+    "source": {
+     "id": "houston-dr-affidavit",
+     "title": "Deed Restriction Compliance Affidavit Form",
+     "url": "https://311.houstontx.gov/planning/Forms/devregs/Deed-Restriction-Compliance-Affidavit-Form.pdf",
+     "read": "2026-10-11"
+    }
+   },
+   {
+    "value": "Submit 'New Single Family or New Duplex Homes' application via iPermits with full construction plan set (no 'Preliminary' sheets) and CE-1301 prerequisite checklist",
+    "status": "Secondary",
+    "source": {
+     "id": "houston-sfr-checklist",
+     "title": "Prerequisite checklist for new single-family plans (CE-1301)",
+     "url": "https://www.houstonpermittingcenter.org/media/1786/download",
+     "read": "2026-10-11"
+    }
+   },
+   {
+    "value": "Site plan / Ch. 42 compliance review and floodplain review (Ch. 19) as applicable; impact fee and wastewater capacity reservation",
+    "status": "Secondary",
+    "source": {
+     "id": "houston-impact-fee-admin-2025",
+     "title": "Impact fee administration / Wastewater Capacity Reservation application process (presentation)",
+     "url": "https://www.houstonpermittingcenter.org/sites/g/files/nwywnm431/files/2025-11/Pro%20-%20Session%204%20%20-%20Rm%20GH%20-%20IDS_Impact%20fee%20administration_%20Wastewater%20Capacity%20Reservation%20Application%20Process.pdf",
+     "read": "2026-10-11"
+    }
+   },
+   {
+    "value": "Multi-business-unit plan review (structural, energy, plumbing, etc.); 2025 pilot targets permit issue within 30 business days in three review cycles",
+    "status": "Secondary",
+    "source": {
+     "id": "houston-30day-pilot",
+     "title": "Houston gets building: Mayor Whitmire launches 30-day residential permit pilot program",
+     "url": "https://abc17news.com/news/2025/07/25/houston-gets-building-mayor-whitmire-launches-30-day-residential-permit-pilot-program-with-bold-optimism-2/",
+     "read": "2026-10-11"
+    }
+   }
+  ],
+  "sealsRequired": [
+   {
+    "value": "Texas PE seal on foundation design (also prefab trusses, engineered lumber/beams, metal/CMU structures)",
+    "status": "Secondary",
+    "source": {
+     "id": "houston-res-master-plan",
+     "title": "Residential Master Plan (Houston Permitting Center)",
+     "url": "https://www.houstonpermittingcenter.org/node/816",
+     "read": "2026-10-11"
+    }
+   }
+  ],
+  "inspections": [
+   {
+    "value": "Foundation (form) survey due at first structural inspection; standard IRC sequence (foundation, framing, MEP rough, insulation/energy, final)",
+    "status": "Secondary",
+    "source": {
+     "id": "houston-sfr-checklist",
+     "title": "Prerequisite checklist for new single-family plans (CE-1301)",
+     "url": "https://www.houstonpermittingcenter.org/media/1786/download",
+     "read": "2026-10-11"
+    }
+   },
+   {
+    "value": "Elevation certificate in mapped floodplain (Ch. 19)",
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed - standard NFIP practice",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "note": "Not read in Ch. 19 text."
+   }
+  ],
+  "reviewDays": {
+   "value": 31,
+   "status": "Secondary",
+   "source": {
+    "id": "houston-express-review-2019",
+    "title": "Express Plan Review Amendment (TTI 2019-10-23)",
+    "url": "https://311.houstontx.gov/council/committees/tti/20191023/Express-Plan-Review-Amendment.pdf",
+    "read": "2026-10-11"
+   },
+   "unit": "days",
+   "note": "2019 12-month average permitting-center review for ground-up SFR (plus ~60 days consultant time); 2025 pilot targets 30 business days total."
+  }
+ },
+ "fees": {
+  "permitFormula": {
+   "value": "Square-foot tiers by construction type for 1- and 2-family dwellings (base charge per tier + increment per added sq ft), plus $33.56 non-refundable admin fee; minimum permit $91.06; reinspection $94.00 (2026 schedule, CPI +1.391%)",
+   "status": "Secondary",
+   "source": {
+    "id": "houston-fee-schedule-2026",
+    "title": "2026 Permit Fee Schedule - Building Code Enforcement",
+    "url": "https://www.houstonpermittingcenter.org/media/2636/download",
+    "read": "2026-10-11"
+   },
+   "note": "Tier dollar amounts could not be read (PDF not fetchable; snippets fragmentary: e.g. Type IB Tier 3 base $815.07). Separate trade permits (plumbing, electrical, mechanical) and plan review fees apply."
+  },
+  "workedExample2400sqft": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed - tier amounts not read",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "unit": "USD",
+   "note": "Could not compute: 2,400 sq ft conditioned + 440 sq ft attached garage (assumption) falls in a residential sq-ft tier of the 2026 BCE schedule whose amounts were not readable. Known adders: admin $33.56. Rough market estimate for total city building+trade permits only: Assumed $2,000-4,000; do not use as quote."
+  },
+  "planReview": {
+   "value": "Plan review fee per City fee schedule (amount not read)",
+   "status": "Secondary",
+   "source": {
+    "id": "houston-fee-notice-2026",
+    "title": "2026 fee increase notice",
+    "url": "https://www.houstonpermittingcenter.org/news-events/2026-fee-increase-notice",
+    "read": "2026-10-11"
+   }
+  },
+  "impactFees": [
+   {
+    "value": 2553.11,
+    "status": "Secondary",
+    "source": {
+     "id": "houston-impact-fee-2026",
+     "title": "Notice: Impact fees increase July 1, 2026",
+     "url": "https://www.houstonpermittingcenter.org/news-events/notice-impact-fees-increase-july-1-2026",
+     "read": "2026-10-11"
+    },
+    "unit": "USD/service unit",
+    "note": "Water impact fee per service unit for applications accepted after June 30, 2026 (Sec. 47-884; Ords 2023-200, 2021-388). A single-family home assumed = 1 service unit (Assumed; ~250 gpd). Only where City water serves the lot (not MUDs)."
+   },
+   {
+    "value": 1830.24,
+    "status": "Secondary",
+    "source": {
+     "id": "houston-impact-fee-2026",
+     "title": "Notice: Impact fees increase July 1, 2026",
+     "url": "https://www.houstonpermittingcenter.org/news-events/notice-impact-fees-increase-july-1-2026",
+     "read": "2026-10-11"
+    },
+    "unit": "USD/service unit",
+    "note": "Wastewater impact fee per service unit (same notice). Total water+ww for 1 SU = $4,383.35. Exemption exists for qualifying SFR up to 3,000 sq ft subject to sale-price condition (impact-fee admin presentation)."
+   },
+   {
+    "value": 25.56,
+    "status": "Secondary",
+    "source": {
+     "id": "houston-impact-fee-2026",
+     "title": "Notice: Impact fees increase July 1, 2026",
+     "url": "https://www.houstonpermittingcenter.org/news-events/notice-impact-fees-increase-july-1-2026",
+     "read": "2026-10-11"
+    },
+    "unit": "USD/service unit",
+    "note": "Drainage impact fee per SU; 1 SU = 1,000 sq ft added impervious (2023 study). Example: footprint ~1,640 sq ft (1,200 + 440 garage) + ~600 sq ft driveway = 2.24 SU x $25.56 = ~$57."
+   }
+  ],
+  "tapFees": [
+   {
+    "value": null,
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed - not found",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "note": "Not found: Houston Public Works water/sewer tap and meter charges (City-wide fee schedule cohweb.houstontx.gov) not readable."
+   }
+  ]
+ },
+ "cost": {
+  "factor": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "cost-method",
+    "title": "See README cost method (filled by cost agent)",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "PENDING_COST_AGENT"
+  },
+  "method": "PENDING_COST_AGENT",
+  "perSqFtMarket": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed - no public figure retrieved",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found: search budget exhausted before market cost lookup. Market figure, not a quote."
+  },
+  "drivers": [
+   {
+    "value": "Engineered foundation (PE-sealed slab, often post-tensioned) on expansive Gulf Coast clays",
+    "status": "Secondary",
+    "source": {
+     "id": "houston-res-master-plan",
+     "title": "Residential Master Plan (Houston Permitting Center)",
+     "url": "https://www.houstonpermittingcenter.org/node/816",
+     "read": "2026-10-11"
+    }
+   },
+   {
+    "value": "Floodplain elevation (500-yr + 2 ft) and no/low net fill in 100/500-yr floodplain raises foundation/pier cost",
+    "status": "Secondary",
+    "source": {
+     "id": "houston-freese-ch19",
+     "title": "New City of Houston Floodplain Regulations Post-Harvey",
+     "url": "https://www.freese.com/blog/new-city-of-houston-floodplain-regulations-post-harvey/",
+     "read": "2026-10-11"
+    }
+   },
+   {
+    "value": "Water+wastewater impact fees ~$4,383 per service unit where City utilities serve",
+    "status": "Secondary",
+    "source": {
+     "id": "houston-impact-fee-2026",
+     "title": "Notice: Impact fees increase July 1, 2026",
+     "url": "https://www.houstonpermittingcenter.org/news-events/notice-impact-fees-increase-july-1-2026",
+     "read": "2026-10-11"
+    }
+   },
+   {
+    "value": "Mandatory solar-ready (IECC Appendix RB) roof zone/conduit",
+    "status": "Secondary",
+    "source": {
+     "id": "houston-green-bldg-energybot",
+     "title": "City of Houston - Residential and Commercial Green Building Requirements",
+     "url": "https://energybot.com/incentives/texas/city-of-houston-residential-and-commercial-green-building-requirements-5593.html",
+     "read": "2026-10-11"
+    }
+   }
+  ]
+ },
+ "flood": {
+  "value": "Chapter 19 (rev. effective Sept 1, 2018): new homes and additions/expansions >=33% in the 100-yr or 500-yr floodplain must have lowest floor at 500-year flood elevation + 2 ft (previously 100-yr + 1 ft); no net fill in 100-yr floodplain, limited fill on small SFR lots in 500-yr floodplain",
+  "status": "Secondary",
+  "source": {
+   "id": "houston-texastribune-ch19",
+   "title": "Houston City Council approves changes to floodplain regulations in narrow vote",
+   "url": "https://www.texastribune.org/2018/04/04/houston-city-council-approves-changes-floodplain-regulations-narrow-vo",
+   "read": "2026-10-11"
+  },
+  "note": "Also: Freese & Nichols summary and 2018 council redline (snippets). Current Ch. 19 text not read; 2026 city notice says '2 ft above 500-yr where mandated by Chapter 19'."
+ },
+ "engineChanges": [
+  {
+   "id": "houston-no-zoning",
+   "ruleType": "no-zoning",
+   "area": "setbacks",
+   "change": "Disable district selection; use Chapter 42 building lines + plat + deed restrictions instead of zoning setbacks",
+   "priority": "must",
+   "params": {
+    "hasZoning": false,
+    "setbackSource": "chapter42+plat+deed"
+   },
+   "source": {
+    "id": "houston-ch42-faq",
+    "title": "Proposed Amendments to Chapter 42 of the Code of Ordinances - FAQ",
+    "url": "https://www.houstontx.gov/planning/DevelopRegs/docs_pdfs/chapter42-faq-v2.doc",
+    "read": "2026-10-11"
+   }
+  },
+  {
+   "id": "houston-front-building-line",
+   "ruleType": "building-line-plat",
+   "area": "setbacks",
+   "change": "Front building line 20 ft on local street (default); 25 ft on major thoroughfare; allow optional 10 ft principal-structure line only if user confirms Sec. 42-157 performance standards / plat shows it",
+   "priority": "must",
+   "params": {
+    "localStreetFt": 20,
+    "majorThoroughfareFt": 25,
+    "optionalPrincipalFt": 10,
+    "platOverrides": true
+   },
+   "source": {
+    "id": "houston-ch42-municode-div3",
+    "title": "Houston Code of Ordinances Ch. 42 Art. III Div. 3 Building Lines (Municode)",
+    "url": "https://library.municode.com/tx/houston/codes/code_of_ordinances/312514?nodeId=COOR_CH42SUDEPL_ARTIIIPLST_DIV3BULI_SDAGEREBULI",
+    "read": "2026-10-11"
+   }
+  },
+  {
+   "id": "houston-garage-line",
+   "ruleType": "garage-placement",
+   "area": "setbacks",
+   "change": "When 10 ft principal line is used, street-facing garage/carport face must be >= 19 ft from property line (use 20 ft to be conservative); >=1/3 of street frontage of building must be habitable; single driveway approach <= 12 ft on narrow lots",
+   "priority": "must",
+   "params": {
+    "garageFaceMinFt": 19,
+    "conservativeGarageFt": 20,
+    "minOccupiableFrontFraction": 0.333,
+    "maxDrivewayApproachFt": 12
+   },
+   "source": {
+    "id": "houston-ord-note-2024",
+    "title": "City of Houston Planning and Development Department plat notes (October 23, 2024)",
+    "url": "https://www.houstontx.gov/planning/DevelopRegs/docs_pdfs/ORD_NOTE.pdf",
+    "read": "2026-10-11"
+   }
+  },
+  {
+   "id": "houston-side-rear-fire-sep",
+   "ruleType": "setback-by-district",
+   "area": "setbacks",
+   "change": "No side/rear setback from city; enforce IRC R302.1 fire separation (rated wall/limited openings within 5 ft of lot line) and ask user for deed-restriction side/rear setbacks",
+   "priority": "should",
+   "params": {
+    "sideFt": 0,
+    "rearFt": 0,
+    "fireSeparationFt": 5
+   },
+   "source": {
+    "id": "assumed",
+    "title": "Assumed - Chapter 42 has no side/rear lines; IRC R302.1",
+    "url": "",
+    "read": "2026-10-11"
+   }
+  },
+  {
+   "id": "houston-lot-min",
+   "ruleType": "lot-min-size",
+   "area": "survey",
+   "change": "Lot min 5,000 sq ft standard (3,500 urban area); allow down to 1,400 sq ft only with compensating open space",
+   "priority": "should",
+   "params": {
+    "standardSqFt": 5000,
+    "urbanSqFt": 3500,
+    "smallLotMinSqFt": 1400,
+    "requiresCompensatingOpenSpace": true
+   },
+   "source": {
+    "id": "houston-ch42-faq",
+    "title": "Proposed Amendments to Chapter 42 of the Code of Ordinances - FAQ",
+    "url": "https://www.houstontx.gov/planning/DevelopRegs/docs_pdfs/chapter42-faq-v2.doc",
+    "read": "2026-10-11"
+   }
+  },
+  {
+   "id": "houston-deed-check",
+   "ruleType": "deed-restriction-check",
+   "area": "survey",
+   "change": "Prompt user for recorded deed restrictions/HOA rules (setbacks, single-family use, masonry, height, fences); they override Chapter 42 when stricter and the City enforces them; flag affidavit at permit",
+   "priority": "must",
+   "params": {
+    "requireDeedRestrictionInput": true,
+    "cityEnforces": true,
+    "affidavitRequired": true
+   },
+   "source": {
+    "id": "houston-legal-deed",
+    "title": "City of Houston Legal Department - Deed Restrictions",
+    "url": "https://houstontx.gov/legal/deed.html",
+    "read": "2026-10-11"
+   }
+  },
+  {
+   "id": "houston-flood-500yr-2ft",
+   "ruleType": "flood-elevation",
+   "area": "foundation",
+   "change": "If lot in 100-yr or 500-yr floodplain: lowest floor (and utilities) >= 500-yr flood elevation + 2 ft; prefer pier/beam or raised slab w/o net fill",
+   "priority": "must",
+   "params": {
+    "floodplains": [
+     "100yr",
+     "500yr"
+    ],
+    "reference": "500yrWSE",
+    "freeboardFt": 2,
+    "noNetFill100yr": true
+   },
+   "source": {
+    "id": "houston-texastribune-ch19",
+    "title": "Houston City Council approves changes to floodplain regulations in narrow vote",
+    "url": "https://www.texastribune.org/2018/04/04/houston-city-council-approves-changes-floodplain-regulations-narrow-vo",
+    "read": "2026-10-11"
+   }
+  },
+  {
+   "id": "houston-eng-foundation",
+   "ruleType": "engineered-foundation-flag",
+   "area": "foundation",
+   "change": "Flag foundation as requiring Texas PE-sealed design (expansive clay); add foundation (form) survey to inspection list",
+   "priority": "must",
+   "params": {
+    "peSealFoundation": true,
+    "formSurveyAtFirstInspection": true
+   },
+   "source": {
+    "id": "houston-res-master-plan",
+    "title": "Residential Master Plan (Houston Permitting Center)",
+    "url": "https://www.houstonpermittingcenter.org/node/816",
+    "read": "2026-10-11"
+   }
+  },
+  {
+   "id": "houston-sealed-trusses",
+   "ruleType": "sealed-drawings-required",
+   "area": "drawings",
+   "change": "Require sealed truss/engineered-lumber drawings and construction-ready (non-preliminary) plan set",
+   "priority": "should",
+   "params": {
+    "sealedTrusses": true,
+    "sealedEngineeredLumber": true
+   },
+   "source": {
+    "id": "houston-res-master-plan",
+    "title": "Residential Master Plan (Houston Permitting Center)",
+    "url": "https://www.houstonpermittingcenter.org/node/816",
+    "read": "2026-10-11"
+   }
+  },
+  {
+   "id": "houston-plumbing-upc",
+   "ruleType": "plumbing-code-variant",
+   "area": "drawings",
+   "change": "Use UPC 2021 (and UMC 2021) instead of IRC plumbing/mechanical chapters for fixture/venting/DWV sizing",
+   "priority": "must",
+   "params": {
+    "plumbing": "UPC 2021",
+    "mechanical": "UMC 2021"
+   },
+   "source": {
+    "id": "houston-iapmo-upc-2023",
+    "title": "Houston adopts 2021 UPC and UMC (IAPMO release 2023-10-26)",
+    "url": "https://www.iapmo.org:443/media/31938/2023-10-26-houston-adopts-2021-upc-umc.pdf",
+    "read": "2026-10-11"
+   }
+  },
+  {
+   "id": "houston-electrical-nec",
+   "ruleType": "electrical-code-edition",
+   "area": "drawings",
+   "change": "Electrical per NEC 2023 (Houston Electrical Code), not IRC Part VIII",
+   "priority": "should",
+   "params": {
+    "electrical": "NEC 2023",
+    "ircPartVIII": false
+   },
+   "source": {
+    "id": "houston-code-interp-adopted",
+    "title": "City of Houston Building Code Enforcement code interpretation document listing adopted codes",
+    "url": "https://www.houstonpermittingcenter.org/media/8551/download",
+    "read": "2026-10-11"
+   }
+  },
+  {
+   "id": "houston-energy-2a",
+   "ruleType": "climate-zone-envelope",
+   "area": "envelope",
+   "change": "2021 IECC climate zone 2A envelope + mandatory solar-ready zone (Appendix RB); offer EV-ready (Appendix RD) as option",
+   "priority": "must",
+   "params": {
+    "climateZone": "2A",
+    "iecc": "2021",
+    "solarReady": true,
+    "evReadyOptional": true
+   },
+   "source": {
+    "id": "houston-green-bldg-energybot",
+    "title": "City of Houston - Residential and Commercial Green Building Requirements",
+    "url": "https://energybot.com/incentives/texas/city-of-houston-residential-and-commercial-green-building-requirements-5593.html",
+    "read": "2026-10-11"
+   }
+  },
+  {
+   "id": "houston-wind-lookup",
+   "ruleType": "wind-speed",
+   "area": "structure",
+   "change": "Get Vult by address lookup (Houston amendment); default 140 mph Risk II if lookup unavailable",
+   "priority": "should",
+   "params": {
+    "method": "addressLookup",
+    "defaultVultMph": 140
+   },
+   "source": {
+    "id": "houston-irc-amend-2021",
+    "title": "Houston Amendments to the 2021 International Residential Code for One- and Two-Family Dwellings",
+    "url": "https://www.houstonpermittingcenter.org/media/9056/download",
+    "read": "2026-10-11"
+   }
+  },
+  {
+   "id": "houston-egress-deck",
+   "ruleType": "egress-stairs-variant",
+   "area": "plan",
+   "change": "Check Houston-amended egress opening (R310) and exterior deck guard rules before finalising bedrooms/decks",
+   "priority": "nice",
+   "params": {
+    "amendedSections": [
+     "R310",
+     "deck guards"
+    ]
+   },
+   "source": {
+    "id": "houston-code-modernization-2023",
+    "title": "Houston Construction Code Modernization 2021 Building Code Adoption (TTI committee 2023-08-24)",
+    "url": "https://311.houstontx.gov/council/committees/tti/20230824/Houston-Construction-Code-Modernization-2021-Building-Code-Adoption.pdf",
+    "read": "2026-10-11"
+   }
+  },
+  {
+   "id": "houston-impact-fees",
+   "ruleType": "impact-fee-estimate",
+   "area": "estimate",
+   "change": "Add water $2,553.11 + wastewater $1,830.24 per service unit (1 SU for SFR) when City utilities serve; drainage $25.56 per 1,000 sq ft added impervious; skip if MUD-served",
+   "priority": "must",
+   "params": {
+    "waterPerSU": 2553.11,
+    "wastewaterPerSU": 1830.24,
+    "drainagePer1000SqFtImpervious": 25.56,
+    "sfrServiceUnits": 1,
+    "effective": "2026-07-01"
+   },
+   "source": {
+    "id": "houston-impact-fee-2026",
+    "title": "Notice: Impact fees increase July 1, 2026",
+    "url": "https://www.houstonpermittingcenter.org/news-events/notice-impact-fees-increase-july-1-2026",
+    "read": "2026-10-11"
+   }
+  },
+  {
+   "id": "houston-permit-fee",
+   "ruleType": "permit-fee-formula",
+   "area": "estimate",
+   "change": "Permit fee = residential sq-ft tier (2026 BCE schedule) + $33.56 admin; min $91.06; plus trade permits and plan review",
+   "priority": "should",
+   "params": {
+    "adminFee": 33.56,
+    "minPermit": 91.06,
+    "reinspection": 94.0,
+    "tierAmounts": null
+   },
+   "source": {
+    "id": "houston-fee-schedule-2026",
+    "title": "2026 Permit Fee Schedule - Building Code Enforcement",
+    "url": "https://www.houstonpermittingcenter.org/media/2636/download",
+    "read": "2026-10-11"
+   }
+  },
+  {
+   "id": "houston-not-windstorm",
+   "ruleType": "windstorm-package",
+   "area": "structure",
+   "change": "Do NOT apply TDI windstorm package inside City of Houston (catastrophe area only east of SH 146 in Seabrook/La Porte/Shoreacres/Pasadena/Morgan's Point)",
+   "priority": "should",
+   "params": {
+    "windstorm": false
+   },
+   "source": {
+    "id": "tdi-wind-harris",
+    "title": "TDI windstorm designated catastrophe area map - Harris County",
+    "url": "https://tdi.texas.gov/wind/maps/harris.html",
+    "read": "2026-10-11"
+   }
+  }
+ ],
+ "plainLanguage": "Houston has no zoning, so there is no district to pick. Instead, Chapter 42 sets 'building lines' - usually 20 ft from the front property line on a neighborhood street (25 ft on a big road); on many newer small-lot plats the house can sit 10 ft back but a street-facing garage must be about 19-20 ft back. There are no city side or rear setbacks, but fire-safety rules apply within 5 ft of a lot line. Your deed restrictions or HOA rules often add setbacks, masonry or height limits, and the City itself enforces them - check your deed before designing. If your lot is in the 100- or 500-year floodplain, the first floor must be 2 ft above the 500-year flood level. Houston uses the 2021 IRC with local amendments, the Uniform Plumbing Code, and the 2021 energy code with a required solar-ready roof area. A Texas engineer must seal your foundation design. Expect water and wastewater impact fees of about $4,400 if the City serves your lot.",
+ "openQuestions": [
+  "Exact 2026 BCE residential square-foot tier amounts for a 2,840 sq ft (incl. garage) dwelling",
+  "Whether the 3,500 sq ft 'urban area' now covers all city limits",
+  "Current Sec. 42-157 garage line (17 vs 19 vs 20 ft) after 2023 Livable Places ordinance",
+  "Houston R301.2(1) frost depth, termite and wind values",
+  "Number of service units assigned to a single-family home for impact fees",
+  "Corner-lot street-side building line"
+ ],
+ "notFound": [
+  "Permit fee tier amounts (PDF not fetchable)",
+  "Tap/meter fees",
+  "Market cost per sq ft",
+  "Frost depth",
+  "Corner-lot side building line",
+  "Chapter 26 parking text"
+ ],
+ "comparison": {
+  "irc": "2021 IRC + Houston amendments",
+  "energy": "2021 IECC (amended; solar-ready mandatory)",
+  "plumbing": "UPC 2021",
+  "district": "none (Ch. 42)",
+  "setbacks": "20 front (10 + 19-20 garage optional)/0/0",
+  "maxHeight": "none (IRC 3 st)",
+  "coverageFar": "none",
+  "masonry": "none (deed restr. may)",
+  "engFoundation": "yes - PE seal",
+  "windstorm": "no",
+  "flood": "500-yr + 2 ft",
+  "permitFeeExample": "not computed (tiers unread)",
+  "impactFees": "$4,383/SU water+ww + drainage $25.56/1000sf",
+  "costFactor": "PENDING"
+ }
+}

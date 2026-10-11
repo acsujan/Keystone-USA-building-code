@@ -1,0 +1,730 @@
+{
+  "id": "league-city",
+  "name": "City of League City",
+  "state": "TX",
+  "tier": 2,
+  "counties": [
+    "Galveston",
+    "Harris"
+  ],
+  "msa": {
+    "name": "Houston-Pasadena-The Woodlands, TX",
+    "blsCode": "26420"
+  },
+  "population": {
+    "value": null,
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Not found: Census population (search budget exhausted). 2020 Census ~114k (general knowledge, unverified)."
+  },
+  "zipCodesOrBoundary": {
+    "value": null,
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Not found: ZIP list / city limits map; commonly 77573, 77565 (unverified)"
+  },
+  "climateZone": {
+    "value": "2A",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "IECC 2021 Table R301.1 places Galveston County in Zone 2A (warm-humid); recorded from code knowledge, the table/DOE map page could not be fetched or searched in this run."
+  },
+  "windstormCounty": {
+    "value": true,
+    "status": "Secondary",
+    "source": {
+      "id": "houston2-tdi-galveston",
+      "title": "TDI Windstorm - Galveston County wind zone map page",
+      "url": "https://tdi.texas.gov/wind/maps/galvesto.html",
+      "read": "2026-10-11"
+    },
+    "note": "Galveston County is a whole-county TDI designated catastrophe area; League City is listed as Inland I. The Inland I/II line in Galveston County follows the Brazoria/Galveston county line north from SH 6 to Friendswood's southern limits, then Friendswood's eastern limits to the Harris County line - it is NOT tied to I-45, so all of League City (Galveston part) is Inland I. A small part of League City lies in Harris County (Harris designation covers only La Porte/Seabrook/Shoreacres/Morgan's Point/Pasadena east of SH 146) - verify those parcels. Read via search-engine extract on 2026-10-11; direct page fetch was blocked in this environment."
+  },
+  "codes": {
+    "irc": {
+      "edition": {
+        "value": "2021 IRC",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment. Placeholder matching the regional pattern (Pearland confirmed 2021 I-codes); verify with League City Building Department."
+      },
+      "ordinance": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: adoption ordinance"
+      },
+      "amendments": []
+    },
+    "energy": {
+      "edition": {
+        "value": "2021 IECC",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment."
+      },
+      "stretchCode": {
+        "value": false,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment."
+      }
+    },
+    "plumbing": {
+      "value": "IPC 2021",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment."
+    },
+    "electrical": {
+      "value": "NEC 2023",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment. Could also be NEC 2020."
+    },
+    "mechanical": {
+      "value": "IMC 2021",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment."
+    },
+    "fuelGas": {
+      "value": "IFGC 2021",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment."
+    },
+    "fire": {
+      "value": "IFC (edition unverified); no one/two-family sprinkler mandate expected",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment."
+    },
+    "wind": {
+      "value": 155,
+      "status": "Secondary",
+      "source": {
+        "id": "houston2-tdi-newsletter-2018",
+        "title": "TDI Windstorm newsletter 2018 (ASCE 7-10 ultimate speed equivalents)",
+        "url": "https://tdi.texas.gov/WIND/documents/newsletter22018 .pdf",
+        "read": "2026-10-11"
+      },
+      "unit": "mph",
+      "note": "Inland I legacy design speed 120 mph (3-s gust, ASCE 7-05) = 155 mph ultimate equivalent (ASCE 7-10) per TDI 2018 newsletter. Since TDI's 2018-code adoption, TDI uses the ASCE 7 map by Risk Category rather than zone speeds; ASCE 7-16 Risk Cat II for League City is roughly 145-150 mph (estimate). Use the TDI-adopted code map value for the address."
+    },
+    "hailRoofing": {
+      "value": "No local hail/impact-resistant roofing mandate found",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found in sources reached; Texas insurers offer discounts for UL 2218 Class 4 shingles (optional)."
+    },
+    "seismic": {
+      "value": "A",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Gulf Coast Texas is Seismic Design Category A under IRC 2021 Fig R301.2(7); not verified against a local Table R301.2(1) in this run."
+    },
+    "frostDepth": {
+      "value": 6,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "in",
+      "note": "Local IRC Table R301.2(1) frost depth not found; Houston-region jurisdictions commonly list minimal frost depth (6 in or less). Verify with building official."
+    }
+  },
+  "zoning": {
+    "hasZoning": {
+      "value": true,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "League City has a Unified Development Code with zoning districts (general knowledge); not verified. League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment."
+    },
+    "typicalDistrict": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: typical SF district (RSF-7 / RSF-5 style districts expected) (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+    },
+    "minLotSqFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: min lot (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+    },
+    "minLotWidthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: lot width (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+    },
+    "minLotDepthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: lot depth (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+    },
+    "setbacksFt": {
+      "front": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: front setback (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      },
+      "side": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: side setback (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      },
+      "streetSide": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: streetSide setback (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      },
+      "rear": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: rear setback (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      }
+    },
+    "maxHeightFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: height (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+    },
+    "maxStories": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: stories (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+    },
+    "maxLotCoverage": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: coverage (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+    },
+    "imperviousCover": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: impervious (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+    },
+    "far": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: FAR (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+    },
+    "parking": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: parking (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+    },
+    "garageRules": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: garage rules (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+    },
+    "adu": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: ADU (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+    },
+    "masonry": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: masonry (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+    },
+    "trees": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: trees (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+    },
+    "other": []
+  },
+  "process": {
+    "steps": [
+      {
+        "value": "Apply to TDI (WPI-1) before construction; TDI-appointed engineer plan review and inspections; WPI-8 Certificate of Compliance at completion - required for TWIA coverage; separate from city permit",
+        "status": "Secondary",
+        "source": {
+          "id": "houston2-tdi-inspection-process",
+          "title": "TDI - What is the Windstorm Inspection Process?",
+          "url": "https://www.tdi.texas.gov/wind/inspectionproc.html",
+          "read": "2026-10-11"
+        },
+        "note": "Read via search-engine extract on 2026-10-11; direct page fetch was blocked in this environment."
+      }
+    ],
+    "sealsRequired": [
+      {
+        "value": "Texas PE (TDI appointed) windstorm design/inspection certification",
+        "status": "Secondary",
+        "source": {
+          "id": "houston2-tdi-inspection-process",
+          "title": "TDI - What is the Windstorm Inspection Process?",
+          "url": "https://www.tdi.texas.gov/wind/inspectionproc.html",
+          "read": "2026-10-11"
+        },
+        "note": "Read via search-engine extract on 2026-10-11; direct page fetch was blocked in this environment."
+      }
+    ],
+    "inspections": [
+      {
+        "value": "City inspections + TDI windstorm inspections (foundation/framing/sheathing/roof/openings)",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment."
+      }
+    ],
+    "reviewDays": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: review days (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+    }
+  },
+  "fees": {
+    "permitFormula": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: permit fee formula (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+    },
+    "workedExample2400sqft": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: worked fee example (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+    },
+    "planReview": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: plan review (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+    },
+    "impactFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: water/wastewater impact fees (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      }
+    ],
+    "tapFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: tap fees; many League City subdivisions are in MUDs that set their own fees (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      }
+    ]
+  },
+  "cost": {
+    "factor": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "cost-method",
+        "title": "See README cost method (filled by cost agent)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "PENDING_COST_AGENT"
+    },
+    "method": "PENDING_COST_AGENT",
+    "perSqFtMarket": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: market $/sf (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+    },
+    "drivers": [
+      {
+        "value": "TDI windstorm Inland I package: impact-rated or protected openings, upgraded connectors/sheathing, engineer fees",
+        "status": "Secondary",
+        "source": {
+          "id": "houston2-tdi-galveston",
+          "title": "TDI Windstorm - Galveston County wind zone map page",
+          "url": "https://tdi.texas.gov/wind/maps/galvesto.html",
+          "read": "2026-10-11"
+        },
+        "note": "Read via search-engine extract on 2026-10-11; direct page fetch was blocked in this environment."
+      },
+      {
+        "value": "Flood elevation / fill near Clear Creek & Dickinson Bayou",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Regional; ordinance not read."
+      }
+    ]
+  },
+  "flood": {
+    "value": null,
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Not found: League City flood damage prevention freeboard (city is known to require freeboard above BFE; amount unverified) (League City not researched beyond TDI material: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+  },
+  "engineChanges": [
+    {
+      "id": "league-city-windstorm",
+      "ruleType": "windstorm-package",
+      "area": "structure",
+      "change": "Always add TDI windstorm package (Inland I): WPI-1 before start, TDI-appointed PE plan review + inspections, WPI-8 certificate; wind-borne debris/opening protection per TDI-adopted code. No I-45 split - whole city (Galveston part) is Inland I.",
+      "priority": "must",
+      "params": {
+        "county": "Galveston",
+        "tdiZone": "Inland I",
+        "requiresWPI8": true
+      },
+      "source": {
+        "id": "houston2-tdi-galveston",
+        "title": "TDI Windstorm - Galveston County wind zone map page",
+        "url": "https://tdi.texas.gov/wind/maps/galvesto.html",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "league-city-tdi-code",
+      "ruleType": "windstorm-package",
+      "area": "drawings",
+      "change": "Design windstorm items to the TDI-adopted code (2024 IRC/IBC for certification on/after April 1, 2026), using ASCE 7 map speed by Risk Category (legacy Inland I = 155 mph ultimate equivalent).",
+      "priority": "must",
+      "params": {
+        "tdiCode": "2024 IRC",
+        "tdiEffective": "2026-04-01",
+        "legacyUltimateMph": 155
+      },
+      "source": {
+        "id": "houston2-texreg-tdi-2024-irc",
+        "title": "Texas Register Feb 13 2026, Adopted Rules Title 28 Insurance (TDI windstorm building code: 2024 IRC/IBC apply on/after April 1, 2026)",
+        "url": "https://www.sos.texas.gov/texreg/archive/February132026/Adopted Rules/28.INSURANCE.html",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "league-city-wind",
+      "ruleType": "wind-speed",
+      "area": "structure",
+      "change": "Set design wind speed ~150-155 mph ultimate (verify by address).",
+      "priority": "must",
+      "params": {
+        "ultimateMph": 155,
+        "verified": false
+      },
+      "source": {
+        "id": "houston2-tdi-newsletter-2018",
+        "title": "TDI Windstorm newsletter 2018 (ASCE 7-10 ultimate speed equivalents)",
+        "url": "https://tdi.texas.gov/WIND/documents/newsletter22018 .pdf",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "league-city-climate",
+      "ruleType": "climate-zone-envelope",
+      "area": "envelope",
+      "change": "Use Climate Zone 2A envelope values.",
+      "priority": "must",
+      "params": {
+        "zone": "2A"
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "league-city-flood",
+      "ruleType": "flood-elevation",
+      "area": "foundation",
+      "change": "Require surveyed BFE and apply city freeboard (amount unverified; assume >= 1-2 ft until confirmed).",
+      "priority": "should",
+      "params": {
+        "freeboardFt": null,
+        "verified": false
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "league-city-plat",
+      "ruleType": "deed-restriction-check",
+      "area": "survey",
+      "change": "Check MUD, plat building lines and HOA rules (common in League City subdivisions).",
+      "priority": "should",
+      "params": {
+        "checkMUD": true,
+        "checkHOA": true
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    }
+  ],
+  "plainLanguage": "All of League City's Galveston County area is in the state's 'Inland I' windstorm zone, so every new house needs a Texas Department of Insurance windstorm certificate (WPI-8) - there is no I-45 dividing line. That means a TDI-appointed engineer reviews the plans and inspects during construction, and windows, doors and roof connections must meet higher wind ratings. Since April 1, 2026, TDI checks windstorm work against the 2024 IRC. We could not confirm League City's own code edition, setbacks, flood rule or fees in this research pass; treat those as unknown and confirm with the city.",
+  "openQuestions": [
+    "Adopted IRC/IECC/NEC editions and amendments",
+    "UDC typical district and setbacks",
+    "Flood freeboard",
+    "Permit fee formula, impact fees",
+    "Masonry/garage rules",
+    "League City parcels in Harris County: windstorm status"
+  ],
+  "notFound": [
+    "Everything except TDI windstorm status - search budget exhausted, fetch blocked"
+  ],
+  "comparison": {
+    "irc": "2021 IRC (unverified)",
+    "energy": "2021 IECC (unverified)",
+    "plumbing": "unverified",
+    "district": "not found",
+    "setbacks": "not found",
+    "maxHeight": "not found",
+    "coverageFar": "not found",
+    "masonry": "not found",
+    "engFoundation": "likely (unverified)",
+    "windstorm": "yes - Inland I, WPI-8 (whole city)",
+    "flood": "not found",
+    "permitFeeExample": "not found",
+    "impactFees": "not found",
+    "costFactor": "PENDING"
+  }
+}

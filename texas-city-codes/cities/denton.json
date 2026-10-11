@@ -1,0 +1,692 @@
+{
+  "id": "denton",
+  "name": "City of Denton",
+  "state": "TX",
+  "tier": 1,
+  "counties": [
+    "Denton"
+  ],
+  "msa": {
+    "name": "Dallas-Fort Worth-Arlington, TX",
+    "blsCode": "19100"
+  },
+  "population": {
+    "value": 160000,
+    "status": "Assumed",
+    "source": {
+      "id": "assumed-denton",
+      "title": "Assumed (no source reachable this session)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Approximate (~160,000, Census Vintage 2024 order of magnitude, from agent knowledge); not verified."
+  },
+  "zipCodesOrBoundary": {
+    "value": "76201;76205;76207;76208;76209;76210",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed-denton",
+      "title": "Assumed (no source reachable this session)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched. Denton ZIPs include 76201, 76205, 76207, 76208, 76209, 76210, 76226 (partial) - unverified."
+  },
+  "climateZone": {
+    "value": "3A",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed-denton",
+      "title": "Assumed (no source reachable this session)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Denton County is Zone 3A in 2021 IECC Table R301.1 (agent knowledge)."
+  },
+  "windstormCounty": {
+    "value": false,
+    "status": "Assumed",
+    "source": {
+      "id": "assumed-denton",
+      "title": "Assumed (no source reachable this session)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Inland county; not TDI-designated."
+  },
+  "codes": {
+    "irc": {
+      "edition": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-denton",
+          "title": "Assumed (no source reachable this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched. Likely 2021 IRC with NCTCOG regional amendments (as most DFW cities) - NOT verified; engine should treat as 2021 IRC provisionally."
+      },
+      "ordinance": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-denton",
+          "title": "Assumed (no source reachable this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      },
+      "amendments": []
+    },
+    "energy": {
+      "edition": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-denton",
+          "title": "Assumed (no source reachable this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched. Possibly 2021 IECC with NCTCOG amendments - unverified."
+      },
+      "stretchCode": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-denton",
+          "title": "Assumed (no source reachable this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched. Denton historically had green building programs (Denton Municipal Electric); not verified for current rules."
+      }
+    },
+    "plumbing": {
+      "value": "IPC (edition unverified)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-denton",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched. NCTCOG region generally uses IPC."
+    },
+    "electrical": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-denton",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+    },
+    "mechanical": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-denton",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+    },
+    "fuelGas": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-denton",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+    },
+    "fire": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-denton",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No one/two-family sprinkler mandate expected (Occupations Code 1301.551); not verified."
+    },
+    "wind": {
+      "value": 105,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-denton",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "mph",
+      "note": "ASCE 7-16 Risk II ~105 mph for Denton County (map reading, agent knowledge)."
+    },
+    "hailRoofing": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-denton",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "High-hail region; no local mandate known."
+    },
+    "seismic": {
+      "value": "A",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-denton",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "SDC A."
+    },
+    "frostDepth": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-denton",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "in",
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+    }
+  },
+  "zoning": {
+    "hasZoning": {
+      "value": true,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-denton",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Denton has zoning under the Denton Development Code (DDC, adopted 2019) - agent knowledge."
+    },
+    "typicalDistrict": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-denton",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched. DDC residential districts include R1-R7 family; the most common new-subdivision district (likely R4 or R6) not verified."
+    },
+    "minLotSqFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-denton",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "sqft",
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+    },
+    "minLotWidthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-denton",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "ft",
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+    },
+    "minLotDepthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-denton",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "ft",
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+    },
+    "setbacksFt": {
+      "front": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-denton",
+          "title": "Assumed (no source reachable this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      },
+      "side": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-denton",
+          "title": "Assumed (no source reachable this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      },
+      "streetSide": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-denton",
+          "title": "Assumed (no source reachable this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      },
+      "rear": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-denton",
+          "title": "Assumed (no source reachable this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      }
+    },
+    "maxHeightFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-denton",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "ft",
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+    },
+    "maxStories": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-denton",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+    },
+    "maxLotCoverage": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-denton",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "fraction",
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+    },
+    "imperviousCover": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-denton",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+    },
+    "far": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-denton",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+    },
+    "parking": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-denton",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+    },
+    "garageRules": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-denton",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+    },
+    "adu": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-denton",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+    },
+    "masonry": {
+      "value": "No city masonry % enforceable on new homes outside exceptions (HB 2439, Gov't Code ch. 3000); HOA/deed may require.",
+      "status": "Assumed",
+      "source": {
+        "id": "tx-hb2439-gov-code-3000",
+        "title": "Assumed (Texas HB 2439, 86th Leg. 2019, Gov't Code ch. 3000 - not fetched)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Statute not fetched."
+    },
+    "trees": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-denton",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched. DDC has a tree preservation/canopy section that is known to be significant in Denton; HB 7 (2017) mitigation credits apply. Verify applicability to single-lot homes."
+    },
+    "other": []
+  },
+  "process": {
+    "steps": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-denton",
+          "title": "Assumed (no source reachable this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Generic: platted lot -> building permit with plans, engineered foundation, energy compliance -> inspections -> CO. Denton-specific steps not verified."
+      }
+    ],
+    "sealsRequired": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-denton",
+          "title": "Assumed (no source reachable this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Engineered foundation is customary in DFW expansive clay; Denton rule not verified."
+      }
+    ],
+    "inspections": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-denton",
+          "title": "Assumed (no source reachable this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Typical IRC sequence assumed."
+      }
+    ],
+    "reviewDays": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-denton",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+    }
+  },
+  "fees": {
+    "permitFormula": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-denton",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+    },
+    "workedExample2400sqft": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-denton",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "USD",
+      "note": "Not computed - fee schedule not retrieved."
+    },
+    "planReview": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-denton",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+    },
+    "impactFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-denton",
+          "title": "Assumed (no source reachable this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "USD",
+        "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched. Denton water/wastewater impact fees exist (agent knowledge) but amounts not retrieved."
+      }
+    ],
+    "tapFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-denton",
+          "title": "Assumed (no source reachable this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "USD",
+        "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      }
+    ]
+  },
+  "cost": {
+    "factor": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "cost-method",
+        "title": "See README cost method (filled by cost agent)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "PENDING_COST_AGENT"
+    },
+    "method": "PENDING_COST_AGENT",
+    "perSqFtMarket": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-denton",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+    },
+    "drivers": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-denton",
+          "title": "Assumed (no source reachable this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Expansive clay (engineered PT slab likely); hail exposure."
+      }
+    ]
+  },
+  "flood": {
+    "value": null,
+    "status": "Assumed",
+    "source": {
+      "id": "assumed-denton",
+      "title": "Assumed (no source reachable this session)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched. Engine default: lowest floor >= 1 ft above BFE until verified."
+  },
+  "engineChanges": [
+    {
+      "id": "denton-verify-district",
+      "ruleType": "survey-input-district",
+      "area": "survey",
+      "change": "Require user to enter DDC zoning district; no district setback table loaded yet (data gap).",
+      "priority": "must",
+      "params": {
+        "districtTableLoaded": false
+      },
+      "source": {
+        "id": "assumed-denton",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "denton-eng-foundation",
+      "ruleType": "engineered-foundation-flag",
+      "area": "foundation",
+      "change": "Flag engineered foundation as likely required (DFW expansive clay); confirm with Denton.",
+      "priority": "should",
+      "params": {
+        "engineeredFoundation": true,
+        "verified": false
+      },
+      "source": {
+        "id": "assumed-denton",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "denton-cz",
+      "ruleType": "climate-zone-envelope",
+      "area": "envelope",
+      "change": "Climate zone 3A envelope; IECC edition to be confirmed.",
+      "priority": "must",
+      "params": {
+        "climateZone": "3A"
+      },
+      "source": {
+        "id": "assumed-denton",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "denton-masonry-none",
+      "ruleType": "masonry-percentage",
+      "area": "envelope",
+      "change": "No city masonry %; check HOA/deed restrictions.",
+      "priority": "should",
+      "params": {
+        "masonryPct": 0,
+        "checkDeed": true
+      },
+      "source": {
+        "id": "tx-hb2439-gov-code-3000",
+        "title": "Assumed (Texas HB 2439, 86th Leg. 2019, Gov't Code ch. 3000 - not fetched)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    }
+  ],
+  "plainLanguage": "Denton's rules could not be checked online during this research, so treat this entry as a placeholder. Denton zones land under the Denton Development Code, and you will need to tell us your lot's zoning district. Like the rest of North Texas, Denton has shifting clay soils, so plan on an engineer-designed slab. The city cannot require brick or stone on new homes, but your HOA may. Denton is in energy climate zone 3A. Fees and setbacks will be added once verified.",
+  "openQuestions": [
+    "IRC/IECC edition and adoption ordinance",
+    "Typical DDC single-family district and dimensional table",
+    "Tree preservation applicability",
+    "Permit and impact fees",
+    "Flood freeboard"
+  ],
+  "notFound": [
+    "All Denton-specific primary values - sites blocked and search budget exhausted"
+  ],
+  "comparison": {
+    "irc": "unverified (likely 2021 IRC)",
+    "energy": "unverified",
+    "plumbing": "IPC (unverified)",
+    "district": "unverified (R4/R6?)",
+    "setbacks": "unverified",
+    "maxHeight": "unverified",
+    "coverageFar": "unverified",
+    "masonry": "none (HB 2439)",
+    "engFoundation": "likely (unverified)",
+    "windstorm": "no",
+    "flood": "unverified",
+    "permitFeeExample": "not found",
+    "impactFees": "not found",
+    "costFactor": "PENDING"
+  }
+}

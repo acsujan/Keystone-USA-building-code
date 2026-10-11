@@ -1,0 +1,712 @@
+{
+  "id": "plano",
+  "name": "City of Plano",
+  "state": "TX",
+  "tier": 1,
+  "counties": [
+    "Collin",
+    "Denton"
+  ],
+  "msa": {
+    "name": "Dallas-Fort Worth-Arlington, TX",
+    "blsCode": "19100"
+  },
+  "population": {
+    "value": 290000,
+    "status": "Assumed",
+    "source": {
+      "id": "assumed-plano",
+      "title": "Assumed (no source reachable this session)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Approximate (~290,000, Census Vintage 2024 order of magnitude, agent knowledge); not verified."
+  },
+  "zipCodesOrBoundary": {
+    "value": "75023;75024;75025;75074;75075;75093;75094",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed-plano",
+      "title": "Assumed (no source reachable this session)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Plano ZIPs 75023, 75024, 75025, 75026, 75074, 75075, 75093, 75094 (partial) - agent knowledge, unverified."
+  },
+  "climateZone": {
+    "value": "3A",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed-plano",
+      "title": "Assumed (no source reachable this session)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Collin and Denton counties are Zone 3A in 2021 IECC Table R301.1 (agent knowledge)."
+  },
+  "windstormCounty": {
+    "value": false,
+    "status": "Assumed",
+    "source": {
+      "id": "assumed-plano",
+      "title": "Assumed (no source reachable this session)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Inland; not TDI-designated."
+  },
+  "codes": {
+    "irc": {
+      "edition": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-plano",
+          "title": "Assumed (no source reachable this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched. Plano is believed to have adopted the 2021 I-codes with NCTCOG regional amendments - NOT verified."
+      },
+      "ordinance": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-plano",
+          "title": "Assumed (no source reachable this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      },
+      "amendments": []
+    },
+    "energy": {
+      "edition": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-plano",
+          "title": "Assumed (no source reachable this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched. Possibly 2021 IECC with NCTCOG amendments - unverified."
+      },
+      "stretchCode": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-plano",
+          "title": "Assumed (no source reachable this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      }
+    },
+    "plumbing": {
+      "value": "IPC (edition unverified)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-plano",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+    },
+    "electrical": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-plano",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+    },
+    "mechanical": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-plano",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+    },
+    "fuelGas": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-plano",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+    },
+    "fire": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-plano",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No one/two-family sprinkler mandate expected (Occupations Code 1301.551); not verified."
+    },
+    "wind": {
+      "value": 105,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-plano",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "mph",
+      "note": "ASCE 7-16 Risk II ~105 mph for Collin County (agent knowledge)."
+    },
+    "hailRoofing": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-plano",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "High-hail region (Collin County); no local mandate known."
+    },
+    "seismic": {
+      "value": "A",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-plano",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "SDC A."
+    },
+    "frostDepth": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-plano",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "in",
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+    }
+  },
+  "zoning": {
+    "hasZoning": {
+      "value": true,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-plano",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Plano has a Zoning Ordinance (agent knowledge)."
+    },
+    "typicalDistrict": {
+      "value": "SF-7",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-plano",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "SF-7 Single-Family Residence-7 chosen per spec as typical Plano district; others SF-6, SF-9, SF-20, SF-A, PD. Not verified this session."
+    },
+    "minLotSqFt": {
+      "value": 7000,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-plano",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "sqft",
+      "note": "SF-7 = 7,000 sq ft minimum lot (district name convention; agent knowledge). Verify."
+    },
+    "minLotWidthFt": {
+      "value": 60,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-plano",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "ft",
+      "note": "Believed 60 ft - agent knowledge, unverified."
+    },
+    "minLotDepthFt": {
+      "value": 100,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-plano",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "ft",
+      "note": "Believed 100 ft - agent knowledge, unverified."
+    },
+    "setbacksFt": {
+      "front": {
+        "value": 25,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-plano",
+          "title": "Assumed (no source reachable this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Believed 25 ft front yard in SF-7 - agent knowledge, unverified."
+      },
+      "side": {
+        "value": 5,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-plano",
+          "title": "Assumed (no source reachable this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Believed 5 ft - agent knowledge, unverified."
+      },
+      "streetSide": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-plano",
+          "title": "Assumed (no source reachable this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      },
+      "rear": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-plano",
+          "title": "Assumed (no source reachable this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      }
+    },
+    "maxHeightFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-plano",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "ft",
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+    },
+    "maxStories": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-plano",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+    },
+    "maxLotCoverage": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-plano",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "fraction",
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+    },
+    "imperviousCover": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-plano",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+    },
+    "far": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-plano",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+    },
+    "parking": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-plano",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+    },
+    "garageRules": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-plano",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched. Plano historically restricts front-facing garages / requires J-swing or rear-entry in some districts - unverified."
+    },
+    "adu": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-plano",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+    },
+    "masonry": {
+      "value": "Plano historically required high masonry percentages on single-family exteriors; after HB 2439 (2019, Gov't Code ch. 3000) cities may not require materials beyond national model codes except in exempt cases (e.g. historic districts). Plano's current enforcement and any PD/historic exceptions not verified. HOA/deed restrictions in Plano subdivisions very commonly require masonry.",
+      "status": "Assumed",
+      "source": {
+        "id": "tx-hb2439-gov-code-3000",
+        "title": "Assumed (Texas HB 2439, 86th Leg. 2019, Gov't Code ch. 3000 - not fetched)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Statute and Plano ordinance not fetched."
+    },
+    "trees": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-plano",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched. Plano has tree preservation rules (agent knowledge); HB 7 (2017) mitigation credits apply."
+    },
+    "other": []
+  },
+  "process": {
+    "steps": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-plano",
+          "title": "Assumed (no source reachable this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Generic: platted lot -> permit with plans, engineered foundation, energy compliance -> inspections -> CO."
+      }
+    ],
+    "sealsRequired": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-plano",
+          "title": "Assumed (no source reachable this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Engineered foundation customary in Collin County expansive clay; Plano rule not verified."
+      }
+    ],
+    "inspections": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-plano",
+          "title": "Assumed (no source reachable this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Typical IRC sequence assumed."
+      }
+    ],
+    "reviewDays": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-plano",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+    }
+  },
+  "fees": {
+    "permitFormula": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-plano",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+    },
+    "workedExample2400sqft": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-plano",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "USD",
+      "note": "Not computed - fee schedule not retrieved."
+    },
+    "planReview": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-plano",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+    },
+    "impactFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-plano",
+          "title": "Assumed (no source reachable this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "USD",
+        "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched. Plano has water/wastewater and roadway impact fees (agent knowledge); amounts not retrieved."
+      }
+    ],
+    "tapFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-plano",
+          "title": "Assumed (no source reachable this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "USD",
+        "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      }
+    ]
+  },
+  "cost": {
+    "factor": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "cost-method",
+        "title": "See README cost method (filled by cost agent)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "PENDING_COST_AGENT"
+    },
+    "method": "PENDING_COST_AGENT",
+    "perSqFtMarket": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-plano",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+    },
+    "drivers": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-plano",
+          "title": "Assumed (no source reachable this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Expansive clay foundations; HOA masonry requirements common; hail exposure."
+      }
+    ]
+  },
+  "flood": {
+    "value": null,
+    "status": "Assumed",
+    "source": {
+      "id": "assumed-plano",
+      "title": "Assumed (no source reachable this session)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched. Engine default: lowest floor >= 1 ft above BFE until verified."
+  },
+  "engineChanges": [
+    {
+      "id": "plano-sf7-setbacks",
+      "ruleType": "setback-by-district",
+      "area": "setbacks",
+      "change": "Provisional SF-7: front 25 ft, side 5 ft (UNVERIFIED - display as provisional; ask user for plat building lines).",
+      "priority": "should",
+      "params": {
+        "district": "SF-7",
+        "frontFt": 25,
+        "sideFt": 5,
+        "verified": false
+      },
+      "source": {
+        "id": "assumed-plano",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "plano-plat-lines",
+      "ruleType": "building-line-plat",
+      "area": "survey",
+      "change": "Use recorded plat building lines when stricter than zoning (common in Plano subdivisions).",
+      "priority": "should",
+      "params": {},
+      "source": {
+        "id": "assumed-plano",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "plano-masonry",
+      "ruleType": "masonry-percentage",
+      "area": "envelope",
+      "change": "No enforceable city masonry % assumed (HB 2439); strongly prompt for HOA/deed masonry % (commonly high in Plano).",
+      "priority": "should",
+      "params": {
+        "masonryPct": 0,
+        "checkDeed": true
+      },
+      "source": {
+        "id": "tx-hb2439-gov-code-3000",
+        "title": "Assumed (Texas HB 2439, 86th Leg. 2019, Gov't Code ch. 3000 - not fetched)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "plano-eng-foundation",
+      "ruleType": "engineered-foundation-flag",
+      "area": "foundation",
+      "change": "Flag engineered foundation likely required; confirm.",
+      "priority": "should",
+      "params": {
+        "engineeredFoundation": true,
+        "verified": false
+      },
+      "source": {
+        "id": "assumed-plano",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "plano-cz",
+      "ruleType": "climate-zone-envelope",
+      "area": "envelope",
+      "change": "Climate zone 3A envelope; IECC edition to confirm.",
+      "priority": "must",
+      "params": {
+        "climateZone": "3A"
+      },
+      "source": {
+        "id": "assumed-plano",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    }
+  ],
+  "plainLanguage": "Plano's rules could not be checked online during this research, so the numbers here are provisional. The common SF-7 zone is for lots of about 7,000 sq ft, with front yards believed to be 25 ft and side yards 5 ft. Check your plat and HOA rules, which are often stricter. A 2019 state law stops the city from requiring brick or stone, but many Plano HOAs still require it. Plan on an engineer-designed foundation because of the clay soils. Plano is in energy climate zone 3A.",
+  "openQuestions": [
+    "IRC/IECC edition and ordinance",
+    "SF-7 full dimensional table (rear, street side, height, coverage)",
+    "Garage orientation rules",
+    "Masonry rule status after HB 2439",
+    "Permit, impact (water/ww/roadway) fees",
+    "Tree preservation",
+    "Flood freeboard"
+  ],
+  "notFound": [
+    "All Plano-specific primary values - sites blocked and search budget exhausted"
+  ],
+  "comparison": {
+    "irc": "unverified (likely 2021 IRC)",
+    "energy": "unverified",
+    "plumbing": "IPC (unverified)",
+    "district": "SF-7",
+    "setbacks": "25/5/? (unverified)",
+    "maxHeight": "unverified",
+    "coverageFar": "unverified",
+    "masonry": "none by city (HB 2439); HOA often",
+    "engFoundation": "likely (unverified)",
+    "windstorm": "no",
+    "flood": "unverified",
+    "permitFeeExample": "not found",
+    "impactFees": "not found",
+    "costFactor": "PENDING"
+  }
+}

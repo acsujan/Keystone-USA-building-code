@@ -1,0 +1,814 @@
+{
+  "id": "georgetown",
+  "name": "City of Georgetown",
+  "state": "TX",
+  "tier": 2,
+  "counties": [
+    "Williamson"
+  ],
+  "msa": {
+    "name": "Austin-Round Rock-San Marcos, TX",
+    "blsCode": "12420"
+  },
+  "population": {
+    "value": 67176,
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. 2020 Census count recalled; Vintage estimate not retrieved."
+  },
+  "zipCodesOrBoundary": {
+    "value": "78626, 78627, 78628, 78633",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Recalled ZIPs; some extend outside city limits."
+  },
+  "climateZone": {
+    "value": "2A",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Williamson and Travis counties are Climate Zone 2A in 2021/2024 IECC Table R301.1."
+  },
+  "windstormCounty": {
+    "value": false,
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Inland county; not in TDI windstorm catalogue area."
+  },
+  "codes": {
+    "irc": {
+      "edition": {
+        "value": "2021 IRC",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Georgetown is believed to have adopted the 2021 I-codes; a move to 2024 codes may have occurred by 2026."
+      },
+      "ordinance": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: adoption ordinance. Web access unavailable this session (WebFetch DNS failure; search budget exhausted)."
+      },
+      "amendments": [
+        {
+          "topic": "other",
+          "summary": "Local amendments not retrieved.",
+          "section": "",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed",
+            "title": "Assumed",
+            "url": "",
+            "read": "2026-10-11"
+          }
+        }
+      ]
+    },
+    "energy": {
+      "edition": {
+        "value": "2021 IECC",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Usually adopted in the same cycle as the IRC."
+      },
+      "stretchCode": {
+        "value": false,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. No stretch code known."
+      }
+    },
+    "plumbing": {
+      "value": "IPC (same edition as IRC)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Central Texas cities typically adopt the IPC."
+    },
+    "electrical": {
+      "value": "NEC 2020 or 2023",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Typical pairing."
+    },
+    "mechanical": {
+      "value": "IMC (same edition as IRC)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. "
+    },
+    "fuelGas": {
+      "value": "IFGC (same edition as IRC)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. "
+    },
+    "fire": {
+      "value": "IFC (same edition); no one/two-family sprinkler mandate known",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Tex. Occ. Code 1301.551 limits mandatory residential sprinklers."
+    },
+    "wind": {
+      "value": 110,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "mph",
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Approx. ASCE 7-16 Risk II ultimate wind speed for central Texas."
+    },
+    "hailRoofing": {
+      "value": "No local hail roofing mandate known; Class 4 shingles recommended (hail-prone)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. "
+    },
+    "seismic": {
+      "value": "A",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. "
+    },
+    "frostDepth": {
+      "value": 6,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "in",
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Typical central Texas local design criteria."
+    }
+  },
+  "zoning": {
+    "hasZoning": {
+      "value": true,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Georgetown Unified Development Code (UDC)."
+    },
+    "typicalDistrict": {
+      "value": "RS Residential Single-Family",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Most common UDC SF district for new subdivisions; others: RE, RL, TF, and many PUDs (e.g., Sun City, Wolf Ranch)."
+    },
+    "minLotSqFt": {
+      "value": 5500,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "sqft",
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Provisional."
+    },
+    "minLotWidthFt": {
+      "value": 45,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "ft",
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Provisional."
+    },
+    "minLotDepthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: minimum lot depth. Web access unavailable this session (WebFetch DNS failure; search budget exhausted)."
+    },
+    "setbacksFt": {
+      "front": {
+        "value": 20,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Provisional district default; plats often differ."
+      },
+      "side": {
+        "value": 6,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Provisional district default; plats often differ."
+      },
+      "streetSide": {
+        "value": 15,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Provisional district default; plats often differ."
+      },
+      "rear": {
+        "value": 10,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Provisional district default; plats often differ."
+      }
+    },
+    "maxHeightFt": {
+      "value": 35,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "ft",
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Common 35 ft SF height limit in central Texas cities; not verified."
+    },
+    "maxStories": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Not known."
+    },
+    "maxLotCoverage": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "fraction",
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Not known."
+    },
+    "imperviousCover": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Western Georgetown (roughly west of I-35) is over the Edwards Aquifer recharge zone; TCEQ 30 TAC 213 and the city's UDC water-quality rules (incl. Georgetown salamander protection) may cap impervious cover per lot. No numeric cap verified."
+    },
+    "far": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. No FAR in SF districts known."
+    },
+    "parking": {
+      "value": "2 off-street spaces per dwelling (typical); garage may count",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Typical value, not verified."
+    },
+    "garageRules": {
+      "value": "UDC is believed to require front-loaded garage doors to be set back at least 25 ft from the street (driveway parking) and may limit garage-door share of facade",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. "
+    },
+    "adu": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. ADU rules not known."
+    },
+    "masonry": {
+      "value": "No enforceable city masonry % for new homes (HB 2439); historic overlay districts excepted",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Texas Gov't Code 3000 (HB 2439, 2019) bars cities from mandating specific building materials beyond the national model codes, except in historic districts and some pre-existing PUD/developer agreements; HOA deed restrictions may still require masonry."
+    },
+    "trees": {
+      "value": "UDC tree preservation: Protected trees ~12 in DBH and larger and Heritage trees ~26 in DBH and larger (certain species) require survey, preservation or mitigation; heritage tree removal needs approval",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Recalled; verify thresholds in the city tree ordinance."
+    },
+    "other": []
+  },
+  "process": {
+    "steps": [
+      {
+        "value": "Platted lot -> residential permit application (plot plan with setbacks, tree survey where required, plans, energy compliance, foundation design) -> plan review -> permit -> inspections -> CO",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Typical."
+      }
+    ],
+    "sealsRequired": [
+      {
+        "value": "PE-sealed foundation design",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Common central Texas requirement."
+      }
+    ],
+    "inspections": [
+      {
+        "value": "Plumbing ground, foundation, framing, MEP rough, insulation/energy, final",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Typical IRC sequence."
+      }
+    ],
+    "reviewDays": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: residential plan review time. Web access unavailable this session (WebFetch DNS failure; search budget exhausted)."
+    }
+  },
+  "fees": {
+    "permitFormula": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: building permit fee formula. Web access unavailable this session (WebFetch DNS failure; search budget exhausted)."
+    },
+    "workedExample2400sqft": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not computed: fee schedule not read. Basis would be 2,400 sq ft conditioned + 440 sq ft attached garage."
+    },
+    "planReview": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: plan review fee. Web access unavailable this session (WebFetch DNS failure; search budget exhausted)."
+    },
+    "impactFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Georgetown collects water and wastewater impact fees through its utility; amounts not retrieved. Note parts of the city are served by other utilities (e.g., Chisholm Trail SUD area now GUS, Jonah SUD)."
+      }
+    ],
+    "tapFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: water/sewer tap fees. Web access unavailable this session (WebFetch DNS failure; search budget exhausted)."
+      }
+    ]
+  },
+  "cost": {
+    "factor": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "cost-method",
+        "title": "See README cost method (filled by cost agent)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "PENDING_COST_AGENT"
+    },
+    "method": "PENDING_COST_AGENT",
+    "perSqFtMarket": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No public market figure retrieved this session."
+    },
+    "drivers": [
+      {
+        "value": "Utility impact fees (Austin-suburb levels, typically several thousand USD per home)",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. "
+      },
+      {
+        "value": "Engineered slab on expansive or karst soils",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. "
+      },
+      {
+        "value": "Edwards Aquifer recharge-zone requirements (geologic assessment, water quality) in west Georgetown",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. "
+      }
+    ]
+  },
+  "flood": {
+    "value": "Floodplain ordinance; lowest floor at least 1 ft above BFE is typical in the region - city freeboard not verified",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. "
+  },
+  "engineChanges": [
+    {
+      "id": "georgetown-verify",
+      "ruleType": "survey-input-district",
+      "area": "survey",
+      "change": "All Georgetown values are unverified assumptions; require user to confirm zoning district, plat building lines and adopted code edition before finalizing",
+      "priority": "must",
+      "params": {
+        "dataVerified": false
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "georgetown-setbacks",
+      "ruleType": "setback-by-district",
+      "area": "setbacks",
+      "change": "RS Residential Single-Family: use front 20 / side 6 / street side 15 / rear 10 ft as provisional defaults (unverified)",
+      "priority": "should",
+      "params": {
+        "district": "RS Residential Single-Family",
+        "frontFt": 20,
+        "sideFt": 6,
+        "streetSideFt": 15,
+        "rearFt": 10,
+        "verified": false
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "georgetown-envelope-2a",
+      "ruleType": "climate-zone-envelope",
+      "area": "envelope",
+      "change": "Use IECC Climate Zone 2A prescriptive envelope for the adopted IECC edition",
+      "priority": "must",
+      "params": {
+        "climateZone": "2A"
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "georgetown-eng-foundation",
+      "ruleType": "engineered-foundation-flag",
+      "area": "foundation",
+      "change": "Flag PE-sealed engineered slab (expansive clay east of I-35 / variable limestone and clay in the west)",
+      "priority": "should",
+      "params": {
+        "engineeredFoundation": true
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "georgetown-edwards",
+      "ruleType": "impervious-cover",
+      "area": "survey",
+      "change": "Check the TCEQ Edwards Aquifer map: lots on the recharge zone (and some in the contributing/transition zones) fall under 30 TAC Chapter 213; regulated development needs an approved Water Pollution Abatement Plan, usually done at subdivision level. In west Georgetown expect UDC water-quality/impervious-cover limits and geologic assessment (karst features, setbacks from sensitive features).",
+      "priority": "should",
+      "params": {
+        "checkEdwardsZone": true,
+        "tceqRule": "30 TAC Chapter 213",
+        "cityLimit": null
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "georgetown-trees",
+      "ruleType": "tree-preservation",
+      "area": "survey",
+      "change": "Require tree survey; keep footprint and driveway out of critical root zones of Heritage (>= ~26 in DBH) and Protected (>= ~12 in DBH) trees, or add mitigation cost",
+      "priority": "should",
+      "params": {
+        "heritageDbhIn": 26,
+        "protectedDbhIn": 12,
+        "verified": false
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "georgetown-impact",
+      "ruleType": "impact-fee-estimate",
+      "area": "estimate",
+      "change": "Add Georgetown water + wastewater impact fees (Georgetown Utility Systems; amounts depend on service area and plat date) - expect several thousand USD; transportation impact fee status unknown",
+      "priority": "should",
+      "params": {
+        "amountUSD": null,
+        "verified": false
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "georgetown-plat",
+      "ruleType": "building-line-plat",
+      "area": "survey",
+      "change": "Most new homes are in PUDs/MUDs or HOA subdivisions - plat building lines, PUD standards and deed restrictions may override district setbacks and add masonry rules",
+      "priority": "should",
+      "params": {
+        "checkPlat": true,
+        "checkDeedRestrictions": true
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "georgetown-garage-25",
+      "ruleType": "garage-placement",
+      "area": "plan",
+      "change": "Provisional: set front-loaded garage door >= 25 ft from front property line / street ROW",
+      "priority": "nice",
+      "params": {
+        "garageDoorSetbackFt": 25,
+        "verified": false
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    }
+  ],
+  "plainLanguage": "This Georgetown file is unverified - our research tools were unavailable, so treat every number as a placeholder. Georgetown uses a Unified Development Code; most new homes are in the RS district or in a planned development with its own rules. Western Georgetown sits over the Edwards Aquifer, which can add water-quality rules and limits on paved area. Georgetown protects large trees, so a tree survey is often needed before you can place the house. Expect water and sewer impact fees of several thousand dollars. The city cannot require brick, but your HOA may.",
+  "openQuestions": [
+    "Adopted IRC/IECC edition and amendments (2021 vs 2024)",
+    "RS district dimensional table values",
+    "Impact fee amounts by service area",
+    "Transportation impact fee status",
+    "Exact tree size thresholds and mitigation rates",
+    "Impervious cover limits on recharge zone"
+  ],
+  "notFound": [
+    "Everything in this file is unverified: no web page for this city could be read this session (WebFetch failed on all hosts; shared search budget exhausted). Re-research needed."
+  ],
+  "comparison": {
+    "irc": "2021 IRC (unverified)",
+    "energy": "2021 IECC (unverified)",
+    "plumbing": "IPC (unverified)",
+    "district": "RS Residential Single-Family",
+    "setbacks": "20/6/10 (unverified)",
+    "maxHeight": "35 ft (unverified)",
+    "coverageFar": "unknown / none",
+    "masonry": "no city mandate (HB 2439); HOA/PUD may",
+    "engFoundation": "likely - assumed",
+    "windstorm": "no",
+    "flood": "unverified",
+    "permitFeeExample": "not computed",
+    "impactFees": "unknown (water+ww)",
+    "costFactor": "PENDING"
+  }
+}

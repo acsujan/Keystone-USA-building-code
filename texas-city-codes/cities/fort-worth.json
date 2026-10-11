@@ -1,0 +1,1055 @@
+{
+  "id": "fort-worth",
+  "name": "City of Fort Worth",
+  "state": "TX",
+  "tier": 1,
+  "counties": [
+    "Tarrant",
+    "Denton",
+    "Parker",
+    "Wise",
+    "Johnson"
+  ],
+  "msa": {
+    "name": "Dallas-Fort Worth-Arlington, TX",
+    "blsCode": "19100"
+  },
+  "population": {
+    "value": 1000000,
+    "status": "Assumed",
+    "source": {
+      "id": "assumed-fort-worth",
+      "title": "Assumed (no source reachable this session)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Approximate; Census Vintage 2024 estimate is about 1.0 million (Fort Worth passed ~1M). Census site not reachable this session - cost/coordinator agent should insert exact Vintage figure."
+  },
+  "zipCodesOrBoundary": {
+    "value": null,
+    "status": "Assumed",
+    "source": {
+      "id": "assumed-fort-worth",
+      "title": "Assumed (no source reachable this session)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched. Use City of Fort Worth city-limits GIS (mapit.fortworthtexas.gov) when reachable."
+  },
+  "climateZone": {
+    "value": "3A",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed-fort-worth",
+      "title": "Assumed (no source reachable this session)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Tarrant, Denton, Parker, Johnson and Wise counties are listed as Zone 3A in 2021 IECC Table R301.1 (from agent knowledge; table not fetched)."
+  },
+  "windstormCounty": {
+    "value": false,
+    "status": "Assumed",
+    "source": {
+      "id": "assumed-fort-worth",
+      "title": "Assumed (no source reachable this session)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "TDI windstorm (TWIA) catalogue covers only the 14 coastal counties plus parts of Harris; Tarrant is inland."
+  },
+  "codes": {
+    "irc": {
+      "edition": {
+        "value": "2021 IRC",
+        "status": "Secondary",
+        "source": {
+          "id": "fw-irc-ord-25383",
+          "title": "Ordinance No. 25383-03-2022 - Fort Worth Residential Code (2021 IRC with local amendments)",
+          "url": "https://www.fortworthtexas.gov/files/assets/public/development-services/documents/building-code-local-amendments/2021-approved-local-amendments/irc-amendments-2021-ordinance-25383-03-2022.pdf",
+          "read": "2026-10-11",
+          "section": "Sec. 7-61 to 7-64"
+        },
+        "note": "Ordinance 25383-03-2022 adopts 2021 IRC with local amendments, amending City Code \u00a7\u00a7 7-61 to 7-64; city page lists it effective April 1, 2022. Search results showed no 2024 IRC adoption as of 2026-10. Read via web-search extract of this page; direct fetch blocked by session egress policy."
+      },
+      "ordinance": {
+        "value": "Ordinance No. 25383-03-2022 (effective 2022-04-01)",
+        "status": "Secondary",
+        "source": {
+          "id": "fw-building-energy-codes",
+          "title": "Building & Energy Codes (Development Services)",
+          "url": "https://www.fortworthtexas.gov/departments/development-services/permits/building-energy-codes",
+          "read": "2026-10-11"
+        },
+        "note": " Read via web-search extract of this page; direct fetch blocked by session egress policy."
+      },
+      "amendments": [
+        {
+          "topic": "foundation",
+          "summary": "Every foundation and/or footing for a new house (and any addition to an existing post-tension slab) must be designed and sealed by a Texas-registered engineer.",
+          "section": "R401.2 (local amendment)",
+          "status": "Secondary",
+          "source": {
+            "id": "fw-upcodes-irc-ch4",
+            "title": "Chapter 4 Foundations: Fort Worth Residential Code 2021 (UpCodes compilation)",
+            "url": "https://up.codes/viewer/fort-worth/irc-2021/chapter/4/foundations",
+            "read": "2026-10-11",
+            "section": "R401.2 (as amended)"
+          }
+        },
+        {
+          "topic": "foundation",
+          "summary": "Administrative Code requires engineered foundation plans, or a geotechnical report showing non-expansive soil, for new construction with a residential component and for outward additions to post-tension slabs.",
+          "section": "Fort Worth Administrative Code (Ord. 25387-03-2022)",
+          "status": "Secondary",
+          "source": {
+            "id": "fw-admin-code-25387",
+            "title": "Ordinance No. 25387-03-2022 - Fort Worth Administrative Code (2021)",
+            "url": "https://www.fortworthtexas.gov/files/assets/public/v/1/development-services/documents/building-code-local-amendments/2021-approved-local-amendments/administrative-code-2021-ordinance-25387-03-2022.pdf",
+            "read": "2026-10-11"
+          }
+        },
+        {
+          "topic": "other",
+          "summary": "Surface drainage must be diverted to a storm sewer conveyance (amended R401.3 drainage).",
+          "section": "R401.3 (local amendment)",
+          "status": "Secondary",
+          "source": {
+            "id": "fw-irc-ord-25383",
+            "title": "Ordinance No. 25383-03-2022 - Fort Worth Residential Code (2021 IRC with local amendments)",
+            "url": "https://www.fortworthtexas.gov/files/assets/public/development-services/documents/building-code-local-amendments/2021-approved-local-amendments/irc-amendments-2021-ordinance-25383-03-2022.pdf",
+            "read": "2026-10-11",
+            "section": "Sec. 7-61 to 7-64"
+          }
+        },
+        {
+          "topic": "other",
+          "summary": "City Electrical Code replaces IRC Chapters 34-43; IRC Appendix AA (gas pipe sizing) adopted.",
+          "section": "\u00a7 7-61",
+          "status": "Secondary",
+          "source": {
+            "id": "fw-code-7-61",
+            "title": "Fort Worth Code of Ordinances \u00a7 7-61 The 2021 Edition of the International Residential Code Adopted",
+            "url": "https://codelibrary.amlegal.com/codes/ftworth/latest/ftworth_tx/0-0-0-8128",
+            "read": "2026-10-11",
+            "section": "\u00a7 7-61"
+          }
+        }
+      ]
+    },
+    "energy": {
+      "edition": {
+        "value": "2015 IECC (with local amendments) - Fort Worth retained 2015 IECC when it adopted the 2021 I-codes",
+        "status": "Secondary",
+        "source": {
+          "id": "fw-building-energy-codes",
+          "title": "Building & Energy Codes (Development Services)",
+          "url": "https://www.fortworthtexas.gov/departments/development-services/permits/building-energy-codes",
+          "read": "2026-10-11"
+        },
+        "note": "City page: 2021 ICC codes effective 2022-04-01 'with the exception of the International Energy Conservation Code'; 2015 IECC retained. Note: Texas state minimum for single-family (Health & Safety Code 388) is IRC Ch. 11 of 2015 IRC, so 2015 is lawful. Read via web-search extract of this page; direct fetch blocked by session egress policy."
+      },
+      "stretchCode": {
+        "value": false,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-fort-worth",
+          "title": "Assumed (no source reachable this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "No residential stretch / green-building mandate found in searches."
+      }
+    },
+    "plumbing": {
+      "value": "2021 IPC + 2021 IFGC with local amendments",
+      "status": "Secondary",
+      "source": {
+        "id": "fw-building-energy-codes",
+        "title": "Building & Energy Codes (Development Services)",
+        "url": "https://www.fortworthtexas.gov/departments/development-services/permits/building-energy-codes",
+        "read": "2026-10-11"
+      },
+      "note": "Fort Worth uses the International Plumbing Code, not UPC. Read via web-search extract of this page; direct fetch blocked by session egress policy."
+    },
+    "electrical": {
+      "value": "2026 NEC (effective 2026-09-01 per city page); previously 2023 NEC by Ord. 26721-02-2024 effective 2024-03-01",
+      "status": "Secondary",
+      "source": {
+        "id": "fw-building-energy-codes",
+        "title": "Building & Energy Codes (Development Services)",
+        "url": "https://www.fortworthtexas.gov/departments/development-services/permits/building-energy-codes",
+        "read": "2026-10-11"
+      },
+      "note": "Search extract of city page reported 2026 NEC effective Sept 1, 2026; 2023 NEC ordinance confirmed separately. Re-verify - this is unusually early adoption of NEC 2026. Read via web-search extract of this page; direct fetch blocked by session egress policy."
+    },
+    "mechanical": {
+      "value": "2021 IMC with local amendments",
+      "status": "Secondary",
+      "source": {
+        "id": "fw-building-energy-codes",
+        "title": "Building & Energy Codes (Development Services)",
+        "url": "https://www.fortworthtexas.gov/departments/development-services/permits/building-energy-codes",
+        "read": "2026-10-11"
+      },
+      "note": " Read via web-search extract of this page; direct fetch blocked by session egress policy."
+    },
+    "fuelGas": {
+      "value": "2021 IFGC with local amendments",
+      "status": "Secondary",
+      "source": {
+        "id": "fw-building-energy-codes",
+        "title": "Building & Energy Codes (Development Services)",
+        "url": "https://www.fortworthtexas.gov/departments/development-services/permits/building-energy-codes",
+        "read": "2026-10-11"
+      },
+      "note": " Read via web-search extract of this page; direct fetch blocked by session egress policy."
+    },
+    "fire": {
+      "value": "2021 IFC with local amendments; no local one/two-family sprinkler mandate found (Texas Occupations Code 1301.551 lets cities not require them).",
+      "status": "Secondary",
+      "source": {
+        "id": "fw-building-energy-codes",
+        "title": "Building & Energy Codes (Development Services)",
+        "url": "https://www.fortworthtexas.gov/departments/development-services/permits/building-energy-codes",
+        "read": "2026-10-11"
+      },
+      "note": "Sprinkler statement is agent knowledge; verify R313 handling in Ord. 25383. Read via web-search extract of this page; direct fetch blocked by session egress policy."
+    },
+    "wind": {
+      "value": 105,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-fort-worth",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "mph",
+      "note": "ASCE 7-16 / 2021 IRC Fig R301.2(2) Risk Cat II ultimate wind ~105 mph for Tarrant County (map reading from agent knowledge); local Table R301.2(1) values not reachable."
+    },
+    "hailRoofing": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-fort-worth",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "DFW is a high-hail region but no local impact-resistant roofing mandate found. Class 4 shingles are an insurance-driven option, not code."
+    },
+    "seismic": {
+      "value": "A",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-fort-worth",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "North Texas is Seismic Design Category A."
+    },
+    "frostDepth": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-fort-worth",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "in",
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched. DFW local Table R301.2(1) frost depth commonly listed 6-12 in; verify in Ord. 25383."
+    }
+  },
+  "zoning": {
+    "hasZoning": {
+      "value": true,
+      "status": "Secondary",
+      "source": {
+        "id": "fw-zo-4-705",
+        "title": "Fort Worth Zoning Ordinance \u00a7 4.705 One-Family (\"A-5\") District",
+        "url": "https://codelibrary.amlegal.com/codes/ftworth/latest/ftworth_tx/0-0-0-35059",
+        "read": "2026-10-11",
+        "section": "\u00a7 4.705"
+      },
+      "note": " Read via web-search extract of this page; direct fetch blocked by session egress policy."
+    },
+    "typicalDistrict": {
+      "value": "A-5 One-Family",
+      "status": "Secondary",
+      "source": {
+        "id": "fw-zo-4-705",
+        "title": "Fort Worth Zoning Ordinance \u00a7 4.705 One-Family (\"A-5\") District",
+        "url": "https://codelibrary.amlegal.com/codes/ftworth/latest/ftworth_tx/0-0-0-35059",
+        "read": "2026-10-11",
+        "section": "\u00a7 4.705"
+      },
+      "note": "Most common single-family district for new detached subdivisions in Fort Worth. Others: A-7.5, A-10, A-21, A-43, AR (one-family restricted), B two-family. Read via web-search extract of this page; direct fetch blocked by session egress policy."
+    },
+    "minLotSqFt": {
+      "value": 5000,
+      "status": "Secondary",
+      "source": {
+        "id": "fw-zo-4-705",
+        "title": "Fort Worth Zoning Ordinance \u00a7 4.705 One-Family (\"A-5\") District",
+        "url": "https://codelibrary.amlegal.com/codes/ftworth/latest/ftworth_tx/0-0-0-35059",
+        "read": "2026-10-11",
+        "section": "\u00a7 4.705"
+      },
+      "unit": "sqft",
+      "note": "\u00a7 4.705 property development table. Note SB 15 (2025) lets new subdivisions in large cities use lots as small as 3,000 sq ft in single-family districts, subject to exceptions (Fort Worth Report). Read via web-search extract of this page; direct fetch blocked by session egress policy."
+    },
+    "minLotWidthFt": {
+      "value": 50,
+      "status": "Secondary",
+      "source": {
+        "id": "fw-zo-4-705",
+        "title": "Fort Worth Zoning Ordinance \u00a7 4.705 One-Family (\"A-5\") District",
+        "url": "https://codelibrary.amlegal.com/codes/ftworth/latest/ftworth_tx/0-0-0-35059",
+        "read": "2026-10-11",
+        "section": "\u00a7 4.705"
+      },
+      "unit": "ft",
+      "note": "Measured at building line. Read via web-search extract of this page; direct fetch blocked by session egress policy."
+    },
+    "minLotDepthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-fort-worth",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "ft",
+      "note": "Not found in search extract of \u00a7 4.705 table."
+    },
+    "setbacksFt": {
+      "front": {
+        "value": 20,
+        "status": "Secondary",
+        "source": {
+          "id": "fw-zo-4-705",
+          "title": "Fort Worth Zoning Ordinance \u00a7 4.705 One-Family (\"A-5\") District",
+          "url": "https://codelibrary.amlegal.com/codes/ftworth/latest/ftworth_tx/0-0-0-35059",
+          "read": "2026-10-11",
+          "section": "\u00a7 4.705"
+        },
+        "unit": "ft",
+        "note": "20 ft on local street; 15 ft on limited local street. Corner/projected front yard rules in \u00a7 6.101(f). Re-checked: same figure in A-7.5 table (\u00a7 4.704) and zoning summary; a third-party site (PropertyZoned) says 25 ft - rejected as non-primary. Read via web-search extract of this page; direct fetch blocked by session egress policy."
+      },
+      "side": {
+        "value": 5,
+        "status": "Secondary",
+        "source": {
+          "id": "fw-zo-4-705",
+          "title": "Fort Worth Zoning Ordinance \u00a7 4.705 One-Family (\"A-5\") District",
+          "url": "https://codelibrary.amlegal.com/codes/ftworth/latest/ftworth_tx/0-0-0-35059",
+          "read": "2026-10-11",
+          "section": "\u00a7 4.705"
+        },
+        "unit": "ft",
+        "note": "Interior side 5 ft; attached garage side yard may be 3 ft if garage is at least 18 ft behind front wall of house. BOA dockets also show 5 ft side for A-5. Read via web-search extract of this page; direct fetch blocked by session egress policy."
+      },
+      "streetSide": {
+        "value": 10,
+        "status": "Secondary",
+        "source": {
+          "id": "fw-zo-4-705",
+          "title": "Fort Worth Zoning Ordinance \u00a7 4.705 One-Family (\"A-5\") District",
+          "url": "https://codelibrary.amlegal.com/codes/ftworth/latest/ftworth_tx/0-0-0-35059",
+          "read": "2026-10-11",
+          "section": "\u00a7 4.705"
+        },
+        "unit": "ft",
+        "note": "Search extract of \u00a7 4.705 table showed 10 ft adjacent to side street but layout was garbled; verify. \u00a7 6.101(f) may require side yard equal to adjacent lot's front yard on some corner lots. Read via web-search extract of this page; direct fetch blocked by session egress policy."
+      },
+      "rear": {
+        "value": 5,
+        "status": "Secondary",
+        "source": {
+          "id": "fw-zo-4-705",
+          "title": "Fort Worth Zoning Ordinance \u00a7 4.705 One-Family (\"A-5\") District",
+          "url": "https://codelibrary.amlegal.com/codes/ftworth/latest/ftworth_tx/0-0-0-35059",
+          "read": "2026-10-11",
+          "section": "\u00a7 4.705"
+        },
+        "unit": "ft",
+        "note": "Rear 5 ft; detached garage behind rear wall of house may use 3 ft setback. Read via web-search extract of this page; direct fetch blocked by session egress policy."
+      }
+    },
+    "maxHeightFt": {
+      "value": 35,
+      "status": "Secondary",
+      "source": {
+        "id": "fw-zo-4-705",
+        "title": "Fort Worth Zoning Ordinance \u00a7 4.705 One-Family (\"A-5\") District",
+        "url": "https://codelibrary.amlegal.com/codes/ftworth/latest/ftworth_tx/0-0-0-35059",
+        "read": "2026-10-11",
+        "section": "\u00a7 4.705"
+      },
+      "unit": "ft",
+      "note": " Read via web-search extract of this page; direct fetch blocked by session egress policy."
+    },
+    "maxStories": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-fort-worth",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not stated in extract; height limit 35 ft governs (allows 2-3 stories)."
+    },
+    "maxLotCoverage": {
+      "value": 0.5,
+      "status": "Secondary",
+      "source": {
+        "id": "fw-zo-4-705",
+        "title": "Fort Worth Zoning Ordinance \u00a7 4.705 One-Family (\"A-5\") District",
+        "url": "https://codelibrary.amlegal.com/codes/ftworth/latest/ftworth_tx/0-0-0-35059",
+        "read": "2026-10-11",
+        "section": "\u00a7 4.705"
+      },
+      "unit": "fraction",
+      "note": "50% maximum lot coverage. Read via web-search extract of this page; direct fetch blocked by session egress policy."
+    },
+    "imperviousCover": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-fort-worth",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No residential impervious-cover limit found for A-5 (Fort Worth regulates via drainage criteria)."
+    },
+    "far": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-fort-worth",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No FAR limit in A-5 found."
+    },
+    "parking": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-fort-worth",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Exact one-family parking count not found (searches did not return Ch. 6 parking table). \u00a7 22-160 bars parking in front/side yards except on the required driveway to garage/carport/parking area. Commonly 2 spaces behind front building line - unverified."
+    },
+    "garageRules": {
+      "value": "Attached garage: side yard may be 3 ft if garage is >=18 ft behind front wall of house. Detached garage behind rear wall of house: 3 ft setback. Carports/porte cocheres in side yards only in limited cases (\u00a7 5.301, \u00a7 6.101).",
+      "status": "Secondary",
+      "source": {
+        "id": "fw-zo-4-705",
+        "title": "Fort Worth Zoning Ordinance \u00a7 4.705 One-Family (\"A-5\") District",
+        "url": "https://codelibrary.amlegal.com/codes/ftworth/latest/ftworth_tx/0-0-0-35059",
+        "read": "2026-10-11",
+        "section": "\u00a7 4.705"
+      },
+      "note": " Read via web-search extract of this page; direct fetch blocked by session egress policy."
+    },
+    "adu": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-fort-worth",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Fort Worth ADU rules (allowed districts, size) not verified; 2025 changes reported by third parties (rentredteam blog) not read in detail. Check \u00a7 5.301 accessory uses."
+    },
+    "masonry": {
+      "value": "No masonry percentage in A-5 found; and HB 2439 (2019, Gov't Code ch. 3000) bars Texas cities from requiring specific building materials beyond national model codes (exceptions: historic districts, etc.). HOA/deed restrictions may still require masonry.",
+      "status": "Assumed",
+      "source": {
+        "id": "tx-hb2439-gov-code-3000",
+        "title": "Assumed (Texas HB 2439, 86th Leg. 2019, Gov't Code ch. 3000 - not fetched)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "State-law effect from agent knowledge; statute page not fetched."
+    },
+    "trees": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-fort-worth",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Fort Worth Urban Forestry (zoning ch. 6) applies tree-canopy preservation/planting to platting and many permits; single-lot one-family applicability not verified. Texas HB 7 (2017, Loc. Gov't Code 212.905) gives tree-mitigation fee credit for trees planted."
+    },
+    "minDwellingSizeSqFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-fort-worth",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No minimum dwelling size found for A-5."
+    },
+    "other": [
+      {
+        "value": "SB 15 (2025): new subdivisions >= certain size in cities over 150,000 may plat 3,000 sq ft lots in single-family districts; city design rules also affected by 2025 laws.",
+        "status": "Secondary",
+        "source": {
+          "id": "fw-report-legis-2025",
+          "title": "Fort Worth faces major changes to zoning, housing design rules due to new Texas laws (Fort Worth Report, 2025-08-31)",
+          "url": "https://fortworthreport.org/2025/08/31/legislative-roundup/",
+          "read": "2026-10-11"
+        },
+        "note": "News source."
+      },
+      {
+        "value": "Projected front yard on corner lots: side yard on corner lot may need to equal front yard of lot adjacent to the rear.",
+        "status": "Secondary",
+        "source": {
+          "id": "fw-zo-6-101",
+          "title": "Fort Worth Zoning Ordinance \u00a7 6.101 Yards",
+          "url": "https://codelibrary.amlegal.com/codes/ftworth/latest/ftworth_tx/0-0-0-38206",
+          "read": "2026-10-11",
+          "section": "\u00a7 6.101(f)"
+        },
+        "note": " Read via web-search extract of this page; direct fetch blocked by session egress policy."
+      }
+    ]
+  },
+  "process": {
+    "steps": [
+      {
+        "value": "Confirm lot is platted (impact fees are assessed at final plat; set rate locked by plat/permit date).",
+        "status": "Secondary",
+        "source": {
+          "id": "fw-tif-page",
+          "title": "Transportation Impact Fees",
+          "url": "https://www.fortworthtexas.gov/impact-fees/transportation",
+          "read": "2026-10-11"
+        },
+        "note": " Read via web-search extract of this page; direct fetch blocked by session egress policy."
+      },
+      {
+        "value": "Submit residential new-construction permit with plans, engineered foundation plan sealed by Texas PE (or geotech showing non-expansive soil), energy compliance (2015 IECC).",
+        "status": "Secondary",
+        "source": {
+          "id": "fw-admin-code-25387",
+          "title": "Ordinance No. 25387-03-2022 - Fort Worth Administrative Code (2021)",
+          "url": "https://www.fortworthtexas.gov/files/assets/public/v/1/development-services/documents/building-code-local-amendments/2021-approved-local-amendments/administrative-code-2021-ordinance-25387-03-2022.pdf",
+          "read": "2026-10-11"
+        },
+        "note": " Read via web-search extract of this page; direct fetch blocked by session egress policy."
+      },
+      {
+        "value": "Pay permit, plan review, water/wastewater and transportation impact fees at permit issuance.",
+        "status": "Secondary",
+        "source": {
+          "id": "fw-ww-impact-current",
+          "title": "Water and Wastewater Impact Fees - Current Impact Fees",
+          "url": "https://www.fortworthtexas.gov/impact-fees/water-impact-fees/current-fees",
+          "read": "2026-10-11"
+        },
+        "note": " Read via web-search extract of this page; direct fetch blocked by session egress policy."
+      },
+      {
+        "value": "Inspections then Certificate of Occupancy.",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-fort-worth",
+          "title": "Assumed (no source reachable this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Standard sequence."
+      }
+    ],
+    "sealsRequired": [
+      {
+        "value": "Foundation design sealed by Texas-registered engineer (all new foundations).",
+        "status": "Secondary",
+        "source": {
+          "id": "fw-upcodes-irc-ch4",
+          "title": "Chapter 4 Foundations: Fort Worth Residential Code 2021 (UpCodes compilation)",
+          "url": "https://up.codes/viewer/fort-worth/irc-2021/chapter/4/foundations",
+          "read": "2026-10-11",
+          "section": "R401.2 (as amended)"
+        },
+        "note": " Read via web-search extract of this page; direct fetch blocked by session egress policy."
+      }
+    ],
+    "inspections": [
+      {
+        "value": "Foundation, plumbing rough, framing, MEP rough, insulation, final",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-fort-worth",
+          "title": "Assumed (no source reachable this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Typical IRC sequence: foundation (pre-pour, PT cable), framing, MEP rough, insulation/energy, final; third-party energy testing (blower door/duct) under 2015 IECC. Fort Worth list not fetched."
+      }
+    ],
+    "reviewDays": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-fort-worth",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+    }
+  },
+  "fees": {
+    "permitFormula": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-fort-worth",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched. Fort Worth residential building permit fee schedule not retrieved."
+    },
+    "workedExample2400sqft": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-fort-worth",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "USD",
+      "note": "Not computed: permit fee formula not retrieved. Impact fees alone for this example: water+wastewater $5,828 (5/8 in meter, permit on/after 2026-10-01) + transportation fee (not computable, see impactFees)."
+    },
+    "planReview": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-fort-worth",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+    },
+    "impactFees": [
+      {
+        "value": 5828,
+        "status": "Secondary",
+        "source": {
+          "id": "fw-ww-impact-current",
+          "title": "Water and Wastewater Impact Fees - Current Impact Fees",
+          "url": "https://www.fortworthtexas.gov/impact-fees/water-impact-fees/current-fees",
+          "read": "2026-10-11"
+        },
+        "unit": "USD",
+        "note": "Water $2,990 + wastewater $2,838 for 5/8 in (or 5/8x3/4) meter, building permits on/after 2026-10-01 (Ord. 27745-06-2025, adopted 2025-06-10). Prior step Oct 2025-Sep 2026: $2,824 + $2,680 = $5,504. 3/4 in meter = 1.5x. Assessed at plat, rate set by permit date. Read via web-search extract of this page; direct fetch blocked by session egress policy."
+      },
+      {
+        "value": null,
+        "status": "Secondary",
+        "source": {
+          "id": "fw-tif-calc",
+          "title": "Transportation Impact Fee Calculation",
+          "url": "https://www.fortworthtexas.gov/impact-fees/transportation/fee-information",
+          "read": "2026-10-11"
+        },
+        "unit": "USD",
+        "note": "Transportation impact fee = service units (vehicle-miles per dwelling from land-use equivalency table) x Schedule 1 max rate for the service area x collection rate. Residential collection rate 65% of Schedule 1 from 2026-06-01 (60% before). Schedule 1 (Ord. 25810-10-2022, eff. 2022-11-01) examples: Area A $1,642, B $3,308, C $1,781 per vehicle-mile. Per-house $ not computed: vehicle-miles per single-family unit not retrieved. Historic 2013 figure ~$3,000/home (FHWA) is outdated. Read via web-search extract of this page; direct fetch blocked by session egress policy."
+      }
+    ],
+    "tapFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-fort-worth",
+          "title": "Assumed (no source reachable this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Water/sewer tap (meter set) charges not retrieved. Separate from impact fees. Also: a $3/month single-family street maintenance fee approved to start 2028 (not a permit fee)."
+      }
+    ]
+  },
+  "cost": {
+    "factor": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "cost-method",
+        "title": "See README cost method (filled by cost agent)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "PENDING_COST_AGENT"
+    },
+    "method": "PENDING_COST_AGENT",
+    "perSqFtMarket": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-fort-worth",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No public market $/sq ft figure retrieved this session (search budget exhausted). Market figure, not a quote."
+    },
+    "drivers": [
+      {
+        "value": "Engineered (PE-sealed) foundation required for every new house; expansive clay soils drive post-tension slab cost.",
+        "status": "Secondary",
+        "source": {
+          "id": "fw-upcodes-irc-ch4",
+          "title": "Chapter 4 Foundations: Fort Worth Residential Code 2021 (UpCodes compilation)",
+          "url": "https://up.codes/viewer/fort-worth/irc-2021/chapter/4/foundations",
+          "read": "2026-10-11",
+          "section": "R401.2 (as amended)"
+        },
+        "note": " Read via web-search extract of this page; direct fetch blocked by session egress policy."
+      },
+      {
+        "value": "Water/wastewater impact fees ~$5,828 plus transportation impact fee per house.",
+        "status": "Secondary",
+        "source": {
+          "id": "fw-ww-impact-current",
+          "title": "Water and Wastewater Impact Fees - Current Impact Fees",
+          "url": "https://www.fortworthtexas.gov/impact-fees/water-impact-fees/current-fees",
+          "read": "2026-10-11"
+        },
+        "note": " Read via web-search extract of this page; direct fetch blocked by session egress policy."
+      },
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-fort-worth",
+          "title": "Assumed (no source reachable this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Hail-prone region; impact-resistant roofing often chosen for insurance."
+      }
+    ]
+  },
+  "flood": {
+    "value": null,
+    "status": "Assumed",
+    "source": {
+      "id": "assumed-fort-worth",
+      "title": "Assumed (no source reachable this session)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched. Fort Worth floodplain ordinance freeboard not verified (believed to require lowest floor >= 2 ft above BFE - unverified). Engine should default to at least 1 ft above BFE until checked."
+  },
+  "engineChanges": [
+    {
+      "id": "fw-a5-setbacks",
+      "ruleType": "setback-by-district",
+      "area": "setbacks",
+      "change": "When district is A-5: front 20 ft (15 ft on limited local street), side 5 ft, side street 10 ft, rear 5 ft.",
+      "priority": "must",
+      "params": {
+        "district": "A-5",
+        "frontFt": 20,
+        "frontLimitedLocalFt": 15,
+        "sideFt": 5,
+        "streetSideFt": 10,
+        "rearFt": 5
+      },
+      "source": {
+        "id": "fw-zo-4-705",
+        "title": "Fort Worth Zoning Ordinance \u00a7 4.705 One-Family (\"A-5\") District",
+        "url": "https://codelibrary.amlegal.com/codes/ftworth/latest/ftworth_tx/0-0-0-35059",
+        "read": "2026-10-11",
+        "section": "\u00a7 4.705"
+      }
+    },
+    {
+      "id": "fw-a5-lot",
+      "ruleType": "lot-min-size",
+      "area": "survey",
+      "change": "A-5 minimum lot 5,000 sq ft, 50 ft wide at building line (SB 15 may allow 3,000 sq ft in new subdivisions).",
+      "priority": "should",
+      "params": {
+        "minLotSqFt": 5000,
+        "minLotWidthFt": 50
+      },
+      "source": {
+        "id": "fw-zo-4-705",
+        "title": "Fort Worth Zoning Ordinance \u00a7 4.705 One-Family (\"A-5\") District",
+        "url": "https://codelibrary.amlegal.com/codes/ftworth/latest/ftworth_tx/0-0-0-35059",
+        "read": "2026-10-11",
+        "section": "\u00a7 4.705"
+      }
+    },
+    {
+      "id": "fw-a5-height",
+      "ruleType": "height-limit",
+      "area": "massing",
+      "change": "Max height 35 ft in A-5.",
+      "priority": "must",
+      "params": {
+        "maxHeightFt": 35
+      },
+      "source": {
+        "id": "fw-zo-4-705",
+        "title": "Fort Worth Zoning Ordinance \u00a7 4.705 One-Family (\"A-5\") District",
+        "url": "https://codelibrary.amlegal.com/codes/ftworth/latest/ftworth_tx/0-0-0-35059",
+        "read": "2026-10-11",
+        "section": "\u00a7 4.705"
+      }
+    },
+    {
+      "id": "fw-a5-coverage",
+      "ruleType": "lot-coverage",
+      "area": "massing",
+      "change": "Max lot coverage 50% in A-5.",
+      "priority": "must",
+      "params": {
+        "maxLotCoverage": 0.5
+      },
+      "source": {
+        "id": "fw-zo-4-705",
+        "title": "Fort Worth Zoning Ordinance \u00a7 4.705 One-Family (\"A-5\") District",
+        "url": "https://codelibrary.amlegal.com/codes/ftworth/latest/ftworth_tx/0-0-0-35059",
+        "read": "2026-10-11",
+        "section": "\u00a7 4.705"
+      }
+    },
+    {
+      "id": "fw-garage",
+      "ruleType": "garage-placement",
+      "area": "plan",
+      "change": "Allow attached garage side setback 3 ft only if garage is >=18 ft behind front wall; detached garage behind rear wall may be 3 ft from lot line.",
+      "priority": "should",
+      "params": {
+        "attachedGarageSideFt": 3,
+        "attachedGarageMinBehindFrontWallFt": 18,
+        "detachedRearGarageSetbackFt": 3
+      },
+      "source": {
+        "id": "fw-zo-4-705",
+        "title": "Fort Worth Zoning Ordinance \u00a7 4.705 One-Family (\"A-5\") District",
+        "url": "https://codelibrary.amlegal.com/codes/ftworth/latest/ftworth_tx/0-0-0-35059",
+        "read": "2026-10-11",
+        "section": "\u00a7 4.705"
+      }
+    },
+    {
+      "id": "fw-eng-foundation",
+      "ruleType": "engineered-foundation-flag",
+      "area": "foundation",
+      "change": "Set engineered foundation = true for every new house; require Texas PE-sealed foundation design (or geotech proving non-expansive soil).",
+      "priority": "must",
+      "params": {
+        "engineeredFoundation": true,
+        "sealBy": "Texas PE",
+        "geotechAlternative": true
+      },
+      "source": {
+        "id": "fw-upcodes-irc-ch4",
+        "title": "Chapter 4 Foundations: Fort Worth Residential Code 2021 (UpCodes compilation)",
+        "url": "https://up.codes/viewer/fort-worth/irc-2021/chapter/4/foundations",
+        "read": "2026-10-11",
+        "section": "R401.2 (as amended)"
+      }
+    },
+    {
+      "id": "fw-energy-2015",
+      "ruleType": "climate-zone-envelope",
+      "area": "envelope",
+      "change": "Use climate zone 3A envelope tables of 2015 IECC (Fort Worth retained 2015 IECC), not 2021 IECC.",
+      "priority": "must",
+      "params": {
+        "climateZone": "3A",
+        "energyCode": "2015 IECC"
+      },
+      "source": {
+        "id": "fw-building-energy-codes",
+        "title": "Building & Energy Codes (Development Services)",
+        "url": "https://www.fortworthtexas.gov/departments/development-services/permits/building-energy-codes",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "fw-plumbing-ipc",
+      "ruleType": "plumbing-code-variant",
+      "area": "drawings",
+      "change": "Plumbing per 2021 IPC/IFGC (not UPC).",
+      "priority": "nice",
+      "params": {
+        "plumbing": "IPC 2021"
+      },
+      "source": {
+        "id": "fw-building-energy-codes",
+        "title": "Building & Energy Codes (Development Services)",
+        "url": "https://www.fortworthtexas.gov/departments/development-services/permits/building-energy-codes",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "fw-nec",
+      "ruleType": "electrical-code-edition",
+      "area": "drawings",
+      "change": "Electrical per 2026 NEC (eff. 2026-09-01 per city page; 2023 NEC before). Verify.",
+      "priority": "should",
+      "params": {
+        "nec": "2026"
+      },
+      "source": {
+        "id": "fw-building-energy-codes",
+        "title": "Building & Energy Codes (Development Services)",
+        "url": "https://www.fortworthtexas.gov/departments/development-services/permits/building-energy-codes",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "fw-drainage",
+      "ruleType": "other-drainage-to-storm",
+      "area": "survey",
+      "change": "Site plan must show lot surface drainage diverted to storm sewer conveyance (amended R401.3).",
+      "priority": "nice",
+      "params": {},
+      "source": {
+        "id": "fw-irc-ord-25383",
+        "title": "Ordinance No. 25383-03-2022 - Fort Worth Residential Code (2021 IRC with local amendments)",
+        "url": "https://www.fortworthtexas.gov/files/assets/public/development-services/documents/building-code-local-amendments/2021-approved-local-amendments/irc-amendments-2021-ordinance-25383-03-2022.pdf",
+        "read": "2026-10-11",
+        "section": "Sec. 7-61 to 7-64"
+      }
+    },
+    {
+      "id": "fw-ww-impact",
+      "ruleType": "impact-fee-estimate",
+      "area": "estimate",
+      "change": "Add water+wastewater impact fee $5,828 (5/8 in meter, permits from 2026-10-01); x1.5 for 3/4 in meter.",
+      "priority": "must",
+      "params": {
+        "waterUSD": 2990,
+        "wastewaterUSD": 2838,
+        "totalUSD": 5828,
+        "meter": "5/8in",
+        "effective": "2026-10-01"
+      },
+      "source": {
+        "id": "fw-ww-impact-current",
+        "title": "Water and Wastewater Impact Fees - Current Impact Fees",
+        "url": "https://www.fortworthtexas.gov/impact-fees/water-impact-fees/current-fees",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "fw-tif",
+      "ruleType": "impact-fee-estimate",
+      "area": "estimate",
+      "change": "Add transportation impact fee = vehicle-miles per SF unit x Schedule 1 rate (service area) x 65%; show as line item TBD by service area.",
+      "priority": "should",
+      "params": {
+        "collectionRate": 0.65,
+        "schedule1PerVehMileUSD": {
+          "A": 1642,
+          "B": 3308,
+          "C": 1781
+        }
+      },
+      "source": {
+        "id": "fw-tif-calc",
+        "title": "Transportation Impact Fee Calculation",
+        "url": "https://www.fortworthtexas.gov/impact-fees/transportation/fee-information",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "fw-masonry-none",
+      "ruleType": "masonry-percentage",
+      "area": "envelope",
+      "change": "No city masonry % for new homes (HB 2439); prompt user to check HOA/deed restrictions for masonry.",
+      "priority": "should",
+      "params": {
+        "masonryPct": 0,
+        "checkDeed": true
+      },
+      "source": {
+        "id": "tx-hb2439-gov-code-3000",
+        "title": "Assumed (Texas HB 2439, 86th Leg. 2019, Gov't Code ch. 3000 - not fetched)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "fw-deed",
+      "ruleType": "deed-restriction-check",
+      "area": "survey",
+      "change": "Ask for HOA/deed restrictions (often impose masonry %, minimum size, garage orientation in new Fort Worth subdivisions).",
+      "priority": "should",
+      "params": {},
+      "source": {
+        "id": "assumed-fort-worth",
+        "title": "Assumed (no source reachable this session)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    }
+  ],
+  "plainLanguage": "Fort Worth uses the 2021 International Residential Code with local changes, but still uses the older 2015 energy code. Every new house needs a foundation designed and stamped by a Texas engineer because of the area's shifting clay soils. In the common A-5 zone your lot must be at least 5,000 sq ft and 50 ft wide. Keep the house 20 ft back from the front, 5 ft from the sides and rear, and 10 ft from a side street on a corner. The house can be up to 35 ft tall and cover up to half the lot. The city cannot require brick or stone, but your HOA or deed restrictions might. Budget about $5,800 for water and sewer impact fees plus a transportation impact fee that depends on where you build.",
+  "openQuestions": [
+    "Residential building permit and plan review fee schedule",
+    "Vehicle-miles per single-family unit for transportation impact fee; current Schedule 1 after 2026-06-01 change",
+    "Floodplain freeboard (believed 2 ft above BFE)",
+    "Frost depth and wind speed in local Table R301.2(1)",
+    "Parking minimum and ADU rules for A-5",
+    "Urban Forestry applicability to single lots",
+    "Confirm 2026 NEC adoption and whether any 2024 IRC adoption is pending"
+  ],
+  "notFound": [
+    "permit fee formula",
+    "plan review fee",
+    "tap fees",
+    "minimum lot depth",
+    "flood freeboard",
+    "frost depth",
+    "parking count",
+    "ADU rules",
+    "market $/sqft"
+  ],
+  "comparison": {
+    "irc": "2021 IRC (amended)",
+    "energy": "2015 IECC (amended)",
+    "plumbing": "IPC 2021",
+    "district": "A-5",
+    "setbacks": "20/5/5 (street side 10)",
+    "maxHeight": "35 ft",
+    "coverageFar": "50% / no FAR",
+    "masonry": "none (HB 2439)",
+    "engFoundation": "yes - all new homes (PE sealed)",
+    "windstorm": "no",
+    "flood": "unverified (>=1 ft assumed)",
+    "permitFeeExample": "not found",
+    "impactFees": "$5,828 water+ww + transportation (by area)",
+    "costFactor": "PENDING"
+  }
+}

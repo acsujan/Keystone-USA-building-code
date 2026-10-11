@@ -1,0 +1,708 @@
+{
+ "id": "round-rock",
+ "name": "City of Round Rock",
+ "state": "TX",
+ "tier": 1,
+ "counties": [
+  "Williamson",
+  "Travis"
+ ],
+ "msa": {
+  "name": "Austin-Round Rock-San Marcos, TX",
+  "blsCode": "12420"
+ },
+ "population": {
+  "value": null,
+  "status": "Assumed",
+  "source": {
+   "id": "assumed",
+   "title": "Assumed (agent judgement; research blocked this session)",
+   "url": "",
+   "read": "2026-10-11"
+  },
+  "note": "Not found: page fetch blocked by network proxy and shared web-search budget exhausted before Round Rock research; approx. 130k (Census Vintage 2024) from memory, not verified."
+ },
+ "zipCodesOrBoundary": {
+  "value": "78664, 78665, 78681 (core); city-limits map on roundrocktexas.gov GIS",
+  "status": "Assumed",
+  "source": {
+   "id": "assumed",
+   "title": "Assumed (agent judgement; research blocked this session)",
+   "url": "",
+   "read": "2026-10-11"
+  },
+  "note": "Not found: page fetch blocked by network proxy and shared web-search budget exhausted before Round Rock research; ZIP list from general knowledge."
+ },
+ "climateZone": {
+  "value": "2A",
+  "status": "Assumed",
+  "source": {
+   "id": "assumed",
+   "title": "Assumed (agent judgement; research blocked this session)",
+   "url": "",
+   "read": "2026-10-11"
+  },
+  "note": "Williamson County is Zone 2A in 2021 IECC Table R301.1 (agent knowledge)."
+ },
+ "windstormCounty": {
+  "value": false,
+  "status": "Assumed",
+  "source": {
+   "id": "assumed",
+   "title": "Assumed (agent judgement; research blocked this session)",
+   "url": "",
+   "read": "2026-10-11"
+  },
+  "note": "Inland county; not a TDI catalogue county."
+ },
+ "codes": {
+  "irc": {
+   "edition": {
+    "value": "2021 IRC (likely)",
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed (agent judgement; research blocked this session)",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "note": "Not found: page fetch blocked by network proxy and shared web-search budget exhausted before Round Rock research; Round Rock believed to have adopted the 2021 I-codes; verify current edition (possible 2024 update)."
+   },
+   "ordinance": {
+    "value": null,
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed (agent judgement; research blocked this session)",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "note": "Not found: page fetch blocked by network proxy and shared web-search budget exhausted before Round Rock research; adoption ordinance number not found."
+   },
+   "amendments": []
+  },
+  "energy": {
+   "edition": {
+    "value": "2021 IECC (state minimum; likely)",
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed (agent judgement; research blocked this session)",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "note": "Not found: page fetch blocked by network proxy and shared web-search budget exhausted before Round Rock research; "
+   },
+   "stretchCode": {
+    "value": false,
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed (agent judgement; research blocked this session)",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "note": "Not found: page fetch blocked by network proxy and shared web-search budget exhausted before Round Rock research; "
+   }
+  },
+  "plumbing": {
+   "value": "IPC 2021 (likely)",
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed (agent judgement; research blocked this session)",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found: page fetch blocked by network proxy and shared web-search budget exhausted before Round Rock research; Most Williamson Co. cities use IPC; Austin uses UPC."
+  },
+  "electrical": {
+   "value": "NEC 2020 or 2023",
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed (agent judgement; research blocked this session)",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found: page fetch blocked by network proxy and shared web-search budget exhausted before Round Rock research; "
+  },
+  "mechanical": {
+   "value": "IMC 2021 (likely)",
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed (agent judgement; research blocked this session)",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found: page fetch blocked by network proxy and shared web-search budget exhausted before Round Rock research; "
+  },
+  "fuelGas": {
+   "value": "IFGC 2021 (likely)",
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed (agent judgement; research blocked this session)",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found: page fetch blocked by network proxy and shared web-search budget exhausted before Round Rock research; "
+  },
+  "fire": {
+   "value": "IFC 2021 (likely); no 1-2 family sprinkler mandate (Texas Occ. Code 1301.551)",
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed (agent judgement; research blocked this session)",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found: page fetch blocked by network proxy and shared web-search budget exhausted before Round Rock research; "
+  },
+  "wind": {
+   "value": 110,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed (agent judgement; research blocked this session)",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "ASCE 7-16 Risk Cat II approx. 105-110 mph for Williamson County.",
+   "unit": "mph"
+  },
+  "hailRoofing": {
+   "value": "No local mandate found",
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed (agent judgement; research blocked this session)",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found: page fetch blocked by network proxy and shared web-search budget exhausted before Round Rock research; "
+  },
+  "seismic": {
+   "value": "A",
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed (agent judgement; research blocked this session)",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Central Texas low seismicity."
+  },
+  "frostDepth": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed (agent judgement; research blocked this session)",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found: page fetch blocked by network proxy and shared web-search budget exhausted before Round Rock research; ",
+   "unit": "in"
+  }
+ },
+ "zoning": {
+  "hasZoning": {
+   "value": true,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed (agent judgement; research blocked this session)",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Round Rock has zoning (SF-1, SF-2, SF-3, SF-R, TF, MH, PUD)."
+  },
+  "typicalDistrict": {
+   "value": "SF-2 (Single-Family Standard Lot) - many new homes are in PUDs with own standards",
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed (agent judgement; research blocked this session)",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Agent recollection, UNVERIFIED - confirm in Round Rock Code of Ordinances Part III (Zoning/UDC) Chapter 2. "
+  },
+  "minLotSqFt": {
+   "value": 6500,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed (agent judgement; research blocked this session)",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Agent recollection, UNVERIFIED - confirm in Round Rock Code of Ordinances Part III (Zoning/UDC) Chapter 2. ",
+   "unit": "sqft"
+  },
+  "minLotWidthFt": {
+   "value": 50,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed (agent judgement; research blocked this session)",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Agent recollection, UNVERIFIED - confirm in Round Rock Code of Ordinances Part III (Zoning/UDC) Chapter 2. ",
+   "unit": "ft"
+  },
+  "minLotDepthFt": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed (agent judgement; research blocked this session)",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Agent recollection, UNVERIFIED - confirm in Round Rock Code of Ordinances Part III (Zoning/UDC) Chapter 2. ",
+   "unit": "ft"
+  },
+  "setbacksFt": {
+   "front": {
+    "value": 25,
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed (agent judgement; research blocked this session)",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "note": "Agent recollection, UNVERIFIED - confirm in Round Rock Code of Ordinances Part III (Zoning/UDC) Chapter 2. 20 ft may apply for some lots.",
+    "unit": "ft"
+   },
+   "side": {
+    "value": 5,
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed (agent judgement; research blocked this session)",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "note": "Agent recollection, UNVERIFIED - confirm in Round Rock Code of Ordinances Part III (Zoning/UDC) Chapter 2. ",
+    "unit": "ft"
+   },
+   "streetSide": {
+    "value": 15,
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed (agent judgement; research blocked this session)",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "note": "Agent recollection, UNVERIFIED - confirm in Round Rock Code of Ordinances Part III (Zoning/UDC) Chapter 2. ",
+    "unit": "ft"
+   },
+   "rear": {
+    "value": 20,
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed (agent judgement; research blocked this session)",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "note": "Agent recollection, UNVERIFIED - confirm in Round Rock Code of Ordinances Part III (Zoning/UDC) Chapter 2. ",
+    "unit": "ft"
+   }
+  },
+  "maxHeightFt": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed (agent judgement; research blocked this session)",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Agent recollection, UNVERIFIED - confirm in Round Rock Code of Ordinances Part III (Zoning/UDC) Chapter 2. 2.5 stories typical."
+  },
+  "maxStories": {
+   "value": 2.5,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed (agent judgement; research blocked this session)",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Agent recollection, UNVERIFIED - confirm in Round Rock Code of Ordinances Part III (Zoning/UDC) Chapter 2. "
+  },
+  "maxLotCoverage": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed (agent judgement; research blocked this session)",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Agent recollection, UNVERIFIED - confirm in Round Rock Code of Ordinances Part III (Zoning/UDC) Chapter 2. ",
+   "unit": "fraction"
+  },
+  "imperviousCover": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed (agent judgement; research blocked this session)",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Agent recollection, UNVERIFIED - confirm in Round Rock Code of Ordinances Part III (Zoning/UDC) Chapter 2. "
+  },
+  "far": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed (agent judgement; research blocked this session)",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "No FAR limit known for SF districts."
+  },
+  "parking": {
+   "value": "2 off-street spaces per dwelling, typically in garage",
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed (agent judgement; research blocked this session)",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Agent recollection, UNVERIFIED - confirm in Round Rock Code of Ordinances Part III (Zoning/UDC) Chapter 2. "
+  },
+  "garageRules": {
+   "value": "Front-facing garage limits / garage door design standards may apply in SF districts",
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed (agent judgement; research blocked this session)",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Agent recollection, UNVERIFIED - confirm in Round Rock Code of Ordinances Part III (Zoning/UDC) Chapter 2. "
+  },
+  "adu": {
+   "value": "Accessory dwellings limited; verify",
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed (agent judgement; research blocked this session)",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Agent recollection, UNVERIFIED - confirm in Round Rock Code of Ordinances Part III (Zoning/UDC) Chapter 2. "
+  },
+  "masonry": {
+   "value": "Exterior material standards historically required masonry in SF districts; enforceability limited by Texas Gov. Code 3000 (HB 2439, 2019) except in PUDs/agreements",
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed (agent judgement; research blocked this session)",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Agent recollection, UNVERIFIED - confirm in Round Rock Code of Ordinances Part III (Zoning/UDC) Chapter 2. "
+  },
+  "trees": {
+   "value": "Tree protection ordinance with protected (approx. 8 in+) and heritage trees; mitigation required",
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed (agent judgement; research blocked this session)",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Agent recollection, UNVERIFIED - confirm in Round Rock Code of Ordinances Part III (Zoning/UDC) Chapter 2. "
+  },
+  "other": []
+ },
+ "process": {
+  "steps": [
+   {
+    "value": "Building permit via Round Rock Planning & Development Services; plat and zoning verification first",
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed (agent judgement; research blocked this session)",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "note": "Not found: page fetch blocked by network proxy and shared web-search budget exhausted before Round Rock research; "
+   }
+  ],
+  "sealsRequired": [
+   {
+    "value": "Engineered foundation commonly required on Williamson Co. expansive soils",
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed (agent judgement; research blocked this session)",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "note": "Not found: page fetch blocked by network proxy and shared web-search budget exhausted before Round Rock research; "
+   }
+  ],
+  "inspections": [
+   {
+    "value": "Standard IRC inspection sequence",
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed (agent judgement; research blocked this session)",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "note": "Not found: page fetch blocked by network proxy and shared web-search budget exhausted before Round Rock research; "
+   }
+  ],
+  "reviewDays": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed (agent judgement; research blocked this session)",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found: page fetch blocked by network proxy and shared web-search budget exhausted before Round Rock research; "
+  }
+ },
+ "fees": {
+  "permitFormula": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed (agent judgement; research blocked this session)",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found: page fetch blocked by network proxy and shared web-search budget exhausted before Round Rock research; "
+  },
+  "workedExample2400sqft": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed (agent judgement; research blocked this session)",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found: page fetch blocked by network proxy and shared web-search budget exhausted before Round Rock research; no fee schedule obtained."
+  },
+  "planReview": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed (agent judgement; research blocked this session)",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found: page fetch blocked by network proxy and shared web-search budget exhausted before Round Rock research; "
+  },
+  "impactFees": [
+   {
+    "value": null,
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed (agent judgement; research blocked this session)",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "note": "Not found: page fetch blocked by network proxy and shared web-search budget exhausted before Round Rock research; Round Rock charges water and wastewater impact fees per LUE; amounts not obtained."
+   }
+  ],
+  "tapFees": [
+   {
+    "value": null,
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed (agent judgement; research blocked this session)",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "note": "Not found: page fetch blocked by network proxy and shared web-search budget exhausted before Round Rock research; "
+   }
+  ]
+ },
+ "cost": {
+  "factor": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "cost-method",
+    "title": "See README cost method (filled by cost agent)",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "PENDING_COST_AGENT"
+  },
+  "method": "PENDING_COST_AGENT",
+  "perSqFtMarket": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed (agent judgement; research blocked this session)",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found: page fetch blocked by network proxy and shared web-search budget exhausted before Round Rock research; "
+  },
+  "drivers": [
+   {
+    "value": "Expansive clay soils east side (Blackland Prairie) - engineered slabs",
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed (agent judgement; research blocked this session)",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "note": "Agent knowledge of regional geology."
+   }
+  ]
+ },
+ "flood": {
+  "value": "FEMA-based floodplain ordinance; freeboard likely 1-2 ft above BFE - verify",
+  "status": "Assumed",
+  "source": {
+   "id": "assumed",
+   "title": "Assumed (agent judgement; research blocked this session)",
+   "url": "",
+   "read": "2026-10-11"
+  },
+  "note": "Not found: page fetch blocked by network proxy and shared web-search budget exhausted before Round Rock research; "
+ },
+ "engineChanges": [
+  {
+   "id": "round-rock-verify",
+   "ruleType": "survey-input-district",
+   "area": "survey",
+   "change": "Round Rock data is unverified: require user to confirm district (SF-1/SF-2/SF-3/PUD) and setbacks from plat before design",
+   "priority": "must",
+   "params": {
+    "dataQuality": "assumed"
+   },
+   "source": {
+    "id": "assumed",
+    "title": "Assumed (agent judgement; unverified)",
+    "url": "",
+    "read": "2026-10-11"
+   }
+  },
+  {
+   "id": "round-rock-sf2-setbacks",
+   "ruleType": "setback-by-district",
+   "area": "setbacks",
+   "change": "Provisional SF-2 setbacks front 25, side 5, street side 15, rear 20 ft (unverified)",
+   "priority": "should",
+   "params": {
+    "district": "SF-2",
+    "frontFt": 25,
+    "sideFt": 5,
+    "streetSideFt": 15,
+    "rearFt": 20,
+    "verified": false
+   },
+   "source": {
+    "id": "assumed",
+    "title": "Assumed (agent judgement; unverified)",
+    "url": "",
+    "read": "2026-10-11"
+   }
+  },
+  {
+   "id": "round-rock-plat",
+   "ruleType": "building-line-plat",
+   "area": "survey",
+   "change": "Many Round Rock homes are in PUDs/HOA subdivisions: use plat building lines and PUD standards over base district",
+   "priority": "must",
+   "params": {},
+   "source": {
+    "id": "assumed",
+    "title": "Assumed (agent judgement; unverified)",
+    "url": "",
+    "read": "2026-10-11"
+   }
+  },
+  {
+   "id": "round-rock-cz",
+   "ruleType": "climate-zone-envelope",
+   "area": "envelope",
+   "change": "Climate zone 2A envelope (2021 IECC)",
+   "priority": "must",
+   "params": {
+    "climateZone": "2A"
+   },
+   "source": {
+    "id": "assumed",
+    "title": "Assumed (agent judgement; unverified)",
+    "url": "",
+    "read": "2026-10-11"
+   }
+  },
+  {
+   "id": "round-rock-plumbing",
+   "ruleType": "plumbing-code-variant",
+   "area": "drawings",
+   "change": "Assume IPC (not UPC as in Austin) until verified",
+   "priority": "nice",
+   "params": {
+    "plumbingCode": "IPC"
+   },
+   "source": {
+    "id": "assumed",
+    "title": "Assumed (agent judgement; unverified)",
+    "url": "",
+    "read": "2026-10-11"
+   }
+  }
+ ],
+ "plainLanguage": "Round Rock has zoning, but this record could not be checked against the city's code in this research pass, so treat every number as a placeholder. Most new homes are in planned developments (PUDs) or HOA subdivisions whose plat and deed rules control setbacks and materials. Typical single-family lots are around 6,500 sq ft with about 25 ft front and 5 ft side setbacks. The city likely uses the 2021 building codes and climate zone 2A energy rules. Expect water and wastewater impact fees and an engineered foundation on clay soils. Check with Round Rock Planning & Development Services before final design.",
+ "openQuestions": [
+  "Adopted IRC/IECC editions and amendment ordinance",
+  "SF-1/SF-2/SF-3 site development table",
+  "Impact fee schedule per LUE",
+  "Building permit fee schedule",
+  "Masonry/exterior material rules status",
+  "Tree ordinance thresholds",
+  "Floodplain freeboard"
+ ],
+ "notFound": [
+  "Everything primary: research blocked (fetch proxy 403; search budget exhausted)"
+ ],
+ "comparison": {
+  "irc": "2021 IRC (unverified)",
+  "energy": "2021 IECC (unverified)",
+  "plumbing": "IPC (unverified)",
+  "district": "SF-2",
+  "setbacks": "25/5/20 (unverified)",
+  "maxHeight": "2.5 st (unverified)",
+  "coverageFar": "unknown / none",
+  "masonry": "historic requirement, limited by state law",
+  "engFoundation": "likely",
+  "windstorm": "no",
+  "flood": "unverified",
+  "permitFeeExample": "not found",
+  "impactFees": "not found",
+  "costFactor": "PENDING"
+ }
+}

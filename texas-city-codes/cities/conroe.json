@@ -1,0 +1,676 @@
+{
+  "id": "conroe",
+  "name": "City of Conroe",
+  "state": "TX",
+  "tier": 2,
+  "counties": [
+    "Montgomery"
+  ],
+  "msa": {
+    "name": "Houston-Pasadena-The Woodlands, TX",
+    "blsCode": "26420"
+  },
+  "population": {
+    "value": null,
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Not found: Census population (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+  },
+  "zipCodesOrBoundary": {
+    "value": null,
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Not found: ZIP list/city-limits map; commonly 77301-77306, 77384-77385 (unverified)"
+  },
+  "climateZone": {
+    "value": "2A",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "IECC 2021 Table R301.1 places Montgomery County in Zone 2A (warm-humid); recorded from code knowledge, the table/DOE map page could not be fetched or searched in this run."
+  },
+  "windstormCounty": {
+    "value": false,
+    "status": "Secondary",
+    "source": {
+      "id": "houston2-tdi-twia-insurability",
+      "title": "TDI - TWIA insurability requirements (designated catastrophe areas)",
+      "url": "https://tdi.texas.gov/WIND/documents/TWIAInsurabilityRequirementsFinal.pdf",
+      "read": "2026-10-11"
+    },
+    "note": "Montgomery County is not among the TDI designated catastrophe areas (the list covers 14 coastal counties plus part of Harris County); no WPI-8 needed. Based on the TDI designated-area list surfaced in search, Montgomery not named. Read via search-engine extract on 2026-10-11; direct page fetch was blocked in this environment."
+  },
+  "codes": {
+    "irc": {
+      "edition": {
+        "value": "2021 IRC",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment. Placeholder matching the regional pattern; verify with Conroe Building Permits."
+      },
+      "ordinance": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: adoption ordinance (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      },
+      "amendments": []
+    },
+    "energy": {
+      "edition": {
+        "value": "2021 IECC",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment."
+      },
+      "stretchCode": {
+        "value": false,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment."
+      }
+    },
+    "plumbing": {
+      "value": "IPC 2021",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment."
+    },
+    "electrical": {
+      "value": "NEC 2023",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment. Could be NEC 2020."
+    },
+    "mechanical": {
+      "value": "IMC 2021",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment."
+    },
+    "fuelGas": {
+      "value": "IFGC 2021",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment."
+    },
+    "fire": {
+      "value": "IFC (edition unverified); no one/two-family sprinkler mandate expected",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment."
+    },
+    "wind": {
+      "value": 130,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "mph",
+      "note": "ASCE 7-16 Risk Cat II approx. 125-130 mph for Conroe (estimate from map contour position, not ASCE Hazard Tool); outside TDI area. Verify."
+    },
+    "hailRoofing": {
+      "value": "No local hail/impact-resistant roofing mandate found",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found in sources reached; Texas insurers offer discounts for UL 2218 Class 4 shingles (optional)."
+    },
+    "seismic": {
+      "value": "A",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Gulf Coast Texas is Seismic Design Category A under IRC 2021 Fig R301.2(7); not verified against a local Table R301.2(1) in this run."
+    },
+    "frostDepth": {
+      "value": 6,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "in",
+      "note": "Local IRC Table R301.2(1) frost depth not found; Houston-region jurisdictions commonly list minimal frost depth (6 in or less). Verify with building official."
+    }
+  },
+  "zoning": {
+    "hasZoning": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment. Conroe's land-use regulation status (zoning vs. development ordinances only) must be verified; do not assume Houston-style no-zoning."
+    },
+    "typicalDistrict": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: typical SF district (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+    },
+    "minLotSqFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: min lot (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+    },
+    "minLotWidthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: lot width (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+    },
+    "minLotDepthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: lot depth (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+    },
+    "setbacksFt": {
+      "front": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: front setback (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      },
+      "side": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: side setback (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      },
+      "streetSide": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: streetSide setback (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      },
+      "rear": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: rear setback (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      }
+    },
+    "maxHeightFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: height (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+    },
+    "maxStories": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: stories (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+    },
+    "maxLotCoverage": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: coverage (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+    },
+    "imperviousCover": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: impervious (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+    },
+    "far": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: FAR (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+    },
+    "parking": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: parking (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+    },
+    "garageRules": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: garage (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+    },
+    "adu": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: ADU (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+    },
+    "masonry": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: masonry (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+    },
+    "trees": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: trees (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+    },
+    "other": []
+  },
+  "process": {
+    "steps": [
+      {
+        "value": "City building permit (plans, site plan); plat/building lines; MUD utility approval where applicable",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment."
+      }
+    ],
+    "sealsRequired": [
+      {
+        "value": "Engineered foundation likely",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment."
+      }
+    ],
+    "inspections": [
+      {
+        "value": "Standard IRC inspections",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment."
+      }
+    ],
+    "reviewDays": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: review days (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+    }
+  },
+  "fees": {
+    "permitFormula": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: permit fee formula (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+    },
+    "workedExample2400sqft": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: worked example (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+    },
+    "planReview": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: plan review (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+    },
+    "impactFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: water/sewer impact fees (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      }
+    ],
+    "tapFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: tap fees; many Conroe-area subdivisions are served by MUDs (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+      }
+    ]
+  },
+  "cost": {
+    "factor": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "cost-method",
+        "title": "See README cost method (filled by cost agent)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "PENDING_COST_AGENT"
+    },
+    "method": "PENDING_COST_AGENT",
+    "perSqFtMarket": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: market $/sf (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+    },
+    "drivers": [
+      {
+        "value": "Engineered slab on expansive clays; MUD fees in new subdivisions",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Regional pattern, unverified."
+      }
+    ]
+  },
+  "flood": {
+    "value": null,
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Not found: Conroe flood damage prevention freeboard (Montgomery County/San Jacinto River area) (Conroe not researched: the shared web-search budget ran out and all direct page fetches were blocked in this environment.)"
+  },
+  "engineChanges": [
+    {
+      "id": "conroe-nowind",
+      "ruleType": "windstorm-package",
+      "area": "structure",
+      "change": "Do NOT add TDI windstorm package (Montgomery County not designated).",
+      "priority": "must",
+      "params": {
+        "requiresWPI8": false
+      },
+      "source": {
+        "id": "houston2-tdi-twia-insurability",
+        "title": "TDI - TWIA insurability requirements (designated catastrophe areas)",
+        "url": "https://tdi.texas.gov/WIND/documents/TWIAInsurabilityRequirementsFinal.pdf",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "conroe-climate",
+      "ruleType": "climate-zone-envelope",
+      "area": "envelope",
+      "change": "Use Climate Zone 2A envelope values.",
+      "priority": "must",
+      "params": {
+        "zone": "2A"
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "conroe-flood",
+      "ruleType": "flood-elevation",
+      "area": "foundation",
+      "change": "Require surveyed BFE; freeboard unknown - assume >= 1 ft until confirmed.",
+      "priority": "should",
+      "params": {
+        "freeboardFt": null,
+        "verified": false
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "conroe-plat",
+      "ruleType": "deed-restriction-check",
+      "area": "survey",
+      "change": "Check plat building lines, HOA and MUD rules; zoning status unverified.",
+      "priority": "should",
+      "params": {
+        "checkPlat": true,
+        "checkMUD": true
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    }
+  ],
+  "plainLanguage": "Conroe is outside the Texas coastal windstorm area, so no state windstorm certificate is needed. We could not confirm Conroe's adopted code edition, lot rules, flood rule or fees in this research pass; the values shown are placeholders. Check your subdivision plat, HOA and utility district (MUD) rules, and confirm with Conroe's permit office.",
+  "openQuestions": [
+    "Everything: code editions, zoning status, setbacks, flood freeboard, permit and impact fees"
+  ],
+  "notFound": [
+    "All city-specific values - search budget exhausted, fetch blocked"
+  ],
+  "comparison": {
+    "irc": "2021 IRC (unverified)",
+    "energy": "unverified",
+    "plumbing": "unverified",
+    "district": "not found",
+    "setbacks": "not found",
+    "maxHeight": "not found",
+    "coverageFar": "not found",
+    "masonry": "not found",
+    "engFoundation": "likely (unverified)",
+    "windstorm": "no",
+    "flood": "not found",
+    "permitFeeExample": "not found",
+    "impactFees": "not found",
+    "costFactor": "PENDING"
+  }
+}

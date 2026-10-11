@@ -1,0 +1,698 @@
+{
+  "id": "amarillo",
+  "name": "City of Amarillo",
+  "state": "TX",
+  "tier": 1,
+  "counties": [
+    "Potter",
+    "Randall"
+  ],
+  "msa": {
+    "name": "Amarillo, TX",
+    "blsCode": "11100"
+  },
+  "population": {
+    "value": 205130,
+    "status": "Secondary",
+    "source": {
+      "id": "amarillo-census-v2025",
+      "title": "U.S. Census Bureau QuickFacts (comparison table listing Amarillo city V2025)",
+      "url": "https://www.census.gov/quickfacts/geo/chart/lubbockcitytexas/PST045223",
+      "read": "2026-10-11"
+    },
+    "note": "Census Vintage 2025 (July 1, 2025) as shown in a QuickFacts comparison view in search results; V2024 not seen."
+  },
+  "zipCodesOrBoundary": {
+    "value": null,
+    "status": "Assumed",
+    "source": {
+      "id": "amarillo-assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Not found: ZIP list / city-limits map link (web search budget exhausted and direct page fetch blocked in research environment)."
+  },
+  "climateZone": {
+    "value": "4B",
+    "status": "Assumed",
+    "source": {
+      "id": "amarillo-assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Climate zone per 2021 IECC Table R301.1 county list (researcher knowledge of the model code; table not re-fetched this session). Potter, Randall County = 4B."
+  },
+  "windstormCounty": {
+    "value": false,
+    "status": "Assumed",
+    "source": {
+      "id": "amarillo-assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Inland county; TDI windstorm catalogue covers only coastal counties."
+  },
+  "codes": {
+    "irc": {
+      "edition": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "amarillo-assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: adopted IRC edition and adoption ordinance (web search budget exhausted and direct page fetch blocked in research environment)."
+      },
+      "ordinance": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "amarillo-assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: adoption ordinance (web search budget exhausted and direct page fetch blocked in research environment)."
+      },
+      "amendments": []
+    },
+    "energy": {
+      "edition": {
+        "value": "IRC Chapter 11 (edition unverified)",
+        "status": "Assumed",
+        "source": {
+          "id": "amarillo-assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not verified; Texas statewide minimum for single-family is IRC Chapter 11 (2015 IECC basis per SECO) unless city adopted newer."
+      },
+      "stretchCode": {
+        "value": false,
+        "status": "Assumed",
+        "source": {
+          "id": "amarillo-assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "No stretch code known."
+      }
+    },
+    "plumbing": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "amarillo-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: plumbing code edition (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "electrical": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "amarillo-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: NEC edition (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "mechanical": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "amarillo-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: mechanical code (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "fuelGas": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "amarillo-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: fuel gas code (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "fire": {
+      "value": "No residential sprinkler mandate assumed",
+      "status": "Assumed",
+      "source": {
+        "id": "amarillo-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not verified; Texas cities generally do not mandate one-/two-family sprinklers."
+    },
+    "wind": {
+      "value": 115,
+      "status": "Assumed",
+      "source": {
+        "id": "amarillo-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "mph",
+      "note": "Assumed from ASCE 7-16 / IRC 2021 Fig R301.2(2) regional contour for West Texas (about 105-115 mph); verify with ATC hazard tool."
+    },
+    "hailRoofing": {
+      "value": "No code mandate known; Class 4 recommended",
+      "status": "Assumed",
+      "source": {
+        "id": "amarillo-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No local Class 4 roofing mandate found/verified. Area has very high hail frequency; Class 4 (UL 2218) shingles are an insurance-discount option, not a code rule as far as known."
+    },
+    "seismic": {
+      "value": "A",
+      "status": "Assumed",
+      "source": {
+        "id": "amarillo-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Assumed SDC A (low-hazard area per IRC Fig R301.2(4)). Not verified locally."
+    },
+    "frostDepth": {
+      "value": 24,
+      "status": "Assumed",
+      "source": {
+        "id": "amarillo-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "in",
+      "note": "Not found; Panhandle frost depth commonly cited 18-24 in; 24 used as conservative engine default."
+    }
+  },
+  "zoning": {
+    "hasZoning": {
+      "value": true,
+      "status": "Assumed",
+      "source": {
+        "id": "amarillo-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Texas home-rule city with zoning (general knowledge); district standards not retrieved."
+    },
+    "typicalDistrict": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "amarillo-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: typical single-family district (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "minLotSqFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "amarillo-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: min lot size (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "minLotWidthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "amarillo-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: min lot width (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "minLotDepthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "amarillo-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: min lot depth (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "setbacksFt": {
+      "front": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "amarillo-assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: front setback (web search budget exhausted and direct page fetch blocked in research environment)."
+      },
+      "side": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "amarillo-assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: side setback (web search budget exhausted and direct page fetch blocked in research environment)."
+      },
+      "streetSide": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "amarillo-assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: streetSide setback (web search budget exhausted and direct page fetch blocked in research environment)."
+      },
+      "rear": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "amarillo-assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: rear setback (web search budget exhausted and direct page fetch blocked in research environment)."
+      }
+    },
+    "maxHeightFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "amarillo-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: max height (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "maxStories": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "amarillo-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: max stories (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "maxLotCoverage": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "amarillo-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: max lot coverage (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "imperviousCover": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "amarillo-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: impervious cover (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "far": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "amarillo-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: FAR (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "parking": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "amarillo-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: residential parking minimum (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "garageRules": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "amarillo-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: garage rules (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "adu": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "amarillo-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: ADU rules (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "masonry": {
+      "value": "None",
+      "status": "Assumed",
+      "source": {
+        "id": "amarillo-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No masonry mandate assumed; Texas Gov. Code ch. 3000 limits city building-material mandates."
+    },
+    "trees": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "amarillo-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: tree rules (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "other": []
+  },
+  "process": {
+    "steps": [
+      {
+        "value": "Plan submittal, review, permit, inspections, CO",
+        "status": "Assumed",
+        "source": {
+          "id": "amarillo-assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Generic Texas city process assumed."
+      }
+    ],
+    "sealsRequired": [
+      {
+        "value": "Engineer seal for engineered foundation/structure",
+        "status": "Assumed",
+        "source": {
+          "id": "amarillo-assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Prescriptive IRC plans generally need no seal in Texas; engineered foundations do."
+      }
+    ],
+    "inspections": [
+      {
+        "value": "Foundation, frame, rough MEP, insulation, final",
+        "status": "Assumed",
+        "source": {
+          "id": "amarillo-assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Typical IRC sequence assumed."
+      }
+    ],
+    "reviewDays": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "amarillo-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: review time (web search budget exhausted and direct page fetch blocked in research environment)."
+    }
+  },
+  "fees": {
+    "permitFormula": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "amarillo-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: residential permit fee formula (note: Texas HB 852 (2019) bars value-based residential fees) (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "workedExample2400sqft": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "amarillo-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: fee schedule, so no worked example (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "planReview": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "amarillo-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: plan review fee (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "impactFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "amarillo-assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: impact fees (web search budget exhausted and direct page fetch blocked in research environment)."
+      }
+    ],
+    "tapFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "amarillo-assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: water/sewer tap fees (web search budget exhausted and direct page fetch blocked in research environment)."
+      }
+    ]
+  },
+  "cost": {
+    "factor": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "cost-method",
+        "title": "See README cost method (filled by cost agent)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "PENDING_COST_AGENT"
+    },
+    "method": "PENDING_COST_AGENT",
+    "perSqFtMarket": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "amarillo-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "USD/sqft",
+      "note": "Not researched (web search budget exhausted (shared limit) and direct page fetch blocked in research environment)."
+    },
+    "drivers": [
+      {
+        "value": "Climate zone 4B insulation, deeper frost footings, hail, snow load",
+        "status": "Assumed",
+        "source": {
+          "id": "amarillo-assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "General knowledge: hail-resistant roofing, wind, expansive clay/caliche soils on the High Plains / Permian Basin labor market."
+      }
+    ]
+  },
+  "flood": {
+    "value": null,
+    "status": "Assumed",
+    "source": {
+      "id": "amarillo-assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Not found: floodplain ordinance freeboard (Playa lake areas may be mapped SFHA) (web search budget exhausted and direct page fetch blocked in research environment)."
+  },
+  "engineChanges": [
+    {
+      "id": "amarillo-cz",
+      "ruleType": "climate-zone-envelope",
+      "area": "envelope",
+      "change": "Use climate zone 4B envelope tables (higher wall/ceiling R, lower fenestration U than CZ 3)",
+      "priority": "must",
+      "params": {
+        "climateZone": "4B"
+      },
+      "source": {
+        "id": "iecc-2021-r301-1-assumed",
+        "title": "Assumed: 2021 IECC Table R301.1 county climate zones (not fetched)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "amarillo-frost",
+      "ruleType": "frost-depth",
+      "area": "foundation",
+      "change": "Footing depth default 24 in below grade (conservative; local frost line ~18-24 in unconfirmed)",
+      "priority": "should",
+      "params": {
+        "minFootingDepthIn": 24,
+        "verifyLocal": true
+      },
+      "source": {
+        "id": "amarillo-assumed",
+        "title": "Assumed: Panhandle frost depth range",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "amarillo-snow",
+      "ruleType": "other",
+      "area": "structure",
+      "change": "Flag ground snow load input (Panhandle about 15-20 psf; not confirmed)",
+      "priority": "should",
+      "params": {
+        "groundSnowPsfAssumed": 20,
+        "verifyLocal": true
+      },
+      "source": {
+        "id": "amarillo-assumed",
+        "title": "Assumed: Panhandle snow load",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "amarillo-hail",
+      "ruleType": "hail-roof",
+      "area": "envelope",
+      "change": "Default roof to Class 4 impact-resistant (recommended, not code)",
+      "priority": "nice",
+      "params": {
+        "roofImpactClass": 4,
+        "mandatory": false
+      },
+      "source": {
+        "id": "amarillo-assumed",
+        "title": "Assumed: hail exposure",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "amarillo-survey-district",
+      "ruleType": "survey-input-district",
+      "area": "survey",
+      "change": "Ask user for zoning district and setbacks (not loaded)",
+      "priority": "must",
+      "params": {
+        "requireUserSetbacks": true
+      },
+      "source": {
+        "id": "amarillo-assumed",
+        "title": "Assumed: data gap",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    }
+  ],
+  "plainLanguage": "Amarillo is colder than the rest of Texas (climate zone 4B), so walls, attic and windows need more insulation than in Dallas or Houston. Frost goes deeper here; plan footings around 24 inches deep until the city confirms its frost line. Snow loads and hail are real design issues; impact-resistant roofing is strongly recommended. We could not confirm the city's adopted code edition, zoning setbacks or fees, so those must be checked with the city.",
+  "openQuestions": [
+    "Adopted IRC edition and local Table R301.2(1) (snow load, frost depth ~18-24 in, wind).",
+    "Typical single-family district and setbacks.",
+    "Permit fees and impact fees.",
+    "Whether Potter vs Randall County side changes anything (both CZ 4B)."
+  ],
+  "notFound": [
+    "Nearly all city-specific values: web search budget exhausted (shared limit) and direct page fetch blocked in research environment."
+  ],
+  "comparison": {
+    "irc": "not found",
+    "energy": "IRC Ch.11 (unverified)",
+    "plumbing": "not found",
+    "district": "not found",
+    "setbacks": "not found",
+    "maxHeight": "not found",
+    "coverageFar": "not found",
+    "masonry": "none (assumed)",
+    "engFoundation": "not found",
+    "windstorm": "no",
+    "flood": "not found",
+    "permitFeeExample": "not found",
+    "impactFees": "not found",
+    "costFactor": "PENDING"
+  }
+}

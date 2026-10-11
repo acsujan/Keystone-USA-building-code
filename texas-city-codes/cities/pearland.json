@@ -1,0 +1,916 @@
+{
+  "id": "pearland",
+  "name": "City of Pearland",
+  "state": "TX",
+  "tier": 2,
+  "counties": [
+    "Brazoria",
+    "Harris",
+    "Fort Bend"
+  ],
+  "msa": {
+    "name": "Houston-Pasadena-The Woodlands, TX",
+    "blsCode": "26420"
+  },
+  "population": {
+    "value": 127736,
+    "status": "Secondary",
+    "source": {
+      "id": "pearland-census-quickfacts",
+      "title": "U.S. Census QuickFacts - Pearland city, Texas",
+      "url": "https://census.gov/quickfacts/fact/table/pearlandcitytexas/INC110223",
+      "read": "2026-10-11"
+    },
+    "note": "Census Vintage 2023 estimate (July 1, 2023); Vintage 2024 showed NA in the extract. City planning estimate is 133,100 (Jan 1, 2025) per city population page. Read via search-engine extract on 2026-10-11; direct page fetch was blocked in this environment."
+  },
+  "zipCodesOrBoundary": {
+    "value": "Official city-limits map not retrieved; see City of Pearland GIS (gis.pearlandtx.gov)",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Not found: ZIP list/city-limits map not fetched. Pearland ZIPs commonly 77581, 77584, 77588 (also parts of 77047/77089) - unverified."
+  },
+  "climateZone": {
+    "value": "2A",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "IECC 2021 Table R301.1 places Brazoria/Harris/Fort Bend County in Zone 2A (warm-humid); recorded from code knowledge, the table/DOE map page could not be fetched or searched in this run."
+  },
+  "windstormCounty": {
+    "value": true,
+    "status": "Secondary",
+    "source": {
+      "id": "houston2-tdi-brazoria",
+      "title": "TDI Windstorm - Brazoria County wind zone map page",
+      "url": "https://tdi.texas.gov/wind/maps/brazoria.html",
+      "read": "2026-10-11"
+    },
+    "note": "PARTIAL: All of Brazoria County is a TDI designated catastrophe area; Pearland is listed as Inland II on the Brazoria page. Harris County designation covers only Morgan's Point, La Porte, Shoreacres, Seabrook and Pasadena east of SH 146 (not Pearland); Fort Bend is not designated. So only Brazoria-county parcels of Pearland need TDI windstorm (WPI-8). Read via search-engine extract on 2026-10-11; direct page fetch was blocked in this environment."
+  },
+  "codes": {
+    "irc": {
+      "edition": {
+        "value": "2021 IRC",
+        "status": "Secondary",
+        "source": {
+          "id": "pearland-adopted-codes",
+          "title": "City of Pearland - Adopted Building Codes",
+          "url": "https://www.pearlandtx.gov/departments/community-development/permits/adopted-building-codes",
+          "read": "2026-10-11"
+        },
+        "note": "City adopted-codes page lists 2021 IRC plus a separate 'Amendments to the Residential Code' document that could not be opened. Read via search-engine extract on 2026-10-11; direct page fetch was blocked in this environment."
+      },
+      "ordinance": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: adoption ordinance number for the IRC; Ch. 7 Art. II extract showed IBC 2021 (Sec. 7-13) and IPMC 2021 only"
+      },
+      "amendments": [
+        {
+          "topic": "other",
+          "summary": "City publishes 'Amendments to the Residential Code' (content not readable in this run). Local amendments must be adopted by ordinance after public hearing (LGC 214.212).",
+          "section": "",
+          "status": "Secondary",
+          "source": {
+            "id": "pearland-adopted-codes",
+            "title": "City of Pearland - Adopted Building Codes",
+            "url": "https://www.pearlandtx.gov/departments/community-development/permits/adopted-building-codes",
+            "read": "2026-10-11"
+          }
+        }
+      ]
+    },
+    "energy": {
+      "edition": {
+        "value": "2021 IECC",
+        "status": "Secondary",
+        "source": {
+          "id": "pearland-adopted-codes",
+          "title": "City of Pearland - Adopted Building Codes",
+          "url": "https://www.pearlandtx.gov/departments/community-development/permits/adopted-building-codes",
+          "read": "2026-10-11"
+        },
+        "note": "Read via search-engine extract on 2026-10-11; direct page fetch was blocked in this environment."
+      },
+      "stretchCode": {
+        "value": false,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "No stretch code seen on the adopted-codes list."
+      }
+    },
+    "plumbing": {
+      "value": "IPC 2021",
+      "status": "Secondary",
+      "source": {
+        "id": "pearland-adopted-codes",
+        "title": "City of Pearland - Adopted Building Codes",
+        "url": "https://www.pearlandtx.gov/departments/community-development/permits/adopted-building-codes",
+        "read": "2026-10-11"
+      },
+      "note": "Read via search-engine extract on 2026-10-11; direct page fetch was blocked in this environment."
+    },
+    "electrical": {
+      "value": "NEC 2023",
+      "status": "Secondary",
+      "source": {
+        "id": "pearland-adopted-codes",
+        "title": "City of Pearland - Adopted Building Codes",
+        "url": "https://www.pearlandtx.gov/departments/community-development/permits/adopted-building-codes",
+        "read": "2026-10-11"
+      },
+      "note": "Read via search-engine extract on 2026-10-11; direct page fetch was blocked in this environment."
+    },
+    "mechanical": {
+      "value": "IMC 2021",
+      "status": "Secondary",
+      "source": {
+        "id": "pearland-adopted-codes",
+        "title": "City of Pearland - Adopted Building Codes",
+        "url": "https://www.pearlandtx.gov/departments/community-development/permits/adopted-building-codes",
+        "read": "2026-10-11"
+      },
+      "note": "Read via search-engine extract on 2026-10-11; direct page fetch was blocked in this environment."
+    },
+    "fuelGas": {
+      "value": "IFGC 2021",
+      "status": "Secondary",
+      "source": {
+        "id": "pearland-adopted-codes",
+        "title": "City of Pearland - Adopted Building Codes",
+        "url": "https://www.pearlandtx.gov/departments/community-development/permits/adopted-building-codes",
+        "read": "2026-10-11"
+      },
+      "note": "Read via search-engine extract on 2026-10-11; direct page fetch was blocked in this environment."
+    },
+    "fire": {
+      "value": "IFC 2021; no one/two-family sprinkler mandate found",
+      "status": "Secondary",
+      "source": {
+        "id": "pearland-adopted-codes",
+        "title": "City of Pearland - Adopted Building Codes",
+        "url": "https://www.pearlandtx.gov/departments/community-development/permits/adopted-building-codes",
+        "read": "2026-10-11"
+      },
+      "note": "Sprinkler rule not seen; Texas law (Occupations Code 1301.551(i)) generally bars cities from requiring sprinklers in one/two-family dwellings - general knowledge, not fetched."
+    },
+    "wind": {
+      "value": 142,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "mph",
+      "note": "ASCE 7-16 Risk Cat II ultimate speed approx. 140-145 mph for Pearland, estimated from map contour position, not from the ASCE Hazard Tool (unreachable). Brazoria-county parcels are TDI Inland II (legacy 110 mph ASCE 7-05 basic = 143 mph ASCE 7-10 ultimate equivalent per TDI 2018 newsletter). Verify per address."
+    },
+    "hailRoofing": {
+      "value": "No local hail/impact-resistant roofing mandate found",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found in sources reached; Texas insurers offer discounts for UL 2218 Class 4 shingles (optional)."
+    },
+    "seismic": {
+      "value": "A",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Gulf Coast Texas is Seismic Design Category A under IRC 2021 Fig R301.2(7); not verified against a local Table R301.2(1) in this run."
+    },
+    "frostDepth": {
+      "value": 6,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "in",
+      "note": "Local IRC Table R301.2(1) frost depth not found; Houston-region jurisdictions commonly list minimal frost depth (6 in or less). Verify with building official."
+    }
+  },
+  "zoning": {
+    "hasZoning": {
+      "value": true,
+      "status": "Secondary",
+      "source": {
+        "id": "pearland-zoningcodes-pdf",
+        "title": "City of Pearland UDC Chapter 2 Zoning Regulations (ZoningCodes.pdf)",
+        "url": "https://gis.pearlandtx.gov/ZoningCodes.pdf",
+        "read": "2026-10-11"
+      },
+      "note": "Read via search-engine extract on 2026-10-11; direct page fetch was blocked in this environment."
+    },
+    "typicalDistrict": {
+      "value": "R-2 (Single-Family Residential-2)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Picked as a common conventional SF district; many new Pearland homes are in Planned Developments (PD) with their own standards (e.g. Shadow Creek Ranch). Other SF districts: R-E, SR-12, SR-15, R-1 (8,800 sf), R-3 (6,000 sf), R-4."
+    },
+    "minLotSqFt": {
+      "value": 7000,
+      "status": "Secondary",
+      "source": {
+        "id": "pearland-zoningcodes-pdf",
+        "title": "City of Pearland UDC Chapter 2 Zoning Regulations (ZoningCodes.pdf)",
+        "url": "https://gis.pearlandtx.gov/ZoningCodes.pdf",
+        "read": "2026-10-11"
+      },
+      "unit": "sqft",
+      "note": "District list: R-1 min 8,800 sf, R-2 min 7,000 sf, R-3 min 6,000 sf. One garbled extract showed conflicting R-2 text (half acre/120 ft); treated as an extract error. Read via search-engine extract on 2026-10-11; direct page fetch was blocked in this environment."
+    },
+    "minLotWidthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: R-2 lot width not isolated in extract (a 2018 staff report cited 80 ft width for an 8,800 sf R-1 comparison)"
+    },
+    "minLotDepthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: lot depth"
+    },
+    "setbacksFt": {
+      "front": {
+        "value": 25,
+        "status": "Secondary",
+        "source": {
+          "id": "pearland-siteplancreator",
+          "title": "Site Plan Requirements in Pearland, TX (Permit Guide)",
+          "url": "https://www.siteplancreator.com/site-plans/pearland-tx",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Third-party permit guide: typical R-1/R-2 front 25 ft. A UDC extract also shows 'Twenty-five feet (25'); twenty feet (20') for cul-de-sac lots and thumbnail lots' for an unidentified district. Verify in UDC."
+      },
+      "side": {
+        "value": 5,
+        "status": "Secondary",
+        "source": {
+          "id": "pearland-siteplancreator",
+          "title": "Site Plan Requirements in Pearland, TX (Permit Guide)",
+          "url": "https://www.siteplancreator.com/site-plans/pearland-tx",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Third-party guide: interior side 5-7.5 ft; 5 ft used. Verify in UDC."
+      },
+      "streetSide": {
+        "value": 15,
+        "status": "Secondary",
+        "source": {
+          "id": "pearland-siteplancreator",
+          "title": "Site Plan Requirements in Pearland, TX (Permit Guide)",
+          "url": "https://www.siteplancreator.com/site-plans/pearland-tx",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Third-party guide: street side 15-20 ft on corner lots; 15 used. A UDC extract shows 10 ft side 'equal to the front yard when abutting a street' for an unidentified district."
+      },
+      "rear": {
+        "value": 20,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Third-party guide gives rear 10-25 ft range; 20 ft assumed pending UDC check."
+      }
+    },
+    "maxHeightFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: R-2 height limit (not in extracts)"
+    },
+    "maxStories": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: max stories"
+    },
+    "maxLotCoverage": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: R-2 lot coverage (one garbled extract showed 50%)"
+    },
+    "imperviousCover": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: impervious cover limit"
+    },
+    "far": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No FAR found for SF districts; likely none."
+    },
+    "parking": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: SF parking minimum (commonly 2-car garage in Houston-area UDCs, unverified)"
+    },
+    "garageRules": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: garage placement/orientation rules"
+    },
+    "adu": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: ADU/accessory dwelling rules"
+    },
+    "masonry": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: Pearland masonry percentage; searched UDC exterior materials - nothing returned. Note Texas Gov't Code 3000 (HB 2439, 2019) limits city building-material mandates except in historic districts / by agreement; PD standards and deed restrictions often require masonry."
+    },
+    "trees": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: tree preservation/planting rules"
+    },
+    "other": [
+      {
+        "value": "Many subdivisions are Planned Developments (PD) and/or in MUDs with deed restrictions that override base district dimensions and add HOA architectural rules.",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Regional pattern; PD documents are on pearlandtx.gov (e.g. The Orchard at Lower Kirby PD standards) but not read."
+      }
+    ]
+  },
+  "process": {
+    "steps": [
+      {
+        "value": "Check zoning/plat and use the city residential portal to estimate permits and fees",
+        "status": "Secondary",
+        "source": {
+          "id": "pearland-developing-portal",
+          "title": "Pearland Zoning and Permit Check (residential fee calculator portal)",
+          "url": "https://developing.pearlandtx.gov/",
+          "read": "2026-10-11"
+        },
+        "note": "Read via search-engine extract on 2026-10-11; direct page fetch was blocked in this environment."
+      },
+      {
+        "value": "Submit residential building permit with plans; obtain floodplain/Elevation Certificate if in 100-yr floodplain",
+        "status": "Secondary",
+        "source": {
+          "id": "pearland-floodplain-mgmt",
+          "title": "City of Pearland - Floodplain Management",
+          "url": "https://pearlandtx.gov/departments/engineering-and-public-works/engineering/floodplain-management",
+          "read": "2026-10-11"
+        },
+        "note": "City requires an Elevation Certificate for all new buildings within the 100-year floodplain. Read via search-engine extract on 2026-10-11; direct page fetch was blocked in this environment."
+      },
+      {
+        "value": "Brazoria-county lots: apply to TDI (WPI-1) before construction, have a TDI-appointed engineer review plans and inspect, receive WPI-8 Certificate of Compliance (separate from the city permit)",
+        "status": "Secondary",
+        "source": {
+          "id": "houston2-tdi-inspection-process",
+          "title": "TDI - What is the Windstorm Inspection Process?",
+          "url": "https://www.tdi.texas.gov/wind/inspectionproc.html",
+          "read": "2026-10-11"
+        },
+        "note": "Read via search-engine extract on 2026-10-11; direct page fetch was blocked in this environment."
+      }
+    ],
+    "sealsRequired": [
+      {
+        "value": "Windstorm (Brazoria parcels): Texas PE (TDI appointed qualified inspector) seals/certifies wind design and inspections",
+        "status": "Secondary",
+        "source": {
+          "id": "houston2-tdi-inspection-process",
+          "title": "TDI - What is the Windstorm Inspection Process?",
+          "url": "https://www.tdi.texas.gov/wind/inspectionproc.html",
+          "read": "2026-10-11"
+        },
+        "note": "Read via search-engine extract on 2026-10-11; direct page fetch was blocked in this environment."
+      },
+      {
+        "value": "Engineered (sealed) foundation design likely required",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not confirmed for Pearland; standard practice on Houston-area expansive clays and commonly required by Gulf Coast building departments."
+      }
+    ],
+    "inspections": [
+      {
+        "value": "City: foundation, framing, MEP rough, insulation/energy, final; TDI: windstorm inspections at foundation/framing/sheathing/roof stages for Brazoria parcels",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "City inspection list not found; TDI stages per general TDI process."
+      }
+    ],
+    "reviewDays": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: plan review turnaround"
+    }
+  },
+  "fees": {
+    "permitFormula": {
+      "value": "$0.41 per sq ft for new one- and two-family dwellings, townhomes and additions",
+      "status": "Secondary",
+      "source": {
+        "id": "pearland-permit-fees",
+        "title": "City of Pearland - Permits & Development Fees",
+        "url": "https://www.pearlandtx.gov/departments/community-development/permits/permits-development-fees",
+        "read": "2026-10-11"
+      },
+      "note": "Page may carry stale content (2013 reference seen in extract). Read via search-engine extract on 2026-10-11; direct page fetch was blocked in this environment."
+    },
+    "workedExample2400sqft": {
+      "value": 1164.4,
+      "status": "Secondary",
+      "source": {
+        "id": "pearland-permit-fees",
+        "title": "City of Pearland - Permits & Development Fees",
+        "url": "https://www.pearlandtx.gov/departments/community-development/permits/permits-development-fees",
+        "read": "2026-10-11"
+      },
+      "unit": "USD",
+      "note": "Assumes rate applies to total floor area incl. 440 sf attached garage: (2,400 + 440) x $0.41 = $1,164.40. Conditioned area only would be 2,400 x 0.41 = $984. Excludes trade permits, plan review and impact fees."
+    },
+    "planReview": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: separate plan review fee; use developing.pearlandtx.gov calculator"
+    },
+    "impactFees": [
+      {
+        "value": 9625,
+        "status": "Secondary",
+        "source": {
+          "id": "pearland-ci-impact-2023",
+          "title": "Community Impact: Pearland raises new development water fee by 43% (Apr 13 2023)",
+          "url": "https://communityimpact.com/houston/pearland-friendswood/business/2023/04/13/pearland-raises-new-development-water-fee-by-43",
+          "read": "2026-10-11"
+        },
+        "unit": "USD",
+        "note": "2023: council raised combined water+sewer impact fee from $6,477 to the maximum rate; reported as $9,625 (another report says $9,265 - conflict). City said it was moving to a meter-based fee; FY26 rate page says 5/8-in meter size sets the SF impact fee (Ord. 1358-25 referenced). Verify current per-meter amount on the impact fee page."
+      }
+    ],
+    "tapFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: water/sewer tap and meter fee amounts"
+      }
+    ]
+  },
+  "cost": {
+    "factor": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "cost-method",
+        "title": "See README cost method (filled by cost agent)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "PENDING_COST_AGENT"
+    },
+    "method": "PENDING_COST_AGENT",
+    "perSqFtMarket": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: public market $/sf figure for Pearland new construction (search budget exhausted)"
+    },
+    "drivers": [
+      {
+        "value": "TDI windstorm package on Brazoria-county lots (engineer review, inspections, rated windows/garage door, connectors)",
+        "status": "Secondary",
+        "source": {
+          "id": "houston2-tdi-brazoria",
+          "title": "TDI Windstorm - Brazoria County wind zone map page",
+          "url": "https://tdi.texas.gov/wind/maps/brazoria.html",
+          "read": "2026-10-11"
+        },
+        "note": "Read via search-engine extract on 2026-10-11; direct page fetch was blocked in this environment."
+      },
+      {
+        "value": "Impact fee ~ $9.3k-$9.6k water+sewer (2023 report)",
+        "status": "Secondary",
+        "source": {
+          "id": "pearland-ci-impact-2023",
+          "title": "Community Impact: Pearland raises new development water fee by 43% (Apr 13 2023)",
+          "url": "https://communityimpact.com/houston/pearland-friendswood/business/2023/04/13/pearland-raises-new-development-water-fee-by-43",
+          "read": "2026-10-11"
+        }
+      },
+      {
+        "value": "Fill/elevation to 1 ft above BFE or 500-yr elevation",
+        "status": "Secondary",
+        "source": {
+          "id": "pearland-coo-ch10-5-flood",
+          "title": "Pearland Code of Ordinances Ch. 10 1/2 Flood Damage Prevention (Municode)",
+          "url": "https://www.municode.com/library/tx/pearland/codes/code_of_ordinances?nodeId=COOR_CH10_1-2FLDAPR",
+          "read": "2026-10-11"
+        }
+      },
+      {
+        "value": "Engineered slab on expansive clay",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Regional practice."
+      }
+    ]
+  },
+  "flood": {
+    "value": "Lowest finished floor >= 1 ft above BFE or at/above the 500-year floodplain elevation, whichever is higher; attached garage slab same rule; critical structures 24 in.",
+    "status": "Secondary",
+    "source": {
+      "id": "pearland-coo-ch10-5-flood",
+      "title": "Pearland Code of Ordinances Ch. 10 1/2 Flood Damage Prevention (Municode)",
+      "url": "https://www.municode.com/library/tx/pearland/codes/code_of_ordinances?nodeId=COOR_CH10_1-2FLDAPR",
+      "read": "2026-10-11"
+    },
+    "note": "Verbatim ordinance wording seen in search extract of Municode Ch. 10 1/2. Read via search-engine extract on 2026-10-11; direct page fetch was blocked in this environment."
+  },
+  "engineChanges": [
+    {
+      "id": "pearland-windstorm",
+      "ruleType": "windstorm-package",
+      "area": "structure",
+      "change": "If parcel is in the Brazoria County part of Pearland: add TDI windstorm package (TDI-appointed engineer, WPI-1 before start, inspections, WPI-8 certificate; wind-rated openings/connectors). Harris/Fort Bend parcels: not required.",
+      "priority": "must",
+      "params": {
+        "county": "Brazoria",
+        "tdiZone": "Inland II",
+        "requiresWPI8": true,
+        "appliesOnlyIfCounty": "Brazoria"
+      },
+      "source": {
+        "id": "houston2-tdi-brazoria",
+        "title": "TDI Windstorm - Brazoria County wind zone map page",
+        "url": "https://tdi.texas.gov/wind/maps/brazoria.html",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "pearland-tdi-code",
+      "ruleType": "windstorm-package",
+      "area": "drawings",
+      "change": "For TDI windstorm review, design to the TDI-adopted code: 2024 IRC/IBC applies to windstorm certification on/after April 1, 2026 (city permit itself remains 2021 IRC).",
+      "priority": "must",
+      "params": {
+        "tdiCode": "2024 IRC",
+        "tdiEffective": "2026-04-01",
+        "cityCode": "2021 IRC"
+      },
+      "source": {
+        "id": "houston2-texreg-tdi-2024-irc",
+        "title": "Texas Register Feb 13 2026, Adopted Rules Title 28 Insurance (TDI windstorm building code: 2024 IRC/IBC apply on/after April 1, 2026)",
+        "url": "https://www.sos.texas.gov/texreg/archive/February132026/Adopted Rules/28.INSURANCE.html",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "pearland-flood",
+      "ruleType": "flood-elevation",
+      "area": "foundation",
+      "change": "Finished floor (and attached-garage slab) >= BFE + 1 ft or >= 500-yr elevation, whichever higher; Elevation Certificate when in 100-yr floodplain.",
+      "priority": "must",
+      "params": {
+        "freeboardFt": 1,
+        "orAt500yr": true,
+        "garageSlabSameRule": true
+      },
+      "source": {
+        "id": "pearland-coo-ch10-5-flood",
+        "title": "Pearland Code of Ordinances Ch. 10 1/2 Flood Damage Prevention (Municode)",
+        "url": "https://www.municode.com/library/tx/pearland/codes/code_of_ordinances?nodeId=COOR_CH10_1-2FLDAPR",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "pearland-setbacks",
+      "ruleType": "setback-by-district",
+      "area": "setbacks",
+      "change": "R-2 default setbacks front 25 / side 5 / street side 15 / rear 20 ft (unverified - third-party guide); prefer plat building lines / PD standards.",
+      "priority": "should",
+      "params": {
+        "district": "R-2",
+        "frontFt": 25,
+        "sideFt": 5,
+        "streetSideFt": 15,
+        "rearFt": 20,
+        "verified": false
+      },
+      "source": {
+        "id": "pearland-siteplancreator",
+        "title": "Site Plan Requirements in Pearland, TX (Permit Guide)",
+        "url": "https://www.siteplancreator.com/site-plans/pearland-tx",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "pearland-lotmin",
+      "ruleType": "lot-min-size",
+      "area": "survey",
+      "change": "Minimum lot area by district: R-1 8,800 sf, R-2 7,000 sf, R-3 6,000 sf.",
+      "priority": "should",
+      "params": {
+        "R-1": 8800,
+        "R-2": 7000,
+        "R-3": 6000
+      },
+      "source": {
+        "id": "pearland-zoningcodes-pdf",
+        "title": "City of Pearland UDC Chapter 2 Zoning Regulations (ZoningCodes.pdf)",
+        "url": "https://gis.pearlandtx.gov/ZoningCodes.pdf",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "pearland-permitfee",
+      "ruleType": "permit-fee-formula",
+      "area": "estimate",
+      "change": "Building permit fee = $0.41 x sq ft (new SF dwelling).",
+      "priority": "should",
+      "params": {
+        "ratePerSqFt": 0.41,
+        "includeGarage": true
+      },
+      "source": {
+        "id": "pearland-permit-fees",
+        "title": "City of Pearland - Permits & Development Fees",
+        "url": "https://www.pearlandtx.gov/departments/community-development/permits/permits-development-fees",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "pearland-impact",
+      "ruleType": "impact-fee-estimate",
+      "area": "estimate",
+      "change": "Add water+wastewater impact fee ~ $9,625 per SF (5/8-in meter) - verify current schedule.",
+      "priority": "should",
+      "params": {
+        "waterSewerUSD": 9625,
+        "verified": false
+      },
+      "source": {
+        "id": "pearland-ci-impact-2023",
+        "title": "Community Impact: Pearland raises new development water fee by 43% (Apr 13 2023)",
+        "url": "https://communityimpact.com/houston/pearland-friendswood/business/2023/04/13/pearland-raises-new-development-water-fee-by-43",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "pearland-climate",
+      "ruleType": "climate-zone-envelope",
+      "area": "envelope",
+      "change": "Use 2021 IECC Climate Zone 2A envelope values.",
+      "priority": "must",
+      "params": {
+        "zone": "2A",
+        "iecc": "2021"
+      },
+      "source": {
+        "id": "pearland-adopted-codes",
+        "title": "City of Pearland - Adopted Building Codes",
+        "url": "https://www.pearlandtx.gov/departments/community-development/permits/adopted-building-codes",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "pearland-nec",
+      "ruleType": "electrical-code-edition",
+      "area": "drawings",
+      "change": "Electrical drawings to NEC 2023 (not 2020).",
+      "priority": "nice",
+      "params": {
+        "nec": "2023"
+      },
+      "source": {
+        "id": "pearland-adopted-codes",
+        "title": "City of Pearland - Adopted Building Codes",
+        "url": "https://www.pearlandtx.gov/departments/community-development/permits/adopted-building-codes",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "pearland-plat",
+      "ruleType": "deed-restriction-check",
+      "area": "survey",
+      "change": "Most new lots are in PDs/MUDs with deed restrictions: ask for PD standards, plat building lines and HOA rules (masonry, garage) before massing.",
+      "priority": "should",
+      "params": {
+        "checkPD": true,
+        "checkHOA": true,
+        "checkMUD": true
+      },
+      "source": {
+        "id": "pearland-zoningcodes-pdf",
+        "title": "City of Pearland UDC Chapter 2 Zoning Regulations (ZoningCodes.pdf)",
+        "url": "https://gis.pearlandtx.gov/ZoningCodes.pdf",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "pearland-foundation",
+      "ruleType": "engineered-foundation-flag",
+      "area": "foundation",
+      "change": "Flag engineered (PE-sealed) slab foundation for expansive clay soils.",
+      "priority": "should",
+      "params": {
+        "engineeredFoundation": true,
+        "verified": false
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    }
+  ],
+  "plainLanguage": "Pearland builds to the 2021 International Residential Code with local amendments, the 2021 energy code and the 2023 electrical code. If your lot is in the Brazoria County part of Pearland, the state requires a windstorm inspection and certificate (WPI-8) from the Texas Department of Insurance in addition to the city permit; lots in the Harris or Fort Bend parts do not. Your floor must be at least 1 foot above the 100-year flood level or at the 500-year flood level, whichever is higher, and an attached garage floor too. The city building permit is about $0.41 per square foot, and water/sewer impact fees were about $9,600 in 2023. Most new subdivisions are planned developments with their own setback and material rules, so check your plat and HOA rules.",
+  "openQuestions": [
+    "Exact R-2/R-1 setbacks, height and coverage from UDC (ZoningCodes.pdf not readable)",
+    "Content of Pearland 'Amendments to the Residential Code'",
+    "Current meter-based impact fee amount (Ord. 1358-25?)",
+    "Masonry requirement in base districts vs PDs",
+    "Whether city requires PE-sealed foundation for all new homes",
+    "Whether Pearland city limits in Brazoria are entirely Inland II (TDI page says Pearland Inland II)"
+  ],
+  "notFound": [
+    "UDC setbacks/height/coverage (primary)",
+    "IRC adoption ordinance number",
+    "residential amendments text",
+    "masonry rule",
+    "tap fees",
+    "plan review fee",
+    "market $/sf",
+    "review days"
+  ],
+  "comparison": {
+    "irc": "2021 IRC (amended)",
+    "energy": "2021 IECC",
+    "plumbing": "IPC 2021",
+    "district": "R-2",
+    "setbacks": "25/5/20 (unverified)",
+    "maxHeight": "not found",
+    "coverageFar": "not found",
+    "masonry": "not found (PD/HOA likely)",
+    "engFoundation": "likely (unverified)",
+    "windstorm": "yes - Brazoria-county parcels only (Inland II, WPI-8)",
+    "flood": "1 ft above BFE or 500-yr, whichever higher",
+    "permitFeeExample": "$1,164",
+    "impactFees": "~$9,625 water+ww (2023)",
+    "costFactor": "PENDING"
+  }
+}

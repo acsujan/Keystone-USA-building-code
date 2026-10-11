@@ -1,0 +1,1002 @@
+{
+  "id": "san-antonio",
+  "name": "City of San Antonio",
+  "state": "TX",
+  "tier": 1,
+  "counties": [
+    "Bexar",
+    "Comal",
+    "Medina"
+  ],
+  "msa": {
+    "name": "San Antonio-New Braunfels, TX",
+    "blsCode": "41700"
+  },
+  "population": {
+    "value": 1526656,
+    "status": "Assumed",
+    "source": {
+      "id": "assumed-tools-unavailable",
+      "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Census Vintage 2024 estimate from memory (approx. 1.53 million); not re-read this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run"
+  },
+  "zipCodesOrBoundary": {
+    "value": "City limits: use City of San Antonio GIS city-limits layer (ETJ is large; many 782xx ZIPs straddle city/ETJ)",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed-tools-unavailable",
+      "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Boundary link not retrieved. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run"
+  },
+  "climateZone": {
+    "value": "2A",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed-tools-unavailable",
+      "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Bexar County is 2A in 2021 IECC Table R301.1 (from memory; not re-read this run)."
+  },
+  "windstormCounty": {
+    "value": false,
+    "status": "Assumed",
+    "source": {
+      "id": "assumed-tools-unavailable",
+      "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Bexar is not one of the 14 TDI first-tier coastal catalogue counties (from memory)."
+  },
+  "codes": {
+    "irc": {
+      "edition": {
+        "value": "2024 IRC (with City amendments), effective May 1, 2025",
+        "status": "Secondary",
+        "source": {
+          "id": "san-antonio-dsd-codes-ordinances",
+          "title": "Codes & Ordinances - City of San Antonio DSD",
+          "url": "https://www.sa.gov/Directory/Departments/DSD/Codes-Ordinances",
+          "read": "2026-10-11"
+        },
+        "note": "City Council adopted 2024 ICC codes (IBC, IEBC, IFC, IFGC, IMC, IPC, IRC, ISPSC, NEC) on Jan 30, 2025, effective May 1, 2025. Read via search excerpts of the city page and Ch.10 PDF; the full PDF could not be opened (WebFetch DNS failure). Replaces 2021 IRC (Ord. 2022-11-10-0875, effective Feb 1, 2023). The '2021 IRC' assumption in the brief is out of date."
+      },
+      "ordinance": {
+        "value": "Ord. 2025-01-30-0075 (Chapter 10 & 11 of City Code), effective May 1, 2025",
+        "status": "Secondary",
+        "source": {
+          "id": "san-antonio-upcodes-list",
+          "title": "San Antonio Building Codes (adoption list incl. Ord. 2025-01-30-0075)",
+          "url": "https://up.codes/codes/san-antonio",
+          "read": "2026-10-11"
+        },
+        "note": "Ordinance number from UpCodes adoption list; not read in the ordinance itself."
+      },
+      "amendments": [
+        {
+          "topic": "foundation",
+          "summary": "Foundation plan must be by a Texas PE or registered architect, or supported by a geotechnical report; all post-tensioned slab designs must be by a Texas PE.",
+          "section": "IB 101 (New Residential Packet)",
+          "status": "Secondary",
+          "source": {
+            "id": "san-antonio-ib101",
+            "title": "IB 101 New Residential Packet (June 2023)",
+            "url": "https://docsonline.sanantonio.gov/FileUploads/dsd/IB101.pdf",
+            "read": "2026-10-11"
+          }
+        },
+        {
+          "topic": "other",
+          "summary": "Tall walls and lintels outside IRC prescriptive limits need design by a Texas-licensed engineer or architect; optional third-party certification paths (full IRC, foundation+framing, braced wall, energy).",
+          "section": "IB 100",
+          "status": "Secondary",
+          "source": {
+            "id": "san-antonio-ib100",
+            "title": "IB 100 (third-party/certification paths, 2024 IRC with City amendments)",
+            "url": "https://docsonline.sanantonio.gov/fileuploads/dsd/ib100.pdf",
+            "read": "2026-10-11"
+          }
+        },
+        {
+          "topic": "other",
+          "summary": "Residential Code amendments sit in Chapter 10, Article IV (Sec. 10-37 in the 2021 cycle, incl. Appendices). Full 2024 amendment text not read.",
+          "section": "Ch. 10 Art. IV",
+          "status": "Secondary",
+          "source": {
+            "id": "san-antonio-ch10-2024",
+            "title": "City of San Antonio Chapter 10 Building-Related Codes, effective May 1, 2025 (PDF)",
+            "url": "https://docsonline.sanantonio.gov/DSDUploads/2024Ch10Building-RelatedCodesFinal.pdf",
+            "read": "2026-10-11"
+          }
+        }
+      ]
+    },
+    "energy": {
+      "edition": {
+        "value": "2021 IECC (as amended by City); IECC excluded from the 2024 adoption cycle",
+        "status": "Secondary",
+        "source": {
+          "id": "san-antonio-dsd-codes-ordinances",
+          "title": "Codes & Ordinances - City of San Antonio DSD",
+          "url": "https://www.sa.gov/Directory/Departments/DSD/Codes-Ordinances",
+          "read": "2026-10-11"
+        },
+        "note": "City page: IECC was excluded from this cycle and remains under 2021 codes."
+      },
+      "stretchCode": {
+        "value": "Solar-ready provisions for one- and two-family dwellings (2021 IECC App. RB as adopted per ACEEE)",
+        "status": "Secondary",
+        "source": {
+          "id": "san-antonio-aceee",
+          "title": "ACEEE City Clean Energy Scorecard - San Antonio",
+          "url": "https://database.aceee.org/city/san-antonio-tx",
+          "read": "2026-10-11"
+        },
+        "note": "ACEEE says city requires 1&2-family dwellings and townhouses be solar-ready. Exact appendix not confirmed."
+      },
+      "ordinance": {
+        "value": "Residential energy compliance per IB 167 (Nov 2024)",
+        "status": "Secondary",
+        "source": {
+          "id": "san-antonio-ib167",
+          "title": "IB 167 Residential Energy Compliance (Nov 2024)",
+          "url": "https://docsonline.sanantonio.gov/FileUploads/dsd/IB167.pdf",
+          "read": "2026-10-11"
+        }
+      }
+    },
+    "plumbing": {
+      "value": "IPC 2024 (City amendments, Ch.10 Art. IX)",
+      "status": "Secondary",
+      "source": {
+        "id": "san-antonio-upcodes-ipc2024",
+        "title": "San Antonio Plumbing Code 2024 (based on IPC 2024)",
+        "url": "https://up.codes/viewer/san-antonio/ipc-2024",
+        "read": "2026-10-11"
+      },
+      "note": "San Antonio uses the IPC, not the UPC."
+    },
+    "electrical": {
+      "value": "NEC 2023 (with local amendments)",
+      "status": "Secondary",
+      "source": {
+        "id": "san-antonio-2024icc-community-mtg",
+        "title": "2024 ICC Codes Updates Community Meeting, Nov 18 & 21, 2024",
+        "url": "https://docsonline.sanantonio.gov/FileUploads/DSD/20241118DSD_2024ICC_Amendments_CommunityMeeting.pdf",
+        "read": "2026-10-11"
+      },
+      "note": "City 2024 community-meeting deck lists 2023 NEC."
+    },
+    "mechanical": {
+      "value": "IMC 2024",
+      "status": "Secondary",
+      "source": {
+        "id": "san-antonio-dsd-codes-ordinances",
+        "title": "Codes & Ordinances - City of San Antonio DSD",
+        "url": "https://www.sa.gov/Directory/Departments/DSD/Codes-Ordinances",
+        "read": "2026-10-11"
+      }
+    },
+    "fuelGas": {
+      "value": "IFGC 2024",
+      "status": "Secondary",
+      "source": {
+        "id": "san-antonio-dsd-codes-ordinances",
+        "title": "Codes & Ordinances - City of San Antonio DSD",
+        "url": "https://www.sa.gov/Directory/Departments/DSD/Codes-Ordinances",
+        "read": "2026-10-11"
+      }
+    },
+    "fire": {
+      "value": "IFC 2024 with City amendments (App. B, C, D, F, I, L, M), effective May 1, 2025; no one/two-family sprinkler mandate found",
+      "status": "Secondary",
+      "source": {
+        "id": "san-antonio-2024-ifc-amend",
+        "title": "San Antonio Fire Code Amendments 2024 IFC Effective May 1, 2025",
+        "url": "https://docsonline.sanantonio.gov/DSDUploads/2024FireCodeAmendments.pdf",
+        "read": "2026-10-11"
+      },
+      "note": "Residential sprinkler mandate not seen in excerpts; IRC R313 status under City amendments not confirmed."
+    },
+    "wind": {
+      "value": 115,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "mph",
+      "note": "Approx. ultimate design wind speed (Risk Cat II) from 2024 IRC Fig. R301.2(2)/ASCE 7 map for Bexar County, from memory; confirm on ATC hazard tool."
+    },
+    "hailRoofing": {
+      "value": "No local impact-rated roofing mandate found; San Antonio is hail-prone - Class 4 shingles recommended (insurance)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Judgement."
+    },
+    "seismic": {
+      "value": "A",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Typical for Bexar County (IRC SDC A)."
+    },
+    "frostDepth": {
+      "value": 6,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "in",
+      "note": "Local Table R301.2(1) frost depth not retrieved; 6 in typical South-Central TX practice."
+    }
+  },
+  "zoning": {
+    "hasZoning": {
+      "value": true,
+      "status": "Secondary",
+      "source": {
+        "id": "san-antonio-udc-35-310-01",
+        "title": "UDC Sec. 35-310.01 Generally, Table 310-1 (eLaws copy)",
+        "url": "http://sanantonio-tx.elaws.us/code/udc_artiii_div2_sec35-310.01",
+        "read": "2026-10-11",
+        "section": "35-310.01, Table 310-1"
+      },
+      "note": "UDC Chapter 35."
+    },
+    "typicalDistrict": {
+      "value": "R-6 Residential Single-Family (others: R-4, R-5, NP-8/10/15, R-20, PUD/MPCD/MXD; most new subdivisions are R-6 or PUD)",
+      "status": "Secondary",
+      "source": {
+        "id": "san-antonio-udc-35-310-01",
+        "title": "UDC Sec. 35-310.01 Generally, Table 310-1 (eLaws copy)",
+        "url": "http://sanantonio-tx.elaws.us/code/udc_artiii_div2_sec35-310.01",
+        "read": "2026-10-11",
+        "section": "35-310.01, Table 310-1"
+      }
+    },
+    "minLotSqFt": {
+      "value": 6000,
+      "status": "Secondary",
+      "source": {
+        "id": "san-antonio-udc-35-310-01",
+        "title": "UDC Sec. 35-310.01 Generally, Table 310-1 (eLaws copy)",
+        "url": "http://sanantonio-tx.elaws.us/code/udc_artiii_div2_sec35-310.01",
+        "read": "2026-10-11",
+        "section": "35-310.01, Table 310-1"
+      },
+      "unit": "sq ft",
+      "note": "R-6 row of Table 310-1 as seen in search-engine excerpt of the eLaws copy (garbled columns). Also matches buildingclub."
+    },
+    "minLotWidthFt": {
+      "value": 50,
+      "status": "Secondary",
+      "source": {
+        "id": "san-antonio-udc-35-310-01",
+        "title": "UDC Sec. 35-310.01 Generally, Table 310-1 (eLaws copy)",
+        "url": "http://sanantonio-tx.elaws.us/code/udc_artiii_div2_sec35-310.01",
+        "read": "2026-10-11",
+        "section": "35-310.01, Table 310-1"
+      },
+      "unit": "ft",
+      "note": "Excerpt row 'R-6 6,000 7 30 50 150 10 - 5 20 35/2-1/2' read as: min lot 6,000; density 7 du/ac; frontage 30; min width 50; max width 150(?); front min 10; front max none; side 5; rear 20; height 35 ft/2.5 stories. Column alignment is an interpretation."
+    },
+    "minLotDepthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: R-6 minimum lot depth. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+    },
+    "setbacksFt": {
+      "front": {
+        "value": 10,
+        "status": "Secondary",
+        "source": {
+          "id": "san-antonio-udc-35-310-01",
+          "title": "UDC Sec. 35-310.01 Generally, Table 310-1 (eLaws copy)",
+          "url": "http://sanantonio-tx.elaws.us/code/udc_artiii_div2_sec35-310.01",
+          "read": "2026-10-11",
+          "section": "35-310.01, Table 310-1"
+        },
+        "unit": "ft",
+        "note": "Interpretation of garbled Table 310-1 excerpt (see minLotWidthFt note). CONFLICT: older IB 565 (2001 UDC era) shows 20 ft; buildingclub (beta) shows 25 ft; PropertyZoned shows 10 ft. Plat building lines in new subdivisions are commonly 20 ft or more - check plat. Garage-door setback (driveway length) footnote not confirmed."
+      },
+      "side": {
+        "value": 5,
+        "status": "Secondary",
+        "source": {
+          "id": "san-antonio-udc-35-310-01",
+          "title": "UDC Sec. 35-310.01 Generally, Table 310-1 (eLaws copy)",
+          "url": "http://sanantonio-tx.elaws.us/code/udc_artiii_div2_sec35-310.01",
+          "read": "2026-10-11",
+          "section": "35-310.01, Table 310-1"
+        },
+        "unit": "ft",
+        "note": "Table 310-1 excerpt; IB 565 also 5 (or 0/10 zero-lot-line); buildingclub 5."
+      },
+      "streetSide": {
+        "value": 10,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-tools-unavailable",
+          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Corner street-side setback not found; 10 ft assumed. Street classification can raise setbacks (Tables 35-310.18-1/35-310.19 cited in UDC)."
+      },
+      "rear": {
+        "value": 20,
+        "status": "Secondary",
+        "source": {
+          "id": "san-antonio-udc-35-310-01",
+          "title": "UDC Sec. 35-310.01 Generally, Table 310-1 (eLaws copy)",
+          "url": "http://sanantonio-tx.elaws.us/code/udc_artiii_div2_sec35-310.01",
+          "read": "2026-10-11",
+          "section": "35-310.01, Table 310-1"
+        },
+        "unit": "ft",
+        "note": "Table 310-1 excerpt; IB 565 also 20; buildingclub 20. PropertyZoned's 5 ft disregarded."
+      }
+    },
+    "maxHeightFt": {
+      "value": 35,
+      "status": "Secondary",
+      "source": {
+        "id": "san-antonio-udc-35-310-01",
+        "title": "UDC Sec. 35-310.01 Generally, Table 310-1 (eLaws copy)",
+        "url": "http://sanantonio-tx.elaws.us/code/udc_artiii_div2_sec35-310.01",
+        "read": "2026-10-11",
+        "section": "35-310.01, Table 310-1"
+      },
+      "unit": "ft",
+      "note": "35 ft / 2.5 stories from Table 310-1 excerpt; PropertyZoned's 40 ft/3 st conflicts."
+    },
+    "maxStories": {
+      "value": 2.5,
+      "status": "Secondary",
+      "source": {
+        "id": "san-antonio-udc-35-310-01",
+        "title": "UDC Sec. 35-310.01 Generally, Table 310-1 (eLaws copy)",
+        "url": "http://sanantonio-tx.elaws.us/code/udc_artiii_div2_sec35-310.01",
+        "read": "2026-10-11",
+        "section": "35-310.01, Table 310-1"
+      }
+    },
+    "maxLotCoverage": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: R-6 maximum lot coverage (no coverage column visible in Table 310-1 excerpt; PropertyZoned claims 55%, unverified). Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+    },
+    "imperviousCover": {
+      "value": "Edwards Aquifer Recharge/Contributing Zone: City Aquifer Protection (Ch. 34) and TCEQ Edwards rules (30 TAC 213) limit impervious cover by category and require water-pollution abatement plans at subdivision level",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Specific % limits not retrieved; flag only. Applies mostly north/northwest Bexar (over-recharge-zone)."
+    },
+    "far": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No FAR limit known for R-6."
+    },
+    "parking": {
+      "value": "2 spaces per single-family dwelling (typical UDC Table 526 minimum)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not retrieved; typical value assumed."
+    },
+    "garageRules": {
+      "value": "Front-loaded garage: assume 20 ft minimum from front property line to garage door so a car fits on the driveway",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Common UDC footnote; not confirmed this run."
+    },
+    "adu": {
+      "value": "Accessory dwelling units permitted in single-family districts under UDC 35-371 (size, height and owner-occupancy conditions)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Section and details not re-read; PropertyZoned referenced 35-311 secondary dwelling units."
+    },
+    "masonry": {
+      "value": "none",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No citywide masonry percentage known; HOA/deed restrictions may require it."
+    },
+    "trees": {
+      "value": "Tree Preservation (UDC 35-523): preserve 35% of significant trees per platted single-family lot and 100% of heritage trees; plant 2 native large-canopy trees (1.5 in caliper) per new single-family lot; mitigation by planting or payment. Tree permit/affidavit before clearing.",
+      "status": "Secondary",
+      "source": {
+        "id": "san-antonio-trees-guide",
+        "title": "Everything You Need to Know About Trees (City Arborist)",
+        "url": "https://docsonline.sanantonio.gov/DSDUploads/EverythingYouNeedtoKnowAboutTREES.pdf",
+        "read": "2026-10-11"
+      },
+      "note": "From City Arborist material (2023) as summarized in search results; codified section text not read. Applies in city limits and ETJ."
+    },
+    "minDwellingSizeSqFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No minimum dwelling size known."
+    },
+    "other": [
+      {
+        "value": "Flag lots: front setback measured from where lot meets minimum width",
+        "status": "Secondary",
+        "source": {
+          "id": "san-antonio-udc-35-515",
+          "title": "UDC Sec. 35-515 Lot Layout Regulations (eLaws copy)",
+          "url": "http://sanantonio-tx.elaws.us/code/udc_artv_div4_sec35-515",
+          "read": "2026-10-11",
+          "section": "35-515"
+        }
+      },
+      {
+        "value": "Older DSD bulletin shows R-6 front 20 / side 5 or 0-10 / rear 20 (likely pre-current UDC)",
+        "status": "Secondary",
+        "source": {
+          "id": "san-antonio-ib565",
+          "title": "IB 565 (DSD customer bulletin with residential setback table, older UDC)",
+          "url": "https://docsonline.sanantonio.gov/FileUploads/DSD/IB565.pdf",
+          "read": "2026-10-11"
+        }
+      },
+      {
+        "value": "Third-party R-6 summary (beta): 6,000 sf lot, 25/5/20, 35 ft",
+        "status": "Secondary",
+        "source": {
+          "id": "san-antonio-buildingclub",
+          "title": "San Antonio setbacks & height (beta third-party guide)",
+          "url": "https://zoning.buildingclub.info/texas/san-antonio/setbacks-height",
+          "read": "2026-10-11"
+        }
+      },
+      {
+        "value": "Third-party R-6 summary: 10/5/5, 40 ft, 55% coverage (unreliable)",
+        "status": "Secondary",
+        "source": {
+          "id": "san-antonio-propertyzoned-r6",
+          "title": "R-6 Zone in San Antonio, TX",
+          "url": "https://www.propertyzoned.com/city/texas/san-antonio/zones/r-6",
+          "read": "2026-10-11"
+        }
+      }
+    ]
+  },
+  "process": {
+    "steps": [
+      {
+        "value": "Apply for residential building (combination) permit through DSD; plans examiner review required for new homes",
+        "status": "Secondary",
+        "source": {
+          "id": "san-antonio-residential-permits",
+          "title": "Residential Permits - City of San Antonio",
+          "url": "https://www.sa.gov/Directory/Departments/DSD/Constructing/Residential/Permits",
+          "read": "2026-10-11"
+        }
+      },
+      {
+        "value": "Combination permit: separate trade permits not required on combination permits",
+        "status": "Secondary",
+        "source": {
+          "id": "san-antonio-ib101",
+          "title": "IB 101 New Residential Packet (June 2023)",
+          "url": "https://docsonline.sanantonio.gov/FileUploads/dsd/IB101.pdf",
+          "read": "2026-10-11"
+        }
+      },
+      {
+        "value": "Tree permit/affidavit before clearing or construction",
+        "status": "Secondary",
+        "source": {
+          "id": "san-antonio-tree-faq",
+          "title": "FAQ Tree Ordinance (2020-04-15)",
+          "url": "https://docsonline.sanantonio.gov/DSDUploads/20200415FAQ_TREEORDINANCE(3).pdf",
+          "read": "2026-10-11"
+        }
+      }
+    ],
+    "sealsRequired": [
+      {
+        "value": "Foundation: Texas PE / RA or geotech; post-tension slab always PE",
+        "status": "Secondary",
+        "source": {
+          "id": "san-antonio-ib101",
+          "title": "IB 101 New Residential Packet (June 2023)",
+          "url": "https://docsonline.sanantonio.gov/FileUploads/dsd/IB101.pdf",
+          "read": "2026-10-11"
+        }
+      },
+      {
+        "value": "Tall walls / lintels beyond prescriptive: TX engineer or architect",
+        "status": "Secondary",
+        "source": {
+          "id": "san-antonio-ib100",
+          "title": "IB 100 (third-party/certification paths, 2024 IRC with City amendments)",
+          "url": "https://docsonline.sanantonio.gov/fileuploads/dsd/ib100.pdf",
+          "read": "2026-10-11"
+        }
+      }
+    ],
+    "inspections": [
+      {
+        "value": "Typical: plumbing rough/ground, foundation (pre-pour), framing, MEP rough, insulation/energy, final; DWV top-out test option removed under 2024 IPC",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-tools-unavailable",
+          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "List not retrieved; the DWV note is from the 2024 community-meeting deck."
+      }
+    ],
+    "reviewDays": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: residential plan review turnaround. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+    }
+  },
+  "fees": {
+    "permitFormula": {
+      "value": "New residential plan review and permit fees are set by square-footage ranges (building, electrical, mechanical, plumbing, sewer components); plan review $200 per range in 2019 schedule",
+      "status": "Secondary",
+      "source": {
+        "id": "san-antonio-dsd-fees-2019",
+        "title": "2019 Development Fee Schedule (last revised Aug 16, 2019)",
+        "url": "https://sanantonio.gov/Portals/0/Files/CCDO/DSD%20Fee%20Schedule.pdf?ver=2019-09-09-092840-823",
+        "read": "2026-10-11"
+      },
+      "note": "2019 schedule - superseded by FY2026 schedule (effective Oct 1, 2025) which could not be opened."
+    },
+    "workedExample2400sqft": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "USD",
+      "note": "Not computed: FY2026 sq-ft tier table not retrieved. Assumption basis would be 2,400 sf conditioned + 440 sf attached garage. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run"
+    },
+    "planReview": {
+      "value": 200,
+      "status": "Secondary",
+      "source": {
+        "id": "san-antonio-dsd-fees-2019",
+        "title": "2019 Development Fee Schedule (last revised Aug 16, 2019)",
+        "url": "https://sanantonio.gov/Portals/0/Files/CCDO/DSD%20Fee%20Schedule.pdf?ver=2019-09-09-092840-823",
+        "read": "2026-10-11"
+      },
+      "unit": "USD",
+      "note": "2019 value; likely higher now."
+    },
+    "impactFees": [
+      {
+        "value": "SAWS water + sewer impact fees, 5/8-in meter (1 EDU), plats recorded on/after Jul 1, 2024: about $7,343-$11,528 combined depending on water elevation zone and sewer area",
+        "status": "Secondary",
+        "source": {
+          "id": "san-antonio-utilitycostguide",
+          "title": "Texas Water & Sewer Tap and Impact Fees by City (2026)",
+          "url": "https://utilitycostguide.com/texas-utility-connection-costs/",
+          "read": "2026-10-11"
+        },
+        "note": "Fee locked by plat recordation date; confirm on SAWS impact fee page."
+      },
+      {
+        "value": "SAWS impact fees: water supply, delivery flow, system development (by elevation) and wastewater per EDU; single-family = 1 EDU (3/4-in meter = 1.5 EDU)",
+        "status": "Secondary",
+        "source": {
+          "id": "san-antonio-saws-impact-fees",
+          "title": "SAWS: Impact Fees (developer page)",
+          "url": "https://apps.saws.org/business_center/Developer/ImpactFees/",
+          "read": "2026-10-11"
+        }
+      }
+    ],
+    "tapFees": [
+      {
+        "value": "SAWS meter/tap and service fees per SAWS Special Services Fees schedule",
+        "status": "Secondary",
+        "source": {
+          "id": "san-antonio-saws-devguide",
+          "title": "SAWS Guide to Development",
+          "url": "https://apps.saws.org/business_center/developer/newdevel/docs/Developers_Guide_to_SAWS.pdf",
+          "read": "2026-10-11"
+        },
+        "note": "Amount not retrieved."
+      }
+    ]
+  },
+  "cost": {
+    "factor": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "cost-method",
+        "title": "See README cost method (filled by cost agent)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "PENDING_COST_AGENT"
+    },
+    "method": "PENDING_COST_AGENT",
+    "perSqFtMarket": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Market $/sf not retrieved. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run"
+    },
+    "drivers": [
+      {
+        "value": "Expansive clay soils (east/south Bexar) -> engineered post-tensioned slabs",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-tools-unavailable",
+          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Judgement"
+      },
+      {
+        "value": "Rock/limestone excavation in north SA (Hill Country edge)",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-tools-unavailable",
+          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Judgement"
+      },
+      {
+        "value": "SAWS impact fees ~$7k-$11.5k per lot",
+        "status": "Secondary",
+        "source": {
+          "id": "san-antonio-utilitycostguide",
+          "title": "Texas Water & Sewer Tap and Impact Fees by City (2026)",
+          "url": "https://utilitycostguide.com/texas-utility-connection-costs/",
+          "read": "2026-10-11"
+        }
+      },
+      {
+        "value": "Tree preservation/mitigation on wooded lots",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed-tools-unavailable",
+          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Judgement"
+      }
+    ]
+  },
+  "flood": {
+    "value": "Floodplain regulations in UDC (35-F / Ch.35 Art. V); San Antonio regulates to the ultimate-development (fully built-out watershed) 100-yr floodplain; assume lowest floor at least 1 ft above that BFE",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed-tools-unavailable",
+      "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Freeboard value not confirmed this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run"
+  },
+  "engineChanges": [
+    {
+      "id": "san-antonio-irc-2024",
+      "ruleType": "electrical-code-edition",
+      "area": "drawings",
+      "change": "Use 2024 IRC (City amendments) + 2023 NEC + 2024 IPC as the base model instead of 2021 IRC; keep energy at 2021 IECC",
+      "priority": "must",
+      "params": {
+        "irc": "2024",
+        "nec": "2023",
+        "plumbing": "IPC 2024",
+        "iecc": "2021"
+      },
+      "source": {
+        "id": "san-antonio-dsd-codes-ordinances",
+        "title": "Codes & Ordinances - City of San Antonio DSD",
+        "url": "https://www.sa.gov/Directory/Departments/DSD/Codes-Ordinances",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "san-antonio-r6-setbacks",
+      "ruleType": "setback-by-district",
+      "area": "setbacks",
+      "change": "R-6: front 10 ft (verify; plat line often 20 ft), side 5 ft, rear 20 ft; use larger of district and plat building line",
+      "priority": "must",
+      "params": {
+        "district": "R-6",
+        "frontFt": 10,
+        "sideFt": 5,
+        "rearFt": 20,
+        "streetSideFt": 10,
+        "checkPlat": true
+      },
+      "source": {
+        "id": "san-antonio-udc-35-310-01",
+        "title": "UDC Sec. 35-310.01 Generally, Table 310-1 (eLaws copy)",
+        "url": "http://sanantonio-tx.elaws.us/code/udc_artiii_div2_sec35-310.01",
+        "read": "2026-10-11",
+        "section": "35-310.01, Table 310-1"
+      }
+    },
+    {
+      "id": "san-antonio-r6-lot",
+      "ruleType": "lot-min-size",
+      "area": "survey",
+      "change": "R-6 minimum lot 6,000 sf, 50 ft wide",
+      "priority": "should",
+      "params": {
+        "minLotSqFt": 6000,
+        "minWidthFt": 50
+      },
+      "source": {
+        "id": "san-antonio-udc-35-310-01",
+        "title": "UDC Sec. 35-310.01 Generally, Table 310-1 (eLaws copy)",
+        "url": "http://sanantonio-tx.elaws.us/code/udc_artiii_div2_sec35-310.01",
+        "read": "2026-10-11",
+        "section": "35-310.01, Table 310-1"
+      }
+    },
+    {
+      "id": "san-antonio-height",
+      "ruleType": "height-limit",
+      "area": "massing",
+      "change": "Max 35 ft and 2.5 stories in R-6",
+      "priority": "must",
+      "params": {
+        "maxHeightFt": 35,
+        "maxStories": 2.5
+      },
+      "source": {
+        "id": "san-antonio-udc-35-310-01",
+        "title": "UDC Sec. 35-310.01 Generally, Table 310-1 (eLaws copy)",
+        "url": "http://sanantonio-tx.elaws.us/code/udc_artiii_div2_sec35-310.01",
+        "read": "2026-10-11",
+        "section": "35-310.01, Table 310-1"
+      }
+    },
+    {
+      "id": "san-antonio-garage",
+      "ruleType": "garage-placement",
+      "area": "setbacks",
+      "change": "Front-facing garage door at least 20 ft behind front property line (assumed)",
+      "priority": "should",
+      "params": {
+        "garageDoorMinFt": 20
+      },
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "san-antonio-eng-foundation",
+      "ruleType": "engineered-foundation-flag",
+      "area": "foundation",
+      "change": "Flag foundation as engineer-sealed (PT slab always TX PE); add geotech input",
+      "priority": "must",
+      "params": {
+        "sealedFoundation": true,
+        "ptSlabRequiresPE": true
+      },
+      "source": {
+        "id": "san-antonio-ib101",
+        "title": "IB 101 New Residential Packet (June 2023)",
+        "url": "https://docsonline.sanantonio.gov/FileUploads/dsd/IB101.pdf",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "san-antonio-trees",
+      "ruleType": "tree-preservation",
+      "area": "survey",
+      "change": "Require tree survey input; keep 35% of significant and 100% of heritage trees; add 2 x 1.5 in native shade trees to site plan",
+      "priority": "should",
+      "params": {
+        "significantPreservePct": 35,
+        "heritagePreservePct": 100,
+        "newTreesPerLot": 2,
+        "caliperIn": 1.5
+      },
+      "source": {
+        "id": "san-antonio-trees-guide",
+        "title": "Everything You Need to Know About Trees (City Arborist)",
+        "url": "https://docsonline.sanantonio.gov/DSDUploads/EverythingYouNeedtoKnowAboutTREES.pdf",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "san-antonio-saws-impact",
+      "ruleType": "impact-fee-estimate",
+      "area": "estimate",
+      "change": "Add SAWS water+sewer impact fee $7,343-$11,528 (use midpoint ~$9,400) to estimate; depends on plat date and zone",
+      "priority": "should",
+      "params": {
+        "lowUSD": 7343,
+        "highUSD": 11528,
+        "edu": 1
+      },
+      "source": {
+        "id": "san-antonio-utilitycostguide",
+        "title": "Texas Water & Sewer Tap and Impact Fees by City (2026)",
+        "url": "https://utilitycostguide.com/texas-utility-connection-costs/",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "san-antonio-energy",
+      "ruleType": "climate-zone-envelope",
+      "area": "envelope",
+      "change": "Envelope per 2021 IECC CZ 2A (City amended) + solar-ready zone/conduit",
+      "priority": "must",
+      "params": {
+        "climateZone": "2A",
+        "iecc": "2021",
+        "solarReady": true
+      },
+      "source": {
+        "id": "san-antonio-aceee",
+        "title": "ACEEE City Clean Energy Scorecard - San Antonio",
+        "url": "https://database.aceee.org/city/san-antonio-tx",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "san-antonio-edwards",
+      "ruleType": "impervious-cover",
+      "area": "survey",
+      "change": "If lot is over Edwards Aquifer recharge/contributing zone, flag impervious-cover limit and WPAP check (input from survey)",
+      "priority": "nice",
+      "params": {
+        "flagOnly": true
+      },
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "san-antonio-flood",
+      "ruleType": "flood-elevation",
+      "area": "survey",
+      "change": "If in floodplain (ultimate-development 100-yr), lowest floor >= BFE + 1 ft (assumed)",
+      "priority": "should",
+      "params": {
+        "freeboardFt": 1
+      },
+      "source": {
+        "id": "assumed-tools-unavailable",
+        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    }
+  ],
+  "plainLanguage": "San Antonio builds to the 2024 International Residential Code with city changes (since May 1, 2025), but its energy rules are still the 2021 energy code. Most new houses sit in the R-6 zone: lots of at least 6,000 sq ft, about 5 ft to each side, 20 ft at the back, and a short front setback - but your subdivision plat often sets a deeper front line, so check it. Houses can be up to 35 ft and two and a half stories. Your foundation plan needs an engineer, architect or soil report, and post-tensioned slabs always need an engineer. Trees matter: you must keep a share of large trees and plant two new shade trees. Expect SAWS water and sewer impact fees of roughly $7,000-$11,500. Lots in the north may be over the Edwards Aquifer, which limits paving.",
+  "openQuestions": [
+    "Confirm R-6 front setback (10 vs 20 ft) and garage-door setback against the current Municode Table 310-1",
+    "Current FY2026 DSD residential square-footage fee table",
+    "2024 IRC City amendments affecting design (R313 sprinklers, foundations, energy)",
+    "Floodplain freeboard value in current UDC",
+    "Edwards Aquifer impervious cover % for single-family lots"
+  ],
+  "notFound": [
+    "FY2026 fee table",
+    "R-6 coverage limit",
+    "Freeboard",
+    "Frost depth local table",
+    "Review days",
+    "Market $/sf"
+  ],
+  "comparison": {
+    "irc": "2024 IRC (amended)",
+    "energy": "2021 IECC (amended)",
+    "plumbing": "IPC 2024",
+    "district": "R-6",
+    "setbacks": "10*/5/20 (*verify; plat often 20)",
+    "maxHeight": "35 ft/2.5 st",
+    "coverageFar": "not found / none",
+    "masonry": "none",
+    "engFoundation": "yes - PE/RA/geotech; PT = PE",
+    "windstorm": "no",
+    "flood": "ultimate-dev 100-yr; +1 ft assumed",
+    "permitFeeExample": "not computed",
+    "impactFees": "$7.3k-$11.5k SAWS w+ww",
+    "costFactor": "PENDING"
+  }
+}

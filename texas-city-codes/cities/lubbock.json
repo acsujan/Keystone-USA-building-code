@@ -1,0 +1,721 @@
+{
+  "id": "lubbock",
+  "name": "City of Lubbock",
+  "state": "TX",
+  "tier": 1,
+  "counties": [
+    "Lubbock"
+  ],
+  "msa": {
+    "name": "Lubbock, TX",
+    "blsCode": "31180"
+  },
+  "population": {
+    "value": 272086,
+    "status": "Sourced",
+    "source": {
+      "id": "lubbock-census-v2024",
+      "title": "U.S. Census Bureau QuickFacts: Lubbock city, Texas; Lubbock County, Texas",
+      "url": "https://www.census.gov/quickfacts/fact/table/lubbockcitytexas,lubbockcountytexas/PST045221",
+      "read": "2026-10-11"
+    },
+    "note": "Census Vintage 2024 estimate, July 1, 2024 (city); county 327,394."
+  },
+  "zipCodesOrBoundary": {
+    "value": null,
+    "status": "Assumed",
+    "source": {
+      "id": "lubbock-assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Not found: ZIP list / city-limits map link (web search budget exhausted and direct page fetch blocked in research environment)."
+  },
+  "climateZone": {
+    "value": "3B",
+    "status": "Assumed",
+    "source": {
+      "id": "lubbock-assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Climate zone per 2021 IECC Table R301.1 county list (researcher knowledge of the model code; table not re-fetched this session). Lubbock County = 3B."
+  },
+  "windstormCounty": {
+    "value": false,
+    "status": "Assumed",
+    "source": {
+      "id": "lubbock-assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Inland county; TDI windstorm catalogue covers only coastal counties."
+  },
+  "codes": {
+    "irc": {
+      "edition": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "lubbock-assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: adopted IRC edition and adoption ordinance (web search budget exhausted and direct page fetch blocked in research environment)."
+      },
+      "ordinance": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "lubbock-assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: adoption ordinance (web search budget exhausted and direct page fetch blocked in research environment)."
+      },
+      "amendments": [
+        {
+          "topic": "other",
+          "summary": "City publishes a local Table R301.2(1) design-criteria summary; ground snow load 15 psf.",
+          "section": "R301.2",
+          "status": "Secondary",
+          "source": {
+            "id": "lubbock-design-criteria-pdf",
+            "title": "City of Lubbock: Summary of Climatic and Geographic Design Criteria (Ground Snow Load: 15 psf ...)",
+            "url": "https://ci.lubbock.tx.us/storage/images/qqbpYuJZdDn81GbrfkZvIjyI0rDSGpNBjBnoGz5Z.pdf",
+            "read": "2026-10-11"
+          }
+        }
+      ]
+    },
+    "energy": {
+      "edition": {
+        "value": "IRC Chapter 11 (edition unverified)",
+        "status": "Assumed",
+        "source": {
+          "id": "lubbock-assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not verified; Texas statewide minimum for single-family is IRC Chapter 11 (2015 IECC basis per SECO) unless city adopted newer."
+      },
+      "stretchCode": {
+        "value": false,
+        "status": "Assumed",
+        "source": {
+          "id": "lubbock-assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "No stretch code known."
+      }
+    },
+    "plumbing": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "lubbock-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: plumbing code edition (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "electrical": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "lubbock-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: NEC edition (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "mechanical": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "lubbock-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: mechanical code (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "fuelGas": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "lubbock-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: fuel gas code (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "fire": {
+      "value": "No residential sprinkler mandate assumed",
+      "status": "Assumed",
+      "source": {
+        "id": "lubbock-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not verified; Texas cities generally do not mandate one-/two-family sprinklers."
+    },
+    "wind": {
+      "value": 115,
+      "status": "Assumed",
+      "source": {
+        "id": "lubbock-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "mph",
+      "note": "Assumed from ASCE 7-16 / IRC 2021 Fig R301.2(2) regional contour for West Texas (about 105-115 mph); verify with ATC hazard tool."
+    },
+    "hailRoofing": {
+      "value": "No code mandate known; Class 4 recommended",
+      "status": "Assumed",
+      "source": {
+        "id": "lubbock-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No local Class 4 roofing mandate found/verified. Area has very high hail frequency; Class 4 (UL 2218) shingles are an insurance-discount option, not a code rule as far as known."
+    },
+    "seismic": {
+      "value": "A",
+      "status": "Assumed",
+      "source": {
+        "id": "lubbock-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Assumed SDC A (low-hazard area per IRC Fig R301.2(4)). Not verified locally."
+    },
+    "frostDepth": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "lubbock-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "in",
+      "note": "Local frost line not found; IRC R403.1.4 minimum 12 in below undisturbed ground used as floor."
+    },
+    "snowLoad": {
+      "value": 15,
+      "status": "Secondary",
+      "source": {
+        "id": "lubbock-design-criteria-pdf",
+        "title": "City of Lubbock: Summary of Climatic and Geographic Design Criteria (Ground Snow Load: 15 psf ...)",
+        "url": "https://ci.lubbock.tx.us/storage/images/qqbpYuJZdDn81GbrfkZvIjyI0rDSGpNBjBnoGz5Z.pdf",
+        "read": "2026-10-11"
+      },
+      "unit": "psf",
+      "note": "From the title line of the city's design-criteria handout as shown in search results; other table values (wind, frost, termite, winter temp) not readable. Seen only as a search-result extract; WebFetch/curl to this host failed from the research environment, full document not read."
+    }
+  },
+  "zoning": {
+    "hasZoning": {
+      "value": true,
+      "status": "Assumed",
+      "source": {
+        "id": "lubbock-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Texas home-rule city with zoning (general knowledge); district standards not retrieved."
+    },
+    "typicalDistrict": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "lubbock-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: typical single-family district (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "minLotSqFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "lubbock-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: min lot size (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "minLotWidthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "lubbock-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: min lot width (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "minLotDepthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "lubbock-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: min lot depth (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "setbacksFt": {
+      "front": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "lubbock-assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: front setback (web search budget exhausted and direct page fetch blocked in research environment)."
+      },
+      "side": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "lubbock-assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: side setback (web search budget exhausted and direct page fetch blocked in research environment)."
+      },
+      "streetSide": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "lubbock-assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: streetSide setback (web search budget exhausted and direct page fetch blocked in research environment)."
+      },
+      "rear": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "lubbock-assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: rear setback (web search budget exhausted and direct page fetch blocked in research environment)."
+      }
+    },
+    "maxHeightFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "lubbock-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: max height (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "maxStories": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "lubbock-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: max stories (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "maxLotCoverage": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "lubbock-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: max lot coverage (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "imperviousCover": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "lubbock-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: impervious cover (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "far": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "lubbock-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: FAR (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "parking": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "lubbock-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: residential parking minimum (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "garageRules": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "lubbock-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: garage rules (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "adu": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "lubbock-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: ADU rules (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "masonry": {
+      "value": "None",
+      "status": "Assumed",
+      "source": {
+        "id": "lubbock-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No masonry mandate assumed; Texas Gov. Code ch. 3000 limits city building-material mandates."
+    },
+    "trees": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "lubbock-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: tree rules (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "other": []
+  },
+  "process": {
+    "steps": [
+      {
+        "value": "Plan submittal, review, permit, inspections, CO",
+        "status": "Assumed",
+        "source": {
+          "id": "lubbock-assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Generic Texas city process assumed."
+      }
+    ],
+    "sealsRequired": [
+      {
+        "value": "Engineer seal for engineered foundation/structure",
+        "status": "Assumed",
+        "source": {
+          "id": "lubbock-assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Prescriptive IRC plans generally need no seal in Texas; engineered foundations do."
+      }
+    ],
+    "inspections": [
+      {
+        "value": "Foundation, frame, rough MEP, insulation, final",
+        "status": "Assumed",
+        "source": {
+          "id": "lubbock-assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Typical IRC sequence assumed."
+      }
+    ],
+    "reviewDays": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "lubbock-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: review time (web search budget exhausted and direct page fetch blocked in research environment)."
+    }
+  },
+  "fees": {
+    "permitFormula": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "lubbock-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: residential permit fee formula (note: Texas HB 852 (2019) bars value-based residential fees) (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "workedExample2400sqft": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "lubbock-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: fee schedule, so no worked example (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "planReview": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "lubbock-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: plan review fee (web search budget exhausted and direct page fetch blocked in research environment)."
+    },
+    "impactFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "lubbock-assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: impact fees (web search budget exhausted and direct page fetch blocked in research environment)."
+      }
+    ],
+    "tapFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "lubbock-assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: water/sewer tap fees (web search budget exhausted and direct page fetch blocked in research environment)."
+      }
+    ]
+  },
+  "cost": {
+    "factor": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "cost-method",
+        "title": "See README cost method (filled by cost agent)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "PENDING_COST_AGENT"
+    },
+    "method": "PENDING_COST_AGENT",
+    "perSqFtMarket": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "lubbock-assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "USD/sqft",
+      "note": "Not researched (web search budget exhausted (shared limit) and direct page fetch blocked in research environment)."
+    },
+    "drivers": [
+      {
+        "value": "Severe hail (roof cost/insurance), wind, snow 15 psf, expansive clays",
+        "status": "Assumed",
+        "source": {
+          "id": "lubbock-assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "General knowledge: hail-resistant roofing, wind, expansive clay/caliche soils on the High Plains / Permian Basin labor market."
+      }
+    ]
+  },
+  "flood": {
+    "value": null,
+    "status": "Assumed",
+    "source": {
+      "id": "lubbock-assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Not found: floodplain ordinance freeboard (Playa lake areas may be mapped SFHA) (web search budget exhausted and direct page fetch blocked in research environment)."
+  },
+  "engineChanges": [
+    {
+      "id": "lubbock-snow",
+      "ruleType": "other",
+      "area": "structure",
+      "change": "Ground snow load 15 psf (city design criteria)",
+      "priority": "should",
+      "params": {
+        "groundSnowPsf": 15
+      },
+      "source": {
+        "id": "lubbock-design-criteria-pdf",
+        "title": "City of Lubbock: Summary of Climatic and Geographic Design Criteria (Ground Snow Load: 15 psf ...)",
+        "url": "https://ci.lubbock.tx.us/storage/images/qqbpYuJZdDn81GbrfkZvIjyI0rDSGpNBjBnoGz5Z.pdf",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "lubbock-cz",
+      "ruleType": "climate-zone-envelope",
+      "area": "envelope",
+      "change": "Use climate zone 3B envelope tables",
+      "priority": "must",
+      "params": {
+        "climateZone": "3B"
+      },
+      "source": {
+        "id": "iecc-2021-r301-1-assumed",
+        "title": "Assumed: 2021 IECC Table R301.1 county climate zones (not fetched)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "lubbock-hail",
+      "ruleType": "hail-roof",
+      "area": "envelope",
+      "change": "Default roof spec to Class 4 (UL 2218) impact-resistant shingles as recommended option (not code)",
+      "priority": "nice",
+      "params": {
+        "roofImpactClass": 4,
+        "mandatory": false
+      },
+      "source": {
+        "id": "lubbock-assumed",
+        "title": "Assumed: High Plains hail exposure",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "lubbock-frost",
+      "ruleType": "frost-depth",
+      "area": "foundation",
+      "change": "Footing depth >= 12 in until local frost line confirmed; flag for verification",
+      "priority": "should",
+      "params": {
+        "minFootingDepthIn": 12,
+        "verifyLocal": true
+      },
+      "source": {
+        "id": "irc-2021-r403-1-4-assumed",
+        "title": "Assumed: 2021 IRC R403.1.4 minimum footing depth 12 in (model code, not fetched)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "lubbock-survey-district",
+      "ruleType": "survey-input-district",
+      "area": "survey",
+      "change": "Ask user for zoning district and setbacks (Lubbock UDC values not loaded)",
+      "priority": "must",
+      "params": {
+        "requireUserSetbacks": true
+      },
+      "source": {
+        "id": "lubbock-assumed",
+        "title": "Assumed: data gap",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    }
+  ],
+  "plainLanguage": "Lubbock is in climate zone 3B on the High Plains. The city publishes its own design-criteria sheet; the only value we could confirm is a ground snow load of 15 psf. Hail is frequent and severe, so impact-resistant (Class 4) shingles are a smart choice and often lower insurance, though we found no code mandate. Footings must be at least 12 inches below grade; the local frost line was not confirmed. Zoning setbacks, permit fees and impact fees still need to be checked with the city before finalizing.",
+  "openQuestions": [
+    "Adopted IRC edition and Lubbock amendments.",
+    "Full Table R301.2(1) values from city design-criteria PDF (wind, frost, termite, winter temp).",
+    "Typical district under Lubbock Unified Development Code and its setbacks.",
+    "Permit fee schedule and any water/wastewater impact fees."
+  ],
+  "notFound": [
+    "Nearly all city-specific values: web search budget exhausted (shared limit) and direct page fetch blocked in research environment."
+  ],
+  "comparison": {
+    "irc": "not found",
+    "energy": "IRC Ch.11 (unverified)",
+    "plumbing": "not found",
+    "district": "not found",
+    "setbacks": "not found",
+    "maxHeight": "not found",
+    "coverageFar": "not found",
+    "masonry": "none (assumed)",
+    "engFoundation": "not found",
+    "windstorm": "no",
+    "flood": "not found",
+    "permitFeeExample": "not found",
+    "impactFees": "not found",
+    "costFactor": "PENDING"
+  }
+}

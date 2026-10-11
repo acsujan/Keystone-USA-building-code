@@ -1,0 +1,795 @@
+{
+  "id": "leander",
+  "name": "City of Leander",
+  "state": "TX",
+  "tier": 2,
+  "counties": [
+    "Williamson",
+    "Travis"
+  ],
+  "msa": {
+    "name": "Austin-Round Rock-San Marcos, TX",
+    "blsCode": "12420"
+  },
+  "population": {
+    "value": 59202,
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. 2020 Census count recalled; Vintage estimate not retrieved."
+  },
+  "zipCodesOrBoundary": {
+    "value": "78641, 78645",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Recalled ZIPs; some extend outside city limits."
+  },
+  "climateZone": {
+    "value": "2A",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Williamson and Travis counties are Climate Zone 2A in 2021/2024 IECC Table R301.1."
+  },
+  "windstormCounty": {
+    "value": false,
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Inland county; not in TDI windstorm catalogue area."
+  },
+  "codes": {
+    "irc": {
+      "edition": {
+        "value": "2021 IRC",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Believed adopted 2021 I-codes; not verified."
+      },
+      "ordinance": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: adoption ordinance. Web access unavailable this session (WebFetch DNS failure; search budget exhausted)."
+      },
+      "amendments": [
+        {
+          "topic": "other",
+          "summary": "Local amendments not retrieved.",
+          "section": "",
+          "status": "Assumed",
+          "source": {
+            "id": "assumed",
+            "title": "Assumed",
+            "url": "",
+            "read": "2026-10-11"
+          }
+        }
+      ]
+    },
+    "energy": {
+      "edition": {
+        "value": "2021 IECC",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Usually adopted in the same cycle as the IRC."
+      },
+      "stretchCode": {
+        "value": false,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. No stretch code known."
+      }
+    },
+    "plumbing": {
+      "value": "IPC (same edition as IRC)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Central Texas cities typically adopt the IPC."
+    },
+    "electrical": {
+      "value": "NEC 2020 or 2023",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Typical pairing."
+    },
+    "mechanical": {
+      "value": "IMC (same edition as IRC)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. "
+    },
+    "fuelGas": {
+      "value": "IFGC (same edition as IRC)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. "
+    },
+    "fire": {
+      "value": "IFC (same edition); no one/two-family sprinkler mandate known",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Tex. Occ. Code 1301.551 limits mandatory residential sprinklers."
+    },
+    "wind": {
+      "value": 110,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "mph",
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Approx. ASCE 7-16 Risk II ultimate wind speed for central Texas."
+    },
+    "hailRoofing": {
+      "value": "No local hail roofing mandate known; Class 4 shingles recommended (hail-prone)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. "
+    },
+    "seismic": {
+      "value": "A",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. "
+    },
+    "frostDepth": {
+      "value": 6,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "in",
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Typical central Texas local design criteria."
+    }
+  },
+  "zoning": {
+    "hasZoning": {
+      "value": true,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Leander Composite Zoning Ordinance (use + site + architectural components, e.g. 'SFU-2-B')."
+    },
+    "typicalDistrict": {
+      "value": "SFU Single-Family Urban (composite, e.g. SFU-2-B)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Leander composite zoning combines use type (SFR rural, SFE estate, SFS suburban, SFU urban, SFT townhouse), site component and architectural component; many new homes are in PUDs."
+    },
+    "minLotSqFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "sqft",
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Provisional."
+    },
+    "minLotWidthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "ft",
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Provisional."
+    },
+    "minLotDepthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: minimum lot depth. Web access unavailable this session (WebFetch DNS failure; search budget exhausted)."
+    },
+    "setbacksFt": {
+      "front": {
+        "value": 20,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Provisional district default; plats often differ."
+      },
+      "side": {
+        "value": 5,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Provisional district default; plats often differ."
+      },
+      "streetSide": {
+        "value": 15,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Provisional district default; plats often differ."
+      },
+      "rear": {
+        "value": 10,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Provisional district default; plats often differ."
+      }
+    },
+    "maxHeightFt": {
+      "value": 35,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "ft",
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Common 35 ft SF height limit in central Texas cities; not verified."
+    },
+    "maxStories": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Not known."
+    },
+    "maxLotCoverage": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "fraction",
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Not known."
+    },
+    "imperviousCover": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Parts of Leander lie over the Edwards Aquifer recharge and contributing zones; TCEQ 30 TAC 213 may apply. No city cap verified."
+    },
+    "far": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. No FAR in SF districts known."
+    },
+    "parking": {
+      "value": "2 off-street spaces per dwelling (typical); garage may count",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Typical value, not verified."
+    },
+    "garageRules": {
+      "value": "Composite zoning architectural components historically regulated garage orientation/design; enforceability of material rules limited by HB 2439",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. "
+    },
+    "adu": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. ADU rules not known."
+    },
+    "masonry": {
+      "value": "Architectural component letters historically set masonry percentages, but HB 2439 limits enforcement; PUD agreements/HOAs may still require masonry",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Texas Gov't Code 3000 (HB 2439, 2019) bars cities from mandating specific building materials beyond the national model codes, except in historic districts and some pre-existing PUD/developer agreements; HOA deed restrictions may still require masonry."
+    },
+    "trees": {
+      "value": "Leander protects heritage trees (about 26 in DBH and larger) and protected trees above a smaller threshold; mitigation required",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Recalled; verify thresholds in the city tree ordinance."
+    },
+    "other": []
+  },
+  "process": {
+    "steps": [
+      {
+        "value": "Platted lot -> residential permit application (plot plan with setbacks, tree survey where required, plans, energy compliance, foundation design) -> plan review -> permit -> inspections -> CO",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Typical."
+      }
+    ],
+    "sealsRequired": [
+      {
+        "value": "PE-sealed foundation design",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Common central Texas requirement."
+      }
+    ],
+    "inspections": [
+      {
+        "value": "Plumbing ground, foundation, framing, MEP rough, insulation/energy, final",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Typical IRC sequence."
+      }
+    ],
+    "reviewDays": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: residential plan review time. Web access unavailable this session (WebFetch DNS failure; search budget exhausted)."
+    }
+  },
+  "fees": {
+    "permitFormula": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: building permit fee formula. Web access unavailable this session (WebFetch DNS failure; search budget exhausted)."
+    },
+    "workedExample2400sqft": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not computed: fee schedule not read. Basis would be 2,400 sq ft conditioned + 440 sq ft attached garage."
+    },
+    "planReview": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: plan review fee. Web access unavailable this session (WebFetch DNS failure; search budget exhausted)."
+    },
+    "impactFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. Leander is believed to collect water, wastewater and roadway impact fees; amounts not retrieved."
+      }
+    ],
+    "tapFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: water/sewer tap fees. Web access unavailable this session (WebFetch DNS failure; search budget exhausted)."
+      }
+    ]
+  },
+  "cost": {
+    "factor": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "cost-method",
+        "title": "See README cost method (filled by cost agent)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "PENDING_COST_AGENT"
+    },
+    "method": "PENDING_COST_AGENT",
+    "perSqFtMarket": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No public market figure retrieved this session."
+    },
+    "drivers": [
+      {
+        "value": "Utility impact fees (Austin-suburb levels, typically several thousand USD per home)",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. "
+      },
+      {
+        "value": "Engineered slab on expansive or karst soils",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. "
+      },
+      {
+        "value": "Roadway + utility impact fees; possible architectural-component requirements in PUDs",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. "
+      }
+    ]
+  },
+  "flood": {
+    "value": "Floodplain ordinance; lowest floor at least 1 ft above BFE is typical in the region - city freeboard not verified",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Background knowledge only - could NOT be verified this session (WebFetch DNS failure on all hosts; shared web-search budget exhausted before this city was reached). Verify before use. "
+  },
+  "engineChanges": [
+    {
+      "id": "leander-verify",
+      "ruleType": "survey-input-district",
+      "area": "survey",
+      "change": "All Leander values are unverified assumptions; require user to confirm zoning district, plat building lines and adopted code edition before finalizing",
+      "priority": "must",
+      "params": {
+        "dataVerified": false
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "leander-setbacks",
+      "ruleType": "setback-by-district",
+      "area": "setbacks",
+      "change": "SFU Single-Family Urban (composite, e.g. SFU-2-B): use front 20 / side 5 / street side 15 / rear 10 ft as provisional defaults (unverified)",
+      "priority": "should",
+      "params": {
+        "district": "SFU Single-Family Urban (composite, e.g. SFU-2-B)",
+        "frontFt": 20,
+        "sideFt": 5,
+        "streetSideFt": 15,
+        "rearFt": 10,
+        "verified": false
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "leander-envelope-2a",
+      "ruleType": "climate-zone-envelope",
+      "area": "envelope",
+      "change": "Use IECC Climate Zone 2A prescriptive envelope for the adopted IECC edition",
+      "priority": "must",
+      "params": {
+        "climateZone": "2A"
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "leander-eng-foundation",
+      "ruleType": "engineered-foundation-flag",
+      "area": "foundation",
+      "change": "Flag PE-sealed engineered slab (expansive clay east of I-35 / variable limestone and clay in the west)",
+      "priority": "should",
+      "params": {
+        "engineeredFoundation": true
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "leander-edwards",
+      "ruleType": "impervious-cover",
+      "area": "survey",
+      "change": "Check the TCEQ Edwards Aquifer map: lots on the recharge zone (and some in the contributing/transition zones) fall under 30 TAC Chapter 213; regulated development needs an approved Water Pollution Abatement Plan, usually done at subdivision level. Leander is largely in the contributing zone, with some recharge zone in the south/west.",
+      "priority": "should",
+      "params": {
+        "checkEdwardsZone": true,
+        "tceqRule": "30 TAC Chapter 213",
+        "cityLimit": null
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "leander-trees",
+      "ruleType": "tree-preservation",
+      "area": "survey",
+      "change": "Require tree survey; avoid heritage-tree critical root zones (>= ~26 in DBH) or add mitigation cost",
+      "priority": "should",
+      "params": {
+        "heritageDbhIn": 26,
+        "verified": false
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "leander-impact",
+      "ruleType": "impact-fee-estimate",
+      "area": "estimate",
+      "change": "Add Leander water, wastewater and roadway impact fees (amounts not retrieved; Leander is believed to collect roadway impact fees)",
+      "priority": "should",
+      "params": {
+        "amountUSD": null,
+        "verified": false
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "leander-plat",
+      "ruleType": "building-line-plat",
+      "area": "survey",
+      "change": "Most new homes are in PUDs/MUDs or HOA subdivisions - plat building lines, PUD standards and deed restrictions may override district setbacks and add masonry rules",
+      "priority": "should",
+      "params": {
+        "checkPlat": true,
+        "checkDeedRestrictions": true
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    }
+  ],
+  "plainLanguage": "This Leander file is unverified - our research tools were unavailable, so treat every number as a placeholder. Leander uses an unusual 'composite' zoning code: a zoning label like SFU-2-B combines the home type, the lot standards and the look of the house. Many new neighborhoods are planned developments with their own rules. Expect water, sewer and road impact fees. Big trees are protected, and some areas are over the Edwards Aquifer.",
+  "openQuestions": [
+    "Composite zoning dimensional standards for SFU/SFS site components",
+    "Adopted code edition",
+    "Impact fee amounts",
+    "Tree thresholds"
+  ],
+  "notFound": [
+    "Everything in this file is unverified: no web page for this city could be read this session (WebFetch failed on all hosts; shared search budget exhausted). Re-research needed."
+  ],
+  "comparison": {
+    "irc": "2021 IRC (unverified)",
+    "energy": "2021 IECC (unverified)",
+    "plumbing": "IPC (unverified)",
+    "district": "SFU Single-Family Urban (composite, e.g. SFU-2-B)",
+    "setbacks": "20/5/10 (unverified)",
+    "maxHeight": "35 ft (unverified)",
+    "coverageFar": "unknown / none",
+    "masonry": "no city mandate (HB 2439); HOA/PUD may",
+    "engFoundation": "likely - assumed",
+    "windstorm": "no",
+    "flood": "unverified",
+    "permitFeeExample": "not computed",
+    "impactFees": "unknown (water+ww +roadway)",
+    "costFactor": "PENDING"
+  }
+}

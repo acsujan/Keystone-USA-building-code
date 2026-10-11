@@ -1,0 +1,1082 @@
+{
+  "id": "dallas",
+  "name": "City of Dallas",
+  "state": "TX",
+  "tier": 1,
+  "counties": [
+    "Dallas",
+    "Collin",
+    "Denton",
+    "Rockwall",
+    "Kaufman"
+  ],
+  "msa": {
+    "name": "Dallas-Fort Worth-Arlington, TX",
+    "blsCode": "19100"
+  },
+  "population": {
+    "value": 1300000,
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed - researcher judgement (not verified this session)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "About 1.30 million (Census Vintage 2023 is about 1.30M). Prior knowledge, not re-fetched this session."
+  },
+  "climateZone": {
+    "value": "3A",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed - researcher judgement (not verified this session)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "2021 IECC Table R301.1 puts Dallas and Tarrant counties in Climate Zone 3A (regional knowledge; table not re-read this session)."
+  },
+  "windstormCounty": {
+    "value": false,
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed - researcher judgement (not verified this session)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "TDI windstorm catalogue areas cover only the 14 coastal counties and parts of Harris County. North Texas counties are not included (regional knowledge; TDI site was blocked this session)."
+  },
+  "zipCodesOrBoundary": {
+    "value": null,
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed - researcher judgement (not verified this session)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Not found: official city-limits map link. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+  },
+  "codes": {
+    "irc": {
+      "edition": {
+        "value": "2021 IRC (Chapter 57 Dallas One- and Two-Family Dwelling Code; renamed One- to Eight-Family Dwelling Code by Ord. 33099, effective 2025-05-23)",
+        "status": "Secondary",
+        "source": {
+          "id": "dallas-ord-23-0471",
+          "title": "City of Dallas Ordinance file 23-0471 (3-28-23): amends Chapter 57 Dallas One- and Two-Family Dwelling Code, adopts 2021 IRC with changes",
+          "url": "https://dallascityhall.com/departments/sustainabledevelopment/buildinginspection/DCH%20documents/pdf/code_amendments/2021_codes/23-0471.pdf",
+          "read": "2026-10-11",
+          "section": "Ch. 57, Sec. 1"
+        },
+        "note": "Effective 2023-05-12 per city code page. Content seen only through a search-result summary of this primary document; WebFetch was unavailable. Recheck before relying on it."
+      },
+      "ordinance": {
+        "value": "Ordinance file 23-0471 dated 3-28-23. Ordinance number appears to be 32424 (OCR garbled, not confirmed). Later amended by Ord. 33099 (4-23-25).",
+        "status": "Secondary",
+        "source": {
+          "id": "dallas-ord-23-0471",
+          "title": "City of Dallas Ordinance file 23-0471 (3-28-23): amends Chapter 57 Dallas One- and Two-Family Dwelling Code, adopts 2021 IRC with changes",
+          "url": "https://dallascityhall.com/departments/sustainabledevelopment/buildinginspection/DCH%20documents/pdf/code_amendments/2021_codes/23-0471.pdf",
+          "read": "2026-10-11"
+        },
+        "note": "Content seen only through a search-result summary of this primary document; WebFetch was unavailable. Recheck before relying on it."
+      },
+      "amendments": [
+        {
+          "topic": "foundation",
+          "summary": "Every foundation or footing, and any addition to a post-tensioned foundation, must be designed and sealed by a Texas-registered engineer.",
+          "section": "R401.2 (Dallas amendment)",
+          "status": "Secondary",
+          "source": {
+            "id": "dallas-upcodes-irc2021-ch4",
+            "title": "Dallas Residential Code 2021 - Chapter 4 Foundations (UpCodes republication)",
+            "url": "https://up.codes/viewer/dallas/irc-2021/chapter/4/foundations",
+            "read": "2026-10-11",
+            "section": "R401.2"
+          },
+          "note": "Found in the 2022 public-comment draft and the UpCodes Dallas 2021 text; adopted wording not read directly."
+        },
+        {
+          "topic": "other",
+          "summary": "Chapter 52 (admin procedures) says residential-code work needs plans and specifications by a Texas-registered engineer unless exempt under Sec. 301.4.7.4.",
+          "section": "Ch. 52 Sec. 301.4.7.x",
+          "status": "Secondary",
+          "source": {
+            "id": "dallas-ch52-2024",
+            "title": "Chapter 52 Administrative Procedures for the Construction Codes (as of 3-27-24)",
+            "url": "https://dallas.gov/departments/sustainabledevelopment/buildinginspection/DCH%20documents/Chapter%2052%20as%20of%203-27-24.pdf",
+            "read": "2026-10-11",
+            "section": "301.4.7.4"
+          },
+          "note": "Exemption scope not read; Chapter 52 replaced by new ordinance approved 2025-04-23."
+        },
+        {
+          "topic": "other",
+          "summary": "Ord. 33099 (2025) renames Chapter 57 the One- to Eight-Family Dwelling Code and adds R334 'Consolidated Dwellings' (3-8 units, residential-code based). It also amends R101, R202, R301 and R302.",
+          "section": "R101, R202, R301, R302, R334",
+          "status": "Secondary",
+          "source": {
+            "id": "dallas-ord-33099",
+            "title": "City of Dallas Ordinance 33099 (4-23-25, file 25-0688): construction code amendments incl. Chapter 57 renamed One- to Eight-Family Dwelling Code",
+            "url": "https://citysecretary2.dallascityhall.com//resolutions/2025/04-23-25/25-0688.pdf",
+            "read": "2026-10-11"
+          },
+          "note": "Draft and OCR text only; R301/R302 changes for single-family not confirmed."
+        },
+        {
+          "topic": "other",
+          "summary": "Chapter 1 of the IRC is replaced; administration follows Dallas Chapter 52.",
+          "section": "Ch. 1",
+          "status": "Secondary",
+          "source": {
+            "id": "dallas-ord-23-0471",
+            "title": "City of Dallas Ordinance file 23-0471 (3-28-23): amends Chapter 57 Dallas One- and Two-Family Dwelling Code, adopts 2021 IRC with changes",
+            "url": "https://dallascityhall.com/departments/sustainabledevelopment/buildinginspection/DCH%20documents/pdf/code_amendments/2021_codes/23-0471.pdf",
+            "read": "2026-10-11",
+            "section": "Ch. 1"
+          }
+        }
+      ]
+    },
+    "energy": {
+      "edition": {
+        "value": "2021 IECC with Dallas amendments (Chapter 59 Dallas Energy Conservation Code)",
+        "status": "Secondary",
+        "source": {
+          "id": "dallas-know-code",
+          "title": "City of Dallas Building Inspection - Current City Code (construction codes list)",
+          "url": "https://dallascityhall.com/departments/sustainabledevelopment/buildinginspection/Pages/know_code.aspx",
+          "read": "2026-10-11",
+          "section": "Ch. 59"
+        }
+      },
+      "stretchCode": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - researcher judgement (not verified this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: whether the Dallas Green Construction Code (Ch. 61, listed as 2015 IgCC with Dallas amendments) adds energy or green requirements for new single-family homes. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      },
+      "ordinance": {
+        "value": "Chapter 59 Dallas Energy Conservation Code",
+        "status": "Secondary",
+        "source": {
+          "id": "dallas-know-code",
+          "title": "City of Dallas Building Inspection - Current City Code (construction codes list)",
+          "url": "https://dallascityhall.com/departments/sustainabledevelopment/buildinginspection/Pages/know_code.aspx",
+          "read": "2026-10-11"
+        }
+      }
+    },
+    "plumbing": {
+      "value": "IPC 2021 with Dallas amendments (Chapter 54 Dallas Plumbing Code)",
+      "status": "Secondary",
+      "source": {
+        "id": "dallas-know-code",
+        "title": "City of Dallas Building Inspection - Current City Code (construction codes list)",
+        "url": "https://dallascityhall.com/departments/sustainabledevelopment/buildinginspection/Pages/know_code.aspx",
+        "read": "2026-10-11",
+        "section": "Ch. 54"
+      }
+    },
+    "electrical": {
+      "value": "NEC 2020 with Dallas amendments (Chapter 56), effective 2022-06-13",
+      "status": "Secondary",
+      "source": {
+        "id": "dallas-know-code",
+        "title": "City of Dallas Building Inspection - Current City Code (construction codes list)",
+        "url": "https://dallascityhall.com/departments/sustainabledevelopment/buildinginspection/Pages/know_code.aspx",
+        "read": "2026-10-11",
+        "section": "Ch. 56"
+      },
+      "note": "Not checked whether Dallas has since moved to NEC 2023."
+    },
+    "mechanical": {
+      "value": "2021 IMC (Chapter 55) - assumed same 2021 cycle",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "2021 cycle shown for other Dallas codes; IMC listing not read."
+    },
+    "fuelGas": {
+      "value": "2021 IFGC - assumed same 2021 cycle",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not read."
+    },
+    "fire": {
+      "value": "2021 IFC with Dallas amendments assumed. No sprinkler mandate for one- and two-family homes is known (Texas Occ. Code 1301.551(i) lets cities opt out of IRC R313; most do).",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No sprinkler amendment located; Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+    },
+    "wind": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "mph",
+      "note": "Not found: local Table R301.2(1) wind value. ASCE 7-16 / IRC Fig R301.2(2) shows roughly 105-110 mph ultimate design wind speed (Risk Cat. II) in the DFW area; check the city's Table R301.2(1) entry. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+    },
+    "hailRoofing": {
+      "value": "No local hail-roof mandate found. DFW is a high-hail area, so Class 4 impact-resistant shingles (UL 2218) are a common owner choice for insurance discounts, not a code rule.",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Regional practice; no ordinance located."
+    },
+    "seismic": {
+      "value": "A",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "North Texas is in Seismic Design Category A on IRC Figure R301.2(2) (regional knowledge; map not re-read this session)."
+    },
+    "frostDepth": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "in",
+      "note": "Not found: the local frost-depth value in Table R301.2(1). DFW cities commonly list a shallow frost depth (often 6 in or less), but this was not verified. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+    }
+  },
+  "zoning": {
+    "hasZoning": {
+      "value": true,
+      "status": "Secondary",
+      "source": {
+        "id": "dallas-r75a-page",
+        "title": "City of Dallas Current Planning - R-7.5(A) Single Family District summary",
+        "url": "https://dallascityhall.com/departments/sustainabledevelopment/planning/Pages/R75A.aspx",
+        "read": "2026-10-11"
+      }
+    },
+    "typicalDistrict": {
+      "value": "R-7.5(A) Single Family (Dallas Development Code ch. 51A, Sec. 51A-4.112(f))",
+      "status": "Secondary",
+      "source": {
+        "id": "dallas-r75a-page",
+        "title": "City of Dallas Current Planning - R-7.5(A) Single Family District summary",
+        "url": "https://dallascityhall.com/departments/sustainabledevelopment/planning/Pages/R75A.aspx",
+        "read": "2026-10-11",
+        "section": "51A-4.112"
+      }
+    },
+    "minLotSqFt": {
+      "value": 7500,
+      "status": "Secondary",
+      "source": {
+        "id": "dallas-r75a-page",
+        "title": "City of Dallas Current Planning - R-7.5(A) Single Family District summary",
+        "url": "https://dallascityhall.com/departments/sustainabledevelopment/planning/Pages/R75A.aspx",
+        "read": "2026-10-11"
+      },
+      "unit": "sq ft"
+    },
+    "minLotWidthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: R-7.5(A) minimum lot width. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+    },
+    "minLotDepthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: R-7.5(A) minimum lot depth. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+    },
+    "setbacksFt": {
+      "front": {
+        "value": 25,
+        "status": "Secondary",
+        "source": {
+          "id": "dallas-r75a-page",
+          "title": "City of Dallas Current Planning - R-7.5(A) Single Family District summary",
+          "url": "https://dallascityhall.com/departments/sustainabledevelopment/planning/Pages/R75A.aspx",
+          "read": "2026-10-11",
+          "section": "51A-4.112(f)"
+        },
+        "unit": "ft",
+        "note": "City summary page, which may be old. A blockface or platted building line can require more."
+      },
+      "side": {
+        "value": 5,
+        "status": "Secondary",
+        "source": {
+          "id": "dallas-r75a-page",
+          "title": "City of Dallas Current Planning - R-7.5(A) Single Family District summary",
+          "url": "https://dallascityhall.com/departments/sustainabledevelopment/planning/Pages/R75A.aspx",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "5 ft for single-family structures; 10 ft for other permitted structures."
+      },
+      "streetSide": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - researcher judgement (not verified this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: corner-lot side yard. Dallas front-yard rules (51A-4.401) can apply on both street frontages of a corner lot; check the plat."
+      },
+      "rear": {
+        "value": 5,
+        "status": "Secondary",
+        "source": {
+          "id": "dallas-r75a-page",
+          "title": "City of Dallas Current Planning - R-7.5(A) Single Family District summary",
+          "url": "https://dallascityhall.com/departments/sustainabledevelopment/planning/Pages/R75A.aspx",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "5 ft for single-family; 15 ft for other permitted structures."
+      }
+    },
+    "maxHeightFt": {
+      "value": 30,
+      "status": "Secondary",
+      "source": {
+        "id": "dallas-r75a-page",
+        "title": "City of Dallas Current Planning - R-7.5(A) Single Family District summary",
+        "url": "https://dallascityhall.com/departments/sustainabledevelopment/planning/Pages/R75A.aspx",
+        "read": "2026-10-11"
+      },
+      "unit": "ft",
+      "note": "Third-party sites say 35 or 36 ft, but the city page says 30 ft. Residential proximity slope can limit height near other districts."
+    },
+    "maxStories": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: the city summary gave no story limit."
+    },
+    "maxLotCoverage": {
+      "value": 0.45,
+      "status": "Secondary",
+      "source": {
+        "id": "dallas-r75a-page",
+        "title": "City of Dallas Current Planning - R-7.5(A) Single Family District summary",
+        "url": "https://dallascityhall.com/departments/sustainabledevelopment/planning/Pages/R75A.aspx",
+        "read": "2026-10-11"
+      },
+      "unit": "fraction",
+      "note": "45% for residential structures, 25% for nonresidential."
+    },
+    "imperviousCover": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No general impervious-cover cap known for R-7.5(A)."
+    },
+    "far": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No FAR in R-7.5(A) (none on the city summary)."
+    },
+    "parking": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: 51A-4.209 single-family off-street parking count for R-7.5(A). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+    },
+    "garageRules": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: garage placement rules. Some PDs and conservation districts regulate front-facing garages."
+    },
+    "adu": {
+      "value": "Not by right in R-7.5(A). An accessory dwelling unit needs either a Board of Adjustment special exception (51A-4.209(b)(6), about $600 fee, owner-occupancy deed restriction, rental registration) or a lot in an ADU Overlay (51A-4.510). Size cap is the greater of 700 sq ft or 25% of the main house floor area (overlay).",
+      "status": "Secondary",
+      "source": {
+        "id": "aduzoning-dallas",
+        "title": "Dallas ADU Rules 2026 (aduzoning.org summary citing 51A-4.209(b)(6))",
+        "url": "https://www.aduzoning.org/adu-rules/dallas-tx/",
+        "read": "2026-10-11",
+        "section": "51A-4.209(b)(6); 51A-4.510"
+      },
+      "note": "Third-party summary checked against the amlegal 51A-4.510 snippet (one-story cap, rental registration). Any 2025-26 state ADU law changes were not checked."
+    },
+    "masonry": {
+      "value": "No enforceable masonry percentage for new single-family homes made of materials approved by a national model code (Gov't Code ch. 3000, HB 2439, 2019); exceptions: designated historic districts/landmarks, and windstorm/flood-insurance materials. No masonry percentage was found in R-7.5(A) base zoning; some Planned Development (PD) or Conservation District ordinances set materials.",
+      "status": "Secondary",
+      "source": {
+        "id": "tx-hb2439-fw-memo",
+        "title": "HB 2439 (2019) staff summary - Fort Worth Development Services (Gov't Code ch. 3000 building-materials preemption)",
+        "url": "https://www.fortworthtexas.gov/files/assets/public/v/1/development-services/documents/housebill-2439.pdf",
+        "read": "2026-10-11",
+        "section": "Tex. Gov't Code ch. 3000 (HB 2439, 86th Leg. 2019)"
+      },
+      "note": "Statute text itself (statutes.capitol.texas.gov) not read this session; summary from city staff memos. Planned developments and deed restrictions or HOAs may still require masonry."
+    },
+    "trees": {
+      "value": "Article X (51A-10): protected trees removed must be replaced inch-for-inch (replacement 2 in caliper or more). New single-family lots need at least three 2-in trees, two of them in front. Single-family or duplex lots of 1 acre or less are exempt for trees in the 'unrestricted zone' (outside required setbacks or 15 ft from property lines, whichever is greater). A tree survey (6 in caliper or more, within 50 ft of construction) goes with the permit.",
+      "status": "Secondary",
+      "source": {
+        "id": "dallas-artx-mitigation",
+        "title": "Article X Tree Mitigation Options (Dallas Building Inspection handout)",
+        "url": "https://dallas.gov/departments/sustainabledevelopment/buildinginspection/DCH%20documents/pdf/BI_Article%20X%20Tree%20Mitigation%20Options.pdf",
+        "read": "2026-10-11"
+      },
+      "note": "Sources conflict (1 acre vs 2 acres; 6 vs 8 in protected size). Confirm against current 51A-10."
+    },
+    "minDwellingSizeSqFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No minimum dwelling size found for R-7.5(A)."
+    },
+    "other": [
+      {
+        "value": "Ord. 33099 (2025) allows buildings with 3-8 units to use residential-based codes where zoning permits. R-7.5(A) zoning still allows one unit.",
+        "status": "Secondary",
+        "source": {
+          "id": "dallas-1to8-news",
+          "title": "Dallas City Council Approves Landmark Change to Residential Code (1-8 units) - city news bulletin",
+          "url": "https://content.govdelivery.com/accounts/TXDALLAS/bulletins/3ddaedc",
+          "read": "2026-10-11"
+        }
+      },
+      {
+        "value": "Many Dallas lots sit in Planned Developments (51P), Conservation Districts (CD) or Neighborhood Stabilization Overlays (NSO) whose setbacks and heights override R-7.5(A).",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - researcher judgement (not verified this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Regional knowledge; the engine should ask for the actual zoning from the Dallas zoning map."
+      }
+    ]
+  },
+  "process": {
+    "steps": [
+      {
+        "value": "Confirm the zoning district, PD, CD or NSO on the city zoning map, plus the plat building lines.",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - researcher judgement (not verified this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Standard Dallas practice."
+      },
+      {
+        "value": "Submit the residential permit through Dallas DSD with sealed foundation design, site plan, tree survey and landscape plan (Article X), and energy compliance.",
+        "status": "Secondary",
+        "source": {
+          "id": "dallas-landscape-checklist",
+          "title": "Landscape Checklist - Ordinance 22053 (Article X)",
+          "url": "https://dallascityhall.com/departments/sustainabledevelopment/buildinginspection/DCH%20documents/pdf/BI_Landscpchklst.pdf",
+          "read": "2026-10-11"
+        }
+      },
+      {
+        "value": "Plan review, then permit issued and fees paid, then inspections, then Certificate of Occupancy.",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - researcher judgement (not verified this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Typical sequence."
+      }
+    ],
+    "sealsRequired": [
+      {
+        "value": "Foundation designed and sealed by a Texas-registered professional engineer (R401.2).",
+        "status": "Secondary",
+        "source": {
+          "id": "dallas-upcodes-irc2021-ch4",
+          "title": "Dallas Residential Code 2021 - Chapter 4 Foundations (UpCodes republication)",
+          "url": "https://up.codes/viewer/dallas/irc-2021/chapter/4/foundations",
+          "read": "2026-10-11",
+          "section": "R401.2"
+        }
+      }
+    ],
+    "inspections": [
+      {
+        "value": "Typical: foundation (pre-pour/PT), framing, rough MEP, energy/insulation, final. Third-party energy (HERS) testing is common.",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - researcher judgement (not verified this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Standard IRC inspection sequence; Dallas list not read."
+      }
+    ],
+    "reviewDays": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: published residential review time."
+    }
+  },
+  "fees": {
+    "permitFormula": {
+      "value": "New single-family/duplex permit fee by floor-area band (July 1, 2025 schedule): up to 700 sq ft = $1.07/sq ft; 701-2,350 = $0.34569/sq ft + $300; 2,351-10,500 = $0.077/sq ft + $800; 10,501+ = $0.0272/sq ft + $1,000.",
+      "status": "Secondary",
+      "source": {
+        "id": "dallas-fees-2025",
+        "title": "City of Dallas DSD Permit Fee Schedule effective July 1, 2025",
+        "url": "https://dallas.gov/departments/sustainabledevelopment/buildinginspection/DCH%20documents/DSDFees%20(1).pdf",
+        "read": "2026-10-11"
+      },
+      "note": "Table text was garbled in the search extract (the bands do not join smoothly at 2,350 sq ft), so verify the multipliers on the PDF. Content seen only through a search-result summary of this primary document; WebFetch was unavailable. Recheck before relying on it."
+    },
+    "workedExample2400sqft": {
+      "value": 985,
+      "status": "Secondary",
+      "source": {
+        "id": "dallas-fees-2025",
+        "title": "City of Dallas DSD Permit Fee Schedule effective July 1, 2025",
+        "url": "https://dallas.gov/departments/sustainabledevelopment/buildinginspection/DCH%20documents/DSDFees%20(1).pdf",
+        "read": "2026-10-11"
+      },
+      "unit": "USD",
+      "note": "2,400 sq ft is in the 2,351-10,500 band: 2,400 x 0.077 = $184.80, + $800 = $984.80, about $985. If the 440 sq ft attached garage counts (2,840 sq ft): 2,840 x 0.077 + 800 = $1,018.68. Garage counting not confirmed; trade, plan-review and tech fees not included."
+    },
+    "planReview": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: whether plan review is included or charged separately under the 2025 schedule (third-party sites cite 65% of the permit fee; not confirmed)."
+    },
+    "impactFees": [
+      {
+        "value": "None. Dallas has not adopted a Chapter 395 roadway, water or wastewater impact fee (third-party aggregator). The 2024 fee ordinance, effective 2024-05-01, raised permit and inspection fees but is not an impact fee.",
+        "status": "Secondary",
+        "source": {
+          "id": "zonefee-dallas",
+          "title": "Dallas, TX Development Fees (zonefee.com)",
+          "url": "https://zonefee.com/states/texas/dallas/",
+          "read": "2026-10-11"
+        },
+        "note": "No roadway impact fee adoption by Dallas was found in searches. Confirm with DSD."
+      }
+    ],
+    "tapFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - researcher judgement (not verified this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: Dallas Water Utilities tap and meter fees for a 3/4 in or 1 in residential service. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      }
+    ]
+  },
+  "cost": {
+    "factor": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "cost-method",
+        "title": "See README cost method (filled by cost agent)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "PENDING_COST_AGENT"
+    },
+    "method": "PENDING_COST_AGENT",
+    "perSqFtMarket": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: a public market build-cost figure for Dallas. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+    },
+    "drivers": [
+      {
+        "value": "Engineer-sealed foundation (post-tensioned slab on expansive clay) on every new home.",
+        "status": "Secondary",
+        "source": {
+          "id": "dallas-upcodes-irc2021-ch4",
+          "title": "Dallas Residential Code 2021 - Chapter 4 Foundations (UpCodes republication)",
+          "url": "https://up.codes/viewer/dallas/irc-2021/chapter/4/foundations",
+          "read": "2026-10-11"
+        }
+      },
+      {
+        "value": "Tree replacement or mitigation fees under Article X when protected trees are removed.",
+        "status": "Secondary",
+        "source": {
+          "id": "dallas-artx-mitigation",
+          "title": "Article X Tree Mitigation Options (Dallas Building Inspection handout)",
+          "url": "https://dallas.gov/departments/sustainabledevelopment/buildinginspection/DCH%20documents/pdf/BI_Article%20X%20Tree%20Mitigation%20Options.pdf",
+          "read": "2026-10-11"
+        }
+      },
+      {
+        "value": "Highly expansive Blackland Prairie clays drive foundation depth, moisture control and drainage.",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - researcher judgement (not verified this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Regional geology knowledge."
+      }
+    ]
+  },
+  "flood": {
+    "value": "Floodplain (51A-5.100): when filling in the floodplain, the lowest floor must be at least 3 ft above the design flood elevation and the building pad filled to at least 2 ft above it. In 500-year flood areas the lowest floor must be at least 3 ft above the 100-year elevation. Mechanical equipment must be at least 3 ft above the design flood elevation. Areas protected by Trinity/Elm Fork levees need 1 ft above the design flood. Habitable homes on piers in the floodplain are prohibited.",
+    "status": "Secondary",
+    "source": {
+      "id": "dallas-floodplain-2022",
+      "title": "Dallas Development Code Division 51A-5.100 Floodplain Regulations (Rev. 2022)",
+      "url": "https://dallascityhall.com/departments/waterutilities/stormwater-operations/Documents/Article_V_Section_51A_Floodplain_Regulations_Rev.2022.pdf",
+      "read": "2026-10-11",
+      "section": "51A-5.105; Div. 51A-5.100"
+    },
+    "note": "Content seen only through a search-result summary of this primary document; WebFetch was unavailable. Recheck before relying on it."
+  },
+  "engineChanges": [
+    {
+      "id": "dallas-setbacks-r75a",
+      "ruleType": "setback-by-district",
+      "area": "setbacks",
+      "change": "In R-7.5(A) use front 25 ft, side 5 ft, rear 5 ft for the house (side 10 ft and rear 15 ft for other structures); never less than plat building lines.",
+      "priority": "must",
+      "params": {
+        "district": "R-7.5(A)",
+        "frontFt": 25,
+        "sideFt": 5,
+        "rearFt": 5
+      },
+      "source": {
+        "id": "dallas-r75a-page",
+        "title": "City of Dallas Current Planning - R-7.5(A) Single Family District summary",
+        "url": "https://dallascityhall.com/departments/sustainabledevelopment/planning/Pages/R75A.aspx",
+        "read": "2026-10-11",
+        "section": "51A-4.112"
+      }
+    },
+    {
+      "id": "dallas-height-r75a",
+      "ruleType": "height-limit",
+      "area": "massing",
+      "change": "Cap house height at 30 ft in R-7.5(A); check residential proximity slope near multifamily or nonresidential districts.",
+      "priority": "must",
+      "params": {
+        "maxHeightFt": 30
+      },
+      "source": {
+        "id": "dallas-r75a-page",
+        "title": "City of Dallas Current Planning - R-7.5(A) Single Family District summary",
+        "url": "https://dallascityhall.com/departments/sustainabledevelopment/planning/Pages/R75A.aspx",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "dallas-coverage-r75a",
+      "ruleType": "lot-coverage",
+      "area": "massing",
+      "change": "Limit lot coverage to 45% for residential structures in R-7.5(A).",
+      "priority": "must",
+      "params": {
+        "maxLotCoverage": 0.45
+      },
+      "source": {
+        "id": "dallas-r75a-page",
+        "title": "City of Dallas Current Planning - R-7.5(A) Single Family District summary",
+        "url": "https://dallascityhall.com/departments/sustainabledevelopment/planning/Pages/R75A.aspx",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "dallas-minlot",
+      "ruleType": "lot-min-size",
+      "area": "survey",
+      "change": "Warn if the lot is smaller than 7,500 sq ft in R-7.5(A) (legal nonconforming lots may still build).",
+      "priority": "should",
+      "params": {
+        "minLotSqFt": 7500
+      },
+      "source": {
+        "id": "dallas-r75a-page",
+        "title": "City of Dallas Current Planning - R-7.5(A) Single Family District summary",
+        "url": "https://dallascityhall.com/departments/sustainabledevelopment/planning/Pages/R75A.aspx",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "dallas-eng-foundation",
+      "ruleType": "engineered-foundation-flag",
+      "area": "foundation",
+      "change": "Require a Texas PE-sealed foundation design for every new house. Mark the IRC prescriptive footing tables as not usable for permit.",
+      "priority": "must",
+      "params": {
+        "engineeredFoundation": true,
+        "sealBy": "Texas PE"
+      },
+      "source": {
+        "id": "dallas-upcodes-irc2021-ch4",
+        "title": "Dallas Residential Code 2021 - Chapter 4 Foundations (UpCodes republication)",
+        "url": "https://up.codes/viewer/dallas/irc-2021/chapter/4/foundations",
+        "read": "2026-10-11",
+        "section": "R401.2"
+      }
+    },
+    {
+      "id": "dallas-expansive-soil",
+      "ruleType": "expansive-soil-foundation",
+      "area": "foundation",
+      "change": "Default the foundation to a post-tensioned slab on grade designed for expansive clay (IRC R403.1.8 / IBC 1808.6). Add a geotech report line item.",
+      "priority": "should",
+      "params": {
+        "defaultFoundation": "PT slab",
+        "geotechReport": true
+      },
+      "source": {
+        "id": "dallas-upcodes-irc2021-ch4",
+        "title": "Dallas Residential Code 2021 - Chapter 4 Foundations (UpCodes republication)",
+        "url": "https://up.codes/viewer/dallas/irc-2021/chapter/4/foundations",
+        "read": "2026-10-11",
+        "section": "R403.1.8"
+      }
+    },
+    {
+      "id": "dallas-plumbing-ipc",
+      "ruleType": "plumbing-code-variant",
+      "area": "plan",
+      "change": "Use IPC 2021 (Dallas amendments) rules for fixtures and venting, not UPC.",
+      "priority": "should",
+      "params": {
+        "plumbingCode": "IPC 2021"
+      },
+      "source": {
+        "id": "dallas-know-code",
+        "title": "City of Dallas Building Inspection - Current City Code (construction codes list)",
+        "url": "https://dallascityhall.com/departments/sustainabledevelopment/buildinginspection/Pages/know_code.aspx",
+        "read": "2026-10-11",
+        "section": "Ch. 54"
+      }
+    },
+    {
+      "id": "dallas-nec-2020",
+      "ruleType": "electrical-code-edition",
+      "area": "drawings",
+      "change": "Use NEC 2020 with Dallas amendments (not 2023) for electrical notes.",
+      "priority": "should",
+      "params": {
+        "nec": "2020"
+      },
+      "source": {
+        "id": "dallas-know-code",
+        "title": "City of Dallas Building Inspection - Current City Code (construction codes list)",
+        "url": "https://dallascityhall.com/departments/sustainabledevelopment/buildinginspection/Pages/know_code.aspx",
+        "read": "2026-10-11",
+        "section": "Ch. 56"
+      }
+    },
+    {
+      "id": "dallas-cz3a",
+      "ruleType": "climate-zone-envelope",
+      "area": "envelope",
+      "change": "Apply 2021 IECC Climate Zone 3A envelope tables (Dallas Ch. 59 amendments).",
+      "priority": "must",
+      "params": {
+        "climateZone": "3A",
+        "energyCode": "2021 IECC (Dallas amended)"
+      },
+      "source": {
+        "id": "dallas-know-code",
+        "title": "City of Dallas Building Inspection - Current City Code (construction codes list)",
+        "url": "https://dallascityhall.com/departments/sustainabledevelopment/buildinginspection/Pages/know_code.aspx",
+        "read": "2026-10-11",
+        "section": "Ch. 59"
+      }
+    },
+    {
+      "id": "dallas-trees",
+      "ruleType": "tree-preservation",
+      "area": "survey",
+      "change": "Ask for a tree survey (trees 6 in caliper or more within 50 ft of work). Estimate inch-for-inch replacement for protected trees outside the unrestricted zone. Plant at least three 2-in trees, two in the front yard.",
+      "priority": "should",
+      "params": {
+        "surveyMinCaliperIn": 6,
+        "replacement": "inch-for-inch",
+        "minNewTrees": 3,
+        "minFrontTrees": 2
+      },
+      "source": {
+        "id": "dallas-landscape-checklist",
+        "title": "Landscape Checklist - Ordinance 22053 (Article X)",
+        "url": "https://dallascityhall.com/departments/sustainabledevelopment/buildinginspection/DCH%20documents/pdf/BI_Landscpchklst.pdf",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "dallas-flood",
+      "ruleType": "flood-elevation",
+      "area": "structure",
+      "change": "If the lot is in a Dallas floodplain or 500-year area, set the lowest floor at least 3 ft above the design (100-yr) flood elevation, raise mechanical equipment 3 ft above it, and allow no pier-elevated habitable floors.",
+      "priority": "must",
+      "params": {
+        "freeboardFt": 3,
+        "mechFreeboardFt": 3,
+        "leveeProtectedFreeboardFt": 1,
+        "piersAllowed": false
+      },
+      "source": {
+        "id": "dallas-floodplain-2022",
+        "title": "Dallas Development Code Division 51A-5.100 Floodplain Regulations (Rev. 2022)",
+        "url": "https://dallascityhall.com/departments/waterutilities/stormwater-operations/Documents/Article_V_Section_51A_Floodplain_Regulations_Rev.2022.pdf",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "dallas-adu",
+      "ruleType": "adu-rules",
+      "area": "plan",
+      "change": "Block a by-right ADU in R-7.5(A). Offer it only with a Board of Adjustment special exception or an ADU overlay, at most the greater of 700 sq ft or 25% of the main house, one story, owner-occupancy deed restriction.",
+      "priority": "should",
+      "params": {
+        "byRight": false,
+        "maxSqFt": 700,
+        "maxPctOfMain": 0.25
+      },
+      "source": {
+        "id": "aduzoning-dallas",
+        "title": "Dallas ADU Rules 2026 (aduzoning.org summary citing 51A-4.209(b)(6))",
+        "url": "https://www.aduzoning.org/adu-rules/dallas-tx/",
+        "read": "2026-10-11",
+        "section": "51A-4.209(b)(6)"
+      }
+    },
+    {
+      "id": "dallas-masonry",
+      "ruleType": "masonry-percentage",
+      "area": "envelope",
+      "change": "Do not apply any masonry percentage by default (Gov't Code ch. 3000). Show a prompt only if the lot is in a historic district or a PD or deed restriction requires masonry.",
+      "priority": "should",
+      "params": {
+        "masonryPct": 0,
+        "checkHistoricOrPD": true
+      },
+      "source": {
+        "id": "tx-hb2439-fw-memo",
+        "title": "HB 2439 (2019) staff summary - Fort Worth Development Services (Gov't Code ch. 3000 building-materials preemption)",
+        "url": "https://www.fortworthtexas.gov/files/assets/public/v/1/development-services/documents/housebill-2439.pdf",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "dallas-permit-fee",
+      "ruleType": "permit-fee-formula",
+      "area": "estimate",
+      "change": "For a new house of 2,351-10,500 sq ft, estimate the permit at $0.077/sq ft + $800 (about $985 for 2,400 sq ft), plus trade fees.",
+      "priority": "nice",
+      "params": {
+        "bands": [
+          [
+            0,
+            700,
+            1.07,
+            0
+          ],
+          [
+            701,
+            2350,
+            0.34569,
+            300
+          ],
+          [
+            2351,
+            10500,
+            0.077,
+            800
+          ],
+          [
+            10501,
+            null,
+            0.0272,
+            1000
+          ]
+        ]
+      },
+      "source": {
+        "id": "dallas-fees-2025",
+        "title": "City of Dallas DSD Permit Fee Schedule effective July 1, 2025",
+        "url": "https://dallas.gov/departments/sustainabledevelopment/buildinginspection/DCH%20documents/DSDFees%20(1).pdf",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "dallas-impact-none",
+      "ruleType": "impact-fee-estimate",
+      "area": "estimate",
+      "change": "Set the impact fee to $0. Dallas has no Chapter 395 roadway, water or wastewater impact fee.",
+      "priority": "should",
+      "params": {
+        "impactFeeUSD": 0
+      },
+      "source": {
+        "id": "zonefee-dallas",
+        "title": "Dallas, TX Development Fees (zonefee.com)",
+        "url": "https://zonefee.com/states/texas/dallas/",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "dallas-district-input",
+      "ruleType": "survey-input-district",
+      "area": "survey",
+      "change": "Ask the user for the actual zoning (R-7.5(A), R-5(A), R-10(A), PD, CD, NSO), because PD and CD rules override base setbacks and heights.",
+      "priority": "must",
+      "params": {
+        "askOverlay": [
+          "PD",
+          "CD",
+          "NSO"
+        ]
+      },
+      "source": {
+        "id": "dallas-r75a-page",
+        "title": "City of Dallas Current Planning - R-7.5(A) Single Family District summary",
+        "url": "https://dallascityhall.com/departments/sustainabledevelopment/planning/Pages/R75A.aspx",
+        "read": "2026-10-11"
+      }
+    }
+  ],
+  "plainLanguage": "Dallas builds homes under the 2021 International Residential Code with city amendments (Chapter 57). Every new house needs a foundation designed and stamped by a Texas engineer, because Dallas clay soils swell and shrink. In the common R-7.5(A) district the house must sit 25 ft back from the street and 5 ft from the side and rear lines. It can be up to 30 ft tall and cover up to 45% of the lot. Your subdivision plat, a Planned Development or a Conservation District can set stricter rules, so check your zoning first. The city cannot require brick or stone percentages on a normal lot, but HOAs and deed restrictions still can. Removing protected trees means replacing them inch-for-inch, and new homes need at least three trees. Dallas charges no impact fee; the building permit for a 2,400 sq ft house is roughly $1,000 before trade fees. A backyard cottage (ADU) is not allowed by right in most single-family areas.",
+  "openQuestions": [
+    "Confirm the adopted R401.2 wording and the Ch. 52 engineer-plans exemption (301.4.7.4) in the final 2023 ordinance.",
+    "Confirm the 2021 IRC ordinance number (32424?) and how Ord. 33099 changed R301/R302 for single-family homes.",
+    "Verify the July 2025 fee bands (they do not join at 2,350 sq ft) and whether the garage counts.",
+    "Has Dallas moved from NEC 2020 to NEC 2023?",
+    "Does Chapter 61 Green Construction Code apply to new single-family homes?",
+    "Check whether 2025 Texas legislation changed Dallas ADU or owner-occupancy rules.",
+    "Dallas Water Utilities tap and meter fees."
+  ],
+  "notFound": [
+    "R-7.5(A) min lot width and depth, corner side yard, story limit",
+    "Single-family parking count (51A-4.209)",
+    "Tap and meter fees",
+    "Local Table R301.2(1) wind, frost and termite values",
+    "Residential review times",
+    "Market cost per sq ft"
+  ],
+  "comparison": {
+    "irc": "2021 IRC (Dallas Ch. 57, amended 2025)",
+    "energy": "2021 IECC (Dallas Ch. 59)",
+    "plumbing": "IPC 2021",
+    "district": "R-7.5(A)",
+    "setbacks": "25/5/5",
+    "maxHeight": "30 ft",
+    "coverageFar": "45% / no FAR",
+    "masonry": "none (Gov't Code 3000)",
+    "engFoundation": "yes - PE-sealed, all new homes",
+    "windstorm": "no",
+    "flood": "3 ft above design flood",
+    "permitFeeExample": "~$985",
+    "impactFees": "$0",
+    "costFactor": "PENDING"
+  }
+}

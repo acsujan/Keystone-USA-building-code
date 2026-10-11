@@ -1,0 +1,772 @@
+{
+  "id": "arlington",
+  "name": "City of Arlington",
+  "state": "TX",
+  "tier": 1,
+  "counties": [
+    "Tarrant"
+  ],
+  "msa": {
+    "name": "Dallas-Fort Worth-Arlington, TX",
+    "blsCode": "19100"
+  },
+  "population": {
+    "value": 400000,
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed - researcher judgement (not verified this session)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "About 400,000 (approximate, prior knowledge)."
+  },
+  "climateZone": {
+    "value": "3A",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed - researcher judgement (not verified this session)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "2021 IECC Table R301.1 puts Dallas and Tarrant counties in Climate Zone 3A (regional knowledge; table not re-read this session)."
+  },
+  "windstormCounty": {
+    "value": false,
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed - researcher judgement (not verified this session)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "TDI windstorm catalogue areas cover only the 14 coastal counties and parts of Harris County. North Texas counties are not included (regional knowledge; TDI site was blocked this session)."
+  },
+  "zipCodesOrBoundary": {
+    "value": null,
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed - researcher judgement (not verified this session)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Not found: official city-limits map. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+  },
+  "codes": {
+    "irc": {
+      "edition": {
+        "value": "2021 IRC (likely)",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - researcher judgement (not verified this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Arlington is believed to have adopted the 2021 I-codes with NCTCOG regional amendments. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      },
+      "ordinance": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - researcher judgement (not verified this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: adoption ordinance number and date. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      },
+      "amendments": [
+        {
+          "topic": "other",
+          "summary": "NCTCOG regional amendment trims IRC Table R301.2(1): the Manual J design-criteria columns are removed (Manual J is done by third parties and not checked in plan review).",
+          "section": "Table R301.2(1)",
+          "status": "Secondary",
+          "source": {
+            "id": "nctcog-2021-irc-amendments",
+            "title": "NCTCOG Recommended Amendments to the 2021 International Residential Code (Approved July 2021)",
+            "url": "https://nctcog.org/getmedia/feafbc55-3c35-4022-bcab-6b07c95c7f9e/2021-IRC-Amendments-Final.pdf",
+            "read": "2026-10-11",
+            "section": "Table R301.2(1)"
+          },
+          "note": "Regional NCTCOG recommendation; this city's adoption of it is not confirmed."
+        },
+        {
+          "topic": "other",
+          "summary": "NCTCOG adds an exception at R302.1: open non-combustible carports may be built where local ordinances also allow them.",
+          "section": "R302.1 exception",
+          "status": "Secondary",
+          "source": {
+            "id": "nctcog-2021-irc-amendments",
+            "title": "NCTCOG Recommended Amendments to the 2021 International Residential Code (Approved July 2021)",
+            "url": "https://nctcog.org/getmedia/feafbc55-3c35-4022-bcab-6b07c95c7f9e/2021-IRC-Amendments-Final.pdf",
+            "read": "2026-10-11",
+            "section": "R302.1"
+          },
+          "note": "Regional NCTCOG recommendation; this city's adoption of it is not confirmed."
+        },
+        {
+          "topic": "other",
+          "summary": "NCTCOG deletes IRC Chapter 11 (energy) and points to the 2021 IECC with its NCTCOG amendments instead.",
+          "section": "Chapter 11 (N1101)",
+          "status": "Secondary",
+          "source": {
+            "id": "nctcog-2021-irc-amendments",
+            "title": "NCTCOG Recommended Amendments to the 2021 International Residential Code (Approved July 2021)",
+            "url": "https://nctcog.org/getmedia/feafbc55-3c35-4022-bcab-6b07c95c7f9e/2021-IRC-Amendments-Final.pdf",
+            "read": "2026-10-11",
+            "section": "Chapter 11"
+          },
+          "note": "Regional NCTCOG recommendation; this city's adoption of it is not confirmed."
+        },
+        {
+          "topic": "other",
+          "summary": "NCTCOG revises the townhouse definition so units on separate lots run from foundation to roof, divided by property lines.",
+          "section": "R202 Townhouse unit",
+          "status": "Secondary",
+          "source": {
+            "id": "nctcog-2021-irc-amendments",
+            "title": "NCTCOG Recommended Amendments to the 2021 International Residential Code (Approved July 2021)",
+            "url": "https://nctcog.org/getmedia/feafbc55-3c35-4022-bcab-6b07c95c7f9e/2021-IRC-Amendments-Final.pdf",
+            "read": "2026-10-11",
+            "section": "R202"
+          },
+          "note": "Regional NCTCOG recommendation; this city's adoption of it is not confirmed."
+        }
+      ]
+    },
+    "energy": {
+      "edition": {
+        "value": "2021 IECC (likely, with NCTCOG amendments)",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - researcher judgement (not verified this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Assumed to follow the 2021 cycle. Not verified."
+      },
+      "stretchCode": {
+        "value": false,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - researcher judgement (not verified this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "No local stretch code known."
+      }
+    },
+    "plumbing": {
+      "value": "IPC 2021 (likely)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "DFW cities generally adopt IPC; not verified."
+    },
+    "electrical": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: NEC edition (2020 or 2023). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+    },
+    "mechanical": {
+      "value": "2021 IMC (likely)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not verified."
+    },
+    "fuelGas": {
+      "value": "2021 IFGC (likely)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not verified."
+    },
+    "fire": {
+      "value": "2021 IFC (likely). No one/two-family sprinkler mandate expected (Texas Occ. Code 1301.551(i) opt-out common).",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not verified."
+    },
+    "wind": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "mph",
+      "note": "Not found: local Table R301.2(1) wind value. ASCE 7-16 / IRC Fig R301.2(2) shows roughly 105-110 mph ultimate design wind speed (Risk Cat. II) in the DFW area; check the city's Table R301.2(1) entry. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+    },
+    "hailRoofing": {
+      "value": "No local hail-roof mandate found. DFW is a high-hail area, so Class 4 impact-resistant shingles (UL 2218) are a common owner choice for insurance discounts, not a code rule.",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Regional practice; no ordinance located."
+    },
+    "seismic": {
+      "value": "A",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "North Texas is in Seismic Design Category A on IRC Figure R301.2(2) (regional knowledge; map not re-read this session)."
+    },
+    "frostDepth": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "in",
+      "note": "Not found: the local frost-depth value in Table R301.2(1). DFW cities commonly list a shallow frost depth (often 6 in or less), but this was not verified. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+    }
+  },
+  "zoning": {
+    "hasZoning": {
+      "value": true,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Large DFW city with zoning (regional knowledge)."
+    },
+    "typicalDistrict": {
+      "value": "RS-7.2 Residential Single-Family 7.2 (Arlington Unified Development Code) (assumed)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Assumed typical district under the Arlington UDC; district names and standards not read this session."
+    },
+    "minLotSqFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: minimum lot area for RS-7.2 Residential Single-Family 7.2 (Arlington Unified Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+    },
+    "minLotWidthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: minimum lot width for RS-7.2 Residential Single-Family 7.2 (Arlington Unified Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+    },
+    "minLotDepthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: minimum lot depth for RS-7.2 Residential Single-Family 7.2 (Arlington Unified Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+    },
+    "setbacksFt": {
+      "front": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - researcher judgement (not verified this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: front setback for RS-7.2 Residential Single-Family 7.2 (Arlington Unified Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      },
+      "side": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - researcher judgement (not verified this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: side setback for RS-7.2 Residential Single-Family 7.2 (Arlington Unified Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      },
+      "streetSide": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - researcher judgement (not verified this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: streetSide setback for RS-7.2 Residential Single-Family 7.2 (Arlington Unified Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      },
+      "rear": {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - researcher judgement (not verified this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: rear setback for RS-7.2 Residential Single-Family 7.2 (Arlington Unified Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      }
+    },
+    "maxHeightFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: maximum height for RS-7.2 Residential Single-Family 7.2 (Arlington Unified Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+    },
+    "maxStories": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: maximum stories for RS-7.2 Residential Single-Family 7.2 (Arlington Unified Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+    },
+    "maxLotCoverage": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: maximum lot coverage for RS-7.2 Residential Single-Family 7.2 (Arlington Unified Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+    },
+    "imperviousCover": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: impervious cover limit for RS-7.2 Residential Single-Family 7.2 (Arlington Unified Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+    },
+    "far": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: FAR for RS-7.2 Residential Single-Family 7.2 (Arlington Unified Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+    },
+    "parking": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: parking minimum for RS-7.2 Residential Single-Family 7.2 (Arlington Unified Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+    },
+    "garageRules": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: garage placement/orientation rules for RS-7.2 Residential Single-Family 7.2 (Arlington Unified Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+    },
+    "adu": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: ADU rules for RS-7.2 Residential Single-Family 7.2 (Arlington Unified Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+    },
+    "masonry": {
+      "value": "No enforceable masonry percentage for new single-family homes made of materials approved by a national model code (Gov't Code ch. 3000, HB 2439, 2019); exceptions: designated historic districts/landmarks, and windstorm/flood-insurance materials. Older city masonry percentages for single-family homes cannot be enforced against code-approved materials, except in historic districts.",
+      "status": "Secondary",
+      "source": {
+        "id": "tx-hb2439-fw-memo",
+        "title": "HB 2439 (2019) staff summary - Fort Worth Development Services (Gov't Code ch. 3000 building-materials preemption)",
+        "url": "https://www.fortworthtexas.gov/files/assets/public/v/1/development-services/documents/housebill-2439.pdf",
+        "read": "2026-10-11",
+        "section": "Tex. Gov't Code ch. 3000 (HB 2439, 86th Leg. 2019)"
+      },
+      "note": "Statute text itself (statutes.capitol.texas.gov) not read this session; summary from city staff memos. Planned developments and deed restrictions or HOAs may still require masonry."
+    },
+    "trees": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: tree preservation/mitigation ordinance for RS-7.2 Residential Single-Family 7.2 (Arlington Unified Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+    },
+    "other": []
+  },
+  "process": {
+    "steps": [
+      {
+        "value": "Confirm zoning and plat, submit the residential permit with a sealed foundation design, plan review, permit, inspections, Certificate of Occupancy.",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - researcher judgement (not verified this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Typical DFW sequence; not verified."
+      }
+    ],
+    "sealsRequired": [
+      {
+        "value": "Engineer-sealed foundation design expected (standard DFW practice on expansive clay); whether the city mandates it by amendment is not confirmed.",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - researcher judgement (not verified this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not verified."
+      }
+    ],
+    "inspections": [
+      {
+        "value": "Foundation, framing, rough MEP, energy, final (typical).",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - researcher judgement (not verified this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not verified."
+      }
+    ],
+    "reviewDays": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: review time. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+    }
+  },
+  "fees": {
+    "permitFormula": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: residential permit fee formula. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+    },
+    "workedExample2400sqft": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: permit fee - cannot compute without fee schedule. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+    },
+    "planReview": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: plan review fee. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+    },
+    "impactFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - researcher judgement (not verified this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: water/wastewater/roadway impact fees. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      }
+    ],
+    "tapFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - researcher judgement (not verified this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: water/sewer tap fees. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      }
+    ]
+  },
+  "cost": {
+    "factor": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "cost-method",
+        "title": "See README cost method (filled by cost agent)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "PENDING_COST_AGENT"
+    },
+    "method": "PENDING_COST_AGENT",
+    "perSqFtMarket": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: market build cost per sq ft. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+    },
+    "drivers": [
+      {
+        "value": "Expansive clay soils lead to post-tensioned slabs with engineered design.",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - researcher judgement (not verified this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Regional geology knowledge."
+      }
+    ]
+  },
+  "flood": {
+    "value": null,
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed - researcher judgement (not verified this session)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Not found: floodplain ordinance freeboard. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+  },
+  "engineChanges": [
+    {
+      "id": "arlington-district-input",
+      "ruleType": "survey-input-district",
+      "area": "survey",
+      "change": "Ask for the actual zoning district (default RS-7.2 Residential Single-Family 7.2 (Arlington Unified Development Code) (assumed)) and plat building lines; no setbacks verified yet, so do not auto-fill.",
+      "priority": "must",
+      "params": {
+        "defaultDistrict": "RS-7.2 Residential Single-Family 7.2 (Arlington Unified Development Code) (assumed)",
+        "setbacksVerified": false
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "arlington-eng-foundation",
+      "ruleType": "engineered-foundation-flag",
+      "area": "foundation",
+      "change": "Flag an engineered (PE-sealed) post-tensioned slab as the default for expansive DFW clay; confirm whether the city amendment mandates it.",
+      "priority": "should",
+      "params": {
+        "engineeredFoundation": true,
+        "mandateConfirmed": false
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "arlington-cz3a",
+      "ruleType": "climate-zone-envelope",
+      "area": "envelope",
+      "change": "Apply 2021 IECC Climate Zone 3A envelope tables.",
+      "priority": "must",
+      "params": {
+        "climateZone": "3A"
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "arlington-masonry",
+      "ruleType": "masonry-percentage",
+      "area": "envelope",
+      "change": "Do not apply a city masonry percentage (Gov't Code ch. 3000); prompt for HOA, deed or historic-district requirements.",
+      "priority": "should",
+      "params": {
+        "masonryPct": 0,
+        "checkHistoricOrPD": true
+      },
+      "source": {
+        "id": "tx-hb2439-fw-memo",
+        "title": "HB 2439 (2019) staff summary - Fort Worth Development Services (Gov't Code ch. 3000 building-materials preemption)",
+        "url": "https://www.fortworthtexas.gov/files/assets/public/v/1/development-services/documents/housebill-2439.pdf",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "arlington-nctcog",
+      "ruleType": "plumbing-code-variant",
+      "area": "drawings",
+      "change": "Assume the NCTCOG regional amendments to the 2021 IRC and IECC (Chapter 11 deleted and replaced by the IECC; carport exception) until the city ordinance is confirmed.",
+      "priority": "nice",
+      "params": {
+        "regionalAmendments": "NCTCOG 2021",
+        "confirmed": false
+      },
+      "source": {
+        "id": "nctcog-2021-irc-amendments",
+        "title": "NCTCOG Recommended Amendments to the 2021 International Residential Code (Approved July 2021)",
+        "url": "https://nctcog.org/getmedia/feafbc55-3c35-4022-bcab-6b07c95c7f9e/2021-IRC-Amendments-Final.pdf",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "arlington-impact-fee-check",
+      "ruleType": "impact-fee-estimate",
+      "area": "estimate",
+      "change": "Arlington is believed to charge water and wastewater impact fees on new homes. Keep an impact-fee line marked TBD instead of $0.",
+      "priority": "should",
+      "params": {
+        "impactFeeUSD": null,
+        "expected": [
+          "water",
+          "wastewater"
+        ]
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    }
+  ],
+  "plainLanguage": "Arlington is a large North Texas city that most likely builds homes under the 2021 International Residential Code with the regional NCTCOG amendments; this has not been confirmed yet. North Texas clay soils swell and shrink, so plan on an engineer-designed post-tensioned slab foundation. Your lot's zoning district and subdivision plat set how far the house must sit from the property lines. We have not verified those numbers for Arlington yet, so enter them from your plat or zoning letter. State law stops the city from requiring a brick or stone percentage on a normal lot, but your HOA or deed restrictions may still require one. Arlington is believed to charge water and wastewater impact fees on new homes. Permit, impact and tap fees still need to be confirmed with the city.",
+  "openQuestions": [
+    "Everything city-specific: IRC adoption ordinance and amendments, typical-district setbacks, height, coverage, ADU, trees, fees, impact fees, floodplain freeboard - research tools were unavailable this session."
+  ],
+  "notFound": [
+    "All city-specific code, zoning and fee values (tools unavailable: WebFetch DNS failure, proxy 403, search budget exhausted)"
+  ],
+  "comparison": {
+    "irc": "2021 IRC (assumed)",
+    "energy": "2021 IECC (assumed)",
+    "plumbing": "IPC 2021 (assumed)",
+    "district": "RS-7.2 Residential Single-Family 7.2 (Arlington Unified Development Code) (assumed)",
+    "setbacks": "unknown",
+    "maxHeight": "unknown",
+    "coverageFar": "unknown",
+    "masonry": "none enforceable (Gov't Code 3000)",
+    "engFoundation": "likely (regional practice)",
+    "windstorm": "no",
+    "flood": "unknown",
+    "permitFeeExample": "unknown",
+    "impactFees": "unknown",
+    "costFactor": "PENDING"
+  }
+}

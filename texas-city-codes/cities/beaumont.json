@@ -1,0 +1,781 @@
+{
+ "id": "beaumont",
+ "name": "City of Beaumont",
+ "state": "TX",
+ "tier": 2,
+ "counties": [
+  "Jefferson"
+ ],
+ "msa": {
+  "name": "Beaumont-Port Arthur, TX",
+  "blsCode": "13140"
+ },
+ "population": {
+  "value": 115282,
+  "status": "Assumed",
+  "source": {
+   "id": "assumed",
+   "title": "Assumed",
+   "url": "",
+   "read": "2026-10-11"
+  },
+  "note": "2020 Census count. Census Vintage 2024 estimate could not be retrieved (search budget exhausted); value is the 2020 decennial count recalled, verify."
+ },
+ "zipCodesOrBoundary": {
+  "value": null,
+  "status": "Assumed",
+  "source": {
+   "id": "assumed",
+   "title": "Assumed",
+   "url": "",
+   "read": "2026-10-11"
+  },
+  "note": "Not found: city-limits map/ZIP list not retrieved."
+ },
+ "climateZone": {
+  "value": "2A",
+  "status": "Assumed",
+  "source": {
+   "id": "assumed",
+   "title": "Assumed",
+   "url": "",
+   "read": "2026-10-11"
+  },
+  "note": "From 2021 IECC Table R301.1 county list (Jefferson County) as recalled; not re-read this run."
+ },
+ "windstormCounty": {
+  "value": true,
+  "status": "Assumed",
+  "source": {
+   "id": "assumed",
+   "title": "Assumed (TDI catalogue county list, recalled)",
+   "url": "",
+   "read": "2026-10-11"
+  },
+  "note": "Jefferson County is a TDI first-tier coastal county (windstorm catalogue area); a TDI WPI-8 certificate is needed for TWIA eligibility."
+ },
+ "codes": {
+  "irc": {
+   "edition": {
+    "value": null,
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "note": "Not found: Beaumont IRC edition not retrieved; TDI windstorm inspection uses TDI-adopted 2018/2021 IRC with Texas Revisions regardless of city adoption."
+   },
+   "ordinance": {
+    "value": null,
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "note": "Not found: adoption ordinance not retrieved."
+   },
+   "amendments": []
+  },
+  "energy": {
+   "edition": {
+    "value": "2015 IRC Chapter 11 (state minimum for single-family); city may adopt newer IECC/IRC energy chapter",
+    "status": "Secondary",
+    "source": {
+     "id": "tx-hsc-388",
+     "title": "Texas Health & Safety Code Ch. 388 (Texas Building Energy Performance Standards)",
+     "url": "https://statutes.capitol.texas.gov/Docs/HS/htm/HS.388.htm",
+     "read": "2026-10-11",
+     "section": "HSC 388.003(a)"
+    },
+    "note": "State floor. City-specific adopted energy edition not confirmed for City of Beaumont; SECO was reviewing the 2024 IRC energy chapter (Texas Register 24 Oct 2025)."
+   },
+   "stretchCode": {
+    "value": false,
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "note": "No local stretch code found; none expected for this city."
+   }
+  },
+  "plumbing": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found: plumbing code (IPC vs UPC) not retrieved; most Texas cities use IPC."
+  },
+  "electrical": {
+   "value": "NEC 2023 (TDLR statewide)",
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "TDLR adopted 2023 NEC eff. 1 Sep 2023 (recalled; not re-searched). City edition not verified."
+  },
+  "mechanical": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found."
+  },
+  "fuelGas": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found."
+  },
+  "fire": {
+   "value": "No one/two-family sprinkler mandate expected",
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found; Texas cities rarely require IRC R313 sprinklers."
+  },
+  "wind": {
+   "value": 140,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "TDI windstorm design wind speeds for Jefferson County (Inland I/II zones) roughly 130-150 mph under current TDI code (ASCE 7-16 based); exact Beaumont zone not verified - check TDI windstorm map.",
+   "unit": "mph"
+  },
+  "hailRoofing": {
+   "value": "Hail exposure moderate-high; no local Class 4 mandate found",
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not researched this run."
+  },
+  "seismic": {
+   "value": "A",
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Texas outside far-west Texas maps to SDC A in 2021 IRC Fig. R301.2(2); not checked against a city-specific table."
+  },
+  "frostDepth": {
+   "value": 0,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Gulf Coast; frost depth negligible (local tables typically list 0-6 in). Not read.",
+   "unit": "in"
+  }
+ },
+ "zoning": {
+  "hasZoning": {
+   "value": true,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "City is known to have a zoning ordinance; not re-verified this run."
+  },
+  "typicalDistrict": {
+   "value": "RS Residential Single-Family Dwelling (assumed)",
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found: Beaumont zoning ordinance (Ch. 28) district table not retrieved; RS district name recalled, unverified."
+  },
+  "minLotSqFt": {
+   "value": 5000,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found in ordinance; regional typical value.",
+   "unit": "sqft"
+  },
+  "minLotWidthFt": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found: min lot width. Web search budget exhausted and page fetch unavailable during this run."
+  },
+  "minLotDepthFt": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found: min lot depth. Web search budget exhausted and page fetch unavailable during this run."
+  },
+  "setbacksFt": {
+   "front": {
+    "value": 25,
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "note": "Not found in ordinance; regional typical value - verify before use.",
+    "unit": "ft"
+   },
+   "side": {
+    "value": 5,
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "note": "Not found in ordinance; regional typical value - verify before use.",
+    "unit": "ft"
+   },
+   "streetSide": {
+    "value": 10,
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "note": "Not found in ordinance; regional typical value - verify before use.",
+    "unit": "ft"
+   },
+   "rear": {
+    "value": 25,
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "note": "Not found in ordinance; regional typical value - verify before use.",
+    "unit": "ft"
+   }
+  },
+  "maxHeightFt": {
+   "value": 35,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found; typical SF limit.",
+   "unit": "ft"
+  },
+  "maxStories": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found."
+  },
+  "maxLotCoverage": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found."
+  },
+  "imperviousCover": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found."
+  },
+  "far": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found; Texas SF districts rarely use FAR."
+  },
+  "parking": {
+   "value": "2 off-street spaces per dwelling (typical)",
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found."
+  },
+  "garageRules": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found."
+  },
+  "adu": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found."
+  },
+  "masonry": {
+   "value": "No enforceable masonry % for new homes: Gov't Code 3000.002 bars local rules stricter than a national model code on building products/aesthetics (limited exceptions, e.g. historic districts; amended 2025 by SB 783, text not verified)",
+   "status": "Secondary",
+   "source": {
+    "id": "tx-gov-3000",
+    "title": "Texas Government Code Ch. 3000 (building products, materials, methods; HB 2439, 2019)",
+    "url": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.3000.htm",
+    "read": "2026-10-11",
+    "section": "3000.002"
+   },
+   "note": "Statute snippet read via search results; PD/deed restrictions (private HOA covenants) may still require brick."
+  },
+  "trees": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found."
+  },
+  "minDwellingSizeSqFt": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found."
+  },
+  "other": []
+ },
+ "process": {
+  "steps": [
+   {
+    "value": "Building permit application with plans and site plan to city Building Inspection; plan review; inspections; certificate of occupancy",
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "note": "Generic Texas municipal process; city specifics not read."
+   }
+  ],
+  "sealsRequired": [
+   {
+    "value": "Engineered foundation customary on expansive clay",
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "note": "Regional practice, not a confirmed city amendment."
+   }
+  ],
+  "inspections": [
+   {
+    "value": "Foundation, framing/rough MEP, insulation, final",
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "note": "Generic IRC sequence."
+   }
+  ],
+  "reviewDays": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found."
+  }
+ },
+ "fees": {
+  "permitFormula": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found: city fee schedule not retrieved."
+  },
+  "workedExample2400sqft": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not computed: fee formula not found. If by valuation, use 2,400 sq ft x ICC BVD R-3 VB (~$170-190/sq ft) + 440 sq ft x BVD U rate against the city's table."
+  },
+  "planReview": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found."
+  },
+  "impactFees": [
+   {
+    "value": "No impact fees found (assumed none)",
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "note": "Not found; verify."
+   }
+  ],
+  "tapFees": [
+   {
+    "value": null,
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "note": "Not found."
+   }
+  ]
+ },
+ "cost": {
+  "factor": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "cost-method",
+    "title": "See README cost method (filled by cost agent)",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "PENDING_COST_AGENT"
+  },
+  "method": "PENDING_COST_AGENT",
+  "perSqFtMarket": {
+   "value": null,
+   "status": "Assumed",
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   },
+   "note": "Not found: no public per-sq-ft market figure retrieved this run."
+  },
+  "drivers": [
+   {
+    "value": "Expansive clay soils -> engineered slab",
+    "status": "Assumed",
+    "source": {
+     "id": "assumed",
+     "title": "Assumed",
+     "url": "",
+     "read": "2026-10-11"
+    },
+    "note": "Regional soils."
+   }
+  ]
+ },
+ "flood": {
+  "value": "Large SFHA areas (Neches River, coastal plain, Harvey/Imelda flooding); NFIP community; freeboard not verified - assume lowest floor at least 1 ft above BFE",
+  "status": "Assumed",
+  "source": {
+   "id": "assumed",
+   "title": "Assumed",
+   "url": "",
+   "read": "2026-10-11"
+  },
+  "note": "Not found: Beaumont flood damage prevention ordinance freeboard. Many SE Texas jurisdictions now require 1-2 ft freeboard."
+ },
+ "engineChanges": [
+  {
+   "id": "beaumont-setbacks",
+   "ruleType": "setback-by-district",
+   "area": "setbacks",
+   "change": "Default RS Residential Single-Family Dwelling (assumed): front 25, side 5, street side 10, rear 25 ft - ASSUMED, require user to confirm from plat/zoning letter",
+   "priority": "should",
+   "params": {
+    "district": "RS Residential Single-Family Dwelling (assumed)",
+    "frontFt": 25,
+    "sideFt": 5,
+    "streetSideFt": 10,
+    "rearFt": 25,
+    "assumed": true,
+    "requireUserConfirm": true
+   },
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   }
+  },
+  {
+   "id": "beaumont-plat-lines",
+   "ruleType": "building-line-plat",
+   "area": "survey",
+   "change": "Read platted building lines from the recorded plat; they override district defaults when larger",
+   "priority": "must",
+   "params": {
+    "usePlatBuildingLine": true
+   },
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   }
+  },
+  {
+   "id": "beaumont-eng-fdn",
+   "ruleType": "engineered-foundation-flag",
+   "area": "foundation",
+   "change": "Flag engineer-designed slab for expansive clay",
+   "priority": "should",
+   "params": {
+    "engineeredFoundation": true,
+    "assumed": true
+   },
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   }
+  },
+  {
+   "id": "beaumont-energy-cz",
+   "ruleType": "climate-zone-envelope",
+   "area": "envelope",
+   "change": "Use climate zone 2A envelope tables; state floor is 2015 IRC Ch. 11 (ERI option under HSC 388.003)",
+   "priority": "must",
+   "params": {
+    "climateZone": "2A",
+    "energyBase": "2015 IRC Ch.11 (state floor)",
+    "eriMaxCZ2_3": 59
+   },
+   "source": {
+    "id": "tx-hsc-388",
+    "title": "Texas Health & Safety Code Ch. 388 (Texas Building Energy Performance Standards)",
+    "url": "https://statutes.capitol.texas.gov/Docs/HS/htm/HS.388.htm",
+    "read": "2026-10-11",
+    "section": "388.003"
+   }
+  },
+  {
+   "id": "beaumont-masonry-none",
+   "ruleType": "masonry-percentage",
+   "area": "envelope",
+   "change": "Do not apply any city-mandated masonry %; only flag HOA/deed restriction check",
+   "priority": "should",
+   "params": {
+    "masonryPctMin": 0,
+    "checkDeedRestrictions": true
+   },
+   "source": {
+    "id": "tx-gov-3000",
+    "title": "Texas Government Code Ch. 3000 (building products, materials, methods; HB 2439, 2019)",
+    "url": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.3000.htm",
+    "read": "2026-10-11",
+    "section": "3000.002"
+   }
+  },
+  {
+   "id": "beaumont-windstorm",
+   "ruleType": "windstorm-package",
+   "area": "structure",
+   "change": "Apply TDI windstorm package: TDI-appointed engineer or TDI inspections, WPI-8 certificate, design to TDI wind zone (Inland I/II ~130-150 mph), impact-rated openings or shutters where required, continuous load path",
+   "priority": "must",
+   "params": {
+    "tdiCounty": "Jefferson",
+    "certificate": "WPI-8",
+    "designWindMphRange": [
+     130,
+     150
+    ],
+    "verifyZone": true
+   },
+   "source": {
+    "id": "assumed",
+    "title": "Assumed (TDI windstorm program, recalled)",
+    "url": "",
+    "read": "2026-10-11"
+   }
+  },
+  {
+   "id": "beaumont-flood",
+   "ruleType": "flood-elevation",
+   "area": "foundation",
+   "change": "Require FEMA flood zone/BFE input; if in SFHA set lowest floor >= BFE + 1 ft (assumed) and elevation certificate",
+   "priority": "must",
+   "params": {
+    "freeboardFt": 1,
+    "assumed": true,
+    "elevationCertificate": true
+   },
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   }
+  },
+  {
+   "id": "beaumont-sealed",
+   "ruleType": "sealed-drawings-required",
+   "area": "drawings",
+   "change": "Flag engineer-sealed wind design / TDI engineer involvement",
+   "priority": "should",
+   "params": {
+    "sealedWind": true
+   },
+   "source": {
+    "id": "assumed",
+    "title": "Assumed",
+    "url": "",
+    "read": "2026-10-11"
+   }
+  }
+ ],
+ "plainLanguage": "Beaumont is in Jefferson County, one of the Texas coastal counties where the state windstorm program (TDI) applies. To get windstorm insurance (TWIA), the house must be built and inspected to TDI windstorm rules and receive a WPI-8 certificate, which adds engineering and cost. Much of Beaumont is in mapped flood zones; if yours is, the floor must be built above the flood level. Beaumont is Climate Zone 2A (hot-humid). We could not confirm the city's code edition or zoning setbacks in this pass, so the engine uses typical values and asks you to confirm them. The city cannot require brick.",
+ "openQuestions": [
+  "Confirm adopted IRC edition and local amendments from the city code/adoption ordinance.",
+  "Confirm typical district and setbacks from the zoning ordinance table.",
+  "Permit fee schedule and impact/tap fees.",
+  "Beaumont TDI wind zone (Inland I vs II) and design speed.",
+  "Beaumont freeboard rule."
+ ],
+ "notFound": [
+  "Most city-specific values: research stopped because the shared web-search budget was exhausted and page fetching failed (DNS) on 2026-10-11."
+ ],
+ "comparison": {
+  "irc": "unknown",
+  "energy": "state floor 2015 IRC Ch.11 (city edition unknown)",
+  "plumbing": "unknown",
+  "district": "RS Residential Single-Family Dwelling (assumed) (assumed)",
+  "setbacks": "25/5/25 (assumed)",
+  "maxHeight": "35 ft (assumed)",
+  "coverageFar": "unknown",
+  "masonry": "none (state preemption)",
+  "engFoundation": "assumed yes",
+  "windstorm": "yes (TDI)",
+  "flood": "Large SFHA areas (Neches River, coastal plain, Harvey/Imelda flooding); NFIP community; freeboard not verified - assume lowest floor at least 1 ft above BFE",
+  "permitFeeExample": "not found",
+  "impactFees": "No impact fees found (assumed none)",
+  "costFactor": "PENDING"
+ }
+}

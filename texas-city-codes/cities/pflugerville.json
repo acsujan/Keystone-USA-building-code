@@ -1,0 +1,978 @@
+{
+  "id": "pflugerville",
+  "name": "City of Pflugerville",
+  "state": "TX",
+  "tier": 2,
+  "counties": [
+    "Travis",
+    "Williamson"
+  ],
+  "msa": {
+    "name": "Austin-Round Rock-San Marcos, TX",
+    "blsCode": "12420"
+  },
+  "population": {
+    "value": 70000,
+    "status": "Assumed",
+    "source": {
+      "id": "pflugerville-assumed",
+      "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Approximate (~70k) Census Vintage 2024-era estimate from researcher memory; verify on Census QuickFacts."
+  },
+  "zipCodesOrBoundary": {
+    "value": "78660, 78691 (partly also 78664 / 78653 near edges)",
+    "status": "Assumed",
+    "source": {
+      "id": "pflugerville-assumed",
+      "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "From general knowledge; use city GIS city-limits map for exact boundary."
+  },
+  "climateZone": {
+    "value": "2A",
+    "status": "Assumed",
+    "source": {
+      "id": "pflugerville-assumed",
+      "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "2021 IECC Table R301.1 county list places this county in Climate Zone 2A (hot-humid) per researcher knowledge; table not re-read this session."
+  },
+  "windstormCounty": {
+    "value": false,
+    "status": "Assumed",
+    "source": {
+      "id": "pflugerville-assumed",
+      "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Not one of the 14 TDI first-tier coastal catalogue counties (inland Central Texas); TDI windstorm inspection program does not apply."
+  },
+  "codes": {
+    "irc": {
+      "edition": {
+        "value": "2021 IRC with local amendments + Appendices H and J",
+        "status": "Secondary",
+        "source": {
+          "id": "pflugerville-ecode-construction-code",
+          "title": "City of Pflugerville Code of Ordinances - building/construction code chapter (eCode360)",
+          "url": "https://ecode360.com/39355343",
+          "read": "2026-10-11"
+        },
+        "note": "Read via search-engine excerpt of the primary page only (direct fetch blocked); code chapter lists the 2021 IRC with local amendments and appendices H and J as part of the city construction code."
+      },
+      "ordinance": {
+        "value": "Ord. 1544-22-03-22 (passed 2022-03-22) is the latest amendment in the chapter history",
+        "status": "Secondary",
+        "source": {
+          "id": "pflugerville-ecode-construction-code",
+          "title": "City of Pflugerville Code of Ordinances - building/construction code chapter (eCode360)",
+          "url": "https://ecode360.com/39355343",
+          "read": "2026-10-11"
+        },
+        "note": "Read via search-engine excerpt of the primary page only (direct fetch blocked); history lists Ord. 295-89-01-10, 1064-10-12-14, 1544-22-03-22; not confirmed that 1544 is the 2021-code adoption ordinance."
+      },
+      "amendments": [
+        {
+          "topic": "other",
+          "summary": "Appendix H (patio covers) and Appendix J (existing buildings) adopted with the 2021 IRC.",
+          "section": "IRC Appendices H, J",
+          "status": "Secondary",
+          "source": {
+            "id": "pflugerville-ecode-construction-code",
+            "title": "City of Pflugerville Code of Ordinances - building/construction code chapter (eCode360)",
+            "url": "https://ecode360.com/39355343",
+            "read": "2026-10-11"
+          }
+        },
+        {
+          "topic": "other",
+          "summary": "Text of other local IRC amendments (foundation, garage separation, etc.) not readable this session.",
+          "section": "",
+          "status": "Assumed",
+          "source": {
+            "id": "pflugerville-assumed",
+            "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+            "url": "",
+            "read": "2026-10-11"
+          }
+        }
+      ]
+    },
+    "energy": {
+      "edition": {
+        "value": "2021 IECC / IRC Ch. 11 (unverified)",
+        "status": "Assumed",
+        "source": {
+          "id": "pflugerville-assumed",
+          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Assumed to follow the 2021 IRC adoption; energy chapter amendments not read. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      },
+      "stretchCode": {
+        "value": "none known",
+        "status": "Assumed",
+        "source": {
+          "id": "pflugerville-assumed",
+          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "No municipal stretch code known"
+      }
+    },
+    "plumbing": {
+      "value": "IPC 2021 (unverified)",
+      "status": "Assumed",
+      "source": {
+        "id": "pflugerville-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+    },
+    "electrical": {
+      "value": "NEC 2020 or 2023 (unverified)",
+      "status": "Assumed",
+      "source": {
+        "id": "pflugerville-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+    },
+    "mechanical": {
+      "value": "IMC 2021 (unverified)",
+      "status": "Assumed",
+      "source": {
+        "id": "pflugerville-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Assumed same cycle"
+    },
+    "fuelGas": {
+      "value": "IFGC 2021 (unverified)",
+      "status": "Assumed",
+      "source": {
+        "id": "pflugerville-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Assumed same cycle"
+    },
+    "fire": {
+      "value": "IFC 2021 (unverified); no one/two-family sprinkler mandate known",
+      "status": "Assumed",
+      "source": {
+        "id": "pflugerville-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Fire service partly by Travis County ESD 2. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+    },
+    "wind": {
+      "value": 108,
+      "status": "Assumed",
+      "source": {
+        "id": "pflugerville-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "mph",
+      "note": "Approx. ASCE 7-16 Risk Cat II ultimate design wind speed for inland Central Texas is about 105-110 mph (IRC 2021 Fig. R301.2(2)); site value must come from ASCE hazard tool. Not a locally published value."
+    },
+    "hailRoofing": {
+      "value": "No local hail-roof mandate found; Central Texas is a high-hail region - Class 4 (UL 2218) impact-resistant shingles recommended for insurance discounts",
+      "status": "Assumed",
+      "source": {
+        "id": "pflugerville-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Insurance-driven, not code. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+    },
+    "seismic": {
+      "value": "SDC A",
+      "status": "Assumed",
+      "source": {
+        "id": "pflugerville-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Central Texas is Seismic Design Category A on IRC 2021 Fig. R301.2(7); no seismic detailing required."
+    },
+    "frostDepth": {
+      "value": 6,
+      "status": "Assumed",
+      "source": {
+        "id": "pflugerville-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "in",
+      "note": "Typical Central Texas local IRC Table R301.2(1) frost depth is 6 in or less (often 'NA'/6 in); local table not read."
+    }
+  },
+  "zoning": {
+    "hasZoning": {
+      "value": true,
+      "status": "Secondary",
+      "source": {
+        "id": "pflugerville-ecode-ch157-udc",
+        "title": "Chapter 157: Unified Development Code - City of Pflugerville, TX (eCode360)",
+        "url": "https://ecode360.com/39362841",
+        "read": "2026-10-11"
+      },
+      "note": "Read via search-engine excerpt of the primary page only (direct fetch blocked); UDC adopted by Ord. 1203-15-02-24 (2015-02-24), as amended."
+    },
+    "typicalDistrict": {
+      "value": "SF-S (Single-Family Suburban)",
+      "status": "Secondary",
+      "source": {
+        "id": "pflugerville-zoneomics-ch2",
+        "title": "Pflugerville, TX Zoning Ordinance (Zoneomics mirror of UDC Subchapter 4)",
+        "url": "https://www.zoneomics.com/code/pflugerville-TX/chapter_2",
+        "read": "2026-10-11",
+        "section": "Table 4.2.4"
+      },
+      "note": "Residential districts: A, SF-E, SF-S, SF-R, SF-MU, 2-F, MF-10, MF-20, MH. SF-S chosen as common detached district; SF-R and SF-MU (small lot) also common."
+    },
+    "minLotSqFt": {
+      "value": 9000,
+      "status": "Secondary",
+      "source": {
+        "id": "pflugerville-zoneomics-ch2",
+        "title": "Pflugerville, TX Zoning Ordinance (Zoneomics mirror of UDC Subchapter 4)",
+        "url": "https://www.zoneomics.com/code/pflugerville-TX/chapter_2",
+        "read": "2026-10-11",
+        "section": "Table 4.2.4"
+      },
+      "unit": "sqft",
+      "note": "Zoneomics mirror of UDC table, SF-S single-family detached. Third-party copy; may predate 2024 UDC amendments."
+    },
+    "minLotWidthFt": {
+      "value": 70,
+      "status": "Secondary",
+      "source": {
+        "id": "pflugerville-zoneomics-ch2",
+        "title": "Pflugerville, TX Zoning Ordinance (Zoneomics mirror of UDC Subchapter 4)",
+        "url": "https://www.zoneomics.com/code/pflugerville-TX/chapter_2",
+        "read": "2026-10-11",
+        "section": "Table 4.2.4"
+      },
+      "unit": "ft",
+      "note": "Measured at front setback; corner lots +10 ft."
+    },
+    "minLotDepthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "pflugerville-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: SF-S minimum lot depth. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+    },
+    "setbacksFt": {
+      "front": {
+        "value": 25,
+        "status": "Secondary",
+        "source": {
+          "id": "pflugerville-zoneomics-ch2",
+          "title": "Pflugerville, TX Zoning Ordinance (Zoneomics mirror of UDC Subchapter 4)",
+          "url": "https://www.zoneomics.com/code/pflugerville-TX/chapter_2",
+          "read": "2026-10-11",
+          "section": "Table 4.2.4"
+        },
+        "unit": "ft",
+        "note": "Minimum front street setback 25 ft (SF-S). A 25 ft front column also appears in the official encodeplus Subchapter 4 export."
+      },
+      "side": {
+        "value": 7.5,
+        "status": "Secondary",
+        "source": {
+          "id": "pflugerville-zoneomics-ch2",
+          "title": "Pflugerville, TX Zoning Ordinance (Zoneomics mirror of UDC Subchapter 4)",
+          "url": "https://www.zoneomics.com/code/pflugerville-TX/chapter_2",
+          "read": "2026-10-11",
+          "section": "Table 4.2.4"
+        },
+        "unit": "ft",
+        "note": "Interior side 7.5 ft (SF-S)."
+      },
+      "streetSide": {
+        "value": 15,
+        "status": "Assumed",
+        "source": {
+          "id": "pflugerville-assumed",
+          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Not found; 15 ft street side is a common Pflugerville-area value (15 ft front for most other districts in UDC table). Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      },
+      "rear": {
+        "value": 20,
+        "status": "Assumed",
+        "source": {
+          "id": "pflugerville-assumed",
+          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Not found for SF-S; 20 ft typical Central Texas suburban rear setback. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      }
+    },
+    "maxHeightFt": {
+      "value": 35,
+      "status": "Secondary",
+      "source": {
+        "id": "pflugerville-zoneomics-ch2",
+        "title": "Pflugerville, TX Zoning Ordinance (Zoneomics mirror of UDC Subchapter 4)",
+        "url": "https://www.zoneomics.com/code/pflugerville-TX/chapter_2",
+        "read": "2026-10-11",
+        "section": "Table 4.2.4"
+      },
+      "unit": "ft",
+      "note": "Table 4.2.4 C lists 35 ft max principal building height for residential columns incl. SF-R; SF-S assumed same."
+    },
+    "maxStories": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "pflugerville-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found; height in feet governs."
+    },
+    "maxLotCoverage": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "pflugerville-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: SF-S maximum lot coverage. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+    },
+    "imperviousCover": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "pflugerville-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: SF-S impervious cover cap. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+    },
+    "far": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "pflugerville-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No FAR for single-family found/expected."
+    },
+    "parking": {
+      "value": "2 spaces per dwelling (typically enclosed garage)",
+      "status": "Assumed",
+      "source": {
+        "id": "pflugerville-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Typical Central Texas UDC requirement; not read. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+    },
+    "garageRules": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "pflugerville-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: front-loaded garage setback/articulation rules. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+    },
+    "adu": {
+      "value": "ADU allowed on SF lots (third-party summary: max 24 ft height, 5 ft side, 7 ft rear)",
+      "status": "Secondary",
+      "source": {
+        "id": "pflugerville-buildwithaplan-adu",
+        "title": "Pflugerville, TX ADU Guide 2026: Permits, Costs & Rules",
+        "url": "https://www.buildwithaplan.com/adu-design/texas/pflugerville",
+        "read": "2026-10-11"
+      },
+      "note": "Trade website summary, not the ordinance; verify."
+    },
+    "masonry": {
+      "value": "No enforceable masonry % on new single-family (state preemption)",
+      "status": "Assumed",
+      "source": {
+        "id": "pflugerville-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Texas Gov't Code Ch. 3000 (HB 2439, 2019) bars cities from mandating building materials beyond the model code; any UDC masonry % is generally unenforceable except in some historic/PDD contexts."
+    },
+    "trees": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "pflugerville-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: tree preservation / protected tree size and mitigation for single-family lots. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+    },
+    "other": [
+      {
+        "value": "UDC amended 2024 (Ord. second reading April 2024) to favour mixed-use/higher density; planning director said existing single-family properties not affected.",
+        "status": "Secondary",
+        "source": {
+          "id": "pflugerville-ci-udc-2024",
+          "title": "Pflugerville council advances overhaul to development standards (Community Impact, 2024-03-27)",
+          "url": "https://communityimpact.com/austin/pflugerville-hutto/development/2024/03/27/pflugerville-council-advances-overhaul-to-development-standards/",
+          "read": "2026-10-11"
+        }
+      },
+      {
+        "value": "Comprehensive UDC rewrite (draft for public review) underway - values may change.",
+        "status": "Secondary",
+        "source": {
+          "id": "pflugerville-udc-update-fni",
+          "title": "Pflugerville UDC Update - project page (FNI / Social Pinpoint)",
+          "url": "https://fni.mysocialpinpoint.com/pflugerville-udc",
+          "read": "2026-10-11"
+        }
+      }
+    ]
+  },
+  "process": {
+    "steps": [
+      {
+        "value": "Confirm zoning district and recorded plat building lines / HOA deed restrictions",
+        "status": "Assumed",
+        "source": {
+          "id": "pflugerville-assumed",
+          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Standard Texas suburban practice"
+      },
+      {
+        "value": "Submit residential building permit (site plan, floor plans, elevations, foundation design, energy compliance report) through the city's online permit portal",
+        "status": "Assumed",
+        "source": {
+          "id": "pflugerville-assumed",
+          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Typical Central Texas submittal; city checklist not read. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      },
+      {
+        "value": "Pay permit, plan review and impact/tap fees at issuance",
+        "status": "Assumed",
+        "source": {
+          "id": "pflugerville-assumed",
+          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Texas LGC Ch. 395 impact fees typically collected at building permit"
+      },
+      {
+        "value": "Inspections, then Certificate of Occupancy",
+        "status": "Assumed",
+        "source": {
+          "id": "pflugerville-assumed",
+          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Standard"
+      }
+    ],
+    "sealsRequired": [
+      {
+        "value": "Foundation design sealed by a Texas-licensed professional engineer (expansive clay soils)",
+        "status": "Assumed",
+        "source": {
+          "id": "pflugerville-assumed",
+          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Near-universal practice/requirement in Central Texas for slab-on-grade on expansive soils; city rule not read."
+      }
+    ],
+    "inspections": [
+      {
+        "value": "Plumbing rough / under-slab",
+        "status": "Assumed",
+        "source": {
+          "id": "pflugerville-assumed",
+          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Typical IRC inspection sequence"
+      },
+      {
+        "value": "Foundation (pre-pour, form survey)",
+        "status": "Assumed",
+        "source": {
+          "id": "pflugerville-assumed",
+          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Typical IRC inspection sequence"
+      },
+      {
+        "value": "Framing + MEP rough",
+        "status": "Assumed",
+        "source": {
+          "id": "pflugerville-assumed",
+          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Typical IRC inspection sequence"
+      },
+      {
+        "value": "Insulation / energy",
+        "status": "Assumed",
+        "source": {
+          "id": "pflugerville-assumed",
+          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Typical IRC inspection sequence"
+      },
+      {
+        "value": "Final + CO",
+        "status": "Assumed",
+        "source": {
+          "id": "pflugerville-assumed",
+          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Typical IRC inspection sequence"
+      }
+    ],
+    "reviewDays": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "pflugerville-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: published residential plan review turnaround. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+    }
+  },
+  "fees": {
+    "permitFormula": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "pflugerville-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: city building permit fee schedule (fee ordinance / development services fee page). Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+    },
+    "workedExample2400sqft": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "pflugerville-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "USD",
+      "note": "Not computed: fee formula not found. Assumption for later: 2,400 sq ft conditioned two-storey + 440 sq ft attached garage. If valuation-based, use ICC BVD R-3 VB (~$170-190/sqft) x 2,400 + U rate x 440. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+    },
+    "planReview": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "pflugerville-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: residential plan review fee. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+    },
+    "impactFees": [
+      {
+        "value": "Water & wastewater impact fees assessed and collected at building permit issuance (inside city limits)",
+        "status": "Secondary",
+        "source": {
+          "id": "pflugerville-ecode-impact-fees",
+          "title": "Water and Wastewater Impact Fees - City of Pflugerville, TX (eCode360)",
+          "url": "https://ecode360.com/39355623",
+          "read": "2026-10-11"
+        },
+        "note": "Read via search-engine excerpt of the primary page only (direct fetch blocked); impact fee article; fees are per service unit."
+      },
+      {
+        "value": {
+          "waterPerSU": 14713,
+          "wastewaterSA1PerSU": 1316,
+          "wastewaterSA2PerSU": 15136
+        },
+        "status": "Secondary",
+        "source": {
+          "id": "pflugerville-zonefee",
+          "title": "Pflugerville, TX Development Fees (ZoneFee)",
+          "url": "https://zonefee.com/states/texas/pflugerville/",
+          "read": "2026-10-11"
+        },
+        "unit": "USD/service unit",
+        "note": "Third-party summary citing Ord. 1577-23-01-10 (effective 2023-01-10); figures appear to be MAX ALLOWABLE, actual collected rate may be lower and fees were reviewed again in 2025. Treat as upper bound; confirm with city."
+      },
+      {
+        "value": "Reference ordinance for current impact fees: Ord. 1577-23-01-10",
+        "status": "Secondary",
+        "source": {
+          "id": "pflugerville-impact-fees-2023",
+          "title": "Impact Fees Effective January 10, 2023 - Reference Ordinance No. 1577-23-01-10",
+          "url": "https://content.civicplus.com/api/assets/714b73f6-9e74-41c6-a7bd-42b0b4684b6e?cache=1800",
+          "read": "2026-10-11"
+        },
+        "note": "City PDF title seen in search results; contents not read."
+      }
+    ],
+    "tapFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "pflugerville-assumed",
+          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: water and sewer tap/meter fees. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+      }
+    ]
+  },
+  "cost": {
+    "factor": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "cost-method",
+        "title": "See README cost method (filled by cost agent)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "PENDING_COST_AGENT"
+    },
+    "method": "PENDING_COST_AGENT",
+    "perSqFtMarket": {
+      "value": "150-200",
+      "status": "Assumed",
+      "source": {
+        "id": "pflugerville-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "USD/sqft",
+      "note": "Researcher estimate of typical production/semi-custom new-home build cost (excluding land) in the Austin/Central Texas market, 2025-2026. Market figure, not a quote; no public source re-read this session (Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document.)"
+    },
+    "drivers": [
+      {
+        "value": "Expansive Blackland Prairie clay - engineered post-tensioned slab, possible deeper beams/moisture control",
+        "status": "Assumed",
+        "source": {
+          "id": "pflugerville-assumed",
+          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Researcher judgement"
+      },
+      {
+        "value": "Water/wastewater impact fees potentially $5k-$15k+ per home depending on service area",
+        "status": "Assumed",
+        "source": {
+          "id": "pflugerville-assumed",
+          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Researcher judgement"
+      },
+      {
+        "value": "Austin-metro labour market",
+        "status": "Assumed",
+        "source": {
+          "id": "pflugerville-assumed",
+          "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Researcher judgement"
+      }
+    ]
+  },
+  "flood": {
+    "value": "City floodplain ordinance (NFIP participant); freeboard not confirmed - assume lowest floor >= 1 ft above BFE",
+    "status": "Assumed",
+    "source": {
+      "id": "pflugerville-assumed",
+      "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Not found. 1 ft freeboard is the Central Texas norm; check FEMA FIRM for Gilleland/Wilbarger Creek lots. Research limits on 2026-10-11: direct page fetches were blocked by the network proxy and the shared web-search budget ran out, so this value was not checked against a primary document."
+  },
+  "engineChanges": [
+    {
+      "id": "pflugerville-setbacks-sfs",
+      "ruleType": "setback-by-district",
+      "area": "setbacks",
+      "change": "SF-S: front 25 ft, interior side 7.5 ft; rear assume 20 ft and street side 15 ft until verified",
+      "priority": "must",
+      "params": {
+        "district": "SF-S",
+        "frontFt": 25,
+        "sideFt": 7.5,
+        "rearFt": 20,
+        "streetSideFt": 15,
+        "rearAssumed": true,
+        "streetSideAssumed": true
+      },
+      "source": {
+        "id": "pflugerville-zoneomics-ch2",
+        "title": "Pflugerville, TX Zoning Ordinance (Zoneomics mirror of UDC Subchapter 4)",
+        "url": "https://www.zoneomics.com/code/pflugerville-TX/chapter_2",
+        "read": "2026-10-11",
+        "section": "Table 4.2.4"
+      }
+    },
+    {
+      "id": "pflugerville-lot-min",
+      "ruleType": "lot-min-size",
+      "area": "survey",
+      "change": "Warn if SF-S lot < 9,000 sq ft or < 70 ft wide (80 ft corner)",
+      "priority": "should",
+      "params": {
+        "district": "SF-S",
+        "minLotSqFt": 9000,
+        "minWidthFt": 70,
+        "cornerExtraWidthFt": 10
+      },
+      "source": {
+        "id": "pflugerville-zoneomics-ch2",
+        "title": "Pflugerville, TX Zoning Ordinance (Zoneomics mirror of UDC Subchapter 4)",
+        "url": "https://www.zoneomics.com/code/pflugerville-TX/chapter_2",
+        "read": "2026-10-11",
+        "section": "Table 4.2.4"
+      }
+    },
+    {
+      "id": "pflugerville-height",
+      "ruleType": "height-limit",
+      "area": "massing",
+      "change": "Cap principal building height at 35 ft",
+      "priority": "must",
+      "params": {
+        "maxHeightFt": 35
+      },
+      "source": {
+        "id": "pflugerville-zoneomics-ch2",
+        "title": "Pflugerville, TX Zoning Ordinance (Zoneomics mirror of UDC Subchapter 4)",
+        "url": "https://www.zoneomics.com/code/pflugerville-TX/chapter_2",
+        "read": "2026-10-11",
+        "section": "Table 4.2.4"
+      }
+    },
+    {
+      "id": "pflugerville-district-input",
+      "ruleType": "survey-input-district",
+      "area": "survey",
+      "change": "Ask user for district (SF-E/SF-S/SF-R/SF-MU/PUD); many new homes are in PUDs with their own setbacks",
+      "priority": "should",
+      "params": {
+        "districts": [
+          "SF-E",
+          "SF-S",
+          "SF-R",
+          "SF-MU",
+          "PUD"
+        ]
+      },
+      "source": {
+        "id": "pflugerville-zoneomics-ch2",
+        "title": "Pflugerville, TX Zoning Ordinance (Zoneomics mirror of UDC Subchapter 4)",
+        "url": "https://www.zoneomics.com/code/pflugerville-TX/chapter_2",
+        "read": "2026-10-11",
+        "section": "Table 4.2.4"
+      }
+    },
+    {
+      "id": "pflugerville-eng-foundation",
+      "ruleType": "engineered-foundation-flag",
+      "area": "foundation",
+      "change": "Flag PE-sealed post-tensioned slab for expansive clay",
+      "priority": "must",
+      "params": {
+        "engineeredFoundation": true,
+        "soil": "expansive clay"
+      },
+      "source": {
+        "id": "pflugerville-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "pflugerville-impact-fee",
+      "ruleType": "impact-fee-estimate",
+      "area": "estimate",
+      "change": "Add water+wastewater impact fee line; use max-allowable per-SU values as upper bound until actual rate confirmed",
+      "priority": "should",
+      "params": {
+        "waterPerSUMax": 14713,
+        "wastewaterPerSUMaxSA1": 1316,
+        "wastewaterPerSUMaxSA2": 15136,
+        "upperBound": true
+      },
+      "source": {
+        "id": "pflugerville-zonefee",
+        "title": "Pflugerville, TX Development Fees (ZoneFee)",
+        "url": "https://zonefee.com/states/texas/pflugerville/",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "pflugerville-irc-appx",
+      "ruleType": "egress-stairs-variant",
+      "area": "plan",
+      "change": "Use 2021 IRC; Appendix H patio-cover rules apply to covered patios",
+      "priority": "nice",
+      "params": {
+        "irc": "2021",
+        "appendices": [
+          "H",
+          "J"
+        ]
+      },
+      "source": {
+        "id": "pflugerville-ecode-construction-code",
+        "title": "City of Pflugerville Code of Ordinances - building/construction code chapter (eCode360)",
+        "url": "https://ecode360.com/39355343",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "pflugerville-climate",
+      "ruleType": "climate-zone-envelope",
+      "area": "envelope",
+      "change": "Climate zone 2A envelope (2021 IECC)",
+      "priority": "must",
+      "params": {
+        "climateZone": "2A"
+      },
+      "source": {
+        "id": "pflugerville-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "pflugerville-flood",
+      "ruleType": "flood-elevation",
+      "area": "survey",
+      "change": "If in SFHA, lowest floor >= BFE + 1 ft (assumed)",
+      "priority": "should",
+      "params": {
+        "freeboardFt": 1,
+        "assumed": true
+      },
+      "source": {
+        "id": "pflugerville-assumed",
+        "title": "Assumed (Assumed - general Texas practice / researcher judgement)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    }
+  ],
+  "plainLanguage": "Pflugerville uses the 2021 International Residential Code with local amendments. A typical single-family lot (SF-S zoning) must be at least 9,000 sq ft and 70 ft wide. Plan for the house to sit at least 25 ft back from the front property line and 7.5 ft from each side. Houses can be up to 35 ft tall. Many newer neighborhoods are PUDs or have HOA rules that can be stricter - check your plat and deed restrictions. The local clay soil swells and shrinks, so expect an engineer-designed slab foundation. Water and wastewater impact fees are charged when the building permit is issued and can be several thousand dollars or more.",
+  "openQuestions": [
+    "SF-S rear and street-side setbacks and lot coverage (UDC Table 4.2.x)",
+    "Actual (collected) impact fee per service unit vs. maximum allowable",
+    "Building permit fee formula",
+    "Full list of local IRC amendments in Ord. 1544-22-03-22",
+    "Effect of the in-progress UDC rewrite on SF districts"
+  ],
+  "notFound": [
+    "Building permit fee schedule (city page 'not found')",
+    "Lot coverage / impervious cover",
+    "Tree ordinance details",
+    "Flood freeboard",
+    "Plan review days"
+  ],
+  "comparison": {
+    "irc": "2021 IRC (+App. H, J)",
+    "energy": "2021 IECC (assumed)",
+    "plumbing": "IPC 2021 (assumed)",
+    "district": "SF-S",
+    "setbacks": "25/7.5/20(assumed)",
+    "maxHeight": "35 ft",
+    "coverageFar": "not found / none",
+    "masonry": "none (state preemption)",
+    "engFoundation": "yes - expansive clay (assumed)",
+    "windstorm": "no",
+    "flood": "1 ft freeboard (assumed)",
+    "permitFeeExample": "not found",
+    "impactFees": "up to ~$14.7k water + $1.3k-$15.1k ww per SU (max allowable)",
+    "costFactor": "PENDING"
+  }
+}
