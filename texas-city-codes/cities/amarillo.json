@@ -58,40 +58,90 @@
   "codes": {
     "irc": {
       "edition": {
-        "value": null,
-        "status": "Assumed",
+        "value": "2021 IRC (excluding Part VIII Electrical; Appendices A-J adopted)",
+        "status": "Secondary",
         "source": {
-          "id": "amarillo-assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "amarillo-residential-code-info",
+          "title": "City of Amarillo - Residential Code Information (2021 IRC with City amendments FAQ)",
+          "url": "https://www.amarillo.gov/building-safety/residential-permits/",
           "read": "2026-10-11"
         },
-        "note": "Not found: adopted IRC edition and adoption ordinance (web search budget exhausted and direct page fetch blocked in research environment)."
+        "note": "City residential page FAQs cover '2021 IRC with City amendments'; roofing page cites 2021 IRC R105.1; Sec. 4-3-31 (city code doc, search extract) adopts 2021 edition excl. Ch. 34-43, incl. App. A-J. Second-checked across 3 city pages. Seen only as a search-result extract; page not opened (fetch blocked in research environment)."
       },
       "ordinance": {
-        "value": null,
-        "status": "Assumed",
+        "value": "Ord. No. 8086 (2021 IRC local amendments); codified Sec. 4-3-31",
+        "status": "Secondary",
         "source": {
-          "id": "amarillo-assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "amarillo-building-safety",
+          "title": "City of Amarillo - Building Safety (adopted codes and local amendment ordinances)",
+          "url": "https://www.amarillo.gov/building-safety/",
           "read": "2026-10-11"
         },
-        "note": "Not found: adoption ordinance (web search budget exhausted and direct page fetch blocked in research environment)."
+        "note": "Building Safety page lists 2021 local amendment ordinances: residential #8086, plumbing #8091, plus building and existing building. Seen only as a search-result extract; page not opened (fetch blocked in research environment)."
       },
-      "amendments": []
+      "amendments": [
+        {
+          "topic": "foundation",
+          "summary": "R403.1.4 amended: footings of any structure over 600 sq ft min 24 in deep.",
+          "section": "R403.1.4",
+          "status": "Secondary",
+          "source": {
+            "id": "amarillo-residential-code-info",
+            "title": "City of Amarillo - Residential Code Information (2021 IRC with City amendments FAQ)",
+            "url": "https://www.amarillo.gov/building-safety/residential-permits/",
+            "read": "2026-10-11"
+          }
+        },
+        {
+          "topic": "other",
+          "summary": "Water service pipe min 12 in deep and 6 in below frost line (P2603.5); underground gas pipe min 18 in cover (404.12).",
+          "section": "P2603.5; IFGC 404.12",
+          "status": "Secondary",
+          "source": {
+            "id": "amarillo-residential-code-info",
+            "title": "City of Amarillo - Residential Code Information (2021 IRC with City amendments FAQ)",
+            "url": "https://www.amarillo.gov/building-safety/residential-permits/",
+            "read": "2026-10-11"
+          }
+        },
+        {
+          "topic": "other",
+          "summary": "Re-roof: existing asphalt shingles must be removed before new roof covering; permit for any roof work over 1 square (100 sf); roofer registration with $20,000 bond.",
+          "section": "R105.1; R908",
+          "status": "Secondary",
+          "source": {
+            "id": "amarillo-roofing-info",
+            "title": "City of Amarillo - Roofing Information",
+            "url": "https://www.amarillo.gov/building-safety/roofing-information/",
+            "read": "2026-10-11"
+          }
+        },
+        {
+          "topic": "other",
+          "summary": "Electrical Part VIII (Ch. 34-43) excluded; electrical per 2023 NEC (state code).",
+          "section": "4-3-31",
+          "status": "Secondary",
+          "source": {
+            "id": "amarillo-code-4-3-31",
+            "title": "City of Amarillo Municipal Code Ch. 4-3 (code document on amarillo.gov), Sec. 4-3-31 Residential Code",
+            "url": "https://amarillo.gov/home/showpublisheddocument/35665/638278703321600000",
+            "read": "2026-10-11",
+            "section": "4-3-31"
+          }
+        }
+      ]
     },
     "energy": {
       "edition": {
-        "value": "IRC Chapter 11 (edition unverified)",
+        "value": "2015 IECC last confirmed; 2021-cycle update not confirmed",
         "status": "Assumed",
         "source": {
-          "id": "amarillo-assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "amarillo-building-safety",
+          "title": "City of Amarillo - Building Safety (adopted codes and local amendment ordinances)",
+          "url": "https://www.amarillo.gov/building-safety/",
           "read": "2026-10-11"
         },
-        "note": "Not verified; Texas statewide minimum for single-family is IRC Chapter 11 (2015 IECC basis per SECO) unless city adopted newer."
+        "note": "Earlier ordinance series (Ord. 7509 era) adopted 2015 IECC; residential FAQ cites IECC 403.5 without edition. Not confirmed whether 2021 IECC was adopted with the 2021 IRC."
       },
       "stretchCode": {
         "value": false,
@@ -102,30 +152,30 @@
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "No stretch code known."
+        "note": "None found."
       }
     },
     "plumbing": {
-      "value": null,
-      "status": "Assumed",
+      "value": "2021 plumbing code with local amendments (Ord. 8091; IPC assumed)",
+      "status": "Secondary",
       "source": {
-        "id": "amarillo-assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "amarillo-building-safety",
+        "title": "City of Amarillo - Building Safety (adopted codes and local amendment ordinances)",
+        "url": "https://www.amarillo.gov/building-safety/",
         "read": "2026-10-11"
       },
-      "note": "Not found: plumbing code edition (web search budget exhausted and direct page fetch blocked in research environment)."
+      "note": "Building Safety page lists 2021 plumbing code local amendments ORD #8091; edition family (IPC vs UPC) not stated in extract - IPC assumed. Seen only as a search-result extract; page not opened (fetch blocked in research environment)."
     },
     "electrical": {
-      "value": null,
-      "status": "Assumed",
+      "value": "NEC 2023",
+      "status": "Secondary",
       "source": {
-        "id": "amarillo-assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "amarillo-building-safety",
+        "title": "City of Amarillo - Building Safety (adopted codes and local amendment ordinances)",
+        "url": "https://www.amarillo.gov/building-safety/",
         "read": "2026-10-11"
       },
-      "note": "Not found: NEC edition (web search budget exhausted and direct page fetch blocked in research environment)."
+      "note": "Building Safety page: 'current state adopted electrical code is 2023 NEC'; July 2025 permit report also references NEC 2023. Seen only as a search-result extract; page not opened (fetch blocked in research environment)."
     },
     "mechanical": {
       "value": null,
@@ -136,7 +186,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: mechanical code (web search budget exhausted and direct page fetch blocked in research environment)."
+      "note": "Not confirmed; 2015 IMC was adopted in earlier cycle; 2021 update unverified."
     },
     "fuelGas": {
       "value": null,
@@ -147,7 +197,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: fuel gas code (web search budget exhausted and direct page fetch blocked in research environment)."
+      "note": "Not confirmed; 2015 IFGC earlier cycle; residential FAQ cites gas piping 404.12."
     },
     "fire": {
       "value": "No residential sprinkler mandate assumed",
@@ -173,15 +223,15 @@
       "note": "Assumed from ASCE 7-16 / IRC 2021 Fig R301.2(2) regional contour for West Texas (about 105-115 mph); verify with ATC hazard tool."
     },
     "hailRoofing": {
-      "value": "No code mandate known; Class 4 recommended",
-      "status": "Assumed",
+      "value": "No Class 4 mandate; full tear-off of existing asphalt shingles required on re-roof; permit for >100 sf",
+      "status": "Secondary",
       "source": {
-        "id": "amarillo-assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "amarillo-roofing-info",
+        "title": "City of Amarillo - Roofing Information",
+        "url": "https://www.amarillo.gov/building-safety/roofing-information/",
         "read": "2026-10-11"
       },
-      "note": "No local Class 4 roofing mandate found/verified. Area has very high hail frequency; Class 4 (UL 2218) shingles are an insurance-discount option, not a code rule as far as known."
+      "note": "Class 4 shingles appear often in permit logs (voluntary). Hail exposure very high. Seen only as a search-result extract; page not opened (fetch blocked in research environment)."
     },
     "seismic": {
       "value": "A",
@@ -196,39 +246,40 @@
     },
     "frostDepth": {
       "value": 24,
-      "status": "Assumed",
+      "status": "Secondary",
       "source": {
-        "id": "amarillo-assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "amarillo-residential-code-info",
+        "title": "City of Amarillo - Residential Code Information (2021 IRC with City amendments FAQ)",
+        "url": "https://www.amarillo.gov/building-safety/residential-permits/",
         "read": "2026-10-11"
       },
       "unit": "in",
-      "note": "Not found; Panhandle frost depth commonly cited 18-24 in; 24 used as conservative engine default."
+      "note": "City residential code page: footings for structures over 600 sf min 24 in (amended R403.1.4). Frost line itself not stated. Seen only as a search-result extract; page not opened (fetch blocked in research environment)."
     }
   },
   "zoning": {
     "hasZoning": {
       "value": true,
-      "status": "Assumed",
+      "status": "Secondary",
       "source": {
-        "id": "amarillo-assumed",
-        "title": "Assumed",
-        "url": "",
-        "read": "2026-10-11"
+        "id": "amarillo-zoning-art-iv-2024",
+        "title": "City of Amarillo Zoning Ordinance Article IV District Regulations (Table 1 Summary of Development Standards)",
+        "url": "https://www.amarillo.gov/wp-content/uploads/2024/09/Zoning-Ordinance-Table-List-COA.pdf",
+        "read": "2026-10-11",
+        "section": "Art. IV, Table 1"
       },
-      "note": "Texas home-rule city with zoning (general knowledge); district standards not retrieved."
+      "note": "Zoning Ordinance Ch. 4-10, Art. IV district regulations with Table 1 Summary of Development Standards."
     },
     "typicalDistrict": {
-      "value": null,
+      "value": "R-2 (Residential District 2); R-1 for larger lots",
       "status": "Assumed",
       "source": {
-        "id": "amarillo-assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "amarillo-cityrulelookup-setbacks",
+        "title": "CityRuleLookup - Building setbacks rules in Amarillo TX (cites Ch. 4-10, Sec. 4-10-82)",
+        "url": "https://cityrulelookup.com/blog/building-setbacks-rules-in-amarillo-tx",
         "read": "2026-10-11"
       },
-      "note": "Not found: typical single-family district (web search budget exhausted and direct page fetch blocked in research environment)."
+      "note": "Single-family districts R-1, R-2, R-3 per secondary summary; R-2 chosen as typical by researcher judgement. Table 1 values not read."
     },
     "minLotSqFt": {
       "value": null,
@@ -239,7 +290,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: min lot size (web search budget exhausted and direct page fetch blocked in research environment)."
+      "note": "Not found; Art. IV Div. 2 Sec. 4-10-137 Lot dimensions (per 2020 revision table) not read. Secondary site mentions 7,500 sf for a single-family zone (district naming inconsistent)."
     },
     "minLotWidthFt": {
       "value": null,
@@ -265,26 +316,26 @@
     },
     "setbacksFt": {
       "front": {
-        "value": null,
-        "status": "Assumed",
+        "value": 25,
+        "status": "Secondary",
         "source": {
-          "id": "amarillo-assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "amarillo-cityrulelookup-setbacks",
+          "title": "CityRuleLookup - Building setbacks rules in Amarillo TX (cites Ch. 4-10, Sec. 4-10-82)",
+          "url": "https://cityrulelookup.com/blog/building-setbacks-rules-in-amarillo-tx",
           "read": "2026-10-11"
         },
-        "note": "Not found: front setback (web search budget exhausted and direct page fetch blocked in research environment)."
+        "note": "Third-party summary: single-family zones 25 ft front (R-3 15 ft). Low confidence; confirm in Table 1."
       },
       "side": {
-        "value": null,
-        "status": "Assumed",
+        "value": 5,
+        "status": "Secondary",
         "source": {
-          "id": "amarillo-assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "amarillo-cityrulelookup-setbacks",
+          "title": "CityRuleLookup - Building setbacks rules in Amarillo TX (cites Ch. 4-10, Sec. 4-10-82)",
+          "url": "https://cityrulelookup.com/blog/building-setbacks-rules-in-amarillo-tx",
           "read": "2026-10-11"
         },
-        "note": "Not found: side setback (web search budget exhausted and direct page fetch blocked in research environment)."
+        "note": "Third-party summary: 5 ft side in single-family zones. Low confidence."
       },
       "streetSide": {
         "value": null,
@@ -306,19 +357,19 @@
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Not found: rear setback (web search budget exhausted and direct page fetch blocked in research environment)."
+        "note": "Not found; Table 1 of Art. IV not read. Wave-1 lead (R-1 20 ft / R-2 15 ft) unverified."
       }
     },
     "maxHeightFt": {
-      "value": null,
-      "status": "Assumed",
+      "value": 35,
+      "status": "Secondary",
       "source": {
-        "id": "amarillo-assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "amarillo-cityrulelookup-setbacks",
+        "title": "CityRuleLookup - Building setbacks rules in Amarillo TX (cites Ch. 4-10, Sec. 4-10-82)",
+        "url": "https://cityrulelookup.com/blog/building-setbacks-rules-in-amarillo-tx",
         "read": "2026-10-11"
       },
-      "note": "Not found: max height (web search budget exhausted and direct page fetch blocked in research environment)."
+      "note": "Third-party summary: single-family zones typically 35 ft."
     },
     "maxStories": {
       "value": null,
@@ -406,7 +457,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "No masonry mandate assumed; Texas Gov. Code ch. 3000 limits city building-material mandates."
+      "note": "No masonry mandate found; Texas Gov't Code ch. 3000 bars city building-material mandates for residential."
     },
     "trees": {
       "value": null,
@@ -419,7 +470,19 @@
       },
       "note": "Not found: tree rules (web search budget exhausted and direct page fetch blocked in research environment)."
     },
-    "other": []
+    "other": [
+      {
+        "value": "NEZ neighborhood development guidelines (North Heights, Barrio, Eastridge) may set extra standards",
+        "status": "Secondary",
+        "source": {
+          "id": "amarillo-nez1",
+          "title": "City of Amarillo NEZ #1 North Heights Development Guidelines",
+          "url": "https://www.amarillo.gov/wp-content/uploads/2024/09/NEZ1-North-Heights-Develop.pdf",
+          "read": "2026-10-11"
+        },
+        "note": "Applies only inside Neighborhood Empowerment Zones."
+      }
+    ]
   },
   "process": {
     "steps": [
@@ -475,26 +538,27 @@
   },
   "fees": {
     "permitFormula": {
-      "value": null,
-      "status": "Assumed",
+      "value": "$0.45 per sq ft for new home construction (set 2019 after HB 852)",
+      "status": "Secondary",
       "source": {
-        "id": "amarillo-assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "amarillo-newschannel10-2019-permit-fee",
+        "title": "NewsChannel 10: New state law requires change in Amarillo's building permit fee (2019-06-04)",
+        "url": "https://www.newschannel10.com/2019/06/04/new-state-law-requires-change-amarillos-building-permit-fee/",
         "read": "2026-10-11"
       },
-      "note": "Not found: residential permit fee formula (note: Texas HB 852 (2019) bars value-based residential fees) (web search budget exhausted and direct page fetch blocked in research environment)."
+      "note": "2019 news report; current rate not confirmed. Plan exam application with deposit required."
     },
     "workedExample2400sqft": {
-      "value": null,
-      "status": "Assumed",
+      "value": 1278,
+      "status": "Secondary",
       "source": {
-        "id": "amarillo-assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "amarillo-newschannel10-2019-permit-fee",
+        "title": "NewsChannel 10: New state law requires change in Amarillo's building permit fee (2019-06-04)",
+        "url": "https://www.newschannel10.com/2019/06/04/new-state-law-requires-change-amarillos-building-permit-fee/",
         "read": "2026-10-11"
       },
-      "note": "Not found: fee schedule, so no worked example (web search budget exhausted and direct page fetch blocked in research environment)."
+      "unit": "USD",
+      "note": "Assumption: fee on total area 2,400 sf + 440 sf garage = 2,840 sf x $0.45 = $1,278 (conditioned only: $1,080). 2019 rate; excludes trade permits."
     },
     "planReview": {
       "value": null,
@@ -509,7 +573,7 @@
     },
     "impactFees": [
       {
-        "value": null,
+        "value": 0,
         "status": "Assumed",
         "source": {
           "id": "amarillo-assumed",
@@ -517,7 +581,8 @@
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Not found: impact fees (web search budget exhausted and direct page fetch blocked in research environment)."
+        "unit": "USD",
+        "note": "No Amarillo development impact fee ordinance found in 2 searches; city has a monthly Drainage Utility fee based on impervious area (https://www.amarillo.gov/drainage-utility/), not an impact fee. Verify."
       }
     ],
     "tapFees": [
@@ -548,16 +613,16 @@
     },
     "method": "PENDING_COST_AGENT",
     "perSqFtMarket": {
-      "value": null,
-      "status": "Assumed",
+      "value": 106,
+      "status": "Secondary",
       "source": {
-        "id": "amarillo-assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "amarillo-costtobuildhouse",
+        "title": "CostToBuildHouse.com - Cost to build a house in Amarillo, TX (updated July 2026)",
+        "url": "https://www.costtobuildhouse.com/states/texas/amarillo",
         "read": "2026-10-11"
       },
       "unit": "USD/sqft",
-      "note": "Not researched (web search budget exhausted (shared limit) and direct page fetch blocked in research environment)."
+      "note": "Market figure, not a quote: standard ~$106/sf (basic ~$90, premium ~$143), excl. land/site; 2026 Texas guides cite $90-130/sf."
     },
     "drivers": [
       {
@@ -577,19 +642,19 @@
     "value": null,
     "status": "Assumed",
     "source": {
-      "id": "amarillo-assumed",
-      "title": "Assumed",
-      "url": "",
+      "id": "amarillo-planning-map",
+      "title": "City of Amarillo - MPO Maps / Planning interactive map (flood zone layers)",
+      "url": "https://www.amarillo.gov/mpo/mpo-maps/",
       "read": "2026-10-11"
     },
-    "note": "Not found: floodplain ordinance freeboard (Playa lake areas may be mapped SFHA) (web search budget exhausted and direct page fetch blocked in research environment)."
+    "note": "Not found: floodplain ordinance freeboard. Playa lakes are managed by the Drainage Utility (pumps, level monitoring). Assume NFIP minimum (lowest floor at/above BFE) plus check parcel on city flood map."
   },
   "engineChanges": [
     {
       "id": "amarillo-cz",
       "ruleType": "climate-zone-envelope",
       "area": "envelope",
-      "change": "Use climate zone 4B envelope tables (higher wall/ceiling R, lower fenestration U than CZ 3)",
+      "change": "Use climate zone 4B envelope tables (higher wall/ceiling R, lower fenestration U than CZ 3); energy edition unconfirmed (2015 IECC last confirmed)",
       "priority": "must",
       "params": {
         "climateZone": "4B"
@@ -597,23 +662,6 @@
       "source": {
         "id": "iecc-2021-r301-1-assumed",
         "title": "Assumed: 2021 IECC Table R301.1 county climate zones (not fetched)",
-        "url": "",
-        "read": "2026-10-11"
-      }
-    },
-    {
-      "id": "amarillo-frost",
-      "ruleType": "frost-depth",
-      "area": "foundation",
-      "change": "Footing depth default 24 in below grade (conservative; local frost line ~18-24 in unconfirmed)",
-      "priority": "should",
-      "params": {
-        "minFootingDepthIn": 24,
-        "verifyLocal": true
-      },
-      "source": {
-        "id": "amarillo-assumed",
-        "title": "Assumed: Panhandle frost depth range",
         "url": "",
         "read": "2026-10-11"
       }
@@ -656,43 +704,120 @@
       "id": "amarillo-survey-district",
       "ruleType": "survey-input-district",
       "area": "survey",
-      "change": "Ask user for zoning district and setbacks (not loaded)",
+      "change": "Ask user for district (R-1/R-2/R-3) and plat setbacks; provisional R-2: front 25, side 5, rear unknown, height 35 ft",
       "priority": "must",
       "params": {
-        "requireUserSetbacks": true
+        "requireUserSetbacks": true,
+        "provisional": {
+          "district": "R-2",
+          "frontFt": 25,
+          "sideFt": 5,
+          "maxHeightFt": 35
+        }
       },
       "source": {
-        "id": "amarillo-assumed",
-        "title": "Assumed: data gap",
-        "url": "",
+        "id": "amarillo-cityrulelookup-setbacks",
+        "title": "CityRuleLookup - Building setbacks rules in Amarillo TX (cites Ch. 4-10, Sec. 4-10-82)",
+        "url": "https://cityrulelookup.com/blog/building-setbacks-rules-in-amarillo-tx",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "amarillo-footing-24",
+      "ruleType": "frost-depth",
+      "area": "foundation",
+      "change": "Footings min 24 in below grade for any structure > 600 sf (city IRC amendment R403.1.4)",
+      "priority": "must",
+      "params": {
+        "minFootingDepthIn": 24,
+        "appliesOverSqFt": 600
+      },
+      "source": {
+        "id": "amarillo-residential-code-info",
+        "title": "City of Amarillo - Residential Code Information (2021 IRC with City amendments FAQ)",
+        "url": "https://www.amarillo.gov/building-safety/residential-permits/",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "amarillo-nec",
+      "ruleType": "electrical-code-edition",
+      "area": "drawings",
+      "change": "Electrical per NEC 2023 (IRC Part VIII excluded)",
+      "priority": "should",
+      "params": {
+        "nec": "2023"
+      },
+      "source": {
+        "id": "amarillo-building-safety",
+        "title": "City of Amarillo - Building Safety (adopted codes and local amendment ordinances)",
+        "url": "https://www.amarillo.gov/building-safety/",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "amarillo-permit-fee",
+      "ruleType": "permit-fee-formula",
+      "area": "estimate",
+      "change": "Building permit $0.45/sf (2019 rate)",
+      "priority": "should",
+      "params": {
+        "usdPerSqFt": 0.45
+      },
+      "source": {
+        "id": "amarillo-newschannel10-2019-permit-fee",
+        "title": "NewsChannel 10: New state law requires change in Amarillo's building permit fee (2019-06-04)",
+        "url": "https://www.newschannel10.com/2019/06/04/new-state-law-requires-change-amarillos-building-permit-fee/",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "amarillo-water-depth",
+      "ruleType": "other",
+      "area": "drawings",
+      "change": "Water service >= 12 in deep and 6 in below frost line; gas pipe >= 18 in cover",
+      "priority": "nice",
+      "params": {
+        "waterMinIn": 12,
+        "gasCoverIn": 18
+      },
+      "source": {
+        "id": "amarillo-residential-code-info",
+        "title": "City of Amarillo - Residential Code Information (2021 IRC with City amendments FAQ)",
+        "url": "https://www.amarillo.gov/building-safety/residential-permits/",
         "read": "2026-10-11"
       }
     }
   ],
-  "plainLanguage": "Amarillo is colder than the rest of Texas (climate zone 4B), so walls, attic and windows need more insulation than in Dallas or Houston. Frost goes deeper here; plan footings around 24 inches deep until the city confirms its frost line. Snow loads and hail are real design issues; impact-resistant roofing is strongly recommended. We could not confirm the city's adopted code edition, zoning setbacks or fees, so those must be checked with the city.",
+  "plainLanguage": "Amarillo uses the 2021 International Residential Code with city amendments; electrical work follows the 2023 National Electrical Code. The Panhandle is climate zone 4B, so walls and ceilings need more insulation than in central Texas. The city requires house footings at least 24 inches deep, deeper than the model code minimum. Single-family zones (R-1, R-2) generally use a 25 ft front and 5 ft side setback and a 35 ft height limit, but check your plat and the city's district table. Hail is common; Class 4 shingles are not required but are widely used, and re-roofs require full tear-off. The building permit was set at about $0.45 per sq ft (about $1,280 for a 2,400 sq ft home with garage); we found no impact fees.",
   "openQuestions": [
-    "Adopted IRC edition and local Table R301.2(1) (snow load, frost depth ~18-24 in, wind).",
-    "Typical single-family district and setbacks.",
-    "Permit fees and impact fees.",
-    "Whether Potter vs Randall County side changes anything (both CZ 4B)."
+    "Adopted energy code edition (2015 vs 2021 IECC).",
+    "R-1/R-2 Table 1 values: lot area, width, rear yard, coverage.",
+    "Current permit fee rate (2019 $0.45/sf) and plan-review deposit.",
+    "Floodplain freeboard rule.",
+    "Local snow load and wind values in Amarillo Table R301.2(1)."
   ],
   "notFound": [
-    "Nearly all city-specific values: web search budget exhausted (shared limit) and direct page fetch blocked in research environment."
+    "Zoning lot size/rear yard/coverage from ordinance.",
+    "Floodplain freeboard.",
+    "Snow load and wind design values.",
+    "Water/sewer tap fees.",
+    "Mechanical/fuel gas editions."
   ],
   "comparison": {
-    "irc": "not found",
-    "energy": "IRC Ch.11 (unverified)",
-    "plumbing": "not found",
-    "district": "not found",
-    "setbacks": "not found",
-    "maxHeight": "not found",
+    "irc": "2021 IRC (amended)",
+    "energy": "2015 IECC? (unconfirmed)",
+    "plumbing": "2021 (IPC assumed)",
+    "district": "R-2 (assumed)",
+    "setbacks": "25/5/? (secondary)",
+    "maxHeight": "35 ft",
     "coverageFar": "not found",
-    "masonry": "none (assumed)",
-    "engFoundation": "not found",
+    "masonry": "none",
+    "engFoundation": "not found; 24 in footings",
     "windstorm": "no",
     "flood": "not found",
-    "permitFeeExample": "not found",
-    "impactFees": "not found",
+    "permitFeeExample": "$1,278 (2019 $0.45/sf)",
+    "impactFees": "none found",
     "costFactor": "PENDING"
   }
 }

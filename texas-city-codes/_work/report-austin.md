@@ -46,3 +46,6 @@ Not found / Assumed:
 - 0.4 / 2,300 sf: the 2006 Austin Monitor article and the 2025 council ordinance (as a per-unit cap) agree.
 - Freeboard 2 ft: the 2019 draft commentary, the Summary of Code Changes and a secondary article agree.
 - None of the above was read from Municode directly.
+
+## Wave 2: round-rock (Secondary)
+- 2024 IRC/IECC/IPC/IMC + NEC 2023 (ordinance no. not found; two city pages). Flat $485 permit + $320 meter + $200 line fee. Impact (plats after 2024-01-01): water $4,912 + ww $2,921 per LUE + roadway $3,209 = ~$11,042. Flood: slab 2 ft above ultimate 100-yr. SF-2 6,500 sf (1986 ord.); setbacks 25/5/15/20 unverified; most new homes in PUDs.

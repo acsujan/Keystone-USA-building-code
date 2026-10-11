@@ -18,3 +18,7 @@
 - Lubbock: population 272,086 (V2024, Sourced); ground snow 15 psf (Secondary); CZ 3B Assumed.
 - Amarillo: population 205,130 (V2025, Secondary); CZ 4B, frost 24 in, snow ~20 psf Assumed.
 - Midland: population 147,615 (V2025, Secondary); CZ 3B, SDC A Assumed.
+
+## Wave 2 (43 searches; all Secondary)
+- lubbock: 2021 IRC (Ord. 2024-O0029, amended 2025-O0019, Art. 28.14), 2021 IECC (Ord. 2024-O0031), IPC/IMC/IFGC 2021; city list says NEC 2020 vs state NEC 2023 (confirm). Design criteria: wind 115, snow 15 psf, frost 12 in. SF-2 (UDC Ord. 2023-O0054): 5,000 sf, 40 ft, 20/5/15, 35 ft, front garage >= 20 ft. Permit $0.11/sf ($50 min) -> $312. Roadway impact up to ~$3,150. Flood: max(1 ft over BFE, 2 ft over playa overflow, 18 in over gutter) - ecode360 extract unnamed city, confirm. Second check: IRC edition, SF-2 setbacks (2 sources each).
+- amarillo: 2021 IRC (Ord. 8086, Sec. 4-3-31; Part VIII excluded; App. A-J) confirmed on 3 city pages; NEC 2023; 2021 plumbing (Ord. 8091, IPC assumed). R403.1.4 amendment: footings >= 24 in for structures > 600 sf. Re-roof tear-off; no Class 4 mandate. Energy: only 2015 IECC confirmed. R-2 25/5/35 ft low confidence. Fee $0.45/sf (2019) -> $1,278. No impact fees found.

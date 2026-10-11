@@ -57,53 +57,81 @@
   "codes": {
     "irc": {
       "edition": {
-        "value": null,
-        "status": "Assumed",
+        "value": "2021 IRC",
+        "status": "Secondary",
         "source": {
-          "id": "lubbock-assumed",
-          "title": "Assumed",
-          "url": "",
-          "read": "2026-10-11"
+          "id": "lubbock-ecode-28-14",
+          "title": "Lubbock Code of Ordinances Art. 28.14 Residential Code (ecode360)",
+          "url": "https://ecode360.com/45134704",
+          "read": "2026-10-11",
+          "section": "28.14.001-28.14.003"
         },
-        "note": "Not found: adopted IRC edition and adoption ordinance (web search budget exhausted and direct page fetch blocked in research environment)."
+        "note": "Art. 28.14 adopts the 2021 IRC 'as hereinafter amended', incl. appendices AA-AD, AG, AN, AP; chapter 1 incorporated except as amended in 28.14.002-.003. Second-checked against the city Ordinances page (lists Ord. 2024-O0029). Seen only as a search-result extract; page not opened (fetch blocked in research environment)."
       },
       "ordinance": {
-        "value": null,
-        "status": "Assumed",
+        "value": "Ord. 2024-O0029 (adopted 2024-03-26); amended by Ord. 2025-O0019 (2025-01-28)",
+        "status": "Secondary",
         "source": {
-          "id": "lubbock-assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "lubbock-ordinances-page",
+          "title": "City of Lubbock - Ordinances (building code adoption list)",
+          "url": "https://www.mylubbock.us/906/Ordinances",
           "read": "2026-10-11"
         },
-        "note": "Not found: adoption ordinance (web search budget exhausted and direct page fetch blocked in research environment)."
+        "note": "Listed on city Ordinances page and in Art. 28.14 history (ecode360). Seen only as a search-result extract; page not opened (fetch blocked in research environment)."
       },
       "amendments": [
         {
           "topic": "other",
-          "summary": "City publishes a local Table R301.2(1) design-criteria summary; ground snow load 15 psf.",
-          "section": "R301.2",
+          "summary": "Local amendments to IRC in Lubbock Code Secs. 28.14.002-28.14.003; text not read (incl. 2025-O0019 changes).",
+          "section": "28.14.002-28.14.003",
           "status": "Secondary",
           "source": {
-            "id": "lubbock-design-criteria-pdf",
-            "title": "City of Lubbock: Summary of Climatic and Geographic Design Criteria (Ground Snow Load: 15 psf ...)",
-            "url": "https://ci.lubbock.tx.us/storage/images/qqbpYuJZdDn81GbrfkZvIjyI0rDSGpNBjBnoGz5Z.pdf",
-            "read": "2026-10-11"
+            "id": "lubbock-ecode-28-14",
+            "title": "Lubbock Code of Ordinances Art. 28.14 Residential Code (ecode360)",
+            "url": "https://ecode360.com/45134704",
+            "read": "2026-10-11",
+            "section": "28.14.001-28.14.003"
+          }
+        },
+        {
+          "topic": "other",
+          "summary": "Local Table R301.2(1): ground snow 15 psf; wind 115 mph (Risk Cat II; 105 Cat I, 120 Cat III/IV); frost line 12 in; weathering moderate; termite moderate to heavy.",
+          "section": "R301.2(1)",
+          "status": "Secondary",
+          "source": {
+            "id": "lubbock-design-criteria-325",
+            "title": "City of Lubbock - Climatic and Geographic Design Criteria sheet",
+            "url": "https://www.mylubbock.us/DocumentCenter/View/325",
+            "read": "2026-10-11",
+            "section": "IRC Table R301.2(1)"
+          }
+        },
+        {
+          "topic": "other",
+          "summary": "Appendices adopted: AA-AD, AG, AN, AP (2021 IRC lettering).",
+          "section": "28.14.001",
+          "status": "Secondary",
+          "source": {
+            "id": "lubbock-ecode-28-14",
+            "title": "Lubbock Code of Ordinances Art. 28.14 Residential Code (ecode360)",
+            "url": "https://ecode360.com/45134704",
+            "read": "2026-10-11",
+            "section": "28.14.001-28.14.003"
           }
         }
       ]
     },
     "energy": {
       "edition": {
-        "value": "IRC Chapter 11 (edition unverified)",
-        "status": "Assumed",
+        "value": "2021 IECC (with local amendments)",
+        "status": "Secondary",
         "source": {
-          "id": "lubbock-assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "lubbock-ord-2024-o0031-iecc",
+          "title": "City of Lubbock Ordinance 2024-O0031 (2021 IECC, Art. 28.16)",
+          "url": "https://www.mylubbock.us/DocumentCenter/View/7660",
           "read": "2026-10-11"
         },
-        "note": "Not verified; Texas statewide minimum for single-family is IRC Chapter 11 (2015 IECC basis per SECO) unless city adopted newer."
+        "note": "Ord. 2024-O0031 amends Art. 28.16 to adopt the 2021 IECC as amended; local amendments not read. Seen only as a search-result extract; page not opened (fetch blocked in research environment)."
       },
       "stretchCode": {
         "value": false,
@@ -114,52 +142,63 @@
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "No stretch code known."
+        "note": "No stretch/above-code program found."
+      },
+      "ordinance": {
+        "value": "Ord. 2024-O0031 (Art. 28.16)",
+        "status": "Secondary",
+        "source": {
+          "id": "lubbock-ord-2024-o0031-iecc",
+          "title": "City of Lubbock Ordinance 2024-O0031 (2021 IECC, Art. 28.16)",
+          "url": "https://www.mylubbock.us/DocumentCenter/View/7660",
+          "read": "2026-10-11"
+        },
+        "note": "Search snippet rendered number as 2024-00031. Seen only as a search-result extract; page not opened (fetch blocked in research environment)."
       }
     },
     "plumbing": {
-      "value": null,
-      "status": "Assumed",
+      "value": "IPC 2021",
+      "status": "Secondary",
       "source": {
-        "id": "lubbock-assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "lubbock-ordinances-page",
+        "title": "City of Lubbock - Ordinances (building code adoption list)",
+        "url": "https://www.mylubbock.us/906/Ordinances",
         "read": "2026-10-11"
       },
-      "note": "Not found: plumbing code edition (web search budget exhausted and direct page fetch blocked in research environment)."
+      "note": "Ordinances page lists 2021 International Plumbing Code, Ord. 2024-O0026. Seen only as a search-result extract; page not opened (fetch blocked in research environment)."
     },
     "electrical": {
-      "value": null,
-      "status": "Assumed",
+      "value": "NEC 2020",
+      "status": "Secondary",
       "source": {
-        "id": "lubbock-assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "lubbock-ordinances-page",
+        "title": "City of Lubbock - Ordinances (building code adoption list)",
+        "url": "https://www.mylubbock.us/906/Ordinances",
         "read": "2026-10-11"
       },
-      "note": "Not found: NEC edition (web search budget exhausted and direct page fetch blocked in research environment)."
+      "note": "Ordinances page lists 2020 NEC, Ord. 2024-O0028. Note: Texas state electrical code (TDLR) is 2023 NEC; confirm which the city enforces. Seen only as a search-result extract; page not opened (fetch blocked in research environment)."
     },
     "mechanical": {
-      "value": null,
-      "status": "Assumed",
+      "value": "IMC 2021",
+      "status": "Secondary",
       "source": {
-        "id": "lubbock-assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "lubbock-ordinances-page",
+        "title": "City of Lubbock - Ordinances (building code adoption list)",
+        "url": "https://www.mylubbock.us/906/Ordinances",
         "read": "2026-10-11"
       },
-      "note": "Not found: mechanical code (web search budget exhausted and direct page fetch blocked in research environment)."
+      "note": "Ordinances page lists 2021 Mechanical Code (2024 ordinance). Seen only as a search-result extract; page not opened (fetch blocked in research environment)."
     },
     "fuelGas": {
-      "value": null,
-      "status": "Assumed",
+      "value": "IFGC 2021",
+      "status": "Secondary",
       "source": {
-        "id": "lubbock-assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "lubbock-ordinances-page",
+        "title": "City of Lubbock - Ordinances (building code adoption list)",
+        "url": "https://www.mylubbock.us/906/Ordinances",
         "read": "2026-10-11"
       },
-      "note": "Not found: fuel gas code (web search budget exhausted and direct page fetch blocked in research environment)."
+      "note": "Ordinances page lists 2021 Fuel Gas Code (2024 ordinance). Seen only as a search-result extract; page not opened (fetch blocked in research environment)."
     },
     "fire": {
       "value": "No residential sprinkler mandate assumed",
@@ -174,18 +213,19 @@
     },
     "wind": {
       "value": 115,
-      "status": "Assumed",
+      "status": "Secondary",
       "source": {
-        "id": "lubbock-assumed",
-        "title": "Assumed",
-        "url": "",
-        "read": "2026-10-11"
+        "id": "lubbock-design-criteria-325",
+        "title": "City of Lubbock - Climatic and Geographic Design Criteria sheet",
+        "url": "https://www.mylubbock.us/DocumentCenter/View/325",
+        "read": "2026-10-11",
+        "section": "IRC Table R301.2(1)"
       },
       "unit": "mph",
-      "note": "Assumed from ASCE 7-16 / IRC 2021 Fig R301.2(2) regional contour for West Texas (about 105-115 mph); verify with ATC hazard tool."
+      "note": "City design-criteria sheet: 115 mph Risk Category II (105 Cat I, 120 Cat III/IV). Seen only as a search-result extract; page not opened (fetch blocked in research environment)."
     },
     "hailRoofing": {
-      "value": "No code mandate known; Class 4 recommended",
+      "value": "No code mandate found; Class 4 (UL 2218) recommended",
       "status": "Assumed",
       "source": {
         "id": "lubbock-assumed",
@@ -193,7 +233,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "No local Class 4 roofing mandate found/verified. Area has very high hail frequency; Class 4 (UL 2218) shingles are an insurance-discount option, not a code rule as far as known."
+      "note": "No Lubbock Class 4 mandate found in 2 searches; very high hail frequency on the High Plains, Class 4 is an insurance-discount option."
     },
     "seismic": {
       "value": "A",
@@ -207,74 +247,92 @@
       "note": "Assumed SDC A (low-hazard area per IRC Fig R301.2(4)). Not verified locally."
     },
     "frostDepth": {
-      "value": null,
-      "status": "Assumed",
+      "value": 12,
+      "status": "Secondary",
       "source": {
-        "id": "lubbock-assumed",
-        "title": "Assumed",
-        "url": "",
-        "read": "2026-10-11"
+        "id": "lubbock-design-criteria-325",
+        "title": "City of Lubbock - Climatic and Geographic Design Criteria sheet",
+        "url": "https://www.mylubbock.us/DocumentCenter/View/325",
+        "read": "2026-10-11",
+        "section": "IRC Table R301.2(1)"
       },
       "unit": "in",
-      "note": "Local frost line not found; IRC R403.1.4 minimum 12 in below undisturbed ground used as floor."
+      "note": "City design-criteria sheet frost line depth 12 in (NOAA engineering weather data ~9 in). Equals IRC R403.1.4 minimum. Seen only as a search-result extract; page not opened (fetch blocked in research environment)."
     },
     "snowLoad": {
       "value": 15,
       "status": "Secondary",
       "source": {
-        "id": "lubbock-design-criteria-pdf",
-        "title": "City of Lubbock: Summary of Climatic and Geographic Design Criteria (Ground Snow Load: 15 psf ...)",
-        "url": "https://ci.lubbock.tx.us/storage/images/qqbpYuJZdDn81GbrfkZvIjyI0rDSGpNBjBnoGz5Z.pdf",
-        "read": "2026-10-11"
+        "id": "lubbock-design-criteria-325",
+        "title": "City of Lubbock - Climatic and Geographic Design Criteria sheet",
+        "url": "https://www.mylubbock.us/DocumentCenter/View/325",
+        "read": "2026-10-11",
+        "section": "IRC Table R301.2(1)"
       },
       "unit": "psf",
-      "note": "From the title line of the city's design-criteria handout as shown in search results; other table values (wind, frost, termite, winter temp) not readable. Seen only as a search-result extract; WebFetch/curl to this host failed from the research environment, full document not read."
+      "note": "City design-criteria sheet ground snow load 15 psf; also on older city PDF https://ci.lubbock.tx.us/storage/images/qqbpYuJZdDn81GbrfkZvIjyI0rDSGpNBjBnoGz5Z.pdf. Seen only as a search-result extract; page not opened (fetch blocked in research environment)."
+    },
+    "termite": {
+      "value": "Moderate to heavy",
+      "status": "Secondary",
+      "source": {
+        "id": "lubbock-design-criteria-325",
+        "title": "City of Lubbock - Climatic and Geographic Design Criteria sheet",
+        "url": "https://www.mylubbock.us/DocumentCenter/View/325",
+        "read": "2026-10-11",
+        "section": "IRC Table R301.2(1)"
+      },
+      "note": "City design-criteria sheet. Seen only as a search-result extract; page not opened (fetch blocked in research environment)."
     }
   },
   "zoning": {
     "hasZoning": {
       "value": true,
-      "status": "Assumed",
+      "status": "Secondary",
       "source": {
-        "id": "lubbock-assumed",
-        "title": "Assumed",
-        "url": "",
-        "read": "2026-10-11"
+        "id": "lubbock-udc-sf2-excerpt",
+        "title": "City of Lubbock UDC excerpt, Sec. 39.02.004.c SF-2 district",
+        "url": "https://ci.lubbock.tx.us/storage/images/dVMNjvaObmnT8gceVg4Ku5PeP3Z3MhjrDu4HO0cx.pdf",
+        "read": "2026-10-11",
+        "section": "39.02.004.c"
       },
-      "note": "Texas home-rule city with zoning (general knowledge); district standards not retrieved."
+      "note": "Unified Development Code (Ord. 2023-O0054, new UDC) with base residential districts incl. SF-2."
     },
     "typicalDistrict": {
-      "value": null,
-      "status": "Assumed",
+      "value": "SF-2 (Low Density Single-Family), conventional detached",
+      "status": "Secondary",
       "source": {
-        "id": "lubbock-assumed",
-        "title": "Assumed",
-        "url": "",
-        "read": "2026-10-11"
+        "id": "lubbock-udc-sf2-excerpt",
+        "title": "City of Lubbock UDC excerpt, Sec. 39.02.004.c SF-2 district",
+        "url": "https://ci.lubbock.tx.us/storage/images/dVMNjvaObmnT8gceVg4Ku5PeP3Z3MhjrDu4HO0cx.pdf",
+        "read": "2026-10-11",
+        "section": "39.02.004.c"
       },
-      "note": "Not found: typical single-family district (web search budget exhausted and direct page fetch blocked in research environment)."
+      "note": "SF-2 = conventional low-density single-family on moderately sized lots; also cluster, garden home, cottage options. Other districts: SF-1 etc. Choice of SF-2 as typical is researcher judgement."
     },
     "minLotSqFt": {
-      "value": null,
-      "status": "Assumed",
+      "value": 5000,
+      "status": "Secondary",
       "source": {
-        "id": "lubbock-assumed",
-        "title": "Assumed",
-        "url": "",
-        "read": "2026-10-11"
+        "id": "lubbock-udc-sf2-table-copy",
+        "title": "City of Lubbock UDC (Ord. 2023-O0054) Table 39.02.004.c-2 SF-2 Lot Density and Dimensions (copy hosted on commercialsearch.com)",
+        "url": "https://www.commercialsearch.com/pdfs/5B0534BA-3124-4149-809A-93853971ED2D",
+        "read": "2026-10-11",
+        "section": "Table 39.02.004.c-2"
       },
-      "note": "Not found: min lot size (web search budget exhausted and direct page fetch blocked in research environment)."
+      "note": "Conventional detached; cluster detached 3,000 sf; cottage 4,000 sf (2024 proposal to cut to 3,500). Seen only as a search-result extract; page not opened (fetch blocked in research environment)."
     },
     "minLotWidthFt": {
-      "value": null,
-      "status": "Assumed",
+      "value": 40,
+      "status": "Secondary",
       "source": {
-        "id": "lubbock-assumed",
-        "title": "Assumed",
-        "url": "",
-        "read": "2026-10-11"
+        "id": "lubbock-udc-sf2-table-copy",
+        "title": "City of Lubbock UDC (Ord. 2023-O0054) Table 39.02.004.c-2 SF-2 Lot Density and Dimensions (copy hosted on commercialsearch.com)",
+        "url": "https://www.commercialsearch.com/pdfs/5B0534BA-3124-4149-809A-93853971ED2D",
+        "read": "2026-10-11",
+        "section": "Table 39.02.004.c-2"
       },
-      "note": "Not found: min lot width (web search budget exhausted and direct page fetch blocked in research environment)."
+      "note": "Conventional detached; cluster 30 ft. Seen only as a search-result extract; page not opened (fetch blocked in research environment)."
     },
     "minLotDepthFt": {
       "value": null,
@@ -285,30 +343,32 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: min lot depth (web search budget exhausted and direct page fetch blocked in research environment)."
+      "note": "Not found in extracts of Table 39.02.004.c-2."
     },
     "setbacksFt": {
       "front": {
-        "value": null,
-        "status": "Assumed",
+        "value": 20,
+        "status": "Secondary",
         "source": {
-          "id": "lubbock-assumed",
-          "title": "Assumed",
-          "url": "",
-          "read": "2026-10-11"
+          "id": "lubbock-udc-sf2-table-copy",
+          "title": "City of Lubbock UDC (Ord. 2023-O0054) Table 39.02.004.c-2 SF-2 Lot Density and Dimensions (copy hosted on commercialsearch.com)",
+          "url": "https://www.commercialsearch.com/pdfs/5B0534BA-3124-4149-809A-93853971ED2D",
+          "read": "2026-10-11",
+          "section": "Table 39.02.004.c-2"
         },
-        "note": "Not found: front setback (web search budget exhausted and direct page fetch blocked in research environment)."
+        "note": "20 ft front (5 ft on cul-de-sac per table extract); where front setback < 20 ft a front-loaded garage must still be 20 ft back. Second-checked: CityRuleLookup gives same 20/5/15. Seen only as a search-result extract; page not opened (fetch blocked in research environment)."
       },
       "side": {
-        "value": null,
-        "status": "Assumed",
+        "value": 5,
+        "status": "Secondary",
         "source": {
-          "id": "lubbock-assumed",
-          "title": "Assumed",
-          "url": "",
-          "read": "2026-10-11"
+          "id": "lubbock-udc-sf2-table-copy",
+          "title": "City of Lubbock UDC (Ord. 2023-O0054) Table 39.02.004.c-2 SF-2 Lot Density and Dimensions (copy hosted on commercialsearch.com)",
+          "url": "https://www.commercialsearch.com/pdfs/5B0534BA-3124-4149-809A-93853971ED2D",
+          "read": "2026-10-11",
+          "section": "Table 39.02.004.c-2"
         },
-        "note": "Not found: side setback (web search budget exhausted and direct page fetch blocked in research environment)."
+        "note": "5 ft interior side, conventional detached. Second source CityRuleLookup agrees. Seen only as a search-result extract; page not opened (fetch blocked in research environment)."
       },
       "streetSide": {
         "value": null,
@@ -319,30 +379,32 @@
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Not found: streetSide setback (web search budget exhausted and direct page fetch blocked in research environment)."
+        "note": "Not found in extracts; ask user/plat."
       },
       "rear": {
-        "value": null,
-        "status": "Assumed",
+        "value": 15,
+        "status": "Secondary",
         "source": {
-          "id": "lubbock-assumed",
-          "title": "Assumed",
-          "url": "",
-          "read": "2026-10-11"
+          "id": "lubbock-udc-sf2-table-copy",
+          "title": "City of Lubbock UDC (Ord. 2023-O0054) Table 39.02.004.c-2 SF-2 Lot Density and Dimensions (copy hosted on commercialsearch.com)",
+          "url": "https://www.commercialsearch.com/pdfs/5B0534BA-3124-4149-809A-93853971ED2D",
+          "read": "2026-10-11",
+          "section": "Table 39.02.004.c-2"
         },
-        "note": "Not found: rear setback (web search budget exhausted and direct page fetch blocked in research environment)."
+        "note": "15 ft rear. A May 2025 public hearing proposed amending SF-2 rear setback requirements (Sec. 39.02.004); outcome not found, verify. Second source CityRuleLookup gives 15 ft. Seen only as a search-result extract; page not opened (fetch blocked in research environment)."
       }
     },
     "maxHeightFt": {
-      "value": null,
-      "status": "Assumed",
+      "value": 35,
+      "status": "Secondary",
       "source": {
-        "id": "lubbock-assumed",
-        "title": "Assumed",
-        "url": "",
-        "read": "2026-10-11"
+        "id": "lubbock-udc-sf2-table-copy",
+        "title": "City of Lubbock UDC (Ord. 2023-O0054) Table 39.02.004.c-2 SF-2 Lot Density and Dimensions (copy hosted on commercialsearch.com)",
+        "url": "https://www.commercialsearch.com/pdfs/5B0534BA-3124-4149-809A-93853971ED2D",
+        "read": "2026-10-11",
+        "section": "Table 39.02.004.c-2"
       },
-      "note": "Not found: max height (web search budget exhausted and direct page fetch blocked in research environment)."
+      "note": "35 ft for detached dwelling. Seen only as a search-result extract; page not opened (fetch blocked in research environment)."
     },
     "maxStories": {
       "value": null,
@@ -353,7 +415,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: max stories (web search budget exhausted and direct page fetch blocked in research environment)."
+      "note": "No story limit seen; height governs."
     },
     "maxLotCoverage": {
       "value": null,
@@ -400,15 +462,16 @@
       "note": "Not found: residential parking minimum (web search budget exhausted and direct page fetch blocked in research environment)."
     },
     "garageRules": {
-      "value": null,
-      "status": "Assumed",
+      "value": "Front-loaded garage min 20 ft from front line where front setback < 20 ft",
+      "status": "Secondary",
       "source": {
-        "id": "lubbock-assumed",
-        "title": "Assumed",
-        "url": "",
-        "read": "2026-10-11"
+        "id": "lubbock-udc-sf2-table-copy",
+        "title": "City of Lubbock UDC (Ord. 2023-O0054) Table 39.02.004.c-2 SF-2 Lot Density and Dimensions (copy hosted on commercialsearch.com)",
+        "url": "https://www.commercialsearch.com/pdfs/5B0534BA-3124-4149-809A-93853971ED2D",
+        "read": "2026-10-11",
+        "section": "Table 39.02.004.c-2"
       },
-      "note": "Not found: garage rules (web search budget exhausted and direct page fetch blocked in research environment)."
+      "note": "From Table 39.02.004.c-2 note. Seen only as a search-result extract; page not opened (fetch blocked in research environment)."
     },
     "adu": {
       "value": null,
@@ -430,7 +493,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "No masonry mandate assumed; Texas Gov. Code ch. 3000 limits city building-material mandates."
+      "note": "No masonry mandate found; Texas Gov't Code ch. 3000 bars city building-material mandates for residential."
     },
     "trees": {
       "value": null,
@@ -443,7 +506,19 @@
       },
       "note": "Not found: tree rules (web search budget exhausted and direct page fetch blocked in research environment)."
     },
-    "other": []
+    "other": [
+      {
+        "value": "Lubbock County TX setbacks summary (20 ft front / 5 ft side / 15 ft rear in SF-2)",
+        "status": "Secondary",
+        "source": {
+          "id": "lubbock-cityrulelookup-setbacks",
+          "title": "CityRuleLookup - Lubbock County TX building setbacks (cites UDC Table 39.02.004.c-2)",
+          "url": "https://cityrulelookup.com/building-setbacks/setback-rules/lubbock-county-tx",
+          "read": "2026-10-11"
+        },
+        "note": "Secondary corroboration of UDC table values."
+      }
+    ]
   },
   "process": {
     "steps": [
@@ -499,49 +574,62 @@
   },
   "fees": {
     "permitFormula": {
-      "value": null,
-      "status": "Assumed",
+      "value": "$0.11 per sq ft for new residential construction; $50 minimum (FY2023-24 schedule)",
+      "status": "Secondary",
       "source": {
-        "id": "lubbock-assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "lubbock-fee-appendix-a-2024",
+        "title": "City of Lubbock Appendix A - Building Permit and related fees (Council agenda 2024-01-23)",
+        "url": "https://public.destinyhosted.com/lubbodocs/2024/REGCCM/20240123_1129/12220_Appendix_A_-_Building_Permit_and_related_fees.pdf",
         "read": "2026-10-11"
       },
-      "note": "Not found: residential permit fee formula (note: Texas HB 852 (2019) bars value-based residential fees) (web search budget exhausted and direct page fetch blocked in research environment)."
+      "note": "Appendix A adopted with FY23-24 fee ordinance; area basis (conditioned vs total under roof) not stated in extract; current FY26 rate not confirmed. Trade permits (electrical, plumbing, mechanical) separate. Seen only as a search-result extract; page not opened (fetch blocked in research environment)."
     },
     "workedExample2400sqft": {
-      "value": null,
-      "status": "Assumed",
+      "value": 312.4,
+      "status": "Secondary",
       "source": {
-        "id": "lubbock-assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "lubbock-fee-appendix-a-2024",
+        "title": "City of Lubbock Appendix A - Building Permit and related fees (Council agenda 2024-01-23)",
+        "url": "https://public.destinyhosted.com/lubbodocs/2024/REGCCM/20240123_1129/12220_Appendix_A_-_Building_Permit_and_related_fees.pdf",
         "read": "2026-10-11"
       },
-      "note": "Not found: fee schedule, so no worked example (web search budget exhausted and direct page fetch blocked in research environment)."
+      "unit": "USD",
+      "note": "Assumption: fee on total area 2,400 sf house + 440 sf attached garage = 2,840 sf x $0.11 = $312.40 (conditioned-only: 2,400 x 0.11 = $264). Excludes trade permits and plan review. HB 852 (2019) bars value-based residential fees, consistent with per-sf rate."
     },
     "planReview": {
-      "value": null,
-      "status": "Assumed",
+      "value": "Plan review required for new homes; fee not found",
+      "status": "Secondary",
       "source": {
-        "id": "lubbock-assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "lubbock-faqs-reports",
+        "title": "City of Lubbock Building Safety - FAQs",
+        "url": "https://www.mylubbock.us/530/FAQS-Reports",
         "read": "2026-10-11"
       },
-      "note": "Not found: plan review fee (web search budget exhausted and direct page fetch blocked in research environment)."
+      "note": "City FAQ: plan review is part of the new-home permit process; contractor must be registered with Building Safety; submit via Citizen Self Service portal."
     },
     "impactFees": [
+      {
+        "value": "Roadway impact fee: service-unit fee per vehicle-mile by service area x 2.82 (single-family detached TDF); 2025 max $0 (areas G,H) to $2,233 (area F); CIAC recommended collecting 50% in areas A-F. Approx. up to $3,150 per home (area F at 50%).",
+        "status": "Secondary",
+        "source": {
+          "id": "lubbock-ciac-2025-comparison",
+          "title": "Lubbock CIAC City Comparisons (2025-05-12), roadway impact fee",
+          "url": "https://lubbocklights.com/wp-content/uploads/2025/07/2025_05-12-CIAC-City-Comparisons.pdf",
+          "read": "2026-10-11"
+        },
+        "unit": "USD",
+        "note": "Estimate = 2.82 x $2,233 x 0.5 = $3,149 (researcher arithmetic); adoption of 2025 amendment (hearing 2025-07-22, see KCBD https://www.kcbd.com/2025/07/07/city-lubbock-host-public-hearings-amendment-impact-fees/) not confirmed. Paid by builder at building permit (city Impact Fee FAQ)."
+      },
       {
         "value": null,
         "status": "Assumed",
         "source": {
-          "id": "lubbock-assumed",
-          "title": "Assumed",
-          "url": "",
+          "id": "lubbock-ecode-impact-fees",
+          "title": "Lubbock Code of Ordinances - impact fees (ecode360)",
+          "url": "https://ecode360.com/38866233",
           "read": "2026-10-11"
         },
-        "note": "Not found: impact fees (web search budget exhausted and direct page fetch blocked in research environment)."
+        "note": "Water/wastewater impact fees: one search extract said the code has water and wastewater impact fees (2020, amended 2025, one citywide service area, by meter size); another source said Lubbock only charges roadway fees. Amount not found; verify."
       }
     ],
     "tapFees": [
@@ -554,7 +642,7 @@
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Not found: water/sewer tap fees (web search budget exhausted and direct page fetch blocked in research environment)."
+        "note": "Not found: Lubbock water/sewer tap/meter fees."
       }
     ]
   },
@@ -572,16 +660,16 @@
     },
     "method": "PENDING_COST_AGENT",
     "perSqFtMarket": {
-      "value": null,
-      "status": "Assumed",
+      "value": 108,
+      "status": "Secondary",
       "source": {
-        "id": "lubbock-assumed",
-        "title": "Assumed",
-        "url": "",
+        "id": "lubbock-costtobuildhouse",
+        "title": "CostToBuildHouse.com - Cost to build a house in Lubbock, TX (updated July 2026)",
+        "url": "https://www.costtobuildhouse.com/states/texas/lubbock",
         "read": "2026-10-11"
       },
       "unit": "USD/sqft",
-      "note": "Not researched (web search budget exhausted (shared limit) and direct page fetch blocked in research environment)."
+      "note": "Market figure, not a quote: standard finish ~$108/sf (basic ~$92, premium ~$146), excludes land/site work; 2026 Texas guides cite $90-130/sf for Lubbock/Amarillo."
     },
     "drivers": [
       {
@@ -598,46 +686,191 @@
     ]
   },
   "flood": {
-    "value": null,
-    "status": "Assumed",
+    "value": "Lowest floor (incl. basement) of new/substantially improved residence at the most restrictive of: 1 ft above 1%-annual-chance elevation (Master Drainage Plan), 2 ft above applicable playa lake overflow elevation, 18 in above top of highest adjacent gutter (1 ft above crown if no curb)",
+    "status": "Secondary",
     "source": {
-      "id": "lubbock-assumed",
-      "title": "Assumed",
-      "url": "",
+      "id": "lubbock-ecode-flood-elev",
+      "title": "Lubbock UDC flood damage prevention - lowest floor elevation (ecode360)",
+      "url": "https://ecode360.com/45665927",
       "read": "2026-10-11"
     },
-    "note": "Not found: floodplain ordinance freeboard (Playa lake areas may be mapped SFHA) (web search budget exhausted and direct page fetch blocked in research environment)."
+    "note": "ecode360 extract within Lubbock UDC Art. 39.05 range; city not named in snippet, so verify. City floodplain page (https://www.mylubbock.us/282/Floodplain): flood zones mostly adjacent to playa lakes and the Canyon; all floodplain development needs a permit. Seen only as a search-result extract; page not opened (fetch blocked in research environment)."
   },
   "engineChanges": [
     {
+      "id": "lubbock-sf2-setbacks",
+      "ruleType": "setback-by-district",
+      "area": "setbacks",
+      "change": "SF-2 conventional detached: front 20 ft, interior side 5 ft, rear 15 ft (verify 2025 rear-setback amendment)",
+      "priority": "must",
+      "params": {
+        "district": "SF-2",
+        "frontFt": 20,
+        "sideFt": 5,
+        "rearFt": 15,
+        "culDeSacFrontFt": 5,
+        "verifyRear": true
+      },
+      "source": {
+        "id": "lubbock-udc-sf2-table-copy",
+        "title": "City of Lubbock UDC (Ord. 2023-O0054) Table 39.02.004.c-2 SF-2 Lot Density and Dimensions (copy hosted on commercialsearch.com)",
+        "url": "https://www.commercialsearch.com/pdfs/5B0534BA-3124-4149-809A-93853971ED2D",
+        "read": "2026-10-11",
+        "section": "Table 39.02.004.c-2"
+      }
+    },
+    {
+      "id": "lubbock-sf2-lot",
+      "ruleType": "lot-min-size",
+      "area": "survey",
+      "change": "SF-2 min lot 5,000 sf and 40 ft width (cluster 3,000 sf / 30 ft)",
+      "priority": "should",
+      "params": {
+        "minLotSqFt": 5000,
+        "minLotWidthFt": 40
+      },
+      "source": {
+        "id": "lubbock-udc-sf2-table-copy",
+        "title": "City of Lubbock UDC (Ord. 2023-O0054) Table 39.02.004.c-2 SF-2 Lot Density and Dimensions (copy hosted on commercialsearch.com)",
+        "url": "https://www.commercialsearch.com/pdfs/5B0534BA-3124-4149-809A-93853971ED2D",
+        "read": "2026-10-11",
+        "section": "Table 39.02.004.c-2"
+      }
+    },
+    {
+      "id": "lubbock-height",
+      "ruleType": "height-limit",
+      "area": "massing",
+      "change": "Max height 35 ft for detached homes in SF-2",
+      "priority": "must",
+      "params": {
+        "maxHeightFt": 35
+      },
+      "source": {
+        "id": "lubbock-udc-sf2-table-copy",
+        "title": "City of Lubbock UDC (Ord. 2023-O0054) Table 39.02.004.c-2 SF-2 Lot Density and Dimensions (copy hosted on commercialsearch.com)",
+        "url": "https://www.commercialsearch.com/pdfs/5B0534BA-3124-4149-809A-93853971ED2D",
+        "read": "2026-10-11",
+        "section": "Table 39.02.004.c-2"
+      }
+    },
+    {
+      "id": "lubbock-garage",
+      "ruleType": "garage-placement",
+      "area": "plan",
+      "change": "Front-loaded garage door at least 20 ft from front property line even where house front setback is less",
+      "priority": "should",
+      "params": {
+        "minGarageFrontFt": 20
+      },
+      "source": {
+        "id": "lubbock-udc-sf2-table-copy",
+        "title": "City of Lubbock UDC (Ord. 2023-O0054) Table 39.02.004.c-2 SF-2 Lot Density and Dimensions (copy hosted on commercialsearch.com)",
+        "url": "https://www.commercialsearch.com/pdfs/5B0534BA-3124-4149-809A-93853971ED2D",
+        "read": "2026-10-11",
+        "section": "Table 39.02.004.c-2"
+      }
+    },
+    {
       "id": "lubbock-snow",
-      "ruleType": "other",
+      "ruleType": "snow-load",
       "area": "structure",
-      "change": "Ground snow load 15 psf (city design criteria)",
+      "change": "Ground snow load 15 psf (city Table R301.2(1))",
       "priority": "should",
       "params": {
         "groundSnowPsf": 15
       },
       "source": {
-        "id": "lubbock-design-criteria-pdf",
-        "title": "City of Lubbock: Summary of Climatic and Geographic Design Criteria (Ground Snow Load: 15 psf ...)",
-        "url": "https://ci.lubbock.tx.us/storage/images/qqbpYuJZdDn81GbrfkZvIjyI0rDSGpNBjBnoGz5Z.pdf",
-        "read": "2026-10-11"
+        "id": "lubbock-design-criteria-325",
+        "title": "City of Lubbock - Climatic and Geographic Design Criteria sheet",
+        "url": "https://www.mylubbock.us/DocumentCenter/View/325",
+        "read": "2026-10-11",
+        "section": "IRC Table R301.2(1)"
+      }
+    },
+    {
+      "id": "lubbock-wind",
+      "ruleType": "wind-speed",
+      "area": "structure",
+      "change": "Design wind speed 115 mph (Risk Cat II) per city criteria",
+      "priority": "should",
+      "params": {
+        "ultimateWindMph": 115
+      },
+      "source": {
+        "id": "lubbock-design-criteria-325",
+        "title": "City of Lubbock - Climatic and Geographic Design Criteria sheet",
+        "url": "https://www.mylubbock.us/DocumentCenter/View/325",
+        "read": "2026-10-11",
+        "section": "IRC Table R301.2(1)"
+      }
+    },
+    {
+      "id": "lubbock-frost",
+      "ruleType": "frost-depth",
+      "area": "foundation",
+      "change": "Frost line 12 in below grade (city criteria)",
+      "priority": "should",
+      "params": {
+        "minFootingDepthIn": 12
+      },
+      "source": {
+        "id": "lubbock-design-criteria-325",
+        "title": "City of Lubbock - Climatic and Geographic Design Criteria sheet",
+        "url": "https://www.mylubbock.us/DocumentCenter/View/325",
+        "read": "2026-10-11",
+        "section": "IRC Table R301.2(1)"
       }
     },
     {
       "id": "lubbock-cz",
       "ruleType": "climate-zone-envelope",
       "area": "envelope",
-      "change": "Use climate zone 3B envelope tables",
+      "change": "Use climate zone 3B envelope tables under 2021 IECC (city-adopted, Ord. 2024-O0031)",
       "priority": "must",
       "params": {
-        "climateZone": "3B"
+        "climateZone": "3B",
+        "energyCode": "2021 IECC"
       },
       "source": {
-        "id": "iecc-2021-r301-1-assumed",
-        "title": "Assumed: 2021 IECC Table R301.1 county climate zones (not fetched)",
-        "url": "",
+        "id": "lubbock-ord-2024-o0031-iecc",
+        "title": "City of Lubbock Ordinance 2024-O0031 (2021 IECC, Art. 28.16)",
+        "url": "https://www.mylubbock.us/DocumentCenter/View/7660",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "lubbock-nec",
+      "ruleType": "electrical-code-edition",
+      "area": "drawings",
+      "change": "Electrical notes per NEC 2020 (city ordinance list) - confirm vs state 2023 NEC",
+      "priority": "nice",
+      "params": {
+        "nec": "2020",
+        "verify": true
+      },
+      "source": {
+        "id": "lubbock-ordinances-page",
+        "title": "City of Lubbock - Ordinances (building code adoption list)",
+        "url": "https://www.mylubbock.us/906/Ordinances",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "lubbock-flood",
+      "ruleType": "flood-elevation",
+      "area": "foundation",
+      "change": "In mapped flood areas: lowest floor >= BFE+1 ft, >= playa overflow+2 ft, and >= 18 in above highest adjacent gutter",
+      "priority": "should",
+      "params": {
+        "freeboardFt": 1,
+        "playaFreeboardFt": 2,
+        "aboveGutterIn": 18
+      },
+      "source": {
+        "id": "lubbock-ecode-flood-elev",
+        "title": "Lubbock UDC flood damage prevention - lowest floor elevation (ecode360)",
+        "url": "https://ecode360.com/45665927",
         "read": "2026-10-11"
       }
     },
@@ -659,63 +892,71 @@
       }
     },
     {
-      "id": "lubbock-frost",
-      "ruleType": "frost-depth",
-      "area": "foundation",
-      "change": "Footing depth >= 12 in until local frost line confirmed; flag for verification",
+      "id": "lubbock-permit-fee",
+      "ruleType": "permit-fee-formula",
+      "area": "estimate",
+      "change": "Building permit $0.11/sf, $50 min (FY23-24)",
       "priority": "should",
       "params": {
-        "minFootingDepthIn": 12,
-        "verifyLocal": true
+        "usdPerSqFt": 0.11,
+        "minUsd": 50
       },
       "source": {
-        "id": "irc-2021-r403-1-4-assumed",
-        "title": "Assumed: 2021 IRC R403.1.4 minimum footing depth 12 in (model code, not fetched)",
-        "url": "",
+        "id": "lubbock-fee-appendix-a-2024",
+        "title": "City of Lubbock Appendix A - Building Permit and related fees (Council agenda 2024-01-23)",
+        "url": "https://public.destinyhosted.com/lubbodocs/2024/REGCCM/20240123_1129/12220_Appendix_A_-_Building_Permit_and_related_fees.pdf",
         "read": "2026-10-11"
       }
     },
     {
-      "id": "lubbock-survey-district",
-      "ruleType": "survey-input-district",
-      "area": "survey",
-      "change": "Ask user for zoning district and setbacks (Lubbock UDC values not loaded)",
-      "priority": "must",
+      "id": "lubbock-impact-fee",
+      "ruleType": "impact-fee-estimate",
+      "area": "estimate",
+      "change": "Roadway impact fee by service area: 2.82 x fee/veh-mile; budget up to ~$3,150/home (area F); $0 in areas G,H",
+      "priority": "should",
       "params": {
-        "requireUserSetbacks": true
+        "tripFactorSF": 2.82,
+        "maxFeePerVehMile2025": 2233,
+        "collectionRate": 0.5,
+        "estUpperUsd": 3149
       },
       "source": {
-        "id": "lubbock-assumed",
-        "title": "Assumed: data gap",
-        "url": "",
+        "id": "lubbock-ciac-2025-comparison",
+        "title": "Lubbock CIAC City Comparisons (2025-05-12), roadway impact fee",
+        "url": "https://lubbocklights.com/wp-content/uploads/2025/07/2025_05-12-CIAC-City-Comparisons.pdf",
         "read": "2026-10-11"
       }
     }
   ],
-  "plainLanguage": "Lubbock is in climate zone 3B on the High Plains. The city publishes its own design-criteria sheet; the only value we could confirm is a ground snow load of 15 psf. Hail is frequent and severe, so impact-resistant (Class 4) shingles are a smart choice and often lower insurance, though we found no code mandate. Footings must be at least 12 inches below grade; the local frost line was not confirmed. Zoning setbacks, permit fees and impact fees still need to be checked with the city before finalizing.",
+  "plainLanguage": "Lubbock builds new homes under the 2021 International Residential Code with city amendments and the 2021 energy code (climate zone 3B). The most common new-home zoning is SF-2 under the 2023 Unified Development Code: lots of at least 5,000 sq ft and 40 ft wide, with 20 ft front, 5 ft side and 15 ft rear setbacks and a 35 ft height limit. A front-facing garage must sit at least 20 ft back. The city's design sheet sets 115 mph wind, 15 psf snow and a 12 in frost line. Hail is frequent and severe, so Class 4 shingles are a smart choice, though not required. The building permit runs about $0.11 per sq ft (roughly $310 for a 2,400 sq ft house with garage), and roadway impact fees of up to about $3,150 can apply depending on location. Near playa lakes, floors must be raised above flood levels.",
   "openQuestions": [
-    "Adopted IRC edition and Lubbock amendments.",
-    "Full Table R301.2(1) values from city design-criteria PDF (wind, frost, termite, winter temp).",
-    "Typical district under Lubbock Unified Development Code and its setbacks.",
-    "Permit fee schedule and any water/wastewater impact fees."
+    "Text of Lubbock IRC amendments 28.14.002-.003 and Ord. 2025-O0019 (foundation, other design items).",
+    "Was the 2025 SF-2 rear-setback amendment adopted, and what is the new value?",
+    "Current FY2025-26 permit fee rate and area basis; plan review fee.",
+    "Adopted 2025 roadway impact fee schedule per service area; whether water/wastewater impact fees are charged.",
+    "Whether city enforces NEC 2020 or state 2023 NEC.",
+    "Confirm flood elevation text is Lubbock's (ecode360 45665927)."
   ],
   "notFound": [
-    "Nearly all city-specific values: web search budget exhausted (shared limit) and direct page fetch blocked in research environment."
+    "Street-side setback, lot depth, lot coverage, ADU and parking rules in SF-2.",
+    "IRC local amendment text.",
+    "Water/sewer tap fees and water/wastewater impact fee amounts.",
+    "ZIP list / review days."
   ],
   "comparison": {
-    "irc": "not found",
-    "energy": "IRC Ch.11 (unverified)",
-    "plumbing": "not found",
-    "district": "not found",
-    "setbacks": "not found",
-    "maxHeight": "not found",
+    "irc": "2021 IRC (amended)",
+    "energy": "2021 IECC (amended)",
+    "plumbing": "IPC 2021",
+    "district": "SF-2",
+    "setbacks": "20/5/15",
+    "maxHeight": "35 ft",
     "coverageFar": "not found",
-    "masonry": "none (assumed)",
+    "masonry": "none",
     "engFoundation": "not found",
     "windstorm": "no",
-    "flood": "not found",
-    "permitFeeExample": "not found",
-    "impactFees": "not found",
+    "flood": "BFE+1 ft; playa+2 ft",
+    "permitFeeExample": "$312 (FY23-24 $0.11/sf)",
+    "impactFees": "roadway up to ~$3,150 (by area)",
     "costFactor": "PENDING"
   }
 }
