@@ -11,15 +11,15 @@
     "blsCode": "19100"
   },
   "population": {
-    "value": 400000,
-    "status": "Assumed",
+    "value": 398431,
+    "status": "Secondary",
     "source": {
-      "id": "assumed",
-      "title": "Assumed - researcher judgement (not verified this session)",
-      "url": "",
+      "id": "census-qf-arl-irv",
+      "title": "U.S. Census Bureau QuickFacts - Arlington city and Irving city, Texas",
+      "url": "https://census.gov/quickfacts/fact/table/arlingtoncitytexas,irvingcitytexas/POP010220",
       "read": "2026-10-11"
     },
-    "note": "About 400,000 (approximate, prior knowledge)."
+    "note": "Census Vintage 2023 estimate (July 1, 2023) seen in QuickFacts search extract; NCTCOG 2024 estimate 411,167."
   },
   "climateZone": {
     "value": "3A",
@@ -52,31 +52,31 @@
       "url": "",
       "read": "2026-10-11"
     },
-    "note": "Not found: official city-limits map. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+    "note": "Not found: official city-limits map. Not reached in wave 2 (fetch blocked; capped search budget spent on priority fields)."
   },
   "codes": {
     "irc": {
       "edition": {
-        "value": "2021 IRC (likely)",
-        "status": "Assumed",
+        "value": "2021 IRC (Arlington local amendments, Construction Chapter Art. I Sec. 1.04)",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed - researcher judgement (not verified this session)",
-          "url": "",
+          "id": "arlington-ord-25-075",
+          "title": "City of Arlington Ordinance 25-075 amending the Construction Chapter (recites 2021 code adoption by Ords. 22-055, 22-057, 22-058, 22-059 on 11-1-2022)",
+          "url": "https://www.arlingtontx.gov/files/assets/city/v/1/city-secretary/documents/city-code-of-ordinances/adopted-ordinances-not-yet-codified/construction-chapter-ord.-25-075.pdf",
           "read": "2026-10-11"
         },
-        "note": "Arlington is believed to have adopted the 2021 I-codes with NCTCOG regional amendments. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+        "note": "Ord. 25-075 recites that Ords. 22-055, 22-057, 22-058 and 22-059 adopted the 2021 IBC, IRC, IECC, IPC etc. on November 1, 2022, with local amendments in Article I. Seen only in search-result extracts of this page (page itself could not be fetched)."
       },
       "ordinance": {
-        "value": null,
-        "status": "Assumed",
+        "value": "Adopted 11-1-2022 by Ords. 22-055/22-057/22-058/22-059 (which one is the IRC not confirmed; 22-057 is IMC/IFGC per the Mechanical chapter); amended by Ord. 25-075 (multifamily green building)",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed - researcher judgement (not verified this session)",
-          "url": "",
+          "id": "arlington-ord-25-075",
+          "title": "City of Arlington Ordinance 25-075 amending the Construction Chapter (recites 2021 code adoption by Ords. 22-055, 22-057, 22-058, 22-059 on 11-1-2022)",
+          "url": "https://www.arlingtontx.gov/files/assets/city/v/1/city-secretary/documents/city-code-of-ordinances/adopted-ordinances-not-yet-codified/construction-chapter-ord.-25-075.pdf",
           "read": "2026-10-11"
         },
-        "note": "Not found: adoption ordinance number and date. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+        "note": "Seen only in search-result extracts of this page (page itself could not be fetched)."
       },
       "amendments": [
         {
@@ -91,7 +91,7 @@
             "read": "2026-10-11",
             "section": "Table R301.2(1)"
           },
-          "note": "Regional NCTCOG recommendation; this city's adoption of it is not confirmed."
+          "note": "Regional NCTCOG recommendation; Arlington's adoption of this item not confirmed (Sec. 1.04 text not read)."
         },
         {
           "topic": "other",
@@ -105,7 +105,7 @@
             "read": "2026-10-11",
             "section": "R302.1"
           },
-          "note": "Regional NCTCOG recommendation; this city's adoption of it is not confirmed."
+          "note": "Regional NCTCOG recommendation; Arlington's adoption of this item not confirmed (Sec. 1.04 text not read)."
         },
         {
           "topic": "other",
@@ -119,7 +119,7 @@
             "read": "2026-10-11",
             "section": "Chapter 11"
           },
-          "note": "Regional NCTCOG recommendation; this city's adoption of it is not confirmed."
+          "note": "Regional NCTCOG recommendation; Arlington's adoption of this item not confirmed (Sec. 1.04 text not read)."
         },
         {
           "topic": "other",
@@ -133,21 +133,35 @@
             "read": "2026-10-11",
             "section": "R202"
           },
-          "note": "Regional NCTCOG recommendation; this city's adoption of it is not confirmed."
+          "note": "Regional NCTCOG recommendation; Arlington's adoption of this item not confirmed (Sec. 1.04 text not read)."
+        },
+        {
+          "topic": "other",
+          "summary": "Ord. 25-075 adds Sec. 1.04 Subsection H green-building/EV-ready rules for multifamily and mixed-use only; no single-family change found.",
+          "section": "Construction Ch. Art. I Sec. 1.04(H)",
+          "status": "Secondary",
+          "source": {
+            "id": "arlington-ord-25-075",
+            "title": "City of Arlington Ordinance 25-075 amending the Construction Chapter (recites 2021 code adoption by Ords. 22-055, 22-057, 22-058, 22-059 on 11-1-2022)",
+            "url": "https://www.arlingtontx.gov/files/assets/city/v/1/city-secretary/documents/city-code-of-ordinances/adopted-ordinances-not-yet-codified/construction-chapter-ord.-25-075.pdf",
+            "read": "2026-10-11",
+            "section": "Construction Ch. Art. I Sec. 1.04(H)"
+          },
+          "note": "Seen only in search-result extracts of this page (page itself could not be fetched)."
         }
       ]
     },
     "energy": {
       "edition": {
-        "value": "2021 IECC (likely, with NCTCOG amendments)",
-        "status": "Assumed",
+        "value": "2021 IECC (Arlington amended, adopted 11-1-2022)",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed - researcher judgement (not verified this session)",
-          "url": "",
+          "id": "arlington-ord-25-075",
+          "title": "City of Arlington Ordinance 25-075 amending the Construction Chapter (recites 2021 code adoption by Ords. 22-055, 22-057, 22-058, 22-059 on 11-1-2022)",
+          "url": "https://www.arlingtontx.gov/files/assets/city/v/1/city-secretary/documents/city-code-of-ordinances/adopted-ordinances-not-yet-codified/construction-chapter-ord.-25-075.pdf",
           "read": "2026-10-11"
         },
-        "note": "Assumed to follow the 2021 cycle. Not verified."
+        "note": "Seen only in search-result extracts of this page (page itself could not be fetched)."
       },
       "stretchCode": {
         "value": false,
@@ -158,52 +172,52 @@
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "No local stretch code known."
+        "note": "No residential stretch code found; green-building rules in Ord. 25-075 cover multifamily/mixed-use only."
       }
     },
     "plumbing": {
-      "value": "IPC 2021 (likely)",
-      "status": "Assumed",
+      "value": "IPC 2021 (adopted 11-1-2022)",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
+        "id": "arlington-ord-25-075",
+        "title": "City of Arlington Ordinance 25-075 amending the Construction Chapter (recites 2021 code adoption by Ords. 22-055, 22-057, 22-058, 22-059 on 11-1-2022)",
+        "url": "https://www.arlingtontx.gov/files/assets/city/v/1/city-secretary/documents/city-code-of-ordinances/adopted-ordinances-not-yet-codified/construction-chapter-ord.-25-075.pdf",
         "read": "2026-10-11"
       },
-      "note": "DFW cities generally adopt IPC; not verified."
+      "note": "Seen only in search-result extracts of this page (page itself could not be fetched)."
     },
     "electrical": {
-      "value": null,
-      "status": "Assumed",
+      "value": "NEC 2020 (adopted with 2021 I-Codes, 2022)",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
+        "id": "arlington-codes-news-2022",
+        "title": "City of Arlington Proposing Building Code Updates (Sept 2022 news: 2021 I-Codes and 2020 NEC)",
+        "url": "https://www.arlingtontx.gov/News-Articles/2022/September/City-of-Arlington-Proposing-Building-Code-Updates",
         "read": "2026-10-11"
       },
-      "note": "Not found: NEC edition (2020 or 2023). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "note": "City news (Sept 2022) proposed 2020 NEC with the 2021 codes; final electrical ordinance not read. Seen only in search-result extracts of this page (page itself could not be fetched)."
     },
     "mechanical": {
-      "value": "2021 IMC (likely)",
-      "status": "Assumed",
+      "value": "2021 IMC (Ord. 22-057, 11-1-2022)",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
+        "id": "arlington-mechanical-ch",
+        "title": "City of Arlington Mechanical Code Chapter (Ord. 22-057 adopting 2021 IMC and IFGC)",
+        "url": "https://www.arlingtontx.gov/files/assets/city/v/2/city-secretary/documents/city-code-of-ordinances/mechanical-code-chapter.pdf",
         "read": "2026-10-11"
       },
-      "note": "Not verified."
+      "note": "Seen only in search-result extracts of this page (page itself could not be fetched)."
     },
     "fuelGas": {
-      "value": "2021 IFGC (likely)",
-      "status": "Assumed",
+      "value": "2021 IFGC (Ord. 22-057, 11-1-2022)",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
+        "id": "arlington-mechanical-ch",
+        "title": "City of Arlington Mechanical Code Chapter (Ord. 22-057 adopting 2021 IMC and IFGC)",
+        "url": "https://www.arlingtontx.gov/files/assets/city/v/2/city-secretary/documents/city-code-of-ordinances/mechanical-code-chapter.pdf",
         "read": "2026-10-11"
       },
-      "note": "Not verified."
+      "note": "Seen only in search-result extracts of this page (page itself could not be fetched)."
     },
     "fire": {
       "value": "2021 IFC (likely). No one/two-family sprinkler mandate expected (Texas Occ. Code 1301.551(i) opt-out common).",
@@ -226,7 +240,7 @@
         "read": "2026-10-11"
       },
       "unit": "mph",
-      "note": "Not found: local Table R301.2(1) wind value. ASCE 7-16 / IRC Fig R301.2(2) shows roughly 105-110 mph ultimate design wind speed (Risk Cat. II) in the DFW area; check the city's Table R301.2(1) entry. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "note": "Not found: local Table R301.2(1) wind value. ASCE 7-16 / IRC Fig R301.2(2) shows roughly 105-110 mph ultimate design wind speed (Risk Cat. II) in the DFW area; check the city's Table R301.2(1) entry. Not reached in wave 2 (fetch blocked; capped search budget spent on priority fields)."
     },
     "hailRoofing": {
       "value": "No local hail-roof mandate found. DFW is a high-hail area, so Class 4 impact-resistant shingles (UL 2218) are a common owner choice for insurance discounts, not a code rule.",
@@ -260,79 +274,88 @@
         "read": "2026-10-11"
       },
       "unit": "in",
-      "note": "Not found: the local frost-depth value in Table R301.2(1). DFW cities commonly list a shallow frost depth (often 6 in or less), but this was not verified. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "note": "Not found: the local frost-depth value in Table R301.2(1). DFW cities commonly list a shallow frost depth (often 6 in or less), but this was not verified. Not reached in wave 2 (fetch blocked; capped search budget spent on priority fields)."
     }
   },
   "zoning": {
     "hasZoning": {
       "value": true,
-      "status": "Assumed",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
+        "id": "arlington-zoning-districts",
+        "title": "City of Arlington - Zoning Districts",
+        "url": "https://www.arlingtontx.gov/Business/Development-Resources/Land-Development/Zoning-Unified-Development-Code/Zoning-Districts",
         "read": "2026-10-11"
       },
-      "note": "Large DFW city with zoning (regional knowledge)."
+      "note": "Arlington Unified Development Code (UDC)."
     },
     "typicalDistrict": {
-      "value": "RS-7.2 Residential Single-Family 7.2 (Arlington Unified Development Code) (assumed)",
-      "status": "Assumed",
+      "value": "RS-7.2 Residential Single-Family 7.2 (UDC Sec. 2.2.5)",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
-        "read": "2026-10-11"
+        "id": "arlington-udc-ch",
+        "title": "City of Arlington Unified Development Code Chapter (code of ordinances PDF), Sec. 2.2.5 RS-7.2",
+        "url": "https://www.arlingtontx.gov/files/assets/city/v/8/city-secretary/documents/city-code-of-ordinances/unified-development-code-chapter.pdf",
+        "read": "2026-10-11",
+        "section": "UDC 2.2.5"
       },
-      "note": "Assumed typical district under the Arlington UDC; district names and standards not read this session."
+      "note": "Others: RE, RS-20, RS-15, RS-5, VG. UDC chapter PDF extract (table text garbled). Seen only in search-result extracts of this page (page itself could not be fetched)."
     },
     "minLotSqFt": {
-      "value": null,
-      "status": "Assumed",
+      "value": 7200,
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
-        "read": "2026-10-11"
+        "id": "arlington-udc-ch",
+        "title": "City of Arlington Unified Development Code Chapter (code of ordinances PDF), Sec. 2.2.5 RS-7.2",
+        "url": "https://www.arlingtontx.gov/files/assets/city/v/8/city-secretary/documents/city-code-of-ordinances/unified-development-code-chapter.pdf",
+        "read": "2026-10-11",
+        "section": "UDC 2.2.5"
       },
-      "note": "Not found: minimum lot area for RS-7.2 Residential Single-Family 7.2 (Arlington Unified Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "unit": "sqft",
+      "note": "UDC chapter PDF extract (table text garbled). Seen only in search-result extracts of this page (page itself could not be fetched)."
     },
     "minLotWidthFt": {
-      "value": null,
-      "status": "Assumed",
+      "value": 60,
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
-        "read": "2026-10-11"
+        "id": "arlington-udc-ch",
+        "title": "City of Arlington Unified Development Code Chapter (code of ordinances PDF), Sec. 2.2.5 RS-7.2",
+        "url": "https://www.arlingtontx.gov/files/assets/city/v/8/city-secretary/documents/city-code-of-ordinances/unified-development-code-chapter.pdf",
+        "read": "2026-10-11",
+        "section": "UDC 2.2.5"
       },
-      "note": "Not found: minimum lot width for RS-7.2 Residential Single-Family 7.2 (Arlington Unified Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "unit": "ft",
+      "note": "UDC chapter PDF extract (table text garbled). Seen only in search-result extracts of this page (page itself could not be fetched)."
     },
     "minLotDepthFt": {
-      "value": null,
-      "status": "Assumed",
+      "value": 100,
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
-        "read": "2026-10-11"
+        "id": "arlington-udc-ch",
+        "title": "City of Arlington Unified Development Code Chapter (code of ordinances PDF), Sec. 2.2.5 RS-7.2",
+        "url": "https://www.arlingtontx.gov/files/assets/city/v/8/city-secretary/documents/city-code-of-ordinances/unified-development-code-chapter.pdf",
+        "read": "2026-10-11",
+        "section": "UDC 2.2.5"
       },
-      "note": "Not found: minimum lot depth for RS-7.2 Residential Single-Family 7.2 (Arlington Unified Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "unit": "ft",
+      "note": "UDC chapter PDF extract (table text garbled). Seen only in search-result extracts of this page (page itself could not be fetched)."
     },
     "setbacksFt": {
       "front": {
-        "value": null,
-        "status": "Assumed",
+        "value": 20,
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed - researcher judgement (not verified this session)",
-          "url": "",
-          "read": "2026-10-11"
+          "id": "arlington-udc-ch",
+          "title": "City of Arlington Unified Development Code Chapter (code of ordinances PDF), Sec. 2.2.5 RS-7.2",
+          "url": "https://www.arlingtontx.gov/files/assets/city/v/8/city-secretary/documents/city-code-of-ordinances/unified-development-code-chapter.pdf",
+          "read": "2026-10-11",
+          "section": "UDC 2.2.5"
         },
-        "note": "Not found: front setback for RS-7.2 Residential Single-Family 7.2 (Arlington Unified Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+        "unit": "ft",
+        "note": "20 ft from local street, alley or private access easement; 40 ft from arterial or collector. Proposed 2025 update lets covered porches and J-swing garages encroach 5 ft (not front-entry garages); adoption not confirmed. UDC chapter PDF extract (table text garbled). Seen only in search-result extracts of this page (page itself could not be fetched)."
       },
       "side": {
-        "value": null,
+        "value": 5,
         "status": "Assumed",
         "source": {
           "id": "assumed",
@@ -340,41 +363,48 @@
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Not found: side setback for RS-7.2 Residential Single-Family 7.2 (Arlington Unified Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+        "unit": "ft",
+        "note": "Interior side for RS-7.2 did not extract cleanly; 5 ft is the regional norm (buildingclub third-party list also says 5)."
       },
       "streetSide": {
-        "value": null,
-        "status": "Assumed",
+        "value": 15,
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed - researcher judgement (not verified this session)",
-          "url": "",
-          "read": "2026-10-11"
+          "id": "arlington-udc-ch",
+          "title": "City of Arlington Unified Development Code Chapter (code of ordinances PDF), Sec. 2.2.5 RS-7.2",
+          "url": "https://www.arlingtontx.gov/files/assets/city/v/8/city-secretary/documents/city-code-of-ordinances/unified-development-code-chapter.pdf",
+          "read": "2026-10-11",
+          "section": "UDC 2.2.5"
         },
-        "note": "Not found: streetSide setback for RS-7.2 Residential Single-Family 7.2 (Arlington Unified Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+        "unit": "ft",
+        "note": "15 ft; 10 ft next to private access easement or alley. UDC chapter PDF extract (table text garbled). Seen only in search-result extracts of this page (page itself could not be fetched)."
       },
       "rear": {
-        "value": null,
-        "status": "Assumed",
+        "value": 20,
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed - researcher judgement (not verified this session)",
-          "url": "",
-          "read": "2026-10-11"
+          "id": "arlington-udc-ch",
+          "title": "City of Arlington Unified Development Code Chapter (code of ordinances PDF), Sec. 2.2.5 RS-7.2",
+          "url": "https://www.arlingtontx.gov/files/assets/city/v/8/city-secretary/documents/city-code-of-ordinances/unified-development-code-chapter.pdf",
+          "read": "2026-10-11",
+          "section": "UDC 2.2.5"
         },
-        "note": "Not found: rear setback for RS-7.2 Residential Single-Family 7.2 (Arlington Unified Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+        "unit": "ft",
+        "note": "Street-rear 20 ft (all roadways), 5 ft next to alley/private access easement; interior rear not extracted cleanly - 20 ft used. UDC chapter PDF extract (table text garbled). Seen only in search-result extracts of this page (page itself could not be fetched)."
       }
     },
     "maxHeightFt": {
-      "value": null,
-      "status": "Assumed",
+      "value": 40,
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
-        "read": "2026-10-11"
+        "id": "arlington-udc-ch",
+        "title": "City of Arlington Unified Development Code Chapter (code of ordinances PDF), Sec. 2.2.5 RS-7.2",
+        "url": "https://www.arlingtontx.gov/files/assets/city/v/8/city-secretary/documents/city-code-of-ordinances/unified-development-code-chapter.pdf",
+        "read": "2026-10-11",
+        "section": "UDC 2.2.5"
       },
-      "note": "Not found: maximum height for RS-7.2 Residential Single-Family 7.2 (Arlington Unified Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "unit": "ft",
+      "note": "UDC chapter PDF extract (table text garbled). Seen only in search-result extracts of this page (page itself could not be fetched)."
     },
     "maxStories": {
       "value": null,
@@ -385,18 +415,20 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: maximum stories for RS-7.2 Residential Single-Family 7.2 (Arlington Unified Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "note": "Not found: maximum stories for RS-7.2. Not reached in wave 2 (fetch blocked; capped search budget spent on priority fields)."
     },
     "maxLotCoverage": {
-      "value": null,
-      "status": "Assumed",
+      "value": 0.5,
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
-        "read": "2026-10-11"
+        "id": "arlington-udc-ch",
+        "title": "City of Arlington Unified Development Code Chapter (code of ordinances PDF), Sec. 2.2.5 RS-7.2",
+        "url": "https://www.arlingtontx.gov/files/assets/city/v/8/city-secretary/documents/city-code-of-ordinances/unified-development-code-chapter.pdf",
+        "read": "2026-10-11",
+        "section": "UDC 2.2.5"
       },
-      "note": "Not found: maximum lot coverage for RS-7.2 Residential Single-Family 7.2 (Arlington Unified Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "unit": "fraction",
+      "note": "Max single-family lot coverage 50%. UDC chapter PDF extract (table text garbled). Seen only in search-result extracts of this page (page itself could not be fetched)."
     },
     "imperviousCover": {
       "value": null,
@@ -407,7 +439,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: impervious cover limit for RS-7.2 Residential Single-Family 7.2 (Arlington Unified Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "note": "Not found: impervious cover limit for RS-7.2. Not reached in wave 2 (fetch blocked; capped search budget spent on priority fields)."
     },
     "far": {
       "value": null,
@@ -418,7 +450,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: FAR for RS-7.2 Residential Single-Family 7.2 (Arlington Unified Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "note": "Not found: FAR for RS-7.2. Not reached in wave 2 (fetch blocked; capped search budget spent on priority fields)."
     },
     "parking": {
       "value": null,
@@ -429,18 +461,18 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: parking minimum for RS-7.2 Residential Single-Family 7.2 (Arlington Unified Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "note": "Not found: parking minimum for RS-7.2. Not reached in wave 2 (fetch blocked; capped search budget spent on priority fields)."
     },
     "garageRules": {
-      "value": null,
-      "status": "Assumed",
+      "value": "Special setback rules for front-facing garages in all SF districts (UDC 4.1.6.G). Proposed 2025: front-facing garage openings max 55% of dwelling width; max two bays per shared garage door.",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
+        "id": "arlington-udc-2025",
+        "title": "City of Arlington Unified Development Code Annual Update 2025 (proposed amendments)",
+        "url": "https://www.arlingtontx.gov/files/assets/city/v/2/planning-and-development-services/documents/zoning-unified-development-code/annual-udc-updates-2025.pdf",
         "read": "2026-10-11"
       },
-      "note": "Not found: garage placement/orientation rules for RS-7.2 Residential Single-Family 7.2 (Arlington Unified Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "note": "Proposed amendments; adoption not confirmed. Seen only in search-result extracts of this page (page itself could not be fetched)."
     },
     "adu": {
       "value": null,
@@ -451,19 +483,18 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: ADU rules for RS-7.2 Residential Single-Family 7.2 (Arlington Unified Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "note": "Not found: ADU rules for RS-7.2. Not reached in wave 2 (fetch blocked; capped search budget spent on priority fields)."
     },
     "masonry": {
-      "value": "No enforceable masonry percentage for new single-family homes made of materials approved by a national model code (Gov't Code ch. 3000, HB 2439, 2019); exceptions: designated historic districts/landmarks, and windstorm/flood-insurance materials. Older city masonry percentages for single-family homes cannot be enforced against code-approved materials, except in historic districts.",
+      "value": "No facade masonry % found in UDC extracts; any such rule unenforceable for single-family under Gov't Code ch. 3000; HOA/deed restrictions may require it.",
       "status": "Secondary",
       "source": {
         "id": "tx-hb2439-fw-memo",
         "title": "HB 2439 (2019) staff summary - Fort Worth Development Services (Gov't Code ch. 3000 building-materials preemption)",
         "url": "https://www.fortworthtexas.gov/files/assets/public/v/1/development-services/documents/housebill-2439.pdf",
-        "read": "2026-10-11",
-        "section": "Tex. Gov't Code ch. 3000 (HB 2439, 86th Leg. 2019)"
+        "read": "2026-10-11"
       },
-      "note": "Statute text itself (statutes.capitol.texas.gov) not read this session; summary from city staff memos. Planned developments and deed restrictions or HOAs may still require masonry."
+      "note": "Searched Arlington UDC design standards; only fence material rules surfaced."
     },
     "trees": {
       "value": null,
@@ -474,22 +505,22 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: tree preservation/mitigation ordinance for RS-7.2 Residential Single-Family 7.2 (Arlington Unified Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "note": "Not found: tree preservation/mitigation ordinance for RS-7.2. Not reached in wave 2 (fetch blocked; capped search budget spent on priority fields)."
     },
     "other": []
   },
   "process": {
     "steps": [
       {
-        "value": "Confirm zoning and plat, submit the residential permit with a sealed foundation design, plan review, permit, inspections, Certificate of Occupancy.",
-        "status": "Assumed",
+        "value": "Apply online at ArlingtonPermits.com (account, permit type, upload documents); pay non-refundable plan review fee at submittal; plan review vs building codes and zoning; separate concrete/foundation permit type exists; inspections; CO.",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed - researcher judgement (not verified this session)",
-          "url": "",
+          "id": "arlington-sf-guide",
+          "title": "City of Arlington - Single Family Rapid Reference Guide (permits)",
+          "url": "https://www.arlingtontx.gov/City-Services/Code-Compliance/Code-Compliance-Directory/Single-Family-Rapid-Reference-Guide",
           "read": "2026-10-11"
         },
-        "note": "Typical DFW sequence; not verified."
+        "note": "Seen only in search-result extracts of this page (page itself could not be fetched)."
       }
     ],
     "sealsRequired": [
@@ -527,54 +558,68 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: review time. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "note": "Not found: review time. Not reached in wave 2 (fetch blocked; capped search budget spent on priority fields)."
     }
   },
   "fees": {
     "permitFormula": {
-      "value": null,
-      "status": "Assumed",
+      "value": "One- and two-family new construction: by square footage per Table 2 (e.g., 0-1,200 sq ft $0.80/sq ft; 1,201-2,000 sq ft $0.64/sq ft; higher tiers not seen) plus plan review 35% of permit fee",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
+        "id": "arlington-fee-2025",
+        "title": "City of Arlington Planning and Development Services Fee Schedule (Exhibit A, 9-1-25)",
+        "url": "https://www.arlingtontx.gov/files/assets/city/v/1/planning-and-development-services/documents/permitting-amp-inspections/fee-schedule-9-1-25.pdf",
         "read": "2026-10-11"
       },
-      "note": "Not found: residential permit fee formula. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "note": "Schedule dated 9-1-25; Phase 2 fee changes effective 10-1-2025. Whether tiers are marginal or whole-area not clear; 'cents' wording in schedule is likely a typo for dollars. Seen only in search-result extracts of this page (page itself could not be fetched)."
     },
     "workedExample2400sqft": {
-      "value": null,
+      "value": 2074,
       "status": "Assumed",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
+        "id": "arlington-fee-2025",
+        "title": "City of Arlington Planning and Development Services Fee Schedule (Exhibit A, 9-1-25)",
+        "url": "https://www.arlingtontx.gov/files/assets/city/v/1/planning-and-development-services/documents/permitting-amp-inspections/fee-schedule-9-1-25.pdf",
         "read": "2026-10-11"
       },
-      "note": "Not found: permit fee - cannot compute without fee schedule. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "unit": "USD",
+      "note": "Assumption: 2,400 sq ft living (garage basis unknown) at the $0.64 rate (tier above 2,000 sf not seen; assumed same): 2,400 x 0.64 = $1,536; plan review 35% = $537.60; total $2,073.60. If tiers are marginal (1,200 x 0.80 + 1,200 x 0.64) = $1,728 + 35% = $2,332.80. Use the city's residential fee calculator to confirm."
     },
     "planReview": {
-      "value": null,
-      "status": "Assumed",
+      "value": "35% of building permit fee, non-refundable, at submittal",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
+        "id": "arlington-fee-2025",
+        "title": "City of Arlington Planning and Development Services Fee Schedule (Exhibit A, 9-1-25)",
+        "url": "https://www.arlingtontx.gov/files/assets/city/v/1/planning-and-development-services/documents/permitting-amp-inspections/fee-schedule-9-1-25.pdf",
         "read": "2026-10-11"
       },
-      "note": "Not found: plan review fee. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "note": "Seen only in search-result extracts of this page (page itself could not be fetched)."
     },
     "impactFees": [
       {
-        "value": null,
-        "status": "Assumed",
+        "value": 1246,
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed - researcher judgement (not verified this session)",
-          "url": "",
+          "id": "arlington-impact-schedule",
+          "title": "City of Arlington impact fee - new fee schedules (Ord. 17-002, eff. 7-1-2017)",
+          "url": "https://www.arlingtontx.gov/files/assets/city/v/3/planning-and-development-services/documents/long-range-planning/new-fee-schedules.pdf",
           "read": "2026-10-11"
         },
-        "note": "Not found: water/wastewater/roadway impact fees. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+        "unit": "USD",
+        "note": "Collection rates per 5/8\" meter equivalent (Ord. 17-002, eff. 7-1-2017): water $828 + sewer $418 = $1,246. Later updates not found. Seen only in search-result extracts of this page (page itself could not be fetched)."
+      },
+      {
+        "value": "Roadway: $253.00 (Area A), $312.50 (most areas), $0 (Areas D and J) per PM-peak vehicle-mile",
+        "status": "Secondary",
+        "source": {
+          "id": "arlington-impact-schedule",
+          "title": "City of Arlington impact fee - new fee schedules (Ord. 17-002, eff. 7-1-2017)",
+          "url": "https://www.arlingtontx.gov/files/assets/city/v/3/planning-and-development-services/documents/long-range-planning/new-fee-schedules.pdf",
+          "read": "2026-10-11"
+        },
+        "unit": "USD per vehicle-mile",
+        "note": "Vehicle-miles per single-family home not found. Seen only in search-result extracts of this page (page itself could not be fetched)."
       }
     ],
     "tapFees": [
@@ -587,7 +632,7 @@
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Not found: water/sewer tap fees. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+        "note": "Not found: water/sewer tap fees. Not reached in wave 2 (fetch blocked; capped search budget spent on priority fields)."
       }
     ]
   },
@@ -613,7 +658,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: market build cost per sq ft. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "note": "Not found: market build cost per sq ft. Not reached in wave 2 (fetch blocked; capped search budget spent on priority fields)."
     },
     "drivers": [
       {
@@ -630,25 +675,118 @@
     ]
   },
   "flood": {
-    "value": null,
-    "status": "Assumed",
+    "value": "Lowest floor (incl. basement and finished garage) 2 ft above the fully urbanized (ultimate-development) base flood elevation; service equipment also 2 ft above (amended Ord. 25-082, 10/14/25); substantial improvement threshold 25%.",
+    "status": "Secondary",
     "source": {
-      "id": "assumed",
-      "title": "Assumed - researcher judgement (not verified this session)",
-      "url": "",
-      "read": "2026-10-11"
+      "id": "arlington-flood-ch",
+      "title": "City of Arlington Flood Damage Prevention Chapter (code of ordinances PDF), Sec. 5.02",
+      "url": "https://www.arlingtontx.gov/files/assets/city/v/3/city-secretary/documents/city-code-of-ordinances/flood-damage-prevention-chapter.pdf",
+      "read": "2026-10-11",
+      "section": "Sec. 5.02(1)"
     },
-    "note": "Not found: floodplain ordinance freeboard. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+    "note": "Seen only in search-result extracts of this page (page itself could not be fetched)."
   },
   "engineChanges": [
+    {
+      "id": "arlington-setbacks-rs72",
+      "ruleType": "setback-by-district",
+      "area": "setbacks",
+      "change": "RS-7.2: front 20 ft (40 ft on arterial/collector), street side 15 ft, interior side 5 ft (assumed), rear 20 ft; plat lines govern.",
+      "priority": "must",
+      "params": {
+        "district": "RS-7.2",
+        "frontFt": 20,
+        "frontArterialFt": 40,
+        "streetSideFt": 15,
+        "sideFt": 5,
+        "rearFt": 20
+      },
+      "source": {
+        "id": "arlington-udc-ch",
+        "title": "City of Arlington Unified Development Code Chapter (code of ordinances PDF), Sec. 2.2.5 RS-7.2",
+        "url": "https://www.arlingtontx.gov/files/assets/city/v/8/city-secretary/documents/city-code-of-ordinances/unified-development-code-chapter.pdf",
+        "read": "2026-10-11",
+        "section": "UDC 2.2.5"
+      }
+    },
+    {
+      "id": "arlington-lot-rs72",
+      "ruleType": "lot-min-size",
+      "area": "survey",
+      "change": "RS-7.2 minimum lot 7,200 sf, 60 ft wide, 100 ft deep.",
+      "priority": "should",
+      "params": {
+        "minLotSqFt": 7200,
+        "minLotWidthFt": 60,
+        "minLotDepthFt": 100
+      },
+      "source": {
+        "id": "arlington-udc-ch",
+        "title": "City of Arlington Unified Development Code Chapter (code of ordinances PDF), Sec. 2.2.5 RS-7.2",
+        "url": "https://www.arlingtontx.gov/files/assets/city/v/8/city-secretary/documents/city-code-of-ordinances/unified-development-code-chapter.pdf",
+        "read": "2026-10-11",
+        "section": "UDC 2.2.5"
+      }
+    },
+    {
+      "id": "arlington-height-rs72",
+      "ruleType": "height-limit",
+      "area": "massing",
+      "change": "Cap height at 40 ft in RS-7.2.",
+      "priority": "must",
+      "params": {
+        "maxHeightFt": 40
+      },
+      "source": {
+        "id": "arlington-udc-ch",
+        "title": "City of Arlington Unified Development Code Chapter (code of ordinances PDF), Sec. 2.2.5 RS-7.2",
+        "url": "https://www.arlingtontx.gov/files/assets/city/v/8/city-secretary/documents/city-code-of-ordinances/unified-development-code-chapter.pdf",
+        "read": "2026-10-11",
+        "section": "UDC 2.2.5"
+      }
+    },
+    {
+      "id": "arlington-coverage-rs72",
+      "ruleType": "lot-coverage",
+      "area": "massing",
+      "change": "Limit lot coverage to 50% in RS-7.2.",
+      "priority": "must",
+      "params": {
+        "maxLotCoverage": 0.5
+      },
+      "source": {
+        "id": "arlington-udc-ch",
+        "title": "City of Arlington Unified Development Code Chapter (code of ordinances PDF), Sec. 2.2.5 RS-7.2",
+        "url": "https://www.arlingtontx.gov/files/assets/city/v/8/city-secretary/documents/city-code-of-ordinances/unified-development-code-chapter.pdf",
+        "read": "2026-10-11",
+        "section": "UDC 2.2.5"
+      }
+    },
+    {
+      "id": "arlington-garage",
+      "ruleType": "garage-placement",
+      "area": "plan",
+      "change": "Front-facing garage: apply UDC 4.1.6.G garage setback; keep garage openings <= 55% of house width (proposed 2025).",
+      "priority": "should",
+      "params": {
+        "maxGarageWidthPctOfFacade": 0.55,
+        "proposed": true
+      },
+      "source": {
+        "id": "arlington-udc-2025",
+        "title": "City of Arlington Unified Development Code Annual Update 2025 (proposed amendments)",
+        "url": "https://www.arlingtontx.gov/files/assets/city/v/2/planning-and-development-services/documents/zoning-unified-development-code/annual-udc-updates-2025.pdf",
+        "read": "2026-10-11"
+      }
+    },
     {
       "id": "arlington-district-input",
       "ruleType": "survey-input-district",
       "area": "survey",
-      "change": "Ask for the actual zoning district (default RS-7.2 Residential Single-Family 7.2 (Arlington Unified Development Code) (assumed)) and plat building lines; no setbacks verified yet, so do not auto-fill.",
+      "change": "Ask for the actual zoning district (default RS-7.2) and plat building lines; no setbacks verified yet, so do not auto-fill.",
       "priority": "must",
       "params": {
-        "defaultDistrict": "RS-7.2 Residential Single-Family 7.2 (Arlington Unified Development Code) (assumed)",
+        "defaultDistrict": "RS-7.2",
         "setbacksVerified": false
       },
       "source": {
@@ -692,6 +830,68 @@
       }
     },
     {
+      "id": "arlington-flood",
+      "ruleType": "flood-elevation",
+      "area": "survey",
+      "change": "In floodplain set lowest floor and finished garage 2 ft above fully urbanized BFE (not FEMA effective BFE).",
+      "priority": "must",
+      "params": {
+        "freeboardFt": 2,
+        "basis": "fully urbanized BFE"
+      },
+      "source": {
+        "id": "arlington-flood-ch",
+        "title": "City of Arlington Flood Damage Prevention Chapter (code of ordinances PDF), Sec. 5.02",
+        "url": "https://www.arlingtontx.gov/files/assets/city/v/3/city-secretary/documents/city-code-of-ordinances/flood-damage-prevention-chapter.pdf",
+        "read": "2026-10-11",
+        "section": "Sec. 5.02(1)"
+      }
+    },
+    {
+      "id": "arlington-permit-fee",
+      "ruleType": "permit-fee-formula",
+      "area": "estimate",
+      "change": "Permit by sq ft tiers (Table 2: $0.80 up to 1,200; $0.64 1,201-2,000) + 35% plan review.",
+      "priority": "must",
+      "params": {
+        "tiers": [
+          [
+            1200,
+            0.8
+          ],
+          [
+            2000,
+            0.64
+          ]
+        ],
+        "planReviewPct": 0.35
+      },
+      "source": {
+        "id": "arlington-fee-2025",
+        "title": "City of Arlington Planning and Development Services Fee Schedule (Exhibit A, 9-1-25)",
+        "url": "https://www.arlingtontx.gov/files/assets/city/v/1/planning-and-development-services/documents/permitting-amp-inspections/fee-schedule-9-1-25.pdf",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "arlington-impact-fees",
+      "ruleType": "impact-fee-estimate",
+      "area": "estimate",
+      "change": "Add water $828 + sewer $418 per 5/8 meter, plus roadway $253-312.50 per vehicle-mile by service area.",
+      "priority": "must",
+      "params": {
+        "waterUSD": 828,
+        "sewerUSD": 418,
+        "roadwayPerVehMileUSD": 312.5
+      },
+      "source": {
+        "id": "arlington-impact-schedule",
+        "title": "City of Arlington impact fee - new fee schedules (Ord. 17-002, eff. 7-1-2017)",
+        "url": "https://www.arlingtontx.gov/files/assets/city/v/3/planning-and-development-services/documents/long-range-planning/new-fee-schedules.pdf",
+        "read": "2026-10-11"
+      }
+    },
+    {
       "id": "arlington-masonry",
       "ruleType": "masonry-percentage",
       "area": "envelope",
@@ -724,49 +924,38 @@
         "url": "https://nctcog.org/getmedia/feafbc55-3c35-4022-bcab-6b07c95c7f9e/2021-IRC-Amendments-Final.pdf",
         "read": "2026-10-11"
       }
-    },
-    {
-      "id": "arlington-impact-fee-check",
-      "ruleType": "impact-fee-estimate",
-      "area": "estimate",
-      "change": "Arlington is believed to charge water and wastewater impact fees on new homes. Keep an impact-fee line marked TBD instead of $0.",
-      "priority": "should",
-      "params": {
-        "impactFeeUSD": null,
-        "expected": [
-          "water",
-          "wastewater"
-        ]
-      },
-      "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
-        "read": "2026-10-11"
-      }
     }
   ],
-  "plainLanguage": "Arlington is a large North Texas city that most likely builds homes under the 2021 International Residential Code with the regional NCTCOG amendments; this has not been confirmed yet. North Texas clay soils swell and shrink, so plan on an engineer-designed post-tensioned slab foundation. Your lot's zoning district and subdivision plat set how far the house must sit from the property lines. We have not verified those numbers for Arlington yet, so enter them from your plat or zoning letter. State law stops the city from requiring a brick or stone percentage on a normal lot, but your HOA or deed restrictions may still require one. Arlington is believed to charge water and wastewater impact fees on new homes. Permit, impact and tap fees still need to be confirmed with the city.",
+  "plainLanguage": "Arlington adopted the 2021 International Residential Code with local changes in November 2022, with the 2021 energy and plumbing codes and (most likely) the 2020 electrical code. Most new homes are in the RS-7.2 district: 7,200 sq ft lots, 60 ft wide. The house sits at least 20 ft back from a local street (40 ft from a major road), 15 ft from a side street, and about 5 ft from side neighbors, with a 20 ft rear yard. Height can go to 40 ft and the house can cover up to half the lot. In a floodplain, the floor and any finished garage must be 2 ft above the city's future-development flood level, which is stricter than the FEMA map. Expect water ($828) and sewer ($418) impact fees plus a roadway impact fee that depends on your area. The permit runs roughly $2,100-2,300 for a 2,400 sq ft home including plan review. Clay soils usually call for an engineer-designed slab.",
   "openQuestions": [
-    "Everything city-specific: IRC adoption ordinance and amendments, typical-district setbacks, height, coverage, ADU, trees, fees, impact fees, floodplain freeboard - research tools were unavailable this session."
+    "Confirm RS-7.2 interior side and interior rear setbacks in UDC 2.2.5.",
+    "Read Construction Chapter Sec. 1.04 for single-family IRC amendments (foundation, sprinklers).",
+    "Which ordinance (22-055/058/059) adopted the IRC; NEC edition final.",
+    "Table 2 tiers above 2,000 sq ft; whether garage area counts.",
+    "Current impact-fee collection rates (2017 schedule may have been updated); vehicle-miles per SF home.",
+    "Were 2025 UDC garage/porch amendments adopted?"
   ],
   "notFound": [
-    "All city-specific code, zoning and fee values (tools unavailable: WebFetch DNS failure, proxy 403, search budget exhausted)"
+    "Arlington Sec. 1.04 single-family amendment text",
+    "Fee tier above 2,000 sq ft",
+    "Post-2017 impact-fee updates",
+    "Tap fees",
+    "Market cost per sq ft"
   ],
   "comparison": {
-    "irc": "2021 IRC (assumed)",
-    "energy": "2021 IECC (assumed)",
-    "plumbing": "IPC 2021 (assumed)",
-    "district": "RS-7.2 Residential Single-Family 7.2 (Arlington Unified Development Code) (assumed)",
-    "setbacks": "unknown",
-    "maxHeight": "unknown",
-    "coverageFar": "unknown",
-    "masonry": "none enforceable (Gov't Code 3000)",
+    "irc": "2021 IRC (Arlington amended)",
+    "energy": "2021 IECC (amended)",
+    "plumbing": "IPC 2021",
+    "district": "RS-7.2",
+    "setbacks": "20/5/20 (40 ft arterial front; 15 street side)",
+    "maxHeight": "40 ft",
+    "coverageFar": "50% / no FAR",
+    "masonry": "none (Gov't Code 3000)",
     "engFoundation": "likely (regional practice)",
     "windstorm": "no",
-    "flood": "unknown",
-    "permitFeeExample": "unknown",
-    "impactFees": "unknown",
+    "flood": "2 ft above fully urbanized BFE",
+    "permitFeeExample": "~$2,074 (assumed tier)",
+    "impactFees": "$1,246 water+sewer + roadway",
     "costFactor": "PENDING"
   }
 }

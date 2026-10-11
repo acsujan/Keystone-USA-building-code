@@ -1,788 +1,910 @@
 {
- "id": "mckinney",
- "name": "City of McKinney",
- "state": "TX",
- "tier": 1,
- "counties": [
-  "Collin"
- ],
- "msa": {
-  "name": "Dallas-Fort Worth-Arlington, TX",
-  "blsCode": "19100"
- },
- "population": {
-  "value": 215000,
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed - agent judgement (no source could be read this session)",
-   "url": "",
-   "read": "2026-10-11"
+  "id": "mckinney",
+  "name": "City of McKinney",
+  "state": "TX",
+  "tier": 1,
+  "counties": [
+    "Collin"
+  ],
+  "msa": {
+    "name": "Dallas-Fort Worth-Arlington, TX",
+    "blsCode": "19100"
   },
-  "note": "Approximate Census Vintage 2024 estimate (~215,000) from agent knowledge; census.gov not reachable."
- },
- "zipCodesOrBoundary": {
-  "value": "75069, 75070, 75071, 75072 (75409/75454 partly)",
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed - agent judgement (no source could be read this session)",
-   "url": "",
-   "read": "2026-10-11"
-  },
-  "note": "Agent knowledge; confirm with city-limits GIS map (also ETJ/MUD areas)."
- },
- "climateZone": {
-  "value": "3A",
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed - agent judgement (no source could be read this session)",
-   "url": "",
-   "read": "2026-10-11"
-  },
-  "note": "2021/2024 IECC Table R301.1 county list places Collin and Denton Counties in Climate Zone 3A (agent knowledge; could not fetch IECC/DOE page this session)."
- },
- "windstormCounty": {
-  "value": false,
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed - agent judgement (no source could be read this session)",
-   "url": "",
-   "read": "2026-10-11"
-  },
-  "note": "Collin/Denton are inland North Texas counties, not in the TDI windstorm (catastrophe) area, which covers only the 14 coastal counties and parts of Harris (agent knowledge)."
- },
- "codes": {
-  "irc": {
-   "edition": {
-    "value": "2021 IRC",
+  "population": {
+    "value": 215000,
     "status": "Assumed",
     "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (no source could be read this session)",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "McKinney adopted the 2021 I-codes with NCTCOG amendments (agent knowledge); not verified this session and may since have moved to 2024 codes like Frisco did."
-   },
-   "ordinance": {
-    "value": null,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (no source could be read this session)",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Not found: City of McKinney IRC adoption ordinance number. Web fetch blocked by egress policy and session web-search budget exhausted."
-   },
-   "amendments": [
-    {
-     "topic": "other",
-     "summary": "North Central Texas COG (NCTCOG) regional amendments to the 2021 IRC are commonly adopted by Collin County cities (e.g. frost depth, wind, foundation/soil, garage separation clarifications); City of McKinney adoption not verified this session.",
-     "status": "Assumed",
-     "source": {
       "id": "assumed",
       "title": "Assumed - agent judgement (no source could be read this session)",
       "url": "",
       "read": "2026-10-11"
-     }
     },
-    {
-     "topic": "fire sprinklers",
-     "summary": "Texas bars city sprinkler mandates for one/two-family homes unless in effect on/before 2009-01-01; no grandfathered rule verified for this city.",
-     "status": "Secondary",
-     "source": {
-      "id": "tx-hb738-allensworth",
-      "title": "HB 738: Texas Adopts 2012 Versions of IRC and IBC; Addresses Residential Fire Sprinklers (law-firm summary)",
-      "url": "https://www.allensworthlaw.com/legal-updates/hb-738/",
+    "note": "Approximate; Census V2023/V2024 figure not surfaced. NCTCOG reports McKinney added 11,310 residents in year to Jan 1, 2025. Agent estimate ~215,000."
+  },
+  "zipCodesOrBoundary": {
+    "value": "75069, 75070, 75071, 75072 (75409/75454 partly)",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed - agent judgement (no source could be read this session)",
+      "url": "",
       "read": "2026-10-11"
-     }
+    },
+    "note": "Agent knowledge; confirm with city-limits GIS map (also ETJ/MUD areas)."
+  },
+  "climateZone": {
+    "value": "3A",
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed - agent judgement (no source could be read this session)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "2021/2024 IECC Table R301.1 county list places Collin and Denton Counties in Climate Zone 3A (agent knowledge; could not fetch IECC/DOE page this session)."
+  },
+  "windstormCounty": {
+    "value": false,
+    "status": "Assumed",
+    "source": {
+      "id": "assumed",
+      "title": "Assumed - agent judgement (no source could be read this session)",
+      "url": "",
+      "read": "2026-10-11"
+    },
+    "note": "Collin/Denton are inland North Texas counties, not in the TDI windstorm (catastrophe) area, which covers only the 14 coastal counties and parts of Harris (agent knowledge)."
+  },
+  "codes": {
+    "irc": {
+      "edition": {
+        "value": "2024 IRC",
+        "status": "Secondary",
+        "source": {
+          "id": "mckinney-building-inspections",
+          "title": "City of McKinney Building Inspections page (2024 codes adopted, effective 2025-10-01)",
+          "url": "https://www.mckinneytexas.org/243/Building-Inspections",
+          "read": "2026-10-11"
+        },
+        "note": "City Building Inspections page: McKinney adopted the 2024 codes, effective 2025-10-01 (IBC, IRC, IPC, IMC, IFGC, IECC, IPMC, ISPSC, IFC). Municode Sec. 122-36 text still shows 2021 IRC with Appendix AQ Tiny Houses, amended by Ord. 2025-08-068 (likely the 2024 adoption; Municode lag). Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
+      },
+      "ordinance": {
+        "value": "Ord. No. 2025-08-068 (amending Ch. 122 Art. II; effective 2025-10-01) - inferred",
+        "status": "Secondary",
+        "source": {
+          "id": "mckinney-municode-122-36",
+          "title": "McKinney Code of Ordinances Ch. 122 Construction Regulations, Art. II Building Codes (Sec. 122-36 et seq.)",
+          "url": "https://library.municode.com/tx/mckinney/codes/code_of_ordinances?nodeId=SPBDERE_CH122CORE_ARTIIBUCO_S122-36AMINENCOCO",
+          "read": "2026-10-11"
+        },
+        "note": "Ordinance number appears as amendment note on Sec. 122-36; that it is the 2024 adoption is inference. Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
+      },
+      "amendments": [
+        {
+          "topic": "other",
+          "summary": "NCTCOG regional amendments applied (e.g. Table R301.2(1) climatic design criteria, air-conditioning requirement) per city 2024 IRC significant-changes document.",
+          "section": "R301.2(1)",
+          "status": "Secondary",
+          "source": {
+            "id": "mckinney-2024-irc-changes",
+            "title": "City of McKinney: 2024 International Residential Code significant changes",
+            "url": "https://www.mckinneytexas.org/DocumentCenter/View/36290/2024-International-Residential-Code-Significant-Changes",
+            "read": "2026-10-11"
+          }
+        },
+        {
+          "topic": "other",
+          "summary": "Appendix AQ Tiny Houses adopted (shown in Municode Sec. 122-36 text for 2021 edition).",
+          "section": "Appendix AQ",
+          "status": "Secondary",
+          "source": {
+            "id": "mckinney-municode-122-36",
+            "title": "McKinney Code of Ordinances Ch. 122 Construction Regulations, Art. II Building Codes (Sec. 122-36 et seq.)",
+            "url": "https://library.municode.com/tx/mckinney/codes/code_of_ordinances?nodeId=SPBDERE_CH122CORE_ARTIIBUCO_S122-36AMINENCOCO",
+            "read": "2026-10-11"
+          }
+        },
+        {
+          "topic": "foundation",
+          "summary": "Residential builder packet requires designer and structural engineer certification letters with submittal.",
+          "section": "",
+          "status": "Secondary",
+          "source": {
+            "id": "mckinney-residential-builder-packet",
+            "title": "City of McKinney Residential Builder Packet (submittal requirements)",
+            "url": "https://www.mckinneytexas.org/DocumentCenter/View/2670/Residential-Builder-Packet-",
+            "read": "2026-10-11"
+          }
+        }
+      ]
+    },
+    "energy": {
+      "edition": {
+        "value": "2024 IECC (with amendments)",
+        "status": "Secondary",
+        "source": {
+          "id": "mckinney-building-inspections",
+          "title": "City of McKinney Building Inspections page (2024 codes adopted, effective 2025-10-01)",
+          "url": "https://www.mckinneytexas.org/243/Building-Inspections",
+          "read": "2026-10-11"
+        },
+        "note": "In 2024 code list effective 2025-10-01; city energy compliance packets still reference 2021 IECC in places. Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
+      },
+      "stretchCode": {
+        "value": "None known",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (no source could be read this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not verified."
+      }
+    },
+    "plumbing": {
+      "value": "IPC 2024",
+      "status": "Secondary",
+      "source": {
+        "id": "mckinney-building-inspections",
+        "title": "City of McKinney Building Inspections page (2024 codes adopted, effective 2025-10-01)",
+        "url": "https://www.mckinneytexas.org/243/Building-Inspections",
+        "read": "2026-10-11"
+      },
+      "note": "Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
+    },
+    "electrical": {
+      "value": "NEC (edition not confirmed; TDLR state minimum NEC 2023)",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-mckinney",
+        "title": "Assumed (agent judgement; not found in wave-2 searches)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "McKinney NEC edition not in search extracts."
+    },
+    "mechanical": {
+      "value": "IMC 2024",
+      "status": "Secondary",
+      "source": {
+        "id": "mckinney-building-inspections",
+        "title": "City of McKinney Building Inspections page (2024 codes adopted, effective 2025-10-01)",
+        "url": "https://www.mckinneytexas.org/243/Building-Inspections",
+        "read": "2026-10-11"
+      },
+      "note": "Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
+    },
+    "fuelGas": {
+      "value": "IFGC 2024",
+      "status": "Secondary",
+      "source": {
+        "id": "mckinney-building-inspections",
+        "title": "City of McKinney Building Inspections page (2024 codes adopted, effective 2025-10-01)",
+        "url": "https://www.mckinneytexas.org/243/Building-Inspections",
+        "read": "2026-10-11"
+      },
+      "note": "Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
+    },
+    "fire": {
+      "value": "IFC (edition not verified); no city sprinkler mandate for one/two-family dwellings expected under Texas preemption unless grandfathered pre-2009 - Texas bars city sprinkler mandates for one/two-family homes unless in effect on/before 2009-01-01; no grandfathered rule verified for this city.",
+      "status": "Secondary",
+      "source": {
+        "id": "tx-hb738-allensworth",
+        "title": "HB 738: Texas Adopts 2012 Versions of IRC and IBC; Addresses Residential Fire Sprinklers (law-firm summary)",
+        "url": "https://www.allensworthlaw.com/legal-updates/hb-738/",
+        "read": "2026-10-11"
+      },
+      "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read."
+    },
+    "wind": {
+      "value": 105,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "mph Vult",
+      "note": "Approx. ultimate design wind speed for Risk Category II in Collin County per ASCE 7-16 / IRC Fig. R301.2(2) is about 105 mph (agent estimate; NCTCOG regional amendments commonly list ~105-115 mph). Verify with ASCE Hazard Tool."
+    },
+    "hailRoofing": {
+      "value": "No local hail-resistant roofing mandate found; North Texas is a high-hail region - Class 4 impact-resistant shingles (UL 2218) are a common insurer-driven upgrade, not a code requirement.",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not verified in local amendments."
+    },
+    "seismic": {
+      "value": "A",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Seismic Design Category A for North Texas (IRC Fig. R301.2(7) shows low seismicity); agent knowledge."
+    },
+    "frostDepth": {
+      "value": 6,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "in",
+      "note": "NCTCOG-region amendments typically fill IRC Table R301.2(1) frost depth for DFW at about 6 in. (some cities list 12 in.); not verified for this city."
     }
-   ]
   },
-  "energy": {
-   "edition": {
-    "value": "2021 IECC (or IRC Ch. 11 state minimum)",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (no source could be read this session)",
-     "url": "",
-     "read": "2026-10-11"
+  "zoning": {
+    "hasZoning": {
+      "value": true,
+      "status": "Secondary",
+      "source": {
+        "id": "mckinney-ci-udc-amendments",
+        "title": "McKinney council approves Unified Development Code amendments",
+        "url": "https://communityimpact.com/mckinney/development/mckinney-council-approves-unified-development-code-amendments/",
+        "read": "2026-10-11"
+      },
+      "note": "McKinney Unified Development Code (adopted 2022, amended Sept 2022 adding R3 small-lot SF district). Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
     },
-    "note": "Not verified; most Collin County cities adopted the 2021 IECC with NCTCOG amendments around 2022-2023."
-   },
-   "stretchCode": {
-    "value": "None known",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (no source could be read this session)",
-     "url": "",
-     "read": "2026-10-11"
+    "typicalDistrict": {
+      "value": "PD (Planned Development) - use PD ordinance; base UDC single-family districts as fallback",
+      "status": "Secondary",
+      "source": {
+        "id": "mckinney-cityrulelookup-setbacks",
+        "title": "Building setbacks rules in McKinney TX (third-party blog)",
+        "url": "https://cityrulelookup.com/blog/building-setbacks-rules-in-mckinney-tx",
+        "read": "2026-10-11"
+      },
+      "note": "Most new McKinney homes are in PDs; third-party summary also cites base districts SF-5 / SF-10 etc. UDC district list not confirmed (Ch. 146 pre-UDC used RS-60/RS-72/RS-84/RS-120 style names)."
     },
-    "note": "Not verified."
-   }
-  },
-  "plumbing": {
-   "value": "IPC 2021",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "DFW cities generally use IPC; edition not verified."
-  },
-  "electrical": {
-   "value": "NEC 2020 or 2023",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Edition not verified this session."
-  },
-  "mechanical": {
-   "value": "IMC 2021",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not verified."
-  },
-  "fuelGas": {
-   "value": "IFGC 2021",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not verified."
-  },
-  "fire": {
-   "value": "IFC (edition not verified); no city sprinkler mandate for one/two-family dwellings expected under Texas preemption unless grandfathered pre-2009 - Texas bars city sprinkler mandates for one/two-family homes unless in effect on/before 2009-01-01; no grandfathered rule verified for this city.",
-   "status": "Secondary",
-   "source": {
-    "id": "tx-hb738-allensworth",
-    "title": "HB 738: Texas Adopts 2012 Versions of IRC and IBC; Addresses Residential Fire Sprinklers (law-firm summary)",
-    "url": "https://www.allensworthlaw.com/legal-updates/hb-738/",
-    "read": "2026-10-11"
-   },
-   "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read."
-  },
-  "wind": {
-   "value": 105,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "unit": "mph Vult",
-   "note": "Approx. ultimate design wind speed for Risk Category II in Collin County per ASCE 7-16 / IRC Fig. R301.2(2) is about 105 mph (agent estimate; NCTCOG regional amendments commonly list ~105-115 mph). Verify with ASCE Hazard Tool."
-  },
-  "hailRoofing": {
-   "value": "No local hail-resistant roofing mandate found; North Texas is a high-hail region - Class 4 impact-resistant shingles (UL 2218) are a common insurer-driven upgrade, not a code requirement.",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not verified in local amendments."
-  },
-  "seismic": {
-   "value": "A",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Seismic Design Category A for North Texas (IRC Fig. R301.2(7) shows low seismicity); agent knowledge."
-  },
-  "frostDepth": {
-   "value": 6,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "unit": "in",
-   "note": "NCTCOG-region amendments typically fill IRC Table R301.2(1) frost depth for DFW at about 6 in. (some cities list 12 in.); not verified for this city."
-  }
- },
- "zoning": {
-  "hasZoning": {
-   "value": true,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "All four Collin County cities in this group have zoning (agent knowledge)."
-  },
-  "typicalDistrict": {
-   "value": "Single-family residential base district under McKinney's Unified Development Code (adopted ~2022; exact district code not verified)",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Most new homes in City of McKinney are in Planned Developments (PDs) with their own standards; base district shown as fallback. Not verified this session."
-  },
-  "minLotSqFt": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: Single-family residential base district under McKinney's Unified Development Code (adopted ~2022; exact district code not verified) minimum lot area. Web fetch blocked by egress policy and session web-search budget exhausted."
-  },
-  "minLotWidthFt": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: lot width. Web fetch blocked by egress policy and session web-search budget exhausted."
-  },
-  "minLotDepthFt": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: lot depth. Web fetch blocked by egress policy and session web-search budget exhausted."
-  },
-  "setbacksFt": {
-   "front": {
-    "value": null,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (no source could be read this session)",
-     "url": "",
-     "read": "2026-10-11"
+    "minLotSqFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: Single-family residential base district under McKinney's Unified Development Code (adopted ~2022; exact district code not verified) minimum lot area. Wave-2 WebSearch did not surface this value (WebFetch DNS-blocked)."
     },
-    "note": "Not found: Single-family residential base district under McKinney's Unified Development Code (adopted ~2022; exact district code not verified) front yard. Web fetch blocked by egress policy and session web-search budget exhausted."
-   },
-   "side": {
-    "value": null,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (no source could be read this session)",
-     "url": "",
-     "read": "2026-10-11"
+    "minLotWidthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: lot width. Wave-2 WebSearch did not surface this value (WebFetch DNS-blocked)."
     },
-    "note": "Not found: Single-family residential base district under McKinney's Unified Development Code (adopted ~2022; exact district code not verified) side yard. Web fetch blocked by egress policy and session web-search budget exhausted."
-   },
-   "streetSide": {
-    "value": null,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (no source could be read this session)",
-     "url": "",
-     "read": "2026-10-11"
+    "minLotDepthFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: lot depth. Wave-2 WebSearch did not surface this value (WebFetch DNS-blocked)."
     },
-    "note": "Not found: Single-family residential base district under McKinney's Unified Development Code (adopted ~2022; exact district code not verified) streetSide yard. Web fetch blocked by egress policy and session web-search budget exhausted."
-   },
-   "rear": {
-    "value": null,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (no source could be read this session)",
-     "url": "",
-     "read": "2026-10-11"
+    "setbacksFt": {
+      "front": {
+        "value": 20,
+        "status": "Secondary",
+        "source": {
+          "id": "mckinney-cityrulelookup-setbacks",
+          "title": "Building setbacks rules in McKinney TX (third-party blog)",
+          "url": "https://cityrulelookup.com/blog/building-setbacks-rules-in-mckinney-tx",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Third-party blog: SF-5 front 20 ft (SF-10: 25 ft). Low-confidence fallback when no PD; verify in UDC. "
+      },
+      "side": {
+        "value": 7,
+        "status": "Secondary",
+        "source": {
+          "id": "mckinney-cityrulelookup-setbacks",
+          "title": "Building setbacks rules in McKinney TX (third-party blog)",
+          "url": "https://cityrulelookup.com/blog/building-setbacks-rules-in-mckinney-tx",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Third-party blog: SF-5 side 7 ft (SF-10: 8 ft). Low confidence."
+      },
+      "streetSide": {
+        "value": 15,
+        "status": "Secondary",
+        "source": {
+          "id": "mckinney-cityrulelookup-setbacks",
+          "title": "Building setbacks rules in McKinney TX (third-party blog)",
+          "url": "https://cityrulelookup.com/blog/building-setbacks-rules-in-mckinney-tx",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Third-party blog: corner side 15 ft. Low confidence."
+      },
+      "rear": {
+        "value": 15,
+        "status": "Secondary",
+        "source": {
+          "id": "mckinney-cityrulelookup-setbacks",
+          "title": "Building setbacks rules in McKinney TX (third-party blog)",
+          "url": "https://cityrulelookup.com/blog/building-setbacks-rules-in-mckinney-tx",
+          "read": "2026-10-11"
+        },
+        "unit": "ft",
+        "note": "Third-party blog: SF-5 rear 15-20 ft (SF-10: 20 ft); lower bound used. Low confidence."
+      }
     },
-    "note": "Not found: Single-family residential base district under McKinney's Unified Development Code (adopted ~2022; exact district code not verified) rear yard. Web fetch blocked by egress policy and session web-search budget exhausted."
-   }
-  },
-  "maxHeightFt": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: max height. Web fetch blocked by egress policy and session web-search budget exhausted."
-  },
-  "maxStories": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: max stories. Web fetch blocked by egress policy and session web-search budget exhausted."
-  },
-  "maxLotCoverage": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: max lot coverage. Web fetch blocked by egress policy and session web-search budget exhausted."
-  },
-  "imperviousCover": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "No SF impervious cap expected (agent knowledge)."
-  },
-  "far": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "No SF FAR expected."
-  },
-  "parking": {
-   "value": "2 enclosed garage spaces per SF dwelling typical in Collin County cities; not verified.",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not verified."
-  },
-  "garageRules": {
-   "value": "Front-entry garage placement standards likely in UDC/PD; not verified.",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not verified this session."
-  },
-  "adu": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: ADU rules. Web fetch blocked by egress policy and session web-search budget exhausted."
-  },
-  "masonry": {
-   "value": "McKinney historically required high masonry percentages; now generally unenforceable by city under HB 2439 except where allowed (e.g. historic districts); PDs/HOAs still require.",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Agent knowledge; ordinance and Tex. Gov't Code ch. 3000 not read this session."
-  },
-  "trees": {
-   "value": "Tree preservation ordinance likely (common in Collin County); not verified.",
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not verified."
-  },
-  "other": [
-   {
-    "value": "Other single-family districts: UDC residential districts (former RS-60/RS-72/RS-84/RS-120/SF5 naming under the older ordinance)",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (no source could be read this session)",
-     "url": "",
-     "read": "2026-10-11"
+    "maxHeightFt": {
+      "value": 35,
+      "status": "Secondary",
+      "source": {
+        "id": "mckinney-cityrulelookup-setbacks",
+        "title": "Building setbacks rules in McKinney TX (third-party blog)",
+        "url": "https://cityrulelookup.com/blog/building-setbacks-rules-in-mckinney-tx",
+        "read": "2026-10-11"
+      },
+      "unit": "ft",
+      "note": "Third-party blog: 35 ft or 2.5 stories in most SF districts. Low confidence."
     },
-    "note": "Agent knowledge, not verified."
-   }
-  ]
- },
- "process": {
-  "steps": [
-   {
-    "value": "Apply for residential building permit with site plan, plans, PE-sealed foundation plan, energy compliance; HOA approval separate.",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (no source could be read this session)",
-     "url": "",
-     "read": "2026-10-11"
+    "maxStories": {
+      "value": 2.5,
+      "status": "Secondary",
+      "source": {
+        "id": "mckinney-cityrulelookup-setbacks",
+        "title": "Building setbacks rules in McKinney TX (third-party blog)",
+        "url": "https://cityrulelookup.com/blog/building-setbacks-rules-in-mckinney-tx",
+        "read": "2026-10-11"
+      },
+      "note": "Third-party blog. Low confidence."
     },
-    "note": "Typical Collin County process; not verified."
-   }
-  ],
-  "sealsRequired": [
-   {
-    "value": "PE-sealed foundation design expected (expansive clay); architect seal not required for 1-2 family homes (Tex. Occ. Code ch. 1051 exemption).",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (no source could be read this session)",
-     "url": "",
-     "read": "2026-10-11"
+    "maxLotCoverage": {
+      "value": 0.5,
+      "status": "Secondary",
+      "source": {
+        "id": "mckinney-cityrulelookup-setbacks",
+        "title": "Building setbacks rules in McKinney TX (third-party blog)",
+        "url": "https://cityrulelookup.com/blog/building-setbacks-rules-in-mckinney-tx",
+        "read": "2026-10-11"
+      },
+      "unit": "fraction",
+      "note": "Third-party blog: SF-5 50%, SF-10 35%. Low confidence."
     },
-    "note": "Not verified locally."
-   }
-  ],
-  "inspections": [
-   {
-    "value": "Typical: plumbing ground, foundation, framing, MEP rough, insulation, final/CO.",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (no source could be read this session)",
-     "url": "",
-     "read": "2026-10-11"
+    "imperviousCover": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No SF impervious cap expected (agent knowledge)."
     },
-    "note": "Not verified."
-   }
-  ],
-  "reviewDays": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: review time. Web fetch blocked by egress policy and session web-search budget exhausted."
-  }
- },
- "fees": {
-  "permitFormula": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: City of McKinney building permit fee schedule. Web fetch blocked by egress policy and session web-search budget exhausted."
+    "far": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "No SF FAR expected."
+    },
+    "parking": {
+      "value": "2 enclosed garage spaces per SF dwelling typical in Collin County cities; not verified.",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not verified."
+    },
+    "garageRules": {
+      "value": "Front-entry garage placement standards likely in UDC/PD; not verified.",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not verified this session."
+    },
+    "adu": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: ADU rules. Wave-2 WebSearch did not surface this value (WebFetch DNS-blocked)."
+    },
+    "masonry": {
+      "value": "McKinney historically required high masonry percentages; now generally unenforceable by city under HB 2439 except where allowed (e.g. historic districts); PDs/HOAs still require.",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Agent knowledge; ordinance and Tex. Gov't Code ch. 3000 not read this session."
+    },
+    "trees": {
+      "value": "Tree preservation ordinance likely (common in Collin County); not verified.",
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not verified."
+    },
+    "other": [
+      {
+        "value": "UDC amendments (Sept 2022): MF-30 renamed MF-36, FR flex residential removed, R3 small-lot single-family district added",
+        "status": "Secondary",
+        "source": {
+          "id": "mckinney-ci-udc-amendments",
+          "title": "McKinney council approves Unified Development Code amendments",
+          "url": "https://communityimpact.com/mckinney/development/mckinney-council-approves-unified-development-code-amendments/",
+          "read": "2026-10-11"
+        },
+        "note": "Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
+      },
+      {
+        "value": "SF-10 (third-party): front 25 ft, side 8 ft, rear 20 ft, coverage 35%",
+        "status": "Secondary",
+        "source": {
+          "id": "mckinney-cityrulelookup-setbacks",
+          "title": "Building setbacks rules in McKinney TX (third-party blog)",
+          "url": "https://cityrulelookup.com/blog/building-setbacks-rules-in-mckinney-tx",
+          "read": "2026-10-11"
+        },
+        "note": "Low confidence."
+      },
+      {
+        "value": "Pre-UDC Chapter 146 Zoning Regulations (Nov 2022 version) still posted; legacy districts may apply to older PDs",
+        "status": "Secondary",
+        "source": {
+          "id": "mckinney-ch146-zoning-2022",
+          "title": "McKinney Chapter 146 Zoning Regulations (11/15/2022)",
+          "url": "https://www.mckinneytexas.org/DocumentCenter/View/31770/Chapter-146-Zoning-Regulations-11152022",
+          "read": "2026-10-11"
+        },
+        "note": "Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
+      }
+    ]
   },
-  "workedExample2400sqft": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not computed: fee schedule not readable this session (2,400 sf conditioned + 440 sf attached garage assumption)."
+  "process": {
+    "steps": [
+      {
+        "value": "Apply online via McKinney Citizen Self Service portal (www.mckinneytexas.org/css) with plans, site plan, sealed foundation design and designer/structural engineer certification letters, energy compliance; inspections; CO.",
+        "status": "Secondary",
+        "source": {
+          "id": "mckinney-residential-builder-packet",
+          "title": "City of McKinney Residential Builder Packet (submittal requirements)",
+          "url": "https://www.mckinneytexas.org/DocumentCenter/View/2670/Residential-Builder-Packet-",
+          "read": "2026-10-11"
+        },
+        "note": "Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
+      }
+    ],
+    "sealsRequired": [
+      {
+        "value": "Structural engineer certification letter (foundation/structure) and designer certification letter required with residential submittal",
+        "status": "Secondary",
+        "source": {
+          "id": "mckinney-residential-builder-packet",
+          "title": "City of McKinney Residential Builder Packet (submittal requirements)",
+          "url": "https://www.mckinneytexas.org/DocumentCenter/View/2670/Residential-Builder-Packet-",
+          "read": "2026-10-11"
+        },
+        "note": "Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
+      }
+    ],
+    "inspections": [
+      {
+        "value": "Typical: plumbing ground, foundation, framing, MEP rough, insulation, final/CO.",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (no source could be read this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not verified."
+      }
+    ],
+    "reviewDays": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: review time. Wave-2 WebSearch did not surface this value (WebFetch DNS-blocked)."
+    }
   },
-  "planReview": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: plan review fee. Web fetch blocked by egress policy and session web-search budget exhausted."
+  "fees": {
+    "permitFormula": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-mckinney",
+        "title": "Assumed (agent judgement; not found in wave-2 searches)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: McKinney new-SF permit fee. Under HB 852 (2019) residential fees cannot be valuation-based, so expect a per-sq-ft or flat fee; a third-party valuation table (permitflow.com) likely is non-residential/stale."
+    },
+    "workedExample2400sqft": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed-mckinney",
+        "title": "Assumed (agent judgement; not found in wave-2 searches)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "unit": "USD",
+      "note": "Not computed: fee schedule not found (2,400 sf + 440 sf garage). Regional comparison: Plano $0.48/sf, Denton $0.89/sf."
+    },
+    "planReview": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: plan review fee. Wave-2 WebSearch did not surface this value (WebFetch DNS-blocked)."
+    },
+    "impactFees": [
+      {
+        "value": 1754,
+        "status": "Secondary",
+        "source": {
+          "id": "mckinney-2019-impact-update-pres",
+          "title": "McKinney Impact Fee Info Series - Presentation 2 (2019 Impact Fee Update, Sept 2020)",
+          "url": "https://mckinneytexas.org/DocumentCenter/View/25376/Impact-Fee-Info-Series---Presentation-2?bidId=",
+          "read": "2026-10-11"
+        },
+        "unit": "USD",
+        "note": "Water impact fee per 3/4-in meter (basic SF service unit), from 2019 update adopted Dec 2020. A 2026 city workshop reportedly says water/ww rates were re-adopted April 2025 (effective July 2025) - current figure likely higher; verify. Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
+      },
+      {
+        "value": 2899,
+        "status": "Secondary",
+        "source": {
+          "id": "mckinney-2019-impact-update-pres",
+          "title": "McKinney Impact Fee Info Series - Presentation 2 (2019 Impact Fee Update, Sept 2020)",
+          "url": "https://mckinneytexas.org/DocumentCenter/View/25376/Impact-Fee-Info-Series---Presentation-2?bidId=",
+          "read": "2026-10-11"
+        },
+        "unit": "USD",
+        "note": "Wastewater impact fee per 3/4-in meter, 2019 update; may be superseded by April 2025 adoption. Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
+      },
+      {
+        "value": null,
+        "status": "Secondary",
+        "source": {
+          "id": "mckinney-faq-roadway-impact",
+          "title": "McKinney FAQ: What are Roadway Impact Fees? (13 service areas; vehicle-mile service unit)",
+          "url": "https://www.mckinneytexas.org/FAQ.aspx?QID=527",
+          "read": "2026-10-11"
+        },
+        "unit": "USD",
+        "note": "Roadway impact fee: per vehicle-mile, 13 service areas, varies by service area and land use; rates adopted 2018/2020 with roadway update pending 2026. Per-SF-unit $ not found; use city impact fee calculator. Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
+      }
+    ],
+    "tapFees": [
+      {
+        "value": null,
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (no source could be read this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Not found: water/sewer tap and meter fees. Wave-2 WebSearch did not surface this value (WebFetch DNS-blocked)."
+      }
+    ]
   },
-  "impactFees": [
-   {
-    "value": null,
+  "cost": {
+    "factor": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "cost-method",
+        "title": "See README cost method (filled by cost agent)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "PENDING_COST_AGENT"
+    },
+    "method": "PENDING_COST_AGENT",
+    "perSqFtMarket": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: public market $/sf figure. Wave-2 WebSearch did not surface this value (WebFetch DNS-blocked)."
+    },
+    "drivers": [
+      {
+        "value": "Engineered slab on expansive clay.",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (no source could be read this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Typical."
+      },
+      {
+        "value": "PD/HOA masonry and design standards.",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (no source could be read this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Typical."
+      },
+      {
+        "value": "Roadway + water + wastewater impact fees (can be large in fast-growth Collin County cities).",
+        "status": "Assumed",
+        "source": {
+          "id": "assumed",
+          "title": "Assumed - agent judgement (no source could be read this session)",
+          "url": "",
+          "read": "2026-10-11"
+        },
+        "note": "Typical."
+      }
+    ]
+  },
+  "flood": {
+    "value": "Lowest floor 2 ft above BFE in SFHA; elevation certificate required (third-party summary)",
     "status": "Secondary",
     "source": {
-     "id": "mckinney-impact-compare",
-     "title": "McKinney impact fee comparison document (DocumentCenter/View/25377)",
-     "url": "https://www.mckinneytexas.org/DocumentCenter/View/25377",
-     "read": "2026-10-11"
+      "id": "mckinney-cityrulelookup-flood",
+      "title": "McKinney TX flood zones (third-party aggregator)",
+      "url": "https://cityrulelookup.com/environmental/flood-zones/mckinney-tx",
+      "read": "2026-10-11"
     },
-    "note": "Direct fetch blocked by session egress policy (all city/ecode360/municode hosts denied); value taken from web-search result summary of this document, not a full read. McKinney document comparing roadway impact fees with neighboring cities (incl. Frisco) appeared in search, but its numbers could not be mapped to cities. Per-unit amount not found."
-   }
+    "note": "Third-party aggregator; it mislabels 2 ft above BFE as '1 ft freeboard'. Verify in McKinney flood damage prevention ordinance; DFW cities often measure from fully developed conditions."
+  },
+  "engineChanges": [
+    {
+      "id": "mckinney-pd-check",
+      "ruleType": "survey-input-district",
+      "area": "survey",
+      "change": "Ask for the lot's zoning; most new McKinney lots are in PDs - use PD standards; fallback provisional SF-5-like base: front 20, side 7, rear 15, street side 15, 35 ft / 2.5 st, coverage 50% (low confidence).",
+      "priority": "must",
+      "params": {
+        "pdFirst": true,
+        "fallback": {
+          "frontFt": 20,
+          "sideFt": 7,
+          "rearFt": 15,
+          "streetSideFt": 15,
+          "maxHeightFt": 35,
+          "maxStories": 2.5,
+          "maxCoverage": 0.5
+        },
+        "verified": false
+      },
+      "source": {
+        "id": "mckinney-cityrulelookup-setbacks",
+        "title": "Building setbacks rules in McKinney TX (third-party blog)",
+        "url": "https://cityrulelookup.com/blog/building-setbacks-rules-in-mckinney-tx",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "mckinney-irc-2024",
+      "ruleType": "egress-stairs-variant",
+      "area": "drawings",
+      "change": "Use 2024 IRC / 2024 IECC / 2024 IPC-IMC-IFGC as base code for permits applied on or after 2025-10-01.",
+      "priority": "must",
+      "params": {
+        "irc": "2024",
+        "iecc": "2024",
+        "effective": "2025-10-01"
+      },
+      "source": {
+        "id": "mckinney-building-inspections",
+        "title": "City of McKinney Building Inspections page (2024 codes adopted, effective 2025-10-01)",
+        "url": "https://www.mckinneytexas.org/243/Building-Inspections",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "mckinney-eng-foundation",
+      "ruleType": "engineered-foundation-flag",
+      "area": "foundation",
+      "change": "PE-designed foundation with structural engineer certification letter required in submittal.",
+      "priority": "must",
+      "params": {
+        "engineeredFoundation": true,
+        "engineerLetter": true
+      },
+      "source": {
+        "id": "mckinney-residential-builder-packet",
+        "title": "City of McKinney Residential Builder Packet (submittal requirements)",
+        "url": "https://www.mckinneytexas.org/DocumentCenter/View/2670/Residential-Builder-Packet-",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "mckinney-energy",
+      "ruleType": "climate-zone-envelope",
+      "area": "envelope",
+      "change": "Climate zone 3A envelope per 2024 IECC (with NCTCOG/city amendments).",
+      "priority": "must",
+      "params": {
+        "climateZone": "3A",
+        "iecc": "2024"
+      },
+      "source": {
+        "id": "mckinney-building-inspections",
+        "title": "City of McKinney Building Inspections page (2024 codes adopted, effective 2025-10-01)",
+        "url": "https://www.mckinneytexas.org/243/Building-Inspections",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "mckinney-impact-fees",
+      "ruleType": "impact-fee-estimate",
+      "area": "estimate",
+      "change": "Add water ($1,754) + wastewater ($2,899) per 3/4-in meter as floor estimate (2019 rates; 2025 update likely higher) + roadway fee by service area (amount pending).",
+      "priority": "should",
+      "params": {
+        "waterUSD": 1754,
+        "wastewaterUSD": 2899,
+        "roadwayUSD": null,
+        "roadwayServiceAreas": 13,
+        "ratesYear": 2019,
+        "verified": false
+      },
+      "source": {
+        "id": "mckinney-2019-impact-update-pres",
+        "title": "McKinney Impact Fee Info Series - Presentation 2 (2019 Impact Fee Update, Sept 2020)",
+        "url": "https://mckinneytexas.org/DocumentCenter/View/25376/Impact-Fee-Info-Series---Presentation-2?bidId=",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "mckinney-flood",
+      "ruleType": "flood-elevation",
+      "area": "survey",
+      "change": "If in SFHA: lowest floor >= 2 ft above BFE, elevation certificate (verify).",
+      "priority": "should",
+      "params": {
+        "freeboardFt": 2,
+        "verified": false
+      },
+      "source": {
+        "id": "mckinney-cityrulelookup-flood",
+        "title": "McKinney TX flood zones (third-party aggregator)",
+        "url": "https://cityrulelookup.com/environmental/flood-zones/mckinney-tx",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "mckinney-masonry",
+      "ruleType": "masonry-percentage",
+      "area": "envelope",
+      "change": "Do not enforce city masonry %; prompt for PD/HOA masonry requirement.",
+      "priority": "should",
+      "params": {
+        "masonryPct": 0,
+        "checkPD": true
+      },
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - agent judgement (no source could be read this session)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "mckinney-no-sprinkler",
+      "ruleType": "fire-sprinkler",
+      "area": "plan",
+      "change": "Do not add a residential sprinkler mandate (state preemption) unless city shows a pre-2009 grandfathered rule.",
+      "priority": "nice",
+      "params": {
+        "sprinkler": false
+      },
+      "source": {
+        "id": "tx-hb738-allensworth",
+        "title": "HB 738: Texas Adopts 2012 Versions of IRC and IBC; Addresses Residential Fire Sprinklers (law-firm summary)",
+        "url": "https://www.allensworthlaw.com/legal-updates/hb-738/",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "mckinney-deed",
+      "ruleType": "deed-restriction-check",
+      "area": "survey",
+      "change": "Check HOA/deed restrictions and platted building lines.",
+      "priority": "should",
+      "params": {},
+      "source": {
+        "id": "assumed-mckinney",
+        "title": "Assumed (agent judgement; not found in wave-2 searches)",
+        "url": "",
+        "read": "2026-10-11"
+      }
+    }
   ],
-  "tapFees": [
-   {
-    "value": null,
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (no source could be read this session)",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Not found: water/sewer tap and meter fees. Web fetch blocked by egress policy and session web-search budget exhausted."
-   }
-  ]
- },
- "cost": {
-  "factor": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "cost-method",
-    "title": "See README cost method (filled by cost agent)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "PENDING_COST_AGENT"
-  },
-  "method": "PENDING_COST_AGENT",
-  "perSqFtMarket": {
-   "value": null,
-   "status": "Assumed",
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   },
-   "note": "Not found: public market $/sf figure. Web fetch blocked by egress policy and session web-search budget exhausted."
-  },
-  "drivers": [
-   {
-    "value": "Engineered slab on expansive clay.",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (no source could be read this session)",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Typical."
-   },
-   {
-    "value": "PD/HOA masonry and design standards.",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (no source could be read this session)",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Typical."
-   },
-   {
-    "value": "Roadway + water + wastewater impact fees (can be large in fast-growth Collin County cities).",
-    "status": "Assumed",
-    "source": {
-     "id": "assumed",
-     "title": "Assumed - agent judgement (no source could be read this session)",
-     "url": "",
-     "read": "2026-10-11"
-    },
-    "note": "Typical."
-   }
-  ]
- },
- "flood": {
-  "value": "NFIP participant with floodplain ordinance; freeboard value not verified (DFW cities commonly 1-2 ft above BFE).",
-  "status": "Assumed",
-  "source": {
-   "id": "assumed",
-   "title": "Assumed - agent judgement (no source could be read this session)",
-   "url": "",
-   "read": "2026-10-11"
-  },
-  "note": "Not found this session."
- },
- "engineChanges": [
-  {
-   "id": "mckinney-pd-check",
-   "ruleType": "survey-input-district",
-   "area": "survey",
-   "change": "Ask for the lot's zoning; most new City of McKinney lots are in PDs - use PD standards, else base Single-family residential base district under McKinney's Unified Development Code (adopted ~2022; exact district code not verified). Block auto-setbacks until confirmed.",
-   "priority": "must",
-   "params": {
-    "defaultDistrict": "Single-family residential base district under McKinney's Unified Development Code (adopted ~2022; exact district code not verified)",
-    "pdLikely": true,
-    "setbacksVerified": false
-   },
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "mckinney-eng-foundation",
-   "ruleType": "engineered-foundation-flag",
-   "area": "foundation",
-   "change": "Flag PE-sealed engineered foundation (post-tensioned slab) for all new homes on Collin County expansive clay.",
-   "priority": "must",
-   "params": {
-    "peSealed": true,
-    "status": "Assumed"
-   },
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "mckinney-energy",
-   "ruleType": "climate-zone-envelope",
-   "area": "envelope",
-   "change": "Use climate zone 3A envelope values (IECC edition to be confirmed).",
-   "priority": "must",
-   "params": {
-    "climateZone": "3A"
-   },
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "mckinney-masonry",
-   "ruleType": "masonry-percentage",
-   "area": "envelope",
-   "change": "Do not enforce city masonry %; prompt for PD/HOA masonry requirement.",
-   "priority": "should",
-   "params": {
-    "cityEnforceable": false
-   },
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "mckinney-impact-fees",
-   "ruleType": "impact-fee-estimate",
-   "area": "estimate",
-   "change": "Add roadway + water + wastewater impact fee placeholders per SF unit; amounts pending.",
-   "priority": "should",
-   "params": {
-    "roadway": null,
-    "water": null,
-    "wastewater": null
-   },
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "mckinney-no-sprinkler",
-   "ruleType": "fire-sprinkler",
-   "area": "plan",
-   "change": "Do not add a residential sprinkler mandate (state preemption) unless city shows a pre-2009 grandfathered rule.",
-   "priority": "nice",
-   "params": {
-    "required": false,
-    "status": "Secondary-state law"
-   },
-   "source": {
-    "id": "tx-hb738-allensworth",
-    "title": "HB 738: Texas Adopts 2012 Versions of IRC and IBC; Addresses Residential Fire Sprinklers (law-firm summary)",
-    "url": "https://www.allensworthlaw.com/legal-updates/hb-738/",
-    "read": "2026-10-11"
-   }
-  },
-  {
-   "id": "mckinney-deed",
-   "ruleType": "deed-restriction-check",
-   "area": "survey",
-   "change": "Check HOA/deed restrictions and platted building lines.",
-   "priority": "should",
-   "params": {},
-   "source": {
-    "id": "assumed",
-    "title": "Assumed - agent judgement (no source could be read this session)",
-    "url": "",
-    "read": "2026-10-11"
-   }
+  "plainLanguage": "Since October 1, 2025 McKinney builds to the 2024 International codes (residential, energy, plumbing, mechanical), newer than many Texas cities. Nearly every new home here is in a planned development, which sets its own setbacks, masonry and garage rules, so give us your subdivision's PD number. If there is no PD, we use provisional base rules of about 20 ft front, 7 ft side and 15 ft rear yards, 35 ft height; these are not yet confirmed. Your permit application must include an engineer's certification letter, so plan on an engineer-designed foundation for the clay soils. McKinney charges water and wastewater impact fees per meter (about $4,650 combined at 2019 rates; likely higher now) plus a roadway impact fee that depends on your area. The city cannot require brick, but your PD or HOA likely will. In a mapped floodplain expect the floor 2 ft above flood level.",
+  "openQuestions": [
+    "UDC base single-family district names and dimensional table",
+    "Current (April 2025) water/wastewater impact fee per 3/4-in meter",
+    "Roadway impact fee per SF unit by service area",
+    "Building permit fee formula (per sf or flat)",
+    "Confirm Ord. 2025-08-068 is 2024 code adoption and list of local amendments",
+    "NEC edition",
+    "Flood freeboard in city ordinance"
+  ],
+  "notFound": [
+    "permit fee schedule",
+    "current impact fee amounts / roadway",
+    "official UDC setbacks",
+    "NEC edition",
+    "tap fees",
+    "review days",
+    "market $/sf"
+  ],
+  "comparison": {
+    "irc": "2024 IRC (Secondary, eff. 2025-10-01)",
+    "energy": "2024 IECC (Secondary)",
+    "plumbing": "IPC 2024",
+    "district": "PD (fallback SF-5 base)",
+    "setbacks": "20/7/15 (low-confidence fallback)",
+    "maxHeight": "35 ft / 2.5 st",
+    "coverageFar": "50% (SF-5, low confidence)",
+    "masonry": "not city-enforceable; PD/HOA",
+    "engFoundation": "yes - engineer letter in submittal",
+    "windstorm": "no",
+    "flood": "2 ft above BFE (Secondary)",
+    "permitFeeExample": "not found",
+    "impactFees": "water $1,754 + ww $2,899 (2019) + roadway by area",
+    "costFactor": "PENDING"
   }
- ],
- "plainLanguage": "We could not read City of McKinney's own code pages in this research pass, so most values here are estimates that must be checked. Expect the 2021 International Residential Code with North Texas (NCTCOG) regional amendments. Nearly every new home here is in a planned development, which sets its own setbacks, masonry and garage rules, so give us your subdivision's PD number. Plan on an engineer-designed foundation because of expansive clay soils. Texas law stops the city from requiring a fixed percentage of brick or stone, but your HOA likely still will. McKinney charges roadway, water and wastewater impact fees; amounts vary by service area and must be confirmed with the city.",
- "openQuestions": [
-  "Adopted IRC/IECC/NEC editions and ordinance numbers",
-  "Base district dimensions and setbacks",
-  "Impact fee per SF unit (roadway, water, wastewater)",
-  "Permit fee schedule",
-  "Garage orientation rules",
-  "Floodplain freeboard"
- ],
- "notFound": [
-  "Nearly all city-specific values - fetch blocked and search budget exhausted"
- ],
- "comparison": {
-  "irc": "2021 IRC (assumed)",
-  "energy": "2021 IECC (assumed)",
-  "plumbing": "IPC (assumed)",
-  "district": "Single-family residential base district under McKinney's Unified Development Code (adopted ~2022; exact district code not verified) (most new = PD)",
-  "setbacks": "not found",
-  "maxHeight": "not found",
-  "coverageFar": "not found",
-  "masonry": "not city-enforceable (HB 2439); PD/HOA",
-  "engFoundation": "yes (assumed)",
-  "windstorm": "no",
-  "flood": "not verified",
-  "permitFeeExample": "not found",
-  "impactFees": "roadway+water+ww (amount not found)",
-  "costFactor": "PENDING"
- }
 }

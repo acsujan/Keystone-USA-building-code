@@ -11,15 +11,15 @@
     "blsCode": "19100"
   },
   "population": {
-    "value": 160000,
-    "status": "Assumed",
+    "value": 158349,
+    "status": "Secondary",
     "source": {
-      "id": "assumed-denton",
-      "title": "Assumed (no source reachable this session)",
-      "url": "",
+      "id": "census-denton-quickfacts",
+      "title": "U.S. Census QuickFacts: Denton city, Texas",
+      "url": "https://www.census.gov/quickfacts/fact/table/dentoncitytexas/LND110210",
       "read": "2026-10-11"
     },
-    "note": "Approximate (~160,000, Census Vintage 2024 order of magnitude, from agent knowledge); not verified."
+    "note": "Census Vintage 2023 estimate (July 1, 2023); V2024 shown NA in extract. Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
   },
   "zipCodesOrBoundary": {
     "value": "76201;76205;76207;76208;76209;76210",
@@ -30,7 +30,7 @@
       "url": "",
       "read": "2026-10-11"
     },
-    "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched. Denton ZIPs include 76201, 76205, 76207, 76208, 76209, 76210, 76226 (partial) - unverified."
+    "note": "Not found: wave-1 had no search budget; wave-2 WebSearch did not surface this value (WebFetch DNS-blocked). Denton ZIPs include 76201, 76205, 76207, 76208, 76209, 76210, 76226 (partial) - unverified."
   },
   "climateZone": {
     "value": "3A",
@@ -57,107 +57,132 @@
   "codes": {
     "irc": {
       "edition": {
-        "value": null,
-        "status": "Assumed",
+        "value": "2021 IRC",
+        "status": "Secondary",
         "source": {
-          "id": "assumed-denton",
-          "title": "Assumed (no source reachable this session)",
-          "url": "",
+          "id": "denton-agenda-22-667-irc2021",
+          "title": "Denton City Council 2022-04-05 item 22-667: ordinance repealing 2012 IRC and adopting 2021 IRC (Code Secs. 28-33, 28-34)",
+          "url": "https://denton-tx.granicusideas.com/meetings/3021-city-council-on-2022-04-05-2-00-pm/agenda_items/62476031f395e7d7be000c4e-y-id-22-667-consider-adoption-of-an-ordinance-of",
           "read": "2026-10-11"
         },
-        "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched. Likely 2021 IRC with NCTCOG regional amendments (as most DFW cities) - NOT verified; engine should treat as 2021 IRC provisionally."
+        "note": "Council agenda 2022-04-05 ordinance repeals 2012 IRC, adopts 2021 IRC; DBA reports approval, effective 2022-06-01. No 2024 adoption surfaced. Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
       },
       "ordinance": {
-        "value": null,
-        "status": "Assumed",
+        "value": "Ordinance from 2022-04-05 council item 22-667 (amends Code Secs. 28-33, 28-34); ordinance number not seen",
+        "status": "Secondary",
         "source": {
-          "id": "assumed-denton",
-          "title": "Assumed (no source reachable this session)",
-          "url": "",
+          "id": "denton-agenda-22-667-irc2021",
+          "title": "Denton City Council 2022-04-05 item 22-667: ordinance repealing 2012 IRC and adopting 2021 IRC (Code Secs. 28-33, 28-34)",
+          "url": "https://denton-tx.granicusideas.com/meetings/3021-city-council-on-2022-04-05-2-00-pm/agenda_items/62476031f395e7d7be000c4e-y-id-22-667-consider-adoption-of-an-ordinance-of",
           "read": "2026-10-11"
         },
-        "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+        "note": "Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
       },
-      "amendments": []
+      "amendments": [
+        {
+          "topic": "other",
+          "summary": "Denton uses its own local amendments plus many NCTCOG regional recommended amendments to the 2021 IRC (e.g. climatic table, other regional items); amendment text not read.",
+          "section": "Code Secs. 28-33/28-34",
+          "status": "Secondary",
+          "source": {
+            "id": "denton-dba-2021-icodes",
+            "title": "Denton Moving to Amended 2021 I-Codes, Effective June 1",
+            "url": "https://dallasbuilders.org/denton-moving-to-amended-2021-i-codes-effective-june-1/",
+            "read": "2026-10-11"
+          }
+        },
+        {
+          "topic": "other",
+          "summary": "NCTCOG 2021 IRC regional amendments document (reference for likely amendments).",
+          "section": "",
+          "status": "Secondary",
+          "source": {
+            "id": "nctcog-2021-irc-amendments",
+            "title": "NCTCOG Recommended Amendments to the 2021 International Residential Code (Final)",
+            "url": "https://nctcog.org/getmedia/feafbc55-3c35-4022-bcab-6b07c95c7f9e/2021-IRC-Amendments-Final.pdf",
+            "read": "2026-10-11"
+          }
+        }
+      ]
     },
     "energy": {
       "edition": {
-        "value": null,
-        "status": "Assumed",
+        "value": "2021 IECC (with local/NCTCOG amendments)",
+        "status": "Secondary",
         "source": {
-          "id": "assumed-denton",
-          "title": "Assumed (no source reachable this session)",
-          "url": "",
+          "id": "denton-dba-2021-icodes",
+          "title": "Denton Moving to Amended 2021 I-Codes, Effective June 1",
+          "url": "https://dallasbuilders.org/denton-moving-to-amended-2021-i-codes-effective-june-1/",
           "read": "2026-10-11"
         },
-        "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched. Possibly 2021 IECC with NCTCOG amendments - unverified."
+        "note": "DBA: council approved 2021 I-codes including IECC on 2022-04-05, effective 2022-06-01. Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
       },
       "stretchCode": {
-        "value": null,
+        "value": "None known",
         "status": "Assumed",
         "source": {
           "id": "assumed-denton",
-          "title": "Assumed (no source reachable this session)",
+          "title": "Assumed (agent judgement; not found in wave-2 searches)",
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched. Denton historically had green building programs (Denton Municipal Electric); not verified for current rules."
+        "note": "No stretch code seen."
       }
     },
     "plumbing": {
-      "value": "IPC (edition unverified)",
+      "value": "IPC 2021 (assumed part of 2021 I-code package)",
       "status": "Assumed",
       "source": {
         "id": "assumed-denton",
-        "title": "Assumed (no source reachable this session)",
+        "title": "Assumed (agent judgement; not found in wave-2 searches)",
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched. NCTCOG region generally uses IPC."
+      "note": "DBA says 2021 I-codes adopted; IPC not named explicitly in extract."
     },
     "electrical": {
-      "value": null,
-      "status": "Assumed",
+      "value": "NEC 2020 (proposed 2022; adoption not confirmed in extract)",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-denton",
-        "title": "Assumed (no source reachable this session)",
-        "url": "",
+        "id": "denton-agenda-22-658-nec2020",
+        "title": "Denton City Council 2022-04-05 item 22-658: ordinance repealing 2011 NEC and adopting 2020 NEC (Secs. 28-41 to 28-82, 28-120 to 28-122)",
+        "url": "https://denton-tx.granicusideas.com/meetings/3021-city-council-on-2022-04-05-2-00-pm/agenda_items/62476031f395e7d7be000c46-q-id-22-658-consider-adoption-of-an-ordinance-of",
         "read": "2026-10-11"
       },
-      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      "note": "Agenda item 22-658 adopts 2020 NEC; passage implied by DBA (2021 I-codes approved same meeting) but not confirmed for NEC. State (TDLR) minimum is 2023 NEC. Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
     },
     "mechanical": {
-      "value": null,
+      "value": "IMC 2021 (assumed)",
       "status": "Assumed",
       "source": {
         "id": "assumed-denton",
-        "title": "Assumed (no source reachable this session)",
+        "title": "Assumed (agent judgement; not found in wave-2 searches)",
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      "note": "Part of 2021 I-code package - not individually confirmed."
     },
     "fuelGas": {
-      "value": null,
+      "value": "IFGC 2021 (assumed)",
       "status": "Assumed",
       "source": {
         "id": "assumed-denton",
-        "title": "Assumed (no source reachable this session)",
+        "title": "Assumed (agent judgement; not found in wave-2 searches)",
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      "note": "Part of 2021 I-code package - not individually confirmed."
     },
     "fire": {
-      "value": null,
-      "status": "Assumed",
+      "value": "2021 IFC adopted 2022; no one/two-family sprinkler mandate known (state preemption)",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-denton",
-        "title": "Assumed (no source reachable this session)",
-        "url": "",
+        "id": "denton-agenda-22-658-nec2020",
+        "title": "Denton City Council 2022-04-05 item 22-658: ordinance repealing 2011 NEC and adopting 2020 NEC (Secs. 28-41 to 28-82, 28-120 to 28-122)",
+        "url": "https://denton-tx.granicusideas.com/meetings/3021-city-council-on-2022-04-05-2-00-pm/agenda_items/62476031f395e7d7be000c46-q-id-22-658-consider-adoption-of-an-ordinance-of",
         "read": "2026-10-11"
       },
-      "note": "No one/two-family sprinkler mandate expected (Occupations Code 1301.551); not verified."
+      "note": "2021 IFC was on same 2022-04-05 agenda. Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
     },
     "wind": {
       "value": 105,
@@ -203,67 +228,67 @@
         "read": "2026-10-11"
       },
       "unit": "in",
-      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      "note": "Not found: wave-1 had no search budget; wave-2 WebSearch did not surface this value (WebFetch DNS-blocked)."
     }
   },
   "zoning": {
     "hasZoning": {
       "value": true,
-      "status": "Assumed",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-denton",
-        "title": "Assumed (no source reachable this session)",
-        "url": "",
+        "id": "denton-ddc-zoneomics-ch3",
+        "title": "Denton Development Code Ch. 3 zoning districts (Table 3.1-A, Tables 3.2-A/B) - Zoneomics transcription",
+        "url": "https://www.zoneomics.com/code/denton-TX/chapter_5",
         "read": "2026-10-11"
       },
-      "note": "Denton has zoning under the Denton Development Code (DDC, adopted 2019) - agent knowledge."
+      "note": "Denton Development Code (DDC) Table 3.1-A districts RR, R1, R2, R3, R4, R6, R7 etc. Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
     },
     "typicalDistrict": {
-      "value": null,
+      "value": "R4 (Residential 4) - provisional choice",
       "status": "Assumed",
       "source": {
-        "id": "assumed-denton",
-        "title": "Assumed (no source reachable this session)",
-        "url": "",
+        "id": "denton-ddc-zoneomics-ch3",
+        "title": "Denton Development Code Ch. 3 zoning districts (Table 3.1-A, Tables 3.2-A/B) - Zoneomics transcription",
+        "url": "https://www.zoneomics.com/code/denton-TX/chapter_5",
         "read": "2026-10-11"
       },
-      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched. DDC residential districts include R1-R7 family; the most common new-subdivision district (likely R4 or R6) not verified."
+      "note": "DDC residential districts RR, R1, R2, R3, R4, R6, R7 exist (Secondary); which is most common for new detached homes not verified; many new subdivisions are PDs/MPCs. R4 dimensional table not found."
     },
     "minLotSqFt": {
       "value": null,
       "status": "Assumed",
       "source": {
         "id": "assumed-denton",
-        "title": "Assumed (no source reachable this session)",
+        "title": "Assumed (agent judgement; not found in wave-2 searches)",
         "url": "",
         "read": "2026-10-11"
       },
       "unit": "sqft",
-      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      "note": "Not found: DDC R4 minLotSqFt. Wave-2 WebSearch did not surface it; WebFetch DNS-blocked."
     },
     "minLotWidthFt": {
       "value": null,
       "status": "Assumed",
       "source": {
         "id": "assumed-denton",
-        "title": "Assumed (no source reachable this session)",
+        "title": "Assumed (agent judgement; not found in wave-2 searches)",
         "url": "",
         "read": "2026-10-11"
       },
       "unit": "ft",
-      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      "note": "Not found: DDC R4 minLotWidthFt. Wave-2 WebSearch did not surface it; WebFetch DNS-blocked."
     },
     "minLotDepthFt": {
       "value": null,
       "status": "Assumed",
       "source": {
         "id": "assumed-denton",
-        "title": "Assumed (no source reachable this session)",
+        "title": "Assumed (agent judgement; not found in wave-2 searches)",
         "url": "",
         "read": "2026-10-11"
       },
       "unit": "ft",
-      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      "note": "Not found: DDC R4 minLotDepthFt. Wave-2 WebSearch did not surface it; WebFetch DNS-blocked."
     },
     "setbacksFt": {
       "front": {
@@ -271,48 +296,48 @@
         "status": "Assumed",
         "source": {
           "id": "assumed-denton",
-          "title": "Assumed (no source reachable this session)",
+          "title": "Assumed (agent judgement; not found in wave-2 searches)",
           "url": "",
           "read": "2026-10-11"
         },
         "unit": "ft",
-        "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+        "note": "Not found: DDC R4 front setback (Table 3.2 R4 not in extracts; only RR and R1 tables seen). Wave-2 WebSearch did not surface it; WebFetch DNS-blocked."
       },
       "side": {
         "value": null,
         "status": "Assumed",
         "source": {
           "id": "assumed-denton",
-          "title": "Assumed (no source reachable this session)",
+          "title": "Assumed (agent judgement; not found in wave-2 searches)",
           "url": "",
           "read": "2026-10-11"
         },
         "unit": "ft",
-        "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+        "note": "Not found: DDC R4 side setback (Table 3.2 R4 not in extracts; only RR and R1 tables seen). Wave-2 WebSearch did not surface it; WebFetch DNS-blocked."
       },
       "streetSide": {
         "value": null,
         "status": "Assumed",
         "source": {
           "id": "assumed-denton",
-          "title": "Assumed (no source reachable this session)",
+          "title": "Assumed (agent judgement; not found in wave-2 searches)",
           "url": "",
           "read": "2026-10-11"
         },
         "unit": "ft",
-        "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+        "note": "Not found: DDC R4 streetSide setback (Table 3.2 R4 not in extracts; only RR and R1 tables seen). Wave-2 WebSearch did not surface it; WebFetch DNS-blocked."
       },
       "rear": {
         "value": null,
         "status": "Assumed",
         "source": {
           "id": "assumed-denton",
-          "title": "Assumed (no source reachable this session)",
+          "title": "Assumed (agent judgement; not found in wave-2 searches)",
           "url": "",
           "read": "2026-10-11"
         },
         "unit": "ft",
-        "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+        "note": "Not found: DDC R4 rear setback (Table 3.2 R4 not in extracts; only RR and R1 tables seen). Wave-2 WebSearch did not surface it; WebFetch DNS-blocked."
       }
     },
     "maxHeightFt": {
@@ -320,12 +345,12 @@
       "status": "Assumed",
       "source": {
         "id": "assumed-denton",
-        "title": "Assumed (no source reachable this session)",
+        "title": "Assumed (agent judgement; not found in wave-2 searches)",
         "url": "",
         "read": "2026-10-11"
       },
       "unit": "ft",
-      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      "note": "Not found: DDC R4 max height (R1 is 40 ft per transcription). Wave-2 WebSearch did not surface it; WebFetch DNS-blocked."
     },
     "maxStories": {
       "value": null,
@@ -336,19 +361,19 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      "note": "Not found: wave-1 had no search budget; wave-2 WebSearch did not surface this value (WebFetch DNS-blocked)."
     },
     "maxLotCoverage": {
       "value": null,
       "status": "Assumed",
       "source": {
         "id": "assumed-denton",
-        "title": "Assumed (no source reachable this session)",
+        "title": "Assumed (agent judgement; not found in wave-2 searches)",
         "url": "",
         "read": "2026-10-11"
       },
       "unit": "fraction",
-      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      "note": "Not found: DDC R4 max building coverage. Wave-2 WebSearch did not surface it; WebFetch DNS-blocked."
     },
     "imperviousCover": {
       "value": null,
@@ -359,7 +384,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      "note": "Not found: wave-1 had no search budget; wave-2 WebSearch did not surface this value (WebFetch DNS-blocked)."
     },
     "far": {
       "value": null,
@@ -370,7 +395,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      "note": "Not found: wave-1 had no search budget; wave-2 WebSearch did not surface this value (WebFetch DNS-blocked)."
     },
     "parking": {
       "value": null,
@@ -381,7 +406,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      "note": "Not found: wave-1 had no search budget; wave-2 WebSearch did not surface this value (WebFetch DNS-blocked)."
     },
     "garageRules": {
       "value": null,
@@ -392,7 +417,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      "note": "Not found: wave-1 had no search budget; wave-2 WebSearch did not surface this value (WebFetch DNS-blocked)."
     },
     "adu": {
       "value": null,
@@ -403,7 +428,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      "note": "Not found: wave-1 had no search budget; wave-2 WebSearch did not surface this value (WebFetch DNS-blocked)."
     },
     "masonry": {
       "value": "No city masonry % enforceable on new homes outside exceptions (HB 2439, Gov't Code ch. 3000); HOA/deed may require.",
@@ -425,9 +450,32 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched. DDC has a tree preservation/canopy section that is known to be significant in Denton; HB 7 (2017) mitigation credits apply. Verify applicability to single-lot homes."
+      "note": "Not found: wave-1 had no search budget; wave-2 WebSearch did not surface this value (WebFetch DNS-blocked). DDC has a tree preservation/canopy section that is known to be significant in Denton; HB 7 (2017) mitigation credits apply. Verify applicability to single-lot homes."
     },
-    "other": []
+    "other": [
+      {
+        "value": "R1 (Table 3.2-B): lot 32,000 sf, width 80 ft, front 20 ft, max height 40 ft",
+        "status": "Secondary",
+        "source": {
+          "id": "denton-ddc-zoneomics-ch3",
+          "title": "Denton Development Code Ch. 3 zoning districts (Table 3.1-A, Tables 3.2-A/B) - Zoneomics transcription",
+          "url": "https://www.zoneomics.com/code/denton-TX/chapter_5",
+          "read": "2026-10-11"
+        },
+        "note": "Third-party transcription; snippet partly cut off. Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
+      },
+      {
+        "value": "RR (Table 3.2-A): lot 5 ac, width 100 ft, front 50 ft, side/rear 10 ft, height 65 ft, max coverage 15%",
+        "status": "Secondary",
+        "source": {
+          "id": "denton-ddc-zoneomics-ch3",
+          "title": "Denton Development Code Ch. 3 zoning districts (Table 3.1-A, Tables 3.2-A/B) - Zoneomics transcription",
+          "url": "https://www.zoneomics.com/code/denton-TX/chapter_5",
+          "read": "2026-10-11"
+        },
+        "note": "Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
+      }
+    ]
   },
   "process": {
     "steps": [
@@ -478,70 +526,83 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      "note": "Not found: wave-1 had no search budget; wave-2 WebSearch did not surface this value (WebFetch DNS-blocked)."
     }
   },
   "fees": {
     "permitFormula": {
-      "value": null,
-      "status": "Assumed",
+      "value": "1 & 2 family dwellings: $0.89 per sq ft + $141 plan review",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-denton",
-        "title": "Assumed (no source reachable this session)",
-        "url": "",
+        "id": "denton-fee-schedule",
+        "title": "City of Denton Development Fee Schedule PDF (dated 10/08/2025)",
+        "url": "https://www.cityofdenton.com/DocumentCenter/View/3590/Fee-Schedule-PDF",
         "read": "2026-10-11"
       },
-      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      "note": "Fee schedule dated 10/08/2025 (same rate on 2021 schedules); says call Building Safety for totals. Basis of sf (total under roof assumed). Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
     },
     "workedExample2400sqft": {
-      "value": null,
-      "status": "Assumed",
+      "value": 2669,
+      "status": "Secondary",
       "source": {
-        "id": "assumed-denton",
-        "title": "Assumed (no source reachable this session)",
-        "url": "",
+        "id": "denton-fee-schedule",
+        "title": "City of Denton Development Fee Schedule PDF (dated 10/08/2025)",
+        "url": "https://www.cityofdenton.com/DocumentCenter/View/3590/Fee-Schedule-PDF",
         "read": "2026-10-11"
       },
       "unit": "USD",
-      "note": "Not computed - fee schedule not retrieved."
+      "note": "Assume 2,400 sf conditioned + 440 sf attached garage = 2,840 sf. 2,840 x $0.89 = $2,527.60 + $141 plan review = $2,668.60. If only conditioned area counts: 2,400 x 0.89 + 141 = $2,277. Excludes trade/impact/tap fees. Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
     },
     "planReview": {
-      "value": null,
-      "status": "Assumed",
+      "value": 141,
+      "status": "Secondary",
       "source": {
-        "id": "assumed-denton",
-        "title": "Assumed (no source reachable this session)",
-        "url": "",
+        "id": "denton-fee-schedule",
+        "title": "City of Denton Development Fee Schedule PDF (dated 10/08/2025)",
+        "url": "https://www.cityofdenton.com/DocumentCenter/View/3590/Fee-Schedule-PDF",
         "read": "2026-10-11"
       },
-      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      "unit": "USD",
+      "note": "Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
     },
     "impactFees": [
+      {
+        "value": null,
+        "status": "Secondary",
+        "source": {
+          "id": "denton-agenda-25-1143-impact",
+          "title": "Denton City Council 2025-08-19 item 25-1143: ordinance amending water/wastewater impact fees (Chapter 26)",
+          "url": "https://denton-tx.granicusideas.com/meetings/4197-city-council-on-2025-08-19-2-00-pm/agenda_items/689e59cdf395e7ba89001738-c-id-25-1143-consider-adoption-of-an-ordinance-of",
+          "read": "2026-10-11"
+        },
+        "unit": "USD",
+        "note": "Water & wastewater impact fees revised by Ord. (item 25-1143, council 2025-08-19; schedule effective ~2025-09-02, with sections by plat date incl. platted on/after 2026-06-01); SF fee based on meter size (5/8 in = 1 SFE) and whether wastewater served; collected at building permit. Staff discussed 75% cost recovery. Adopted $ per SFE NOT found (one extract cited proposed max ~$11,615 wastewater - unverified). Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
+      },
       {
         "value": null,
         "status": "Assumed",
         "source": {
           "id": "assumed-denton",
-          "title": "Assumed (no source reachable this session)",
+          "title": "Assumed (agent judgement; not found in wave-2 searches)",
           "url": "",
           "read": "2026-10-11"
         },
         "unit": "USD",
-        "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched. Denton water/wastewater impact fees exist (agent knowledge) but amounts not retrieved."
+        "note": "Roadway impact fee: none found in searches; Denton not known to levy one - verify."
       }
     ],
     "tapFees": [
       {
         "value": null,
-        "status": "Assumed",
+        "status": "Secondary",
         "source": {
-          "id": "assumed-denton",
-          "title": "Assumed (no source reachable this session)",
-          "url": "",
+          "id": "denton-tap-meter-fees",
+          "title": "City of Denton Tap and Meter Fees PDF",
+          "url": "https://tx-denton.civicplus.com/DocumentCenter/View/851/Tap-and-Meter-Fees-PDF",
           "read": "2026-10-11"
         },
         "unit": "USD",
-        "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+        "note": "City publishes a Tap and Meter Fees PDF; amounts not in extract. Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
       }
     ]
   },
@@ -567,7 +628,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      "note": "Not found: wave-1 had no search budget; wave-2 WebSearch did not surface this value (WebFetch DNS-blocked)."
     },
     "drivers": [
       {
@@ -584,30 +645,114 @@
     ]
   },
   "flood": {
-    "value": null,
-    "status": "Assumed",
+    "value": "Lowest finished floor (and A/C equipment) >= 18 in above 100-yr fully developed WSEL, or 30 in above FIS WSEL, for buildings in floodway fringe and within 200 ft of SFHA (Ch. 30)",
+    "status": "Secondary",
     "source": {
-      "id": "assumed-denton",
-      "title": "Assumed (no source reachable this session)",
-      "url": "",
+      "id": "denton-flood-protection-info",
+      "title": "City of Denton Flood Protection Information (Chapter 30 higher standards)",
+      "url": "https://www.cityofdenton.com/436/Flood-Protection-Information",
       "read": "2026-10-11"
     },
-    "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched. Engine default: lowest floor >= 1 ft above BFE until verified."
+    "note": "City Flood Protection Information page; NCTCOG table cites Ch. 30 Art. III Sec. 30-53 and 30-4 (1.5-2.5 ft above 100-yr WSEL). Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
   },
   "engineChanges": [
     {
       "id": "denton-verify-district",
       "ruleType": "survey-input-district",
       "area": "survey",
-      "change": "Require user to enter DDC zoning district; no district setback table loaded yet (data gap).",
+      "change": "Require user to enter DDC zoning district (RR/R1/R2/R3/R4/R6/R7/PD/MPC); only RR and R1 tables loaded (R1: front 20 ft, width 80 ft, lot 32,000 sf, height 40 ft).",
       "priority": "must",
       "params": {
-        "districtTableLoaded": false
+        "R1": {
+          "frontFt": 20,
+          "minLotWidthFt": 80,
+          "minLotSqFt": 32000,
+          "maxHeightFt": 40
+        },
+        "RR": {
+          "frontFt": 50,
+          "sideFt": 10,
+          "rearFt": 10,
+          "maxHeightFt": 65,
+          "maxCoverage": 0.15
+        }
       },
       "source": {
-        "id": "assumed-denton",
-        "title": "Assumed (no source reachable this session)",
-        "url": "",
+        "id": "denton-ddc-zoneomics-ch3",
+        "title": "Denton Development Code Ch. 3 zoning districts (Table 3.1-A, Tables 3.2-A/B) - Zoneomics transcription",
+        "url": "https://www.zoneomics.com/code/denton-TX/chapter_5",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "denton-flood",
+      "ruleType": "flood-elevation",
+      "area": "survey",
+      "change": "In floodway fringe or within 200 ft of SFHA: finished floor and A/C equipment >= 1.5 ft above 100-yr fully developed WSEL (or 2.5 ft above FIS WSEL).",
+      "priority": "must",
+      "params": {
+        "freeboardFtFullyDeveloped": 1.5,
+        "freeboardFtFIS": 2.5,
+        "bufferFt": 200,
+        "includesEquipment": true
+      },
+      "source": {
+        "id": "denton-flood-protection-info",
+        "title": "City of Denton Flood Protection Information (Chapter 30 higher standards)",
+        "url": "https://www.cityofdenton.com/436/Flood-Protection-Information",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "denton-permit-fee",
+      "ruleType": "permit-fee-formula",
+      "area": "estimate",
+      "change": "Building permit = $0.89/sf + $141 plan review.",
+      "priority": "should",
+      "params": {
+        "ratePerSqFt": 0.89,
+        "planReview": 141
+      },
+      "source": {
+        "id": "denton-fee-schedule",
+        "title": "City of Denton Development Fee Schedule PDF (dated 10/08/2025)",
+        "url": "https://www.cityofdenton.com/DocumentCenter/View/3590/Fee-Schedule-PDF",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "denton-impact-fees",
+      "ruleType": "impact-fee-estimate",
+      "area": "estimate",
+      "change": "Add water + wastewater impact fee line (per 5/8-in meter SFE, by plat date); amount pending - prompt user/city.",
+      "priority": "should",
+      "params": {
+        "basis": "meter-size",
+        "standardMeter": "5/8in",
+        "amountKnown": false
+      },
+      "source": {
+        "id": "denton-agenda-25-1143-impact",
+        "title": "Denton City Council 2025-08-19 item 25-1143: ordinance amending water/wastewater impact fees (Chapter 26)",
+        "url": "https://denton-tx.granicusideas.com/meetings/4197-city-council-on-2025-08-19-2-00-pm/agenda_items/689e59cdf395e7ba89001738-c-id-25-1143-consider-adoption-of-an-ordinance-of",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "denton-irc-2021",
+      "ruleType": "egress-stairs-variant",
+      "area": "drawings",
+      "change": "Base code 2021 IRC + 2021 IECC with Denton/NCTCOG amendments; electrical NEC 2020 (verify).",
+      "priority": "should",
+      "params": {
+        "irc": "2021",
+        "iecc": "2021",
+        "nec": "2020"
+      },
+      "source": {
+        "id": "denton-agenda-22-667-irc2021",
+        "title": "Denton City Council 2022-04-05 item 22-667: ordinance repealing 2012 IRC and adopting 2021 IRC (Code Secs. 28-33, 28-34)",
+        "url": "https://denton-tx.granicusideas.com/meetings/3021-city-council-on-2022-04-05-2-00-pm/agenda_items/62476031f395e7d7be000c4e-y-id-22-667-consider-adoption-of-an-ordinance-of",
         "read": "2026-10-11"
       }
     },
@@ -623,7 +768,7 @@
       },
       "source": {
         "id": "assumed-denton",
-        "title": "Assumed (no source reachable this session)",
+        "title": "Assumed (agent judgement; not found in wave-2 searches)",
         "url": "",
         "read": "2026-10-11"
       }
@@ -632,15 +777,16 @@
       "id": "denton-cz",
       "ruleType": "climate-zone-envelope",
       "area": "envelope",
-      "change": "Climate zone 3A envelope; IECC edition to be confirmed.",
+      "change": "Climate zone 3A envelope per 2021 IECC.",
       "priority": "must",
       "params": {
-        "climateZone": "3A"
+        "climateZone": "3A",
+        "iecc": "2021"
       },
       "source": {
-        "id": "assumed-denton",
-        "title": "Assumed (no source reachable this session)",
-        "url": "",
+        "id": "denton-dba-2021-icodes",
+        "title": "Denton Moving to Amended 2021 I-Codes, Effective June 1",
+        "url": "https://dallasbuilders.org/denton-moving-to-amended-2021-i-codes-effective-june-1/",
         "read": "2026-10-11"
       }
     },
@@ -649,7 +795,7 @@
       "ruleType": "masonry-percentage",
       "area": "envelope",
       "change": "No city masonry %; check HOA/deed restrictions.",
-      "priority": "should",
+      "priority": "nice",
       "params": {
         "masonryPct": 0,
         "checkDeed": true
@@ -662,31 +808,38 @@
       }
     }
   ],
-  "plainLanguage": "Denton's rules could not be checked online during this research, so treat this entry as a placeholder. Denton zones land under the Denton Development Code, and you will need to tell us your lot's zoning district. Like the rest of North Texas, Denton has shifting clay soils, so plan on an engineer-designed slab. The city cannot require brick or stone on new homes, but your HOA may. Denton is in energy climate zone 3A. Fees and setbacks will be added once verified.",
+  "plainLanguage": "Denton builds to the 2021 International Residential and Energy Codes, with local and North Texas regional changes, in effect since June 2022. Zoning is set by the Denton Development Code; we could not yet load the setbacks for the common small-lot districts, so you will need to enter your district or plat lines. If your lot is in or within 200 ft of a mapped floodplain, the floor and A/C unit must sit at least 18 inches above the 100-year flood level for a fully built-out watershed. The building permit is about $0.89 per square foot plus a $141 plan review, roughly $2,700 for a 2,400 sq ft home with a garage. Water and wastewater impact fees were raised in 2025 and depend on meter size and plat date; ask the city for the current amount. Plan on an engineer-designed foundation because of clay soils. The city cannot require brick, but your HOA may.",
   "openQuestions": [
-    "IRC/IECC edition and adoption ordinance",
-    "Typical DDC single-family district and dimensional table",
-    "Tree preservation applicability",
-    "Permit and impact fees",
-    "Flood freeboard"
+    "Most common DDC district for new detached homes and its Table 3.2 dimensional standards (R4/R6/R7)",
+    "Adopted water/wastewater impact fee $ per SFE (Ord. from item 25-1143)",
+    "Whether 2020 NEC passed and whether 2023 NEC adopted since",
+    "Whether permit $/sf applies to garage area",
+    "Engineered foundation submittal rule",
+    "Tap/meter fee amounts"
   ],
   "notFound": [
-    "All Denton-specific primary values - sites blocked and search budget exhausted"
+    "R4/R6/R7 dimensional standards",
+    "impact fee $ amounts",
+    "tap fees",
+    "roadway impact fee",
+    "garage/ADU/tree rules",
+    "review days",
+    "market $/sf"
   ],
   "comparison": {
-    "irc": "unverified (likely 2021 IRC)",
-    "energy": "unverified",
-    "plumbing": "IPC (unverified)",
-    "district": "unverified (R4/R6?)",
-    "setbacks": "unverified",
-    "maxHeight": "unverified",
-    "coverageFar": "unverified",
-    "masonry": "none (HB 2439)",
+    "irc": "2021 IRC (Secondary)",
+    "energy": "2021 IECC (Secondary)",
+    "plumbing": "IPC 2021 (assumed)",
+    "district": "R4 (provisional; enter district)",
+    "setbacks": "not found (R1 front 20)",
+    "maxHeight": "not found (R1 40 ft)",
+    "coverageFar": "not found",
+    "masonry": "none by city; HOA",
     "engFoundation": "likely (unverified)",
     "windstorm": "no",
-    "flood": "unverified",
-    "permitFeeExample": "not found",
-    "impactFees": "not found",
+    "flood": "18 in above fully-developed 100-yr WSEL (2.5 ft above FIS)",
+    "permitFeeExample": "$2,669 (0.89/sf x 2,840 + $141)",
+    "impactFees": "water+ww by meter (amount not found)",
     "costFactor": "PENDING"
   }
 }

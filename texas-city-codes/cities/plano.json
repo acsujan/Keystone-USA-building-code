@@ -12,15 +12,15 @@
     "blsCode": "19100"
   },
   "population": {
-    "value": 290000,
-    "status": "Assumed",
+    "value": 290190,
+    "status": "Secondary",
     "source": {
-      "id": "assumed-plano",
-      "title": "Assumed (no source reachable this session)",
-      "url": "",
+      "id": "census-plano-quickfacts",
+      "title": "U.S. Census QuickFacts: Plano city, Texas",
+      "url": "https://www.census.gov/quickfacts/fact/table/planocitytexas/INC110223",
       "read": "2026-10-11"
     },
-    "note": "Approximate (~290,000, Census Vintage 2024 order of magnitude, agent knowledge); not verified."
+    "note": "Census Vintage 2023 estimate (July 1, 2023); V2024 shown as NA in search extract. NCTCOG Jan 1, 2025 estimate 299,262. Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
   },
   "zipCodesOrBoundary": {
     "value": "75023;75024;75025;75074;75075;75093;75094",
@@ -58,28 +58,53 @@
   "codes": {
     "irc": {
       "edition": {
-        "value": null,
-        "status": "Assumed",
+        "value": "2024 IRC",
+        "status": "Secondary",
         "source": {
-          "id": "assumed-plano",
-          "title": "Assumed (no source reachable this session)",
-          "url": "",
+          "id": "plano-ord-irc-2024",
+          "title": "City of Plano ordinance adopting the 2024 International Residential Code with local amendments (repeals Ord. 2022-1-17; retains Sec. R325 sprinklers)",
+          "url": "https://content.civicplus.com/api/assets/tx-plano/6a2b7a22-3b2f-41c5-844b-6f5d6bb15067",
           "read": "2026-10-11"
         },
-        "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched. Plano is believed to have adopted the 2021 I-codes with NCTCOG regional amendments - NOT verified."
+        "note": "Plano ordinance repeals Ord. 2022-1-17 (2021 IRC) and adopts 2024 IRC with local amendments; Building Standards Commission hearing 2025-04-15; final council adoption date not seen. Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
       },
       "ordinance": {
-        "value": null,
-        "status": "Assumed",
+        "value": "2024 IRC adoption ordinance (number not seen; post-2025-04-15) replacing Ord. 2022-1-17 (2021 IRC, adopted 2022-01-24, Chapter 6 Art. XX Residential Code)",
+        "status": "Secondary",
         "source": {
-          "id": "assumed-plano",
-          "title": "Assumed (no source reachable this session)",
-          "url": "",
+          "id": "plano-ord-irc-2024",
+          "title": "City of Plano ordinance adopting the 2024 International Residential Code with local amendments (repeals Ord. 2022-1-17; retains Sec. R325 sprinklers)",
+          "url": "https://content.civicplus.com/api/assets/tx-plano/6a2b7a22-3b2f-41c5-844b-6f5d6bb15067",
           "read": "2026-10-11"
         },
-        "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+        "note": "Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
       },
-      "amendments": []
+      "amendments": [
+        {
+          "topic": "fire sprinklers",
+          "summary": "Plano retains local Section R325 Automatic Sprinkler Systems (originally Ord. 2008-4-39) when adopting the 2024 IRC; pre-2009 ordinances are exempt from the Texas one/two-family sprinkler preemption. Size/occupancy trigger NOT found.",
+          "section": "R325 (Plano local)",
+          "status": "Secondary",
+          "source": {
+            "id": "plano-ord-irc-2024",
+            "title": "City of Plano ordinance adopting the 2024 International Residential Code with local amendments (repeals Ord. 2022-1-17; retains Sec. R325 sprinklers)",
+            "url": "https://content.civicplus.com/api/assets/tx-plano/6a2b7a22-3b2f-41c5-844b-6f5d6bb15067",
+            "read": "2026-10-11"
+          }
+        },
+        {
+          "topic": "other",
+          "summary": "Plano amends the IRC locally; NCTCOG regional amendments (e.g. Table R301.2(1) climatic criteria) commonly adopted in DFW - Plano's exact amendment list not read.",
+          "section": "",
+          "status": "Secondary",
+          "source": {
+            "id": "nctcog-2021-irc-amendments",
+            "title": "NCTCOG Recommended Amendments to the 2021 International Residential Code (Final)",
+            "url": "https://nctcog.org/getmedia/feafbc55-3c35-4022-bcab-6b07c95c7f9e/2021-IRC-Amendments-Final.pdf",
+            "read": "2026-10-11"
+          }
+        }
+      ]
     },
     "energy": {
       "edition": {
@@ -87,45 +112,45 @@
         "status": "Assumed",
         "source": {
           "id": "assumed-plano",
-          "title": "Assumed (no source reachable this session)",
+          "title": "Assumed (agent judgement; not found in wave-2 searches)",
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched. Possibly 2021 IECC with NCTCOG amendments - unverified."
+        "note": "Not found: only an older Plano ordinance adopting the 2015 IECC surfaced; with the 2024 IRC adopted, energy chapter N1101 of 2024 IRC (or a separate 2021/2024 IECC) likely applies - confirm. State minimum edition for 1-2 family not checked this wave."
       },
       "stretchCode": {
-        "value": null,
+        "value": "None known",
         "status": "Assumed",
         "source": {
           "id": "assumed-plano",
-          "title": "Assumed (no source reachable this session)",
+          "title": "Assumed (agent judgement; not found in wave-2 searches)",
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+        "note": "No local stretch/green mandate seen in searches."
       }
     },
     "plumbing": {
-      "value": "IPC (edition unverified)",
+      "value": "IPC (edition not verified; likely 2024 to match 2024 IRC)",
       "status": "Assumed",
       "source": {
         "id": "assumed-plano",
-        "title": "Assumed (no source reachable this session)",
+        "title": "Assumed (agent judgement; not found in wave-2 searches)",
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      "note": "Plano uses the IPC family; 2024 IPC adoption not confirmed in searches."
     },
     "electrical": {
-      "value": null,
-      "status": "Assumed",
+      "value": "NEC 2023 (with local amendments)",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-plano",
-        "title": "Assumed (no source reachable this session)",
-        "url": "",
+        "id": "plano-ord-nec-2023",
+        "title": "City of Plano ordinance adopting the 2023 National Electrical Code with local amendments",
+        "url": "https://content.civicplus.com/api/assets/acb02c4a-8762-489f-b216-0c21fccc3743",
         "read": "2026-10-11"
       },
-      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      "note": "Ordinance repeals prior electrical code and adopts 2023 NEC; Building Standards Commission hearing 2025-01-21. Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
     },
     "mechanical": {
       "value": null,
@@ -136,7 +161,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      "note": "Not found: wave-1 had no search budget; wave-2 WebSearch did not surface this value (WebFetch DNS-blocked)."
     },
     "fuelGas": {
       "value": null,
@@ -147,18 +172,18 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      "note": "Not found: wave-1 had no search budget; wave-2 WebSearch did not surface this value (WebFetch DNS-blocked)."
     },
     "fire": {
-      "value": null,
-      "status": "Assumed",
+      "value": "Local IRC Sec. R325 automatic sprinkler requirement retained (pre-2009, grandfathered from state preemption); threshold not found",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-plano",
-        "title": "Assumed (no source reachable this session)",
-        "url": "",
+        "id": "plano-ord-irc-2024",
+        "title": "City of Plano ordinance adopting the 2024 International Residential Code with local amendments (repeals Ord. 2022-1-17; retains Sec. R325 sprinklers)",
+        "url": "https://content.civicplus.com/api/assets/tx-plano/6a2b7a22-3b2f-41c5-844b-6f5d6bb15067",
         "read": "2026-10-11"
       },
-      "note": "No one/two-family sprinkler mandate expected (Occupations Code 1301.551); not verified."
+      "note": "Plano is one of few Texas cities whose residential sprinkler rule survives state preemption (Ord. 2008-4-39 predates 2009-01-01 cutoff). Trigger (e.g. size or fire-access) not found - must confirm. Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
     },
     "wind": {
       "value": 105,
@@ -204,152 +229,152 @@
         "read": "2026-10-11"
       },
       "unit": "in",
-      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      "note": "Not found: wave-1 had no search budget; wave-2 WebSearch did not surface this value (WebFetch DNS-blocked)."
     }
   },
   "zoning": {
     "hasZoning": {
       "value": true,
-      "status": "Assumed",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-plano",
-        "title": "Assumed (no source reachable this session)",
-        "url": "",
+        "id": "plano-zoning-ord-2025",
+        "title": "City of Plano Zoning Ordinance (Sept 2025 edition; residential districts in Article 9)",
+        "url": "https://content.civicplus.com/api/assets/e89eb5e3-a666-4490-afd7-c46e539bc4a3",
         "read": "2026-10-11"
       },
-      "note": "Plano has a Zoning Ordinance (agent knowledge)."
+      "note": "Plano Zoning Ordinance, Sept 2025 edition. Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
     },
     "typicalDistrict": {
-      "value": "SF-7",
-      "status": "Assumed",
+      "value": "SF-7 (Single-Family Residence-7)",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-plano",
-        "title": "Assumed (no source reachable this session)",
-        "url": "",
+        "id": "plano-buildingclub-setbacks",
+        "title": "Plano setbacks & height summary (third-party beta site; warns of errors)",
+        "url": "https://zoning.buildingclub.info/texas/plano/setbacks-height",
         "read": "2026-10-11"
       },
-      "note": "SF-7 Single-Family Residence-7 chosen per spec as typical Plano district; others SF-6, SF-9, SF-20, SF-A, PD. Not verified this session."
+      "note": "Base SF districts SF-20, SF-9, SF-7, SF-6, SF-A, plus PD; many neighborhoods are PDs with own setback schedules. Choice of SF-7 per spec."
     },
     "minLotSqFt": {
       "value": 7000,
-      "status": "Assumed",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-plano",
-        "title": "Assumed (no source reachable this session)",
-        "url": "",
+        "id": "plano-buildingclub-setbacks",
+        "title": "Plano setbacks & height summary (third-party beta site; warns of errors)",
+        "url": "https://zoning.buildingclub.info/texas/plano/setbacks-height",
         "read": "2026-10-11"
       },
       "unit": "sqft",
-      "note": "SF-7 = 7,000 sq ft minimum lot (district name convention; agent knowledge). Verify."
+      "note": "SF-7 minimum lot 7,000 sq ft per third-party summary of Zoning Ordinance (site warns of errors). Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
     },
     "minLotWidthFt": {
-      "value": 60,
+      "value": null,
       "status": "Assumed",
       "source": {
         "id": "assumed-plano",
-        "title": "Assumed (no source reachable this session)",
+        "title": "Assumed (agent judgement; not found in wave-2 searches)",
         "url": "",
         "read": "2026-10-11"
       },
       "unit": "ft",
-      "note": "Believed 60 ft - agent knowledge, unverified."
+      "note": "Not found: SF-7 lot width not in search extracts (wave-1 guess 60 ft removed). UR district is 50 ft interior / 55 ft corner for comparison."
     },
     "minLotDepthFt": {
-      "value": 100,
+      "value": null,
       "status": "Assumed",
       "source": {
         "id": "assumed-plano",
-        "title": "Assumed (no source reachable this session)",
+        "title": "Assumed (agent judgement; not found in wave-2 searches)",
         "url": "",
         "read": "2026-10-11"
       },
       "unit": "ft",
-      "note": "Believed 100 ft - agent knowledge, unverified."
+      "note": "Not found: SF-7 lot depth not in search extracts (wave-1 guess 100 ft removed)."
     },
     "setbacksFt": {
       "front": {
         "value": 25,
-        "status": "Assumed",
+        "status": "Secondary",
         "source": {
-          "id": "assumed-plano",
-          "title": "Assumed (no source reachable this session)",
-          "url": "",
+          "id": "plano-buildingclub-setbacks",
+          "title": "Plano setbacks & height summary (third-party beta site; warns of errors)",
+          "url": "https://zoning.buildingclub.info/texas/plano/setbacks-height",
           "read": "2026-10-11"
         },
         "unit": "ft",
-        "note": "Believed 25 ft front yard in SF-7 - agent knowledge, unverified."
+        "note": "SF-7 front yard 25 ft per third-party summary of Plano Zoning Ordinance. Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
       },
       "side": {
         "value": 5,
-        "status": "Assumed",
+        "status": "Secondary",
         "source": {
-          "id": "assumed-plano",
-          "title": "Assumed (no source reachable this session)",
-          "url": "",
+          "id": "plano-buildingclub-setbacks",
+          "title": "Plano setbacks & height summary (third-party beta site; warns of errors)",
+          "url": "https://zoning.buildingclub.info/texas/plano/setbacks-height",
           "read": "2026-10-11"
         },
         "unit": "ft",
-        "note": "Believed 5 ft - agent knowledge, unverified."
+        "note": "SF-7 interior side 5 ft per third-party summary. Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
       },
       "streetSide": {
         "value": null,
         "status": "Assumed",
         "source": {
           "id": "assumed-plano",
-          "title": "Assumed (no source reachable this session)",
+          "title": "Assumed (agent judgement; not found in wave-2 searches)",
           "url": "",
           "read": "2026-10-11"
         },
         "unit": "ft",
-        "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+        "note": "Not found: SF-7 corner/street side yard. Wave-2 WebSearch did not surface it; WebFetch DNS-blocked."
       },
       "rear": {
-        "value": null,
-        "status": "Assumed",
+        "value": 15,
+        "status": "Secondary",
         "source": {
-          "id": "assumed-plano",
-          "title": "Assumed (no source reachable this session)",
-          "url": "",
+          "id": "plano-buildingclub-setbacks",
+          "title": "Plano setbacks & height summary (third-party beta site; warns of errors)",
+          "url": "https://zoning.buildingclub.info/texas/plano/setbacks-height",
           "read": "2026-10-11"
         },
         "unit": "ft",
-        "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+        "note": "SF-7 rear 15 ft (SF-9 rear 20 ft) per third-party summary. Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
       }
     },
     "maxHeightFt": {
-      "value": null,
-      "status": "Assumed",
+      "value": 35,
+      "status": "Secondary",
       "source": {
-        "id": "assumed-plano",
-        "title": "Assumed (no source reachable this session)",
-        "url": "",
+        "id": "plano-buildingclub-setbacks",
+        "title": "Plano setbacks & height summary (third-party beta site; warns of errors)",
+        "url": "https://zoning.buildingclub.info/texas/plano/setbacks-height",
         "read": "2026-10-11"
       },
       "unit": "ft",
-      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      "note": "35 ft for single-family districts, measured to highest point of roof from average grade (third-party summary). Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
     },
     "maxStories": {
       "value": null,
       "status": "Assumed",
       "source": {
         "id": "assumed-plano",
-        "title": "Assumed (no source reachable this session)",
+        "title": "Assumed (agent judgement; not found in wave-2 searches)",
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      "note": "Not found: story limit; height limit 35 ft governs."
     },
     "maxLotCoverage": {
       "value": null,
       "status": "Assumed",
       "source": {
         "id": "assumed-plano",
-        "title": "Assumed (no source reachable this session)",
+        "title": "Assumed (agent judgement; not found in wave-2 searches)",
         "url": "",
         "read": "2026-10-11"
       },
       "unit": "fraction",
-      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      "note": "Not found: Plano SF-7 coverage % not in extracts (UR district is 60% for comparison)."
     },
     "imperviousCover": {
       "value": null,
@@ -360,7 +385,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      "note": "Not found: wave-1 had no search budget; wave-2 WebSearch did not surface this value (WebFetch DNS-blocked)."
     },
     "far": {
       "value": null,
@@ -371,7 +396,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      "note": "Not found: wave-1 had no search budget; wave-2 WebSearch did not surface this value (WebFetch DNS-blocked)."
     },
     "parking": {
       "value": null,
@@ -382,7 +407,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      "note": "Not found: wave-1 had no search budget; wave-2 WebSearch did not surface this value (WebFetch DNS-blocked)."
     },
     "garageRules": {
       "value": null,
@@ -393,7 +418,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched. Plano historically restricts front-facing garages / requires J-swing or rear-entry in some districts - unverified."
+      "note": "Not found: wave-1 had no search budget; wave-2 WebSearch did not surface this value (WebFetch DNS-blocked). Plano historically restricts front-facing garages / requires J-swing or rear-entry in some districts - unverified."
     },
     "adu": {
       "value": null,
@@ -404,7 +429,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      "note": "Not found: wave-1 had no search budget; wave-2 WebSearch did not surface this value (WebFetch DNS-blocked)."
     },
     "masonry": {
       "value": "Plano historically required high masonry percentages on single-family exteriors; after HB 2439 (2019, Gov't Code ch. 3000) cities may not require materials beyond national model codes except in exempt cases (e.g. historic districts). Plano's current enforcement and any PD/historic exceptions not verified. HOA/deed restrictions in Plano subdivisions very commonly require masonry.",
@@ -415,7 +440,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Statute and Plano ordinance not fetched."
+      "note": "Gov't Code ch. 3000 not fetched this wave; Plano ordinance text not read."
     },
     "trees": {
       "value": null,
@@ -426,9 +451,43 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched. Plano has tree preservation rules (agent knowledge); HB 7 (2017) mitigation credits apply."
+      "note": "Not found: wave-1 had no search budget; wave-2 WebSearch did not surface this value (WebFetch DNS-blocked). Plano has tree preservation rules (agent knowledge); HB 7 (2017) mitigation credits apply."
     },
-    "other": []
+    "other": [
+      {
+        "value": "SF-9: 9,000 sq ft min lot, front 25 ft, side 5 ft, rear 20 ft, height 35 ft",
+        "status": "Secondary",
+        "source": {
+          "id": "plano-buildingclub-setbacks",
+          "title": "Plano setbacks & height summary (third-party beta site; warns of errors)",
+          "url": "https://zoning.buildingclub.info/texas/plano/setbacks-height",
+          "read": "2026-10-11"
+        },
+        "note": "Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
+      },
+      {
+        "value": "UR Urban Residential (Sec. 9.800): lot width 50 ft interior / 55 ft corner, depth 90 ft, max coverage 60%",
+        "status": "Secondary",
+        "source": {
+          "id": "plano-zo-ur-9800",
+          "title": "City of Plano Zoning Ordinance Sec. 9.800 UR Urban Residential area/yard/bulk table",
+          "url": "https://content.civicplus.com/api/assets/tx-plano/eca6a2c9-ca69-4729-a18c-72fb7d68a76f",
+          "read": "2026-10-11"
+        },
+        "note": "Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
+      },
+      {
+        "value": "Planned Development (PD) districts override base SF standards - check PD ordinance",
+        "status": "Secondary",
+        "source": {
+          "id": "plano-buildingclub-setbacks",
+          "title": "Plano setbacks & height summary (third-party beta site; warns of errors)",
+          "url": "https://zoning.buildingclub.info/texas/plano/setbacks-height",
+          "read": "2026-10-11"
+        },
+        "note": "Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
+      }
+    ]
   },
   "process": {
     "steps": [
@@ -479,43 +538,44 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      "note": "Not found: wave-1 had no search budget; wave-2 WebSearch did not surface this value (WebFetch DNS-blocked)."
     }
   },
   "fees": {
     "permitFormula": {
-      "value": null,
-      "status": "Assumed",
+      "value": "New single-family residence: $0.48 per sq ft under roof (per-sq-ft, not valuation, per HB 852)",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-plano",
-        "title": "Assumed (no source reachable this session)",
-        "url": "",
+        "id": "plano-fee-exhibit",
+        "title": "City of Plano Building Inspections fee schedule exhibit (Ord. 2020-3-6 / revised Ord. 2025-11-4)",
+        "url": "https://content.civicplus.com/api/assets/bfaa296b-5965-4be9-8823-8ab0592567d6",
         "read": "2026-10-11"
       },
-      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      "note": "City fee exhibit (Ord. 2020-3-6; revised schedule Ord. 2025-11-4 same format) lists $0.48/sf under roof; Community Impact confirms $0.48/sf for single-family after HB 852. Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
     },
     "workedExample2400sqft": {
-      "value": null,
-      "status": "Assumed",
+      "value": 1443,
+      "status": "Secondary",
       "source": {
-        "id": "assumed-plano",
-        "title": "Assumed (no source reachable this session)",
-        "url": "",
+        "id": "plano-fee-exhibit",
+        "title": "City of Plano Building Inspections fee schedule exhibit (Ord. 2020-3-6 / revised Ord. 2025-11-4)",
+        "url": "https://content.civicplus.com/api/assets/bfaa296b-5965-4be9-8823-8ab0592567d6",
         "read": "2026-10-11"
       },
       "unit": "USD",
-      "note": "Not computed - fee schedule not retrieved."
+      "note": "Assume 2,400 sf conditioned + 440 sf attached garage = 2,840 sf under roof (porches excluded). 2,840 x $0.48 = $1,363.20; + $80 plan review (third-party, unverified) = $1,443.20. Excludes trade permits, impact/tap fees. Value seen only in a WebSearch result extract (WebFetch blocked); primary doc not read in full."
     },
     "planReview": {
-      "value": null,
-      "status": "Assumed",
+      "value": 80,
+      "status": "Secondary",
       "source": {
-        "id": "assumed-plano",
-        "title": "Assumed (no source reachable this session)",
-        "url": "",
+        "id": "plano-permitmint",
+        "title": "How to Get a Room Addition Permit in Plano, TX (2026 Guide) - third-party fee summary",
+        "url": "https://permitmint.com/guides/addition/texas/plano/",
         "read": "2026-10-11"
       },
-      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      "unit": "USD",
+      "note": "Third-party guide: $80 new SF plan review (additions $45 in city 2020 exhibit). Unverified."
     },
     "impactFees": [
       {
@@ -523,12 +583,12 @@
         "status": "Assumed",
         "source": {
           "id": "assumed-plano",
-          "title": "Assumed (no source reachable this session)",
+          "title": "Assumed (agent judgement; not found in wave-2 searches)",
           "url": "",
           "read": "2026-10-11"
         },
         "unit": "USD",
-        "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched. Plano has water/wastewater and roadway impact fees (agent knowledge); amounts not retrieved."
+        "note": "Not found: Plano water/wastewater/roadway impact fee amounts. Plano has collected impact fees since early 1990s (Builder magazine) but current per-unit schedule not surfaced. Plano is largely built out; infill lots may be subject to fees at permit."
       }
     ],
     "tapFees": [
@@ -542,7 +602,7 @@
           "read": "2026-10-11"
         },
         "unit": "USD",
-        "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+        "note": "Not found: wave-1 had no search budget; wave-2 WebSearch did not surface this value (WebFetch DNS-blocked)."
       }
     ]
   },
@@ -568,7 +628,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched."
+      "note": "Not found: wave-1 had no search budget; wave-2 WebSearch did not surface this value (WebFetch DNS-blocked)."
     },
     "drivers": [
       {
@@ -589,29 +649,139 @@
     "status": "Assumed",
     "source": {
       "id": "assumed-plano",
-      "title": "Assumed (no source reachable this session)",
+      "title": "Assumed (agent judgement; not found in wave-2 searches)",
       "url": "",
       "read": "2026-10-11"
     },
-    "note": "Not found: city/state websites, amlegal, municode and nctcog.org all blocked (ENOTFOUND/403) for WebFetch and curl this session; shared web-search budget exhausted before this item could be searched. Engine default: lowest floor >= 1 ft above BFE until verified."
+    "note": "Not found: Plano freeboard rule not in searches (NCTCOG higher-standards table extract did not show Plano). Engine default: lowest floor >= 2 ft above BFE (common DFW practice, e.g. Fort Worth/Denton range 1.5-2.5 ft) until verified."
   },
   "engineChanges": [
     {
       "id": "plano-sf7-setbacks",
       "ruleType": "setback-by-district",
       "area": "setbacks",
-      "change": "Provisional SF-7: front 25 ft, side 5 ft (UNVERIFIED - display as provisional; ask user for plat building lines).",
-      "priority": "should",
+      "change": "SF-7: front 25 ft, interior side 5 ft, rear 15 ft (SF-9 rear 20 ft); street side unknown - ask plat.",
+      "priority": "must",
       "params": {
         "district": "SF-7",
         "frontFt": 25,
         "sideFt": 5,
-        "verified": false
+        "rearFt": 15,
+        "streetSideFt": null,
+        "altDistrict": {
+          "SF-9": {
+            "frontFt": 25,
+            "sideFt": 5,
+            "rearFt": 20,
+            "minLotSqFt": 9000
+          }
+        }
       },
       "source": {
-        "id": "assumed-plano",
-        "title": "Assumed (no source reachable this session)",
-        "url": "",
+        "id": "plano-buildingclub-setbacks",
+        "title": "Plano setbacks & height summary (third-party beta site; warns of errors)",
+        "url": "https://zoning.buildingclub.info/texas/plano/setbacks-height",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "plano-lot-min",
+      "ruleType": "lot-min-size",
+      "area": "survey",
+      "change": "Validate lot >= 7,000 sf for SF-7 (9,000 for SF-9).",
+      "priority": "should",
+      "params": {
+        "SF-7": 7000,
+        "SF-9": 9000
+      },
+      "source": {
+        "id": "plano-buildingclub-setbacks",
+        "title": "Plano setbacks & height summary (third-party beta site; warns of errors)",
+        "url": "https://zoning.buildingclub.info/texas/plano/setbacks-height",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "plano-height",
+      "ruleType": "height-limit",
+      "area": "massing",
+      "change": "Max height 35 ft to highest roof point from average grade in SF districts.",
+      "priority": "must",
+      "params": {
+        "maxHeightFt": 35,
+        "measure": "highest-point-from-average-grade"
+      },
+      "source": {
+        "id": "plano-buildingclub-setbacks",
+        "title": "Plano setbacks & height summary (third-party beta site; warns of errors)",
+        "url": "https://zoning.buildingclub.info/texas/plano/setbacks-height",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "plano-sprinkler",
+      "ruleType": "fire-sprinkler",
+      "area": "plan",
+      "change": "Plano retains local IRC Sec. R325 residential sprinkler rule (grandfathered pre-2009). Flag possible NFPA 13D system and ask user to confirm trigger with Plano Building Inspections; add sprinkler allowance to estimate when triggered.",
+      "priority": "must",
+      "params": {
+        "localSection": "R325",
+        "triggerKnown": false,
+        "estimateAllowance": true
+      },
+      "source": {
+        "id": "plano-ord-irc-2024",
+        "title": "City of Plano ordinance adopting the 2024 International Residential Code with local amendments (repeals Ord. 2022-1-17; retains Sec. R325 sprinklers)",
+        "url": "https://content.civicplus.com/api/assets/tx-plano/6a2b7a22-3b2f-41c5-844b-6f5d6bb15067",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "plano-irc-2024",
+      "ruleType": "egress-stairs-variant",
+      "area": "drawings",
+      "change": "Use 2024 IRC (not 2021) as the base code for Plano permits; note code edition on drawings.",
+      "priority": "must",
+      "params": {
+        "irc": "2024"
+      },
+      "source": {
+        "id": "plano-ord-irc-2024",
+        "title": "City of Plano ordinance adopting the 2024 International Residential Code with local amendments (repeals Ord. 2022-1-17; retains Sec. R325 sprinklers)",
+        "url": "https://content.civicplus.com/api/assets/tx-plano/6a2b7a22-3b2f-41c5-844b-6f5d6bb15067",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "plano-nec-2023",
+      "ruleType": "electrical-code-edition",
+      "area": "drawings",
+      "change": "Electrical per NEC 2023 with Plano amendments.",
+      "priority": "should",
+      "params": {
+        "nec": "2023"
+      },
+      "source": {
+        "id": "plano-ord-nec-2023",
+        "title": "City of Plano ordinance adopting the 2023 National Electrical Code with local amendments",
+        "url": "https://content.civicplus.com/api/assets/acb02c4a-8762-489f-b216-0c21fccc3743",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "plano-permit-fee",
+      "ruleType": "permit-fee-formula",
+      "area": "estimate",
+      "change": "Building permit = $0.48 x sf under roof + ~$80 plan review.",
+      "priority": "should",
+      "params": {
+        "ratePerSqFtUnderRoof": 0.48,
+        "planReview": 80
+      },
+      "source": {
+        "id": "plano-fee-exhibit",
+        "title": "City of Plano Building Inspections fee schedule exhibit (Ord. 2020-3-6 / revised Ord. 2025-11-4)",
+        "url": "https://content.civicplus.com/api/assets/bfaa296b-5965-4be9-8823-8ab0592567d6",
         "read": "2026-10-11"
       }
     },
@@ -619,13 +789,13 @@
       "id": "plano-plat-lines",
       "ruleType": "building-line-plat",
       "area": "survey",
-      "change": "Use recorded plat building lines when stricter than zoning (common in Plano subdivisions).",
+      "change": "Use recorded plat building lines / PD standards when stricter than base SF zoning (many Plano neighborhoods are PDs).",
       "priority": "should",
       "params": {},
       "source": {
-        "id": "assumed-plano",
-        "title": "Assumed (no source reachable this session)",
-        "url": "",
+        "id": "plano-buildingclub-setbacks",
+        "title": "Plano setbacks & height summary (third-party beta site; warns of errors)",
+        "url": "https://zoning.buildingclub.info/texas/plano/setbacks-height",
         "read": "2026-10-11"
       }
     },
@@ -633,7 +803,7 @@
       "id": "plano-masonry",
       "ruleType": "masonry-percentage",
       "area": "envelope",
-      "change": "No enforceable city masonry % assumed (HB 2439); strongly prompt for HOA/deed masonry % (commonly high in Plano).",
+      "change": "No enforceable city masonry % assumed (Gov't Code ch. 3000); prompt for HOA/deed masonry %.",
       "priority": "should",
       "params": {
         "masonryPct": 0,
@@ -650,7 +820,7 @@
       "id": "plano-eng-foundation",
       "ruleType": "engineered-foundation-flag",
       "area": "foundation",
-      "change": "Flag engineered foundation likely required; confirm.",
+      "change": "Flag engineered (PE-sealed) slab foundation on expansive clay; Plano submittal rule not confirmed.",
       "priority": "should",
       "params": {
         "engineeredFoundation": true,
@@ -658,7 +828,7 @@
       },
       "source": {
         "id": "assumed-plano",
-        "title": "Assumed (no source reachable this session)",
+        "title": "Assumed (agent judgement; not found in wave-2 searches)",
         "url": "",
         "read": "2026-10-11"
       }
@@ -667,45 +837,70 @@
       "id": "plano-cz",
       "ruleType": "climate-zone-envelope",
       "area": "envelope",
-      "change": "Climate zone 3A envelope; IECC edition to confirm.",
+      "change": "Climate zone 3A envelope; energy edition to confirm (likely 2024 IRC Ch. 11).",
       "priority": "must",
       "params": {
         "climateZone": "3A"
       },
       "source": {
         "id": "assumed-plano",
-        "title": "Assumed (no source reachable this session)",
+        "title": "Assumed (agent judgement; not found in wave-2 searches)",
         "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "plano-flood",
+      "ruleType": "flood-elevation",
+      "area": "survey",
+      "change": "If in SFHA: provisional lowest floor >= 2 ft above BFE until Plano rule verified.",
+      "priority": "should",
+      "params": {
+        "freeboardFt": 2,
+        "verified": false
+      },
+      "source": {
+        "id": "nctcog-flood-higher-standards",
+        "title": "NCTCOG Higher Standards for Floodplain Management - Summary Table",
+        "url": "https://nctcog.org/getmedia/cc579f24-69c3-4745-bb6f-95ab85e1a5fc/Higher-Standards-for-Floodplain-Management_Summary-Table.pdf",
         "read": "2026-10-11"
       }
     }
   ],
-  "plainLanguage": "Plano's rules could not be checked online during this research, so the numbers here are provisional. The common SF-7 zone is for lots of about 7,000 sq ft, with front yards believed to be 25 ft and side yards 5 ft. Check your plat and HOA rules, which are often stricter. A 2019 state law stops the city from requiring brick or stone, but many Plano HOAs still require it. Plan on an engineer-designed foundation because of the clay soils. Plano is in energy climate zone 3A.",
+  "plainLanguage": "Plano now uses the 2024 International Residential Code, a newer edition than most Texas cities, plus the 2023 electrical code. Plano is unusual: it kept a 2008 local rule on home fire sprinklers that state law still allows, so ask the city whether your home needs one. The common SF-7 zone needs a 7,000 sq ft lot with a 25 ft front yard, 5 ft side yards and a 15 ft rear yard, and homes up to 35 ft tall. Many neighborhoods are Planned Developments or have plat lines and HOA rules that are stricter, so check those. The city cannot require brick or stone, but many HOAs do. The building permit is about $0.48 per square foot under roof, roughly $1,400 for a 2,400 sq ft home with a garage, plus trade and utility fees. Plan on an engineer-designed foundation because of clay soils.",
   "openQuestions": [
-    "IRC/IECC edition and ordinance",
-    "SF-7 full dimensional table (rear, street side, height, coverage)",
-    "Garage orientation rules",
-    "Masonry rule status after HB 2439",
-    "Permit, impact (water/ww/roadway) fees",
-    "Tree preservation",
-    "Flood freeboard"
+    "Trigger/threshold of Plano local IRC Sec. R325 sprinkler rule",
+    "Final adoption date/number of 2024 IRC ordinance",
+    "Energy code edition (2024 IRC Ch.11 vs IECC)",
+    "SF-7 lot width/depth, street-side yard, lot coverage from primary Article 9 table",
+    "Water/wastewater/roadway impact fee amounts",
+    "Flood freeboard",
+    "Engineered foundation submittal rule",
+    "Tree preservation details"
   ],
   "notFound": [
-    "All Plano-specific primary values - sites blocked and search budget exhausted"
+    "R325 sprinkler trigger",
+    "SF-7 lot width/depth/coverage/street side",
+    "impact fee amounts",
+    "tap fees",
+    "flood freeboard",
+    "energy edition",
+    "review days",
+    "market $/sf"
   ],
   "comparison": {
-    "irc": "unverified (likely 2021 IRC)",
-    "energy": "unverified",
-    "plumbing": "IPC (unverified)",
+    "irc": "2024 IRC (Secondary)",
+    "energy": "not verified",
+    "plumbing": "IPC (edition unverified)",
     "district": "SF-7",
-    "setbacks": "25/5/? (unverified)",
-    "maxHeight": "unverified",
-    "coverageFar": "unverified",
-    "masonry": "none by city (HB 2439); HOA often",
+    "setbacks": "25/5/15 (Secondary)",
+    "maxHeight": "35 ft",
+    "coverageFar": "not found",
+    "masonry": "none by city (ch. 3000); HOA often",
     "engFoundation": "likely (unverified)",
     "windstorm": "no",
-    "flood": "unverified",
-    "permitFeeExample": "not found",
+    "flood": "not verified (default 2 ft)",
+    "permitFeeExample": "$1,443 (0.48/sf x 2,840 + $80)",
     "impactFees": "not found",
     "costFactor": "PENDING"
   }

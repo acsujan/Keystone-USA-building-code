@@ -11,15 +11,15 @@
     "blsCode": "19100"
   },
   "population": {
-    "value": 255000,
-    "status": "Assumed",
+    "value": 254373,
+    "status": "Secondary",
     "source": {
-      "id": "assumed",
-      "title": "Assumed - researcher judgement (not verified this session)",
-      "url": "",
+      "id": "census-qf-arl-irv",
+      "title": "U.S. Census Bureau QuickFacts - Arlington city and Irving city, Texas",
+      "url": "https://census.gov/quickfacts/fact/table/arlingtoncitytexas,irvingcitytexas/POP010220",
       "read": "2026-10-11"
     },
-    "note": "About 255,000 (approximate, prior knowledge; Census vintage not re-fetched)."
+    "note": "Census Vintage 2023 estimate (July 1, 2023) seen in QuickFacts search extract; V2024 figure not shown in the extract."
   },
   "climateZone": {
     "value": "3A",
@@ -52,169 +52,156 @@
       "url": "",
       "read": "2026-10-11"
     },
-    "note": "Not found: official city-limits map. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+    "note": "Not found: official city-limits map. Not reached in wave 2 (fetch blocked; capped search budget spent on priority fields)."
   },
   "codes": {
     "irc": {
       "edition": {
-        "value": "2021 IRC (likely)",
-        "status": "Assumed",
+        "value": "2024 IRC (with Irving amendments, Chapter 8B); 2021 IRC applied to permits before 5-1-2026",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed - researcher judgement (not verified this session)",
-          "url": "",
-          "read": "2026-10-11"
+          "id": "irving-ecode-8b",
+          "title": "City of Irving Land Development Code Chapter 8B Building Codes (eCode360)",
+          "url": "https://ecode360.com/45598832",
+          "read": "2026-10-11",
+          "section": "Ch. 8B (Residential code section)"
         },
-        "note": "Irving is believed to have adopted the 2021 I-codes with NCTCOG regional amendments. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+        "note": "Chapter 8B (eCode360 extract) adopts the 2024 IRC with appendices incl. CA and NB (solar-ready), as amended, by Ord. 2026-11253 adopted 3/26/2026; city hearing notice gives effective date 5-1-26. Prior: 2021 IRC by Ord. 2023-10685 (adopted 1/12/2023, eff. 2-13-2023). Seen only in search-result extracts of this page (page itself could not be fetched)."
       },
       "ordinance": {
-        "value": null,
-        "status": "Assumed",
+        "value": "Ordinance 2026-11253 (adopted 3/26/2026, effective 5/1/2026); earlier Ordinance 2023-10685 (2021 IRC)",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed - researcher judgement (not verified this session)",
-          "url": "",
+          "id": "irving-proposed-2024",
+          "title": "City of Irving - Proposed Ordinances for Adopting the 2024 International Codes (eff. 5-1-26)",
+          "url": "https://irvingtx.gov/temp_proposed_ord",
           "read": "2026-10-11"
         },
-        "note": "Not found: adoption ordinance number and date. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+        "note": "Effective date 5-1-26 from the city's public-hearing notice; adoption date from eCode360 history note. Seen only in search-result extracts of this page (page itself could not be fetched)."
       },
       "amendments": [
         {
           "topic": "other",
-          "summary": "NCTCOG regional amendment trims IRC Table R301.2(1): the Manual J design-criteria columns are removed (Manual J is done by third parties and not checked in plan review).",
-          "section": "Table R301.2(1)",
+          "summary": "Irving's own 2024 IRC amendments are an attachment to Chapter 8B (Attachment 2, '2024 IRC Amendments'); their text (foundation, sprinkler, etc.) was not visible in any search extract.",
+          "section": "Ch. 8B Attachment 2",
           "status": "Secondary",
           "source": {
-            "id": "nctcog-2021-irc-amendments",
-            "title": "NCTCOG Recommended Amendments to the 2021 International Residential Code (Approved July 2021)",
-            "url": "https://nctcog.org/getmedia/feafbc55-3c35-4022-bcab-6b07c95c7f9e/2021-IRC-Amendments-Final.pdf",
+            "id": "irving-ecode-8b",
+            "title": "City of Irving Land Development Code Chapter 8B Building Codes (eCode360)",
+            "url": "https://ecode360.com/45598832",
             "read": "2026-10-11",
-            "section": "Table R301.2(1)"
+            "section": "Ch. 8B Attachment 2"
           },
-          "note": "Regional NCTCOG recommendation; this city's adoption of it is not confirmed."
+          "note": "Attachment not read; content unknown."
         },
         {
           "topic": "other",
-          "summary": "NCTCOG adds an exception at R302.1: open non-combustible carports may be built where local ordinances also allow them.",
-          "section": "R302.1 exception",
+          "summary": "NCTCOG publishes recommended regional amendments to the 2024 IRC (approved); DFW cities usually adopt most of them. Irving's adoption of each item not confirmed.",
+          "section": "NCTCOG 2024 IRC amendments",
           "status": "Secondary",
           "source": {
-            "id": "nctcog-2021-irc-amendments",
-            "title": "NCTCOG Recommended Amendments to the 2021 International Residential Code (Approved July 2021)",
-            "url": "https://nctcog.org/getmedia/feafbc55-3c35-4022-bcab-6b07c95c7f9e/2021-IRC-Amendments-Final.pdf",
+            "id": "nctcog-2024-irc-amendments",
+            "title": "NCTCOG Recommended Amendments to the 2024 International Residential Code (Final Approved)",
+            "url": "https://www.nctcog.org/getContentAsset/36efaec9-cbdd-4146-be59-cd5b6598784f/dfc3d011-8f63-43f6-9ed8-4b444333a1d0/2024-IRC-Amendments-Final_Approved.pdf",
             "read": "2026-10-11",
-            "section": "R302.1"
+            "section": "NCTCOG 2024 IRC amendments"
           },
-          "note": "Regional NCTCOG recommendation; this city's adoption of it is not confirmed."
+          "note": "Regional recommendation only."
         },
         {
           "topic": "other",
-          "summary": "NCTCOG deletes IRC Chapter 11 (energy) and points to the 2021 IECC with its NCTCOG amendments instead.",
-          "section": "Chapter 11 (N1101)",
+          "summary": "Adopted appendices include gas-pipe sizing (CA) and solar-ready provisions (NB, formerly AT in the 2021 edition), plus patio covers in the 2021 adoption.",
+          "section": "Ch. 8B residential code section",
           "status": "Secondary",
           "source": {
-            "id": "nctcog-2021-irc-amendments",
-            "title": "NCTCOG Recommended Amendments to the 2021 International Residential Code (Approved July 2021)",
-            "url": "https://nctcog.org/getmedia/feafbc55-3c35-4022-bcab-6b07c95c7f9e/2021-IRC-Amendments-Final.pdf",
+            "id": "irving-ecode-irc2021",
+            "title": "City of Irving Building Codes - Residential Code section (2021 IRC, Ord. 2023-10685) (eCode360)",
+            "url": "https://ecode360.com/45714950",
             "read": "2026-10-11",
-            "section": "Chapter 11"
+            "section": "Ch. 8B residential code section"
           },
-          "note": "Regional NCTCOG recommendation; this city's adoption of it is not confirmed."
-        },
-        {
-          "topic": "other",
-          "summary": "NCTCOG revises the townhouse definition so units on separate lots run from foundation to roof, divided by property lines.",
-          "section": "R202 Townhouse unit",
-          "status": "Secondary",
-          "source": {
-            "id": "nctcog-2021-irc-amendments",
-            "title": "NCTCOG Recommended Amendments to the 2021 International Residential Code (Approved July 2021)",
-            "url": "https://nctcog.org/getmedia/feafbc55-3c35-4022-bcab-6b07c95c7f9e/2021-IRC-Amendments-Final.pdf",
-            "read": "2026-10-11",
-            "section": "R202"
-          },
-          "note": "Regional NCTCOG recommendation; this city's adoption of it is not confirmed."
+          "note": "Seen only in search-result extracts of this page (page itself could not be fetched)."
         }
       ]
     },
     "energy": {
       "edition": {
-        "value": "2021 IECC (likely, with NCTCOG amendments)",
-        "status": "Assumed",
+        "value": "2024 IECC (as amended, Ord. 2026-11253, eff. 5-1-2026); city permit pages still reference 2021 IECC / IC3",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed - researcher judgement (not verified this session)",
-          "url": "",
+          "id": "irving-ecode-8b",
+          "title": "City of Irving Land Development Code Chapter 8B Building Codes (eCode360)",
+          "url": "https://ecode360.com/45598832",
           "read": "2026-10-11"
         },
-        "note": "Assumed to follow the 2021 cycle. Not verified."
+        "note": "eCode360 Ch. 8B extract says 2024 IECC adopted as amended; Fees & Forms page still tells applicants to select 2021 IECC in IC3 and offers a COG residential compliance path. Seen only in search-result extracts of this page (page itself could not be fetched)."
       },
       "stretchCode": {
         "value": false,
-        "status": "Assumed",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed - researcher judgement (not verified this session)",
-          "url": "",
+          "id": "irving-fees-forms",
+          "title": "City of Irving - Fees & Forms (IC3 / COG energy compliance)",
+          "url": "https://irvingtx.gov/fees_and_forms",
           "read": "2026-10-11"
         },
-        "note": "No local stretch code known."
+        "note": "No stretch code found; COG (NCTCOG) residential energy compliance path offered as alternate. Seen only in search-result extracts of this page (page itself could not be fetched)."
       }
     },
     "plumbing": {
-      "value": "IPC 2021 (likely)",
-      "status": "Assumed",
+      "value": "IPC 2024 (Irving amendments; some water-efficiency text still cites 2021 IPC)",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
+        "id": "irving-ecode-8b",
+        "title": "City of Irving Land Development Code Chapter 8B Building Codes (eCode360)",
+        "url": "https://ecode360.com/45598832",
         "read": "2026-10-11"
       },
-      "note": "DFW cities generally adopt IPC; not verified."
+      "note": "Seen only in search-result extracts of this page (page itself could not be fetched)."
     },
     "electrical": {
-      "value": null,
-      "status": "Assumed",
+      "value": "NEC 2023 (with Irving amendments, incl. Informative Annex H)",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
+        "id": "irving-ecode-8b",
+        "title": "City of Irving Land Development Code Chapter 8B Building Codes (eCode360)",
+        "url": "https://ecode360.com/45598832",
         "read": "2026-10-11"
       },
-      "note": "Not found: NEC edition (2020 or 2023). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "note": "Seen only in search-result extracts of this page (page itself could not be fetched)."
     },
     "mechanical": {
-      "value": "2021 IMC (likely)",
-      "status": "Assumed",
+      "value": "2024 IMC (part of the 2024 I-Code package, eff. 5-1-2026)",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
+        "id": "irving-proposed-2024",
+        "title": "City of Irving - Proposed Ordinances for Adopting the 2024 International Codes (eff. 5-1-26)",
+        "url": "https://irvingtx.gov/temp_proposed_ord",
         "read": "2026-10-11"
       },
-      "note": "Not verified."
+      "note": "Listed in hearing notice of 2024 I-Codes; individual code not re-confirmed. Seen only in search-result extracts of this page (page itself could not be fetched)."
     },
     "fuelGas": {
-      "value": "2021 IFGC (likely)",
-      "status": "Assumed",
+      "value": "2024 IFGC (part of the 2024 I-Code package, eff. 5-1-2026)",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
+        "id": "irving-proposed-2024",
+        "title": "City of Irving - Proposed Ordinances for Adopting the 2024 International Codes (eff. 5-1-26)",
+        "url": "https://irvingtx.gov/temp_proposed_ord",
         "read": "2026-10-11"
       },
-      "note": "Not verified."
+      "note": "Listed in hearing notice of 2024 I-Codes; not re-confirmed individually. Seen only in search-result extracts of this page (page itself could not be fetched)."
     },
     "fire": {
-      "value": "2021 IFC (likely). No one/two-family sprinkler mandate expected (Texas Occ. Code 1301.551(i) opt-out common).",
-      "status": "Assumed",
+      "value": "2024 IFC (part of 2024 I-Code package, eff. 5-1-2026). No one/two-family sprinkler mandate found (Texas Occ. Code 1301.551(i) opt-out common).",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
+        "id": "irving-proposed-2024",
+        "title": "City of Irving - Proposed Ordinances for Adopting the 2024 International Codes (eff. 5-1-26)",
+        "url": "https://irvingtx.gov/temp_proposed_ord",
         "read": "2026-10-11"
       },
-      "note": "Not verified."
+      "note": "IFC edition inferred from the 2024 I-Code package notice; sprinkler amendment text not read."
     },
     "wind": {
       "value": null,
@@ -226,7 +213,7 @@
         "read": "2026-10-11"
       },
       "unit": "mph",
-      "note": "Not found: local Table R301.2(1) wind value. ASCE 7-16 / IRC Fig R301.2(2) shows roughly 105-110 mph ultimate design wind speed (Risk Cat. II) in the DFW area; check the city's Table R301.2(1) entry. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "note": "Not found: local Table R301.2(1) wind value. ASCE 7-16 / IRC Fig R301.2(2) shows roughly 105-110 mph ultimate design wind speed (Risk Cat. II) in the DFW area; check the city's Table R301.2(1) entry. Not reached in wave 2 (fetch blocked; capped search budget spent on priority fields)."
     },
     "hailRoofing": {
       "value": "No local hail-roof mandate found. DFW is a high-hail area, so Class 4 impact-resistant shingles (UL 2218) are a common owner choice for insurance discounts, not a code rule.",
@@ -260,68 +247,75 @@
         "read": "2026-10-11"
       },
       "unit": "in",
-      "note": "Not found: the local frost-depth value in Table R301.2(1). DFW cities commonly list a shallow frost depth (often 6 in or less), but this was not verified. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "note": "Not found: the local frost-depth value in Table R301.2(1). DFW cities commonly list a shallow frost depth (often 6 in or less), but this was not verified. Not reached in wave 2 (fetch blocked; capped search budget spent on priority fields)."
     }
   },
   "zoning": {
     "hasZoning": {
       "value": true,
-      "status": "Assumed",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
+        "id": "irving-udc-page",
+        "title": "City of Irving - Land Development Code + Ordinances (UDC)",
+        "url": "https://irvingtx.gov/ordinances-updates",
         "read": "2026-10-11"
       },
-      "note": "Large DFW city with zoning (regional knowledge)."
+      "note": "Irving Unified Development Code (UDC) holds zoning and subdivision rules."
     },
     "typicalDistrict": {
-      "value": "R-7.5 Single Family (assumed)",
-      "status": "Assumed",
+      "value": "R-7.5 Single-family Residential 7.5 (UDC 2.4.7)",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
-        "read": "2026-10-11"
+        "id": "irving-udc-2",
+        "title": "City of Irving UDC Chapter UDC-2 Zoning Districts, Uses, and Standards (eCode360)",
+        "url": "https://ecode360.com/45749882",
+        "read": "2026-10-11",
+        "section": "UDC 2.4.7"
       },
-      "note": "Assumed typical new-home district; Irving zoning not read this session."
+      "note": "Other SF districts: R-40, R-15, R-10, R-6 (UDC-8 extract). Much of Irving (e.g. Las Colinas) is Planned Development (PD) zoning with its own standards. Seen only in search-result extracts of this page (page itself could not be fetched)."
     },
     "minLotSqFt": {
-      "value": null,
-      "status": "Assumed",
+      "value": 7500,
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
-        "read": "2026-10-11"
+        "id": "irving-udc-2",
+        "title": "City of Irving UDC Chapter UDC-2 Zoning Districts, Uses, and Standards (eCode360)",
+        "url": "https://ecode360.com/45749882",
+        "read": "2026-10-11",
+        "section": "UDC 2.4.7"
       },
-      "note": "Not found: minimum lot area for R-7.5 Single Family (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "unit": "sqft",
+      "note": "7,500 sq ft of land per dwelling unit, one detached single-family home per lot (UDC 2.4.7 extract). Seen only in search-result extracts of this page (page itself could not be fetched)."
     },
     "minLotWidthFt": {
-      "value": null,
-      "status": "Assumed",
+      "value": 60,
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
-        "read": "2026-10-11"
+        "id": "irving-udc-2",
+        "title": "City of Irving UDC Chapter UDC-2 Zoning Districts, Uses, and Standards (eCode360)",
+        "url": "https://ecode360.com/45749882",
+        "read": "2026-10-11",
+        "section": "UDC 2.4.7"
       },
-      "note": "Not found: minimum lot width for R-7.5 Single Family (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "unit": "ft",
+      "note": "Extract text was jumbled; 60 ft followed the R-7.5 heading. Seen only in search-result extracts of this page (page itself could not be fetched)."
     },
     "minLotDepthFt": {
-      "value": null,
-      "status": "Assumed",
+      "value": 100,
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
-        "read": "2026-10-11"
+        "id": "irving-udc-2",
+        "title": "City of Irving UDC Chapter UDC-2 Zoning Districts, Uses, and Standards (eCode360)",
+        "url": "https://ecode360.com/45749882",
+        "read": "2026-10-11",
+        "section": "UDC 2.4.7"
       },
-      "note": "Not found: minimum lot depth for R-7.5 Single Family (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "unit": "ft",
+      "note": "Extract text was jumbled; 100 ft followed the R-7.5 heading. Seen only in search-result extracts of this page (page itself could not be fetched)."
     },
     "setbacksFt": {
       "front": {
-        "value": null,
+        "value": 25,
         "status": "Assumed",
         "source": {
           "id": "assumed",
@@ -329,10 +323,11 @@
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Not found: front setback for R-7.5 Single Family (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+        "unit": "ft",
+        "note": "Not confirmed: UDC 2.4.7 extract was jumbled and setback values could not be tied to R-7.5. 25 ft appears among UDC-2 front-setback values and matches third-party Irving ranges (20-25 ft); verify on plat."
       },
       "side": {
-        "value": null,
+        "value": 5,
         "status": "Assumed",
         "source": {
           "id": "assumed",
@@ -340,7 +335,8 @@
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Not found: side setback for R-7.5 Single Family (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+        "unit": "ft",
+        "note": "Not confirmed: UDC 2.4.7 extract was jumbled and setback values could not be tied to R-7.5. Third-party permit guide gives 5-7.5 ft typical side yards; side yard may be waived over interior lot line (UDC-8)."
       },
       "streetSide": {
         "value": null,
@@ -351,10 +347,11 @@
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Not found: streetSide setback for R-7.5 Single Family (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+        "unit": "ft",
+        "note": "Not confirmed: UDC 2.4.7 extract was jumbled and setback values could not be tied to R-7.5. Corner-lot street side value not found."
       },
       "rear": {
-        "value": null,
+        "value": 20,
         "status": "Assumed",
         "source": {
           "id": "assumed",
@@ -362,7 +359,8 @@
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Not found: rear setback for R-7.5 Single Family (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+        "unit": "ft",
+        "note": "Not confirmed: UDC 2.4.7 extract was jumbled and setback values could not be tied to R-7.5. Third-party guide gives 20-25 ft typical rear."
       }
     },
     "maxHeightFt": {
@@ -374,7 +372,8 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: maximum height for R-7.5 Single Family (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "unit": "ft",
+      "note": "Not confirmed: extract shows '2 stories or 25 feet' and '2.5 stories or 30 feet' near the R-7.5 heading but could not tie either to R-7.5."
     },
     "maxStories": {
       "value": null,
@@ -385,7 +384,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: maximum stories for R-7.5 Single Family (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "note": "Not confirmed (2 or 2.5 stories near R-7.5 in jumbled extract)."
     },
     "maxLotCoverage": {
       "value": null,
@@ -396,7 +395,8 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: maximum lot coverage for R-7.5 Single Family (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "unit": "fraction",
+      "note": "Not confirmed: a 35% coverage value sits just before the R-7.5 heading in the UDC-2 extract and may belong to the previous district."
     },
     "imperviousCover": {
       "value": null,
@@ -407,7 +407,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: impervious cover limit for R-7.5 Single Family (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "note": "Not found: impervious cover limit for R-7.5. Not reached in wave 2 (fetch blocked; capped search budget spent on priority fields)."
     },
     "far": {
       "value": null,
@@ -418,7 +418,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: FAR for R-7.5 Single Family (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "note": "Not found: FAR for R-7.5. Not reached in wave 2 (fetch blocked; capped search budget spent on priority fields)."
     },
     "parking": {
       "value": null,
@@ -429,7 +429,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: parking minimum for R-7.5 Single Family (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "note": "Not found: parking minimum for R-7.5. Not reached in wave 2 (fetch blocked; capped search budget spent on priority fields)."
     },
     "garageRules": {
       "value": null,
@@ -440,7 +440,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: garage placement/orientation rules for R-7.5 Single Family (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "note": "Not found: garage placement/orientation rules for R-7.5. Not reached in wave 2 (fetch blocked; capped search budget spent on priority fields)."
     },
     "adu": {
       "value": null,
@@ -451,19 +451,18 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: ADU rules for R-7.5 Single Family (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "note": "Not found: ADU rules for R-7.5. Not reached in wave 2 (fetch blocked; capped search budget spent on priority fields)."
     },
     "masonry": {
-      "value": "No enforceable masonry percentage for new single-family homes made of materials approved by a national model code (Gov't Code ch. 3000, HB 2439, 2019); exceptions: designated historic districts/landmarks, and windstorm/flood-insurance materials. Older city masonry percentages for single-family homes cannot be enforced against code-approved materials, except in historic districts.",
+      "value": "No enforceable masonry percentage for a standard single-family home (Gov't Code ch. 3000, HB 2439); HOA/deed restrictions may still require it.",
       "status": "Secondary",
       "source": {
         "id": "tx-hb2439-fw-memo",
         "title": "HB 2439 (2019) staff summary - Fort Worth Development Services (Gov't Code ch. 3000 building-materials preemption)",
         "url": "https://www.fortworthtexas.gov/files/assets/public/v/1/development-services/documents/housebill-2439.pdf",
-        "read": "2026-10-11",
-        "section": "Tex. Gov't Code ch. 3000 (HB 2439, 86th Leg. 2019)"
+        "read": "2026-10-11"
       },
-      "note": "Statute text itself (statutes.capitol.texas.gov) not read this session; summary from city staff memos. Planned developments and deed restrictions or HOAs may still require masonry."
+      "note": "No Irving single-family masonry rule surfaced in searches."
     },
     "trees": {
       "value": null,
@@ -474,27 +473,39 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: tree preservation/mitigation ordinance for R-7.5 Single Family (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "note": "Not found: tree preservation/mitigation ordinance for R-7.5. Not reached in wave 2 (fetch blocked; capped search budget spent on priority fields)."
     },
-    "other": []
+    "other": [
+      {
+        "value": "Side yard setback may be waived in R-40, R-15, R-10, R-7.5, R-6 for building over an interior lot line when the owner shows no impediments.",
+        "status": "Secondary",
+        "source": {
+          "id": "irving-udc-8",
+          "title": "City of Irving UDC Chapter UDC-8 Measurements (eCode360)",
+          "url": "https://ecode360.com/45749894",
+          "read": "2026-10-11"
+        },
+        "note": "Seen only in search-result extracts of this page (page itself could not be fetched)."
+      }
+    ]
   },
   "process": {
     "steps": [
       {
-        "value": "Confirm zoning and plat, submit the residential permit with a sealed foundation design, plan review, permit, inspections, Certificate of Occupancy.",
-        "status": "Assumed",
+        "value": "Check zoning (R-7.5 or PD) and plat; apply online through the city's MGO portal with plans; plan review; permit; inspections; certificate of occupancy.",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed - researcher judgement (not verified this session)",
-          "url": "",
+          "id": "irving-residential-guidelines",
+          "title": "City of Irving - Residential Guidelines (permits)",
+          "url": "https://irvingtx.gov/residential-permits",
           "read": "2026-10-11"
         },
-        "note": "Typical DFW sequence; not verified."
+        "note": "Seen only in search-result extracts of this page (page itself could not be fetched)."
       }
     ],
     "sealsRequired": [
       {
-        "value": "Engineer-sealed foundation design expected (standard DFW practice on expansive clay); whether the city mandates it by amendment is not confirmed.",
+        "value": "Not confirmed whether Irving amendments require a PE-sealed foundation for every new home; regional practice on expansive clay is an engineered post-tensioned slab.",
         "status": "Assumed",
         "source": {
           "id": "assumed",
@@ -502,79 +513,94 @@
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Not verified."
+        "note": "Irving's 2024 IRC amendment attachment was not readable."
       }
     ],
     "inspections": [
       {
-        "value": "Foundation, framing, rough MEP, energy, final (typical).",
-        "status": "Assumed",
+        "value": "Energy: IC3 certificate (or COG residential compliance path) required; COG compliance certificate and commissioning checklist at final inspection.",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed - researcher judgement (not verified this session)",
-          "url": "",
+          "id": "irving-fees-forms",
+          "title": "City of Irving - Fees & Forms (IC3 / COG energy compliance)",
+          "url": "https://irvingtx.gov/fees_and_forms",
           "read": "2026-10-11"
         },
-        "note": "Not verified."
+        "note": "Seen only in search-result extracts of this page (page itself could not be fetched)."
       }
     ],
     "reviewDays": {
-      "value": null,
-      "status": "Assumed",
+      "value": 3,
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
+        "id": "irving-plan-review",
+        "title": "City of Irving - Plan Review",
+        "url": "https://irvingtx.gov/plan-review",
         "read": "2026-10-11"
       },
-      "note": "Not found: review time. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "unit": "business days",
+      "note": "Single-family/duplex residential review typically within 3 business days (excluding platting/zoning/civil delays). Seen only in search-result extracts of this page (page itself could not be fetched)."
     }
   },
   "fees": {
     "permitFormula": {
-      "value": null,
-      "status": "Assumed",
+      "value": "New single-family/townhouse/duplex: plan review $0.11 + permit $0.41 per sq ft of all floor area under roof (effective 10-15-2022; includes two drive approaches)",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
+        "id": "irving-fee-fy2425",
+        "title": "City of Irving Consolidated Schedule of Fees FY24-25",
+        "url": "https://irvingtx.gov/corecode/storage/uber_resource/uploaded_pdfs/CITY%20OF%20IRVING%20Consolidated%20Fee%20Schedule%20FY24-25_202410251436311534_1741682458.pdf",
         "read": "2026-10-11"
       },
-      "note": "Not found: residential permit fee formula. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "note": "Older city page showed $0.10 + $0.40. Seen only in search-result extracts of this page (page itself could not be fetched)."
     },
     "workedExample2400sqft": {
-      "value": null,
-      "status": "Assumed",
+      "value": 1477,
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
+        "id": "irving-fee-fy2425",
+        "title": "City of Irving Consolidated Schedule of Fees FY24-25",
+        "url": "https://irvingtx.gov/corecode/storage/uber_resource/uploaded_pdfs/CITY%20OF%20IRVING%20Consolidated%20Fee%20Schedule%20FY24-25_202410251436311534_1741682458.pdf",
         "read": "2026-10-11"
       },
-      "note": "Not found: permit fee - cannot compute without fee schedule. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "unit": "USD",
+      "note": "Floor area under roof = 2,400 living + 440 attached garage = 2,840 sq ft. Permit 2,840 x $0.41 = $1,164.40; plan review 2,840 x $0.11 = $312.40; total $1,476.80, about $1,477. Excludes impact, tap and trade fees."
     },
     "planReview": {
-      "value": null,
-      "status": "Assumed",
+      "value": "$0.11 per sq ft under roof (new single-family)",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
+        "id": "irving-fee-fy2425",
+        "title": "City of Irving Consolidated Schedule of Fees FY24-25",
+        "url": "https://irvingtx.gov/corecode/storage/uber_resource/uploaded_pdfs/CITY%20OF%20IRVING%20Consolidated%20Fee%20Schedule%20FY24-25_202410251436311534_1741682458.pdf",
         "read": "2026-10-11"
       },
-      "note": "Not found: plan review fee. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "note": "Seen only in search-result extracts of this page (page itself could not be fetched)."
     },
     "impactFees": [
       {
-        "value": null,
-        "status": "Assumed",
+        "value": 2693,
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed - researcher judgement (not verified this session)",
-          "url": "",
+          "id": "irving-impact-handout",
+          "title": "City of Irving Impact Fees handout (revised 7/16/2024)",
+          "url": "https://irvingtx.gov/corecode/storage/uber_resource/uploaded_pdfs/corecode/Assessment%20handout%20FOR%20PLATTING_202409181701545565_5241.pdf",
           "read": "2026-10-11"
         },
-        "note": "Not found: water/wastewater/roadway impact fees. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+        "unit": "USD",
+        "note": "Per 5/8\" x 3/4\" meter service unit: water $1,605 + wastewater $1,088 = $2,693 collected (handout also lists $2,756 / $1,862, likely maximum assessable). Assessed at building permit; lots platted before 4-11-2024 had a one-year exemption, assessed after 4-11-2025. Seen only in search-result extracts of this page (page itself could not be fetched)."
+      },
+      {
+        "value": 500,
+        "status": "Secondary",
+        "source": {
+          "id": "irving-impact-handout",
+          "title": "City of Irving Impact Fees handout (revised 7/16/2024)",
+          "url": "https://irvingtx.gov/corecode/storage/uber_resource/uploaded_pdfs/corecode/Assessment%20handout%20FOR%20PLATTING_202409181701545565_5241.pdf",
+          "read": "2026-10-11"
+        },
+        "unit": "USD per service unit",
+        "note": "Roadway impact fee $500 per service unit in Roadway Service Area 1; service units for one house not found. Drainage impact fee only in part of the Heritage District. Seen only in search-result extracts of this page (page itself could not be fetched)."
       }
     ],
     "tapFees": [
@@ -587,7 +613,7 @@
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Not found: water/sewer tap fees. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+        "note": "Not found: Irving water/wastewater tap fee amounts (city says new connections incur tap fees by size)."
       }
     ]
   },
@@ -613,7 +639,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: market build cost per sq ft. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "note": "Not found: market build cost per sq ft. Not reached in wave 2 (fetch blocked; capped search budget spent on priority fields)."
     },
     "drivers": [
       {
@@ -630,31 +656,88 @@
     ]
   },
   "flood": {
-    "value": null,
-    "status": "Assumed",
+    "value": "Chapter 47 flood damage prevention: 2 ft above base flood for nonresidential and manufactured homes; AO/AH residential lowest floor above highest adjacent grade by FIRM depth (min 2 ft if none). General residential A/AE freeboard not seen - assume 2 ft above BFE until confirmed.",
+    "status": "Secondary",
     "source": {
-      "id": "assumed",
-      "title": "Assumed - researcher judgement (not verified this session)",
-      "url": "",
+      "id": "irving-ch47-flood",
+      "title": "City of Irving - General standards of building construction (Chapter 47 flood damage prevention, eCode360)",
+      "url": "https://ecode360.com/45716514",
       "read": "2026-10-11"
     },
-    "note": "Not found: floodplain ordinance freeboard. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+    "note": "Seen only in search-result extracts of this page (page itself could not be fetched)."
   },
   "engineChanges": [
+    {
+      "id": "irving-irc-2024",
+      "ruleType": "electrical-code-edition",
+      "area": "drawings",
+      "change": "Use 2024 IRC (Irving amendments) and NEC 2023 for permits applied on/after 5-1-2026; 2021 IRC before that.",
+      "priority": "must",
+      "params": {
+        "irc": "2024",
+        "nec": "2023",
+        "effective": "2026-05-01"
+      },
+      "source": {
+        "id": "irving-ecode-8b",
+        "title": "City of Irving Land Development Code Chapter 8B Building Codes (eCode360)",
+        "url": "https://ecode360.com/45598832",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "irving-energy-2024",
+      "ruleType": "climate-zone-envelope",
+      "area": "envelope",
+      "change": "Climate zone 3A envelope per 2024 IECC (Irving amended); provide IC3 or COG compliance certificate.",
+      "priority": "must",
+      "params": {
+        "climateZone": "3A",
+        "iecc": "2024"
+      },
+      "source": {
+        "id": "irving-ecode-8b",
+        "title": "City of Irving Land Development Code Chapter 8B Building Codes (eCode360)",
+        "url": "https://ecode360.com/45598832",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "irving-setbacks-r75",
+      "ruleType": "setback-by-district",
+      "area": "setbacks",
+      "change": "R-7.5: lot 7,500 sf, 60 ft wide, 100 ft deep; use front 25 / side 5 / rear 20 as provisional defaults until UDC 2.4.7 table is read; plat lines govern.",
+      "priority": "should",
+      "params": {
+        "district": "R-7.5",
+        "minLotSqFt": 7500,
+        "minLotWidthFt": 60,
+        "frontFt": 25,
+        "sideFt": 5,
+        "rearFt": 20,
+        "provisional": true
+      },
+      "source": {
+        "id": "irving-udc-2",
+        "title": "City of Irving UDC Chapter UDC-2 Zoning Districts, Uses, and Standards (eCode360)",
+        "url": "https://ecode360.com/45749882",
+        "read": "2026-10-11",
+        "section": "UDC 2.4.7"
+      }
+    },
     {
       "id": "irving-district-input",
       "ruleType": "survey-input-district",
       "area": "survey",
-      "change": "Ask for the actual zoning district (default R-7.5 Single Family (assumed)) and plat building lines; no setbacks verified yet, so do not auto-fill.",
+      "change": "Ask for the zoning district (R-7.5, R-6, R-10 or PD); many Irving lots are in PDs with their own standards.",
       "priority": "must",
       "params": {
-        "defaultDistrict": "R-7.5 Single Family (assumed)",
-        "setbacksVerified": false
+        "askDistrict": true
       },
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
+        "id": "irving-udc-page",
+        "title": "City of Irving - Land Development Code + Ordinances (UDC)",
+        "url": "https://irvingtx.gov/ordinances-updates",
         "read": "2026-10-11"
       }
     },
@@ -662,32 +745,68 @@
       "id": "irving-eng-foundation",
       "ruleType": "engineered-foundation-flag",
       "area": "foundation",
-      "change": "Flag an engineered (PE-sealed) post-tensioned slab as the default for expansive DFW clay; confirm whether the city amendment mandates it.",
+      "change": "Flag engineered (PE-designed) post-tensioned slab for expansive clay; confirm Irving amendment.",
       "priority": "should",
       "params": {
-        "engineeredFoundation": true,
-        "mandateConfirmed": false
+        "engineeredFoundation": true
       },
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
+        "id": "nctcog-2024-irc-amendments",
+        "title": "NCTCOG Recommended Amendments to the 2024 International Residential Code (Final Approved)",
+        "url": "https://www.nctcog.org/getContentAsset/36efaec9-cbdd-4146-be59-cd5b6598784f/dfc3d011-8f63-43f6-9ed8-4b444333a1d0/2024-IRC-Amendments-Final_Approved.pdf",
         "read": "2026-10-11"
       }
     },
     {
-      "id": "irving-cz3a",
-      "ruleType": "climate-zone-envelope",
-      "area": "envelope",
-      "change": "Apply 2021 IECC Climate Zone 3A envelope tables.",
+      "id": "irving-permit-fee",
+      "ruleType": "permit-fee-formula",
+      "area": "estimate",
+      "change": "Building permit $0.41 + plan review $0.11 per sq ft under roof (incl. garage).",
       "priority": "must",
       "params": {
-        "climateZone": "3A"
+        "permitPerSqFt": 0.41,
+        "planReviewPerSqFt": 0.11,
+        "basis": "all floor area under roof"
       },
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
+        "id": "irving-fee-fy2425",
+        "title": "City of Irving Consolidated Schedule of Fees FY24-25",
+        "url": "https://irvingtx.gov/corecode/storage/uber_resource/uploaded_pdfs/CITY%20OF%20IRVING%20Consolidated%20Fee%20Schedule%20FY24-25_202410251436311534_1741682458.pdf",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "irving-impact-fees",
+      "ruleType": "impact-fee-estimate",
+      "area": "estimate",
+      "change": "Add water $1,605 + wastewater $1,088 impact fees per 5/8x3/4 meter; roadway $500 per service unit in Area 1.",
+      "priority": "must",
+      "params": {
+        "waterUSD": 1605,
+        "wastewaterUSD": 1088,
+        "roadwayPerServiceUnitUSD": 500
+      },
+      "source": {
+        "id": "irving-impact-handout",
+        "title": "City of Irving Impact Fees handout (revised 7/16/2024)",
+        "url": "https://irvingtx.gov/corecode/storage/uber_resource/uploaded_pdfs/corecode/Assessment%20handout%20FOR%20PLATTING_202409181701545565_5241.pdf",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "irving-flood",
+      "ruleType": "flood-elevation",
+      "area": "survey",
+      "change": "In mapped floodplain set lowest floor at least 2 ft above BFE (provisional; ch. 47).",
+      "priority": "should",
+      "params": {
+        "freeboardFt": 2,
+        "provisional": true
+      },
+      "source": {
+        "id": "irving-ch47-flood",
+        "title": "City of Irving - General standards of building construction (Chapter 47 flood damage prevention, eCode360)",
+        "url": "https://ecode360.com/45716514",
         "read": "2026-10-11"
       }
     },
@@ -695,11 +814,10 @@
       "id": "irving-masonry",
       "ruleType": "masonry-percentage",
       "area": "envelope",
-      "change": "Do not apply a city masonry percentage (Gov't Code ch. 3000); prompt for HOA, deed or historic-district requirements.",
-      "priority": "should",
+      "change": "No city masonry % (Gov't Code ch. 3000); check HOA/deed restrictions.",
+      "priority": "nice",
       "params": {
-        "masonryPct": 0,
-        "checkHistoricOrPD": true
+        "masonryPct": 0
       },
       "source": {
         "id": "tx-hb2439-fw-memo",
@@ -707,46 +825,37 @@
         "url": "https://www.fortworthtexas.gov/files/assets/public/v/1/development-services/documents/housebill-2439.pdf",
         "read": "2026-10-11"
       }
-    },
-    {
-      "id": "irving-nctcog",
-      "ruleType": "plumbing-code-variant",
-      "area": "drawings",
-      "change": "Assume the NCTCOG regional amendments to the 2021 IRC and IECC (Chapter 11 deleted and replaced by the IECC; carport exception) until the city ordinance is confirmed.",
-      "priority": "nice",
-      "params": {
-        "regionalAmendments": "NCTCOG 2021",
-        "confirmed": false
-      },
-      "source": {
-        "id": "nctcog-2021-irc-amendments",
-        "title": "NCTCOG Recommended Amendments to the 2021 International Residential Code (Approved July 2021)",
-        "url": "https://nctcog.org/getmedia/feafbc55-3c35-4022-bcab-6b07c95c7f9e/2021-IRC-Amendments-Final.pdf",
-        "read": "2026-10-11"
-      }
     }
   ],
-  "plainLanguage": "Irving is a large North Texas city that most likely builds homes under the 2021 International Residential Code with the regional NCTCOG amendments; this has not been confirmed yet. North Texas clay soils swell and shrink, so plan on an engineer-designed post-tensioned slab foundation. Your lot's zoning district and subdivision plat set how far the house must sit from the property lines. We have not verified those numbers for Irving yet, so enter them from your plat or zoning letter. State law stops the city from requiring a brick or stone percentage on a normal lot, but your HOA or deed restrictions may still require one. Permit, impact and tap fees still need to be confirmed with the city.",
+  "plainLanguage": "Irving moved to the 2024 International Residential Code with local amendments; permits applied for from May 1, 2026 use it, with the 2023 electrical code. Most new homes go in the R-7.5 district (7,500 sq ft lots, 60 ft wide), but many neighborhoods are planned developments with their own rules, so check your zoning. Exact R-7.5 setbacks, height and coverage still need to be read from the city code; we use about 25 ft front, 5 ft side and 20 ft rear as a starting point. The building permit is about $0.52 per sq ft of floor under roof, roughly $1,480 for a 2,400 sq ft home with a 2-car garage. Irving charges water and wastewater impact fees of about $2,700 per house, plus a roadway fee in some areas. North Texas clay soil usually needs an engineer-designed slab. The city cannot require brick or stone, but your HOA might.",
   "openQuestions": [
-    "Everything city-specific: IRC adoption ordinance and amendments, typical-district setbacks, height, coverage, ADU, trees, fees, impact fees, floodplain freeboard - research tools were unavailable this session."
+    "Read UDC 2.4.7 R-7.5 table: front/side/rear/corner setbacks, height, coverage, min dwelling size.",
+    "Irving 2024 IRC amendments (Attachment 2): foundation design, sprinklers, other design changes.",
+    "General residential freeboard in Chapter 47 for A/AE zones.",
+    "Roadway impact service units per single-family home; tap fees.",
+    "Confirm final effective date of Ord. 2026-11253 (notice says 5-1-26; another city schedule mentions July 31)."
   ],
   "notFound": [
-    "All city-specific code, zoning and fee values (tools unavailable: WebFetch DNS failure, proxy 403, search budget exhausted)"
+    "R-7.5 setbacks, height and coverage (jumbled extracts)",
+    "Text of Irving 2024 IRC amendments",
+    "Tap fees",
+    "Residential A/AE freeboard",
+    "Market cost per sq ft"
   ],
   "comparison": {
-    "irc": "2021 IRC (assumed)",
-    "energy": "2021 IECC (assumed)",
-    "plumbing": "IPC 2021 (assumed)",
-    "district": "R-7.5 Single Family (assumed)",
-    "setbacks": "unknown",
-    "maxHeight": "unknown",
-    "coverageFar": "unknown",
-    "masonry": "none enforceable (Gov't Code 3000)",
-    "engFoundation": "likely (regional practice)",
+    "irc": "2024 IRC (Irving amended, eff. 5-1-2026)",
+    "energy": "2024 IECC (amended)",
+    "plumbing": "IPC 2024",
+    "district": "R-7.5",
+    "setbacks": "25/5/20 (provisional)",
+    "maxHeight": "unconfirmed (25-30 ft)",
+    "coverageFar": "unconfirmed / no FAR",
+    "masonry": "none (Gov't Code 3000)",
+    "engFoundation": "likely (not confirmed)",
     "windstorm": "no",
-    "flood": "unknown",
-    "permitFeeExample": "unknown",
-    "impactFees": "unknown",
+    "flood": "2 ft (provisional)",
+    "permitFeeExample": "~$1,477",
+    "impactFees": "$2,693 water+ww (+ roadway)",
     "costFactor": "PENDING"
   }
 }

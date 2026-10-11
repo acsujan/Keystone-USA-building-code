@@ -14,15 +14,15 @@
     "blsCode": "18580"
   },
   "population": {
-    "value": 317000,
-    "status": "Assumed",
+    "value": 316595,
+    "status": "Secondary",
     "source": {
-      "id": "assumed-tools-unavailable",
-      "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-      "url": "",
+      "id": "cc-census-quickfacts",
+      "title": "Census QuickFacts multi-city table incl. Corpus Christi city (V2023)",
+      "url": "https://www.census.gov/quickfacts/fact/table/forthoodcdptexas,mcallencitytexas,laferiacitytexas,houstoncitytexas,corpuschristicitytexas/POP060210",
       "read": "2026-10-11"
     },
-    "note": "Approximate Census Vintage 2024 estimate. From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+    "note": "Census Vintage 2023 (July 1, 2023) estimate, seen in QuickFacts search extract; V2024 not shown."
   },
   "zipCodesOrBoundary": {
     "value": null,
@@ -48,142 +48,177 @@
   },
   "windstormCounty": {
     "value": true,
-    "status": "Assumed",
+    "status": "Secondary",
     "source": {
-      "id": "assumed-tools-unavailable",
-      "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-      "url": "",
+      "id": "tdi-nueces-map",
+      "title": "TDI windstorm map/designations - Nueces County (updated 2/28/2020)",
+      "url": "https://tdi.texas.gov/wind/maps/nueces.html",
       "read": "2026-10-11"
     },
-    "note": "Cameron/Nueces are TDI first-tier coastal windstorm catalogue counties. From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+    "note": "Nueces County is a TDI designated catastrophe (windstorm) area. TDI legacy zone notes say mainland Corpus Christi structures are subject to Inland I requirements; barrier-island parts of the city (Padre/Mustang Island) are listed under Seaward. Since 2020 TDI uses the code wind map instead of zone speeds. Seen in web-search extract of this document only (direct fetch blocked: DNS failure); not read in full."
   },
   "codes": {
     "irc": {
       "edition": {
-        "value": "2021 IRC (assumed; edition not verified)",
-        "status": "Assumed",
+        "value": "2021 IRC with local amendments (effective Aug 1, 2023)",
+        "status": "Secondary",
         "source": {
-          "id": "assumed-tools-unavailable",
-          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-          "url": "",
+          "id": "cc-construction-codes-page",
+          "title": "Construction Codes and Ordinances (Development Services)",
+          "url": "https://www.corpuschristitx.gov/department-directory/development-services/construction-codes-and-ordinances/",
           "read": "2026-10-11"
         },
-        "note": "Adopted IRC edition not verified; many Texas cities of this size are on 2018 or 2021 IRC. MUST re-check. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run"
+        "note": "City page and adoption ordinance both state 2021 IRC; ordinance PDF Seen in web-search extract of this document only (direct fetch blocked: DNS failure); not read in full."
       },
       "ordinance": {
-        "value": null,
-        "status": "Assumed",
+        "value": "Ordinance amending City Code Chapter 14 (Technical Construction Codes) adopting ICC 2021 editions and 2020 NEC with local amendments; ordinance number not visible in extract",
+        "status": "Secondary",
         "source": {
-          "id": "assumed-tools-unavailable",
-          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-          "url": "",
+          "id": "cc-ord-2021-codes",
+          "title": "Ordinance amending Chapter 14 to adopt ICC 2021 editions with local amendments and 2020 NEC",
+          "url": "https://corpuschristitx.gov/media/2rpaite2/ordinance-2021-international-codes.pdf",
           "read": "2026-10-11"
         },
-        "note": "Not found: building code adoption ordinance number. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+        "note": "Seen in web-search extract of this document only (direct fetch blocked: DNS failure); not read in full."
       },
-      "amendments": []
+      "amendments": [
+        {
+          "topic": "foundation",
+          "summary": "New residential permit package requires engineered foundation plans sealed and signed by a Texas-licensed engineer.",
+          "section": "Form DSD-1002 checklist",
+          "status": "Secondary",
+          "source": {
+            "id": "cc-dsd1002-checklist",
+            "title": "Form DSD-1002 New Residential Application Package Checklist (rev. 04/2024)",
+            "url": "https://dsforms.cctexas.com/files/1002%20p%20New%20Residential%20Application%20Package%20Checklist.pdf",
+            "read": "2026-10-11"
+          }
+        },
+        {
+          "topic": "other",
+          "summary": "Windstorm plans sealed and signed by a TDI-certified windstorm engineer required with every new-home submittal; submittals on/after Apr 1, 2026 must meet TDI-adopted 2024 IRC wind criteria.",
+          "section": "Form DSD-1002; TDI 2024 bulletin",
+          "status": "Secondary",
+          "source": {
+            "id": "cc-dsd1002-checklist",
+            "title": "Form DSD-1002 New Residential Application Package Checklist (rev. 04/2024)",
+            "url": "https://dsforms.cctexas.com/files/1002%20p%20New%20Residential%20Application%20Package%20Checklist.pdf",
+            "read": "2026-10-11"
+          }
+        },
+        {
+          "topic": "other",
+          "summary": "Local amendment text lives in City Technical Construction Codes (Chapter 14, Municode); individual amendments (sprinklers, room size, etc.) not read this run.",
+          "section": "Chapter 14",
+          "status": "Secondary",
+          "source": {
+            "id": "cc-construction-codes-page",
+            "title": "Construction Codes and Ordinances (Development Services)",
+            "url": "https://www.corpuschristitx.gov/department-directory/development-services/construction-codes-and-ordinances/",
+            "read": "2026-10-11"
+          }
+        }
+      ]
     },
     "energy": {
       "edition": {
-        "value": "2015 IECC minimum (Texas state energy code floor for single-family under Health & Safety Code ch. 388 via IRC Ch. 11) - city edition not verified",
-        "status": "Assumed",
+        "value": "2021 IECC per newer city page (older page lists 2015 IECC) - conflicting; state floor applies",
+        "status": "Secondary",
         "source": {
-          "id": "assumed-tools-unavailable",
-          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-          "url": "",
+          "id": "cc-construction-codes-page",
+          "title": "Construction Codes and Ordinances (Development Services)",
+          "url": "https://www.corpuschristitx.gov/department-directory/development-services/construction-codes-and-ordinances/",
           "read": "2026-10-11"
         },
-        "note": "From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+        "note": "corpuschristitx.gov lists Energy Conservation Code among 2021 editions effective Aug 1, 2023; cctexas.com page lists 2015 IECC. Confirm in Chapter 14."
       },
       "stretchCode": {
         "value": false,
         "status": "Assumed",
         "source": {
-          "id": "assumed-tools-unavailable",
-          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+          "id": "assumed-judgement-south",
+          "title": "Assumed - agent judgement (no source found within wave-2 search budget)",
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "No stretch code known."
+        "note": "No stretch/above-code program found."
       }
     },
     "plumbing": {
-      "value": null,
-      "status": "Assumed",
+      "value": "IPC 2021 (with local amendments)",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
+        "id": "cc-construction-codes-page",
+        "title": "Construction Codes and Ordinances (Development Services)",
+        "url": "https://www.corpuschristitx.gov/department-directory/development-services/construction-codes-and-ordinances/",
         "read": "2026-10-11"
       },
-      "note": "IPC vs UPC not verified. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run"
+      "note": "City lists 2021 Plumbing Code among ICC 2021 editions."
     },
     "electrical": {
-      "value": "NEC 2020 or 2023 (not verified)",
-      "status": "Assumed",
+      "value": "NEC 2020 with local amendments (city); note TDLR adopted 2026 NEC as state electrical code eff. Sep 1, 2026",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
+        "id": "cc-ord-2021-codes",
+        "title": "Ordinance amending Chapter 14 to adopt ICC 2021 editions with local amendments and 2020 NEC",
+        "url": "https://corpuschristitx.gov/media/2rpaite2/ordinance-2021-international-codes.pdf",
         "read": "2026-10-11"
       },
-      "note": "From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+      "note": "Confirm which NEC edition the city enforces after Sep 1, 2026."
     },
     "mechanical": {
-      "value": null,
-      "status": "Assumed",
+      "value": "IMC 2021",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
+        "id": "cc-construction-codes-page",
+        "title": "Construction Codes and Ordinances (Development Services)",
+        "url": "https://www.corpuschristitx.gov/department-directory/development-services/construction-codes-and-ordinances/",
         "read": "2026-10-11"
-      },
-      "note": "Not found: IMC edition. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+      }
     },
     "fuelGas": {
-      "value": null,
-      "status": "Assumed",
+      "value": "IFGC 2021",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
+        "id": "cc-construction-codes-page",
+        "title": "Construction Codes and Ordinances (Development Services)",
+        "url": "https://www.corpuschristitx.gov/department-directory/development-services/construction-codes-and-ordinances/",
         "read": "2026-10-11"
-      },
-      "note": "Not found: IFGC edition. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+      }
     },
     "fire": {
-      "value": "IFC (edition not verified); no one/two-family sprinkler mandate known",
+      "value": "IFC edition not confirmed; no one/two-family sprinkler mandate found",
       "status": "Assumed",
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "id": "assumed-judgement-south",
+        "title": "Assumed - agent judgement (no source found within wave-2 search budget)",
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+      "note": "Not found in search extracts; Texas law limits mandatory sprinklers in one/two-family dwellings."
     },
     "wind": {
-      "value": 145,
-      "status": "Assumed",
-      "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
-        "read": "2026-10-11"
-      },
+      "value": 150,
       "unit": "mph",
-      "note": "Approximate ultimate design wind speed, Risk Cat II, from IRC Fig. R301.2(2)/ASCE 7-16 map. From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+      "status": "Secondary",
+      "source": {
+        "id": "cc-tdi-2024-bulletin",
+        "title": "City of Corpus Christi bulletin: TDI Windstorm update to 2024 ICC codes (effective Apr 1, 2026)",
+        "url": "https://www.corpuschristitx.gov/media/iiflluoc/tdi-windstorm-update-to-2024-icc-codes.pdf",
+        "read": "2026-10-11",
+        "section": "2024 IRC R301.2.1 wind design criteria"
+      },
+      "note": "Basic wind speed 150 mph for applicable windstorm areas under TDI-adopted 2024 IRC R301.2.1, for submittals on/after Apr 1, 2026 (city bulletin). Seen in web-search extract of this document only (direct fetch blocked: DNS failure); not read in full."
     },
     "hailRoofing": {
-      "value": "No local hail/impact roofing mandate known; in TDI area roof coverings must be TDI-approved/listed product evaluations",
-      "status": "Assumed",
+      "value": "No local hail/impact-roof mandate found; TDI windstorm roofing (rated coverings, enhanced roof deck under 2024 IRC) applies",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
+        "id": "arcxis-tdi-2024-irc",
+        "title": "TDI Windstorm Transition to the 2024 IRC: What Texas Builders Need to Know",
+        "url": "https://arcxis.com/technical-bulletin/tdi-windstorm-transition-to-the-2024-irc-what-texas-builders-need-to-know",
         "read": "2026-10-11"
-      },
-      "note": "From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+      }
     },
     "seismic": {
       "value": "A",
@@ -212,49 +247,47 @@
   "zoning": {
     "hasZoning": {
       "value": true,
-      "status": "Assumed",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
+        "id": "cc-step-by-step",
+        "title": "Printable step-by-step zoning guide (district names = min lot size)",
+        "url": "https://corpuschristitx.gov/media/gsgg4nwx/printable-step-by-step.pdf",
         "read": "2026-10-11"
-      },
-      "note": "From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+      }
     },
     "typicalDistrict": {
-      "value": "RS-6 Single-Family 6 (UDC); others RS-4.5, RS-TF, RE",
-      "status": "Assumed",
+      "value": "RS-6 Single-Family 6 (UDC); others RS-4.5, RS-10, RE, RS-TF",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
+        "id": "cc-step-by-step",
+        "title": "Printable step-by-step zoning guide (district names = min lot size)",
+        "url": "https://corpuschristitx.gov/media/gsgg4nwx/printable-step-by-step.pdf",
         "read": "2026-10-11"
       },
-      "note": "From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+      "note": "District number = minimum lot size in thousands of sq ft."
     },
     "minLotSqFt": {
       "value": 6000,
-      "status": "Assumed",
-      "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
-        "read": "2026-10-11"
-      },
       "unit": "sq ft",
-      "note": "Placeholder from memory; verify in UDC/LDC. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run"
+      "status": "Secondary",
+      "source": {
+        "id": "cc-step-by-step",
+        "title": "Printable step-by-step zoning guide (district names = min lot size)",
+        "url": "https://corpuschristitx.gov/media/gsgg4nwx/printable-step-by-step.pdf",
+        "read": "2026-10-11"
+      }
     },
     "minLotWidthFt": {
       "value": 50,
+      "unit": "ft",
       "status": "Assumed",
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "id": "assumed-judgement-south",
+        "title": "Assumed - agent judgement (no source found within wave-2 search budget)",
         "url": "",
         "read": "2026-10-11"
       },
-      "unit": "ft",
-      "note": "Placeholder; verify."
+      "note": "Not found; typical UDC value from memory."
     },
     "minLotDepthFt": {
       "value": null,
@@ -270,64 +303,64 @@
     "setbacksFt": {
       "front": {
         "value": 25,
-        "status": "Assumed",
+        "unit": "ft",
+        "status": "Secondary",
         "source": {
-          "id": "assumed-tools-unavailable",
-          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-          "url": "",
+          "id": "cc-buildingclub-setbacks",
+          "title": "Corpus Christi setbacks & height (beta third-party guide)",
+          "url": "https://zoning.buildingclub.info/texas/corpus-christi/setbacks-height",
           "read": "2026-10-11"
         },
-        "unit": "ft",
-        "note": "Placeholder; verify against UDC and recorded plat building line."
+        "note": "Beta third-party guide (may contain errors); UDC table not read."
       },
       "side": {
         "value": 5,
-        "status": "Assumed",
+        "unit": "ft",
+        "status": "Secondary",
         "source": {
-          "id": "assumed-tools-unavailable",
-          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-          "url": "",
+          "id": "cc-buildingclub-setbacks",
+          "title": "Corpus Christi setbacks & height (beta third-party guide)",
+          "url": "https://zoning.buildingclub.info/texas/corpus-christi/setbacks-height",
           "read": "2026-10-11"
         },
-        "unit": "ft",
-        "note": "Placeholder; verify."
+        "note": "Beta third-party guide."
       },
       "streetSide": {
         "value": 10,
+        "unit": "ft",
         "status": "Assumed",
         "source": {
-          "id": "assumed-tools-unavailable",
-          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+          "id": "assumed-judgement-south",
+          "title": "Assumed - agent judgement (no source found within wave-2 search budget)",
           "url": "",
           "read": "2026-10-11"
         },
-        "unit": "ft",
-        "note": "Placeholder; verify."
+        "note": "Not found; placeholder."
       },
       "rear": {
-        "value": 5,
-        "status": "Assumed",
+        "value": 20,
+        "unit": "ft",
+        "status": "Secondary",
         "source": {
-          "id": "assumed-tools-unavailable",
-          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-          "url": "",
+          "id": "cc-buildingclub-setbacks",
+          "title": "Corpus Christi setbacks & height (beta third-party guide)",
+          "url": "https://zoning.buildingclub.info/texas/corpus-christi/setbacks-height",
           "read": "2026-10-11"
         },
-        "unit": "ft",
-        "note": "Placeholder; verify."
+        "note": "Beta third-party guide; wave-1 placeholder was 5 ft. Two search passes returned 20 ft from the same guide; confirm UDC."
       }
     },
     "maxHeightFt": {
       "value": 35,
-      "status": "Assumed",
+      "unit": "ft",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
+        "id": "cc-buildingclub-setbacks",
+        "title": "Corpus Christi setbacks & height (beta third-party guide)",
+        "url": "https://zoning.buildingclub.info/texas/corpus-christi/setbacks-height",
         "read": "2026-10-11"
       },
-      "unit": "ft",
-      "note": "Placeholder; verify."
+      "note": "35 ft for RS-4.5/RS-6/RS-10, measured average grade to highest point of roof (third-party guide)."
     },
     "maxStories": {
       "value": null,
@@ -407,15 +440,14 @@
       "note": "Not found: ADU rules. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
     },
     "masonry": {
-      "value": "none known",
-      "status": "Assumed",
+      "value": "none; Gov't Code ch. 3000 bars city building-material mandates (except historic/limited cases)",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
+        "id": "tx-gov-3000",
+        "title": "Texas Government Code Ch. 3000 (building products, materials, methods; HB 2439, 2019)",
+        "url": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.3000.htm",
         "read": "2026-10-11"
-      },
-      "note": "No masonry % known; Texas HB 2439 (Gov. Code 3000) generally bars cities from mandating building materials beyond the IRC, except historic/certain districts."
+      }
     },
     "trees": {
       "value": null,
@@ -445,41 +477,48 @@
   "process": {
     "steps": [
       {
-        "value": "Residential building permit application to city building/development services; plan review; inspections; certificate of occupancy; TDI windstorm inspection/certification (WPI-8) in parallel",
-        "status": "Assumed",
+        "value": "Submit single bound PDF via DSD: residential application, plot plan, architectural, engineered foundation plans, windstorm plans; then MEP subcontractor permits after building permit issues",
+        "status": "Secondary",
         "source": {
-          "id": "assumed-tools-unavailable",
-          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-          "url": "",
+          "id": "cc-dsd1002-checklist",
+          "title": "Form DSD-1002 New Residential Application Package Checklist (rev. 04/2024)",
+          "url": "https://dsforms.cctexas.com/files/1002%20p%20New%20Residential%20Application%20Package%20Checklist.pdf",
           "read": "2026-10-11"
-        },
-        "note": "From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+        }
       }
     ],
     "sealsRequired": [
       {
-        "value": "Foundation typically by Texas PE (expansive clays); windstorm design by TDI-appointed engineer if using engineered route",
-        "status": "Assumed",
+        "value": "Foundation plans sealed by Texas PE; windstorm plans sealed by TDI-certified windstorm engineer",
+        "status": "Secondary",
         "source": {
-          "id": "assumed-tools-unavailable",
-          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-          "url": "",
+          "id": "cc-dsd1002-checklist",
+          "title": "Form DSD-1002 New Residential Application Package Checklist (rev. 04/2024)",
+          "url": "https://dsforms.cctexas.com/files/1002%20p%20New%20Residential%20Application%20Package%20Checklist.pdf",
           "read": "2026-10-11"
-        },
-        "note": "From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+        }
+      },
+      {
+        "value": "V-Zone Design Certificate (engineer) before permit for VE-zone lots",
+        "status": "Secondary",
+        "source": {
+          "id": "cc-flood-devreq",
+          "title": "Flood Information - Development Requirements",
+          "url": "https://corpuschristitx.gov/department-directory/development-services/flood-information/development-requirements",
+          "read": "2026-10-11"
+        }
       }
     ],
     "inspections": [
       {
-        "value": "Typical: plumbing ground, foundation, framing, MEP rough, insulation, final; plus TDI windstorm inspections (foundation-to-roof continuous load path, sheathing nailing, openings)",
-        "status": "Assumed",
+        "value": "City inspections plus TDI windstorm inspections by appointed inspector/engineer (WPI-8 at completion)",
+        "status": "Secondary",
         "source": {
-          "id": "assumed-tools-unavailable",
-          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-          "url": "",
+          "id": "tdi-wind-repairs-wpi8",
+          "title": "TDI: Making repairs after a storm (Certificate of Compliance WPI-8)",
+          "url": "https://tdi.texas.gov/wind/making-repairs-after-a-storm.html",
           "read": "2026-10-11"
-        },
-        "note": "From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+        }
       }
     ],
     "reviewDays": {
@@ -496,63 +535,65 @@
   },
   "fees": {
     "permitFormula": {
-      "value": null,
-      "status": "Assumed",
+      "value": "Residential by square footage: building permit $0.461/sq ft (min $146.41) + plan review $0.146/sq ft (FY2025); MEP permits, $100 floodplain review separate",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
-        "read": "2026-10-11"
+        "id": "cc-fy2025-fee-schedule",
+        "title": "FY 2025 Development Fee Schedule",
+        "url": "https://corpuschristitx.gov/media/wkljgujc/fy-2025-development-fee-schedule.pdf",
+        "read": "2026-10-11",
+        "section": "Residential plan review / building permit"
       },
-      "note": "Not found: building permit fee schedule. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+      "note": "FY2025 rates; FY2026 schedule exists (not read). Seen in web-search extract of this document only (direct fetch blocked: DNS failure); not read in full."
     },
     "workedExample2400sqft": {
-      "value": null,
-      "status": "Assumed",
-      "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
-        "read": "2026-10-11"
-      },
+      "value": 1724,
       "unit": "USD",
-      "note": "Not computed: fee schedule not retrieved (basis would be 2,400 sf conditioned + 440 sf attached garage). Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run"
+      "status": "Secondary",
+      "source": {
+        "id": "cc-fy2025-fee-schedule",
+        "title": "FY 2025 Development Fee Schedule",
+        "url": "https://corpuschristitx.gov/media/wkljgujc/fy-2025-development-fee-schedule.pdf",
+        "read": "2026-10-11",
+        "section": "Residential plan review / building permit"
+      },
+      "note": "Assume 2,400 sf conditioned + 440 sf attached garage = 2,840 sf charged: 2,840 x $0.461 = $1,309.24 permit + 2,840 x $0.146 = $414.64 plan review = $1,723.88 (+ $100 floodplain review if applicable; MEP permits, tap fees extra). If garage not counted: 2,400 x 0.607 = $1,456.80."
     },
     "planReview": {
-      "value": null,
-      "status": "Assumed",
+      "value": "$0.146 per sq ft (FY2025)",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
-        "read": "2026-10-11"
-      },
-      "note": "Not found: plan review fee. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+        "id": "cc-fy2025-fee-schedule",
+        "title": "FY 2025 Development Fee Schedule",
+        "url": "https://corpuschristitx.gov/media/wkljgujc/fy-2025-development-fee-schedule.pdf",
+        "read": "2026-10-11",
+        "section": "Residential plan review / building permit"
+      }
     },
     "impactFees": [
       {
         "value": null,
         "status": "Assumed",
         "source": {
-          "id": "assumed-tools-unavailable",
-          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+          "id": "assumed-judgement-south",
+          "title": "Assumed - agent judgement (no source found within wave-2 search budget)",
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Not found: water/wastewater impact fees. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+        "note": "Not found: no Chapter 395 impact fee per home found in searches; city platting lot/acreage fees may apply at subdivision stage."
       }
     ],
     "tapFees": [
       {
-        "value": null,
-        "status": "Assumed",
+        "value": "Monthly storm water fee by lot size (Tier 3 > 4,500 sf: $18.06/mo, eff. Oct 1, 2024); water/wastewater tap fees not found",
+        "status": "Secondary",
         "source": {
-          "id": "assumed-tools-unavailable",
-          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-          "url": "",
+          "id": "cc-stormwater-fee",
+          "title": "Storm Water Utility Fee (residential tiers eff. Oct 1, 2024)",
+          "url": "https://www.corpuschristitx.gov/department-directory/public-works/services/storm-water-utility-fee/",
           "read": "2026-10-11"
         },
-        "note": "Not found: water/sewer tap fees. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+        "note": "Monthly utility charge, not one-time."
       }
     ]
   },
@@ -570,86 +611,92 @@
     },
     "method": "PENDING_COST_AGENT",
     "perSqFtMarket": {
-      "value": null,
-      "status": "Assumed",
+      "value": 110,
+      "unit": "USD/sq ft",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
+        "id": "corpus-christi-costtobuildhouse",
+        "title": "Cost to build a house in Corpus Christi (2026 Construction Cost Guide)",
+        "url": "https://www.costtobuildhouse.com/states/texas/corpus-christi",
         "read": "2026-10-11"
       },
-      "note": "Market $/sf not retrieved. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run"
+      "note": "Market figure (standard finish, 2026 web guide), not a quote; excludes land/site."
     },
     "drivers": [
       {
-        "value": "Expansive clay soils -> engineered slab",
-        "status": "Assumed",
+        "value": "Windstorm package: impact glazing/shutters, engineered uplift connections, 150 mph design, TDI inspections",
+        "status": "Secondary",
         "source": {
-          "id": "assumed-tools-unavailable",
-          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-          "url": "",
-          "read": "2026-10-11"
-        },
-        "note": "Judgement"
+          "id": "cc-tdi-2024-bulletin",
+          "title": "City of Corpus Christi bulletin: TDI Windstorm update to 2024 ICC codes (effective Apr 1, 2026)",
+          "url": "https://www.corpuschristitx.gov/media/iiflluoc/tdi-windstorm-update-to-2024-icc-codes.pdf",
+          "read": "2026-10-11",
+          "section": "2024 IRC R301.2.1 wind design criteria"
+        }
       },
       {
-        "value": "Windstorm package: impact-rated windows/doors or shutters, hurricane straps/anchors, upgraded sheathing nailing, TDI inspections - typically several % of construction cost",
-        "status": "Assumed",
+        "value": "Engineered (PE-sealed) foundation on expansive clays",
+        "status": "Secondary",
         "source": {
-          "id": "assumed-tools-unavailable",
-          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-          "url": "",
+          "id": "cc-dsd1002-checklist",
+          "title": "Form DSD-1002 New Residential Application Package Checklist (rev. 04/2024)",
+          "url": "https://dsforms.cctexas.com/files/1002%20p%20New%20Residential%20Application%20Package%20Checklist.pdf",
           "read": "2026-10-11"
-        },
-        "note": "Judgement"
+        }
       },
       {
-        "value": "Coastal flood zones: elevated slab/fill or pier foundation, flood vents, higher insurance",
-        "status": "Assumed",
+        "value": "Coastal flood: BFE+1 ft fill/stem wall in AE; piling foundation in VE",
+        "status": "Secondary",
         "source": {
-          "id": "assumed-tools-unavailable",
-          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-          "url": "",
+          "id": "cc-flood-brochure",
+          "title": "Flood zone brochure (Floodplain Management)",
+          "url": "https://corpuschristitx.gov/media/2k5hmizl/floodzonebrochure.pdf",
           "read": "2026-10-11"
-        },
-        "note": "Judgement"
+        }
       }
     ]
   },
   "flood": {
-    "value": "City floodplain ordinance (NFIP participant); assume lowest floor >= BFE + 1 ft; in coastal V/Coastal A zones elevate bottom of lowest horizontal member, no fill/slab in V zone",
-    "status": "Assumed",
+    "value": "City floodplain rules (NFIP): AE zones finished floor >= BFE + 1 ft freeboard; VE zones lowest horizontal structural member >= BFE + 1 ft, no fill, elevated on piers/piles/columns, V-Zone Design Certificate before permit; only parking/access/storage below flood level. Coastal A/LiMWA rule not found.",
+    "status": "Secondary",
     "source": {
-      "id": "assumed-tools-unavailable",
-      "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-      "url": "",
+      "id": "cc-flood-brochure",
+      "title": "Flood zone brochure (Floodplain Management)",
+      "url": "https://corpuschristitx.gov/media/2k5hmizl/floodzonebrochure.pdf",
       "read": "2026-10-11"
     },
-    "note": "Freeboard value not verified. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run"
+    "note": "Brochure + Development Requirements page; FIRMs being updated. Seen in web-search extract of this document only (direct fetch blocked: DNS failure); not read in full."
   },
-  "plainLanguage": "Corpus Christi is in the Texas windstorm area, so your house needs a TDI windstorm certificate (WPI-8) to get TWIA wind insurance. That means stronger nailing and metal straps from roof to foundation, and impact-rated windows and doors (or tested hurricane shutters) because the area is a wind-borne debris region with design winds of about 140-150 mph. Most new houses are in the RS-6 zone (6,000 sq ft lots). Setbacks in this file are placeholders and must be checked. Near the bay or on the island, flood rules may require raising the house on piers. Expect an engineered slab or pier foundation.",
+  "plainLanguage": "Corpus Christi uses the 2021 IRC with city amendments. Every new house needs a foundation design stamped by a Texas engineer and windstorm plans stamped by a TDI-certified windstorm engineer. The city is in the Texas windstorm area: since April 1, 2026 homes are designed to the 2024 IRC as adopted by TDI at about 150 mph, with impact-rated windows and doors, and a TDI WPI-8 certificate is needed for windstorm insurance. In flood zone AE the floor must be at least 1 ft above the base flood elevation; in V zones the house goes on piles with the lowest beam 1 ft above it. A typical RS-6 lot is 6,000 sq ft with about 25 ft front, 5 ft side and 20 ft rear setbacks and a 35 ft height limit (confirm against the UDC). City permit plus plan review is about $1,700 for a 2,400 sq ft home with garage.",
   "openQuestions": [
-    "Adopted IRC/IECC/NEC editions and adoption ordinance",
-    "Typical single-family district dimensional table (lot, setbacks, height, coverage)",
-    "Permit fee schedule and impact/tap fees",
-    "Floodplain freeboard"
+    "RS-6 setbacks and street-side yard from UDC table (only third-party guide seen)",
+    "Energy code edition: 2021 vs 2015 IECC conflict between city pages",
+    "Local IRC amendments text in Chapter 14",
+    "FY2026 fee schedule rates",
+    "Water/wastewater tap and lot/acreage fees",
+    "Coastal A zone / LiMWA treatment",
+    "NEC edition enforced after TDLR 2026 NEC adoption"
   ],
   "notFound": [
-    "Everything except county-level facts: research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted). File is a placeholder needing a re-run."
+    "Impact fees per home",
+    "Water/wastewater tap fees",
+    "Lot coverage/open space for RS-6",
+    "Fire sprinkler local rule",
+    "Minimum lot width (assumed 50 ft)"
   ],
   "comparison": {
-    "irc": "2021 IRC (assumed)",
-    "energy": "not verified",
-    "plumbing": "not verified",
+    "irc": "2021 IRC (amended)",
+    "energy": "2021 IECC? (pages conflict w/ 2015)",
+    "plumbing": "IPC 2021",
     "district": "RS-6",
-    "setbacks": "25/5/5 (assumed)",
-    "maxHeight": "35 ft (assumed)",
+    "setbacks": "25/5/20 (3rd-party)",
+    "maxHeight": "35 ft",
     "coverageFar": "not found",
-    "masonry": "none known",
-    "engFoundation": "likely (assumed)",
-    "windstorm": "yes - TDI first tier",
-    "flood": "+1 ft assumed",
-    "permitFeeExample": "not computed",
+    "masonry": "none (ch. 3000)",
+    "engFoundation": "yes - PE-sealed, all new homes",
+    "windstorm": "yes - TDI, 2024 IRC 150 mph, WPI-8",
+    "flood": "AE BFE+1 ft; VE LHSM BFE+1 ft",
+    "permitFeeExample": "$1,724",
     "impactFees": "not found",
     "costFactor": "PENDING"
   },
@@ -658,20 +705,36 @@
       "id": "corpus-christi-setbacks",
       "ruleType": "setback-by-district",
       "area": "setbacks",
-      "change": "RS-6: front 25 / side 5 / street side 10 / rear 5 ft (ASSUMED placeholders - verify); use larger of district and plat line",
+      "change": "RS-6: front 25 / side 5 / rear 20 ft (street side 10 ft assumed); use plat building line if larger",
       "priority": "must",
       "params": {
         "district": "RS-6",
         "frontFt": 25,
         "sideFt": 5,
+        "rearFt": 20,
         "streetSideFt": 10,
-        "rearFt": 5,
         "verified": false
       },
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
+        "id": "cc-buildingclub-setbacks",
+        "title": "Corpus Christi setbacks & height (beta third-party guide)",
+        "url": "https://zoning.buildingclub.info/texas/corpus-christi/setbacks-height",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "corpus-christi-lot-min",
+      "ruleType": "lot-min-size",
+      "area": "survey",
+      "change": "RS-6 minimum lot 6,000 sq ft",
+      "priority": "should",
+      "params": {
+        "minLotSqFt": 6000
+      },
+      "source": {
+        "id": "cc-step-by-step",
+        "title": "Printable step-by-step zoning guide (district names = min lot size)",
+        "url": "https://corpuschristitx.gov/media/gsgg4nwx/printable-step-by-step.pdf",
         "read": "2026-10-11"
       }
     },
@@ -679,16 +742,15 @@
       "id": "corpus-christi-height",
       "ruleType": "height-limit",
       "area": "massing",
-      "change": "Max height 35 ft (assumed)",
+      "change": "Max height 35 ft (average grade to highest roof point)",
       "priority": "should",
       "params": {
-        "maxHeightFt": 35,
-        "verified": false
+        "maxHeightFt": 35
       },
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
+        "id": "cc-buildingclub-setbacks",
+        "title": "Corpus Christi setbacks & height (beta third-party guide)",
+        "url": "https://zoning.buildingclub.info/texas/corpus-christi/setbacks-height",
         "read": "2026-10-11"
       }
     },
@@ -696,15 +758,16 @@
       "id": "corpus-christi-envelope",
       "ruleType": "climate-zone-envelope",
       "area": "envelope",
-      "change": "Envelope per IECC climate zone 2A",
+      "change": "Envelope per IECC climate zone 2A (2021 IECC per city page; confirm)",
       "priority": "must",
       "params": {
-        "climateZone": "2A"
+        "climateZone": "2A",
+        "iecc": "2021"
       },
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
+        "id": "cc-construction-codes-page",
+        "title": "Construction Codes and Ordinances (Development Services)",
+        "url": "https://www.corpuschristitx.gov/department-directory/development-services/construction-codes-and-ordinances/",
         "read": "2026-10-11"
       }
     },
@@ -712,16 +775,31 @@
       "id": "corpus-christi-foundation",
       "ruleType": "engineered-foundation-flag",
       "area": "foundation",
-      "change": "Flag engineered slab (expansive clays) - assumed",
-      "priority": "should",
+      "change": "Engineered foundation plan sealed by Texas PE required for every new home",
+      "priority": "must",
       "params": {
-        "sealedFoundation": true,
-        "verified": false
+        "sealedFoundation": true
       },
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
+        "id": "cc-dsd1002-checklist",
+        "title": "Form DSD-1002 New Residential Application Package Checklist (rev. 04/2024)",
+        "url": "https://dsforms.cctexas.com/files/1002%20p%20New%20Residential%20Application%20Package%20Checklist.pdf",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "corpus-christi-sealed-wind",
+      "ruleType": "sealed-drawings-required",
+      "area": "drawings",
+      "change": "Windstorm plans sealed by TDI-certified windstorm engineer in permit set",
+      "priority": "must",
+      "params": {
+        "windstormEngineerSeal": true
+      },
+      "source": {
+        "id": "cc-dsd1002-checklist",
+        "title": "Form DSD-1002 New Residential Application Package Checklist (rev. 04/2024)",
+        "url": "https://dsforms.cctexas.com/files/1002%20p%20New%20Residential%20Application%20Package%20Checklist.pdf",
         "read": "2026-10-11"
       }
     },
@@ -729,16 +807,17 @@
       "id": "corpus-christi-flood",
       "ruleType": "flood-elevation",
       "area": "survey",
-      "change": "If in SFHA, lowest floor >= BFE + 1 ft (assumed); V-zone: open pile/pier foundation, bottom of lowest member above BFE+freeboard",
+      "change": "AE: finished floor >= BFE + 1 ft; VE: lowest horizontal member >= BFE + 1 ft, piles/piers, no fill, breakaway walls, V-Zone certificate",
       "priority": "must",
       "params": {
         "freeboardFt": 1,
-        "coastalVZoneRules": true
+        "vZoneRef": "lowest horizontal member",
+        "vZoneNoFill": true
       },
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
+        "id": "cc-flood-brochure",
+        "title": "Flood zone brochure (Floodplain Management)",
+        "url": "https://corpuschristitx.gov/media/2k5hmizl/floodzonebrochure.pdf",
         "read": "2026-10-11"
       }
     },
@@ -746,71 +825,95 @@
       "id": "corpus-christi-windstorm",
       "ruleType": "windstorm-package",
       "area": "structure",
-      "change": "TDI windstorm package: design to TDI-adopted IRC with Texas revisions at the local ultimate wind speed; continuous load path (straps/anchors); obtain TDI WPI-8 certificate (needed for TWIA insurance); TDI inspections during construction",
+      "change": "TDI windstorm (TWIA) package: on/after Apr 1, 2026 design and build to the 2024 IRC as adopted by TDI (28 TAC 5.4013); a TDI-appointed qualified inspector or Texas PE must certify, TDI issues WPI-8 Certificate of Compliance needed for TWIA insurance. Mainland Corpus Christi = legacy Inland I; Padre/Mustang Island = Seaward (legacy zones, informational only).",
       "priority": "must",
       "params": {
         "tdiCertification": true,
-        "vultMph": 145,
-        "riskCategory": "II",
-        "exposure": "C (D within ~600 ft of shoreline)"
+        "tdiCode": "2024 IRC (TDI-adopted)",
+        "effective": "2026-04-01",
+        "certificate": "WPI-8",
+        "engineerSealedWindDesign": true
       },
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
-        "read": "2026-10-11"
-      }
-    },
-    {
-      "id": "corpus-christi-wbdr-openings",
-      "ruleType": "windstorm-package",
-      "area": "envelope",
-      "change": "Wind-borne debris region (IRC R301.2.1.2, Vult >= 140 mph or >= 130 mph within 1 mi of coast): all glazed openings impact-rated (ASTM E1886/E1996) or protected with tested shutters/structural panels",
-      "priority": "must",
-      "params": {
-        "impactGlazing": true,
-        "alternative": "tested shutters or structural wood panels per IRC R301.2.1.2"
-      },
-      "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
-        "read": "2026-10-11"
-      }
-    },
-    {
-      "id": "corpus-christi-sheathing-nailing",
-      "ruleType": "windstorm-package",
-      "area": "structure",
-      "change": "Roof sheathing nailing per IRC Table R602.3(1) high-wind rows: 8d ring-shank (or as table) at 6 in edges / 6 in field, tighter in edge/corner zones per Table R803.2.3 / TDI field guide; roof-to-wall uplift connectors per R802.11",
-      "priority": "must",
-      "params": {
-        "nail": "8d ring-shank",
-        "edgeSpacingIn": 6,
-        "fieldSpacingIn": 6,
-        "verified": false
-      },
-      "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
-        "read": "2026-10-11"
+        "id": "tdi-2024-irc-adoption-rule",
+        "title": "TDI adopted rule: 28 TAC 5.4013 and amendments adopting 2024 IRC/IBC for TWIA-insured structures (applies on/after Apr 1, 2026)",
+        "url": "https://tdi.texas.gov/rules/2025/documents/20269774.pdf",
+        "read": "2026-10-11",
+        "section": "28 TAC 5.4012, 5.4013, 5.4601, 5.4603"
       }
     },
     {
       "id": "corpus-christi-wind-speed",
       "ruleType": "wind-speed",
       "area": "structure",
-      "change": "Design wind speed 145 mph ultimate (assumed from map; confirm with TDI design wind speed table for the county/zone)",
+      "change": "Use basic (ultimate) design wind speed 150 mph for TDI windstorm areas under the 2024 IRC R301.2.1 (per City of Corpus Christi summary of TDI adoption); Risk Category II; exposure C, check D near open water/bays.",
       "priority": "must",
       "params": {
-        "vultMph": 145
+        "vultMph": 150,
+        "riskCategory": "II",
+        "exposure": "C (D possible near bays/large water)",
+        "windDesignRequired": true
       },
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
+        "id": "cc-tdi-2024-bulletin",
+        "title": "City of Corpus Christi bulletin: TDI Windstorm update to 2024 ICC codes (effective Apr 1, 2026)",
+        "url": "https://www.corpuschristitx.gov/media/iiflluoc/tdi-windstorm-update-to-2024-icc-codes.pdf",
+        "read": "2026-10-11",
+        "section": "2024 IRC R301.2.1 wind design criteria"
+      }
+    },
+    {
+      "id": "corpus-christi-wbdr-openings",
+      "ruleType": "windstorm-package",
+      "area": "envelope",
+      "change": "Wind-borne debris region: all exterior glazed openings (windows, glass doors, skylights) impact-rated or protected by tested shutters/approved panels; garage doors wind-rated.",
+      "priority": "must",
+      "params": {
+        "impactGlazing": true,
+        "garageDoorWindRated": true
+      },
+      "source": {
+        "id": "tdi-wind-geninfo",
+        "title": "TDI Windstorm Inspection Program - general information",
+        "url": "https://tdi.texas.gov/WIND/geninfo.html",
         "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "corpus-christi-roof-deck",
+      "ruleType": "windstorm-package",
+      "area": "structure",
+      "change": "2024 IRC enhanced roof deck protection / sheathing attachment in wind-design-required areas (Vult >= 130 mph): spec sealed roof deck underlayment and high-wind sheathing nailing; engineer to confirm schedule.",
+      "priority": "should",
+      "params": {
+        "sealedRoofDeck": true,
+        "verified": false
+      },
+      "source": {
+        "id": "arcxis-tdi-2024-irc",
+        "title": "TDI Windstorm Transition to the 2024 IRC: What Texas Builders Need to Know",
+        "url": "https://arcxis.com/technical-bulletin/tdi-windstorm-transition-to-the-2024-irc-what-texas-builders-need-to-know",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "corpus-christi-permit-fee",
+      "ruleType": "permit-fee-formula",
+      "area": "estimate",
+      "change": "Permit = sq ft x ($0.461 + $0.146) (FY2025), min $146.41",
+      "priority": "should",
+      "params": {
+        "permitPerSqFt": 0.461,
+        "planReviewPerSqFt": 0.146,
+        "minUSD": 146.41,
+        "example2400USD": 1724
+      },
+      "source": {
+        "id": "cc-fy2025-fee-schedule",
+        "title": "FY 2025 Development Fee Schedule",
+        "url": "https://corpuschristitx.gov/media/wkljgujc/fy-2025-development-fee-schedule.pdf",
+        "read": "2026-10-11",
+        "section": "Residential plan review / building permit"
       }
     }
   ]

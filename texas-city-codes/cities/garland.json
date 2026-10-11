@@ -13,15 +13,15 @@
     "blsCode": "19100"
   },
   "population": {
-    "value": 245000,
-    "status": "Assumed",
+    "value": 243470,
+    "status": "Secondary",
     "source": {
-      "id": "assumed",
-      "title": "Assumed - researcher judgement (not verified this session)",
-      "url": "",
+      "id": "census-qf-garland",
+      "title": "U.S. Census Bureau QuickFacts - Garland city, Texas",
+      "url": "https://census.gov/quickfacts/fact/table/garlandcitytexas,fortworthcitytexas/POP010220",
       "read": "2026-10-11"
     },
-    "note": "About 245,000 (approximate, prior knowledge)."
+    "note": "Census Vintage 2023 estimate (July 1, 2023) seen in QuickFacts search extract."
   },
   "climateZone": {
     "value": "3A",
@@ -54,169 +54,156 @@
       "url": "",
       "read": "2026-10-11"
     },
-    "note": "Not found: official city-limits map. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+    "note": "Not found: official city-limits map. Not reached in wave 2 (fetch blocked; capped search budget spent on priority fields)."
   },
   "codes": {
     "irc": {
       "edition": {
-        "value": "2021 IRC (likely)",
-        "status": "Assumed",
+        "value": "2015 IRC (Garland amended; appendices A, B, C, G; Part VIII Electrical excluded)",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed - researcher judgement (not verified this session)",
-          "url": "",
-          "read": "2026-10-11"
+          "id": "garland-ecode-irc",
+          "title": "City of Garland Code Ch. 30 Art. XIII International Residential Code (Secs. 30.225-30.226) (eCode360)",
+          "url": "https://ecode360.com/40075515",
+          "read": "2026-10-11",
+          "section": "Sec. 30.225"
         },
-        "note": "Garland is believed to have adopted the 2021 I-codes with NCTCOG regional amendments. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+        "note": "Sec. 30.225 adopts the 2015 IRC by reference; amendments in Sec. 30.226 (attachment), history through Ord. 7079 (8/20/2019). City 'Current Model Codes' page: 2015 IRC effective 9-19-2016. No newer adoption found though code is updated through 2026 ordinances. Seen only in search-result extracts of this page (page itself could not be fetched)."
       },
       "ordinance": {
-        "value": null,
-        "status": "Assumed",
+        "value": "Garland Code Ch. 30 Art. XIII Secs. 30.225-30.226 (2015 IRC, eff. 9-19-2016; last amended Ord. 7079, 8/20/2019)",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed - researcher judgement (not verified this session)",
-          "url": "",
+          "id": "garland-ecode-irc",
+          "title": "City of Garland Code Ch. 30 Art. XIII International Residential Code (Secs. 30.225-30.226) (eCode360)",
+          "url": "https://ecode360.com/40075515",
           "read": "2026-10-11"
         },
-        "note": "Not found: adoption ordinance number and date. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+        "note": "Seen only in search-result extracts of this page (page itself could not be fetched)."
       },
       "amendments": [
         {
           "topic": "other",
-          "summary": "NCTCOG regional amendment trims IRC Table R301.2(1): the Manual J design-criteria columns are removed (Manual J is done by third parties and not checked in plan review).",
-          "section": "Table R301.2(1)",
+          "summary": "Garland's 2015 IRC amendments are an attachment to Chapter 30 (Sec. 30.226); text not visible in search extracts. The NCTCOG 2021 regional amendments do NOT apply because Garland is still on the 2015 IRC.",
+          "section": "Sec. 30.226",
           "status": "Secondary",
           "source": {
-            "id": "nctcog-2021-irc-amendments",
-            "title": "NCTCOG Recommended Amendments to the 2021 International Residential Code (Approved July 2021)",
-            "url": "https://nctcog.org/getmedia/feafbc55-3c35-4022-bcab-6b07c95c7f9e/2021-IRC-Amendments-Final.pdf",
+            "id": "garland-ecode-irc",
+            "title": "City of Garland Code Ch. 30 Art. XIII International Residential Code (Secs. 30.225-30.226) (eCode360)",
+            "url": "https://ecode360.com/40075515",
             "read": "2026-10-11",
-            "section": "Table R301.2(1)"
+            "section": "Sec. 30.226"
           },
-          "note": "Regional NCTCOG recommendation; this city's adoption of it is not confirmed."
+          "note": "Attachment not read."
         },
         {
-          "topic": "other",
-          "summary": "NCTCOG adds an exception at R302.1: open non-combustible carports may be built where local ordinances also allow them.",
-          "section": "R302.1 exception",
+          "topic": "room size",
+          "summary": "Since 2009 Garland requires a 'proportionality' rule for houses: one full bathroom and 120 sq ft of living area for every two bedrooms.",
+          "section": "New House page",
           "status": "Secondary",
           "source": {
-            "id": "nctcog-2021-irc-amendments",
-            "title": "NCTCOG Recommended Amendments to the 2021 International Residential Code (Approved July 2021)",
-            "url": "https://nctcog.org/getmedia/feafbc55-3c35-4022-bcab-6b07c95c7f9e/2021-IRC-Amendments-Final.pdf",
+            "id": "garland-new-house",
+            "title": "City of Garland - New House (permit requirements and fees)",
+            "url": "https://www.garlandtx.gov/3167/New-House",
             "read": "2026-10-11",
-            "section": "R302.1"
+            "section": "New House page"
           },
-          "note": "Regional NCTCOG recommendation; this city's adoption of it is not confirmed."
+          "note": "Seen only in search-result extracts of this page (page itself could not be fetched)."
         },
         {
-          "topic": "other",
-          "summary": "NCTCOG deletes IRC Chapter 11 (energy) and points to the 2021 IECC with its NCTCOG amendments instead.",
-          "section": "Chapter 11 (N1101)",
+          "topic": "foundation",
+          "summary": "For additions the city asks for foundation type, depth, grade beams and piers, and an engineer's letter for post-tensioned slabs; New House list does not mention a sealed foundation.",
+          "section": "Additions page",
           "status": "Secondary",
           "source": {
-            "id": "nctcog-2021-irc-amendments",
-            "title": "NCTCOG Recommended Amendments to the 2021 International Residential Code (Approved July 2021)",
-            "url": "https://nctcog.org/getmedia/feafbc55-3c35-4022-bcab-6b07c95c7f9e/2021-IRC-Amendments-Final.pdf",
+            "id": "garland-additions",
+            "title": "City of Garland - Additions (permit requirements)",
+            "url": "https://www.garlandtx.gov/2165/Additions",
             "read": "2026-10-11",
-            "section": "Chapter 11"
+            "section": "Additions page"
           },
-          "note": "Regional NCTCOG recommendation; this city's adoption of it is not confirmed."
-        },
-        {
-          "topic": "other",
-          "summary": "NCTCOG revises the townhouse definition so units on separate lots run from foundation to roof, divided by property lines.",
-          "section": "R202 Townhouse unit",
-          "status": "Secondary",
-          "source": {
-            "id": "nctcog-2021-irc-amendments",
-            "title": "NCTCOG Recommended Amendments to the 2021 International Residential Code (Approved July 2021)",
-            "url": "https://nctcog.org/getmedia/feafbc55-3c35-4022-bcab-6b07c95c7f9e/2021-IRC-Amendments-Final.pdf",
-            "read": "2026-10-11",
-            "section": "R202"
-          },
-          "note": "Regional NCTCOG recommendation; this city's adoption of it is not confirmed."
+          "note": "Seen only in search-result extracts of this page (page itself could not be fetched)."
         }
       ]
     },
     "energy": {
       "edition": {
-        "value": "2021 IECC (likely, with NCTCOG amendments)",
-        "status": "Assumed",
+        "value": "2015 IECC (eff. 9-19-2016)",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed - researcher judgement (not verified this session)",
-          "url": "",
+          "id": "garland-current-codes",
+          "title": "City of Garland Building Inspection - Current Model Codes",
+          "url": "https://www.garlandtx.gov/QuickLinks.aspx?CID=87",
           "read": "2026-10-11"
         },
-        "note": "Assumed to follow the 2021 cycle. Not verified."
+        "note": "Matches the Texas state minimum residential energy code (2015 IRC ch. 11 / IECC). Seen only in search-result extracts of this page (page itself could not be fetched)."
       },
       "stretchCode": {
         "value": false,
-        "status": "Assumed",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed - researcher judgement (not verified this session)",
-          "url": "",
+          "id": "garland-current-codes",
+          "title": "City of Garland Building Inspection - Current Model Codes",
+          "url": "https://www.garlandtx.gov/QuickLinks.aspx?CID=87",
           "read": "2026-10-11"
         },
-        "note": "No local stretch code known."
+        "note": "None found; ResCheck/energy calculation required at permit."
       }
     },
     "plumbing": {
-      "value": "IPC 2021 (likely)",
-      "status": "Assumed",
+      "value": "IPC 2015 (appendices B, D, E) (eff. 9-19-2016)",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
+        "id": "garland-plumbing",
+        "title": "City of Garland Code Ch. 30 Art. V Plumbing Code and Fuel Gas Code (eCode360)",
+        "url": "https://ecode360.com/40075243",
         "read": "2026-10-11"
       },
-      "note": "DFW cities generally adopt IPC; not verified."
+      "note": "Seen only in search-result extracts of this page (page itself could not be fetched)."
     },
     "electrical": {
-      "value": null,
-      "status": "Assumed",
+      "value": "NEC 2014 (with Garland amendments, eff. 9-19-2016)",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
+        "id": "garland-current-codes",
+        "title": "City of Garland Building Inspection - Current Model Codes",
+        "url": "https://www.garlandtx.gov/QuickLinks.aspx?CID=87",
         "read": "2026-10-11"
       },
-      "note": "Not found: NEC edition (2020 or 2023). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "note": "Seen only in search-result extracts of this page (page itself could not be fetched)."
     },
     "mechanical": {
-      "value": "2021 IMC (likely)",
-      "status": "Assumed",
+      "value": "2015 IMC",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
+        "id": "garland-building-permit",
+        "title": "City of Garland - Building Permit",
+        "url": "https://www.garlandtx.gov/2152/Building-Permit",
         "read": "2026-10-11"
       },
-      "note": "Not verified."
+      "note": "Seen only in search-result extracts of this page (page itself could not be fetched)."
     },
     "fuelGas": {
-      "value": "2021 IFGC (likely)",
-      "status": "Assumed",
+      "value": "2015 IFGC",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
+        "id": "garland-plumbing",
+        "title": "City of Garland Code Ch. 30 Art. V Plumbing Code and Fuel Gas Code (eCode360)",
+        "url": "https://ecode360.com/40075243",
         "read": "2026-10-11"
       },
-      "note": "Not verified."
+      "note": "Seen only in search-result extracts of this page (page itself could not be fetched)."
     },
     "fire": {
-      "value": "2021 IFC (likely). No one/two-family sprinkler mandate expected (Texas Occ. Code 1301.551(i) opt-out common).",
-      "status": "Assumed",
+      "value": "2015 IFC (Garland amendments, Ord. 6851). No one/two-family sprinkler mandate found.",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
+        "id": "garland-building-permit",
+        "title": "City of Garland - Building Permit",
+        "url": "https://www.garlandtx.gov/2152/Building-Permit",
         "read": "2026-10-11"
       },
-      "note": "Not verified."
+      "note": "Seen only in search-result extracts of this page (page itself could not be fetched)."
     },
     "wind": {
       "value": null,
@@ -228,7 +215,7 @@
         "read": "2026-10-11"
       },
       "unit": "mph",
-      "note": "Not found: local Table R301.2(1) wind value. ASCE 7-16 / IRC Fig R301.2(2) shows roughly 105-110 mph ultimate design wind speed (Risk Cat. II) in the DFW area; check the city's Table R301.2(1) entry. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "note": "Not found: local Table R301.2(1) wind value. ASCE 7-16 / IRC Fig R301.2(2) shows roughly 105-110 mph ultimate design wind speed (Risk Cat. II) in the DFW area; check the city's Table R301.2(1) entry. Not reached in wave 2 (fetch blocked; capped search budget spent on priority fields)."
     },
     "hailRoofing": {
       "value": "No local hail-roof mandate found. DFW is a high-hail area, so Class 4 impact-resistant shingles (UL 2218) are a common owner choice for insurance discounts, not a code rule.",
@@ -262,42 +249,44 @@
         "read": "2026-10-11"
       },
       "unit": "in",
-      "note": "Not found: the local frost-depth value in Table R301.2(1). DFW cities commonly list a shallow frost depth (often 6 in or less), but this was not verified. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "note": "Not found: the local frost-depth value in Table R301.2(1). DFW cities commonly list a shallow frost depth (often 6 in or less), but this was not verified. Not reached in wave 2 (fetch blocked; capped search budget spent on priority fields)."
     }
   },
   "zoning": {
     "hasZoning": {
       "value": true,
-      "status": "Assumed",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
+        "id": "garland-gdc-districts",
+        "title": "Garland Development Code Division 1 Zoning Districts Established (eCode360)",
+        "url": "https://ecode360.com/40081476",
         "read": "2026-10-11"
       },
-      "note": "Large DFW city with zoning (regional knowledge)."
+      "note": "Garland Development Code (GDC, Ord. 6773)."
     },
     "typicalDistrict": {
-      "value": "SF-7 Single-Family (Garland Development Code) (assumed)",
-      "status": "Assumed",
+      "value": "SF-7 Single-Family District (7,000 sq ft lot), GDC Sec. 2.36",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
-        "read": "2026-10-11"
+        "id": "garland-gdc-districts",
+        "title": "Garland Development Code Division 1 Zoning Districts Established (eCode360)",
+        "url": "https://ecode360.com/40081476",
+        "read": "2026-10-11",
+        "section": "GDC 2.36"
       },
-      "note": "Assumed typical district under the Garland Development Code (GDC); not read this session."
+      "note": "Other SF districts: SF-E, SF-10, SF-5 (Sec. 2.36); many PDs reference SF-7. Seen only in search-result extracts of this page (page itself could not be fetched)."
     },
     "minLotSqFt": {
-      "value": null,
-      "status": "Assumed",
+      "value": 7000,
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
+        "id": "garland-gdc-districts",
+        "title": "Garland Development Code Division 1 Zoning Districts Established (eCode360)",
+        "url": "https://ecode360.com/40081476",
         "read": "2026-10-11"
       },
-      "note": "Not found: minimum lot area for SF-7 Single-Family (Garland Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "unit": "sqft",
+      "note": "Seen only in search-result extracts of this page (page itself could not be fetched)."
     },
     "minLotWidthFt": {
       "value": null,
@@ -308,7 +297,8 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: minimum lot width for SF-7 Single-Family (Garland Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "unit": "ft",
+      "note": "Not found: GDC Table 2-3 (Single-Family Residential District Standards) values did not appear in search extracts. Width may be reduced up to 5 ft on cul-de-sac arcs in SF-7 (Sec. 2.36)."
     },
     "minLotDepthFt": {
       "value": null,
@@ -319,11 +309,12 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: minimum lot depth for SF-7 Single-Family (Garland Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "unit": "ft",
+      "note": "Not found: GDC Table 2-3 (Single-Family Residential District Standards) values did not appear in search extracts. "
     },
     "setbacksFt": {
       "front": {
-        "value": null,
+        "value": 25,
         "status": "Assumed",
         "source": {
           "id": "assumed",
@@ -331,10 +322,11 @@
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Not found: front setback for SF-7 Single-Family (Garland Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+        "unit": "ft",
+        "note": "Not found: GDC Table 2-3 (Single-Family Residential District Standards) values did not appear in search extracts. 25 ft is typical for DFW 7,000 sf districts and matches a generic Garland guide; verify on plat."
       },
       "side": {
-        "value": null,
+        "value": 5,
         "status": "Assumed",
         "source": {
           "id": "assumed",
@@ -342,18 +334,20 @@
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Not found: side setback for SF-7 Single-Family (Garland Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+        "unit": "ft",
+        "note": "Not found: GDC Table 2-3 (Single-Family Residential District Standards) values did not appear in search extracts. Generic Garland guide gives 5 ft."
       },
       "streetSide": {
-        "value": null,
-        "status": "Assumed",
+        "value": 15,
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed - researcher judgement (not verified this session)",
-          "url": "",
+          "id": "garland-gdc-res",
+          "title": "Garland Development Code Division 2 Residential Districts (eCode360)",
+          "url": "https://ecode360.com/40081482",
           "read": "2026-10-11"
         },
-        "note": "Not found: streetSide setback for SF-7 Single-Family (Garland Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+        "unit": "ft",
+        "note": "Sec. 2.36: corner side setback 15 ft (non-key corner lot), 20 ft (key corner lot). Seen only in search-result extracts of this page (page itself could not be fetched)."
       },
       "rear": {
         "value": null,
@@ -364,11 +358,12 @@
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Not found: rear setback for SF-7 Single-Family (Garland Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+        "unit": "ft",
+        "note": "Not found: GDC Table 2-3 (Single-Family Residential District Standards) values did not appear in search extracts. "
       }
     },
     "maxHeightFt": {
-      "value": null,
+      "value": 35,
       "status": "Assumed",
       "source": {
         "id": "assumed",
@@ -376,7 +371,8 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: maximum height for SF-7 Single-Family (Garland Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "unit": "ft",
+      "note": "Several third-party guides say 35 ft for Garland SF zones; GDC table not read."
     },
     "maxStories": {
       "value": null,
@@ -387,7 +383,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: maximum stories for SF-7 Single-Family (Garland Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "note": "Not found: maximum stories for SF-7. Not reached in wave 2 (fetch blocked; capped search budget spent on priority fields)."
     },
     "maxLotCoverage": {
       "value": null,
@@ -398,7 +394,8 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: maximum lot coverage for SF-7 Single-Family (Garland Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "unit": "fraction",
+      "note": "Not found: GDC Table 2-3 (Single-Family Residential District Standards) values did not appear in search extracts. Third-party guide suggests ~45%."
     },
     "imperviousCover": {
       "value": null,
@@ -409,7 +406,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: impervious cover limit for SF-7 Single-Family (Garland Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "note": "Not found: impervious cover limit for SF-7. Not reached in wave 2 (fetch blocked; capped search budget spent on priority fields)."
     },
     "far": {
       "value": null,
@@ -420,7 +417,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: FAR for SF-7 Single-Family (Garland Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "note": "Not found: FAR for SF-7. Not reached in wave 2 (fetch blocked; capped search budget spent on priority fields)."
     },
     "parking": {
       "value": null,
@@ -431,7 +428,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: parking minimum for SF-7 Single-Family (Garland Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "note": "Not found: parking minimum for SF-7. Not reached in wave 2 (fetch blocked; capped search budget spent on priority fields)."
     },
     "garageRules": {
       "value": null,
@@ -442,7 +439,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: garage placement/orientation rules for SF-7 Single-Family (Garland Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "note": "Not found: garage placement/orientation rules for SF-7. Not reached in wave 2 (fetch blocked; capped search budget spent on priority fields)."
     },
     "adu": {
       "value": null,
@@ -453,19 +450,18 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: ADU rules for SF-7 Single-Family (Garland Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "note": "Not found: ADU rules for SF-7. Not reached in wave 2 (fetch blocked; capped search budget spent on priority fields)."
     },
     "masonry": {
-      "value": "No enforceable masonry percentage for new single-family homes made of materials approved by a national model code (Gov't Code ch. 3000, HB 2439, 2019); exceptions: designated historic districts/landmarks, and windstorm/flood-insurance materials. Older city masonry percentages for single-family homes cannot be enforced against code-approved materials, except in historic districts.",
+      "value": "No enforceable masonry percentage for single-family (Gov't Code ch. 3000); GDC Article 6 building design rules may list materials but cannot mandate them; HOA/deed restrictions may.",
       "status": "Secondary",
       "source": {
         "id": "tx-hb2439-fw-memo",
         "title": "HB 2439 (2019) staff summary - Fort Worth Development Services (Gov't Code ch. 3000 building-materials preemption)",
         "url": "https://www.fortworthtexas.gov/files/assets/public/v/1/development-services/documents/housebill-2439.pdf",
-        "read": "2026-10-11",
-        "section": "Tex. Gov't Code ch. 3000 (HB 2439, 86th Leg. 2019)"
+        "read": "2026-10-11"
       },
-      "note": "Statute text itself (statutes.capitol.texas.gov) not read this session; summary from city staff memos. Planned developments and deed restrictions or HOAs may still require masonry."
+      "note": "No Garland SF masonry rule surfaced."
     },
     "trees": {
       "value": null,
@@ -476,35 +472,46 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: tree preservation/mitigation ordinance for SF-7 Single-Family (Garland Development Code) (assumed). Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "note": "Not found: tree preservation/mitigation ordinance for SF-7. Not reached in wave 2 (fetch blocked; capped search budget spent on priority fields)."
     },
-    "other": []
+    "other": [],
+    "minDwellingSizeSqFt": {
+      "value": null,
+      "status": "Assumed",
+      "source": {
+        "id": "assumed",
+        "title": "Assumed - researcher judgement (not verified this session)",
+        "url": "",
+        "read": "2026-10-11"
+      },
+      "note": "Not found: GDC Table 2-3 (Single-Family Residential District Standards) values did not appear in search extracts. "
+    }
   },
   "process": {
     "steps": [
       {
-        "value": "Confirm zoning and plat, submit the residential permit with a sealed foundation design, plan review, permit, inspections, Certificate of Occupancy.",
-        "status": "Assumed",
+        "value": "Submit PDF plans on USB plus paper application: architectural plans (floor, elevations, roof/floor framing, electrical), plot plan with setbacks, notarized Building Site Affidavit, energy compliance (ResCheck or report); grading plan for infill or lot-elevation change; erosion control/TCEQ items.",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed - researcher judgement (not verified this session)",
-          "url": "",
+          "id": "garland-new-house",
+          "title": "City of Garland - New House (permit requirements and fees)",
+          "url": "https://www.garlandtx.gov/3167/New-House",
           "read": "2026-10-11"
         },
-        "note": "Typical DFW sequence; not verified."
+        "note": "Seen only in search-result extracts of this page (page itself could not be fetched)."
       }
     ],
     "sealsRequired": [
       {
-        "value": "Engineer-sealed foundation design expected (standard DFW practice on expansive clay); whether the city mandates it by amendment is not confirmed.",
-        "status": "Assumed",
+        "value": "Building Site Affidavit: foundation/floor elevation certification by Texas-licensed architect, engineer or surveyor. Grading plans PE-sealed. Sealed structural set for the house not stated.",
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed - researcher judgement (not verified this session)",
-          "url": "",
+          "id": "garland-site-affidavit",
+          "title": "City of Garland Building Site Affidavit (Building Inspection Department)",
+          "url": "https://www.garlandtx.gov/DocumentCenter/View/2396/Building-Site-Affidavit-PDF",
           "read": "2026-10-11"
         },
-        "note": "Not verified."
+        "note": "Seen only in search-result extracts of this page (page itself could not be fetched)."
       }
     ],
     "inspections": [
@@ -529,67 +536,82 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: review time. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "note": "Not found: review time. Not reached in wave 2 (fetch blocked; capped search budget spent on priority fields)."
     }
   },
   "fees": {
     "permitFormula": {
-      "value": null,
-      "status": "Assumed",
+      "value": "New house: $0.52 per sq ft of living area, $800 minimum, plus non-refundable 25% processing (plan review) fee ($200 min) paid at submittal",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
+        "id": "garland-new-house",
+        "title": "City of Garland - New House (permit requirements and fees)",
+        "url": "https://www.garlandtx.gov/3167/New-House",
         "read": "2026-10-11"
       },
-      "note": "Not found: residential permit fee formula. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "note": "General Building Permit page lists valuation-based rates (0.70% / $4.50 per $1,000) - applies to other work. Seen only in search-result extracts of this page (page itself could not be fetched)."
     },
     "workedExample2400sqft": {
-      "value": null,
-      "status": "Assumed",
+      "value": 1560,
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
+        "id": "garland-new-house",
+        "title": "City of Garland - New House (permit requirements and fees)",
+        "url": "https://www.garlandtx.gov/3167/New-House",
         "read": "2026-10-11"
       },
-      "note": "Not found: permit fee - cannot compute without fee schedule. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "unit": "USD",
+      "note": "Living area 2,400 sq ft (garage not counted - fee is per sq ft of living area): 2,400 x $0.52 = $1,248 (> $800 min); processing 25% = $312; total $1,560. Excludes impact, meter, tap and trade fees."
     },
     "planReview": {
-      "value": null,
-      "status": "Assumed",
+      "value": "25% processing fee, $200 minimum",
+      "status": "Secondary",
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
+        "id": "garland-new-house",
+        "title": "City of Garland - New House (permit requirements and fees)",
+        "url": "https://www.garlandtx.gov/3167/New-House",
         "read": "2026-10-11"
       },
-      "note": "Not found: plan review fee. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "note": "Seen only in search-result extracts of this page (page itself could not be fetched)."
     },
     "impactFees": [
       {
-        "value": null,
-        "status": "Assumed",
+        "value": 593,
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed - researcher judgement (not verified this session)",
-          "url": "",
+          "id": "garland-new-house",
+          "title": "City of Garland - New House (permit requirements and fees)",
+          "url": "https://www.garlandtx.gov/3167/New-House",
           "read": "2026-10-11"
         },
-        "note": "Not found: water/wastewater/roadway impact fees. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+        "unit": "USD",
+        "note": "Water impact fee $593 (5/8\" meter) or $890 (3/4\" meter); matches max-fee table Sec. 1.88; collection rate (Schedule 2) not read. Seen only in search-result extracts of this page (page itself could not be fetched)."
+      },
+      {
+        "value": 3034,
+        "status": "Secondary",
+        "source": {
+          "id": "garland-new-house",
+          "title": "City of Garland - New House (permit requirements and fees)",
+          "url": "https://www.garlandtx.gov/3167/New-House",
+          "read": "2026-10-11"
+        },
+        "unit": "USD",
+        "note": "Roadway impact fee $3,034 per lot for subdivisions platted after 2017. Seen only in search-result extracts of this page (page itself could not be fetched)."
       }
     ],
     "tapFees": [
       {
-        "value": null,
-        "status": "Assumed",
+        "value": 150,
+        "status": "Secondary",
         "source": {
-          "id": "assumed",
-          "title": "Assumed - researcher judgement (not verified this session)",
-          "url": "",
+          "id": "garland-new-house",
+          "title": "City of Garland - New House (permit requirements and fees)",
+          "url": "https://www.garlandtx.gov/3167/New-House",
           "read": "2026-10-11"
         },
-        "note": "Not found: water/sewer tap fees. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+        "unit": "USD",
+        "note": "Water meter $150 (5/8\") or $180 (3/4\"); sewer tap fee assessed by Water Dept., amount not found. Seen only in search-result extracts of this page (page itself could not be fetched)."
       }
     ]
   },
@@ -615,7 +637,7 @@
         "url": "",
         "read": "2026-10-11"
       },
-      "note": "Not found: market build cost per sq ft. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+      "note": "Not found: market build cost per sq ft. Not reached in wave 2 (fetch blocked; capped search budget spent on priority fields)."
     },
     "drivers": [
       {
@@ -632,31 +654,107 @@
     ]
   },
   "flood": {
-    "value": null,
-    "status": "Assumed",
+    "value": "Lowest floor (incl. basement) 2 ft above base flood elevation for new/substantially improved residential; zero-rise rule in floodplain; FFE 2 ft above fully developed 100-yr WSE next to major creeks/channels.",
+    "status": "Secondary",
     "source": {
-      "id": "assumed",
-      "title": "Assumed - researcher judgement (not verified this session)",
-      "url": "",
+      "id": "garland-flood",
+      "title": "City of Garland Code - Flood Damage Prevention (eCode360)",
+      "url": "https://ecode360.com/40075715",
       "read": "2026-10-11"
     },
-    "note": "Not found: floodplain ordinance freeboard. Research tools failed this session (WebFetch could not resolve any host, curl got proxy 403s, and the shared web-search budget ran out), so this was not looked up."
+    "note": "Seen only in search-result extracts of this page (page itself could not be fetched)."
   },
   "engineChanges": [
+    {
+      "id": "garland-irc-2015",
+      "ruleType": "electrical-code-edition",
+      "area": "drawings",
+      "change": "Design to 2015 IRC (Garland amended), 2015 IECC, IPC 2015, NEC 2014 - not the 2021 IRC baseline.",
+      "priority": "must",
+      "params": {
+        "irc": "2015",
+        "iecc": "2015",
+        "ipc": "2015",
+        "nec": "2014"
+      },
+      "source": {
+        "id": "garland-ecode-irc",
+        "title": "City of Garland Code Ch. 30 Art. XIII International Residential Code (Secs. 30.225-30.226) (eCode360)",
+        "url": "https://ecode360.com/40075515",
+        "read": "2026-10-11",
+        "section": "Sec. 30.225"
+      }
+    },
+    {
+      "id": "garland-energy-2015",
+      "ruleType": "climate-zone-envelope",
+      "area": "envelope",
+      "change": "Climate zone 3A envelope at 2015 IECC levels (less strict than 2021); provide ResCheck/energy report.",
+      "priority": "must",
+      "params": {
+        "climateZone": "3A",
+        "iecc": "2015"
+      },
+      "source": {
+        "id": "garland-current-codes",
+        "title": "City of Garland Building Inspection - Current Model Codes",
+        "url": "https://www.garlandtx.gov/QuickLinks.aspx?CID=87",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "garland-proportionality",
+      "ruleType": "min-dwelling-size",
+      "area": "plan",
+      "change": "For every two bedrooms provide one full bathroom and 120 sq ft of living area.",
+      "priority": "must",
+      "params": {
+        "bathsPerTwoBedrooms": 1,
+        "livingSqFtPerTwoBedrooms": 120
+      },
+      "source": {
+        "id": "garland-new-house",
+        "title": "City of Garland - New House (permit requirements and fees)",
+        "url": "https://www.garlandtx.gov/3167/New-House",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "garland-setbacks-sf7",
+      "ruleType": "setback-by-district",
+      "area": "setbacks",
+      "change": "SF-7: lot 7,000 sf; corner side 15 ft (20 ft key corner); provisional front 25 / side 5; rear unknown - require plat input.",
+      "priority": "should",
+      "params": {
+        "district": "SF-7",
+        "minLotSqFt": 7000,
+        "streetSideFt": 15,
+        "keyCornerStreetSideFt": 20,
+        "frontFt": 25,
+        "sideFt": 5,
+        "provisional": true
+      },
+      "source": {
+        "id": "garland-gdc-res",
+        "title": "Garland Development Code Division 2 Residential Districts (eCode360)",
+        "url": "https://ecode360.com/40081482",
+        "read": "2026-10-11",
+        "section": "GDC 2.36"
+      }
+    },
     {
       "id": "garland-district-input",
       "ruleType": "survey-input-district",
       "area": "survey",
-      "change": "Ask for the actual zoning district (default SF-7 Single-Family (Garland Development Code) (assumed)) and plat building lines; no setbacks verified yet, so do not auto-fill.",
+      "change": "Ask for zoning district (SF-7, SF-5, SF-10, PD) and plat building lines.",
       "priority": "must",
       "params": {
-        "defaultDistrict": "SF-7 Single-Family (Garland Development Code) (assumed)",
-        "setbacksVerified": false
+        "askDistrict": true
       },
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
+        "id": "garland-gdc-districts",
+        "title": "Garland Development Code Division 1 Zoning Districts Established (eCode360)",
+        "url": "https://ecode360.com/40081476",
         "read": "2026-10-11"
       }
     },
@@ -664,32 +762,67 @@
       "id": "garland-eng-foundation",
       "ruleType": "engineered-foundation-flag",
       "area": "foundation",
-      "change": "Flag an engineered (PE-sealed) post-tensioned slab as the default for expansive DFW clay; confirm whether the city amendment mandates it.",
+      "change": "Flag engineered post-tensioned slab (engineer letter for PT slabs; floor elevation certified by licensed professional).",
       "priority": "should",
       "params": {
-        "engineeredFoundation": true,
-        "mandateConfirmed": false
+        "engineeredFoundation": true
       },
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
+        "id": "garland-site-affidavit",
+        "title": "City of Garland Building Site Affidavit (Building Inspection Department)",
+        "url": "https://www.garlandtx.gov/DocumentCenter/View/2396/Building-Site-Affidavit-PDF",
         "read": "2026-10-11"
       }
     },
     {
-      "id": "garland-cz3a",
-      "ruleType": "climate-zone-envelope",
-      "area": "envelope",
-      "change": "Apply 2021 IECC Climate Zone 3A envelope tables.",
+      "id": "garland-permit-fee",
+      "ruleType": "permit-fee-formula",
+      "area": "estimate",
+      "change": "Permit $0.52 per sq ft living area (min $800) + 25% processing.",
       "priority": "must",
       "params": {
-        "climateZone": "3A"
+        "perSqFtLiving": 0.52,
+        "minUSD": 800,
+        "processingPct": 0.25
       },
       "source": {
-        "id": "assumed",
-        "title": "Assumed - researcher judgement (not verified this session)",
-        "url": "",
+        "id": "garland-new-house",
+        "title": "City of Garland - New House (permit requirements and fees)",
+        "url": "https://www.garlandtx.gov/3167/New-House",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "garland-impact-fees",
+      "ruleType": "impact-fee-estimate",
+      "area": "estimate",
+      "change": "Water impact $593 (5/8\") / $890 (3/4\"); roadway $3,034 per lot if platted after 2017; meter $150/$180.",
+      "priority": "must",
+      "params": {
+        "waterUSD": 593,
+        "roadwayUSD": 3034,
+        "meterUSD": 150
+      },
+      "source": {
+        "id": "garland-new-house",
+        "title": "City of Garland - New House (permit requirements and fees)",
+        "url": "https://www.garlandtx.gov/3167/New-House",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "garland-flood",
+      "ruleType": "flood-elevation",
+      "area": "survey",
+      "change": "In floodplain set lowest floor 2 ft above BFE (2 ft above fully developed WSE near major creeks).",
+      "priority": "must",
+      "params": {
+        "freeboardFt": 2
+      },
+      "source": {
+        "id": "garland-flood",
+        "title": "City of Garland Code - Flood Damage Prevention (eCode360)",
+        "url": "https://ecode360.com/40075715",
         "read": "2026-10-11"
       }
     },
@@ -697,33 +830,15 @@
       "id": "garland-masonry",
       "ruleType": "masonry-percentage",
       "area": "envelope",
-      "change": "Do not apply a city masonry percentage (Gov't Code ch. 3000); prompt for HOA, deed or historic-district requirements.",
-      "priority": "should",
+      "change": "No city masonry % (Gov't Code ch. 3000); check HOA/deed restrictions.",
+      "priority": "nice",
       "params": {
-        "masonryPct": 0,
-        "checkHistoricOrPD": true
+        "masonryPct": 0
       },
       "source": {
         "id": "tx-hb2439-fw-memo",
         "title": "HB 2439 (2019) staff summary - Fort Worth Development Services (Gov't Code ch. 3000 building-materials preemption)",
         "url": "https://www.fortworthtexas.gov/files/assets/public/v/1/development-services/documents/housebill-2439.pdf",
-        "read": "2026-10-11"
-      }
-    },
-    {
-      "id": "garland-nctcog",
-      "ruleType": "plumbing-code-variant",
-      "area": "drawings",
-      "change": "Assume the NCTCOG regional amendments to the 2021 IRC and IECC (Chapter 11 deleted and replaced by the IECC; carport exception) until the city ordinance is confirmed.",
-      "priority": "nice",
-      "params": {
-        "regionalAmendments": "NCTCOG 2021",
-        "confirmed": false
-      },
-      "source": {
-        "id": "nctcog-2021-irc-amendments",
-        "title": "NCTCOG Recommended Amendments to the 2021 International Residential Code (Approved July 2021)",
-        "url": "https://nctcog.org/getmedia/feafbc55-3c35-4022-bcab-6b07c95c7f9e/2021-IRC-Amendments-Final.pdf",
         "read": "2026-10-11"
       }
     },
@@ -744,27 +859,33 @@
       }
     }
   ],
-  "plainLanguage": "Garland is a large North Texas city that most likely builds homes under the 2021 International Residential Code with the regional NCTCOG amendments; this has not been confirmed yet. North Texas clay soils swell and shrink, so plan on an engineer-designed post-tensioned slab foundation. Your lot's zoning district and subdivision plat set how far the house must sit from the property lines. We have not verified those numbers for Garland yet, so enter them from your plat or zoning letter. State law stops the city from requiring a brick or stone percentage on a normal lot, but your HOA or deed restrictions may still require one. Garland runs its own electric utility (Garland Power & Light). Permit, impact and tap fees still need to be confirmed with the city.",
+  "plainLanguage": "Garland still builds homes under the older 2015 International Residential Code, 2015 energy code and 2014 electrical code, not the 2021 editions most neighbors use. Most new homes are in the SF-7 district (7,000 sq ft lots); corner lots need 15 ft on the street side. Exact front, side and rear setbacks still need to be read from the city's table, so enter them from your plat. Garland requires one full bathroom and 120 sq ft of living area for every two bedrooms. The permit is $0.52 per sq ft of living area plus a 25% processing fee - about $1,560 for a 2,400 sq ft home. Add a water impact fee (about $593) and, in newer subdivisions, a $3,034 roadway impact fee. In a floodplain, the floor must be 2 ft above flood level. The city cannot require brick or stone, but your HOA might.",
   "openQuestions": [
-    "Everything city-specific: IRC adoption ordinance and amendments, typical-district setbacks, height, coverage, ADU, trees, fees, impact fees, floodplain freeboard - research tools were unavailable this session."
+    "Read GDC Table 2-3 for SF-7 width, depth, front/side/rear setbacks, height, coverage, min dwelling size.",
+    "Text of Garland's 2015 IRC amendments (Sec. 30.226) - foundation design, sprinklers.",
+    "Is Garland adopting 2021/2024 I-Codes soon?",
+    "Wastewater impact fee and sewer tap amounts; collection-rate Schedule 2."
   ],
   "notFound": [
-    "All city-specific code, zoning and fee values (tools unavailable: WebFetch DNS failure, proxy 403, search budget exhausted)"
+    "SF-7 setbacks/height/coverage table",
+    "Garland 2015 IRC amendment text",
+    "Wastewater impact and sewer tap fee amounts",
+    "Market cost per sq ft"
   ],
   "comparison": {
-    "irc": "2021 IRC (assumed)",
-    "energy": "2021 IECC (assumed)",
-    "plumbing": "IPC 2021 (assumed)",
-    "district": "SF-7 Single-Family (Garland Development Code) (assumed)",
-    "setbacks": "unknown",
-    "maxHeight": "unknown",
-    "coverageFar": "unknown",
-    "masonry": "none enforceable (Gov't Code 3000)",
-    "engFoundation": "likely (regional practice)",
+    "irc": "2015 IRC (Garland amended)",
+    "energy": "2015 IECC",
+    "plumbing": "IPC 2015",
+    "district": "SF-7",
+    "setbacks": "25/5/? (provisional; corner 15)",
+    "maxHeight": "35 ft (assumed)",
+    "coverageFar": "unconfirmed / no FAR",
+    "masonry": "none (Gov't Code 3000)",
+    "engFoundation": "likely; PT slab engineer letter",
     "windstorm": "no",
-    "flood": "unknown",
-    "permitFeeExample": "unknown",
-    "impactFees": "unknown",
+    "flood": "2 ft above BFE",
+    "permitFeeExample": "~$1,560",
+    "impactFees": "$593 water + $3,034 roadway (post-2017 plats)",
     "costFactor": "PENDING"
   }
 }

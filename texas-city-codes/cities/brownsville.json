@@ -11,15 +11,15 @@
     "blsCode": "15180"
   },
   "population": {
-    "value": 190000,
-    "status": "Assumed",
+    "value": 190158,
+    "status": "Secondary",
     "source": {
-      "id": "assumed-tools-unavailable",
-      "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-      "url": "",
+      "id": "brownsville-census-quickfacts",
+      "title": "Census QuickFacts - Brownsville city, Texas",
+      "url": "https://census.gov/quickfacts/fact/table/brownsvillecitytexas/AFN120222",
       "read": "2026-10-11"
     },
-    "note": "Approximate Census Vintage 2024 estimate. From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+    "note": "Census Vintage 2023 (July 1, 2023) estimate from QuickFacts search extract."
   },
   "zipCodesOrBoundary": {
     "value": null,
@@ -45,52 +45,52 @@
   },
   "windstormCounty": {
     "value": true,
-    "status": "Assumed",
+    "status": "Secondary",
     "source": {
-      "id": "assumed-tools-unavailable",
-      "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-      "url": "",
+      "id": "tdi-cameron-map",
+      "title": "TDI windstorm map/designations - Cameron County",
+      "url": "https://tdi.texas.gov/wind/maps/cameron.html",
       "read": "2026-10-11"
     },
-    "note": "Cameron/Nueces are TDI first-tier coastal windstorm catalogue counties. From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+    "note": "Cameron County is a TDI designated catastrophe area. TDI notes: structures in Brownsville are subject to Inland I requirements even though the Inland I/II line runs along the west city limits (legacy 2006-code zones; since 2020 wind speed comes from the code map). Seen in web-search extract of this document only (direct fetch blocked: DNS failure); not read in full."
   },
   "codes": {
     "irc": {
       "edition": {
-        "value": "2021 IRC (assumed; edition not verified)",
+        "value": null,
         "status": "Assumed",
         "source": {
-          "id": "assumed-tools-unavailable",
-          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+          "id": "assumed-judgement-south",
+          "title": "Assumed - agent judgement (no source found within wave-2 search budget)",
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Adopted IRC edition not verified; many Texas cities of this size are on 2018 or 2021 IRC. MUST re-check. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run"
+        "note": "Not found: city 'Adopted Building Codes' FAQ exists but edition not visible in extracts; 4 searches tried (city site, ICC/UpCodes, commission ordinances). For TDI windstorm work the 2024 IRC (TDI-adopted) applies regardless."
       },
       "ordinance": {
         "value": null,
         "status": "Assumed",
         "source": {
-          "id": "assumed-tools-unavailable",
-          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+          "id": "assumed-judgement-south",
+          "title": "Assumed - agent judgement (no source found within wave-2 search budget)",
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Not found: building code adoption ordinance number. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+        "note": "Not found; see city Adopted Codes and Ordinances page."
       },
       "amendments": []
     },
     "energy": {
       "edition": {
-        "value": "2015 IECC minimum (Texas state energy code floor for single-family under Health & Safety Code ch. 388 via IRC Ch. 11) - city edition not verified",
+        "value": "State minimum (HSC ch. 388; IRC energy chapter) - city edition not found",
         "status": "Assumed",
         "source": {
-          "id": "assumed-tools-unavailable",
-          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+          "id": "assumed-judgement-south",
+          "title": "Assumed - agent judgement (no source found within wave-2 search budget)",
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+        "note": "Not found."
       },
       "stretchCode": {
         "value": false,
@@ -116,15 +116,15 @@
       "note": "IPC vs UPC not verified. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run"
     },
     "electrical": {
-      "value": "NEC 2020 or 2023 (not verified)",
-      "status": "Assumed",
+      "value": "City Electrical Ordinance (edition not visible); TDLR adopted 2026 NEC as state electrical code eff. Sep 1, 2026",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
+        "id": "tdlr-2026-nec-rules",
+        "title": "TDLR: Commission adopts rules - 2026 National Electrical Code as state electrical code (effective Sep 1, 2026)",
+        "url": "https://www.tdlr.texas.gov/news/rulemaking/2026/09/01/commission-adopts-rules-12/",
         "read": "2026-10-11"
       },
-      "note": "From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+      "note": "Confirm city-enforced NEC edition."
     },
     "mechanical": {
       "value": null,
@@ -160,16 +160,17 @@
       "note": "From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
     },
     "wind": {
-      "value": 145,
-      "status": "Assumed",
-      "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
-        "read": "2026-10-11"
-      },
+      "value": 150,
       "unit": "mph",
-      "note": "Approximate ultimate design wind speed, Risk Cat II, from IRC Fig. R301.2(2)/ASCE 7-16 map. From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+      "status": "Secondary",
+      "source": {
+        "id": "cc-tdi-2024-bulletin",
+        "title": "City of Corpus Christi bulletin: TDI Windstorm update to 2024 ICC codes (effective Apr 1, 2026)",
+        "url": "https://www.corpuschristitx.gov/media/iiflluoc/tdi-windstorm-update-to-2024-icc-codes.pdf",
+        "read": "2026-10-11",
+        "section": "2024 IRC R301.2.1 wind design criteria"
+      },
+      "note": "Applies 2024 IRC R301.2.1 basic wind speed 150 mph stated for TDI windstorm areas (City of Corpus Christi summary of TDI rule); confirm site value on 2024 IRC/ASCE map for Brownsville."
     },
     "hailRoofing": {
       "value": "No local hail/impact roofing mandate known; in TDI area roof coverings must be TDI-approved/listed product evaluations",
@@ -209,122 +210,126 @@
   "zoning": {
     "hasZoning": {
       "value": true,
-      "status": "Assumed",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
-        "read": "2026-10-11"
-      },
-      "note": "From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+        "id": "brownsville-udc-4-3",
+        "title": "Unified Development Code (Nov 25, 2020) Sec. 4.3 Zoning District Standards",
+        "url": "https://www.brownsvilletx.gov/DocumentCenter/View/11510/Zoning-District-Standards",
+        "read": "2026-10-11",
+        "section": "4.3"
+      }
     },
     "typicalDistrict": {
-      "value": "Single-family residential district (name not verified)",
-      "status": "Assumed",
+      "value": "R-1 Single-Family (UDC 2020); others RE, AG, higher-density residential districts",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
-        "read": "2026-10-11"
-      },
-      "note": "From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+        "id": "brownsville-zoneomics-ch3",
+        "title": "Brownsville TX code Chapter 3 (zoning districts) - Zoneomics mirror",
+        "url": "https://www.zoneomics.com/code/brownsville-TX/chapter_3",
+        "read": "2026-10-11",
+        "section": "R-1 table"
+      }
     },
     "minLotSqFt": {
-      "value": 6000,
-      "status": "Assumed",
-      "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
-        "read": "2026-10-11"
-      },
+      "value": 5000,
       "unit": "sq ft",
-      "note": "Placeholder from memory; verify in UDC/LDC. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run"
+      "status": "Secondary",
+      "source": {
+        "id": "brownsville-zoneomics-ch3",
+        "title": "Brownsville TX code Chapter 3 (zoning districts) - Zoneomics mirror",
+        "url": "https://www.zoneomics.com/code/brownsville-TX/chapter_3",
+        "read": "2026-10-11",
+        "section": "R-1 table"
+      },
+      "note": "Zoneomics mirror of R-1 table."
     },
     "minLotWidthFt": {
       "value": 50,
-      "status": "Assumed",
-      "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
-        "read": "2026-10-11"
-      },
       "unit": "ft",
-      "note": "Placeholder; verify."
+      "status": "Secondary",
+      "source": {
+        "id": "brownsville-zoneomics-ch3",
+        "title": "Brownsville TX code Chapter 3 (zoning districts) - Zoneomics mirror",
+        "url": "https://www.zoneomics.com/code/brownsville-TX/chapter_3",
+        "read": "2026-10-11",
+        "section": "R-1 table"
+      }
     },
     "minLotDepthFt": {
-      "value": null,
-      "status": "Assumed",
+      "value": 70,
+      "unit": "ft",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
-        "read": "2026-10-11"
-      },
-      "note": "Not found: minimum lot depth. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+        "id": "brownsville-zoneomics-ch3",
+        "title": "Brownsville TX code Chapter 3 (zoning districts) - Zoneomics mirror",
+        "url": "https://www.zoneomics.com/code/brownsville-TX/chapter_3",
+        "read": "2026-10-11",
+        "section": "R-1 table"
+      }
     },
     "setbacksFt": {
       "front": {
         "value": 25,
-        "status": "Assumed",
-        "source": {
-          "id": "assumed-tools-unavailable",
-          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-          "url": "",
-          "read": "2026-10-11"
-        },
         "unit": "ft",
-        "note": "Placeholder; verify against UDC and recorded plat building line."
+        "status": "Secondary",
+        "source": {
+          "id": "brownsville-zoneomics-ch3",
+          "title": "Brownsville TX code Chapter 3 (zoning districts) - Zoneomics mirror",
+          "url": "https://www.zoneomics.com/code/brownsville-TX/chapter_3",
+          "read": "2026-10-11",
+          "section": "R-1 table"
+        },
+        "note": "Primary street."
       },
       "side": {
         "value": 5,
-        "status": "Assumed",
+        "unit": "ft",
+        "status": "Secondary",
         "source": {
-          "id": "assumed-tools-unavailable",
-          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-          "url": "",
+          "id": "brownsville-cityrulelookup-setbacks",
+          "title": "Brownsville TX building setbacks (third-party summary)",
+          "url": "https://cityrulelookup.com/cities/brownsville-tx/building-setbacks",
           "read": "2026-10-11"
         },
-        "unit": "ft",
-        "note": "Placeholder; verify."
+        "note": "Third-party summary; RE district in official PDF is 10 ft, R-1 row not seen in primary."
       },
       "streetSide": {
-        "value": 10,
-        "status": "Assumed",
-        "source": {
-          "id": "assumed-tools-unavailable",
-          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-          "url": "",
-          "read": "2026-10-11"
-        },
+        "value": 20,
         "unit": "ft",
-        "note": "Placeholder; verify."
+        "status": "Secondary",
+        "source": {
+          "id": "brownsville-zoneomics-ch3",
+          "title": "Brownsville TX code Chapter 3 (zoning districts) - Zoneomics mirror",
+          "url": "https://www.zoneomics.com/code/brownsville-TX/chapter_3",
+          "read": "2026-10-11",
+          "section": "R-1 table"
+        },
+        "note": "Corner lot secondary street front."
       },
       "rear": {
-        "value": 10,
-        "status": "Assumed",
+        "value": 5,
+        "unit": "ft",
+        "status": "Secondary",
         "source": {
-          "id": "assumed-tools-unavailable",
-          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-          "url": "",
+          "id": "brownsville-cityrulelookup-setbacks",
+          "title": "Brownsville TX building setbacks (third-party summary)",
+          "url": "https://cityrulelookup.com/cities/brownsville-tx/building-setbacks",
           "read": "2026-10-11"
         },
-        "unit": "ft",
-        "note": "Placeholder; verify."
+        "note": "Third-party summary (5 ft side and rear); confirm in UDC 4.3 - may be 10 ft."
       }
     },
     "maxHeightFt": {
       "value": 35,
-      "status": "Assumed",
+      "unit": "ft",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
+        "id": "brownsville-cityrulelookup-setbacks",
+        "title": "Brownsville TX building setbacks (third-party summary)",
+        "url": "https://cityrulelookup.com/cities/brownsville-tx/building-setbacks",
         "read": "2026-10-11"
       },
-      "unit": "ft",
-      "note": "Placeholder; verify."
+      "note": "Single-family districts 35 ft (third-party summary)."
     },
     "maxStories": {
       "value": null,
@@ -338,15 +343,17 @@
       "note": "Not found: max stories. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
     },
     "maxLotCoverage": {
-      "value": null,
-      "status": "Assumed",
+      "value": 0.5,
+      "unit": "fraction",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
-        "read": "2026-10-11"
+        "id": "brownsville-zoneomics-ch3",
+        "title": "Brownsville TX code Chapter 3 (zoning districts) - Zoneomics mirror",
+        "url": "https://www.zoneomics.com/code/brownsville-TX/chapter_3",
+        "read": "2026-10-11",
+        "section": "R-1 table"
       },
-      "note": "Not found: max lot coverage. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+      "note": "Includes accessory buildings."
     },
     "imperviousCover": {
       "value": null,
@@ -404,15 +411,14 @@
       "note": "Not found: ADU rules. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
     },
     "masonry": {
-      "value": "none known",
-      "status": "Assumed",
+      "value": "none; Gov't Code ch. 3000 bars city building-material mandates",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
+        "id": "tx-gov-3000",
+        "title": "Texas Government Code Ch. 3000 (building products, materials, methods; HB 2439, 2019)",
+        "url": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.3000.htm",
         "read": "2026-10-11"
-      },
-      "note": "No masonry % known; Texas HB 2439 (Gov. Code 3000) generally bars cities from mandating building materials beyond the IRC, except historic/certain districts."
+      }
     },
     "trees": {
       "value": null,
@@ -481,27 +487,27 @@
   },
   "fees": {
     "permitFormula": {
-      "value": null,
-      "status": "Assumed",
+      "value": "Valuation-based (published schedule not found); 2021-22 permit reports show ~0.6-0.75% of declared value for new homes",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
+        "id": "brownsville-permit-report-2022-01",
+        "title": "January 2022 Residential Permits (monthly report)",
+        "url": "https://www.brownsvilletx.gov/DocumentCenter/View/12483/01-January-2022-Residential-Permits",
         "read": "2026-10-11"
       },
-      "note": "Not found: building permit fee schedule. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+      "note": "e.g. $3,308.67 on $544,530 (0.61%); $814.22 on $110,000 duplex (0.74%)."
     },
     "workedExample2400sqft": {
-      "value": null,
+      "value": 2800,
+      "unit": "USD",
       "status": "Assumed",
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "id": "assumed-judgement-south",
+        "title": "Assumed - agent judgement (no source found within wave-2 search budget)",
         "url": "",
         "read": "2026-10-11"
       },
-      "unit": "USD",
-      "note": "Not computed: fee schedule not retrieved (basis would be 2,400 sf conditioned + 440 sf attached garage). Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run"
+      "note": "Rough: valuation 2,400 sf x $170 + 440 sf x $65 = $408,000 + $28,600 = $436,600; x ~0.64% (ratio from city permit reports) = ~$2,800. Fee table not found."
     },
     "planReview": {
       "value": null,
@@ -516,15 +522,26 @@
     },
     "impactFees": [
       {
+        "value": "City capital recovery fee (roadway) about $806-$1,000 per single-family home by service area, collected from Apr 2025, +5%/yr (~$846-$1,050 in 2026)",
+        "status": "Secondary",
+        "source": {
+          "id": "brownsville-crf-2024",
+          "title": "City of Brownsville news: commission action incl. capital recovery fee for new development (Apr 2024)",
+          "url": "https://www.brownsvilletx.gov/CivicAlerts.asp?AID=1891",
+          "read": "2026-10-11"
+        },
+        "note": "Commission summary in search extract; confirm whether roadway or utility."
+      },
+      {
         "value": null,
         "status": "Assumed",
         "source": {
-          "id": "assumed-tools-unavailable",
-          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+          "id": "assumed-judgement-south",
+          "title": "Assumed - agent judgement (no source found within wave-2 search budget)",
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "Not found: water/wastewater impact fees. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+        "note": "BPUB water/wastewater impact fees exist for all new services (news reports) but amount not found."
       }
     ],
     "tapFees": [
@@ -555,15 +572,16 @@
     },
     "method": "PENDING_COST_AGENT",
     "perSqFtMarket": {
-      "value": null,
-      "status": "Assumed",
+      "value": 103,
+      "unit": "USD/sq ft",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
+        "id": "brownsville-costtobuildhouse",
+        "title": "Cost to build a house in Brownsville (2026 Construction Cost Guide)",
+        "url": "https://www.costtobuildhouse.com/states/texas/brownsville",
         "read": "2026-10-11"
       },
-      "note": "Market $/sf not retrieved. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run"
+      "note": "Market figure (standard finish, 2026 web guide), not a quote."
     },
     "drivers": [
       {
@@ -602,40 +620,46 @@
     ]
   },
   "flood": {
-    "value": "City floodplain ordinance (NFIP participant); assume lowest floor >= BFE + 1 ft; in coastal V/Coastal A zones elevate bottom of lowest horizontal member, no fill/slab in V zone",
+    "value": "NFIP participant; freeboard not found - assume lowest floor >= BFE + 1 ft; Brownsville is inland from Gulf (no V zones within core city, verify FIRM)",
     "status": "Assumed",
     "source": {
-      "id": "assumed-tools-unavailable",
-      "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+      "id": "assumed-judgement-south",
+      "title": "Assumed - agent judgement (no source found within wave-2 search budget)",
       "url": "",
       "read": "2026-10-11"
     },
-    "note": "Freeboard value not verified. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run"
+    "note": "Not found: one targeted search for Brownsville flood ordinance freeboard returned nothing."
   },
-  "plainLanguage": "Brownsville is in Cameron County, a Texas windstorm area, so a TDI windstorm certificate (WPI-8) is needed for TWIA insurance. Build with a continuous metal-strap load path, stronger roof-deck nailing, and impact-rated or shuttered windows and doors (design winds about 140-150 mph). Much of the city is low and flat, so flood elevation often drives the slab height. Zoning, code edition and fee values here are placeholders that must be verified.",
+  "plainLanguage": "Brownsville is in the Texas windstorm area (TDI treats the city as the old Inland I zone). New homes need TDI windstorm inspections and a WPI-8 certificate; since April 1, 2026 that means the 2024 IRC as adopted by TDI, about 150 mph design wind and impact-rated windows. The common single-family district is R-1: 5,000 sq ft lots, 25 ft front setback (20 ft on a corner side street), small side and rear setbacks and at most 50% lot coverage. Expect a city capital recovery fee of about $850-$1,050 per home plus BPUB utility impact fees. We could not confirm which IRC edition the city itself has adopted or its flood freeboard, so check with the city before building.",
   "openQuestions": [
-    "Adopted IRC/IECC/NEC editions and adoption ordinance",
-    "Typical single-family district dimensional table (lot, setbacks, height, coverage)",
-    "Permit fee schedule and impact/tap fees",
-    "Floodplain freeboard"
+    "City-adopted IRC/IECC/NEC editions and amendments",
+    "R-1 side/rear setbacks and height from UDC 4.3 primary",
+    "Permit fee schedule",
+    "BPUB water/wastewater impact and tap fees",
+    "Floodplain freeboard",
+    "Whether foundation must be PE-sealed"
   ],
   "notFound": [
-    "Everything except county-level facts: research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted). File is a placeholder needing a re-run."
+    "IRC edition adopted by city",
+    "Fee schedule",
+    "BPUB fee amounts",
+    "Flood freeboard",
+    "Foundation seal rule"
   ],
   "comparison": {
-    "irc": "2021 IRC (assumed)",
+    "irc": "not found (TDI: 2024 IRC for windstorm)",
     "energy": "not verified",
     "plumbing": "not verified",
-    "district": "SF (unverified)",
-    "setbacks": "25/5/10 (assumed)",
-    "maxHeight": "35 ft (assumed)",
-    "coverageFar": "not found",
-    "masonry": "none known",
+    "district": "R-1",
+    "setbacks": "25/5/5 (20 corner)",
+    "maxHeight": "35 ft",
+    "coverageFar": "50% / none",
+    "masonry": "none (ch. 3000)",
     "engFoundation": "likely (assumed)",
-    "windstorm": "yes - TDI first tier",
+    "windstorm": "yes - TDI Inland I legacy, 150 mph 2024 IRC",
     "flood": "+1 ft assumed",
-    "permitFeeExample": "not computed",
-    "impactFees": "not found",
+    "permitFeeExample": "~$2,800 (rough)",
+    "impactFees": "CRF ~$850-1,050 + BPUB",
     "costFactor": "PENDING"
   },
   "engineChanges": [
@@ -643,37 +667,73 @@
       "id": "brownsville-setbacks",
       "ruleType": "setback-by-district",
       "area": "setbacks",
-      "change": "Single-family: front 25 / side 5 / street side 10 / rear 10 ft (ASSUMED placeholders - verify); use larger of district and plat line",
+      "change": "R-1: front 25 / corner street side 20 / side 5 / rear 5 ft (side/rear from third-party; verify)",
       "priority": "must",
       "params": {
-        "district": "Single-family",
+        "district": "R-1",
         "frontFt": 25,
+        "streetSideFt": 20,
         "sideFt": 5,
-        "streetSideFt": 10,
-        "rearFt": 10,
+        "rearFt": 5,
         "verified": false
       },
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
-        "read": "2026-10-11"
+        "id": "brownsville-zoneomics-ch3",
+        "title": "Brownsville TX code Chapter 3 (zoning districts) - Zoneomics mirror",
+        "url": "https://www.zoneomics.com/code/brownsville-TX/chapter_3",
+        "read": "2026-10-11",
+        "section": "R-1 table"
+      }
+    },
+    {
+      "id": "brownsville-lot-min",
+      "ruleType": "lot-min-size",
+      "area": "survey",
+      "change": "R-1 min lot 5,000 sf, 50 ft wide, 70 ft deep",
+      "priority": "should",
+      "params": {
+        "minLotSqFt": 5000,
+        "minLotWidthFt": 50,
+        "minLotDepthFt": 70
+      },
+      "source": {
+        "id": "brownsville-zoneomics-ch3",
+        "title": "Brownsville TX code Chapter 3 (zoning districts) - Zoneomics mirror",
+        "url": "https://www.zoneomics.com/code/brownsville-TX/chapter_3",
+        "read": "2026-10-11",
+        "section": "R-1 table"
+      }
+    },
+    {
+      "id": "brownsville-coverage",
+      "ruleType": "lot-coverage",
+      "area": "massing",
+      "change": "Max lot coverage 50% including accessory buildings",
+      "priority": "must",
+      "params": {
+        "maxLotCoverage": 0.5
+      },
+      "source": {
+        "id": "brownsville-zoneomics-ch3",
+        "title": "Brownsville TX code Chapter 3 (zoning districts) - Zoneomics mirror",
+        "url": "https://www.zoneomics.com/code/brownsville-TX/chapter_3",
+        "read": "2026-10-11",
+        "section": "R-1 table"
       }
     },
     {
       "id": "brownsville-height",
       "ruleType": "height-limit",
       "area": "massing",
-      "change": "Max height 35 ft (assumed)",
+      "change": "Max height 35 ft",
       "priority": "should",
       "params": {
-        "maxHeightFt": 35,
-        "verified": false
+        "maxHeightFt": 35
       },
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
+        "id": "brownsville-cityrulelookup-setbacks",
+        "title": "Brownsville TX building setbacks (third-party summary)",
+        "url": "https://cityrulelookup.com/cities/brownsville-tx/building-setbacks",
         "read": "2026-10-11"
       }
     },
@@ -687,8 +747,8 @@
         "climateZone": "2A"
       },
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "id": "assumed-judgement-south",
+        "title": "Assumed - agent judgement (no source found within wave-2 search budget)",
         "url": "",
         "read": "2026-10-11"
       }
@@ -697,15 +757,15 @@
       "id": "brownsville-foundation",
       "ruleType": "engineered-foundation-flag",
       "area": "foundation",
-      "change": "Flag engineered slab (expansive clays) - assumed",
+      "change": "Flag engineered slab (expansive Rio Grande delta clays) - assumed",
       "priority": "should",
       "params": {
         "sealedFoundation": true,
         "verified": false
       },
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "id": "assumed-judgement-south",
+        "title": "Assumed - agent judgement (no source found within wave-2 search budget)",
         "url": "",
         "read": "2026-10-11"
       }
@@ -714,15 +774,15 @@
       "id": "brownsville-flood",
       "ruleType": "flood-elevation",
       "area": "survey",
-      "change": "If in SFHA, lowest floor >= BFE + 1 ft (assumed); V-zone: open pile/pier foundation, bottom of lowest member above BFE+freeboard",
+      "change": "If in SFHA: lowest floor >= BFE + 1 ft (assumed)",
       "priority": "must",
       "params": {
         "freeboardFt": 1,
-        "coastalVZoneRules": true
+        "verified": false
       },
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "id": "assumed-judgement-south",
+        "title": "Assumed - agent judgement (no source found within wave-2 search budget)",
         "url": "",
         "read": "2026-10-11"
       }
@@ -731,70 +791,91 @@
       "id": "brownsville-windstorm",
       "ruleType": "windstorm-package",
       "area": "structure",
-      "change": "TDI windstorm package: design to TDI-adopted IRC with Texas revisions at the local ultimate wind speed; continuous load path (straps/anchors); obtain TDI WPI-8 certificate (needed for TWIA insurance); TDI inspections during construction",
+      "change": "TDI windstorm (TWIA) package: on/after Apr 1, 2026 design and build to the 2024 IRC as adopted by TDI (28 TAC 5.4013); a TDI-appointed qualified inspector or Texas PE must certify, TDI issues WPI-8 Certificate of Compliance needed for TWIA insurance. Brownsville = legacy Inland I (TDI note).",
       "priority": "must",
       "params": {
         "tdiCertification": true,
-        "vultMph": 145,
-        "riskCategory": "II",
-        "exposure": "C (D within ~600 ft of shoreline)"
+        "tdiCode": "2024 IRC (TDI-adopted)",
+        "effective": "2026-04-01",
+        "certificate": "WPI-8",
+        "engineerSealedWindDesign": true
       },
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
-        "read": "2026-10-11"
-      }
-    },
-    {
-      "id": "brownsville-wbdr-openings",
-      "ruleType": "windstorm-package",
-      "area": "envelope",
-      "change": "Wind-borne debris region (IRC R301.2.1.2, Vult >= 140 mph or >= 130 mph within 1 mi of coast): all glazed openings impact-rated (ASTM E1886/E1996) or protected with tested shutters/structural panels",
-      "priority": "must",
-      "params": {
-        "impactGlazing": true,
-        "alternative": "tested shutters or structural wood panels per IRC R301.2.1.2"
-      },
-      "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
-        "read": "2026-10-11"
-      }
-    },
-    {
-      "id": "brownsville-sheathing-nailing",
-      "ruleType": "windstorm-package",
-      "area": "structure",
-      "change": "Roof sheathing nailing per IRC Table R602.3(1) high-wind rows: 8d ring-shank (or as table) at 6 in edges / 6 in field, tighter in edge/corner zones per Table R803.2.3 / TDI field guide; roof-to-wall uplift connectors per R802.11",
-      "priority": "must",
-      "params": {
-        "nail": "8d ring-shank",
-        "edgeSpacingIn": 6,
-        "fieldSpacingIn": 6,
-        "verified": false
-      },
-      "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
-        "read": "2026-10-11"
+        "id": "tdi-2024-irc-adoption-rule",
+        "title": "TDI adopted rule: 28 TAC 5.4013 and amendments adopting 2024 IRC/IBC for TWIA-insured structures (applies on/after Apr 1, 2026)",
+        "url": "https://tdi.texas.gov/rules/2025/documents/20269774.pdf",
+        "read": "2026-10-11",
+        "section": "28 TAC 5.4012, 5.4013, 5.4601, 5.4603"
       }
     },
     {
       "id": "brownsville-wind-speed",
       "ruleType": "wind-speed",
       "area": "structure",
-      "change": "Design wind speed 145 mph ultimate (assumed from map; confirm with TDI design wind speed table for the county/zone)",
+      "change": "Use basic (ultimate) design wind speed 150 mph for TDI windstorm areas under the 2024 IRC R301.2.1 (per City of Corpus Christi summary of TDI adoption); Risk Category II; exposure C, check D near open water/bays.",
       "priority": "must",
       "params": {
-        "vultMph": 145
+        "vultMph": 150,
+        "riskCategory": "II",
+        "exposure": "C (D possible near bays/large water)",
+        "windDesignRequired": true
       },
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
+        "id": "cc-tdi-2024-bulletin",
+        "title": "City of Corpus Christi bulletin: TDI Windstorm update to 2024 ICC codes (effective Apr 1, 2026)",
+        "url": "https://www.corpuschristitx.gov/media/iiflluoc/tdi-windstorm-update-to-2024-icc-codes.pdf",
+        "read": "2026-10-11",
+        "section": "2024 IRC R301.2.1 wind design criteria"
+      }
+    },
+    {
+      "id": "brownsville-wbdr-openings",
+      "ruleType": "windstorm-package",
+      "area": "envelope",
+      "change": "Wind-borne debris region: all exterior glazed openings (windows, glass doors, skylights) impact-rated or protected by tested shutters/approved panels; garage doors wind-rated.",
+      "priority": "must",
+      "params": {
+        "impactGlazing": true,
+        "garageDoorWindRated": true
+      },
+      "source": {
+        "id": "tdi-wind-geninfo",
+        "title": "TDI Windstorm Inspection Program - general information",
+        "url": "https://tdi.texas.gov/WIND/geninfo.html",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "brownsville-roof-deck",
+      "ruleType": "windstorm-package",
+      "area": "structure",
+      "change": "2024 IRC enhanced roof deck protection / sheathing attachment in wind-design-required areas (Vult >= 130 mph): spec sealed roof deck underlayment and high-wind sheathing nailing; engineer to confirm schedule.",
+      "priority": "should",
+      "params": {
+        "sealedRoofDeck": true,
+        "verified": false
+      },
+      "source": {
+        "id": "arcxis-tdi-2024-irc",
+        "title": "TDI Windstorm Transition to the 2024 IRC: What Texas Builders Need to Know",
+        "url": "https://arcxis.com/technical-bulletin/tdi-windstorm-transition-to-the-2024-irc-what-texas-builders-need-to-know",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "brownsville-impact-fee",
+      "ruleType": "impact-fee-estimate",
+      "area": "estimate",
+      "change": "Add city capital recovery fee ~$850-$1,050 per home (2026) + BPUB impact fees (amount TBD)",
+      "priority": "should",
+      "params": {
+        "capitalRecoveryUSDLow": 846,
+        "capitalRecoveryUSDHigh": 1050
+      },
+      "source": {
+        "id": "brownsville-crf-2024",
+        "title": "City of Brownsville news: commission action incl. capital recovery fee for new development (Apr 2024)",
+        "url": "https://www.brownsvilletx.gov/CivicAlerts.asp?AID=1891",
         "read": "2026-10-11"
       }
     }

@@ -11,15 +11,15 @@
     "blsCode": "29700"
   },
   "population": {
-    "value": 261000,
-    "status": "Assumed",
+    "value": 257602,
+    "status": "Secondary",
     "source": {
-      "id": "assumed-tools-unavailable",
-      "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-      "url": "",
+      "id": "laredo-census-quickfacts",
+      "title": "Census QuickFacts multi-place table incl. Laredo city (V2023)",
+      "url": "https://www.census.gov/quickfacts/fact/table/laredocitytexas,forthoodcdptexas,travisranchcdptexas,cloverleafcdptexas,wellsbranchcdptexas,barrettcdptexas/PST045223",
       "read": "2026-10-11"
     },
-    "note": "Approximate Census Vintage 2024 estimate. From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+    "note": "Census Vintage 2023 (July 1, 2023) estimate from QuickFacts search extract."
   },
   "zipCodesOrBoundary": {
     "value": null,
@@ -47,117 +47,123 @@
     "value": false,
     "status": "Assumed",
     "source": {
-      "id": "assumed-tools-unavailable",
-      "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+      "id": "assumed-judgement-south",
+      "title": "Assumed - agent judgement (no source found within wave-2 search budget)",
       "url": "",
       "read": "2026-10-11"
     },
-    "note": "Not a TDI first-tier coastal catalogue county. From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+    "note": "Webb County is inland and not among TDI designated catastrophe counties (TDI county maps cover coastal counties only)."
   },
   "codes": {
     "irc": {
       "edition": {
-        "value": "2021 IRC (assumed; edition not verified)",
-        "status": "Assumed",
+        "value": "2021 IRC",
+        "status": "Secondary",
         "source": {
-          "id": "assumed-tools-unavailable",
-          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-          "url": "",
+          "id": "laredo-bds-ordinances",
+          "title": "Building Development Services - City Ordinances (index of 2024 code adoptions)",
+          "url": "https://cityoflaredo.com/departments/building-development-services/city-ordinances",
           "read": "2026-10-11"
         },
-        "note": "Adopted IRC edition not verified; many Texas cities of this size are on 2018 or 2021 IRC. MUST re-check. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run"
+        "note": "Ord. 2024-O-149 amends Ch. 7 to adopt 2021 IBC, IMC, IRC, IPMC, IECC, IEBC (city ordinance index; ordinance text not read)."
       },
       "ordinance": {
-        "value": null,
-        "status": "Assumed",
+        "value": "Ordinance 2024-O-149 (Code Ch. 7)",
+        "status": "Secondary",
         "source": {
-          "id": "assumed-tools-unavailable",
-          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-          "url": "",
+          "id": "laredo-bds-ordinances",
+          "title": "Building Development Services - City Ordinances (index of 2024 code adoptions)",
+          "url": "https://cityoflaredo.com/departments/building-development-services/city-ordinances",
           "read": "2026-10-11"
-        },
-        "note": "Not found: building code adoption ordinance number. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+        }
       },
-      "amendments": []
+      "amendments": [
+        {
+          "topic": "other",
+          "summary": "Ord. 2024-O-247 adds $200 foundation-only permit, $20 technology fee per residential permit, after-hours inspection fee; local technical amendments in 2024-O-149 not read.",
+          "section": "Ch. 7 Sec. 7-2",
+          "status": "Secondary",
+          "source": {
+            "id": "laredo-ord-2024-o-247",
+            "title": "Ordinance 2024-O-247 amending Ch. 7 building/electrical/plumbing fees",
+            "url": "https://www.cityoflaredo.com/home/showpublisheddocument/17709/638714249836630000",
+            "read": "2026-10-11"
+          }
+        }
+      ]
     },
     "energy": {
       "edition": {
-        "value": "2015 IECC minimum (Texas state energy code floor for single-family under Health & Safety Code ch. 388 via IRC Ch. 11) - city edition not verified",
-        "status": "Assumed",
+        "value": "2021 IECC (Ord. 2024-O-149)",
+        "status": "Secondary",
         "source": {
-          "id": "assumed-tools-unavailable",
-          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-          "url": "",
+          "id": "laredo-bds-ordinances",
+          "title": "Building Development Services - City Ordinances (index of 2024 code adoptions)",
+          "url": "https://cityoflaredo.com/departments/building-development-services/city-ordinances",
           "read": "2026-10-11"
-        },
-        "note": "From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+        }
       },
       "stretchCode": {
         "value": false,
         "status": "Assumed",
         "source": {
-          "id": "assumed-tools-unavailable",
-          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+          "id": "assumed-judgement-south",
+          "title": "Assumed - agent judgement (no source found within wave-2 search budget)",
           "url": "",
           "read": "2026-10-11"
         },
-        "note": "No stretch code known."
+        "note": "None found."
       }
     },
     "plumbing": {
-      "value": null,
-      "status": "Assumed",
+      "value": "IPC 2021 (Ord. 2024-O-151, with IFGC and IPSDC)",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
+        "id": "laredo-bds-ordinances",
+        "title": "Building Development Services - City Ordinances (index of 2024 code adoptions)",
+        "url": "https://cityoflaredo.com/departments/building-development-services/city-ordinances",
         "read": "2026-10-11"
-      },
-      "note": "IPC vs UPC not verified. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run"
+      }
     },
     "electrical": {
-      "value": "NEC 2020 or 2023 (not verified)",
-      "status": "Assumed",
+      "value": "NEC 2020 (Ord. 2024-O-148); TDLR adopted 2026 NEC statewide eff. Sep 1, 2026",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
+        "id": "laredo-bds-ordinances",
+        "title": "Building Development Services - City Ordinances (index of 2024 code adoptions)",
+        "url": "https://cityoflaredo.com/departments/building-development-services/city-ordinances",
         "read": "2026-10-11"
-      },
-      "note": "From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+      }
     },
     "mechanical": {
-      "value": null,
-      "status": "Assumed",
+      "value": "IMC 2021 (Ord. 2024-O-149)",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
+        "id": "laredo-bds-ordinances",
+        "title": "Building Development Services - City Ordinances (index of 2024 code adoptions)",
+        "url": "https://cityoflaredo.com/departments/building-development-services/city-ordinances",
         "read": "2026-10-11"
-      },
-      "note": "Not found: IMC edition. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+      }
     },
     "fuelGas": {
-      "value": null,
-      "status": "Assumed",
+      "value": "IFGC 2021 (Ord. 2024-O-151)",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
+        "id": "laredo-bds-ordinances",
+        "title": "Building Development Services - City Ordinances (index of 2024 code adoptions)",
+        "url": "https://cityoflaredo.com/departments/building-development-services/city-ordinances",
         "read": "2026-10-11"
-      },
-      "note": "Not found: IFGC edition. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+      }
     },
     "fire": {
-      "value": "IFC (edition not verified); no one/two-family sprinkler mandate known",
-      "status": "Assumed",
+      "value": "IFC 2021 (Ord. 2024-O-150); no one/two-family sprinkler mandate found",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
+        "id": "laredo-bds-ordinances",
+        "title": "Building Development Services - City Ordinances (index of 2024 code adoptions)",
+        "url": "https://cityoflaredo.com/departments/building-development-services/city-ordinances",
         "read": "2026-10-11"
-      },
-      "note": "From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+      }
     },
     "wind": {
       "value": 110,
@@ -209,49 +215,49 @@
   "zoning": {
     "hasZoning": {
       "value": true,
-      "status": "Assumed",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
-        "read": "2026-10-11"
-      },
-      "note": "From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+        "id": "laredo-ldc-rules",
+        "title": "Planning & Zoning Rules & Regulations - Land Development Code May 2021 (dimensional standards p.192)",
+        "url": "https://cityoflaredo.com/departments/planning-and-zoning/about/rules-regulations",
+        "read": "2026-10-11",
+        "section": "LDC 24.77.1"
+      }
     },
     "typicalDistrict": {
-      "value": "R-1 Single-Family (assumed name)",
-      "status": "Assumed",
+      "value": "R-1 Single-Family (LDC); new subdivisions often R-1A / R-1B (smaller lots, R-1B min width 34-35 ft)",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
+        "id": "laredo-r1b-memo-2023",
+        "title": "P&Z staff report: amend LDC 24.65.9 and 24.77.1 (R-1B lot width 35 to 34 ft)",
+        "url": "https://www.cityoflaredo.com/home/showpublisheddocument/9816/638266662187300000",
         "read": "2026-10-11"
       },
-      "note": "From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+      "note": "Dimensional table LDC 24.77.1."
     },
     "minLotSqFt": {
-      "value": 6000,
-      "status": "Assumed",
+      "value": 7200,
+      "unit": "sq ft",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
+        "id": "laredo-buildingclub-setbacks",
+        "title": "Laredo setbacks & height (beta third-party guide)",
+        "url": "https://zoning.buildingclub.info/texas/laredo/setbacks-height",
         "read": "2026-10-11"
       },
-      "unit": "sq ft",
-      "note": "Placeholder from memory; verify in UDC/LDC. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run"
+      "note": "Beta third-party guide; LDC 24.77.1 not read."
     },
     "minLotWidthFt": {
-      "value": 50,
+      "value": null,
+      "unit": "ft",
       "status": "Assumed",
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "id": "assumed-judgement-south",
+        "title": "Assumed - agent judgement (no source found within wave-2 search budget)",
         "url": "",
         "read": "2026-10-11"
       },
-      "unit": "ft",
-      "note": "Placeholder; verify."
+      "note": "Not found for R-1."
     },
     "minLotDepthFt": {
       "value": null,
@@ -267,64 +273,62 @@
     "setbacksFt": {
       "front": {
         "value": 25,
-        "status": "Assumed",
+        "unit": "ft",
+        "status": "Secondary",
         "source": {
-          "id": "assumed-tools-unavailable",
-          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-          "url": "",
+          "id": "laredo-buildingclub-setbacks",
+          "title": "Laredo setbacks & height (beta third-party guide)",
+          "url": "https://zoning.buildingclub.info/texas/laredo/setbacks-height",
           "read": "2026-10-11"
         },
-        "unit": "ft",
-        "note": "Placeholder; verify against UDC and recorded plat building line."
+        "note": "Third-party guide; confirm LDC 24.77.1."
       },
       "side": {
         "value": 5,
-        "status": "Assumed",
+        "unit": "ft",
+        "status": "Secondary",
         "source": {
-          "id": "assumed-tools-unavailable",
-          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-          "url": "",
+          "id": "laredo-buildingclub-setbacks",
+          "title": "Laredo setbacks & height (beta third-party guide)",
+          "url": "https://zoning.buildingclub.info/texas/laredo/setbacks-height",
           "read": "2026-10-11"
         },
-        "unit": "ft",
-        "note": "Placeholder; verify."
+        "note": "LDC 2025-O-04 footnote mentions 6 ft for certain uses; confirm."
       },
       "streetSide": {
-        "value": 10,
+        "value": null,
+        "unit": "ft",
         "status": "Assumed",
         "source": {
-          "id": "assumed-tools-unavailable",
-          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+          "id": "assumed-judgement-south",
+          "title": "Assumed - agent judgement (no source found within wave-2 search budget)",
           "url": "",
           "read": "2026-10-11"
         },
-        "unit": "ft",
-        "note": "Placeholder; verify."
+        "note": "Not found."
       },
       "rear": {
         "value": 20,
-        "status": "Assumed",
-        "source": {
-          "id": "assumed-tools-unavailable",
-          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-          "url": "",
-          "read": "2026-10-11"
-        },
         "unit": "ft",
-        "note": "Placeholder; verify."
+        "status": "Secondary",
+        "source": {
+          "id": "laredo-buildingclub-setbacks",
+          "title": "Laredo setbacks & height (beta third-party guide)",
+          "url": "https://zoning.buildingclub.info/texas/laredo/setbacks-height",
+          "read": "2026-10-11"
+        }
       }
     },
     "maxHeightFt": {
       "value": 35,
-      "status": "Assumed",
-      "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
-        "read": "2026-10-11"
-      },
       "unit": "ft",
-      "note": "Placeholder; verify."
+      "status": "Secondary",
+      "source": {
+        "id": "laredo-buildingclub-setbacks",
+        "title": "Laredo setbacks & height (beta third-party guide)",
+        "url": "https://zoning.buildingclub.info/texas/laredo/setbacks-height",
+        "read": "2026-10-11"
+      }
     },
     "maxStories": {
       "value": null,
@@ -404,15 +408,14 @@
       "note": "Not found: ADU rules. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
     },
     "masonry": {
-      "value": "none known",
-      "status": "Assumed",
+      "value": "none; Gov't Code ch. 3000 bars city building-material mandates",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
+        "id": "tx-gov-3000",
+        "title": "Texas Government Code Ch. 3000 (building products, materials, methods; HB 2439, 2019)",
+        "url": "https://statutes.capitol.texas.gov/Docs/GV/htm/GV.3000.htm",
         "read": "2026-10-11"
-      },
-      "note": "No masonry % known; Texas HB 2439 (Gov. Code 3000) generally bars cities from mandating building materials beyond the IRC, except historic/certain districts."
+      }
     },
     "trees": {
       "value": null,
@@ -430,15 +433,14 @@
   "process": {
     "steps": [
       {
-        "value": "Residential building permit application to city building/development services; plan review; inspections; certificate of occupancy",
-        "status": "Assumed",
+        "value": "New homes submitted through ProjectDox/Avolve portal; residential review up to 21 days by ordinance",
+        "status": "Secondary",
         "source": {
-          "id": "assumed-tools-unavailable",
-          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-          "url": "",
+          "id": "laredo-residential-manual-2024",
+          "title": "Residential permitting manual (May 2024)",
+          "url": "https://cityoflaredo.com/home/showpublisheddocument/16222/638599165892100000",
           "read": "2026-10-11"
-        },
-        "note": "From agent memory (pre-run knowledge), not verified this run. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+        }
       }
     ],
     "sealsRequired": [
@@ -468,63 +470,63 @@
       }
     ],
     "reviewDays": {
-      "value": null,
-      "status": "Assumed",
+      "value": 21,
+      "unit": "days",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
+        "id": "laredo-permit-reqs",
+        "title": "Building Development Services - Permit Applications & Requirements (residential fee table)",
+        "url": "https://www.cityoflaredo.com/departments/building-development-services/permit-applications-requirements",
         "read": "2026-10-11"
       },
-      "note": "Not found: plan review turnaround. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+      "note": "Ordinance allows up to 21 days for residential review."
     }
   },
   "fees": {
     "permitFormula": {
-      "value": null,
-      "status": "Assumed",
+      "value": "New construction: plan check $0.28/sq ft + building permit $0.40/sq ft (updated per Ord. 2025-O-149) + $20 technology fee; MEP separate",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
+        "id": "laredo-permit-reqs",
+        "title": "Building Development Services - Permit Applications & Requirements (residential fee table)",
+        "url": "https://www.cityoflaredo.com/departments/building-development-services/permit-applications-requirements",
         "read": "2026-10-11"
       },
-      "note": "Not found: building permit fee schedule. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+      "note": "Seen in web-search extract of this document only (direct fetch blocked: DNS failure); not read in full."
     },
     "workedExample2400sqft": {
-      "value": null,
-      "status": "Assumed",
+      "value": 1951,
+      "unit": "USD",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
+        "id": "laredo-permit-reqs",
+        "title": "Building Development Services - Permit Applications & Requirements (residential fee table)",
+        "url": "https://www.cityoflaredo.com/departments/building-development-services/permit-applications-requirements",
         "read": "2026-10-11"
       },
-      "unit": "USD",
-      "note": "Not computed: fee schedule not retrieved (basis would be 2,400 sf conditioned + 440 sf attached garage). Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run"
+      "note": "Assume 2,400 sf + 440 sf garage = 2,840 sf: 2,840 x $0.28 = $795.20 + 2,840 x $0.40 = $1,136.00 + $20 tech = $1,951.20. If garage excluded: 2,400 x 0.68 + 20 = $1,652."
     },
     "planReview": {
-      "value": null,
-      "status": "Assumed",
+      "value": "$0.28 per sq ft",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
+        "id": "laredo-permit-reqs",
+        "title": "Building Development Services - Permit Applications & Requirements (residential fee table)",
+        "url": "https://www.cityoflaredo.com/departments/building-development-services/permit-applications-requirements",
         "read": "2026-10-11"
-      },
-      "note": "Not found: plan review fee. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+      }
     },
     "impactFees": [
       {
-        "value": null,
-        "status": "Assumed",
+        "value": "Water availability lot charge (Sec. 31-138), 2008 proposal: 6,000-7,999 sf lot $1,600; 8,000-9,999 sf $2,345 (historic; current amount not found)",
+        "status": "Secondary",
         "source": {
-          "id": "assumed-tools-unavailable",
-          "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-          "url": "",
+          "id": "laredo-lot-charges-2008",
+          "title": "City of Laredo ordinance PDF - water availability lot charges, Sec. 31-138 (c. 2008)",
+          "url": "https://cityoflaredo.com/home/showpublisheddocument/2454/638111931962870000",
           "read": "2026-10-11"
         },
-        "note": "Not found: water/wastewater impact fees. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run."
+        "note": "Old figure; identity of PDF from search extract only."
       }
     ],
     "tapFees": [
@@ -555,15 +557,16 @@
     },
     "method": "PENDING_COST_AGENT",
     "perSqFtMarket": {
-      "value": null,
-      "status": "Assumed",
+      "value": 105,
+      "unit": "USD/sq ft",
+      "status": "Secondary",
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
+        "id": "laredo-costtobuildhouse",
+        "title": "Cost to build a house in Laredo (2026 Construction Cost Guide)",
+        "url": "https://www.costtobuildhouse.com/states/texas/laredo",
         "read": "2026-10-11"
       },
-      "note": "Market $/sf not retrieved. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run"
+      "note": "Market figure (standard finish, 2026 web guide), not a quote."
     },
     "drivers": [
       {
@@ -580,61 +583,82 @@
     ]
   },
   "flood": {
-    "value": "City floodplain ordinance (NFIP participant); assume lowest floor >= BFE + 1 ft",
+    "value": "NFIP participant; freeboard not found - assume lowest floor >= BFE + 1 ft; Rio Grande and creek floodplains under restudy (2026)",
     "status": "Assumed",
     "source": {
-      "id": "assumed-tools-unavailable",
-      "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+      "id": "assumed-judgement-south",
+      "title": "Assumed - agent judgement (no source found within wave-2 search budget)",
       "url": "",
       "read": "2026-10-11"
     },
-    "note": "Freeboard value not verified. Not verified: WebFetch could not resolve any host (DNS failure) and the shared web-search budget was used up during this run"
+    "note": "Not found: one targeted search."
   },
-  "plainLanguage": "Laredo is hot and dry (climate zone 2B) and is not in the coastal windstorm area. The building code edition, zoning setbacks and fees in this file are placeholders that could not be checked this run. Plan for an engineered slab on the clay soils. Check your subdivision plat for the front building line.",
+  "plainLanguage": "Laredo builds to the 2021 IRC, 2021 energy code, 2021 plumbing code (IPC) and 2020 electrical code, adopted in 2024. It is inland, so no windstorm certificate is needed. The basic single-family district R-1 is about 7,200 sq ft lots with 25 ft front, 5 ft side and 20 ft rear setbacks and a 35 ft height limit (many new subdivisions use smaller R-1A/R-1B lots; confirm). City permit plus plan check runs $0.68 per sq ft, about $1,950 for a 2,400 sq ft home with garage. Utility lot and connection charges are extra.",
   "openQuestions": [
-    "Adopted IRC/IECC/NEC editions and adoption ordinance",
-    "Typical single-family district dimensional table (lot, setbacks, height, coverage)",
-    "Permit fee schedule and impact/tap fees",
-    "Floodplain freeboard"
+    "R-1/R-1A/R-1B dimensional values from LDC 24.77.1",
+    "Local IRC amendments in Ord. 2024-O-149 (foundation, sprinklers)",
+    "Current water/wastewater lot and tap charges",
+    "Floodplain freeboard",
+    "Is garage area counted in per-sq-ft fee"
   ],
   "notFound": [
-    "Everything except county-level facts: research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted). File is a placeholder needing a re-run."
+    "Flood freeboard",
+    "Current utility impact/lot charges",
+    "Lot coverage",
+    "Street side setback",
+    "Foundation seal rule"
   ],
   "comparison": {
-    "irc": "2021 IRC (assumed)",
-    "energy": "not verified",
-    "plumbing": "not verified",
-    "district": "R-1 (assumed)",
-    "setbacks": "25/5/20 (assumed)",
-    "maxHeight": "35 ft (assumed)",
+    "irc": "2021 IRC",
+    "energy": "2021 IECC",
+    "plumbing": "IPC 2021",
+    "district": "R-1",
+    "setbacks": "25/5/20 (3rd-party)",
+    "maxHeight": "35 ft",
     "coverageFar": "not found",
-    "masonry": "none known",
+    "masonry": "none (ch. 3000)",
     "engFoundation": "likely (assumed)",
     "windstorm": "no",
     "flood": "+1 ft assumed",
-    "permitFeeExample": "not computed",
-    "impactFees": "not found",
-    "costFactor": "PENDING"
+    "permitFeeExample": "$1,951",
+    "impactFees": "lot charge (2008: $1,600 for 6-8k sf)",
+    "costFactor": "PENDING",
+    "electrical": "NEC 2020"
   },
   "engineChanges": [
     {
       "id": "laredo-setbacks",
       "ruleType": "setback-by-district",
       "area": "setbacks",
-      "change": "R-1: front 25 / side 5 / street side 10 / rear 20 ft (ASSUMED placeholders - verify); use larger of district and plat line",
+      "change": "R-1: front 25 / side 5 / rear 20 ft (third-party; verify LDC 24.77.1)",
       "priority": "must",
       "params": {
         "district": "R-1",
         "frontFt": 25,
         "sideFt": 5,
-        "streetSideFt": 10,
         "rearFt": 20,
         "verified": false
       },
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
+        "id": "laredo-buildingclub-setbacks",
+        "title": "Laredo setbacks & height (beta third-party guide)",
+        "url": "https://zoning.buildingclub.info/texas/laredo/setbacks-height",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "laredo-lot-min",
+      "ruleType": "lot-min-size",
+      "area": "survey",
+      "change": "R-1 min lot 7,200 sf (R-1A/R-1B smaller); ask user for district",
+      "priority": "should",
+      "params": {
+        "minLotSqFt": 7200
+      },
+      "source": {
+        "id": "laredo-buildingclub-setbacks",
+        "title": "Laredo setbacks & height (beta third-party guide)",
+        "url": "https://zoning.buildingclub.info/texas/laredo/setbacks-height",
         "read": "2026-10-11"
       }
     },
@@ -642,16 +666,15 @@
       "id": "laredo-height",
       "ruleType": "height-limit",
       "area": "massing",
-      "change": "Max height 35 ft (assumed)",
+      "change": "Max height 35 ft",
       "priority": "should",
       "params": {
-        "maxHeightFt": 35,
-        "verified": false
+        "maxHeightFt": 35
       },
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
+        "id": "laredo-buildingclub-setbacks",
+        "title": "Laredo setbacks & height (beta third-party guide)",
+        "url": "https://zoning.buildingclub.info/texas/laredo/setbacks-height",
         "read": "2026-10-11"
       }
     },
@@ -659,15 +682,48 @@
       "id": "laredo-envelope",
       "ruleType": "climate-zone-envelope",
       "area": "envelope",
-      "change": "Envelope per IECC climate zone 2B",
+      "change": "Envelope per 2021 IECC climate zone 2B",
       "priority": "must",
       "params": {
-        "climateZone": "2B"
+        "climateZone": "2B",
+        "iecc": "2021"
       },
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
+        "id": "laredo-bds-ordinances",
+        "title": "Building Development Services - City Ordinances (index of 2024 code adoptions)",
+        "url": "https://cityoflaredo.com/departments/building-development-services/city-ordinances",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "laredo-plumbing",
+      "ruleType": "plumbing-code-variant",
+      "area": "plan",
+      "change": "Plumbing per IPC 2021",
+      "priority": "nice",
+      "params": {
+        "plumbing": "IPC 2021"
+      },
+      "source": {
+        "id": "laredo-bds-ordinances",
+        "title": "Building Development Services - City Ordinances (index of 2024 code adoptions)",
+        "url": "https://cityoflaredo.com/departments/building-development-services/city-ordinances",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "laredo-electrical",
+      "ruleType": "electrical-code-edition",
+      "area": "plan",
+      "change": "Electrical per NEC 2020 (city) - check 2026 NEC state adoption",
+      "priority": "nice",
+      "params": {
+        "nec": "2020"
+      },
+      "source": {
+        "id": "laredo-bds-ordinances",
+        "title": "Building Development Services - City Ordinances (index of 2024 code adoptions)",
+        "url": "https://cityoflaredo.com/departments/building-development-services/city-ordinances",
         "read": "2026-10-11"
       }
     },
@@ -675,16 +731,16 @@
       "id": "laredo-foundation",
       "ruleType": "engineered-foundation-flag",
       "area": "foundation",
-      "change": "Flag engineered slab (expansive clays) - assumed",
+      "change": "Flag engineered slab (expansive soils) - assumed; $200 foundation-only permit available",
       "priority": "should",
       "params": {
         "sealedFoundation": true,
         "verified": false
       },
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
-        "url": "",
+        "id": "laredo-ord-2024-o-247",
+        "title": "Ordinance 2024-O-247 amending Ch. 7 building/electrical/plumbing fees",
+        "url": "https://www.cityoflaredo.com/home/showpublisheddocument/17709/638714249836630000",
         "read": "2026-10-11"
       }
     },
@@ -692,16 +748,35 @@
       "id": "laredo-flood",
       "ruleType": "flood-elevation",
       "area": "survey",
-      "change": "If in SFHA, lowest floor >= BFE + 1 ft (assumed)",
-      "priority": "should",
+      "change": "If in SFHA: lowest floor >= BFE + 1 ft (assumed)",
+      "priority": "must",
       "params": {
         "freeboardFt": 1,
-        "coastalVZoneRules": false
+        "verified": false
       },
       "source": {
-        "id": "assumed-tools-unavailable",
-        "title": "Assumed - research tools unavailable this run (WebFetch DNS failure; web-search budget exhausted)",
+        "id": "assumed-judgement-south",
+        "title": "Assumed - agent judgement (no source found within wave-2 search budget)",
         "url": "",
+        "read": "2026-10-11"
+      }
+    },
+    {
+      "id": "laredo-permit-fee",
+      "ruleType": "permit-fee-formula",
+      "area": "estimate",
+      "change": "Fee = sq ft x ($0.28 + $0.40) + $20",
+      "priority": "should",
+      "params": {
+        "planReviewPerSqFt": 0.28,
+        "permitPerSqFt": 0.4,
+        "techFeeUSD": 20,
+        "example2400USD": 1951
+      },
+      "source": {
+        "id": "laredo-permit-reqs",
+        "title": "Building Development Services - Permit Applications & Requirements (residential fee table)",
+        "url": "https://www.cityoflaredo.com/departments/building-development-services/permit-applications-requirements",
         "read": "2026-10-11"
       }
     }
