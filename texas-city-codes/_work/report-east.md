@@ -28,3 +28,8 @@ Read date: 2026-10-11. All 5 files validate (`_work/validate.py` OK).
 
 ## Recommended follow-up
 Re-run this group once fetch and search work again. Priorities: the Forney, Waco and Beaumont IRC adoption and zoning tables; the Beaumont TDI zone and freeboard; the Tyler Sec. 6-151 content; current fee schedules; Census Vintage 2024 populations.
+
+## Wave 3 (Secondary) - forney, beaumont
+- forney: 2021 IRC + local/NCTCOG amendments, 2021 IECC/IPC, NEC 2020, eff. 2023-01-01. Engineer-stamped structural plans + foundation letter for every new home (FAQ). PD preferred; SF-6 7,700 sf (weak). Pop 35,470 (V2023).
+- beaumont: TDI Inland II, 110 mph (old basis) ~ 143 mph ultimate; city requires TX-registered engineer windstorm certification for buildings >= 120 sf. 2021 IRC/IECC/IFC, NEC 2020, ICC 600-2020. Permit $0.50/sf + $150 + $10 -> $1,580 (garage incl.). No impact fees found. Floodplain Art. 24.05 (freeboard not found). R-S (28.03.002). Pop 112,193 (V2023).
+- LGC 214.907 (HB 852, 2019) bars residential permit fees based on home value.

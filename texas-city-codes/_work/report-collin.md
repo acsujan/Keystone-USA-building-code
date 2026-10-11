@@ -50,3 +50,8 @@ Re-run McKinney, Celina and Prosper, and finish Frisco's fees and setbacks, from
 - McKinney UDC residential table
 - Prosper ZO Ch. 3
 - Celina adopted-codes page
+
+## Wave 3 (34 searches; Secondary) - celina, prosper (+ forney, beaumont in report-east.md)
+- celina: 2024 IRC + amendments (Ord. 2026-003; eff. Jan/Feb 2026, pages differ); before: 2021 IRC + NCTCOG from Nov 2022. NEC 2023 (Ord. 2023-111; 2026-002 allows copper-clad Al). PD on SF-R base (14.02.203); defaults 20/5/15/20 from Sutton Fields PD (confirm). Impact ~ $15,400 (water $4,400 + ww $5,500 + road $5,500; DBA, year unknown); 2025 study max W+WW $14,369 -> high case ~ $19,900. Pop 51,661 (V2024).
+- prosper: 2021 I-codes (permits from 2023-05-01), NEC 2023 (2023-11-01). SF-10 base 10,000 sf; mostly PDs. W+WW impact $14,390 (from $6,643 in 2025); roadway $940-1,397/veh-mile. Permit $1.00/sf incl. garage/porches (FY 2025-10-01) -> $2,940.
+- Second check: Celina IRC (ordinance title + 2 pages).
