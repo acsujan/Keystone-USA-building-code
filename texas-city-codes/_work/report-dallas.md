@@ -4,3 +4,9 @@
 - Second check: IRC edition (two results), R401.2 (two docs), R-7.5(A) setbacks/coverage (city page + aduzoning.org); height not confirmed.
 - irving, garland, arlington: skeletons; need wave 2.
 - NCTCOG 2021 IRC amendments and HB 2439 summaries: seen via staff summaries only.
+
+## Wave 2 (39 searches; Secondary)
+- irving: 2024 IRC/IECC/IPC + Irving amendments (Ch. 8B, Ord. 2026-11253, adopted 2026-03-26, eff. 2026-05-01); before: 2021 IRC (Ord. 2023-10685); NEC 2023. R-7.5 (UDC 2.4.7) 7,500 sf, 60x100 (scrambled extract); setbacks 25/5/20 Assumed. Permit $0.41 + plan review $0.11 per sf under roof -> ~$1,477. Impact: water $1,605 + ww $1,088 + roadway $500/SU (Area 1). Flood 2 ft provisional.
+- garland: still 2015 IRC (Sec. 30.225, eff. 2016-09-19), 2015 IECC, IPC 2015, NEC 2014. SF-7 (GDC 2.36) 7,000 sf, corner side 15 (20 key corners); front/side 25/5, 35 ft Assumed. One full bath + 120 sf living per 2 bedrooms. Permit $0.52/sf living + 25% processing -> ~$1,560. Impact: water $593 (5/8") + roadway $3,034/lot (plats after 2017). Flood 2 ft over BFE.
+- arlington: 2021 IRC/IECC/IPC eff. 2022-11-01 (Ords. 22-055/057/058/059, recited in 25-075); NEC 2020 (proposal notice). RS-7.2 (UDC 2.2.5): 7,200 sf, 60x100, front 20 (40 on arterial/collector), street side 15, rear 20, 40 ft, 50% coverage; side 5 Assumed. Proposed 2025: garage openings <= 55% of house width (unconfirmed). Permit tiers $0.80/sf to 1,200, $0.64 to 2,000 (+35% plan review); >2,000 tier unseen -> ~$2,074 Assumed. Impact: water $828 + sewer $418 (2017); roadway $253-312.50 per vehicle-mile. Flood 2 ft over fully urbanized BFE (incl. finished garage).
+- Second checks: Irving IRC (eCode360 + notice), Garland IRC (eCode360 + city page), Arlington adoption (Ord. 25-075 + news), RS-7.2 front/height/coverage (2 searches).
