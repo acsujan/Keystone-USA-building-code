@@ -1,0 +1,44 @@
+city_id,city,county,irc_edition,asce_edition_to_select,risk_category,address_to_enter,save_report_as,research_wind_value_mph,research_wind_status
+amarillo,City of Amarillo,Potter;Randall,2021 IRC (excluding Part VIII Electrical; Appendices A-J adopted),ASCE 7-16,II,"Amarillo, TX",hazard-amarillo-ASCE7-16.pdf,115,Assumed
+arlington,City of Arlington,Tarrant,"2021 IRC (Arlington local amendments, Construction Chapter Art. I Sec. 1.04)",ASCE 7-16,II,"Arlington, TX",hazard-arlington-ASCE7-16.pdf,None,Assumed
+austin,City of Austin,Travis;Williamson;Hays,2024 IRC,ASCE 7-22,II,"Austin, TX",hazard-austin-ASCE7-22.pdf,110,Assumed
+beaumont,City of Beaumont,Jefferson,2021 IRC,ASCE 7-16,II,"Beaumont, TX",hazard-beaumont-ASCE7-16.pdf,143,Secondary
+brownsville,City of Brownsville,Cameron,,ASCE 7-16,II,"Brownsville, TX",hazard-brownsville-ASCE7-16.pdf,150,Secondary
+cedar-park,City of Cedar Park,Williamson;Travis,2021 IRC,ASCE 7-16,II,"Cedar Park, TX",hazard-cedar-park-ASCE7-16.pdf,110,Assumed
+celina,City of Celina,Collin;Denton,2024 IRC with local/NCTCOG amendments (effective Jan-Feb 2026); previously 2021 IRC from 1 Nov 2022,ASCE 7-22,II,"Celina, TX",hazard-celina-ASCE7-22.pdf,105,Assumed
+college-station,City of College Station,Brazos,2024 IRC (with local amendments),ASCE 7-22,II,"College Station, TX",hazard-college-station-ASCE7-22.pdf,108,Assumed
+conroe,City of Conroe,Montgomery,2021 IRC (likely; unconfirmed),ASCE 7-16,II,"Conroe, TX",hazard-conroe-ASCE7-16.pdf,130,Assumed
+corpus-christi,City of Corpus Christi,Nueces;Kleberg;San Patricio;Aransas,"2021 IRC with local amendments (effective Aug 1, 2023)",ASCE 7-16,II,"Corpus Christi, TX",hazard-corpus-christi-ASCE7-16.pdf,150,Secondary
+cypress-unincorporated-harris,Cypress (unincorporated Harris County),Harris,"No county building code/permit for houses. LGC 233.153 (if Harris County has opted in under 233.152): IRC as of May 1, 2008 or the edition used in the county seat (City of Houston). Engine designs to 2021 IRC.",ASCE 7-16,II,"Cypress, TX",hazard-cypress-unincorporated-harris-ASCE7-16.pdf,"About 130 mph (ASCE 7-16 Risk Cat. II, IRC 2021 Fig. R301.2(2)) for NW Harris County",Assumed
+dallas,City of Dallas,Dallas;Collin;Denton;Rockwall;Kaufman,"2021 IRC (Chapter 57 Dallas One- and Two-Family Dwelling Code; renamed One- to Eight-Family Dwelling Code by Ord. 33099, effective 2025-05-23)",ASCE 7-16,II,"Dallas, TX",hazard-dallas-ASCE7-16.pdf,None,Assumed
+denton,City of Denton,Denton,2021 IRC,ASCE 7-16,II,"Denton, TX",hazard-denton-ASCE7-16.pdf,105,Assumed
+el-paso,City of El Paso,El Paso,2021 IRC,ASCE 7-16,II,"El Paso, TX",hazard-el-paso-ASCE7-16.pdf,115,Secondary
+forney,City of Forney,Kaufman,2021 IRC with local and NCTCOG regional amendments (effective 1 Jan 2023),ASCE 7-16,II,"Forney, TX",hazard-forney-ASCE7-16.pdf,115,Assumed
+fort-worth,City of Fort Worth,Tarrant;Denton;Parker;Wise;Johnson,2021 IRC,ASCE 7-16,II,"Fort Worth, TX",hazard-fort-worth-ASCE7-16.pdf,105,Assumed
+frisco,City of Frisco,Collin;Denton,2024 IRC,ASCE 7-22,II,"Frisco, TX",hazard-frisco-ASCE7-22.pdf,105,Assumed
+garland,City of Garland,Dallas;Collin;Rockwall,"2015 IRC (Garland amended; appendices A, B, C, G; Part VIII Electrical excluded)",ASCE 7-16,II,"Garland, TX",hazard-garland-ASCE7-16.pdf,None,Assumed
+georgetown,City of Georgetown,Williamson,2021 IRC,ASCE 7-16,II,"Georgetown, TX",hazard-georgetown-ASCE7-16.pdf,110,Assumed
+houston,City of Houston,Harris;Fort Bend;Montgomery,2021 IRC with Houston Amendments (Houston Residential Code),ASCE 7-16,II,"Houston, TX",hazard-houston-ASCE7-16.pdf,"Address-based lookup required by Houston amendment; roughly 130-140 mph Vult (ASCE 7-16, Risk Cat. II) across Houston",Assumed
+hutto,City of Hutto,Williamson,2024 IRC,ASCE 7-22,II,"Hutto, TX",hazard-hutto-ASCE7-22.pdf,108,Assumed
+irving,City of Irving,Dallas,"2024 IRC (with Irving amendments, Chapter 8B); 2021 IRC applied to permits before 5-1-2026",ASCE 7-22,II,"Irving, TX",hazard-irving-ASCE7-22.pdf,None,Assumed
+katy,City of Katy,Harris;Fort Bend;Waller,2021 IRC,ASCE 7-16,II,"Katy, TX",hazard-katy-ASCE7-16.pdf,Roughly 130-140 mph Vult (ASCE 7-16 Risk II) - confirm by address,Assumed
+killeen,City of Killeen,Bell,"2024 IRC (as amended), effective 2026-01-01",ASCE 7-22,II,"Killeen, TX",hazard-killeen-ASCE7-22.pdf,110,Assumed
+kyle,City of Kyle,Hays,2021 IRC,ASCE 7-16,II,"Kyle, TX",hazard-kyle-ASCE7-16.pdf,108,Assumed
+laredo,City of Laredo,Webb,2021 IRC,ASCE 7-16,II,"Laredo, TX",hazard-laredo-ASCE7-16.pdf,110,Assumed
+league-city,City of League City,Galveston;Harris,2021 IRC,ASCE 7-16,II,"League City, TX",hazard-league-city-ASCE7-16.pdf,155,Secondary
+leander,City of Leander,Williamson;Travis,2021 IRC,ASCE 7-16,II,"Leander, TX",hazard-leander-ASCE7-16.pdf,110,Assumed
+little-elm,Town of Little Elm,Denton,2024 IRC,ASCE 7-22,II,"Little Elm, TX",hazard-little-elm-ASCE7-22.pdf,115,Assumed
+lubbock,City of Lubbock,Lubbock,2021 IRC,ASCE 7-16,II,"Lubbock, TX",hazard-lubbock-ASCE7-16.pdf,115,Secondary
+mcallen,City of McAllen,Hidalgo,2018 IRC (inferred from city's 2018 I-code family; IRC not named),ASCE 7-16,II,"McAllen, TX",hazard-mcallen-ASCE7-16.pdf,120,Assumed
+mckinney,City of McKinney,Collin,2024 IRC,ASCE 7-22,II,"McKinney, TX",hazard-mckinney-ASCE7-22.pdf,105,Assumed
+midland,City of Midland,Midland;Martin,2018 IRC (with City of Midland amendments),ASCE 7-16,II,"Midland, TX",hazard-midland-ASCE7-16.pdf,115,Assumed
+new-braunfels,City of New Braunfels,Comal;Guadalupe,2021 IRC (with local amendments),ASCE 7-16,II,"New Braunfels, TX",hazard-new-braunfels-ASCE7-16.pdf,108,Assumed
+pearland,City of Pearland,Brazoria;Harris;Fort Bend,2021 IRC,ASCE 7-16,II,"Pearland, TX",hazard-pearland-ASCE7-16.pdf,142,Assumed
+pflugerville,City of Pflugerville,Travis;Williamson,2021 IRC with local amendments + Appendices H and J,ASCE 7-16,II,"Pflugerville, TX",hazard-pflugerville-ASCE7-16.pdf,108,Assumed
+plano,City of Plano,Collin;Denton,2024 IRC,ASCE 7-22,II,"Plano, TX",hazard-plano-ASCE7-22.pdf,105,Assumed
+prosper,Town of Prosper,Collin;Denton,2021 IRC (permits applied for on/after 1 May 2023),ASCE 7-16,II,"Prosper, TX",hazard-prosper-ASCE7-16.pdf,105,Assumed
+round-rock,City of Round Rock,Williamson;Travis,2024 IRC,ASCE 7-22,II,"Round Rock, TX",hazard-round-rock-ASCE7-22.pdf,110,Assumed
+san-antonio,City of San Antonio,Bexar;Comal;Medina,"2024 IRC (with City amendments), effective May 1, 2025",ASCE 7-22,II,"San Antonio, TX",hazard-san-antonio-ASCE7-22.pdf,115,Assumed
+sugar-land,City of Sugar Land,Fort Bend,2024 IRC,ASCE 7-22,II,"Sugar Land, TX",hazard-sugar-land-ASCE7-22.pdf,Roughly 130-140 mph Vult (ASCE 7-16 Risk II) - confirm by address,Assumed
+tyler,City of Tyler,Smith,2021 IRC,ASCE 7-16,II,"Tyler, TX",hazard-tyler-ASCE7-16.pdf,110,Assumed
+waco,City of Waco,McLennan,"2024 IRC (with appendices BB, BD, BO, NE)",ASCE 7-22,II,"Waco, TX",hazard-waco-ASCE7-22.pdf,110,Assumed
